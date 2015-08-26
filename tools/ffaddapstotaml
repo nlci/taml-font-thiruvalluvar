@@ -1,0 +1,47 @@
+#!/usr/bin/python
+
+import os, sys
+import fontforge
+from palaso.font.fontforge import addAnchorClass
+
+dotmargin = 0.1    # multiplier for marginal space
+
+def xcentre(cntr) :
+    l, b, r, t = cntr.boundingBox()
+    return 0.5 * (l + r)
+
+f = fontforge.open(os.path.abspath(sys.argv[1]))
+vg = f['u0BCD']     # virama glyph
+vgl, vgb, vgr, vgt = vg.boundingBox()
+vgw = (1 + dotmargin) * 0.5 * (vgr - vgl)
+
+addAnchorClass(f, 'N')
+for n in ('u0BBC', 'u0BBC.alt', 'u0BBC.alt2') :
+    ng = f[n]     # nukta glyph
+    xpos = xcentre(ng)
+    ng.addAnchorPoint('N', 'mark', xpos, -500.)
+
+# iterate all the glyphs of interest
+chars = range(0x0b85, 0x0bbc) + range(0x0bbd, 0x0bcd)
+for u in chars :
+    base = "u%04X" % u     # make a ps name from the unicode
+    if base not in f : continue     # skip missing glyphs
+    ligname = base + "_u0BCD"
+    bg = f[base] #base glyph
+    if ligname in f :
+        # xpos = centre of virama dot in ligname glyph
+        ligg = f[ligname]
+        cns = range(len(ligg.foreground)) # A list of numbers 0..number of contours in the layer
+        cns.sort(key = lambda x: ligg.foreground[x].boundingBox()[3])  # sort by top of contour, boundingBox()[3] is the top of the contour
+        xpos = xcentre(ligg.foreground[cns[-1]]) # 
+    else :
+        # xpos is centre of base glyph
+        xpos = xcentre(bg.foreground)
+    if len(bg.foreground) :     # we have outlines, not just refs
+        ypos = bg.foreground.yBoundsAtX(xpos - vgw, xpos + vgw)[0]
+        for name in filter(lambda x: x.startswith(base), f) :
+            g = f[name]
+            g.addAnchorPoint('N', 'base', xpos, ypos)
+
+f.save(sys.argv[2])
+sys.exit(0)

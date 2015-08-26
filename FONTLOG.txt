@@ -1,0 +1,29 @@
+FONTLOG
+ThiruValluvar, Auvaiyar, Vaigai - NLCI Tamil fonts
+==================================================
+
+This file provides detailed information on the NLCI Tamil fonts.
+This information should be distributed along with the NLCI Tamil fonts and any derivative works.
+
+Basic Font Information
+----------------------
+
+Pan Tamil font designed to support all the languages using the Tamil script.
+
+ChangeLog
+---------
+(This should list both major and minor changes, most recent first.)
+
+14 Aug 2015 (Dev NLCI) NLCI Tamil fonts version 0.271
+- Latin glyphs are from Charis SIL (http://scripts.sil.org/CharisSILfont)
+
+Acknowledgements
+----------------
+(If you make modifications be sure to add your
+name (N), email (E), web-address (W) and description (D).
+This list is sorted by last name in alphabetical order.)
+
+N: Dev NLCI
+E: dev@nlife.in
+W: http://www.nlci.in/fonts/
+D: NLCI designers and font engineers

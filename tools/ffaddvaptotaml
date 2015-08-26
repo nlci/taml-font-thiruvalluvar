@@ -1,0 +1,35 @@
+#!/usr/bin/python
+
+import os, sys
+import fontforge
+from palaso.font.fontforge import addAnchorClass
+
+f = fontforge.open(os.path.abspath(sys.argv[1]))
+addAnchorClass(f, 'V')
+
+gv = f['u0BCD']
+gvb = gv.boundingBox()
+ybase = gvb[1] - 200
+gv.addAnchorPoint('V', 'mark', (gvb[0] + gvb[2]) / 2, ybase)
+
+chars = set(range(0x0b85, 0x0bbc))
+for u in f:
+    if not u.startswith("u") : continue
+    try :
+        base = int(u[1:5], 16)
+    except ValueError :
+        continue
+    if base not in chars : continue
+    if '0BCD' in u : continue
+    g = f[u]
+    n = None
+    for a in g.anchorPoints :
+        if a[0] == 'N' :
+            n = a
+            break
+    if not n : continue
+    ys = g.layers[1].yBoundsAtX(n[2])  # no need to copy the layer
+    if ys and ys[1] > ybase : y = ys[1]
+    else : y = ybase
+    g.addAnchorPoint('V', 'base', n[2], y)
+f.save(sys.argv[2])
