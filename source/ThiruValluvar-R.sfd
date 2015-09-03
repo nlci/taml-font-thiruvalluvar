@@ -6,15 +6,16 @@ UnderlinePosition: -492
 UnderlineWidth: 40
 Ascent: 1638
 Descent: 410
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 0 "Back"  1
-Layer: 1 0 "Fore"  0
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
 XUID: [1021 406 472118173 7902419]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1410967553
-ModificationTime: 1410968972
+ModificationTime: 1441180490
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -44,23 +45,25 @@ OS2SupXOff: 0
 OS2SupYOff: 928
 OS2StrikeYSize: 102
 OS2StrikeYPos: 530
+OS2CapHeight: 0
+OS2XHeight: 0
 OS2Vendor: 'Alts'
 OS2CodePages: 00000000.00000000
 OS2UnicodeRanges: 00100001.00000000.00000000.00000000
-Lookup: 4 0 0 "akhnAkhandinTamillookup9"  {"akhnAkhandinTamillookup9 subtable"  } ['akhn' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "akhnligs"  {"akhnligs subtable"  } ['akhn' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_0"  {"sub_ligature_pststaml_0 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_2"  {"sub_ligature_pststaml_2 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_4"  {"sub_ligature_pststaml_4 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_6"  {"sub_ligature_pststaml_6 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_8"  {"sub_ligature_pststaml_8 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_10"  {"sub_ligature_pststaml_10 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_0-0"  {"sub_ligature_pststaml_0-0 subtable"  } ['psts' ('taml' <'TAO ' > ) ]
-Lookup: 1 0 0 "pstspostbasesubstitutionold"  {"pstspostbasesubstitutionold subtable"  } ['psts' ('taml' <'TAO ' > ) ]
-Lookup: 4 0 0 "pstspostbasesubstitution"  {"pstspostbasesubstitution subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 260 0 0 "_holdAnchorsbase"  {"_someAnchorsbase"  } []
-Lookup: 259 0 0 "'abvm' cursive"  {"'abvm' cursive-1"  } ['abvm' ('DFLT' <'dflt' > 'taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 260 0 0 "abvmAboveBaseMarkinTamillookup1"  {"abvmAboveBaseMarkinTamillookup1 subtable"  } ['abvm' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
+Lookup: 4 0 0 "akhnAkhandinTamillookup9" { "akhnAkhandinTamillookup9 subtable"  } ['akhn' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
+Lookup: 4 0 0 "akhnligs" { "akhnligs subtable"  } ['akhn' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
+Lookup: 4 0 0 "sub_ligature_pststaml_0" { "sub_ligature_pststaml_0 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
+Lookup: 4 0 0 "sub_ligature_pststaml_2" { "sub_ligature_pststaml_2 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
+Lookup: 4 0 0 "sub_ligature_pststaml_4" { "sub_ligature_pststaml_4 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
+Lookup: 4 0 0 "sub_ligature_pststaml_6" { "sub_ligature_pststaml_6 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
+Lookup: 4 0 0 "sub_ligature_pststaml_8" { "sub_ligature_pststaml_8 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
+Lookup: 4 0 0 "sub_ligature_pststaml_10" { "sub_ligature_pststaml_10 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
+Lookup: 4 0 0 "sub_ligature_pststaml_0-0" { "sub_ligature_pststaml_0-0 subtable"  } ['psts' ('taml' <'TAO ' > ) ]
+Lookup: 1 0 0 "pstspostbasesubstitutionold" { "pstspostbasesubstitutionold subtable"  } ['psts' ('taml' <'TAO ' > ) ]
+Lookup: 4 0 0 "pstspostbasesubstitution" { "pstspostbasesubstitution subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
+Lookup: 260 0 0 "_holdAnchorsbase" { "_someAnchorsbase"  } []
+Lookup: 259 0 0 "'abvm' cursive" { "'abvm' cursive-1"  } ['abvm' ('DFLT' <'dflt' > 'taml' <'TAM ' 'TAO ' 'dflt' > ) ]
+Lookup: 260 0 0 "abvmAboveBaseMarkinTamillookup1" { "abvmAboveBaseMarkinTamillookup1 subtable"  } ['abvm' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -90,14 +93,14 @@ ShortTable: maxp 16
   3
   2
 EndShort
-LangName: 1033 "" "" "Normal" "NLCI:TAM ThiruValluvar Normal" "" "1.0 Thu Apr 27 12:35:12 1995" 
+LangName: 1033 "" "" "Normal" "NLCI:TAM ThiruValluvar Normal" "" "1.0 Thu Apr 27 12:35:12 1995"
 Encoding: Custom
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 81 27 8
+WinInfo: 108 27 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -181,7 +184,7 @@ Grid
  100 -1434 l 1025
 365 2662 m 1024
 EndSplineSet
-AnchorClass2: "V"  "_someAnchorsbase" "N"  "_someAnchorsbase" "R"  "'abvm' cursive-1" 
+AnchorClass2: "V" "_someAnchorsbase" "N" "_someAnchorsbase" "R" "'abvm' cursive-1" 
 BeginChars: 301 302
 
 StartChar: .notdef
@@ -191,6 +194,7 @@ Flags: W
 HStem: 0 64<128 896> 1472 64<128 896>
 VStem: 64 64<64 1472> 896 64<64 1472>
 LayerCount: 2
+Back
 Fore
 SplineSet
 64 0 m 1
@@ -213,6 +217,8 @@ Width: 0
 GlyphClass: 1
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: nonmarkingreturn
@@ -221,6 +227,8 @@ Width: 1024
 GlyphClass: 1
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: space
@@ -229,6 +237,8 @@ Width: 600
 GlyphClass: 1
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: exclam
@@ -239,6 +249,7 @@ Flags: W
 HStem: -25 252<251.493 440.309> 1387 20G<304.5 387.5>
 VStem: 221 252<7.94199 196.966 747.875 1383.43>
 LayerCount: 2
+Back
 Fore
 SplineSet
 346 227 m 256
@@ -268,6 +279,7 @@ Flags: W
 HStem: 862 600<160 193 489 522>
 VStem: 88 174<1262.44 1452.3> 420 174<1262.44 1452.39>
 LayerCount: 2
+Back
 Fore
 SplineSet
 88 1362 m 1
@@ -293,6 +305,7 @@ GlyphClass: 1
 Flags: W
 HStem: 467 102<127 418 563 825 977 1307> 862 105<219 551 696 961 1110 1397>
 LayerCount: 2
+Back
 Fore
 SplineSet
 664 862 m 1
@@ -341,6 +354,7 @@ Flags: W
 HStem: 0 100<296.468 532 627 731.696> 1004 21G<867.235 977> 1266 102<432.85 535 629 834.547>
 VStem: 119 102<312.272 401> 152 190<909.682 1164.49> 532 95<-211 2.38774 109 594 813 1266 1374 1522> 848 186<227.551 486.048> 870 107<1004 1107.7>
 LayerCount: 2
+Back
 Fore
 SplineSet
 627 109 m 1xe6
@@ -387,6 +401,7 @@ Flags: W
 HStem: -33 76<1302.22 1461.02> 0 21G<383 524.635> 547 78<294.107 466.403> 750 77<1297.32 1464.98> 1329 78<294.107 466.403> 1354 20G<1240.34 1380>
 VStem: 66 153<736.17 1217.22> 537 157<735.826 1218.17> 1067 154<157.054 637.282> 1538 158<156.058 640.534>
 LayerCount: 2
+Back
 Fore
 SplineSet
 219 977 m 0x3bc0
@@ -426,6 +441,7 @@ Flags: W
 HStem: -25 134<432.096 719.814> 0 88<1208 1391> 657 86<944 1043.46 1268.21 1364> 1300 101<432.029 672.141>
 VStem: 80 207<253.948 554.772> 182 185<966.335 1222.27> 743 189<930.316 1227.43>
 LayerCount: 2
+Back
 Fore
 SplineSet
 287 428 m 0xba
@@ -477,6 +493,7 @@ Flags: W
 HStem: 862 600<160 193>
 VStem: 88 174<1262.44 1452.39>
 LayerCount: 2
+Back
 Fore
 SplineSet
 88 1362 m 1
@@ -497,6 +514,7 @@ Flags: W
 HStem: -291 90<577.85 702> 1378 90<577.85 702>
 VStem: 121 190<213.52 967.962>
 LayerCount: 2
+Back
 Fore
 SplineSet
 702 1378 m 1
@@ -518,6 +536,7 @@ Flags: W
 HStem: -291 90<70 199.009> 1378 90<70 194.221>
 VStem: 459 192<215.024 962.678>
 LayerCount: 2
+Back
 Fore
 SplineSet
 459 590 m 0
@@ -539,6 +558,7 @@ Flags: W
 HStem: 988 20G<450.06 500 524 573.94> 1036 174<212.775 275.85 748.15 811.314>
 VStem: 428 170<1290.03 1361.84>
 LayerCount: 2
+Back
 Fore
 SplineSet
 406 743 m 1
@@ -583,6 +603,7 @@ Flags: W
 HStem: 0 21G<961 1087> 551 127<410 961 1087 1638>
 VStem: 961 126<0 551 678 1229>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1087 551 m 1
@@ -610,6 +631,7 @@ Flags: W
 HStem: -348 74<66 168.068> 14 236<160.375 287.617>
 VStem: 291.082 130.918<-150.402 14>
 LayerCount: 2
+Back
 Fore
 SplineSet
 125 109 m 0
@@ -633,6 +655,7 @@ Flags: W
 HStem: 416 153<90 565>
 VStem: 90 475<416 569>
 LayerCount: 2
+Back
 Fore
 SplineSet
 90 416 m 1
@@ -652,6 +675,7 @@ Flags: W
 HStem: -25 275<162.223 363.814>
 VStem: 125 276<12.875 211.875>
 LayerCount: 2
+Back
 Fore
 SplineSet
 125 113 m 0
@@ -670,6 +694,7 @@ GlyphClass: 1
 Flags: W
 HStem: 1354 20G<860.849 1004>
 LayerCount: 2
+Back
 Fore
 SplineSet
 131 -190 m 1
@@ -689,6 +714,7 @@ Flags: W
 HStem: -33 103<453.663 696.523> 1305 102<451.097 696.151>
 VStem: 82 215<351.554 1018.82> 854 217<358.525 1018.54>
 LayerCount: 2
+Back
 Fore
 SplineSet
 297 686 m 0
@@ -715,6 +741,7 @@ Flags: W
 HStem: 0 92<221 472.174 676.826 913> 1178 92<156 202.252> 1387 20G<533.474 676>
 VStem: 473 203<100.015 1233>
 LayerCount: 2
+Back
 Fore
 SplineSet
 428 100 m 1
@@ -743,6 +770,7 @@ Flags: W
 HStem: 0 172<313 920> 1296 111<364.499 673.331>
 VStem: 125 223<1005.83 1230.55> 811 221<831.586 1156.63> 956 101<277.913 348>
 LayerCount: 2
+Back
 Fore
 SplineSet
 125 1102 m 0xf0
@@ -778,6 +806,7 @@ Flags: W
 HStem: -33 103<364.541 690.597> 649 117<414 660.719> 1006 21G<211.5 262.5> 1294 113<362.478 679.799>
 VStem: 131 211<1032 1240.28> 795 209<900.042 1178.15> 846 211<227.57 535.959>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1004 1053 m 0xfc
@@ -815,6 +844,7 @@ Flags: W
 HStem: 408 139<244 705 897 1071> 1387 20G<738.336 897>
 VStem: 705 192<-33 408 547 1145>
 LayerCount: 2
+Back
 Fore
 SplineSet
 705 1145 m 1
@@ -845,6 +875,7 @@ Flags: W
 HStem: -33 101<374.059 672.707> 733 131<345.95 691.844> 1200 174<319 965>
 VStem: 174 145<811 1200> 850 209<241.39 573.104>
 LayerCount: 2
+Back
 Fore
 SplineSet
 319 811 m 1
@@ -876,6 +907,7 @@ Flags: W
 HStem: -33 107<435.749 725.615> 762 133<435.577 736.403> 1282 125<621.458 901>
 VStem: 82 211<282.043 771.267> 862 209<251.949 629.96>
 LayerCount: 2
+Back
 Fore
 SplineSet
 862 442 m 0
@@ -905,6 +937,7 @@ Flags: W
 HStem: 1200 174<223 854>
 VStem: 86 104<1014 1094.8>
 LayerCount: 2
+Back
 Fore
 SplineSet
 395 35 m 1
@@ -930,6 +963,7 @@ Flags: W
 HStem: -33 111<406.622 735.567> 1303 104<435.875 717.242>
 VStem: 82 190<211.268 529.106> 137 203<940.68 1205.63> 825 189<900.352 1192.38> 862 207<196.495 471.501>
 LayerCount: 2
+Back
 Fore
 SplineSet
 272 385 m 0xe4
@@ -964,6 +998,7 @@ Flags: W
 HStem: -33 127<250 537.479> 479 133<414.879 719.827> 1300 107<423.684 715.574>
 VStem: 82 207<743.591 1118.87> 858 213<706.456 1091.96>
 LayerCount: 2
+Back
 Fore
 SplineSet
 578 1300 m 0
@@ -993,6 +1028,7 @@ Flags: W
 HStem: -25 275<162.223 363.814> 737 275<162.223 364.151>
 VStem: 125 276<12.875 211.875 775.125 974.125>
 LayerCount: 2
+Back
 Fore
 SplineSet
 125 113 m 0
@@ -1017,6 +1053,7 @@ Flags: W
 HStem: -348 74<66 169.693> 14 236<160.375 287.617> 737 275<162.572 362.683>
 VStem: 125 274<774 973.75> 291 131<-151.757 14>
 LayerCount: 2
+Back
 Fore
 SplineSet
 125 109 m 0xf0
@@ -1042,6 +1079,7 @@ Width: 2048
 GlyphClass: 1
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 410 551 m 1
@@ -1063,6 +1101,7 @@ GlyphClass: 1
 Flags: W
 HStem: 365 127<410 1638> 737 127<410 1638>
 LayerCount: 2
+Back
 Fore
 SplineSet
 410 365 m 1
@@ -1085,6 +1124,7 @@ Width: 2048
 GlyphClass: 1
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 410 80 m 1
@@ -1107,6 +1147,7 @@ Flags: W
 HStem: -25 252<315.17 505.31> 1307 100<354 533.806>
 VStem: 285 252<5.66089 195.693> 350 115<369 596> 647 207<863.643 1194.05>
 LayerCount: 2
+Back
 Fore
 SplineSet
 102 1206 m 0xd8
@@ -1141,6 +1182,7 @@ Flags: W
 HStem: -313 102<745.661 1262.82> 115 116<1206 1434.14> 117 131<797.101 956.965> 922 86<925.713 1164.02> 1325 90<823.538 1332.74>
 VStem: 150 147<250.987 785.212> 557 188<297.615 671.366> 1669 100<509.578 997.464>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1075 922 m 0xbf
@@ -1183,6 +1225,7 @@ GlyphClass: 1
 Flags: W
 HStem: 0 88<10 78.2394 270.925 422 883 1022.18 1287.57 1370> 508 98<444 844> 1387 20G<598.628 767.516>
 LayerCount: 2
+Back
 Fore
 SplineSet
 643 1143 m 1
@@ -1221,6 +1264,7 @@ Flags: W
 HStem: 0 100<66 174 424.338 804.864> 659 95<422 731.881> 1280 94<66 174 422 746.696>
 VStem: 217 205<103.031 647 754.026 1274> 854 221<885.204 1181.53> 936 223<218.047 551.031>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1159 406 m 0xf4
@@ -1263,6 +1307,7 @@ Flags: W
 HStem: -33 113<615.554 1016.7> 1006 21G<1077.77 1204> 1292 115<603.473 996.02>
 VStem: 80 235<434.317 956.584> 1085 119<310.98 379 1006 1084.43>
 LayerCount: 2
+Back
 Fore
 SplineSet
 807 1292 m 0
@@ -1294,6 +1339,7 @@ Flags: W
 HStem: 0 88<66 174 426 784.007> 1276 98<66 174 426 826.787>
 VStem: 219 207<98.3438 1275.66> 1114 232<415.932 960.208>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1114 686 m 0
@@ -1326,6 +1372,7 @@ Flags: W
 HStem: 0 100<66 172 426 981.578> 664 102<426 769.986> 1276 98<66 172 426 907.969>
 VStem: 217 209<100.324 664 766 1275.66> 770 125<530.061 664 766 897.256> 791 104<485 581.939 845.744 942> 938 123<1069 1146.69> 1018 110<263.346 342>
 LayerCount: 2
+Back
 Fore
 SplineSet
 733 766 m 2xf2
@@ -1371,6 +1418,7 @@ Flags: W
 HStem: 0 88<68 176 469 606> 641 100<426 776.891> 1274 100<51 176 426 897.906>
 VStem: 219 207<96.1624 641 741 1273.9> 795 102<461 568.897 813.348 922> 926 121<1049 1141.94>
 LayerCount: 2
+Back
 Fore
 SplineSet
 926 1049 m 1
@@ -1414,6 +1462,7 @@ Flags: W
 HStem: -33 115<615.197 1015.65> 575 89<838 975 1268 1372> 1006 21G<1096.41 1223> 1292 115<609.925 1006.16>
 VStem: 80 233<431.74 966.391> 1018 207<113 564.999> 1100 123<1006 1085.93>
 LayerCount: 2
+Back
 Fore
 SplineSet
 313 700 m 0xfa
@@ -1453,6 +1502,7 @@ Flags: W
 HStem: 0 88<66 172 467 584 938 1055 1350 1456> 670 102<424 1098> 1284 90<66 172 467 584 938 1055 1350 1456>
 VStem: 217 207<96.1609 670 772 1275.84> 1098 207<96.1609 670 772 1275.84>
 LayerCount: 2
+Back
 Fore
 SplineSet
 938 0 m 1
@@ -1504,6 +1554,7 @@ Flags: W
 HStem: 0 88<68 190 483 608> 1284 90<68 190 483 608>
 VStem: 233 207<96.2071 1275.84>
 LayerCount: 2
+Back
 Fore
 SplineSet
 68 0 m 1
@@ -1535,6 +1586,7 @@ Flags: W
 HStem: -33 105<222.448 451.616> 1286 88<399 528 821 940>
 VStem: 51 123<295.356 375> 571 207<224.468 1277.8>
 LayerCount: 2
+Back
 Fore
 SplineSet
 328 -33 m 0
@@ -1566,6 +1618,7 @@ Flags: W
 HStem: 0 88<66 174 469 586 1159 1307> 610 86<424 498> 1286 88<66 174 469 586 823 928 1118.15 1257>
 VStem: 217 207<96.1624 610 696 1277.8>
 LayerCount: 2
+Back
 Fore
 SplineSet
 948 0 m 1
@@ -1616,6 +1669,7 @@ Flags: W
 HStem: 0 100<55 174 424 898.846> 1286 88<55 174 469 578>
 VStem: 217 207<100.496 1277.8> 932 119<274.132 381>
 LayerCount: 2
+Back
 Fore
 SplineSet
 55 0 m 1
@@ -1649,6 +1703,7 @@ Flags: W
 HStem: 0 88<59 176 385 502 1214 1323 1620 1731> 1286 88<59 176 1620 1731>
 VStem: 219 121<96.1624 1250.61> 1368 207<96.1609 1269.89>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1214 0 m 1
@@ -1697,6 +1752,7 @@ Flags: W
 HStem: 0 88<55 172 381 498> 1286 88<51 172 979 1096 1303 1417>
 VStem: 217 121<96.1609 1147> 1139 121<293 1277.79>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1303 1278 m 2
@@ -1738,6 +1794,7 @@ Flags: W
 HStem: -33 113<568.168 927.481> 1290 117<568.819 928.507>
 VStem: 80 235<415.683 956.291> 1180 237<420.455 949.427>
 LayerCount: 2
+Back
 Fore
 SplineSet
 315 688 m 0
@@ -1762,6 +1819,7 @@ Flags: W
 HStem: 0 88<66 174 469 604> 522 105<426 762.855> 1274 100<51 174 426 747.266>
 VStem: 219 207<96.1609 522 627 1272> 893 213<767.31 1143.61>
 LayerCount: 2
+Back
 Fore
 SplineSet
 426 627 m 1
@@ -1802,6 +1860,7 @@ Flags: W
 HStem: -371 101<974.113 1346.57> -23 103<584.767 649 868 929.563> 1292 115<573.799 937.004>
 VStem: 80 239<408.689 956.08> 649 219<-167.656 -21.634> 1192 242<412.685 955.069>
 LayerCount: 2
+Back
 Fore
 SplineSet
 319 690 m 0
@@ -1831,6 +1890,7 @@ Flags: W
 HStem: -33 119<1151.33 1327.99> 0 88<66 172 467 575 1196.81 1329> 612 100<424 698.438> 1274 100<66 172 424 749.559>
 VStem: 217 207<96.1609 608 713 1273.68> 879 223<842.865 1160.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
 466 712 m 2x3c
@@ -1878,6 +1938,7 @@ Flags: W
 HStem: -33 115<274.483 658.356> 1296 111<416.233 757.922>
 VStem: 80 129<282.817 406> 102 211<930.385 1185.2> 778 209<202.689 441.955> 819 117<1018 1108.64>
 LayerCount: 2
+Back
 Fore
 SplineSet
 578 1296 m 0xd4
@@ -1914,6 +1975,7 @@ Flags: W
 HStem: 0 88<336 467 760 891> 1047 327<33 152 1073 1194> 1274 100<178.688 510 717 1045.36>
 VStem: 33 119<1047 1145.3> 510 207<96.1624 1274> 1073 121<1047 1141.91>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1073 1047 m 1xdc
@@ -1949,6 +2011,7 @@ Flags: W
 HStem: -33 137<569.112 963.846> 1286 88<63 172 467 584 958 1075 1284 1403>
 VStem: 215 209<253.194 1277.8> 1120 121<270.75 1277.84>
 LayerCount: 2
+Back
 Fore
 SplineSet
 424 508 m 2
@@ -1985,6 +2048,7 @@ GlyphClass: 1
 Flags: W
 HStem: 1286 88<20 106.733 389 510 936 1049 1266.11 1343>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1225 1264 m 1
@@ -2016,6 +2080,7 @@ GlyphClass: 1
 Flags: W
 HStem: 1286 88<20 91.0827 367 489 1468 1597 1811.33 1886>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1761 1262 m 1
@@ -2053,6 +2118,7 @@ GlyphClass: 1
 Flags: W
 HStem: 0 88<20 90.5331 332 455 752 870 1205.17 1278> 1286 88<47 127.64 457 561 831 936 1165.38 1260>
 LayerCount: 2
+Back
 Fore
 SplineSet
 752 0 m 1
@@ -2100,6 +2166,7 @@ Flags: W
 HStem: 0 88<360 487 782 913> 1286 88<20 91.0827 403 506 846 961 1182.44 1262>
 VStem: 532 207<96.2071 553>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1151 1266 m 1
@@ -2140,6 +2207,7 @@ Flags: W
 HStem: 0 104<324 943.094> 1272 102<272.594 842>
 VStem: 123 121<1047 1137.79> 977 121<281.515 379>
 LayerCount: 2
+Back
 Fore
 SplineSet
 80 0 m 1
@@ -2171,6 +2239,7 @@ Flags: W
 HStem: -270 94<457 776> 1358 92<457 776>
 VStem: 279 178<-176 1358>
 LayerCount: 2
+Back
 Fore
 SplineSet
 279 -270 m 1
@@ -2193,6 +2262,7 @@ GlyphClass: 1
 Flags: W
 HStem: 1354 20G<0 142.125>
 LayerCount: 2
+Back
 Fore
 SplineSet
 870 -190 m 1
@@ -2212,6 +2282,7 @@ Flags: W
 HStem: -270 94<90 412> 1358 92<90 412>
 VStem: 412 178<-176 1358>
 LayerCount: 2
+Back
 Fore
 SplineSet
 90 -270 m 1
@@ -2235,6 +2306,7 @@ Flags: W
 HStem: 1128 347
 VStem: 0 670
 LayerCount: 2
+Back
 Fore
 SplineSet
 547 1128 m 1
@@ -2256,6 +2328,7 @@ GlyphClass: 1
 Flags: W
 HStem: -305 130<0 686>
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 -305 m 1
@@ -2275,6 +2348,7 @@ Flags: W
 HStem: 1128 373
 VStem: 0 475
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 1409 m 0
@@ -2296,6 +2370,7 @@ Flags: W
 HStem: -25 121<322.15 508.566> 0 80<909 1008> 547 78<560.286 678> 915 97<343.74 621.807>
 VStem: 70 202<146.175 387.434> 117 225<714.283 885.167> 678 188<167.087 547 619.613 857.907>
 LayerCount: 2
+Back
 Fore
 SplineSet
 272 266 m 0xba
@@ -2333,6 +2408,7 @@ Flags: W
 HStem: 0 96<375.516 690.629> 891 121<447.082 708.686> 1362 68<29 76.9076> 1489 20G<226.165 375>
 VStem: 184 191<96.325 871.656 936 1362> 858 209<305.672 728.66>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1067 541 m 0
@@ -2367,6 +2443,7 @@ Flags: W
 HStem: -25 129<450.481 764.937> 926 86<435.952 652.577>
 VStem: 70 209<300.045 721.383> 657 224<711.028 917.644>
 LayerCount: 2
+Back
 Fore
 SplineSet
 279 514 m 0
@@ -2395,6 +2472,7 @@ Flags: W
 HStem: -25 140<423.3 637.208> 0 80<1014 1102> 913 99<441.266 776.911> 1362 68<625 672.908> 1489 20G<822.165 971>
 VStem: 70 202<281.705 698.875> 780 191<85.9062 109 161.995 895.415 987 1362>
 LayerCount: 2
+Back
 Fore
 SplineSet
 272 502 m 0xbe
@@ -2431,6 +2509,7 @@ Flags: W
 HStem: -25 125<439.245 771.941> 535 92<279 729> 911 101<395.321 657.147>
 VStem: 70 198<302.099 535 627 719.306> 729 205<627 811.985>
 LayerCount: 2
+Back
 Fore
 SplineSet
 268 535 m 1
@@ -2461,6 +2540,7 @@ Flags: W
 HStem: 0 80<59 160 394.639 557> 866 105<393 647> 866 72<72 122.757> 1489 20G<537.5 674>
 VStem: 203 190<86.2987 866 975 1225.92>
 LayerCount: 2
+Back
 Fore
 SplineSet
 203 975 m 1xb8
@@ -2499,6 +2579,7 @@ Flags: W
 HStem: -469 94<365.519 689.507> 850 100<836 1040> 928 84<394.887 615.232>
 VStem: 70 184<-266.003 -29.5379> 115 196<507.292 836.05> 696 195<511.155 830.385> 811 176<-223.897 -40.4638>
 LayerCount: 2
+Back
 Fore
 SplineSet
 254 -137 m 0x92
@@ -2544,6 +2625,7 @@ Flags: W
 HStem: 0 80<43 141 416 504 672 756 1036 1128> 862 150<537.248 742.917> 1362 68<31 78.5447> 1489 20G<226.671 375>
 VStem: 184 191<85.9062 824.405 885 1362> 801 190<86.0006 805.1>
 LayerCount: 2
+Back
 Fore
 SplineSet
 375 885 m 1
@@ -2586,6 +2668,7 @@ Flags: W
 HStem: 0 80<70 170 446 551> 862 72<72 117.949> 992 20G<257.897 403> 1198 252<226.29 416.236>
 VStem: 195 251<1228.34 1419.51> 213 190<86.2987 862>
 LayerCount: 2
+Back
 Fore
 SplineSet
 70 0 m 1xf8
@@ -2619,6 +2702,7 @@ Flags: W
 HStem: 866 68<78 124.316> 992 20G<265.385 414> 1198 252<215.307 406.667>
 VStem: 184 252<1228.24 1419.83> 223 191<-200.511 866>
 LayerCount: 2
+Back
 Fore
 SplineSet
 -6 -469 m 0xe8
@@ -2651,6 +2735,7 @@ Flags: W
 HStem: 0 80<41 141 418 506 965 1073> 465 59<375 416> 907 80<616 700 883 1014> 1362 68<29 76.5447> 1489 20G<224.671 375>
 VStem: 184 191<85.9062 465 524 1362>
 LayerCount: 2
+Back
 Fore
 SplineSet
 745 0 m 1
@@ -2697,6 +2782,7 @@ Flags: W
 HStem: 0 86<55 209 399 553> 1362 68<53 100.545> 1489 20G<248.671 399>
 VStem: 209 190<86.0182 1362>
 LayerCount: 2
+Back
 Fore
 SplineSet
 164 86 m 1
@@ -2725,6 +2811,7 @@ Flags: W
 HStem: 0 80<41 141 418 504 645 731 1008 1094 1237 1323 1597 1696> 842 67<43 88.5811> 862 150<530.954 722.328 1118.2 1311.08> 967 20G<227.41 375>
 VStem: 184 191<85.9062 823.161> 774 191<85.9062 811.902> 1366 188<86.2987 808.234>
 LayerCount: 2
+Back
 Fore
 SplineSet
 709 1012 m 0xae
@@ -2781,6 +2868,7 @@ Flags: W
 HStem: 0 80<41 141 418 504 668 754 1030 1120> 842 67<41 86.9487> 862 150<539.591 744.235> 967 20G<226.897 375>
 VStem: 184 191<85.9062 822.927> 797 190<86.2987 808.656>
 LayerCount: 2
+Back
 Fore
 SplineSet
 797 664 m 2xac
@@ -2824,6 +2912,7 @@ Flags: W
 HStem: -25 93<426.807 688.532> 920 92<428.123 688.961>
 VStem: 70 215<256.424 724.734> 831 213<261.123 726.422>
 LayerCount: 2
+Back
 Fore
 SplineSet
 285 494 m 0
@@ -2848,6 +2937,7 @@ Flags: W
 HStem: -446 79<43 141 420 541> -25 95<377.857 701.783> 842 67<43 89.3163> 868 144<507.528 726.207> 967 20G<230.385 375>
 VStem: 184 191<-353.999 -6 87.4011 827.854> 870 205<265.471 694.837>
 LayerCount: 2
+Back
 Fore
 SplineSet
 870 479 m 0xd6
@@ -2887,6 +2977,7 @@ Flags: W
 HStem: -446 77<598 719 995 1094> -25 121<431.672 677.54> 918 94<446.35 760.197>
 VStem: 70 206<273.565 703.535> 762 190<-358.172 55 113.834 895>
 LayerCount: 2
+Back
 Fore
 SplineSet
 276 502 m 0
@@ -2922,6 +3013,7 @@ Flags: W
 HStem: 0 78<51 152 386.741 563> 778 203<656.969 780> 834 178<547.948 688.756> 842 67<47 93.6839> 967 20G<235.872 385>
 VStem: 195 190<86.2475 753.483 805 842>
 LayerCount: 2
+Back
 Fore
 SplineSet
 655 1012 m 0xa4
@@ -2958,6 +3050,7 @@ Flags: W
 HStem: -25 93<220.259 512.678> 723 242<608 715> 913 99<306.624 588.763>
 VStem: 70 104<199.221 299> 84 186<673.075 876.197> 565 180<127.565 335.998> 608 107<723 851.128>
 LayerCount: 2
+Back
 Fore
 SplineSet
 453 1012 m 0xac
@@ -2991,6 +3084,7 @@ Flags: W
 HStem: -25 115<326.5 629.886> 885 102<377 666>
 VStem: 186 191<139.359 885>
 LayerCount: 2
+Back
 Fore
 SplineSet
 377 313 m 2
@@ -3022,6 +3116,7 @@ Flags: W
 HStem: -25 140<438.509 643.204> 0 80<1032 1122> 862 70<43 88.1584 653 697.8> 992 20G<232 377 840.5 987>
 VStem: 186 191<178.996 862> 797 190<86.0006 117 155.146 862>
 LayerCount: 2
+Back
 Fore
 SplineSet
 377 346 m 2xbc
@@ -3057,6 +3152,7 @@ GlyphClass: 1
 Flags: W
 HStem: 0 21G<455.626 604> 907 80<20 133 375 473 705 797 954 1063>
 LayerCount: 2
+Back
 Fore
 SplineSet
 954 895 m 1
@@ -3088,6 +3184,7 @@ GlyphClass: 1
 Flags: W
 HStem: 0 21G<389.145 548.05 1046.68 1204.28> 907 80<20 133 373 469 1225 1319 1479 1583>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1479 895 m 1
@@ -3125,6 +3222,7 @@ GlyphClass: 1
 Flags: W
 HStem: 0 80<20 124.832 307 410 584 653 924.544 1024> 907 80<31 127.37 410 481 627 715 907.391 995>
 LayerCount: 2
+Back
 Fore
 SplineSet
 584 0 m 1
@@ -3171,6 +3269,7 @@ GlyphClass: 1
 Flags: W
 HStem: 907 80<20 133 375 473 700 797 958 1065>
 LayerCount: 2
+Back
 Fore
 SplineSet
 201 -469 m 0
@@ -3207,6 +3306,7 @@ Flags: W
 HStem: 0 98<287 744.198> 891 96<215.001 612>
 VStem: 90 105<696 804.954> 766 111<198.408 309>
 LayerCount: 2
+Back
 Fore
 SplineSet
 70 0 m 1
@@ -3239,6 +3339,7 @@ HStem: -252 84<674.693 858> 549 92<123 321.061> 1358 84<672.76 858>
 VStem: 418 182<-96.3615 452.519 737.924 1287.33>
 CounterMasks: 1 e0
 LayerCount: 2
+Back
 Fore
 SplineSet
 600 993 m 0
@@ -3266,6 +3367,7 @@ GlyphClass: 1
 Flags: W
 VStem: 300 124<-528 1630>
 LayerCount: 2
+Back
 Fore
 SplineSet
 300 -528 m 1
@@ -3286,6 +3388,7 @@ HStem: -252 84<141 315.238> 549 92<680.956 877> 1358 84<141 317.241>
 VStem: 399 183<-95.5266 449.921 740.079 1286.45>
 CounterMasks: 1 e0
 LayerCount: 2
+Back
 Fore
 SplineSet
 141 1442 m 1
@@ -3313,6 +3416,7 @@ GlyphClass: 1
 Flags: W
 HStem: 483 119<936.63 1336.06> 621 118<368.855 781.553>
 LayerCount: 2
+Back
 Fore
 SplineSet
 565 739 m 0
@@ -3336,6 +3440,7 @@ Flags: W
 HStem: 881 206<215.453 346.721>
 VStem: 80 131<1087 1245.57>
 LayerCount: 2
+Back
 Fore
 SplineSet
 373 1006 m 0
@@ -3361,6 +3466,7 @@ Flags: W
 HStem: 1245 207<157.75 293>
 VStem: 295 131<1090 1245>
 LayerCount: 2
+Back
 Fore
 SplineSet
 133 1327 m 0
@@ -3385,6 +3491,7 @@ Flags: W
 HStem: 881 206<213 346.721 637.453 767.051>
 VStem: 80 131<1087 1244.49> 502 131<1087 1246.73>
 LayerCount: 2
+Back
 Fore
 SplineSet
 373 1006 m 0
@@ -3420,6 +3527,7 @@ Flags: W
 HStem: 1245 207<160.191 292.22 579.503 715>
 VStem: 295 131<1088.43 1245> 719 129<1089.25 1245>
 LayerCount: 2
+Back
 Fore
 SplineSet
 133 1327 m 0
@@ -3455,6 +3563,7 @@ Flags: W
 HStem: 19 325<54.991 271.739 906.581 1120.7> 947 324<480.468 699.589>
 VStem: 0 325<72.875 288.104> 428 325<999.592 1216.79> 850 325<71.875 287.104>
 LayerCount: 2
+Back
 Fore
 SplineSet
 162 19 m 0
@@ -3486,6 +3595,7 @@ VStem: 8 119<314.17 434.5> 737 100<798.015 1073.89> 1145 167<795.466 1083.83> 15
 AnchorPoint: "V" 1045.5 1306 basechar 0
 AnchorPoint: "N" 1045.5 4.57237 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1115 1286 m 0
@@ -3531,6 +3641,7 @@ VStem: 7 117<311.456 432.5> 736 98<796.015 1071.89> 902 94<-457.156 -238.559> 11
 AnchorPoint: "V" 1308 1306 basechar 0
 AnchorPoint: "N" 1308 -707.904 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 2250 600 m 0xebfc
@@ -3590,6 +3701,7 @@ VStem: 4 95<-81.7865 138.93 660.12 1153.56> 358 102<800.606 1073.49> 768 165<798
 AnchorPoint: "V" 977.5 1847.81 basechar 0
 AnchorPoint: "N" 977.5 -255 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 617 748 m 0
@@ -3651,6 +3763,7 @@ VStem: 1 100<-1 1189> 227 250<546.462 742.547> 602 215<-1 1189> 942 250<547.462 
 AnchorPoint: "V" 596.5 1306 basechar 0
 AnchorPoint: "N" 596.5 -1 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 942 645 m 0
@@ -3687,6 +3800,7 @@ VStem: 1 182<107.689 238.218> 1 100<651.875 873.79 926 1034.77> 409 181<623.678 
 AnchorPoint: "V" 1087.5 1306 basechar 0
 AnchorPoint: "N" 1087.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 183 172 m 0xfd80
@@ -3728,6 +3842,7 @@ VStem: 5 182<110.689 241.218> 5 102<653.875 875.79 929 1037.77> 415 179<626.178 
 AnchorPoint: "V" 1738.5 1306 basechar 0
 AnchorPoint: "N" 1738.5 3 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1382 738 m 0xda7d
@@ -3794,6 +3909,7 @@ VStem: 3 100<316.774 883.359> 543 215<266.468 592.605> 1047 214<0 1190>
 AnchorPoint: "V" 775.5 1306 basechar 0
 AnchorPoint: "N" 775.5 45.093 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 434 3 m 0
@@ -3828,6 +3944,7 @@ VStem: 3 100<316.774 883.359> 543 215<266.468 592.605> 1047 214<0 1190>
 AnchorPoint: "V" 775.5 1306 basechar 0
 AnchorPoint: "N" 775.5 -401 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 434 3 m 0
@@ -3864,6 +3981,7 @@ VStem: 6 98<647.259 865.79 924 1032.02> 64 201<-270.259 106.867> 412 183<615.208
 AnchorPoint: "V" 791.5 1306 basechar 0
 AnchorPoint: "N" 791.5 -494.981 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 595 742 m 0xf780
@@ -3919,6 +4037,7 @@ VStem: 2 103<451.411 693.99> 233 101<-469.835 -199.364> 471 215<373.014 680.427>
 AnchorPoint: "V" 818.5 1306 basechar 0
 AnchorPoint: "N" 818.5 -713 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1298 159 m 0x97f8
@@ -3969,6 +4088,7 @@ VStem: 4 103<452.411 694.99> 234 102<-470.97 -200.94> 473 215<374.014 681.427> 6
 AnchorPoint: "V" 819.5 1306 basechar 0
 AnchorPoint: "N" 819.5 -713 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 4 625 m 0x8fdc
@@ -4022,6 +4142,7 @@ VStem: 2 103<451.411 693.99> 233 101<-469.835 -199.364> 471 215<373.014 680.427>
 AnchorPoint: "V" 3050 1306 basechar 0
 AnchorPoint: "N" 3050 -60 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 112 2962 S 1 0 0 1 0 0 0
 Refer: 272 3031 N 1 0 0 1 1891 0 0
@@ -4037,6 +4158,7 @@ VStem: 3 100<213.378 544.24> 264 99<747 1190> 693 215<206.305 645 747 1190> 1292
 AnchorPoint: "V" 731.5 1306 basechar 0
 AnchorPoint: "N" 731.5 9.92431 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 448 1 m 0
@@ -4080,6 +4202,7 @@ VStem: 5 98<216.378 547.827 996.173 1481.5> 265 98<802 1192> 693 216<208.305 647
 AnchorPoint: "V" 731.5 2065 basechar 0
 AnchorPoint: "N" 731.5 9.92431 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 4 1246 m 0
@@ -4121,7 +4244,7 @@ SplineSet
  317 647 l 2
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_0-0 subtable" u0B95 u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B95_u0BC0
@@ -4134,6 +4257,7 @@ VStem: -1 103<215.378 544.171 982.989 1487.37> 259 103<801 1191> 692 211<207.305
 AnchorPoint: "V" 731.5 2132.39 basechar 0
 AnchorPoint: "N" 731.5 9.92431 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 922 1723 m 0xfec0
@@ -4180,7 +4304,7 @@ SplineSet
  806 127 675 4 444 4 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_0-0 subtable" u0B95 u0BC0
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B95_u0BC1
@@ -4193,6 +4317,7 @@ VStem: 4 99<105.981 809.178> 463 99<215.378 551.44> 722 99<747 1190> 1149 218<20
 AnchorPoint: "V" 1125 1306 basechar 0
 AnchorPoint: "N" 1125 -600 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 359 1233 m 1
@@ -4228,7 +4353,7 @@ SplineSet
  774 647 l 2
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_6 subtable" u0B95 u0BC1
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B95_u0BC2.old
@@ -4240,6 +4365,7 @@ VStem: 5 100<216.378 547.24> 266 98<749 1192> 694 216<211.154 646 749 1192> 1193
 AnchorPoint: "V" 731.5 1306 basechar 0
 AnchorPoint: "N" 731.5 9.92431 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 5 407 m 0xdf80
@@ -4291,6 +4417,7 @@ HStem: 1 101<217.071 566.804 953.918 1211.39> 645 102<198.919 262 361 690 906 11
 VStem: 1 100<213.378 544.24> 262 99<747 1190> 569 325<1558.81 1778.38> 691 215<206.305 645 747 1190> 1290 199<185.494 535.331>
 AnchorPoint: "N" 731.5 9.92431 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 569 1668 m 0xfe80
@@ -4329,7 +4456,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "pstspostbasesubstitution subtable" u0B95 u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B99
@@ -4342,6 +4469,7 @@ VStem: 3 100<-3 1187> 431 217<370 677.107 763 1187> 989 201<262.809 630.588> 152
 AnchorPoint: "V" 856.5 1306 basechar 0
 AnchorPoint: "N" 856.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 842 849 m 0
@@ -4382,6 +4510,7 @@ VStem: 2 100<-1 1189> 430 217<372 679.107 765 1189> 988 201<264.809 632.588> 112
 AnchorPoint: "V" 856.5 1306 basechar 0
 AnchorPoint: "N" 856.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1120 1554 m 0xeee0
@@ -4421,7 +4550,7 @@ SplineSet
  1320 1145 1120 1237 1120 1554 c 0xeee0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_2 subtable" u0B99 u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B99_u0BC0
@@ -4434,6 +4563,7 @@ VStem: 4 100<-3 1187> 432 217<370 677.107 763 1187> 990 201<262.809 630.588> 122
 AnchorPoint: "V" 856.5 1306 basechar 0
 AnchorPoint: "N" 856.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 843 849 m 0xdfe8
@@ -4479,7 +4609,7 @@ SplineSet
  1845 1836 1775 1759 1775 1654 c 0xcfd8
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_4 subtable" u0B99 u0BC0
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B99_u0BC1
@@ -4492,6 +4622,7 @@ VStem: 3 100<-3 1187> 431 217<370 677.107 763 1187> 989 201<262.809 630.588> 152
 AnchorPoint: "V" 856.5 1306 basechar 0
 AnchorPoint: "N" 856.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 842 849 m 0
@@ -4523,7 +4654,7 @@ SplineSet
  693 820 757 849 842 849 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_6 subtable" u0B99 u0BC1
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B99_u0BC2
@@ -4536,6 +4667,7 @@ VStem: 5 100<-3 1187> 433 217<370 677.107 763 1187> 530 89<-495.913 -244.998> 98
 AnchorPoint: "V" 1200 1306 basechar 0
 AnchorPoint: "N" 1200 -750 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1167 -731 m 0xff38
@@ -4586,7 +4718,7 @@ SplineSet
  898 -549 984 -485 984 -363 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_8 subtable" u0B99 u0BC2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B99_u0BCD
@@ -4598,6 +4730,7 @@ HStem: 0 86<430 836.218 988 1521> 713 136<690.201 907.356> 1187 100<103 431 648 
 VStem: 3 100<-3 1187> 431 217<370 677.107 763 1187> 694 325<1558.81 1778.38> 989 201<262.809 630.588> 1521 200<86 1290>
 AnchorPoint: "N" 856.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 842 849 m 0xfd80
@@ -4633,7 +4766,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "pstspostbasesubstitution subtable" u0B99 u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9A
@@ -4646,6 +4779,7 @@ VStem: 1 102<215.378 546.24> 262 100<748 1191> 692 214<210.154 645 748 1191>
 AnchorPoint: "V" 730 1306 basechar 0
 AnchorPoint: "N" 730 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 446 2 m 0
@@ -4685,6 +4819,7 @@ VStem: 4 100<217.378 548.827 991.945 1504.8> 264 99<801 1192> 693 215<213.154 64
 AnchorPoint: "V" 730 2078.94 basechar 0
 AnchorPoint: "N" 730 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 3 1246 m 0
@@ -4722,7 +4857,7 @@ SplineSet
  318 649 l 2
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_0-0 subtable" u0B9A u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B95_u0BB7
@@ -4736,6 +4871,7 @@ AnchorPoint: "V" 2100 1306 basechar 0
 AnchorPoint: "R" 3209 1215 exit 0
 AnchorPoint: "N" 2100 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 2808 947 m 0x57fe
@@ -4803,7 +4939,7 @@ SplineSet
  320 649 l 2
 EndSplineSet
 Ligature2: "akhnAkhandinTamillookup9 subtable" u0B95 u0BCD u0BB7
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: u0B95_u0BB7_u0BBF
@@ -4816,6 +4952,7 @@ VStem: 8 95<210.271 541.439> 269 93<747 1187> 692 221<206.283 644 751 1187> 1196
 AnchorPoint: "V" 2100 1306 basechar 0
 AnchorPoint: "N" 2100 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 3312 1008 m 2x3fff
@@ -4892,7 +5029,7 @@ SplineSet
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_2 subtable" u0B95_u0BB7 u0BBF
 Ligature2: "akhnligs subtable" u0B95_u0BB7 u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B95_u0BB7_u0BC0
@@ -4905,6 +5042,7 @@ VStem: 7 101<216.878 547.74> 268 99<750 1193> 697 215<211.305 646 750 1192> 1195
 AnchorPoint: "V" 2100 1306 basechar 0
 AnchorPoint: "N" 2100 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 3391 1981 m 0x7ffd80
@@ -4986,7 +5124,7 @@ SplineSet
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_4 subtable" u0B9A u0BB7 u0BC0
 Ligature2: "akhnligs subtable" u0B95_u0BB7 u0BC0
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: u0B95_u0BB7_u0BCD
@@ -4998,6 +5136,7 @@ HStem: 1 175<1434.64 1650.86> 1 105<222.571 570.602 2364 3313 3518 3827.8> 518 1
 VStem: 7 99<216.378 547.24> 268 97<749 1192> 695 217<211.154 646 749 1192> 1195 99<319.878 646> 1737 214<272.679 577.444> 2338 203<338.498 847.788> 2358 324<1563.41 1784.29> 2808 88<832.724 1106.19> 3313 200<-616 1 106 518 661 1127.62> 3884 115<157.842 400.581>
 AnchorPoint: "N" 2100 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 2808 947 m 0x7ff7
@@ -5072,7 +5211,7 @@ EndSplineSet
 Ligature2: "pstspostbasesubstitution subtable" u0B9A u0BB7 u0BCD
 Ligature2: "pstspostbasesubstitution subtable" u0B95_u0BB7 u0BCD
 Ligature2: "akhnligs subtable" u0B95_u0BB7 u0BCD
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: u0B9A_u0BC0
@@ -5085,6 +5224,7 @@ VStem: 0 103<213.271 547.191 984.989 1489.37> 260 102<803 1191> 692 212<209.305 
 AnchorPoint: "V" 730 2133.96 basechar 0
 AnchorPoint: "N" 730 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 922 1723 m 0xfec0
@@ -5128,7 +5268,7 @@ SplineSet
  904 150 671 7 445 7 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_0-0 subtable" u0B9A u0BC0
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9A_u0BC1
@@ -5141,6 +5281,7 @@ VStem: 1 101<215.378 546.24> 262 99<746 1189> 691 215<207.305 646 750 1189> 1189
 AnchorPoint: "V" 730 1306 basechar 0
 AnchorPoint: "N" 730 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 691 746 m 1
@@ -5173,7 +5314,7 @@ SplineSet
  905 147 672 4 446 4 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_6 subtable" u0B9A u0BC1
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9A_u0BC2
@@ -5186,6 +5327,7 @@ VStem: 1 101<215.378 546.24> 229 95<-454.074 -228.815> 262 99<746 1189> 691 215<
 AnchorPoint: "V" 1100 1306 basechar 0
 AnchorPoint: "N" 1100 -750 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 691 746 m 1xfef0
@@ -5232,7 +5374,7 @@ SplineSet
  471 -167 324 -200 324 -333 c 0xff70
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_8 subtable" u0B9A u0BC2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9A_u0BCD
@@ -5244,6 +5386,7 @@ HStem: 2 103<218.071 571.276> 648 100<198.919 262 362 692 906 1192> 1191 100<362
 VStem: 1 102<215.378 546.24> 262 100<748 1191> 568 325<1562.81 1783.18> 692 214<210.154 645 748 1191>
 AnchorPoint: "N" 730.5 12.1328 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 446 2 m 0xfd
@@ -5278,7 +5421,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "pstspostbasesubstitution subtable" u0B9A u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9C
@@ -5292,6 +5435,7 @@ AnchorPoint: "V" 854 1306 basechar 0
 AnchorPoint: "R" 1201 1188 exit 0
 AnchorPoint: "N" 854 -438.554 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1375 -184 m 0xfdc0
@@ -5350,6 +5494,7 @@ VStem: 0 203<-246.092 74.4813> 3 100<644.375 867.79 927 1040.09> 409 183<616.577
 AnchorPoint: "V" 854 1306 basechar 0
 AnchorPoint: "N" 854 -438.554 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 272 572 m 0xfdf8
@@ -5404,7 +5549,7 @@ SplineSet
  491 1043 592 902 592 745 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_2 subtable" u0B9C u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9C_u0BC0
@@ -5417,6 +5562,7 @@ VStem: 0 203<-246.603 70.9155> 3 98<644.259 862.79 921 1030.36> 409 183<612.208 
 AnchorPoint: "V" 854 1306 basechar 0
 AnchorPoint: "N" 854 -438.554 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 874 1122 m 1xfee6
@@ -5478,7 +5624,7 @@ SplineSet
  1522 1903 1455 1820 1455 1718 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_4 subtable" u0B9C u0BC0
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9C_u0BCD
@@ -5490,6 +5636,7 @@ HStem: -472 106<323.238 650.678 1050.98 1327.89> 11 113<1083.11 1331.52> 450 122
 VStem: 0 203<-246.092 74.4813> 3 100<644.375 867.79 927 1040.09> 409 183<616.577 865.012> 691 326<1554.41 1773.59> 747 200<616 1086.39> 1373 201<-323.182 -30.5893 575.197 1064.72>
 AnchorPoint: "N" 854 -438.554 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 272 572 m 0xfd90
@@ -5539,7 +5686,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "pstspostbasesubstitution subtable" u0B9C u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9E
@@ -5552,6 +5699,7 @@ VStem: 4 99<137.61 806.178> 348 99<315.274 880.359> 885 218<263.698 588.63> 1392
 AnchorPoint: "V" 1299 1306 basechar 0
 AnchorPoint: "N" 1299 -573 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1608 675 m 1xdfc0
@@ -5598,6 +5746,7 @@ VStem: 1 99<163.577 808.178> 347 100<313.774 881.359> 885 217<257.961 588.791> 1
 AnchorPoint: "V" 1299 1306 basechar 0
 AnchorPoint: "N" 1299 -573 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 347 594 m 0xdfd8
@@ -5643,7 +5792,7 @@ SplineSet
  530 705 468 615 447 545 c 1
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_2 subtable" u0B9E u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9E_u0BC0
@@ -5656,6 +5805,7 @@ VStem: 3 99<140.61 809.178> 347 101<315.774 883.359> 886 216<258.748 590.131> 12
 AnchorPoint: "V" 1299 1916.84 basechar 0
 AnchorPoint: "N" 1299 -573 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 448 547 m 1xdff8
@@ -5706,7 +5856,7 @@ SplineSet
  1743 1449 1658 1603 1658 1727 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_4 subtable" u0B9E u0BC0
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9E_u0BC1
@@ -5719,6 +5869,7 @@ VStem: 351 97<314.274 880.359> 886 220<257.248 588.631> 1395 214<-1 598.327 675 
 AnchorPoint: "V" 1400 1306 basechar 0
 AnchorPoint: "N" 1400 -750 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 448 547 m 1xefe0
@@ -5764,7 +5915,7 @@ SplineSet
  1611 675 l 1
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_6 subtable" u0B9E u0BC1
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9E_u0BC2
@@ -5777,6 +5928,7 @@ VStem: 346 102<315.774 883.359> 886 215<258.748 590.131> 1390 214<2 601.327 678 
 AnchorPoint: "V" 1400 1306 basechar 0
 AnchorPoint: "N" 1400 -750 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 448 547 m 1xeff0
@@ -5827,7 +5979,7 @@ SplineSet
  1644 745 1737 777 1823 777 c 0xf7f0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_8 subtable" u0B9E u0BC2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9E_u0BCD
@@ -5839,6 +5991,7 @@ HStem: -573 100<756.203 1454.36> 0 174<587.457 802.344> 635 139<1661.34 1914.38>
 VStem: 4 99<137.61 806.178> 348 99<315.274 880.359> 885 218<263.065 589.631> 1136 326<1561.41 1780.59> 1392 214<-1 598.327 675 1189> 2034 217<34.7673 496.873>
 AnchorPoint: "N" 1299 -573 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1608 675 m 1xdfb0
@@ -5880,7 +6033,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "pstspostbasesubstitution subtable" u0B9E u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9F
@@ -5893,6 +6046,7 @@ VStem: 0 201<100 1290>
 AnchorPoint: "V" 913 1306 basechar 0
 AnchorPoint: "N" 913 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1777 0 m 1
@@ -5915,6 +6069,7 @@ VStem: 0 201<86 1290> 522 124<530.403 959.183> 1060 200<-617 0 83 1087.74>
 AnchorPoint: "V" 913 1306 basechar 0
 AnchorPoint: "N" 500 -50 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 522 802 m 0
@@ -5940,7 +6095,7 @@ SplineSet
  1060 983 l 2
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_2 subtable" u0B9F u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9F_u0BC0
@@ -5953,6 +6108,7 @@ VStem: 0 201<86 1290> 379 111<255.828 581.366> 809 94<412.087 662.085> 1270 166<
 AnchorPoint: "V" 913 1306 basechar 0
 AnchorPoint: "N" 913 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 826 790 m 0
@@ -5980,7 +6136,7 @@ SplineSet
  974 717 903 638 903 533 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_4 subtable" u0B9F u0BC0
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9F_u0BC1
@@ -5993,6 +6149,7 @@ VStem: -1 106<210.85 1011.76> 647 215<-2 595.523 672 1288> 1318 215<7.74906 482.
 AnchorPoint: "V" 913 1888.97 basechar 0
 AnchorPoint: "N" 913 -525 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -1 660 m 0
@@ -6020,7 +6177,7 @@ SplineSet
  62 15 -1 301 -1 660 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_6 subtable" u0B9F u0BC1
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9F_u0BC2
@@ -6033,6 +6190,7 @@ VStem: -3 106<211.85 1024.08> 645 215<-1 596.523 673 1289> 1026 102<975.185 1222
 AnchorPoint: "V" 913 1889.1 basechar 0
 AnchorPoint: "N" 913 -525 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -3 661 m 0xffc0
@@ -6065,7 +6223,7 @@ SplineSet
  1199 1290 1128 1204 1128 1100 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_8 subtable" u0B9F u0BC2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B9F_u0BCD
@@ -6077,6 +6235,7 @@ HStem: 0 100<201 1777> 1505 326<804.658 1021.74>
 VStem: 0 201<100 1290> 751 324<1558.81 1779.18>
 AnchorPoint: "N" 913 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1778 0 m 1
@@ -6093,7 +6252,7 @@ SplineSet
  825 1505 751 1579 751 1668 c 0
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "pstspostbasesubstitution subtable" u0B9F u0BCD
 EndChar
 
@@ -6107,6 +6266,7 @@ VStem: 4 97<314.872 727.802> 541 218<260.337 591.105> 960 99<260.879 789.266> 14
 AnchorPoint: "V" 1787.5 1306 basechar 0
 AnchorPoint: "N" 1787.5 119.776 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1xbfe0
@@ -6167,10 +6327,11 @@ VStem: 4 97<314.872 727.802> 541 218<260.337 591.105> 960 99<260.879 789.266> 14
 AnchorPoint: "V" 4090 1306 basechar 0
 AnchorPoint: "N" 4090 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 153 2979 N 1 0 0 1 0 0 0
 Refer: 260 3006 N 1 0 0 1 3728 0 0
-LCarets2: 1 0 
+LCarets2: 1 0
 Substitution2: "pstspostbasesubstitutionold subtable" u0BA3_u0BBE.old
 Ligature2: "sub_ligature_pststaml_0 subtable" u0BA3 u0BBE
 EndChar
@@ -6185,6 +6346,7 @@ VStem: 3 100<169.011 829.495> 350 98<314.372 728.577> 886 219<259.999 589.791> 1
 AnchorPoint: "V" 1787.5 1306 basechar 0
 AnchorPoint: "N" 1787.5 119.776 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 448 547 m 1xdff8
@@ -6252,6 +6414,7 @@ VStem: 4 97<314.872 727.802> 541 218<260.337 591.105> 960 99<260.879 789.266> 14
 AnchorPoint: "V" 1787.5 1306 basechar 0
 AnchorPoint: "N" 1787.5 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1x7fe4
@@ -6311,7 +6474,7 @@ SplineSet
  2659 125 2509 5 2285 5 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_2 subtable" u0BA3 u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BA3_u0BC0
@@ -6324,6 +6487,7 @@ VStem: 4 97<315.372 728.302> 541 218<260.837 591.605> 960 99<261.879 790.266> 14
 AnchorPoint: "V" 1787.5 1306 basechar 0
 AnchorPoint: "N" 1787.5 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1xbfff
@@ -6389,7 +6553,7 @@ SplineSet
  2660 125 2510 5 2286 5 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_4 subtable" u0BA3 u0BC0
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BA3_u0BC1
@@ -6402,6 +6566,7 @@ VStem: 0 101<314.372 735.976> 541 214<259.837 590.605> 958 98<260.879 789.266> 1
 AnchorPoint: "V" 1787.5 1306 basechar 0
 AnchorPoint: "N" 1787.5 -750 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1xdffc
@@ -6462,7 +6627,7 @@ SplineSet
  2372 1257 2503 1290 2648 1290 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_6 subtable" u0BA3 u0BC1
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BA3_u0BC2
@@ -6475,6 +6640,7 @@ VStem: 0 101<314.372 735.976> 541 214<259.837 590.605> 958 98<260.879 789.266> 1
 AnchorPoint: "V" 1787.5 1306 basechar 0
 AnchorPoint: "N" 1787.5 -750 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1xdffe
@@ -6541,7 +6707,7 @@ SplineSet
  2372 1257 2503 1290 2648 1290 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_8 subtable" u0BA3 u0BC2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BA3_u0BC8
@@ -6554,12 +6720,13 @@ VStem: 1 100<313.372 726.302> 541 215<263.543 589.605> 962 98<258.879 777.409> 1
 AnchorPoint: "V" 4550 1306 basechar 0
 AnchorPoint: "N" 4550 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 267 3016 N 1 0 0 1 0 0 0
 Refer: 153 2979 N 1 0 0 1 2724 0 0
 Substitution2: "pstspostbasesubstitutionold subtable" u0BA3_u0BC8.old
 Ligature2: "sub_ligature_pststaml_10 subtable" u0BA3 u0BC8
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BA3_u0BC8.old
@@ -6572,6 +6739,7 @@ VStem: 2 162<236.15 577.918> 115 95<1559.33 1798.27> 543 106<1557.59 1811.49> 81
 AnchorPoint: "V" 1787.5 1306 basechar 0
 AnchorPoint: "N" 1787.5 119.776 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 218 -1 S 1 0 0 1 0 0 0
 Refer: 153 2979 S 1 0 0 1 1017 0 0
@@ -6586,6 +6754,7 @@ HStem: 4 167<241.444 458.59> 4 100<1173.19 1400.74 2120.46 2346.43> 706 144<194.
 VStem: 4 97<314.872 727.802> 541 218<260.337 591.105> 960 99<260.879 789.266> 1498 214<238.57 810.047> 1625 325<1561.81 1781.38> 1908 99<264.82 785.453> 2445 216<241.933 811.691> 2938 215<1 1191>
 AnchorPoint: "N" 1787.5 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1xbf18
@@ -6640,7 +6809,7 @@ SplineSet
  1699 1508 1625 1582 1625 1671 c 0x3f58
 EndSplineSet
 Ligature2: "pstspostbasesubstitution subtable" u0BA3 u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BA4
@@ -6653,6 +6822,7 @@ VStem: 9 231<-660.516 -435.052> 94 99<215.663 552.907> 352 101<749 1192> 782 215
 AnchorPoint: "V" 735.5 1306 basechar 0
 AnchorPoint: "N" 735.5 -321.494 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 881 -306 m 0xf780
@@ -6698,6 +6868,7 @@ VStem: 11 228<-663.154 -427.718> 96 97<221.663 555.79 984.408 1482.48> 349 104<8
 AnchorPoint: "V" 735.5 2056.68 basechar 0
 AnchorPoint: "N" 735.5 -321.494 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 96 1251 m 0xfbe0
@@ -6756,6 +6927,7 @@ VStem: 10 228<-665.154 -429.718> 95 94<218.163 552.813 992.638 1488.61> 348 101<
 AnchorPoint: "V" 735.5 2114.95 basechar 0
 AnchorPoint: "N" 735.5 -321.494 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1008 1724 m 0xfcb0
@@ -6821,6 +6993,7 @@ VStem: 3 135<-280.412 -157.5> 118 100<212.771 547.725> 379 97<749 1189> 806 217<
 AnchorPoint: "V" 775 1306 basechar 0
 AnchorPoint: "N" 775 -640 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 806 746 m 1xf9e0
@@ -6863,7 +7036,7 @@ SplineSet
  1021 176 821 7 563 7 c 0
  301 7 118 135 118 411 c 0xfbe0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_6 subtable" u0BA4 u0BC1
 EndChar
 
@@ -6877,6 +7050,7 @@ VStem: 5 133<-273.203 -151.5> 114 104<212.771 547.725> 375 101<749 1189> 806 213
 AnchorPoint: "V" 775 1306 basechar 0
 AnchorPoint: "N" 775 -640 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 806 746 m 1xf9f0
@@ -6925,7 +7099,7 @@ SplineSet
  2049 -204 l 1
  1481 -204 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_8 subtable" u0BA4 u0BC2
 EndChar
 
@@ -6938,6 +7112,7 @@ HStem: -312 122<400.326 1072> 2 104<308.937 659.299> 649 100<453 782 997 1220.28
 VStem: 9 228<-670.154 -434.718> 94 99<215.663 552.907> 352 101<749 1192> 573 325<1561.81 1782.18> 782 215<209.215 644 749 1191> 1380 197<59.75 503.028>
 AnchorPoint: "N" 735.5 -321.494 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 94 406 m 0xfb60
@@ -6980,7 +7155,7 @@ SplineSet
  898 1581 823 1508 735 1508 c 0
 EndSplineSet
 Validated: 33
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "pstspostbasesubstitution subtable" u0BA4 u0BCD
 EndChar
 
@@ -6994,6 +7169,7 @@ VStem: 14 226<-666.512 -432.542> 151 99<2 1192> 580 214<2 601.327 677 1192> 1224
 AnchorPoint: "V" 744 1306 basechar 0
 AnchorPoint: "N" 744 -319.131 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 795 677 m 1xee
@@ -7033,6 +7209,7 @@ VStem: 12 228<-666.154 -430.766> 151 99<1 1191> 580 214<1 600.327 676 1191> 624 
 AnchorPoint: "V" 744 1926.4 basechar 0
 AnchorPoint: "N" 744 -319.131 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 123 -708 m 0xfce0
@@ -7089,6 +7266,7 @@ VStem: 10 228<-667.154 -431.766> 149 99<0 1190> 416 112<1447.2 1773.91> 578 214<
 AnchorPoint: "V" 744 2116.71 basechar 0
 AnchorPoint: "N" 744 -319.131 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 937 1723 m 0xfce8
@@ -7151,6 +7329,7 @@ VStem: 6 133<-280.98 -157.5> 377 100<3 1193> 807 214<3 602.327 678 1193> 1449 21
 AnchorPoint: "V" 790 1306 basechar 0
 AnchorPoint: "N" 790 -640 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 139 -245 m 0
@@ -7187,7 +7366,7 @@ SplineSet
  1022 1193 l 1
  1022 678 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_6 subtable" u0BA8 u0BC1
 EndChar
 
@@ -7201,6 +7380,7 @@ VStem: 4 135<-280.98 -157.5> 372 100<1 1191> 802 214<1 600.327 676 1191> 1444 21
 AnchorPoint: "V" 790 1306 basechar 0
 AnchorPoint: "N" 790 -640 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 139 -245 m 0
@@ -7242,7 +7422,7 @@ SplineSet
  2090 -211 l 1
  1515 -211 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_8 subtable" u0BA8 u0BC2
 EndChar
 
@@ -7255,6 +7435,7 @@ HStem: -316 124<383.213 919.258> 1 21G<149 248 578 792> 637 138<845.586 1103.13>
 VStem: 12 225<-667.512 -441.65> 149 99<1 1191> 578 214<1 600.327 676 1191> 582 324<1561.81 1782.18> 1222 211<55.8676 490.223>
 AnchorPoint: "N" 744 -319.131 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1010 775 m 0xfb40
@@ -7292,7 +7473,7 @@ SplineSet
  656 1508 582 1582 582 1671 c 0xf8c0
 EndSplineSet
 Validated: 33
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "pstspostbasesubstitution subtable" u0BA8 u0BCD
 EndChar
 
@@ -7306,6 +7487,7 @@ VStem: 1 100<313.872 735.476> 541 215<259.337 590.105> 960 99<259.379 784.931> 1
 AnchorPoint: "V" 1298 1306 basechar 0
 AnchorPoint: "N" 1298 1 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1x7f80
@@ -7353,12 +7535,13 @@ VStem: 1 100<313.872 735.476> 541 215<259.337 590.105> 960 99<259.379 784.931> 1
 AnchorPoint: "V" 3100 1306 basechar 0
 AnchorPoint: "N" 3100 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 175 2985 N 1 0 0 1 0 0 0
 Refer: 260 3006 N 1 0 0 1 2781 0 0
 Substitution2: "pstspostbasesubstitutionold subtable" u0BA9_u0BBE.old
 Ligature2: "sub_ligature_pststaml_0 subtable" u0BA9 u0BBE
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BA9_u0BBE.old
@@ -7371,6 +7554,7 @@ VStem: -1 100<159.256 826.495> 347 101<312.872 727.077> 886 216<257.257 586.791>
 AnchorPoint: "V" 1298 1306 basechar 0
 AnchorPoint: "N" 1298 1 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 448 547 m 1xdfe0
@@ -7423,6 +7607,7 @@ VStem: 1 100<313.872 735.476> 541 215<259.337 590.105> 958 101<259.879 784.974> 
 AnchorPoint: "V" 1298 1306 basechar 0
 AnchorPoint: "N" 1298 1 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1xbf90
@@ -7481,6 +7666,7 @@ VStem: 1 100<314.372 735.976> 541 215<259.837 590.605> 959 100<260.379 785.931> 
 AnchorPoint: "V" 1298 1306 basechar 0
 AnchorPoint: "N" 1298 1 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1x7ffc
@@ -7545,6 +7731,7 @@ VStem: 202 101<316.903 627.582> 743 213<264.718 587.183> 1163 99<258.878 775.642
 AnchorPoint: "V" 1298 1306 basechar 0
 AnchorPoint: "N" 1298 -740 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 303 545 m 1xdff0
@@ -7591,7 +7778,7 @@ SplineSet
  1819 995 1915 791 1915 578 c 0
  1915 117 1765 0 1541 0 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_6 subtable" u0BA9 u0BC1
 EndChar
 
@@ -7605,6 +7792,7 @@ VStem: 201 102<314.903 627.582> 743 212<262.718 587.183> 1158 104<259.878 776.90
 AnchorPoint: "V" 1298 1306 basechar 0
 AnchorPoint: "N" 1298 -740 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 303 545 m 1xdff8
@@ -7658,7 +7846,7 @@ SplineSet
  3048 -214 l 1
  2341 -214 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_8 subtable" u0BA9 u0BC2
 EndChar
 
@@ -7672,11 +7860,12 @@ VStem: 1 100<313.372 726.302> 541 215<263.543 589.605> 962 98<258.879 777.409> 1
 AnchorPoint: "V" 4050 1306 basechar 0
 AnchorPoint: "N" 4050 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 267 3016 N 1 0 0 1 0 0 0
 Refer: 175 2985 N 1 0 0 1 2724 0 0
 Ligature2: "sub_ligature_pststaml_10 subtable" u0BA9 u0BC8
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BA9_u0BC8.old
@@ -7689,6 +7878,7 @@ VStem: 2 162<236.15 577.918> 115 95<1559.33 1798.27> 543 106<1557.59 1811.49> 81
 AnchorPoint: "V" 1298 1306 basechar 0
 AnchorPoint: "N" 1298 1 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 218 -1 N 1 0 0 1 0 0 0
 Refer: 175 2985 N 1 0 0 1 1017 0 0
@@ -7703,6 +7893,7 @@ HStem: 1 100<1173.19 1400.74> 2 169<237.367 457.09> 706 142<193.152 433.347> 118
 VStem: 1 100<313.872 735.476> 541 215<259.337 590.105> 960 99<259.379 784.931> 1135 326<1559.41 1778.59> 1498 214<241.031 808.547> 1991 214<-1 1189>
 AnchorPoint: "N" 1298 1 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1x7fe0
@@ -7745,7 +7936,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "pstspostbasesubstitution subtable" u0BA9 u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BAA
@@ -7758,6 +7949,7 @@ VStem: 0 215<86 1290> 1203 216<86 1290>
 AnchorPoint: "V" 725.5 1306 basechar 0
 AnchorPoint: "N" 725.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1419 0 m 1
@@ -7782,6 +7974,7 @@ VStem: -1 215<87 1291> 845 116<1342.88 1685.95> 1202 216<87 1144 1245 1291> 1649
 AnchorPoint: "V" 725.5 1306 basechar 0
 AnchorPoint: "N" 725.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1202 1144 m 1
@@ -7804,7 +7997,7 @@ SplineSet
  1202 87 l 1
  1202 1144 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_2 subtable" u0BAA u0BBF
 EndChar
 
@@ -7818,6 +8011,7 @@ VStem: 1 215<85 1289> 903 114<1324.63 1694.78> 1204 216<85 1133 1205 1289> 1363 
 AnchorPoint: "V" 725.5 1306 basechar 0
 AnchorPoint: "N" 725.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1380 1909 m 0xfd80
@@ -7847,7 +8041,7 @@ SplineSet
  1822 1753 1751 1853 1621 1853 c 1
  1527 1834 1456 1756 1456 1651 c 0xfd80
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_4 subtable" u0BAA u0BC0
 EndChar
 
@@ -7861,6 +8055,7 @@ VStem: 0 215<86 1290> 1203 216<-387 0 86 1290>
 AnchorPoint: "V" 725 1306 basechar 0
 AnchorPoint: "N" 550 -50 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1419 -387 m 1
@@ -7875,7 +8070,7 @@ SplineSet
  1418 1290 l 1
  1419 -387 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_6 subtable" u0BAA u0BC1
 EndChar
 
@@ -7889,6 +8084,7 @@ VStem: 0 201<86 1290> 260 90<-522.178 -275.769> 715 141<-520.532 -269.034> 1189 
 AnchorPoint: "V" 725 1306 basechar 0
 AnchorPoint: "N" 701 -760 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 715 -393 m 0
@@ -7923,7 +8119,7 @@ SplineSet
  1746 132 1634 239 1544 239 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_8 subtable" u0BAA u0BC2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BAA_u0BCD
@@ -7935,6 +8131,7 @@ HStem: 0 86<215 1203> 1505 326<616.658 834.485>
 VStem: 0 215<86 1290> 563 325<1558.81 1778.38> 1203 216<86 1290>
 AnchorPoint: "N" 725.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1419 0 m 1
@@ -7953,7 +8150,7 @@ SplineSet
  637 1505 563 1579 563 1668 c 0
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "pstspostbasesubstitution subtable" u0BAA u0BCD
 EndChar
 
@@ -7967,6 +8164,7 @@ VStem: 0 215<100 1290> 543 215<100 1057.14> 1344 103<337.09 890.635>
 AnchorPoint: "V" 650.5 1306 basechar 0
 AnchorPoint: "N" 650.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 543 836 m 2
@@ -7998,6 +8196,7 @@ VStem: 1 215<105 1295> 544 216<105 1054.16> 802 116<1337.44 1696.37> 1346 102<33
 AnchorPoint: "V" 650.5 1306 basechar 0
 AnchorPoint: "N" 650.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 544 841 m 2
@@ -8040,6 +8239,7 @@ VStem: 0 215<99 1289> 543 219<100 1054.6> 737 112<1440.53 1778.95> 1166 93<1598.
 AnchorPoint: "V" 650.5 1306 basechar 0
 AnchorPoint: "N" 650.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 964 1165 m 0xfdc0
@@ -8088,6 +8288,7 @@ VStem: 7 99<112.355 810.498> 604 215<102 1292> 1148 216<-417.624 1 102 1051.99> 
 AnchorPoint: "V" 860 1306 basechar 0
 AnchorPoint: "N" 860 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1148 838 m 2
@@ -8118,7 +8319,7 @@ SplineSet
  1778 100 1950 249 1950 625 c 0
  1950 914 1822 1165 1566 1165 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_6 subtable" u0BAE u0BC1
 EndChar
 
@@ -8132,6 +8333,7 @@ VStem: -3 103<134.067 847.867> 603 97<860.919 1123.27> 886 215<97 1287> 1430 221
 AnchorPoint: "V" 1030 1306 basechar 0
 AnchorPoint: "N" 1030 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1853 1166 m 0xf7c0
@@ -8169,7 +8371,7 @@ SplineSet
  600 1287 700 1179 700 989 c 0
  700 749 533 689 420 689 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_8 subtable" u0BAE u0BC2
 EndChar
 
@@ -8182,6 +8384,7 @@ HStem: 0 100<215 543 758 1163.29> 1165 123<852.846 1122.95> 1504 326<541.658 759
 VStem: 0 215<100 1290> 488 325<1557.81 1777.38> 543 215<100 1057.14> 1344 103<335.822 894.488>
 AnchorPoint: "N" 650.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 543 836 m 2xf6
@@ -8208,7 +8411,7 @@ SplineSet
  562 1504 488 1578 488 1667 c 0xfa
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "pstspostbasesubstitution subtable" u0BAE u0BCD
 EndChar
 
@@ -8222,6 +8425,7 @@ VStem: 3 215<148.552 1289> 546 100<85 86 146.75 1289> 1305 215<85 1289>
 AnchorPoint: "V" 683.5 1306 basechar 0
 AnchorPoint: "N" 683.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 545 86 m 1
@@ -8254,6 +8458,7 @@ VStem: 3 215<149.552 1290> 546 100<86 87 147.75 1290> 948 115<1343.45 1685.49> 1
 AnchorPoint: "V" 683.5 1306 basechar 0
 AnchorPoint: "N" 683.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 948 1552 m 0
@@ -8297,6 +8502,7 @@ VStem: 3 215<147.552 1288> 546 100<84 85 145.75 1288> 1003 114<1337.17 1697.34> 
 AnchorPoint: "V" 683.5 1306 basechar 0
 AnchorPoint: "N" 683.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 545 85 m 1xff40
@@ -8346,6 +8552,7 @@ VStem: 3 215<148.552 1289> 546 100<85 86 146.75 1289> 1305 215<-387 0 85 1289>
 AnchorPoint: "V" 683.5 1306 basechar 0
 AnchorPoint: "N" 683.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 545 86 m 1
@@ -8381,6 +8588,7 @@ VStem: 0 215<150.552 1291> 321 89<-495.913 -244.998> 543 100<87 88 148.75 1291> 
 AnchorPoint: "V" 802 1306 basechar 0
 AnchorPoint: "N" 800 -736 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 775 -363 m 0
@@ -8423,7 +8631,7 @@ SplineSet
  1873 128 1761 235 1671 235 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_8 subtable" u0BAF u0BC2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BAF_u0BCD
@@ -8435,6 +8643,7 @@ HStem: 0 86<268.191 483.335 646 1305> 1504 326<574.658 792.485>
 VStem: 3 215<148.552 1289> 521 325<1557.81 1777.38> 546 100<85 86 146.75 1289> 1305 215<85 1289>
 AnchorPoint: "N" 683.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 545 86 m 1xec
@@ -8474,6 +8683,7 @@ VStem: 1 100<0 1190> 429 216<0 1190>
 AnchorPoint: "V" 425 1306 basechar 0
 AnchorPoint: "N" 425 -450 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 932 1190 m 1
@@ -8502,6 +8712,7 @@ VStem: 4 100<1 1191> 432 215<1 1191> 463 99<1340.57 1695.32> 1162 85<0 1695.1>
 AnchorPoint: "V" 540 1870.24 basechar 0
 AnchorPoint: "N" 540 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 562 1517 m 0xf6
@@ -8526,7 +8737,7 @@ SplineSet
  1162 1751 1056 1834 857 1834 c 0
  707 1834 562 1737 562 1517 c 0xf6
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_2 subtable" u0BB0 u0BBF
 EndChar
 
@@ -8540,6 +8751,7 @@ VStem: 1 100<0 1190> 268 112<1443.53 1781.95> 429 215<0 1190> 697 96<1601.08 185
 AnchorPoint: "V" 540 2093.01 basechar 0
 AnchorPoint: "N" 540 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 714 1977 m 0
@@ -8583,6 +8795,7 @@ VStem: 2 101<147.063 819.211> 547 100<-1 1189> 977 214<-1 598.327 674 1189> 1619
 AnchorPoint: "V" 900 1306 basechar 0
 AnchorPoint: "N" 900 -570 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 359 1233 m 1
@@ -8610,7 +8823,7 @@ SplineSet
  2 817 137 1146 296 1290 c 1
  359 1233 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_6 subtable" u0BB0 u0BC1
 EndChar
 
@@ -8624,6 +8837,7 @@ VStem: 0 100<187.589 860.333> 602 100<859.449 1125.77> 887 100<0 1190> 1316 215<
 AnchorPoint: "V" 1070 1306 basechar 0
 AnchorPoint: "N" 1070 -570 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 417 802 m 0xdfc0
@@ -8659,7 +8873,7 @@ SplineSet
  1566 732 1651 773 1749 773 c 0xefc0
  2033 773 2175 531 2175 299 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_8 subtable" u0BB0 u0BC2
 EndChar
 
@@ -8672,6 +8886,7 @@ HStem: 0 21G<1 101 429 646> 1190 100<101 429 646 933> 1505 326<402.658 620.485>
 VStem: 1 100<0 1190> 349 325<1558.81 1778.38> 429 217<0 1190>
 AnchorPoint: "N" 610 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 429 0 m 1xf4
@@ -8705,6 +8920,7 @@ VStem: 8 229<-667.988 -439.118> 153 99<1 1139.72> 581 214<2 1106.61> 1296 209<19
 AnchorPoint: "V" 718.5 1306 basechar 0
 AnchorPoint: "N" 718.5 -314.456 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 751 1147 m 1xee
@@ -8741,12 +8957,13 @@ VStem: 8 229<-667.988 -439.118> 153 99<1 1139.72> 581 214<2 1106.61> 1296 209<19
 AnchorPoint: "V" 718.5 1306 basechar 0
 AnchorPoint: "N" 718.5 -314.456 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 209 2993 N 1 0 0 1 0 0 0
 Refer: 260 3006 N 1 0 0 1 1792 0 0
 Substitution2: "pstspostbasesubstitutionold subtable" u0BB1_u0BBE.old
 Ligature2: "sub_ligature_pststaml_0 subtable" u0BB1 u0BBE
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB1_u0BBE.old
@@ -8759,6 +8976,7 @@ VStem: 4 99<140.198 809.178> 489 100<-2 1136.72> 918 214<-1 1098.25> 1647 216<-1
 AnchorPoint: "V" 718.5 1306 basechar 0
 AnchorPoint: "N" 718.5 -314.456 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1086 1145 m 1
@@ -8800,6 +9018,7 @@ VStem: 8 228<-664.154 -428.788> 152 99<6 1144.72> 580 214<7 1111.61> 861 113<133
 AnchorPoint: "V" 718.5 1306 basechar 0
 AnchorPoint: "N" 718.5 -314.456 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 580 982 m 2xfbc0
@@ -8852,6 +9071,7 @@ VStem: 10 228<-666.154 -430.788> 154 99<4 1142.72> 582 214<5 1109.61> 790 114<14
 AnchorPoint: "V" 718.5 1306 basechar 0
 AnchorPoint: "N" 718.5 -314.456 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1315 1724 m 0xf0a0
@@ -8910,6 +9130,7 @@ VStem: 5 134<-282.579 -159.5> 264 99<2 1140.72> 692 214<3 1107.12> 1407 214<131.
 AnchorPoint: "V" 775 1306 basechar 0
 AnchorPoint: "N" 775 -640 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 139 -245 m 0
@@ -8944,7 +9165,7 @@ SplineSet
  264 1190 373 1292 590 1292 c 0
  723 1292 827 1235 862 1148 c 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_6 subtable" u0BB1 u0BC1
 EndChar
 
@@ -8958,6 +9179,7 @@ VStem: 7 132<-282.579 -159.5> 261 99<2 1140.72> 689 214<3 1107.12> 1404 214<124.
 AnchorPoint: "V" 770 1306 basechar 0
 AnchorPoint: "N" 770 -640 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 139 -245 m 0
@@ -8999,7 +9221,7 @@ SplineSet
  882 1195 959 1292 1110 1292 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_8 subtable" u0BB1 u0BC2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB1_u0BCD
@@ -9011,6 +9233,7 @@ HStem: 1 21G<153 252> 1190 101<299.514 534.411 877.916 1140.58> 1506 326<609.658
 VStem: 9 228<-669.154 -432.2> 153 99<1 1139.72> 556 325<1559.81 1779.38> 581 214<2 1106.61> 1296 210<197.01 954.45>
 AnchorPoint: "N" 718.5 -314.456 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 751 1147 m 1xeb
@@ -9044,7 +9267,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "pstspostbasesubstitution subtable" u0BB1 u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB2
@@ -9057,6 +9280,7 @@ VStem: 5 99<325.605 653.203 730 882.312> 544 216<257.652 588.605> 1005 218<280.2
 AnchorPoint: "V" 1028.5 1306 basechar 0
 AnchorPoint: "N" 1028.5 59.2895 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1348 1198 m 0x7780
@@ -9095,6 +9319,7 @@ VStem: 2 162<236.15 577.918> 115 95<1559.33 1798.27> 543 106<1557.59 1811.49> 81
 AnchorPoint: "V" 1028.5 1306 basechar 0
 AnchorPoint: "N" 1028.5 59.2895 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 115 1668 m 0xee
@@ -9139,6 +9364,7 @@ VStem: 5 96<316.774 886.312> 541 219<261.652 592.605> 1005 218<284.2 969.625> 14
 AnchorPoint: "V" 1028.5 1306 basechar 0
 AnchorPoint: "N" 1028.5 59.2895 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1446 1630 m 0x7fe0
@@ -9174,7 +9400,7 @@ SplineSet
  188 708 122 616 101 548 c 1
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_2 subtable" u0BB2 u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB2_u0BC0
@@ -9187,6 +9413,7 @@ VStem: 2 99<312.774 880.312> 541 216<262.468 593.308> 1002 218<278.2 963.625> 12
 AnchorPoint: "V" 1028.5 1306 basechar 0
 AnchorPoint: "N" 1028.5 59.2895 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1xbff8
@@ -9240,6 +9467,7 @@ VStem: 2 135<-283.98 -161.5> 4 97<313.274 881.312> 541 218<262.968 589.105> 1004
 AnchorPoint: "V" 1000 1306 basechar 0
 AnchorPoint: "N" 1000 -640 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1xf1f0
@@ -9284,7 +9512,7 @@ SplineSet
  1667 1079 1481 1056 1384 1088 c 0xf9f0
  1359 1096 1347 1133 1347 1197 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_6 subtable" u0BB2 u0BC1
 EndChar
 
@@ -9298,6 +9526,7 @@ VStem: 2 99<312.774 880.312> 8 129<-288.2 -165.5> 541 216<262.468 593.308> 1002 
 AnchorPoint: "V" 1000 1306 basechar 0
 AnchorPoint: "N" 1000 -640 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1xf2f8
@@ -9347,7 +9576,7 @@ SplineSet
  2424 -218 l 1
  1533 -218 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_pststaml_8 subtable" u0BB2 u0BC2
 EndChar
 
@@ -9361,10 +9590,11 @@ VStem: 1 100<313.372 726.302> 541 215<263.543 589.605> 962 98<258.879 777.409> 1
 AnchorPoint: "V" 3860 1306 basechar 0
 AnchorPoint: "N" 3860 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 267 3016 N 1 0 0 1 0 0 0
 Refer: 217 2994 N 1 0 0 1 2724 0 0
-LCarets2: 1 0 
+LCarets2: 1 0
 Substitution2: "pstspostbasesubstitutionold subtable" u0BB2_u0BC8.old
 Ligature2: "sub_ligature_pststaml_10 subtable" u0BB2 u0BC8
 EndChar
@@ -9379,6 +9609,7 @@ VStem: 2 162<236.15 577.918> 115 95<1559.33 1798.27> 543 106<1557.59 1811.49> 81
 AnchorPoint: "V" 1028.5 1306 basechar 0
 AnchorPoint: "N" 1028.5 59.2895 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 218 -1 N 1 0 0 1 0 0 0
 Refer: 217 2994 N 1 0 0 1 1017 0 0
@@ -9393,6 +9624,7 @@ HStem: 1 169<244.457 460.664> 1 102<1337.53 1673.25> 705 143<196.652 436.847> 10
 VStem: 5 99<313.774 883.312> 544 216<258.652 589.605> 866 325<1555.81 1775.38> 1005 218<281.2 966.625> 1879 114<335.922 832.605>
 AnchorPoint: "N" 1028.5 59.2895 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1348 1199 m 0x7760
@@ -9438,6 +9670,7 @@ VStem: 6 102<336.022 880.359> 548 215<263.74 590.105> 1048 214<0 1014.31> 1179 8
 AnchorPoint: "V" 1100.5 1306 basechar 0
 AnchorPoint: "N" 1100.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 6 593 m 0xfd
@@ -9478,6 +9711,7 @@ VStem: 7 99<339.02 881.359> 546 218<264.24 590.605> 1049 214<1 1015.31> 1180 83<
 AnchorPoint: "V" 1100.5 1306 basechar 0
 AnchorPoint: "N" 1100.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1623 1546 m 0xfd60
@@ -9518,7 +9752,7 @@ SplineSet
  193 707 127 615 106 547 c 1
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_2 subtable" u0BB3 u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB3_u0BC0
@@ -9531,6 +9765,7 @@ VStem: 6 98<337.02 878.359> 544 219<262.24 593.308> 1048 214<-2 1012.31> 1179 83
 AnchorPoint: "V" 1100.5 1306 basechar 0
 AnchorPoint: "N" 1100.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 104 546 m 1xfe78
@@ -9576,7 +9811,7 @@ SplineSet
  1947 1975 1912 1978 1879 1978 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_4 subtable" u0BB3 u0BC0
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB3_u0BC1
@@ -9589,6 +9824,7 @@ VStem: 5 102<171.811 795.947> 352 99<344.665 878.359> 889 222<261.029 586.63> 13
 AnchorPoint: "V" 1500 1306 basechar 0
 AnchorPoint: "N" 1500 -740 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 451 547 m 1xdf30
@@ -9632,7 +9868,7 @@ SplineSet
  2183 -617 1828 -713 1383 -713 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_6 subtable" u0BB3 u0BC1
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB3_u0BC2
@@ -9645,6 +9881,7 @@ VStem: 1 101<157.857 853.159> 602 102<861.919 1124.27> 862 101<342.404 628.582 7
 AnchorPoint: "V" 1700 1306 basechar 0
 AnchorPoint: "N" 1700 -750 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 417 802 m 0xd7cc
@@ -9694,7 +9931,7 @@ SplineSet
  704 749 537 689 424 689 c 0xd7dc
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_8 subtable" u0BB3 u0BC2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB3_u0BC8
@@ -9707,12 +9944,13 @@ VStem: 1 100<313.372 726.302> 541 215<263.543 589.605> 962 98<258.879 777.409> 1
 AnchorPoint: "V" 3880 1306 basechar 0
 AnchorPoint: "N" 3880 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 267 3016 N 1 0 0 1 0 0 0
 Refer: 272 3031 N 1 0 0 1 2724 0 0
 Substitution2: "pstspostbasesubstitutionold subtable" u0BB3_u0BC8.old
 Ligature2: "sub_ligature_pststaml_10 subtable" u0BB3 u0BC8
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB3_u0BC8.old
@@ -9725,6 +9963,7 @@ VStem: 2 162<236.15 577.918> 115 95<1559.33 1798.27> 543 106<1557.59 1811.49> 81
 AnchorPoint: "V" 1100.5 1306 basechar 0
 AnchorPoint: "N" 1100.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 218 -1 N 1 0 0 1 0 0 0
 Refer: 272 3031 N 1 0 0 1 1017 0 0
@@ -9739,6 +9978,7 @@ HStem: 1 171<256.054 463.827> 707 140<198.855 440.347> 1190 101<406.353 850.278 
 VStem: 6 102<338.52 880.359> 548 215<263.74 590.105> 938 325<1557.81 1777.38> 1048 214<0 1014.31> 1179 83<1048 1190> 1592 214<0 1190>
 AnchorPoint: "N" 1100.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 6 593 m 0xfd40
@@ -9774,7 +10014,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "pstspostbasesubstitution subtable" u0BB3 u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB4
@@ -9787,6 +10027,7 @@ VStem: -97 79<-488.132 -263.755> -1 215<102 1292> 542 215<-129 0 102 1059.14> 13
 AnchorPoint: "V" 649.5 1306 basechar 0
 AnchorPoint: "N" 649.5 -610.534 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 542 838 m 2xdf80
@@ -9834,6 +10075,7 @@ VStem: -96 79<-483.132 -258.755> 0 215<107 1297> 400 150<-486.692 -264.909> 543 
 AnchorPoint: "V" 649.5 1306 basechar 0
 AnchorPoint: "N" 649.5 -610.534 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 543 843 m 2xdf78
@@ -9879,7 +10121,7 @@ SplineSet
  1345 917 1217 1168 961 1168 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_2 subtable" u0BB4 u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB4_u0BC0
@@ -9892,6 +10134,7 @@ VStem: -98 79<-489.132 -264.755> -2 215<101 1291> 398 150<-494.58 -279.069> 541 
 AnchorPoint: "V" 649.5 1306 basechar 0
 AnchorPoint: "N" 649.5 -610.534 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 964 1165 m 0x9fae
@@ -9942,7 +10185,7 @@ SplineSet
  1249 1444 1164 1597 1164 1722 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_4 subtable" u0BB4 u0BC0
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB4_u0BC1
@@ -9955,6 +10198,7 @@ VStem: 3 100<55.1442 789.34> 548 215<99 1289> 1091 215<-323 -267.408 -183 -1 100
 AnchorPoint: "V" 1000 1306 basechar 0
 AnchorPoint: "N" 1000 -750 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1508 1165 m 0
@@ -9991,7 +10235,7 @@ SplineSet
  1091 1085 1169 1288 1481 1288 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_6 subtable" u0BB4 u0BC1
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB4_u0BC2
@@ -10004,6 +10248,7 @@ VStem: 1 102<145.139 855.659> 602 102<862.919 1125.27> 948 215<99 1289> 1492 214
 AnchorPoint: "V" 1250 1306 basechar 0
 AnchorPoint: "N" 1250 -750 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 417 802 m 0xf7f0
@@ -10047,7 +10292,7 @@ SplineSet
  309 691 180 763 151 874 c 1
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_8 subtable" u0BB4 u0BC2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB4_u0BCD
@@ -10059,6 +10304,7 @@ HStem: -714 150<63.2488 323.011> -222 65<33.3477 74> -220 89<761 1067> 2 100<214
 VStem: -97 79<-488.132 -263.755> -1 215<102 1292> 399 150<-485.696 -272.264> 487 325<1559.81 1779.38> 542 215<-129 0 102 1059.14> 1343 104<339.516 893.73>
 AnchorPoint: "N" 649.5 -610.534 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 542 838 m 2xdf30
@@ -10101,7 +10347,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "pstspostbasesubstitution subtable" u0BB4 u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB5
@@ -10114,6 +10360,7 @@ VStem: 4 100<313.774 881.312> 544 215<263.468 594.308> 1147 203<335.498 845.647>
 AnchorPoint: "V" 1257.5 1306 basechar 0
 AnchorPoint: "N" 1257.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 4 592 m 0xbf
@@ -10150,6 +10397,7 @@ VStem: 1 100<312.274 879.312> 541 215<261.968 592.808> 1144 203<333.498 843.647>
 AnchorPoint: "V" 1257.5 1306 basechar 0
 AnchorPoint: "N" 1257.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1xa7f0
@@ -10185,7 +10433,7 @@ SplineSet
  2164 1445 l 2
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_2 subtable" u0BB5 u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB5_u0BC0
@@ -10198,6 +10446,7 @@ VStem: 2 99<317.443 877.312> 541 216<260.968 591.808> 1145 203<331.498 841.647> 
 AnchorPoint: "V" 1257.5 1306 basechar 0
 AnchorPoint: "N" 1257.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1xa7e4
@@ -10240,7 +10489,7 @@ SplineSet
  2060 1834 1989 1756 1989 1651 c 0x27ec
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_4 subtable" u0BB5 u0BC0
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB5_u0BC1
@@ -10253,6 +10502,7 @@ VStem: 4 100<313.774 881.312> 544 215<263.468 594.308> 1147 203<335.498 845.647>
 AnchorPoint: "V" 1200 1306 basechar 0
 AnchorPoint: "N" 1200 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 4 592 m 0xbf
@@ -10280,7 +10530,7 @@ SplineSet
  191 707 125 615 104 547 c 1
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_6 subtable" u0BB5 u0BC1
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB5_u0BC2
@@ -10293,6 +10543,7 @@ VStem: 3 99<313.274 881.312> 542 216<262.968 589.105> 746 89<-495.913 -244.998> 
 AnchorPoint: "V" 1450 1306 basechar 0
 AnchorPoint: "N" 1450 -775 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1200 -363 m 0xcf5c
@@ -10339,7 +10590,7 @@ SplineSet
  189 706 123 614 102 546 c 1
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_8 subtable" u0BB5 u0BC2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB5_u0BCD
@@ -10351,6 +10602,7 @@ HStem: -1 173<243.957 460.164> 0 101<1173 1737> 707 139<196.152 436.347> 1187 10
 VStem: 4 100<313.774 881.312> 544 215<263.468 594.308> 1095 325<1557.81 1777.38> 1147 203<335.498 845.647> 1737 213<101 1291>
 AnchorPoint: "N" 1257.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 4 592 m 0xbec0
@@ -10382,7 +10634,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "pstspostbasesubstitution subtable" u0BB5 u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB7
@@ -10396,6 +10648,7 @@ AnchorPoint: "V" 1373 1306 basechar 0
 AnchorPoint: "R" 2034 1188 exit 0
 AnchorPoint: "N" 1373 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 2122 1008 m 6x1ff0
@@ -10451,6 +10704,7 @@ VStem: 5 98<312.274 879.317> 543 217<261.968 588.105> 1147 204<333.998 844.147> 
 AnchorPoint: "V" 1373 1306 basechar 0
 AnchorPoint: "N" 1373 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 2122 1008 m 2x3ff8
@@ -10503,7 +10757,7 @@ SplineSet
  2631 100 2692 169 2692 308 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_2 subtable" u0BB7 u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB7_u0BC0
@@ -10516,6 +10770,7 @@ VStem: 5 102<313.274 882.317> 547 213<258.152 589.105> 1147 204<336.998 847.147>
 AnchorPoint: "V" 1373 1306 basechar 0
 AnchorPoint: "N" 1373 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 2200 1975 m 0x7fec
@@ -10573,7 +10828,7 @@ SplineSet
  194 704 128 612 107 544 c 1
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_4 subtable" u0BB7 u0BC0
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB7_u0BC8
@@ -10586,6 +10841,7 @@ VStem: 5 98<316.372 729.302> 543 217<266.543 597.308> 962 102<267.822 782.854> 1
 AnchorPoint: "V" 1373 1306 basechar 0
 AnchorPoint: "N" 1373 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 3297 516 m 1x3ff0
@@ -10642,7 +10898,7 @@ SplineSet
  190 710 124 618 103 550 c 1
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_10 subtable" u0BB7 u0BC8
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB7_u0BCD
@@ -10654,6 +10910,7 @@ HStem: 0 172<245.957 462.164> 0 102<1175 2124 2324 2631.55> 707 140<198.152 438.
 VStem: 6 100<314.274 881.317> 546 215<263.968 590.105> 1148 204<335.998 846.147> 1210 326<1558.41 1777.59> 1619 84<831.611 1101.69> 2124 200<-617 0 102 515 656 1118.46> 2689 121<155.974 394.782>
 AnchorPoint: "N" 1373 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 2122 1008 m 2x3e70
@@ -10703,7 +10960,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "pstspostbasesubstitution subtable" u0BB7 u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB8
@@ -10717,6 +10974,7 @@ AnchorPoint: "V" 1169 1306 basechar 0
 AnchorPoint: "R" 2198 1201 exit 0
 AnchorPoint: "N" 1169 -3 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1994 1197 m 0x77c0
@@ -10763,6 +11021,7 @@ VStem: 10 96<338.52 878.442> 546 221<263.74 590.105> 1052 214<0 1049.34> 1652 21
 AnchorPoint: "V" 1169 1306 basechar 0
 AnchorPoint: "N" 1169 -3 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 2093 1629 m 0x7ff0
@@ -10801,7 +11060,7 @@ SplineSet
  193 706 127 614 106 546 c 1
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_2 subtable" u0BB8 u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB8_u0BC0
@@ -10814,6 +11073,7 @@ VStem: 10 96<338.52 878.442> 546 221<263.74 590.105> 1052 214<0 1049.34> 1652 21
 AnchorPoint: "V" 1169 1306 basechar 0
 AnchorPoint: "N" 1169 -3 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 2636 647 m 0xbffc
@@ -10863,7 +11123,7 @@ SplineSet
  2480 1900 2413 1817 2413 1715 c 0
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_4 subtable" u0BB8 u0BC0
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB8_u0BCD
@@ -10875,6 +11135,7 @@ HStem: 0 100<1984.92 2319.96> 2 169<259.95 464.827> 706 142<203.759 436.316> 108
 VStem: 10 96<338.52 878.442> 546 221<263.74 590.105> 1006 326<1554.41 1773.59> 1052 214<0 1049.34> 1652 215<280.103 1081.32> 2523 114<333.74 832.756>
 AnchorPoint: "N" 1169 -3 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 2637 647 m 0xb770
@@ -10916,7 +11177,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "pstspostbasesubstitution subtable" u0BB8 u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB8_u0BCD_u0BB0_u0BC0
@@ -10928,6 +11189,7 @@ HStem: -716 101<767.807 1616.45> -174 73<278.317 840.455> 2 86<218 819> 3 102<16
 VStem: 3 215<88 1292> 41 95<-457.032 -269.189> 819 217<88 1101.57> 1420 102<262.598 781.47> 1961 212<243.501 808.765> 2043 112<1372.11 1671.11> 2479 230<-173.187 1189> 2666 90<1605.42 1853.93> 3123 171<1608.33 1851.7>
 AnchorPoint: "N" 1275 -760 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 2756 1724 m 0xce63
@@ -10996,6 +11258,7 @@ AnchorPoint: "V" 1500 1306 basechar 0
 AnchorPoint: "R" 2635 1229 exit 0
 AnchorPoint: "N" 1500 -343 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 2349 1146 m 1xb5f8
@@ -11053,6 +11316,7 @@ VStem: 178 89<361.644 888.201> 662 195<315.15 623.798> 1206 178<363.042 858.583>
 AnchorPoint: "V" 1500 1306 basechar 0
 AnchorPoint: "N" 1500 -343 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 267 579 m 1xd3fe
@@ -11106,7 +11370,7 @@ SplineSet
  2578 1412 2596 1351 2632 1290 c 1xb7fe
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_2 subtable" u0BB9 u0BBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB9_u0BC0
@@ -11119,6 +11383,7 @@ VStem: 180 87<360.644 886.201> 662 197<314.15 622.798> 1208 178<361.042 856.583>
 AnchorPoint: "V" 1500 1306 basechar 0
 AnchorPoint: "N" 1500 -343 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 267 579 m 1xd3f080
@@ -11177,7 +11442,7 @@ SplineSet
  2991 1906 2920 1827 2920 1722 c 0x93f280
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_4 subtable" u0BB9 u0BC0
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BB9_u0BCD
@@ -11189,6 +11454,7 @@ HStem: -343 127<347.644 2078.58> 86 156<389.575 590.095> 87 99<1235 1751> 722 12
 VStem: 6 227<-668.512 -439.76> 179 87<362.144 888.201> 661 197<315.65 624.298> 1207 178<363.042 858.583> 1337 326<1560.41 1779.59> 1751 103<186 1138.72> 2183 214<88 1105.12> 2898 212<253.976 943.887>
 AnchorPoint: "N" 1500 -343 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 2349 1146 m 1xb6ee
@@ -11240,7 +11506,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "pstspostbasesubstitution subtable" u0BB9 u0BCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0BBE
@@ -11252,6 +11518,7 @@ HStem: 0 21G<1 101 429 646> 1190 100<101 429 646 933>
 VStem: 1 100<0 1190> 429 217<0 1190>
 AnchorPoint: "N" 467 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 429 0 m 1
@@ -11278,6 +11545,7 @@ HStem: -1 21G<56 142> 1948 194<-663.289 -158.549>
 VStem: -1017 111<1344.86 1708.89> 56 86<-1 1720.86>
 AnchorPoint: "N" -437.5 1922.49 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -422 1948 m 0
@@ -11304,6 +11572,7 @@ HStem: 1449 90<-620.633 -387.502> 1979 171<-914.276 -657.782>
 VStem: -1208 115<1436.54 1775.56> -776 92<1602.67 1854.58> -319 171<1605.18 1854.11>
 AnchorPoint: "N" -678 1449.64 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -684 1724 m 0
@@ -11336,6 +11605,7 @@ VStem: 179 76<1009.38 1188> 529 156<1008.08 1257.5>
 AnchorPoint: "R" -300 1250 entry 0
 AnchorPoint: "N" 178 874.873 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 416 867 m 0
@@ -11363,6 +11633,7 @@ VStem: 179 73<1016.97 1184 1290 1387.18> 195 25<810.179 819.336> 526 159<1007.54
 AnchorPoint: "R" -300 1250 entry 0
 AnchorPoint: "N" 430.27 566.583 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 220 830 m 1xf7
@@ -11402,6 +11673,7 @@ HStem: 1 103<501.7 649 728.181 949.506> 771 156<725.41 1031.18> 1864 215<667.899
 VStem: -1 100<627.381 1266.29> 484 104<267.988 628.261> 1131 212<295.264 665.514> 1716 85<-1 1334.83>
 AnchorPoint: "N" 900 1 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 588 454 m 0
@@ -11436,6 +11708,7 @@ HStem: 1 145<585.962 804 898.285 1093.86> 666 144<904.523 1203.75> 1299 134<905.
 VStem: -1 87<704.993 1395.54> 712 93<248.426 571.043 1528.88 1850.21> 1285 232<310.405 589.972 1510.94 1787.95>
 AnchorPoint: "N" 758 1 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 875 1 m 0
@@ -11475,6 +11748,7 @@ HStem: 0 101<1174.69 1402.24> 1 170<237.367 457.09> 706 141<193.152 433.347> 118
 VStem: 1 100<313.372 726.302> 541 215<263.543 589.605> 962 98<258.879 777.409> 1499 215<236.57 807.603> 2206 214<368.77 864.454>
 AnchorPoint: "N" 1210.5 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1x7f80
@@ -11519,6 +11793,7 @@ Flags: HW
 HStem: -7 207<2749.43 2871.51> 0 21<3642 3742 4070 4287> 1 103<501.7 649 728.181 949.506> 75 194<2463.29 2595.95 3013.08 3146.7> 283 170<2251.58 2401.83 3211.08 3362.12> 560 168<2171.96 2350.33 3264.53 3437.89> 771 156<725.41 1031.18> 826 176<2257.04 2407.12 3203.05 3347.21> 1017 202<2472.65 2597.69 3013.19 3134.38> 1074 208<2751.71 2873.58> 1190 100<3742 4070 4287 4574> 1864 215<667.899 1201.02>
 VStem: -1 100<627.381 1266.29> 484 104<267.988 628.261> 1131 212<295.264 665.514> 1716 85<-1 1334.83> 2161 205<580.523 709.708> 2242 191<312.859 442.608 843.805 978.093> 2446 170<95.2394 253 1042.06 1194.29> 2725 172<6.54825 178.852 1095.52 1268.15> 2997 177<88.9846 238.467 1056.79 1203.41> 3181 195<311.56 438.058 858.653 984.55> 3242 212<586.125 704.144> 3642 100<0 1190> 4070 217<0 1190>
 LayerCount: 2
+Back
 Fore
 Refer: 265 3014 N 1 0 0 1 0 0 0
 Refer: 290 9676 N 1 0 0 1 2093 0 0
@@ -11533,6 +11808,7 @@ Flags: HW
 HStem: -7 207<2491.43 2613.51> 0 21<3384 3484 3812 4029> 1 145<585.962 804 898.285 1093.86> 75 194<2205.29 2337.95 2755.08 2888.7> 283 170<1993.58 2143.83 2953.08 3104.12> 560 168<1913.96 2092.33 3006.53 3179.89> 666 144<904.523 1203.75> 826 176<1999.04 2149.12 2945.05 3089.21> 1017 202<2214.65 2339.69 2755.19 2876.38> 1074 208<2493.71 2615.58> 1190 100<3484 3812 4029 4316> 1299 134<905.347 1207.23> 1965 143<595.253 804>
 VStem: -1 87<704.993 1395.54> 712 93<248.426 571.043 1528.88 1850.21> 1285 232<310.405 589.972 1510.94 1787.95> 1903 205<580.523 709.708> 1984 191<312.859 442.608 843.805 978.093> 2188 170<95.2394 253 1042.06 1194.29> 2467 172<6.54825 178.852 1095.52 1268.15> 2739 177<88.9846 238.467 1056.79 1203.41> 2923 195<311.56 438.058 858.653 984.55> 2984 212<586.125 704.144> 3384 100<0 1190> 3812 217<0 1190>
 LayerCount: 2
+Back
 Fore
 Refer: 266 3015 N 1 0 0 1 0 0 0
 Refer: 290 9676 N 1 0 0 1 1835 0 0
@@ -11547,6 +11823,7 @@ Flags: HW
 HStem: -7 207<2749.43 2871.51> -2 174<3893.05 4100.36> 1 103<501.7 649 728.181 949.506> 75 194<2463.29 2595.95 3013.08 3146.7> 283 170<2251.58 2401.83 3211.08 3362.12> 560 168<2171.96 2350.33 3264.53 3437.89> 705 139<3837.53 4071.82> 771 156<725.41 1031.18> 826 176<2257.04 2407.12 3203.05 3347.21> 1017 202<2472.65 2597.69 3013.19 3134.38> 1074 208<2751.71 2873.58> 1185 102<4044.35 4493.84 4900 5233 5447 5734> 1864 215<667.899 1201.02>
 VStem: -1 100<627.381 1266.29> 484 104<267.988 628.261> 1131 212<295.264 665.514> 1716 85<-1 1334.83> 2161 205<580.523 709.708> 2242 191<312.859 442.608 843.805 978.093> 2446 170<95.2394 253 1042.06 1194.29> 2725 172<6.54825 178.852 1095.52 1268.15> 2997 177<88.9846 238.467 1056.79 1203.41> 3181 195<311.56 438.058 858.653 984.55> 3242 212<586.125 704.144> 3644 100<343.536 877.359> 4183 218<261.693 592.308> 4686 214<-3 1011.31> 4817 83<1045 1187> 5233 214<-2 1187>
 LayerCount: 2
+Back
 Fore
 Refer: 265 3014 N 1 0 0 1 0 0 0
 Refer: 290 9676 S 1 0 0 1 2093 0 0
@@ -11555,18 +11832,19 @@ EndChar
 
 StartChar: u0BCD
 Encoding: 271 3021 271
-Width: 28
+Width: 0
 GlyphClass: 3
 Flags: HW
 HStem: 1506 326<-1446.84 -1227.82>
 VStem: -1500 324<1560.03 1780.29>
 AnchorPoint: "V" -1338 1306 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -1339 1506 m 0
  -1435 1506 -1500 1588 -1500 1669 c 0
- -1500 1757 -1434 1832 -1339 1832 c 4
+ -1500 1757 -1434 1832 -1339 1832 c 0
  -1245 1832 -1176 1756 -1176 1669 c 0
  -1176 1579 -1251 1506 -1339 1506 c 0
 EndSplineSet
@@ -11581,6 +11859,7 @@ HStem: -2 174<252.054 459.361> 705 139<196.534 430.816> 1185 102<403.353 852.842
 VStem: 3 100<343.536 877.359> 542 218<261.693 592.308> 1045 214<-3 1011.31> 1176 83<1045 1187> 1592 214<-2 1187>
 AnchorPoint: "N" 1160 -40 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 542 435 m 0xf9
@@ -11619,6 +11898,7 @@ Flags: W
 HStem: 203 115<419.345 705.487> 963 115<348.028 643.974>
 VStem: 103 127<508.684 829.631> 810 127<449.562 785.572>
 LayerCount: 2
+Back
 Fore
 SplineSet
 103 615 m 0
@@ -11643,6 +11923,7 @@ Flags: W
 HStem: 91 85<269.018 593.04 903.208 1142.49> 667 87<244.141 325 401 704 864 1106.56> 1126 77<401 704 864 1118>
 VStem: 91 72<288.118 570.737> 325 76<754 1126> 704 160<266.116 667 754 1126> 1229 147<256.322 564.16>
 LayerCount: 2
+Back
 Fore
 SplineSet
 91 451 m 0
@@ -11685,6 +11966,7 @@ Flags: W
 HStem: 86 72<249.887 1664.98> 300 133<479.667 882.971> 300 99<244.642 509> 1130 63<388.11 775.115>
 VStem: 88 150<168.112 289.677> 89 91<658.616 978.535> 1012 147<574.87 939.562>
 LayerCount: 2
+Back
 Fore
 SplineSet
 340 300 m 2xb6
@@ -11722,6 +12004,7 @@ Flags: W
 HStem: 86 78<474 797.982 932 1377> 735 107<656.29 864.409> 1131 72<164 476 627 930>
 VStem: 90 74<86 1131> 476 151<420 705.828 763 1131> 932 150<311.202 662.347>
 LayerCount: 2
+Back
 Fore
 SplineSet
 788 842 m 0
@@ -11759,6 +12042,7 @@ Flags: W
 HStem: 92 85<271.546 586.557> 668 87<242.141 323 399 702 862 1320> 1126 78<399 702 862 1116>
 VStem: 89 73<289.118 575.541> 323 76<754 1126> 702 160<267.5 668 755 1126> 1320 84<755 1207>
 LayerCount: 2
+Back
 Fore
 SplineSet
 702 754 m 1
@@ -11799,6 +12083,7 @@ Flags: W
 HStem: -263 78<569.308 1056.48> 676 114<1048.54 1287.88> 1122 80<597 867 1015 1267>
 VStem: 86 80<279.618 822.277> 523 74<113 1122> 867 148<113 651.581 711 1122> 1402 149<112.621 539.813>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1210 790 m 0
@@ -11838,6 +12123,7 @@ Flags: W
 HStem: 91 86<273.546 593.437> 668 86<247.956 324 402 705 863 1118 1195 1473 1621 1796> 1126 77<402 705 863 1120>
 VStem: 90 75<288.618 575.041> 324 78<754 1126> 705 158<272.46 667 754 1126> 1118 77<129 667> 1473 148<129 668>
 LayerCount: 2
+Back
 Fore
 SplineSet
 478 91 m 0
@@ -11884,6 +12170,7 @@ Flags: W
 HStem: 102 139<278.513 490.758> 704 118<237.627 469.034> 1115 88<431.047 1022 1171 1445>
 VStem: 86 75<362.201 847.781> 558 147<315.058 609.978> 1022 149<100 1115>
 LayerCount: 2
+Back
 Fore
 SplineSet
 558 470 m 0
@@ -11917,6 +12204,7 @@ Flags: W
 HStem: 88 76<338.019 774.529> 431 77<103.007 713 779.793 1097 1316 1575> 1100 93<707.205 1034.28>
 VStem: 14 89<324.623 430.084> 502 100<696.166 999.072> 1201 152<532.587 915.254> 1575 148<-100 430 508 1203>
 LayerCount: 2
+Back
 Fore
 SplineSet
 884 1193 m 0
@@ -11961,6 +12249,7 @@ Flags: W
 HStem: 91 87<264.345 590.937> 283 91<1157.27 1355.81> 669 86<242.141 323 398 701 862 1077 1226 1362.82> 816 106<1247.65 1567.48> 1127 76<398 701 862 1119>
 VStem: 89 72<289.118 575.541> 323 75<755 1127> 701 161<272.46 667 755 1126> 1053 71<417.253 648.287> 1398 113<414.905 634.119> 1671 107<421.475 707.493>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1116 754 m 1
@@ -12014,6 +12303,7 @@ Flags: W
 HStem: 87 86<240.207 445.947 746.456 977.851> 1471 153<392.042 588.699>
 VStem: 91 74<266.108 1203> 513 148<265.727 1203> 1113 148<368.221 1022.2>
 LayerCount: 2
+Back
 Fore
 SplineSet
 376 1561 m 0
@@ -12050,6 +12340,7 @@ Flags: W
 HStem: 1103 99<289.351 550.183> 1129 73<681 1033 1183 1415>
 VStem: 90 148<86 1050.16> 606 75<86 1034.82> 1033 150<86 1128>
 LayerCount: 2
+Back
 Fore
 SplineSet
 409 1103 m 0xb8
@@ -12083,6 +12374,7 @@ Flags: W
 HStem: -320 121<671.922 1399.54> -304 131<431.239 1109.5> 86 98<273.264 602.681 1134.07 1332.34> 453 78<1131.38 1346> 670 86<245.956 322 398 701 861 1384 1463 1778> 1126 79<398 701 861 1118>
 VStem: 88 73<285.419 572.237> 322 76<754 1126> 701 160<268.5 668 756 1126> 1016 86<220.072 425.276> 1384 79<243.46 337 498 670> 1539 104<-67.5521 296.395>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1381 385 m 1x3ff0
@@ -12142,6 +12434,7 @@ Flags: W
 HStem: 7 100<216 544 757 1165.19> 1168 126<931.197 1126.09> 1337 90<1134.87 1337.41> 1404 21G<1640 1799> 1728 72<965.786 1064 1117.17 1128.14 1188 1302.66> 1879 66<1253.6 1544.87 1857.46 2060>
 VStem: 1 215<107 1297> 544 213<107 1060.14> 786 76<1380.18 1637.57> 1039 60<1477.57 1709.56> 1343 105<344.678 896.116> 1372 110<1462.5 1670.67> 1640 159<1404 1805.12>
 LayerCount: 2
+Back
 Fore
 SplineSet
 1453 1945 m 0xefe8
@@ -12197,6 +12490,7 @@ Flags: W
 HStem: -715 97<1195.39 2036.2> -2 174<593.056 805.344> 0 99<1521 2085> 287 75<3796.66 4009.83> 636 136<2784.93 3036.15> 707 138<539.223 776.926> 1187 100<753.745 1191.31 2183 2512 2730 3017> 1719 101<1292.45 2145.93>
 VStem: 9 91<182.981 909.75> 353 95<313.274 880.719> 886 222<261.065 587.631> 1495 203<327.912 844.073> 2085 98<99 1190> 2512 215<0 599.327 674 1189> 3156 218<-9.33117 494.641> 3581 140<516.001 1168.73> 4115 139<503.293 917.511>
 LayerCount: 2
+Back
 Fore
 SplineSet
 448 547 m 1xd7ff80
@@ -12263,6 +12557,7 @@ Flags: W
 HStem: 1 100<1148 1322.27 1947 2683 3065 3350> 2 169<237.367 457.09> 706 142<193.152 433.347> 1124 166<2592.9 2829.18> 1188 101<545.268 1050.45>
 VStem: 1 100<313.872 726.802> 541 215<259.337 590.105> 989 99<171.317 630.396> 1414 213<252.823 798.092> 1889 216<232.259 648.909> 2326 124<539.634 961.911> 2865 200<-616 1 87 1085.12>
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 546 m 1x67f0
@@ -12321,6 +12616,7 @@ Flags: W
 HStem: -542 104<634.343 1219.45> 0 21G<545 645 975 1189> 643 131<1243.34 1480.51> 1190 100<645 975 1190 1477> 1238 100<2678 3063> 1789 131<756.812 1375.28> 1812 121<2166.38 2409.53>
 VStem: 0 102<177.542 946.573> 545 100<0 1190> 975 214<7 609.806 675 1190> 1617 216<-85.8298 468.545> 1862 92<1237 1359.77> 2590 99<1339.29 1599.39>
 LayerCount: 2
+Back
 Fore
 SplineSet
 102 513 m 0xe5f8
@@ -12371,6 +12667,7 @@ VStem: 68 205<580.523 709.708> 149 191<312.859 442.608 843.805 978.093> 353 170<
 AnchorPoint: "N" 649 -3 basechar 0
 AnchorPoint: "V" 653 1284 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 930 1219 m 0x3c70
@@ -12445,6 +12742,8 @@ Width: 0
 GlyphClass: 1
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: uni200C
@@ -12453,6 +12752,8 @@ Width: 0
 GlyphClass: 1
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: uni200B
@@ -12461,6 +12762,8 @@ Width: 0
 GlyphClass: 1
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: uni2060
@@ -12469,6 +12772,8 @@ Width: 0
 GlyphClass: 1
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: uni00A0
@@ -12477,6 +12782,8 @@ Width: 1433
 GlyphClass: 1
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: u0B95_u0BC2
@@ -12489,6 +12796,7 @@ VStem: 5 100<216.378 547.24> 266 98<749 1192> 694 216<211.154 646 749 1192> 984 
 AnchorPoint: "V" 731.5 1306 basechar 0
 AnchorPoint: "N" 731.5 9.92431 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 910 749 m 1xdfc0
@@ -12536,7 +12844,7 @@ SplineSet
  319 649 l 2
 EndSplineSet
 Ligature2: "sub_ligature_pststaml_8 subtable" u0B95 u0BC2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0B95_u0BC2.alt
@@ -12546,6 +12854,7 @@ Flags: W
 HStem: -2 101<231.869 558.39 1132.5 1322.65 1842 2301> 649 100<202.919 266 364 694 910 1100> 715 117<1359.06 1720.58> 1192 100<364 694 910 1197>
 VStem: 5 100<216.378 547.24> 266 98<749 1192> 694 216<211.154 646 749 1192> 984 99<149.252 520.043> 1385 155<165.885 517.328> 1840 215<299.263 594.424>
 LayerCount: 2
+Back
 Fore
 SplineSet
 910 749 m 1xdfc0
@@ -12595,12 +12904,13 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: u0BBC
-Encoding: 297 3004 298
+StartChar: u0BBC.double
+Encoding: 297 -1 298
 Width: 0
 Flags: HW
 AnchorPoint: "N" -905 -500 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -833 -811 m 0x9f50
@@ -12614,12 +12924,12 @@ SplineSet
  -977 -909 -1052 -982 -1140 -982 c 0
  -1228 -982 -1302 -908 -1302 -819 c 0x9f50
 EndSplineSet
-Comment: "This glyph is added for the JK and BK script. Used only by the Graphite rendering engine. Hopefully will get added to Unicode someday " 
+Comment: "This glyph is added for the JK and BK script. Used only by the Graphite rendering engine. Hopefully will get added to Unicode someday "
 EndChar
 
-StartChar: u0BBC.alt
+StartChar: u0BBC.ring
 Encoding: 298 -1 299
-Width: 1835
+Width: 0
 Flags: HW
 AnchorPoint: "N" -904.5 -500 mark 0
 LayerCount: 2
@@ -12651,9 +12961,9 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0BBC.alt2
-Encoding: 299 -1 300
-Width: 1835
+StartChar: u0BBC
+Encoding: 299 3004 300
+Width: 0
 Flags: HW
 AnchorPoint: "N" -904.5 -500 mark 0
 LayerCount: 2
@@ -12685,6 +12995,7 @@ Encoding: 300 -1 301
 Width: 1463
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 162 49 m 0
