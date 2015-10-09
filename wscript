@@ -33,12 +33,13 @@ stylesName = ('Regular', 'Bold')
 
 # set build parameters
 fontbase = 'source/'
+tag = script.upper()
 
 create('master.sfd', cmd("../tools/ffaddapstotaml ${SRC} ${TGT}", ["source/master_src.sfd"]))
 for f in faces :
     for (s, sn) in zip(styles, stylesName):
-        font(target = process(script.title() + f + s + '.ttf',
-                name(script.upper() + ' ' + f, lang='en-US', subfamily=(sn))
+        font(target = process(tag + f + '-' + sn + '.ttf',
+                name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + s + '.sfd',
             # sfd_master = 'master.sfd',
