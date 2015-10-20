@@ -38,7 +38,7 @@ tag = script.upper()
 create('master.sfd', cmd("../tools/ffaddapstotaml ${SRC} ${TGT}", ["source/master_src.sfd"]))
 for f in faces :
     for (s, sn) in zip(styles, stylesName):
-        font(target = process(tag + f + '-' + sn + '.ttf',
+        font(target = process(tag + f + '-' + sn.replace(' ', '') + '.ttf',
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + s + '.sfd',
