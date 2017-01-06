@@ -65,8 +65,8 @@ table(glyph)
 endtable;
 
 #define opt2(x) [x x?]?
-#define CLUS1 [clig0BCD g0bbc?]?
-#define CLUS2 [allCons g0bbc? g0bcd g200c?]?
+#define CLUS1 [clig0BCD g1133c?]?
+#define CLUS2 [allCons g1133c? g0bcd g200c?]?
 #define CLUSINI CLUS1 CLUS2 CLUS1 CLUS2
 
 /* Substitution rules start here */
@@ -75,44 +75,44 @@ table(substitution)
 
 pass(1)
 // Basic ligatures before reordering
-    cligno_0BB7 g0bcd g0bb7 > clig0BB7:(1 3 4) _ _ / ^ _ g0bbc? _ _;
-    g0bb8 g0bcd g0bb0 g0bc0 > g0bb8_0bcd_0bb0_0bc0:(1 v c m) _ _ _ / _ g0bbc? _=v _=c g0bbc? _=m;
+    cligno_0BB7 g0bcd g0bb7 > clig0BB7:(1 3 4) _ _ / ^ _ g1133c? _ _;
+    g0bb8 g0bcd g0bb0 g0bc0 > g0bb8_0bcd_0bb0_0bc0:(1 v c m) _ _ _ / _ g1133c? _=v _=c g1133c? _=m;
 // Complain about cons halant vowel
-//    _ > g25cc / allCons g0bbc? g0bcd _ cMatra;
+//    _ > g25cc / allCons g1133c? g0bcd _ cMatra;
 endpass;
 
-#define reorder(x) _ split_base > split1$a:a split2$a:a / _ x g0bbc? g0bcd? _=a;\
-     _ cReOrder > @a _ / _ x g0bbc? g0bcd? _=a;\
-     _ _ cReOrder g0bbc > @a @b _ _ / _ _ x g0bbc? g0bcd? _=a _=b; 
+#define reorder(x) _ split_base > split1$a:a split2$a:a / _ x g1133c? g0bcd? _=a;\
+     _ cReOrder > @a _ / _ x g1133c? g0bcd? _=a;\
+     _ _ cReOrder g1133c > @a @b _ _ / _ _ x g1133c? g0bcd? _=a _=b; 
 
 pass(2)
 // Reordered (including split) vowel matras
     reorder(g0b95_0bb7)
 //    reorder(g0b95 g0bcd g0bb6)    // there is no g0bb6 in the fonts
-    reorder(g0bb8 g0bbc? g0bcd g0bb0)
+    reorder(g0bb8 g1133c? g0bcd g0bb0)
     reorder(cCons)
     reorder(clig0BCD)
 endpass;
 
 pass(3)
 // Reordered vowel ligatures
-    g0bbc g0bbc > g0bbc:(1 2) _ / ^ _ _;
+    g1133c g1133c > g1133c:(1 2) _ / ^ _ _;
     g0bc8 cligno_0BC8 > _ clig0BC8:(1 2);
-    cligno_0BBE g0bbe > clig0BBE:(1 3) _ / _ g0bbc? _;
-    cligno_0BBF g0bbf > clig0BBF:(1 3) _ / _ g0bbc? _;
-    cligno_0BC0 g0bc0 > clig0BC0:(1 3) _ / _ g0bbc? _;
-    cligno_0BC1 g0bc1 > clig0BC1:(1 3) _ / _ g0bbc? _;
-    cligno_0BC2 g0bc2 > clig0BC2:(1 3) _ / _ g0bbc? _;
-//  cligno_0BCD g0bcd > clig0BCD:(1 3) _ / _ g0bbc? _;
+    cligno_0BBE g0bbe > clig0BBE:(1 3) _ / _ g1133c? _;
+    cligno_0BBF g0bbf > clig0BBF:(1 3) _ / _ g1133c? _;
+    cligno_0BC0 g0bc0 > clig0BC0:(1 3) _ / _ g1133c? _;
+    cligno_0BC1 g0bc1 > clig0BC1:(1 3) _ / _ g1133c? _;
+    cligno_0BC2 g0bc2 > clig0BC2:(1 3) _ / _ g1133c? _;
+//  cligno_0BCD g0bcd > clig0BCD:(1 3) _ / _ g1133c? _;
 endpass;
 
 if (nuka != single)
 pass(4)
 
 if (nuka == double)
-    g0bbc > g0bbc_double;
+    g1133c > g1133c_double;
 else if (nuka == ring)
-    g0bbc > g0bbc_ring;
+    g1133c > g1133c_ring;
 endif
 
 endpass;

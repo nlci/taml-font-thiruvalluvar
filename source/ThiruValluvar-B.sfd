@@ -12590,7 +12590,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: u0BBC.double
+StartChar: u1133C.double
 Encoding: 297 -1 298
 Width: 0
 Flags: HW
@@ -12613,7 +12613,7 @@ EndSplineSet
 Comment: "This glyph is added for the JK and BK script. Used only by the Graphite rendering engine. Hopefully will get added to Unicode someday "
 EndChar
 
-StartChar: u0BBC.ring
+StartChar: u1133C.ring
 Encoding: 298 -1 299
 Width: 0
 Flags: HW
@@ -12647,8 +12647,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0BBC
-Encoding: 299 3004 300
+StartChar: u1133C
+Encoding: 299 70460 300
 Width: 0
 Flags: HW
 AnchorPoint: "N" -904.5 -500 mark 0
