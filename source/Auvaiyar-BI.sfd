@@ -52432,27 +52432,5 @@ SplineSet
 EndSplineSet
 Validated: 1
 EndChar
-StartChar: .notdef
-Encoding: 170 -1 0
-Width: 1024
-Flags: W
-HStem: 0 64<128 896> 1472 64<128 896>
-VStem: 64 64<64 1472> 896 64<64 1472>
-LayerCount: 2
-Fore
-SplineSet
-64 0 m 1
- 64 1536 l 1
- 960 1536 l 1
- 960 0 l 1
- 64 0 l 1
-896 64 m 1
- 896 1472 l 1
- 128 1472 l 1
- 128 64 l 1
- 896 64 l 1
-EndSplineSet
-Validated: 1
-EndChar
 EndChars
 EndSplineFont
