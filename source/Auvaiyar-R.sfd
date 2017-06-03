@@ -55593,14 +55593,6 @@ LayerCount: 2
 GlyphClass: 1
 
 EndChar
-StartChar: uni00A0
-Encoding: 160 160 296
-Width: 700
-Flags: W
-LayerCount: 2
-GlyphClass: 1
-
-EndChar
 StartChar: u0B95_u0BC2
 Encoding: 296 -1 297
 Width: 2695
