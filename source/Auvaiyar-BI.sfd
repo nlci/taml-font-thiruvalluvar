@@ -519,12 +519,13 @@ ShortTable: maxp 16
 EndShort
 LangName: 1033 "" "" "Bold Italic" "NLCI:TAM Auvaiyar Bold Italic" "" "1.0 Wed Feb 01 17:08:28 1995"
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -24
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 37 37 14
+WinInfo: 0 37 14
 AnchorClass2: "R" "'abvm' cursive-1"
 BeginChars: 65662 297
 
