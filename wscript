@@ -31,15 +31,22 @@ stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
 fontbase = 'source/'
 tag = script.upper()
 
-create('master.sfd', cmd("../tools/ffaddapstotaml ${SRC} ${TGT}", ["source/master_src.sfd"]))
+# create('master.sfd', cmd("../tools/ffaddapstotaml ${SRC} ${TGT}", ["source/master_src.sfd"]))
 for f in faces :
     for (s, sn) in zip(styles, stylesName):
+        if f == 'ThiruValluvar':
+            ot = f + s
+        else:
+            ot = 'additional_faces'
         font(target = process(tag + f + '-' + sn.replace(' ', '') + '.ttf',
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + s + '.sfd',
             # sfd_master = 'master.sfd',
-            opentype = internal(),
+            # opentype = internal(),
+            # sfd_master = 'source/master_src.sfd',
+            # opentype = fea(fontbase + 'master_src.fea', no_make = True),
+            opentype = fea(fontbase + ot + '.fea', no_make = True),
             graphite = gdl(fontbase + f + s + '.gdl',
                 master = fontbase + 'master.gdl',
                 make_params = '-l last -p 1',
@@ -52,6 +59,6 @@ for f in faces :
             license=ofl('ThiruValluvar', 'Auvaiyar', 'Vaigai', 'NLCI'),
             woff = woff(),
             script = 'taml',
-            extra_srcs = ['tools/ffaddapstotaml'],
+            # extra_srcs = ['tools/ffaddapstotaml'],
             fret = fret(params = '-r')
         )
