@@ -23,13 +23,9 @@ DEBPKG='fonts-nlci-' + script
 TESTSTRING=u'\u0c15'
 
 # set fonts to build
-#faces = ('ThiruValluvar', 'Auvaiyar', 'Vaigai')
-#styles = ('-R', '-B', '-I', '-BI')
-#stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
-
-faces = ('ThiruValluvar',)
-styles = ('-R', '-B')
-stylesName = ('Regular', 'Bold')
+faces = ('ThiruValluvar', 'Auvaiyar', 'Vaigai')
+styles = ('-R', '-B', '-I', '-BI')
+stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
 
 # set build parameters
 fontbase = 'source/'
