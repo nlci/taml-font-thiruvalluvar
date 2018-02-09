@@ -16,7 +16,7 @@ vgl, vgb, vgr, vgt = vg.boundingBox()
 vgw = (1 + dotmargin) * 0.5 * (vgr - vgl)
 
 addAnchorClass(f, 'N')
-for n in ('u0BBC', 'u0BBC.alt', 'u0BBC.alt2') :
+for n in ('u1133C.double', 'u1133C.ring', 'u1133C') :
     ng = f[n]     # nukta glyph
     xpos = xcentre(ng)
     ng.addAnchorPoint('N', 'mark', xpos, -500.)
