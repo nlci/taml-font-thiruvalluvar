@@ -12360,8 +12360,8 @@ Ligature2: "sub_ligature_pststaml_8 subtable" u0B95 u0BC2
 LCarets2: 1 0
 EndChar
 
-StartChar: u0BBC
-Encoding: 297 3004 297
+StartChar: u1133C.double
+Encoding: 297 -1 297
 Width: 0
 Flags: HW
 LayerCount: 2
@@ -12381,7 +12381,7 @@ EndSplineSet
 Comment: "This glyph is added for the JK and BK script. Used only by the Graphite rendering engine. Hopefully will get added to Unicode someday "
 EndChar
 
-StartChar: u0BBC.alt
+StartChar: u1133C.ring
 Encoding: 298 -1 298
 Width: 1835
 Flags: HW
@@ -12414,8 +12414,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0BBC.alt2
-Encoding: 299 -1 299
+StartChar: u1133C
+Encoding: 299 70460 299
 Width: 1835
 Flags: HW
 LayerCount: 2
