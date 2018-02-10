@@ -1,5 +1,12 @@
 # thiruvalluvar
 
+# command line options
+opts = preprocess_args(
+    {'opt' : '-l'}, # build fonts from legacy for inclusion into final fonts
+    {'opt' : '-p'}, # do not run psfix on the final fonts
+    {'opt' : '-s'}  # only build a single font
+    )
+
 # set folder names
 out='results'
 TESTDIR='tests'
@@ -27,8 +34,16 @@ faces = ('ThiruValluvar', 'Auvaiyar', 'Vaigai')
 styles = ('-R', '-B', '-I', '-BI')
 stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
 
+if '-s' in opts:
+    faces = (faces[0],)
+    # facesLegacy = (facesLegacy[0],)
+    styles = (styles[0],)
+    stylesName = (stylesName[0],)
+    # stylesLegacy = (stylesLegacy[0],)
+
 # set build parameters
 fontbase = 'source/'
+generated = 'generated/'
 tag = script.upper()
 
 # create('master.sfd', cmd("../tools/ffaddapstotaml ${SRC} ${TGT}", ["source/master_src.sfd"]))
@@ -47,17 +62,17 @@ for f in faces :
             # sfd_master = 'source/master_src.sfd',
             # opentype = fea(fontbase + 'master_src.fea', no_make = True),
             opentype = fea(fontbase + ot + '.fea', no_make = True),
-            graphite = gdl(fontbase + f + s + '.gdl',
+            graphite = gdl(generated + f + s + '.gdl',
                 master = fontbase + 'master.gdl',
                 make_params = '-l last -p 1',
                 params = '-d'
                 ),
             #classes = fontbase + 'thiruvalluvar_classes.xml',
-            ap = f + s + '.xml',
+            ap = generated + f + s + '.xml',
             version = TTF_VERSION,
             copyright = COPYRIGHT,
             license=ofl('ThiruValluvar', 'Auvaiyar', 'Vaigai', 'NLCI'),
-            woff = woff(),
+            woff = woff('web/' + tag + f + '-' + sn.replace(' ', '') + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
             script = 'taml',
             # extra_srcs = ['tools/ffaddapstotaml'],
             fret = fret(params = '-r')

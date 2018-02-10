@@ -74,6 +74,13 @@ endtable;
 table(substitution)
 
 pass(1)
+	// The following is a debugging tool so you can find out whether the app is rendering with Graphite or not.
+	// The string "RenderingUnknown" will be rendered as "RenderingGraphite":
+    // codepoint("U") > codepoint("G");
+    codepoint("U") codepoint("n") codepoint("k") codepoint("n") codepoint("o") codepoint("w") codepoint("n") _               >
+    codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codepoint("i") codepoint("t") codepoint("e"):16  /
+        codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
+
 // Basic ligatures before reordering
     cligno_0BB7 g0bcd g0bb7 > clig0BB7:(1 3 4) _ _ / ^ _ g1133c? _ _;
     g0bb8 g0bcd g0bb0 g0bc0 > g0bb8_0bcd_0bb0_0bc0:(1 v c m) _ _ _ / _ g1133c? _=v _=c g1133c? _=m;
