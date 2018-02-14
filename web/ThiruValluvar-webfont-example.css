@@ -14,7 +14,7 @@ of the license along with this Font Software. If this is not the case, go to
 /* use ThiruValluvar - Regular in .woff format */
 @font-face {
   font-family: ThiruValluvarW;
-  src: url(TAMLThiruValluvar-Regular.woff);
+  src: url(TAMLThiruValluvar-Regular.ttf);
 }
 
 /* set body to use ThiruValluvar in .woff format */
@@ -25,13 +25,13 @@ body {
 
 .cv010 {
   font-family: ThiruValluvarW;
-  -moz-font-feature-settings: "cv01" 0; font-size: 200%;
+  font-feature-settings: "cv01" 0; font-size: 200%;
 }
 .cv011 {
   font-family: ThiruValluvarW;
-  -moz-font-feature-settings: "cv01" 1; font-size: 200%;
+  font-feature-settings: "cv01" 1; font-size: 200%;
 }
 .cv012 {
   font-family: ThiruValluvarW; 
-  -moz-font-feature-settings: "cv01" 2; font-size: 200%;
+  font-feature-settings: "cv01" 2; font-size: 200%;
 }
