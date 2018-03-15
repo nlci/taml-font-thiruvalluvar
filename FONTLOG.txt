@@ -10,6 +10,13 @@ Basic Font Information
 
 Pan Tamil font designed to support all the languages using the Tamil script.
 
+U+0B82 needs to have the lower dots removed.
+U+0BB6 need major changes.
+U+0BD0 needs to be slightly visually changed.
+U+0BF3 needs to have right sten removed.
+U+0BF7 needs a curl at the top.
+U+0BFA needs a curl at the top.
+
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
