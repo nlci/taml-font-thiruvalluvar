@@ -52,6 +52,7 @@ if '-s' in opts:
 
 # set build parameters
 fontbase = 'source/'
+archive = fontbase + 'archive/'
 generated = 'generated/'
 tag = script.upper()
 
@@ -63,14 +64,19 @@ hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 if '-l' in opts:
     for f, fLegacy in zip(faces, facesLegacy):
         for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
-            gentium = '../../../../latn/fonts/gentium_local/basic/1.102/zip/GenBkBas' + s.replace('-', '') + '.ttf'
-            font(target = process(f + '-' + sn.replace(' ', '') + '.ttf',
+            extra = '../' + archive + 'VAIG' + sLegacy + '.ttf'
+            missing_face = fLegacy
+            if missing_face == 'AUVA':
+                missing_face = 'THIR'
+            missing = '../' + archive + missing_face + sLegacy + '.ttf'
+            font(target = process('ufo/' + f + '-' + sn.replace(' ', '') + '.ttf',
                     cmd('cp ${DEP} ${TGT}'),
+                    name(f, lang='en-US', subfamily=(sn))
                     ),
                 source = legacy(f + s + '.ttf',
-                                source = fontbase + 'archive/' + fLegacy + sLegacy + '.ttf',
+                                source = archive + fLegacy + sLegacy + '.ttf',
                                 xml = fontbase + 'thiruvalluvar_unicode.xml',
-                                params = '-f ' + gentium,
+                                params = '-f ' + extra + ' -f ' + missing,
                                 noap = '')
                 )
 
