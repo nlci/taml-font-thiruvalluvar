@@ -1,6 +1,102 @@
 <?xml version="1.0"?>
 <font>
 <glyphs>
+<glyph UID='0020'><base UID='0020' font='1'/></glyph>
+<glyph UID='0021'><base UID='0021' font='1'/></glyph>
+<glyph UID='0022'><base UID='0022' font='1'/></glyph>
+<glyph UID='0023'><base UID='0023' font='1'/></glyph>
+<glyph UID='0024'><base UID='0024' font='1'/></glyph>
+<glyph UID='0025'><base UID='0025' font='1'/></glyph>
+<glyph UID='0026'><base UID='0026' font='1'/></glyph>
+<glyph UID='0027'><base UID='0027' font='1'/></glyph>
+<glyph UID='0028'><base UID='0028' font='1'/></glyph>
+<glyph UID='0029'><base UID='0029' font='1'/></glyph>
+<glyph UID='002A'><base UID='002A' font='1'/></glyph>
+<glyph UID='002B'><base UID='002B' font='1'/></glyph>
+<glyph UID='002C'><base UID='002C' font='1'/></glyph>
+<glyph UID='002D'><base UID='002D' font='1'/></glyph>
+<glyph UID='002E'><base UID='002E' font='1'/></glyph>
+<glyph UID='002F'><base UID='002F' font='1'/></glyph>
+<glyph UID='0030'><base UID='0030' font='1'/></glyph>
+<glyph UID='0031'><base UID='0031' font='1'/></glyph>
+<glyph UID='0032'><base UID='0032' font='1'/></glyph>
+<glyph UID='0033'><base UID='0033' font='1'/></glyph>
+<glyph UID='0034'><base UID='0034' font='1'/></glyph>
+<glyph UID='0035'><base UID='0035' font='1'/></glyph>
+<glyph UID='0036'><base UID='0036' font='1'/></glyph>
+<glyph UID='0037'><base UID='0037' font='1'/></glyph>
+<glyph UID='0038'><base UID='0038' font='1'/></glyph>
+<glyph UID='0039'><base UID='0039' font='1'/></glyph>
+<glyph UID='003A'><base UID='003A' font='1'/></glyph>
+<glyph UID='003B'><base UID='003B' font='1'/></glyph>
+<glyph UID='003C'><base UID='003C' font='1'/></glyph>
+<glyph UID='003D'><base UID='003D' font='1'/></glyph>
+<glyph UID='003E'><base UID='003E' font='1'/></glyph>
+<glyph UID='003F'><base UID='003F' font='1'/></glyph>
+<glyph UID='0040'><base UID='0040' font='1'/></glyph>
+<glyph UID='0041'><base UID='0041' font='1'/></glyph>
+<glyph UID='0042'><base UID='0042' font='1'/></glyph>
+<glyph UID='0043'><base UID='0043' font='1'/></glyph>
+<glyph UID='0044'><base UID='0044' font='1'/></glyph>
+<glyph UID='0045'><base UID='0045' font='1'/></glyph>
+<glyph UID='0046'><base UID='0046' font='1'/></glyph>
+<glyph UID='0047'><base UID='0047' font='1'/></glyph>
+<glyph UID='0048'><base UID='0048' font='1'/></glyph>
+<glyph UID='0049'><base UID='0049' font='1'/></glyph>
+<glyph UID='004A'><base UID='004A' font='1'/></glyph>
+<glyph UID='004B'><base UID='004B' font='1'/></glyph>
+<glyph UID='004C'><base UID='004C' font='1'/></glyph>
+<glyph UID='004D'><base UID='004D' font='1'/></glyph>
+<glyph UID='004E'><base UID='004E' font='1'/></glyph>
+<glyph UID='004F'><base UID='004F' font='1'/></glyph>
+<glyph UID='0050'><base UID='0050' font='1'/></glyph>
+<glyph UID='0051'><base UID='0051' font='1'/></glyph>
+<glyph UID='0052'><base UID='0052' font='1'/></glyph>
+<glyph UID='0053'><base UID='0053' font='1'/></glyph>
+<glyph UID='0054'><base UID='0054' font='1'/></glyph>
+<glyph UID='0055'><base UID='0055' font='1'/></glyph>
+<glyph UID='0056'><base UID='0056' font='1'/></glyph>
+<glyph UID='0057'><base UID='0057' font='1'/></glyph>
+<glyph UID='0058'><base UID='0058' font='1'/></glyph>
+<glyph UID='0059'><base UID='0059' font='1'/></glyph>
+<glyph UID='005A'><base UID='005A' font='1'/></glyph>
+<glyph UID='005B'><base UID='005B' font='1'/></glyph>
+<glyph UID='005C'><base UID='005C' font='1'/></glyph>
+<glyph UID='005D'><base UID='005D' font='1'/></glyph>
+<glyph UID='005E'><base UID='005E' font='1'/></glyph>
+<glyph UID='005F'><base UID='005F' font='1'/></glyph>
+<glyph UID='0060'><base UID='0060' font='1'/></glyph>
+<glyph UID='0061'><base UID='0061' font='1'/></glyph>
+<glyph UID='0062'><base UID='0062' font='1'/></glyph>
+<glyph UID='0063'><base UID='0063' font='1'/></glyph>
+<glyph UID='0064'><base UID='0064' font='1'/></glyph>
+<glyph UID='0065'><base UID='0065' font='1'/></glyph>
+<glyph UID='0066'><base UID='0066' font='1'/></glyph>
+<glyph UID='0067'><base UID='0067' font='1'/></glyph>
+<glyph UID='0068'><base UID='0068' font='1'/></glyph>
+<glyph UID='0069'><base UID='0069' font='1'/></glyph>
+<glyph UID='006A'><base UID='006A' font='1'/></glyph>
+<glyph UID='006B'><base UID='006B' font='1'/></glyph>
+<glyph UID='006C'><base UID='006C' font='1'/></glyph>
+<glyph UID='006D'><base UID='006D' font='1'/></glyph>
+<glyph UID='006E'><base UID='006E' font='1'/></glyph>
+<glyph UID='006F'><base UID='006F' font='1'/></glyph>
+<glyph UID='0070'><base UID='0070' font='1'/></glyph>
+<glyph UID='0071'><base UID='0071' font='1'/></glyph>
+<glyph UID='0072'><base UID='0072' font='1'/></glyph>
+<glyph UID='0073'><base UID='0073' font='1'/></glyph>
+<glyph UID='0074'><base UID='0074' font='1'/></glyph>
+<glyph UID='0075'><base UID='0075' font='1'/></glyph>
+<glyph UID='0076'><base UID='0076' font='1'/></glyph>
+<glyph UID='0077'><base UID='0077' font='1'/></glyph>
+<glyph UID='0078'><base UID='0078' font='1'/></glyph>
+<glyph UID='0079'><base UID='0079' font='1'/></glyph>
+<glyph UID='007A'><base UID='007A' font='1'/></glyph>
+<glyph UID='007B'><base UID='007B' font='1'/></glyph>
+<glyph UID='007C'><base UID='007C' font='1'/></glyph>
+<glyph UID='007D'><base UID='007D' font='1'/></glyph>
+<glyph UID='007E'><base UID='007E' font='1'/></glyph>
+
 <glyph PSName="space.taml"><base UID="F020"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="exclam.taml"><base UID="F021"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="quoteleft.taml"><base UID="F022"><scale x="1.4" y="1.4"/></base></glyph>
@@ -74,7 +170,7 @@
 <glyph PSName="u0B99_u0BC1"><base UID="F0D0"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="u0B99_u0BC2"><base UID="F0E2"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="u0B99_u0BCD"><base UID="F065"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName="u0B99_u0BCD.alt"><base UID="F096" font='1'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="u0B99_u0BCD.alt"><base UID="F096" font='2'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="u0B95_u0BB7"><base UID="F062"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="u0B95_u0BB7_u0BBF"><base UID="F0B7"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="u0B95_u0BB7_u0BC0"><base UID="F0CE"><scale x="1.4" y="1.4"/></base></glyph>
@@ -194,7 +290,7 @@
 <glyph PSName="u0BB5_u0BC1"><base UID="F0DC"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="u0BB5_u0BC2"><base UID="F0EE"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="u0BB5_u0BCD"><base UID="F071"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0BB6" PSName="u0BB6"><base UID="F056"><scale x="1.4" y="1.4"/></base><base UID="F09C" font='2'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0BB6" PSName="u0BB6"><base UID="F056"><scale x="1.4" y="1.4"/></base><base UID="F09C" font='3'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0BB7" PSName="u0BB7"><base UID="F060"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="u0BB7_u0BBF"><base UID="F0B5"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="u0BB7_u0BC0"><base UID="F0CC"><scale x="1.4" y="1.4"/></base></glyph>
@@ -221,9 +317,9 @@
 <glyph UID="0BCB" PSName="u0BCB"><base UID="F0FA"><scale x="1.4" y="1.4"/></base><base UID="F023"><scale x="1.4" y="1.4"/></base><base UID="F0F4"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0BCC" PSName="u0BCC"><base UID="F0F9"><scale x="1.4" y="1.4"/></base><base UID="F023"><scale x="1.4" y="1.4"/></base><base UID="F0FC"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0BCD" PSName="u0BCD"><base UID="F0F3"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName="u0BCD.bar"><base UID="F09A" font='2'><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName="u0BCD.dblbar"><base UID="F09C" font='2'><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0BD0" PSName="u0BD0"><base UID="F04A"><scale x="1.4" y="1.4"/></base><base UID="F09A" font='2'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="u0BCD.bar"><base UID="F09A" font='3'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="u0BCD.dblbar"><base UID="F09C" font='3'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0BD0" PSName="u0BD0"><base UID="F04A"><scale x="1.4" y="1.4"/></base><base UID="F09A" font='3'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0BD7" PSName="u0BD7"><base UID="F0FC"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0BE6" PSName="u0BE6"><base UID="F080"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0BE7" PSName="u0BE7"><base UID="F081"><scale x="1.4" y="1.4"/></base></glyph>
@@ -238,19 +334,19 @@
 <glyph UID="0BF0" PSName="u0BF0"><base UID="F08A"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0BF1" PSName="u0BF1"><base UID="F08B"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0BF2" PSName="u0BF2"><base UID="F08C"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0BF3" PSName="u0BF3"><base UID="F059"><scale x="1.4" y="1.4"/></base><base UID="F09A" font='2'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0BF3" PSName="u0BF3"><base UID="F059"><scale x="1.4" y="1.4"/></base><base UID="F09A" font='3'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0BF4" PSName="u0BF4"><base UID="F07C"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0BF5" PSName="u0BF5"><base UID="F07D"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0BF6" PSName="u0BF6"><base UID="F056"><scale x="1.4" y="1.4"/></base><base UID="F09C" font='2'><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0BF7" PSName="u0BF7"><base UID="F047"><scale x="1.4" y="1.4"/></base><base UID="F09A" font='2'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0BF6" PSName="u0BF6"><base UID="F056"><scale x="1.4" y="1.4"/></base><base UID="F09C" font='3'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0BF7" PSName="u0BF7"><base UID="F047"><scale x="1.4" y="1.4"/></base><base UID="F09A" font='3'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0BF8" PSName="u0BF8"><base UID="F092"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0BF9" PSName="u0BF9"><base UID="F07E"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0BFA" PSName="u0BFA"><base UID="F053"><scale x="1.4" y="1.4"/></base><base UID="F09A" font='2'><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName="xbar"><base UID="F097" font='1'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0BFA" PSName="u0BFA"><base UID="F053"><scale x="1.4" y="1.4"/></base><base UID="F09A" font='3'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="xbar"><base UID="F097" font='2'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="25CC" PSName="u25CC"><base UID="F023"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName="lowline"><base UID="F09B" font='2'><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName="u1133C.alt"><base UID="F093" font='1'><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName="u1133C.double.alt"><base UID="F094" font='1'><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName="u1133C.triple"><base UID="F095" font='1'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="lowline"><base UID="F09B" font='3'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="u1133C.alt"><base UID="F093" font='2'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="u1133C.double.alt"><base UID="F094" font='2'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="u1133C.triple"><base UID="F095" font='2'><scale x="1.4" y="1.4"/></base></glyph>
 </glyphs>
 </font>
