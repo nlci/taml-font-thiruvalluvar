@@ -16,6 +16,9 @@ U+0BD0 needs to be slightly visually changed.
 U+0BF3 needs to have right sten removed.
 U+0BF7 needs a curl at the top.
 U+0BFA needs a curl at the top.
+u0B99_u0BCD.alt in Auvaiyar needs to be copied from u0B99_u0BCD and then copy the ring-shaped pulli from u0B82.ring
+U+0B82 needs to have the ring from .ring replace the dot and then delete .ring
+u0B95_u0BC2.old in Auvaiyar needs to be redrawn to match the overall style.
 
 ChangeLog
 ---------

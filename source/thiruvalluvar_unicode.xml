@@ -143,8 +143,8 @@
 
 
 
-
-
+<glyph UID="0B82" PSName="u0B82"><base UID="F0F3"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="u0B82.ring"><base UID="F096" font='2'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0B83" PSName="u0B83"><base UID="F040"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0B85" PSName="u0B85"><base UID="F041"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0B86" PSName="u0B86"><base UID="F042"><scale x="1.4" y="1.4"/></base></glyph>
@@ -163,6 +163,7 @@
 <glyph PSName="u0B95_u0BC0"><base UID="F0B8"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="u0B95_u0BC1"><base UID="F0CF"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="u0B95_u0BC2"><base UID="F0E1"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="u0B95_u0BC2.old"><base UID="F0E1" font='3'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="u0B95_u0BCD"><base UID="F064"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0B99" PSName="u0B99"><base UID="F04D"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="u0B99_u0BBF"><base UID="F0A2"><scale x="1.4" y="1.4"/></base></glyph>
