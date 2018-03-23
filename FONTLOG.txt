@@ -10,7 +10,8 @@ Basic Font Information
 
 Pan Tamil font designed to support all the languages using the Tamil script.
 
-Known issues in the new sources:
+Known issues in the new sources
+-------------------------------
 U+0B82 needs to have the lower dots removed.
 U+0BB6 need major changes.
 U+0BD0 needs to be slightly visually changed.
@@ -20,7 +21,9 @@ U+0BFA needs a curl at the top.
 u0B99_u0BCD.alt in Auvaiyar needs to be copied from u0B99_u0BCD and then copy the ring-shaped pulli from u0B82.ring
 U+0B82 needs to have the ring from .ring replace the dot and then delete .ring
 u0B95_u0BC2.old in Auvaiyar needs to be redrawn to match the overall style.
-u03A9 needs to be encoded.
+u03A9 needs to be encoded in Auvaiyar
+U+20B9 needs to be made italic in the Italic and Bold Italic faces
+U+1CDC needs to be lowered, especially in ThiruValluvar
 
 ChangeLog
 ---------
@@ -41,3 +44,6 @@ N: Dev NLCI
 E: dev@nlife.in
 W: http://www.nlci.in/fonts/
 D: NLCI designers and font engineers
+
+N: Bobby de Vos
+D: Font engineer

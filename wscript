@@ -22,7 +22,7 @@ STANDARDS='tests/reference'
 # set meta-information
 script='taml'
 APPNAME='nlci-' + script
-VERSION='0.300'
+VERSION='0.301'
 COPYRIGHT='Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)'
 
 DESC_SHORT='Tamil Unicode font with OT and Graphite support'
@@ -64,10 +64,8 @@ hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 if '-l' in opts:
     for f, fLegacy in zip(faces, facesLegacy):
         for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
-            gentium = '../../../../latn/fonts/gentium_local/basic/1.102/zip/GenBkBas' + s.replace('-', '') + '.ttf'
-            charis = '../../../../latn/fonts/charis_local/5.000/zip/CharisSIL' + s + '.ttf'
-            # gentium = '../../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/GenBkBas' + s.replace('-', '') + '.ttf'
-            # charis = '../../../../latn/fonts/charis_local/5.000/zip/unhinted/CharisSIL' + s + '.ttf'
+            gentium = '../../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/GenBkBas' + s.replace('-', '') + '.ttf'
+            charis = '../../../../latn/fonts/charis_local/5.000/zip/unhinted/CharisSIL' + s + '.ttf'
             extra = '../' + archive + 'VAIG' + sLegacy + '.ttf'
             missing_face = fLegacy
             if missing_face == 'AUVA':
@@ -79,8 +77,7 @@ if '-l' in opts:
                     name(f, lang='en-US', subfamily=(sn))
                     ),
                 source = legacy(f + s + '.ttf',
-                                source = archive + fLegacy + sLegacy + '.ttf',
-                                # source = archive + 'unhinted/' + fLegacy + sLegacy + '.ttf',
+                                source = archive + 'unhinted/' + fLegacy + sLegacy + '.ttf',
                                 xml = fontbase + 'thiruvalluvar_unicode.xml',
                                 params = '-f ' + charis + ' -f ' + extra + ' -f ' + missing,
                                 noap = '')
@@ -102,11 +99,15 @@ for f in faces:
             ot = f + s
         else:
             ot = 'additional_faces'
+        if '-l' in opts:
+            style = s
+        else:
+            style = '-' + sn.replace(' ', '')
         font(target = process(fontfilename + '.ttf',
                 cmd(hackos2 + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
-            source = fontbase + f + s + '.sfd',
+            source = fontbase + f + style + '.sfd',
             # source = fontbase + f + '-' + sn.replace(' ', '') + '.sfd',
             # sfd_master = 'master.sfd',
             # opentype = internal(),
