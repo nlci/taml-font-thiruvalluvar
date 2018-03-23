@@ -64,7 +64,6 @@ table(glyph)
     cMatra = (g0bbe g0bbf g0bc0 g0bc1 g0bc2 g0bc6 g0bc7 g0bc8 g0bca g0bcb g0bcc)
 endtable;
 
-#define opt2(x) [x x?]?
 #define CLUS1 [clig0BCD g1133c?]?
 #define CLUS2 [allCons g1133c? g0bcd g200c?]?
 #define CLUSINI CLUS1 CLUS2 CLUS1 CLUS2

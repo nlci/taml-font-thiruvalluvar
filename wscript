@@ -22,7 +22,7 @@ STANDARDS='tests/reference'
 # set meta-information
 script='taml'
 APPNAME='nlci-' + script
-VERSION='0.271'
+VERSION='0.300'
 COPYRIGHT='Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)'
 
 DESC_SHORT='Tamil Unicode font with OT and Graphite support'
@@ -66,17 +66,21 @@ if '-l' in opts:
         for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
             gentium = '../../../../latn/fonts/gentium_local/basic/1.102/zip/GenBkBas' + s.replace('-', '') + '.ttf'
             charis = '../../../../latn/fonts/charis_local/5.000/zip/CharisSIL' + s + '.ttf'
+            # gentium = '../../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/GenBkBas' + s.replace('-', '') + '.ttf'
+            # charis = '../../../../latn/fonts/charis_local/5.000/zip/unhinted/CharisSIL' + s + '.ttf'
             extra = '../' + archive + 'VAIG' + sLegacy + '.ttf'
             missing_face = fLegacy
             if missing_face == 'AUVA':
                 missing_face = 'THIR'
             missing = '../' + archive + missing_face + sLegacy + '.ttf'
             font(target = process('ufo/' + f + '-' + sn.replace(' ', '') + '.ttf',
-                    cmd('cp ${DEP} ${TGT}'),
+                    # cmd('cp ${DEP} ${TGT}'),
+                    cmd(hackos2 + ' ${DEP} ${TGT}'),
                     name(f, lang='en-US', subfamily=(sn))
                     ),
                 source = legacy(f + s + '.ttf',
                                 source = archive + fLegacy + sLegacy + '.ttf',
+                                # source = archive + 'unhinted/' + fLegacy + sLegacy + '.ttf',
                                 xml = fontbase + 'thiruvalluvar_unicode.xml',
                                 params = '-f ' + charis + ' -f ' + extra + ' -f ' + missing,
                                 noap = '')
@@ -107,7 +111,8 @@ for f in faces:
             # sfd_master = 'master.sfd',
             # opentype = internal(),
             # sfd_master = 'source/master_src.sfd',
-            opentype = fea(fontbase + 'master_src.fea', no_make = True),
+            # opentype = fea(fontbase + 'master_src.fea', no_make = True),
+            opentype = fea(fontbase + 'master.fea', no_make = True),
             # opentype = fea(fontbase + ot + '.fea', no_make = True),
             graphite = gdl(generated + f + s + '.gdl',
                 master = fontbase + 'master.gdl',

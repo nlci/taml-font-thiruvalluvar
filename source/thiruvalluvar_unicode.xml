@@ -112,6 +112,7 @@
 <glyph PSName="hyphen.taml"><base UID="F02D"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="period.taml"><base UID="F02E"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="slash.taml"><base UID="F02F"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="2215" PSName="uni2215"><base UID="F02F"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="zero.taml"><base UID="F030"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="one.taml"><base UID="F031"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="two.taml"><base UID="F032"><scale x="1.4" y="1.4"/></base></glyph>
@@ -129,7 +130,7 @@
 <glyph PSName="greater.taml"><base UID="F03E"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="question.taml"><base UID="F03F"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="quotedblleft.taml"><base UID="F022"><scale x="1.4" y="1.4"/></base><base UID="F022"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName="quotedblright"><base UID="F027"><scale x="1.4" y="1.4"/></base><base UID="F027"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="quotedblright.taml"><base UID="F027"><scale x="1.4" y="1.4"/></base><base UID="F027"><scale x="1.4" y="1.4"/></base></glyph>
 
 
 
