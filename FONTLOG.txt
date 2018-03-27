@@ -29,7 +29,9 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-19 Mar 2017 (Dev NLCI) NLCI Tamil fonts version 0.300
+26 Mar 2018 (Dev NLCI) NLCI Tamil fonts version 0.301
+- Add many Latin and Devanagari characters.
+19 Mar 2018 (Dev NLCI) NLCI Tamil fonts version 0.300
 - Regenerate sources from original, hacked legacy fonts with an updated mapping
 14 Aug 2015 (Dev NLCI) NLCI Tamil fonts version 0.271
 - Latin glyphs are from Charis SIL (http://scripts.sil.org/CharisSILfont)

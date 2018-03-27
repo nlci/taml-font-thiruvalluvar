@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="in.nlci.fonts.TAMLVaigai.0.271" />
+  <uniqueid id="in.nlci.fonts.TAMLVaigai.0.301" />
   <vendor name="NLCI" url="http://www.nlci.in/fonts/" />
   <credits>
     <credit
@@ -17,6 +17,10 @@
       ---------
       (This should list both major and minor changes, most recent first.)
 
+      26 Mar 2018 (Dev NLCI) NLCI Tamil fonts version 0.301
+      - Add many Latin and Devanagari characters.
+      19 Mar 2018 (Dev NLCI) NLCI Tamil fonts version 0.300
+      - Regenerate sources from original, hacked legacy fonts with an updated mapping
       14 Aug 2015 (Dev NLCI) NLCI Tamil fonts version 0.271
       - Latin glyphs are from Charis SIL (http://scripts.sil.org/CharisSILfont)
     </text>
@@ -71,11 +75,17 @@
   </license>
   <copyright>
     <text lang="en">
-      This Font Software is Copyright (c) 2009-2015, NLCI (http://www.nlci.in/fonts/)
+      This Font Software is Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)
       with Reserved Font Names "ThiruValluvar" and "Auvaiyar" and "Vaigai" and "NLCI".
 
-      Latin glyphs Copyright (c) 1997-2009, SIL International (http://scripts.sil.org/)
+      Latin glyphs Copyright (c) 2003-2013, SIL International (http://www.sil.org/)
+      with Reserved Font Names "Gentium" and "SIL".
+
+      Additional Latin glyphs Copyright (c) 1997-2014, SIL International (http://www.sil.org/)
       with Reserved Font Names "Charis" and "SIL".
+
+      Indian Rupee Sign Copyright (c) 2007-2017, SIL International (http://www.sil.org/)
+      with Reserved Font Names "Annapurna" and "SIL".
     </text>
   </copyright>
   <trademark>
