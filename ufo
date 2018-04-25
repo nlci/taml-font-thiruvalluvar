@@ -5,6 +5,7 @@ directory=$(basename $extra)
 project=../${directory%%_local}
 wscript=${project}/wscript
 # grep -E "faces|styles" $wscript | grep = > wscript.py
+rm -f *.sfd
 
 pushd $project
 smith distclean -l
@@ -15,12 +16,26 @@ pushd results/ufo
 for ttf in *.ttf
 do
     echo $ttf
-    fontforge -script $extra/ttf2sfd.ff $ttf
+    fontforge -script ${extra}/ttf2sfd.ff $ttf
 done
 for sfd in Auvaiyar*.sfd Vaigai*.sfd
 do
     echo $sfd
-    fontforge -script $extra/emsize.ff $sfd
+    fontforge -script ${extra}/emsize.ff $sfd
+done
+popd
+popd
+
+python addchars.py ${project}/results/ufo
+
+pushd $project
+pushd results/ufo
+for sfd in *.sfd
+do
+    echo $sfd
+    python ../../tools/ffaddapstotaml $sfd ${extra}/tmp.sfd
+    python ../../tools/ffaddvaptotaml ${extra}/tmp.sfd $sfd
+    rm ${extra}/tmp.sfd
 done
 popd
 popd

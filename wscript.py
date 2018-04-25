@@ -1,0 +1,5 @@
+faces = ('ThiruValluvar', 'Auvaiyar', 'Vaigai')
+facesLegacy = ('THIR', 'AUVA', 'VAIG')
+styles = ('-R', '-B', '-I', '-BI')
+stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
+stylesLegacy = ('', 'BD', 'I', 'BI')
