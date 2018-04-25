@@ -28,6 +28,10 @@ def modifyFile(cmd, filename):
 def modifySource(sfd, f, s, sn):
     print sfd
 
+    if f != 'Auvaiyar':
+        cmd = '-i ' + findFile(os.path.join('..', '..', 'source', 'ThiruValluvar' + s + '.sfd')) + ' --name u0B95_u0BC2'
+        modifyFile(cmd, sfd)
+
     cmd = '-i ' + findFile(os.path.join('..', '..', 'source', 'ThiruValluvar-R.sfd')) + ' --rangefile grantha.usv --namefile grantha.name'
     modifyFile(cmd, sfd)
 

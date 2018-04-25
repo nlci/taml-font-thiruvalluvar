@@ -33,6 +33,7 @@ pushd results/ufo
 for sfd in *.sfd
 do
     echo $sfd
+    pwd
     python ../../tools/ffaddapstotaml $sfd ${extra}/tmp.sfd
     python ../../tools/ffaddvaptotaml ${extra}/tmp.sfd $sfd
     rm ${extra}/tmp.sfd
