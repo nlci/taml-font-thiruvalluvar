@@ -5,6 +5,7 @@ directory=$(basename $extra)
 project=../${directory%%_local}
 ufo=${project}/results/ufo
 wscript=${project}/wscript
+nlci=$HOME/work/nlci/projects/fonts/scripts
 # grep -E "faces|styles" $wscript | grep = > wscript.py
 rm -f *.sfd
 
@@ -18,12 +19,12 @@ pushd ${ufo}
 for ttf in *.ttf
 do
     echo $ttf
-    fontforge -script ${extra}/ttf2sfd.ff $ttf
+    fontforge -script ${nlci}/ttf2sfd.ff $ttf
 done
 for sfd in Auvaiyar*.sfd Vaigai*.sfd
 do
     echo $sfd
-    fontforge -script ${extra}/emsize.ff $sfd
+    fontforge -script ${nlci}/emsize.ff $sfd
 done
 popd
 
@@ -35,11 +36,17 @@ pushd ${ufo}
 for sfd in *.sfd
 do
     echo $sfd
-    pwd
     python ../../tools/ffaddapstotaml $sfd ${extra}/tmp.sfd
     python ../../tools/ffaddvaptotaml ${extra}/tmp.sfd $sfd
     rm ${extra}/tmp.sfd
 done
+for sfd in *.sfd
+do
+    echo $sfd
+    fontforge -script ${nlci}/sfd2ufo.ff $sfd
+done
 popd
 
+rm -rf ${project}/source/*.ufo
+mv -v ${ufo}/*.ufo ${project}/source
 mv -v ${ufo}/*.sfd ${project}/source

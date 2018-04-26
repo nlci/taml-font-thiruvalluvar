@@ -1,3 +1,0 @@
-Open($1)
-Save($1:r + ".sfd")
-# Generate($1:r + ".ufo")

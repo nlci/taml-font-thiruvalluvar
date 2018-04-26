@@ -1,3 +1,0 @@
-Open($1)
-ScaleToEm(2048)
-Save($1)
