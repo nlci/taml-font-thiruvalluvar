@@ -35,19 +35,21 @@ def modifySource(sfd, f, s, sn):
     cmd = '-i ' + findFile(os.path.join('..', '..', 'source', 'ThiruValluvar-R.sfd')) + ' --rangefile grantha.usv --namefile grantha.name'
     modifyFile(cmd, sfd)
 
-    cmd = '-i ' + charis + s + '.ttf' + ' -n uni0334.Lrg -n uni03A9 --rangefile cs/charis/pre.txt --rangefile cs/charis/main.txt'
-    modifyFile(cmd, sfd)
+    if f == 'Auvaiyar':
+        cmd = '-i ' + charis + s + '.ttf' + ' -n uni0334.Lrg -n uni03A9 --rangefile cs/charis/pre.txt --rangefile cs/charis/main.txt'
+        modifyFile(cmd, sfd)
+    else:
+        gs = s.replace('-', '')
+        cmd = '-i ' + gentium + gs + '.ttf' + ' --namefile cs/gentium/main_glyphs.txt --rangefile cs/gentium/pre.txt --rangefile cs/gentium/main.txt'
+        modifyFile(cmd, sfd)
+        cmd = '-i ' + charis + s + '.ttf' + ' --rangefile cs/charis/composite4gentium.txt --rangefile cs/charis/extra4gentium.txt'
+        modifyFile(cmd, sfd)
 
     asn = sn
     asn = asn.replace('Bold Italic', 'Bold')
     asn = asn.replace('Italic', 'Regular')
     cmd = '-i ' + annapurna + asn + '.ttf' + ' --rangefile ' + os.path.join(cs, 'annapurna', 'indic.txt')
     # modifyFile(cmd, sfd)
-
-    # ms = s.replace('-', '')
-    # cmd = '-s 0.5 -i ' + gentium + ms + '.ttf' + ' --rangefile pre.txt --rangefile nrsi.txt --rangefile nlci.txt'
-    # modifyFile(cmd, sfd)
-    # findFile(os.path.join('..', 'results', f + '-' + sn.replace(' ', '') + '.ttf'))
 
 for f in faces:
     for (s, sn) in zip(styles, stylesName):
