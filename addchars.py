@@ -5,10 +5,10 @@ import os.path
 import sys
 from wscript import *
 
-cs = '../../../../work/nlci/projects/fonts/charsets/'
 charis = '../../../latn/fonts/charis_local/5.000/zip/unhinted/CharisSIL'
 gentium = '../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/GenBkBas'
 annapurna = '../../../deva/fonts/annapurna_local/1.203/zip/unhinted/AnnapurnaSIL-'
+panini = '../../../deva/fonts/panini/results/ufo/Panini'
 badami = '../badami/source'
 
 def runCommand(cmd, filenames):
@@ -35,6 +35,15 @@ def modifySource(sfd, f, s, sn):
     cmd = '-i ' + findFile(os.path.join('..', '..', 'source', 'ThiruValluvar-R.sfd')) + ' --rangefile grantha.usv --namefile grantha.name'
     modifyFile(cmd, sfd)
 
+    cmd = '-i ' + panini + '-' + sn + '.sfd' + ' --rangefile cs/panini/main.txt'
+    modifyFile(cmd, sfd)
+
+    asn = sn
+    asn = asn.replace('BoldItalic', 'Bold')
+    asn = asn.replace('Italic', 'Regular')
+    cmd = '-i ' + annapurna + asn + '.ttf' + ' --rangefile cs/annapurna/main.txt'
+    modifyFile(cmd, sfd)
+
     if f == 'Auvaiyar':
         cmd = '-i ' + charis + s + '.ttf' + ' -n uni0334.Lrg -n uni03A9 --rangefile cs/charis/pre.txt --rangefile cs/charis/main.txt'
         modifyFile(cmd, sfd)
@@ -44,12 +53,6 @@ def modifySource(sfd, f, s, sn):
         modifyFile(cmd, sfd)
         cmd = '-i ' + charis + s + '.ttf' + ' --rangefile cs/charis/composite4gentium.txt --rangefile cs/charis/extra4gentium.txt'
         modifyFile(cmd, sfd)
-
-    asn = sn
-    asn = asn.replace('Bold Italic', 'Bold')
-    asn = asn.replace('Italic', 'Regular')
-    cmd = '-i ' + annapurna + asn + '.ttf' + ' --rangefile ' + os.path.join(cs, 'annapurna', 'indic.txt')
-    # modifyFile(cmd, sfd)
 
 for f in faces:
     for (s, sn) in zip(styles, stylesName):

@@ -3,16 +3,18 @@
 extra=$PWD
 directory=$(basename $extra)
 project=../${directory%%_local}
+ufo=${project}/results/ufo
 wscript=${project}/wscript
 # grep -E "faces|styles" $wscript | grep = > wscript.py
 rm -f *.sfd
 
-pushd $project
+pushd ${project}
 smith distclean -l
 smith configure -l
 smith build -l
+popd
 
-pushd results/ufo
+pushd ${ufo}
 for ttf in *.ttf
 do
     echo $ttf
@@ -24,14 +26,12 @@ do
     fontforge -script ${extra}/emsize.ff $sfd
 done
 popd
-popd
 
 sort -o cs/charis/pre.txt cs/charis/composite.txt cs/charis/decomposition.txt
 sort -o cs/gentium/pre.txt cs/gentium/composite.txt cs/gentium/decomposition.txt
 python addchars.py ${project}/results/ufo
 
-pushd $project
-pushd results/ufo
+pushd ${ufo}
 for sfd in *.sfd
 do
     echo $sfd
@@ -41,4 +41,5 @@ do
     rm ${extra}/tmp.sfd
 done
 popd
-popd
+
+mv -v ${ufo}/*.sfd ${project}/source
