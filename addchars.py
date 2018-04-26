@@ -12,7 +12,7 @@ panini = '../../../deva/fonts/panini/source/Panini'
 badami = '../badami/source'
 
 def runCommand(cmd, filenames):
-    cmd = 'ffcopyglyphs' + ' -f ' + cmd + ' ' + filenames
+    cmd = 'ffcopyglyphs' + ' -f ' + cmd + ' ' + ifont+ ' ' + ofont
     print cmd
     os.system(cmd)
 
@@ -22,7 +22,7 @@ def findFile(filename):
 def modifyFile(cmd, filename):
     tmp = 'tmp.sfd'
     os.rename(findFile(filename), tmp)
-    runCommand(cmd, tmp + ' ' + findFile(filename))
+    runCommand(cmd, tmp, findFile(filename))
     os.remove(tmp)
 
 def modifySource(sfd, f, s, sn):

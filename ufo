@@ -4,6 +4,7 @@ extra=$PWD
 directory=$(basename $extra)
 project=../${directory%%_local}
 ufo=${project}/results/ufo
+src=${project}/source
 wscript=${project}/wscript
 nlci=$HOME/work/nlci/projects/fonts/scripts
 # grep -E "faces|styles" $wscript | grep = > wscript.py
@@ -30,7 +31,7 @@ popd
 
 sort -o cs/charis/pre.txt cs/charis/composite.txt cs/charis/decomposition.txt
 sort -o cs/gentium/pre.txt cs/gentium/composite.txt cs/gentium/decomposition.txt
-python addchars.py ${project}/results/ufo
+python addchars.py ${ufo}
 
 pushd ${ufo}
 for sfd in *.sfd
@@ -47,6 +48,6 @@ do
 done
 popd
 
-rm -rf ${project}/source/*.ufo
-mv -v ${ufo}/*.ufo ${project}/source
-mv -v ${ufo}/*.sfd ${project}/source
+rm -rf ${src}/*.ufo
+mv -v ${ufo}/*.ufo ${src}
+mv -v ${ufo}/*.sfd ${src}
