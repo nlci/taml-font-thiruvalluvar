@@ -5,10 +5,10 @@ import os.path
 import sys
 from wscript import *
 
-nlci = '../../../../work/nlci/projects/fonts/charsets/'
-charis = '../../../latn/fonts/charis_local/5.000/zip/CharisSIL'
-gentium = '../../../latn/fonts/gentium_local/basic/1.102/zip/GenBkBas'
-annapurna = '../../../deva/fonts/annapurna_local/1.203/zip/AnnapurnaSIL-'
+cs = '../../../../work/nlci/projects/fonts/charsets/'
+charis = '../../../latn/fonts/charis_local/5.000/zip/unhinted/CharisSIL'
+gentium = '../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/GenBkBas'
+annapurna = '../../../deva/fonts/annapurna_local/1.203/zip/unhinted/AnnapurnaSIL-'
 badami = '../badami/source'
 
 def runCommand(cmd, filenames):
@@ -35,14 +35,13 @@ def modifySource(sfd, f, s, sn):
     cmd = '-i ' + findFile(os.path.join('..', '..', 'source', 'ThiruValluvar-R.sfd')) + ' --rangefile grantha.usv --namefile grantha.name'
     modifyFile(cmd, sfd)
 
+    cmd = '-i ' + charis + s + '.ttf' + ' -n uni0334.Lrg -n uni03A9 --rangefile cs/charis/pre.txt --rangefile cs/charis/main.txt'
+    modifyFile(cmd, sfd)
+
     asn = sn
     asn = asn.replace('Bold Italic', 'Bold')
     asn = asn.replace('Italic', 'Regular')
-    cmd = '-i ' + annapurna + asn + '.ttf' + ' --rangefile ' + os.path.join(nlci, 'annapurna', 'indic.txt')
-    # modifyFile(cmd, sfd)
-
-    cmd = '-s 0.5 -i ' + charis + s + '.ttf' + ' -n uni0334.Lrg --rangefile pre.txt --rangefile nrsi.txt --rangefile pua.txt --rangefile nlci-latin.txt'
-    # cmd = '-s 0.5 -i ' + charis + s + '.ttf' + ' --rangefile nrsi.txt --rangefile nlci.txt'
+    cmd = '-i ' + annapurna + asn + '.ttf' + ' --rangefile ' + os.path.join(cs, 'annapurna', 'indic.txt')
     # modifyFile(cmd, sfd)
 
     # ms = s.replace('-', '')
