@@ -9,10 +9,11 @@ charis = '../../../latn/fonts/charis_local/5.000/zip/unhinted/CharisSIL'
 gentium = '../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/GenBkBas'
 annapurna = '../../../deva/fonts/annapurna_local/1.203/zip/unhinted/AnnapurnaSIL-'
 panini = '../../../deva/fonts/panini/source/Panini'
+thiruvalluvar = '../../../taml/fonts/thiruvalluvar/source/ThiruValluvar'
 badami = '../badami/source'
 
-def runCommand(cmd, filenames):
-    cmd = 'ffcopyglyphs' + ' -f ' + cmd + ' ' + ifont+ ' ' + ofont
+def runCommand(cmd, ifont, ofont):
+    cmd = 'ffcopyglyphs' + ' -f ' + cmd + ' ' + ifont + ' ' + ofont
     print cmd
     os.system(cmd)
 
@@ -35,7 +36,7 @@ def modifySource(sfd, f, s, sn):
     cmd = '-i ' + findFile(os.path.join('..', '..', 'source', 'ThiruValluvar-R.sfd')) + ' --rangefile grantha.usv --namefile grantha.name'
     modifyFile(cmd, sfd)
 
-    cmd = '-i ' + panini + '-' + sn + '.sfd' + ' --rangefile cs/panini/main.txt'
+    cmd = '-i ' + panini + '-' + sn + '.sfd' + ' --rangefile cs/panini/main4taml.txt'
     modifyFile(cmd, sfd)
 
     asn = sn
