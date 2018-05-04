@@ -111,8 +111,8 @@
 <glyph PSName="comma.taml"><base UID="F02C"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="hyphen.taml"><base UID="F02D"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="period.taml"><base UID="F02E"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName="slash.taml"><base UID="F02F"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="2215" PSName="uni2215"><base UID="F02F"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="slash.taml"><base UID="F02F"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="zero.taml"><base UID="F030"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="one.taml"><base UID="F031"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="two.taml"><base UID="F032"><scale x="1.4" y="1.4"/></base></glyph>
