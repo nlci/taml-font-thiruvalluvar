@@ -34,7 +34,7 @@ DEBPKG='fonts-nlci-' + script
 
 # set test parameters
 TESTSTRING=u'\u0c15'
-# ftmlTest('tools/FTMLcreateList.xsl')
+ftmlTest('tools/FTMLcreateList.xsl')
 
 # set fonts to build
 faces = ('ThiruValluvar', 'Auvaiyar', 'Vaigai')
