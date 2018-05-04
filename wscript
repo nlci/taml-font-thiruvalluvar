@@ -86,6 +86,8 @@ if '-l' in opts:
 psfix = 'cp' if '-p' in opts else 'psfix'
 
 # create('master.sfd', cmd("../tools/ffaddapstotaml ${SRC} ${TGT}", ["source/master_src.sfd"]))
+if '-l' in opts:
+    faces = list()
 for f in faces:
 #    p = package(
 #        appname = APPNAME + '-' + f.lower(),
@@ -94,20 +96,17 @@ for f in faces:
 #        zipdir = ''
 #    )
     for (s, sn) in zip(styles, stylesName):
-        fontfilename = tag + f + '-' + sn.replace(' ', '')
+        snf = '-' + sn.replace(' ', '')
+        fontfilename = tag + f + snf
         if f == 'ThiruValluvar':
             ot = f + s
         else:
             ot = 'additional_faces'
-        if '-l' in opts:
-            style = s
-        else:
-            style = '-' + sn.replace(' ', '')
         font(target = process(fontfilename + '.ttf',
                 cmd(hackos2 + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
-            source = fontbase + f + style + '.sfd',
+            source = fontbase + f + snf + '.ufo',
             # source = fontbase + f + '-' + sn.replace(' ', '') + '.sfd',
             # sfd_master = 'master.sfd',
             # opentype = internal(),
