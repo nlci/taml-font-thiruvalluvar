@@ -1,20 +1,14 @@
 #!/bin/bash
 
-extra=$PWD
-directory=$(basename $extra)
-project=../${directory%%_local}
-ufo=${project}/results/ufo
-src=${project}/source
-wscript=${project}/wscript
-nlci=$HOME/work/nlci/projects/fonts/scripts
-# grep -E "faces|styles" $wscript | grep = > wscript.py
+ufo=results/ufo
+src=source
+nlci=$HOME/work/nlci/projects/fonts/tools
+# grep -E "faces|styles" wscript | grep = > wscript.py
 rm -f *.sfd
 
-pushd ${project}
 smith distclean -l
 smith configure -l
 smith build -l
-popd
 
 pushd ${ufo}
 for ttf in *.ttf
@@ -38,9 +32,10 @@ pushd ${ufo}
 for sfd in *.sfd
 do
     echo $sfd
-    python ../../tools/ffaddapstotaml $sfd ${extra}/tmp.sfd
-    python ../../tools/ffaddvaptotaml ${extra}/tmp.sfd $sfd
-    rm ${extra}/tmp.sfd
+    rm -f tmp.sfd
+    python ../../tools/ffaddapstotaml $sfd tmp.sfd
+    python ../../tools/ffaddvaptotaml tmp.sfd $sfd
+    rm -f tmp.sfd
 done
 for sfd in *.sfd
 do
