@@ -54,7 +54,7 @@ chetti {
 endtable;
 
 table(glyph)
-    cCons = (g0b95 g0b99 g0b9a g0b9c g0b9e g0b9f g0ba3 g0ba4 g0ba8 g0ba9 g0baa g0bae g0baf g0bb0 g0bb1 g0bb2 g0bb3 g0bb4 g0bb5 /*g0bb6*/ g0bb7 g0bb8 g0bb9)
+    cCons = (g0b95 g0b99 g0b9a g0b9c g0b9e g0b9f g0ba3 g0ba4 g0ba8 g0ba9 g0baa g0bae g0baf g0bb0 g0bb1 g0bb2 g0bb3 g0bb4 g0bb5 g0bb6 g0bb7 g0bb8 g0bb9)
     cSplitMatras = (g0bca g0bcb g0bcc)
     cReOrder = (g0bc6 g0bc7 g0bc8)
     allCons = (cCons clig0BB7)
@@ -94,7 +94,7 @@ endpass;
 pass(2)
 // Reordered (including split) vowel matras
     reorder(g0b95_0bb7)
-//    reorder(g0b95 g0bcd g0bb6)    // there is no g0bb6 in the fonts
+    // reorder(g0b95 g0bcd g0bb6) // might not be needed now that g0bb6 is in the fonts, and in cCons
     reorder(g0bb8 g1133c? g0bcd g0bb0)
     reorder(cCons)
     reorder(clig0BCD)
