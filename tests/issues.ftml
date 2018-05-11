@@ -6,6 +6,11 @@
     <fontsrc>url(../results/TAMLThiruValluvar-Regular.ttf)</fontsrc>
     <title>Issues</title>
   </head>
+  <testgroup label="Rendering check">
+    <test label="Check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
   <testgroup label="move backward">
     <test label="sample is...">
       <string>\u0BB8\u0BCD\u0BB0\u0BC7\U0001133C</string>

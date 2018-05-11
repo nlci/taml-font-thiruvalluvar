@@ -1,4 +1,5 @@
-﻿Thiru test characters plus 2 dot nukta
+RenderingUnknown
+Thiru test characters plus 2 dot nukta
 
 GID	char	with nukta
 103	அ	அ𑌼
@@ -150,4 +151,3 @@ GID	char	with nukta
 257	ஹி	ஹி𑌼
 258	ஹீ	ஹீ𑌼
 259	ஹ்	ஹ𑌼்
-

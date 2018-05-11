@@ -34,7 +34,8 @@ DEBPKG='fonts-nlci-' + script
 
 # set test parameters
 TESTSTRING=u'\u0c15'
-ftmlTest('tools/FTMLcreateList.xsl')
+#ftmlTest('tools/FTMLcreateList.xsl')
+ftmlTest('tools/ftml-padauk.xsl')
 
 # set fonts to build
 faces = ('ThiruValluvar', 'Auvaiyar', 'Vaigai')
@@ -114,13 +115,13 @@ for f in faces:
             # opentype = fea(fontbase + 'master_src.fea', no_make = True),
             opentype = fea(fontbase + 'master.fea', no_make = True),
             # opentype = fea(fontbase + ot + '.fea', no_make = True),
-            graphite = gdl(generated + f + s + '.gdl',
+            graphite = gdl(generated + f + snf + '.gdl',
                 master = fontbase + 'master.gdl',
                 make_params = '-l last -p 1',
-                params = '-d'
+                params =  '-e ' + f + snf + '_gdlerr.txt'
                 ),
             #classes = fontbase + 'thiruvalluvar_classes.xml',
-            ap = generated + f + s + '.xml',
+            ap = generated + f + snf + '.xml',
             version = VERSION,
             copyright = COPYRIGHT,
             license=ofl('ThiruValluvar', 'Auvaiyar', 'Vaigai', 'NLCI'),

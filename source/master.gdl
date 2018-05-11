@@ -73,10 +73,10 @@ endtable;
 table(substitution)
 
 pass(1)
-	// The following is a debugging tool so you can find out whether the app is rendering with Graphite or not.
-	// The string "RenderingUnknown" will be rendered as "RenderingGraphite":
-    // codepoint("U") > codepoint("G");
-    codepoint("U") codepoint("n") codepoint("k") codepoint("n") codepoint("o") codepoint("w") codepoint("n") _               >
+    // The following is a debugging tool so you can find out whether the app is rendering with Graphite or not.
+    // The string "RenderingUnknown" will be rendered as "RenderingGraphite":
+
+    codepoint("U") codepoint("n") codepoint("k") codepoint("n") codepoint("o") codepoint("w") codepoint("n") _ >
     codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codepoint("i") codepoint("t") codepoint("e"):16  /
         codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
 
@@ -89,7 +89,7 @@ endpass;
 
 #define reorder(x) _ split_base > split1$a:a split2$a:a / _ x g1133c? g0bcd? _=a;\
      _ cReOrder > @a _ / _ x g1133c? g0bcd? _=a;\
-     _ _ cReOrder g1133c > @a @b _ _ / _ _ x g1133c? g0bcd? _=a _=b; 
+     _ _ cReOrder g1133c > @a @b _ _ / _ _ x g1133c? g0bcd? _=a _=b;
 
 pass(2)
 // Reordered (including split) vowel matras
@@ -137,4 +137,3 @@ cTakesVDia cVDia {attach.to=@1; attach.at=VS; attach.with=VM};
 endpass
 endtable
 */
-
