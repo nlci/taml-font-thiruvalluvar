@@ -95,7 +95,6 @@ pass(2)
 // Reordered (including split) vowel matras
     reorder(g0b95_0bb7)
     // reorder(g0b95 g0bcd g0bb6) // might not be needed now that g0bb6 is in the fonts, and in cCons
-    reorder(g0bb8 g1133c? g0bcd g0bb0)
     reorder(cCons)
     reorder(clig0BCD)
 endpass;
