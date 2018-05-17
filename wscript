@@ -70,7 +70,7 @@ if '-l' in opts:
             extra = '../' + archive + 'VAIG' + sLegacy + '.ttf'
             missing_face = fLegacy
             if missing_face == 'AUVA':
-                missing_face = 'THIR'
+                missing_face = 'VAIG' # used to be THIR
             missing = '../' + archive + missing_face + sLegacy + '.ttf'
             font(target = process('ufo/' + f + '-' + sn.replace(' ', '') + '.ttf',
                     # cmd('cp ${DEP} ${TGT}'),

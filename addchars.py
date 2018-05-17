@@ -6,11 +6,19 @@ import sys
 from wscript import *
 
 charis = '../../../latn/fonts/charis_local/5.000/zip/unhinted/CharisSIL'
+charis_dir = '../../../latn/fonts/charis_local/5.000/zip/unhinted/'
+charis_ttf = '/CharisSIL'
 gentium = '../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/GenBkBas'
+gentium_dir = '../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/'
+gentium_ttf = '/GenBkBas'
 annapurna = '../../../deva/fonts/annapurna_local/1.203/zip/unhinted/AnnapurnaSIL-'
+annapurna_dir = '../../../deva/fonts/annapurna_local/1.203/zip/unhinted/'
+annapurna_ttf = '/AnnapurnaSIL-'
 panini = '../../../deva/fonts/panini/source/Panini'
+deva = '../../../deva/fonts/panini/source/'
 thiruvalluvar = '../../../taml/fonts/thiruvalluvar/source/ThiruValluvar'
 badami = '../badami/source'
+exo = '../../../latn/fonts/exo/1.500/zip/unhinted/1000/Exo-'
 
 def runCommand(cmd, ifont, ofont):
     cmd = 'ffcopyglyphs' + ' -f ' + cmd + ' ' + ifont + ' ' + ofont
@@ -29,30 +37,41 @@ def modifyFile(cmd, filename):
 def modifySource(sfd, f, s, sn):
     print sfd
 
+    if f == 'ThiruValluvar':
+        emsize = '2048'
+        emext = '.ttf'
+        emopt = ''
+        devaf = 'Panini'
+    else:
+        emsize = '1000'
+        emext = '.sfd'
+        emopt = '-s ' + str(1000.0/2048.0) + ' '
+        devaf = 'Maurya'
+
     if f != 'Auvaiyar':
-        cmd = '-i ' + findFile(os.path.join('..', '..', 'source', 'ThiruValluvar' + s + '.sfd')) + ' --name u0B95_u0BC2'
+        cmd = '-i ' + findFile(os.path.join('..', '..', 'source', 'ThiruValluvar' + emsize + s + '.sfd')) + ' --name u0B95_u0BC2'
         modifyFile(cmd, sfd)
 
-    cmd = '-i ' + findFile(os.path.join('..', '..', 'source', 'ThiruValluvar-R.sfd')) + ' --rangefile grantha.usv --namefile grantha.name'
+    cmd = '-i ' + findFile(os.path.join('..', '..', 'source', 'ThiruValluvar' + emsize + '-R.sfd')) + ' --rangefile grantha.usv --namefile grantha.name'
     modifyFile(cmd, sfd)
 
-    cmd = '-i ' + panini + '-' + sn + '.sfd' + ' --rangefile cs/panini/main4taml.txt'
+    cmd = '-i ' + deva + devaf + '-' + sn + '.sfd' + ' --rangefile cs/panini/main4taml.txt'
     modifyFile(cmd, sfd)
 
     asn = sn
     asn = asn.replace('BoldItalic', 'Bold')
     asn = asn.replace('Italic', 'Regular')
-    cmd = '-i ' + annapurna + asn + '.ttf' + ' --rangefile cs/annapurna/main.txt'
+    cmd = '-i ' + annapurna_dir + emsize + annapurna_ttf + asn + emext + ' --rangefile cs/annapurna/main.txt'
     modifyFile(cmd, sfd)
 
     if f == 'Auvaiyar':
-        cmd = '-i ' + charis + s + '.ttf' + ' -n uni0334.Lrg -n uni03A9 --rangefile cs/charis/pre.txt --rangefile cs/charis/main.txt'
+        cmd = emopt + '-i ' + charis_dir + '2048' + charis_ttf + s + '.ttf' + ' -n uni0334.Lrg -n uni03A9 --rangefile cs/charis/pre.txt --rangefile cs/charis/main.txt'
         modifyFile(cmd, sfd)
     else:
         gs = s.replace('-', '')
-        cmd = '-i ' + gentium + gs + '.ttf' + ' --namefile cs/gentium/main_glyphs.txt --rangefile cs/gentium/pre.txt --rangefile cs/gentium/main.txt'
+        cmd = emopt + '-i ' + gentium_dir + '2048' + gentium_ttf + gs + '.ttf' + ' --namefile cs/gentium/main_glyphs.txt --rangefile cs/gentium/pre.txt --rangefile cs/gentium/main.txt'
         modifyFile(cmd, sfd)
-        cmd = '-i ' + charis + s + '.ttf' + ' --rangefile cs/charis/composite4gentium.txt --rangefile cs/charis/extra4gentium.txt'
+        cmd = emopt + '-i ' + charis_dir + '2048' + charis_ttf + s + '.ttf' + ' --rangefile cs/charis/composite4gentium.txt --rangefile cs/charis/extra4gentium.txt'
         modifyFile(cmd, sfd)
 
 for f in faces:
