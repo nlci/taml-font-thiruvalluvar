@@ -22,7 +22,7 @@ STANDARDS='tests/reference'
 # set meta-information
 script='taml'
 APPNAME='nlci-' + script
-VERSION='0.301'
+#VERSION='0.301'
 COPYRIGHT='Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)'
 
 DESC_SHORT='Tamil Unicode font with OT and Graphite support'
@@ -31,6 +31,7 @@ Pan Tamil font designed to support all the languages using the Tamil script.
 '''
 DESC_NAME='NLCI-' + script
 DEBPKG='fonts-nlci-' + script
+getufoinfo('source/ThiruValluvar-Regular.ufo')
 
 # set test parameters
 TESTSTRING=u'\u0c15'
