@@ -1,0 +1,14 @@
+#!/bin/bash
+
+src=source
+nlci=$HOME/work/nlci/projects/fonts/tools
+
+pushd ${src}
+for ufo in *.ufo
+do
+    psfnormalize -v 3 -p checkfix=none $ufo
+    ${nlci}/ufo_init.py $ufo
+    ${nlci}/line_spacing.py $ufo
+done
+rm -rf backups
+popd
