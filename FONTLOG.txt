@@ -24,13 +24,20 @@ u0B95_u0BC2.old in Auvaiyar needs to be redrawn to match the overall style.
 u03A9 needs to be encoded in Auvaiyar
 U+20B9 needs to be made italic in the Italic and Bold Italic faces
 U+1CDC needs to be lowered, especially in ThiruValluvar
+U+0BCD in Vaigai needs AP positioned
+nukta AP in Auvaiyar and Vaigai needs to be raised
 
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+Unreleased
+- Changed default form of nukta
+- Kept the original units-per-em (UPM) from the legacy fonts
+- Increased default line spacing
+- Fixed Graphite rendering bug
 26 Mar 2018 (Dev NLCI) NLCI Tamil fonts version 0.301
-- Add many Latin and Devanagari characters.
+- Add many Latin and Devanagari characters
 19 Mar 2018 (Dev NLCI) NLCI Tamil fonts version 0.300
 - Regenerate sources from original, hacked legacy fonts with an updated mapping
 14 Aug 2015 (Dev NLCI) NLCI Tamil fonts version 0.271

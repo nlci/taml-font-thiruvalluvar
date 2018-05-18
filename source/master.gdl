@@ -6,7 +6,7 @@ nuka
 {
     id = "cv01";
     name.LG_USENG = string("Nukta forms");
-    default = single;
+    default = ring;
     settings
     {
         single

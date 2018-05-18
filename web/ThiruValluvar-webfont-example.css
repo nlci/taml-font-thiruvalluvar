@@ -14,7 +14,7 @@ of the license along with this Font Software. If this is not the case, go to
 /* use ThiruValluvar - Regular in .woff format */
 @font-face {
   font-family: ThiruValluvarW;
-  src: url(TAMLThiruValluvar-Regular.ttf);
+  src: url(TAMLThiruValluvar-Regular.woff);
 }
 
 /* set body to use ThiruValluvar in .woff format */
