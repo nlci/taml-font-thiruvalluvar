@@ -9,20 +9,20 @@ nuka
     default = ring;
     settings
     {
-        single
+        ring
         {
             value = 0;
-            name.LG_USENG = string("Single dot");
+            name.LG_USENG = string("Single ring");
         }
         double
         {
             value = 1;
             name.LG_USENG = string("Double dot");
         }
-        ring
+        single
         {
             value = 2;
-            name.LG_USENG = string("Single ring");
+            name.LG_USENG = string("Single dot");
         }
     }
 }
@@ -111,13 +111,13 @@ pass(3)
 //  cligno_0BCD g0bcd > clig0BCD:(1 3) _ / _ g1133c? _;
 endpass;
 
-if (nuka != single)
+if (nuka != ring)
 pass(4)
 
 if (nuka == double)
     g1133c > g1133c_double;
-else if (nuka == ring)
-    g1133c > g1133c_ring;
+else if (nuka == single)
+    g1133c > g1133c_single;
 endif
 
 endpass;

@@ -9,6 +9,7 @@ do
     psfnormalize -v 3 -p checkfix=none $ufo
     ${nlci}/ufo_init.py $ufo
     ${nlci}/line_spacing.py $ufo
+    ../tools/nuktas.py $ufo
     psfsetversion $ufo 0.302
 done
 rm -rf backups
