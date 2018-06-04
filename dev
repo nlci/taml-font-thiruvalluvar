@@ -6,11 +6,12 @@ nlci=$HOME/work/nlci/projects/fonts/tools
 pushd ${src}
 for ufo in *.ufo
 do
-    psfnormalize -v 3 -p checkfix=none $ufo
+    psfnormalize -p backup=0 -v 3 -p checkfix=none $ufo
+    psfsetkeys -p backup=0 -i ${nlci}/fontinfo.csv -k "openTypeNameDescription" -v "Pan Tamil font designed to support all the languages using the Tamil script." $ufo
     ${nlci}/ufo_init.py $ufo
     ${nlci}/line_spacing.py $ufo
     ../tools/nuktas.py $ufo
-    psfsetversion $ufo 0.302
 done
 rm -rf backups
 popd
+./preflight

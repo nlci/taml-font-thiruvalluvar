@@ -1,0 +1,15 @@
+#!/bin/sh
+
+faces="ThiruValluvar Auvaiyar Vaigai"
+cd source
+mkdir logs
+for ufo in *.ufo
+do
+    psfnormalize -v 3 -p checkfix=none $ufo
+    psfsetversion $ufo 0.303
+done
+cd ..
+for face in $faces
+do
+    psfmakewoffmetadata -n ${face} -i in.nlci.fonts source/${face}-Regular.ufo -l source/logs/${face}_woff.log
+done

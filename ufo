@@ -6,6 +6,7 @@ nlci=$HOME/work/nlci/projects/fonts/tools
 # grep -E "faces|styles" wscript | grep = > wscript.py
 rm -f *.sfd
 
+export FLOWARGS=""
 smith distclean -l
 smith configure -l
 smith build -l

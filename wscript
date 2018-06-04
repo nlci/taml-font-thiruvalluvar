@@ -22,7 +22,6 @@ STANDARDS='tests/reference'
 # set meta-information
 script='taml'
 APPNAME='nlci-' + script
-#VERSION='0.301'
 COPYRIGHT='Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)'
 
 DESC_SHORT='Tamil Unicode font with OT and Graphite support'
