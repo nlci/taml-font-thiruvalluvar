@@ -45,23 +45,3 @@ body {
   font-family: ThiruValluvarW;
   font-feature-settings: "cv01" 2; font-size: 200%;
 }
-
-.lng {
-  font-family: ThiruValluvarW;
-  font-size: 200%;
-}
-
-.lngxub {
-  font-family: ThiruValluvarW;
-  font-language-override: "xub"; font-size: 200%;
-}
-
-.lngiru {
-  font-family: ThiruValluvarW;
-  font-language-override: "iru"; font-size: 200%;
-}
-
-.lngctt {
-  font-family: ThiruValluvarW;
-  font-language-override: "ctt"; font-size: 200%;
-}
