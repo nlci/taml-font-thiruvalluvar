@@ -5,8 +5,10 @@ cd source
 mkdir logs
 for ufo in *.ufo
 do
-    psfnormalize -v 3 -p checkfix=none $ufo
+    psfsetkeys -p backup=0 -k "copyright" --filepart ../OFL.txt $ufo
+    psfsetkeys -p backup=0 -k "openTypeNameLicense" --file ../OFL.txt $ufo
     psfsetversion $ufo 0.303
+    psfnormalize -v 3 -p checkfix=fix $ufo
 done
 cd ..
 for face in $faces

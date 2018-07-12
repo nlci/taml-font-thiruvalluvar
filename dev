@@ -7,10 +7,11 @@ pushd ${src}
 for ufo in *.ufo
 do
     psfnormalize -p backup=0 -v 3 -p checkfix=none $ufo
+    ../tools/nuktas.py $ufo
     psfsetkeys -p backup=0 -i ${nlci}/fontinfo.csv -k "openTypeNameDescription" -v "Pan Tamil font designed to support all the languages using the Tamil script." $ufo
+    psfsetkeys -p backup=0 -i ${nlci}/lib.csv --plist lib $ufo
     ${nlci}/ufo_init.py $ufo
     ${nlci}/line_spacing.py $ufo
-    ../tools/nuktas.py $ufo
 done
 rm -rf backups
 popd
