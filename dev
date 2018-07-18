@@ -1,18 +1,36 @@
 #!/bin/bash
 
+faces="ThiruValluvar Auvaiyar Vaigai"
+styles=(Regular Bold Italic "Bold Italic")
 src=source
 nlci=$HOME/work/nlci/projects/fonts/tools
 
 pushd ${src}
-for ufo in *.ufo
+for f in $faces
 do
-    psfnormalize -p backup=0 -v 3 -p checkfix=none $ufo
-    ../tools/nuktas.py $ufo
-    psfsetkeys -p backup=0 -i ${nlci}/fontinfo.csv -k "openTypeNameDescription" -v "Pan Tamil font designed to support all the languages using the Tamil script." $ufo
-    psfsetkeys -p backup=0 -i ${nlci}/lib.csv --plist lib $ufo
-    ${nlci}/ufo_init.py $ufo
-    ${nlci}/line_spacing.py $ufo
+    for si in ${!styles[@]} # loop over indices
+    do
+        s=${styles[$si]} # si is the index into the array styles
+        ufo=${f}-${s/ /}.ufo
+
+        psfnormalize -p backup=0 -v 3 -p checkfix=none $ufo
+        ../tools/nuktas.py $ufo
+        ${nlci}/ufo_init.py $ufo
+        ${nlci}/line_spacing.py $ufo
+
+        echo "setting family ${f} and style ${s} in UFO ${ufo}"
+        psfsetkeys -p backup=0 -k familyName         -v "${f}" $ufo
+        psfsetkeys -p backup=0 -k styleName          -v "${s}" $ufo
+        psfsetkeys -p backup=0 -k styleMapFamilyName -v "${f} ${s}" $ufo
+        psfsetkeys -p backup=0 -k styleMapStyleName  -v "${s,,}" $ufo
+
+        echo "setting keys inUFO ${ufo}"
+        psfsetkeys -p backup=0 -i ${nlci}/fontinfo.csv -k "openTypeNameDescription" -v "Pan Tamil font designed to support all the languages using the Tamil script." $ufo
+        psfsetkeys -p backup=0 -i ${nlci}/lib.csv --plist lib $ufo
+    done
 done
+
 rm -rf backups
 popd
+
 ./preflight

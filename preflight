@@ -1,17 +1,19 @@
 #!/bin/sh
 
 faces="ThiruValluvar Auvaiyar Vaigai"
+for face in $faces
+do
+    ufo=source/${face}-Regular.ufo
+    psfsetkeys -k "copyright" --filepart OFL.txt $ufo
+    psfsetkeys -k "openTypeNameLicense" --file OFL.txt $ufo
+    psfsetversion $ufo 0.303
+    psfsyncmasters source/${face}Roman.designspace source/${face}Italic.designspace
+    psfmakewoffmetadata -n ${face} -i in.nlci.fonts $ufo
+done
+
 cd source
-mkdir logs
 for ufo in *.ufo
 do
-    psfsetkeys -p backup=0 -k "copyright" --filepart ../OFL.txt $ufo
-    psfsetkeys -p backup=0 -k "openTypeNameLicense" --file ../OFL.txt $ufo
-    psfsetversion $ufo 0.303
     psfnormalize -v 3 -p checkfix=fix $ufo
 done
 cd ..
-for face in $faces
-do
-    psfmakewoffmetadata -n ${face} -i in.nlci.fonts source/${face}-Regular.ufo -l source/logs/${face}_woff.log
-done
