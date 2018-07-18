@@ -24,9 +24,18 @@ do
         psfsetkeys -p backup=0 -k styleMapFamilyName -v "${f} ${s}" $ufo
         psfsetkeys -p backup=0 -k styleMapStyleName  -v "${s,,}" $ufo
 
-        echo "setting keys inUFO ${ufo}"
+        echo "setting general keys in UFO ${ufo}"
         psfsetkeys -p backup=0 -i ${nlci}/fontinfo.csv -k "openTypeNameDescription" -v "Pan Tamil font designed to support all the languages using the Tamil script." $ufo
         psfsetkeys -p backup=0 -i ${nlci}/lib.csv --plist lib $ufo
+
+        echo "setting glyphsapp keys in UFO ${ufo}"
+        if [ "$s" = "Bold" -o "$s" = "Bold Italic" ]
+        then
+            psfsetkeys -p backup=0 -k "com.schriftgestaltung.weight" -v "Bold" --plist lib $ufo
+            psfsetkeys -p backup=0 -k "com.schriftgestaltung.weightValue" -v "700" --plist lib $ufo
+        else
+            psfsetkeys -p backup=0 -k "com.schriftgestaltung.weightValue" -v "400" --plist lib $ufo
+        fi
     done
 done
 
