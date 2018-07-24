@@ -22,12 +22,12 @@ STANDARDS='tests/reference'
 # set meta-information
 script='taml'
 APPNAME='nlci-' + script
-COPYRIGHT='Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)'
+#COPYRIGHT='Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)'
 
 DESC_SHORT='Tamil Unicode font with OT and Graphite support'
-DESC_LONG='''
-Pan Tamil font designed to support all the languages using the Tamil script.
-'''
+#DESC_LONG='''
+#Pan Tamil font designed to support all the languages using the Tamil script.
+#'''
 DESC_NAME='NLCI-' + script
 DEBPKG='fonts-nlci-' + script
 getufoinfo('source/ThiruValluvar-Regular.ufo')
@@ -122,8 +122,8 @@ for f in faces:
             #classes = fontbase + 'thiruvalluvar_classes.xml',
             ap = generated + f + snf + '.xml',
             version = VERSION,
-            copyright = COPYRIGHT,
-            license=ofl('ThiruValluvar', 'Auvaiyar', 'Vaigai', 'NLCI'),
+            #copyright = COPYRIGHT,
+            #license=ofl('ThiruValluvar', 'Auvaiyar', 'Vaigai', 'NLCI'),
             woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
             script = 'taml',
             # extra_srcs = ['tools/ffaddapstotaml'],
