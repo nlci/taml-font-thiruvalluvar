@@ -36,6 +36,7 @@ getufoinfo('source/ThiruValluvar-Regular.ufo')
 TESTSTRING=u'\u0c15'
 #ftmlTest('tools/FTMLcreateList.xsl')
 ftmlTest('tools/ftml-padauk.xsl')
+testCommand('sile', cmd='${SILE} -o "${TGT}" "${SRC[0].abspath()}" -f "${SRC[1]}"', extracmds=['sile'], shapers=0, supports=['.sil'], ext='.pdf')
 
 # set fonts to build
 faces = ('ThiruValluvar', 'Auvaiyar', 'Vaigai')

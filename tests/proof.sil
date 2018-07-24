@@ -1,0 +1,39 @@
+\begin[class=fontproof]{document}
+\setTestFont[]
+
+\section{Tamil}
+
+\subsection{Name}
+
+\proof{Tamil தமிழ் அரிச்சுவடி RenderingUnknown}
+
+\proof[size="10,11,12,16",heading=Body text]{தமிழ் அரிச்சுவடி}
+
+\proof[size="18,24,30,36",heading=Heading text]{தமிழ் அரிச்சுவடி}
+
+\section{Patterns}
+
+\pattern[chars="I",reps="அக",heading=Sample mixed script]{aIB}
+
+\patterngroup[name="vowels"]{ஆஇ}
+\patterngroup[name="cons"]{ஙச}
+\patterngroup[name="matras"]{ாி}
+\pattern[chars="e,k,o,u",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Lowercase]{text_az}
+\pattern[chars="E,K,O,U",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Uppercase]{text_AZ}
+\pattern[chars="C,M",reps="group_cons,group_matras",heading=Some matra combinations]{ஈCMஜ}
+
+\patterngroup[name="digits"]{௦௧௨௩௪௫௬௭௮௯}
+\pattern[chars="@",reps="group_digits",heading=Digits]{௦@௧@௨@௩@௪@௫@௬@௭@௮@௯}
+
+\pattern[chars="¡,¿",reps="।,॥",heading=Punctuation]{text_punct}
+
+\section{Generated}
+
+\subsection{Latin text}
+\pangrams
+\lorem[words=100]
+
+\subsection{Glyphs}
+\repertoire
+
+\end{document}
