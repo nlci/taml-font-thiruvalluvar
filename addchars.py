@@ -3,21 +3,19 @@
 import os
 import os.path
 import sys
+
 from wscript import *
 
-charis = '../../../latn/fonts/charis_local/5.000/zip/unhinted/CharisSIL'
 charis_dir = '../../../latn/fonts/charis_local/5.000/zip/unhinted/'
 charis_ttf = '/CharisSIL'
-gentium = '../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/GenBkBas'
 gentium_dir = '../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/'
 gentium_ttf = '/GenBkBas'
-annapurna = '../../../deva/fonts/annapurna_local/1.203/zip/unhinted/AnnapurnaSIL-'
 annapurna_dir = '../../../deva/fonts/annapurna_local/1.203/zip/unhinted/'
 annapurna_ttf = '/AnnapurnaSIL-'
-panini = '../../../deva/fonts/panini/source/Panini'
+panini = '../../../deva/fonts/panini-master/source/Panini'
 deva = '../../../deva/fonts/panini/source/'
 thiruvalluvar = '../../../taml/fonts/thiruvalluvar/source/ThiruValluvar'
-badami = '../badami/source'
+vaigai = '../../../taml/fonts/thiruvalluvar/source/Vaigai'
 exo = '../../../latn/fonts/exo/1.500/zip/unhinted/1000/Exo-'
 
 def runCommand(cmd, ifont, ofont):
