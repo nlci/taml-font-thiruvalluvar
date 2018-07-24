@@ -90,12 +90,11 @@ psfix = 'cp' if '-p' in opts else 'psfix'
 if '-l' in opts:
     faces = list()
 for f in faces:
-#    p = package(
-#        appname = APPNAME + '-' + f.lower(),
-#        version = VERSION,
-#        outdir = 'packages',
-#        zipdir = ''
-#    )
+    p = package(
+        appname = APPNAME + '-' + f.lower(),
+        version = VERSION,
+        docdir = DOCDIR # 'documentation'
+    )
     for (s, sn) in zip(styles, stylesName):
         snf = '-' + sn.replace(' ', '')
         fontfilename = tag + f + snf
@@ -125,9 +124,9 @@ for f in faces:
             version = VERSION,
             copyright = COPYRIGHT,
             license=ofl('ThiruValluvar', 'Auvaiyar', 'Vaigai', 'NLCI'),
-            woff = woff('web/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
+            woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
             script = 'taml',
             # extra_srcs = ['tools/ffaddapstotaml'],
-            # package = p,
+            package = p,
             fret = fret(params = '')
         )
