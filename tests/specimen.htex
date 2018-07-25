@@ -1,0 +1,58 @@
+%!TEX TS-program = xetex-xdvipdfmx
+%!TEX encoding = UTF-8 Unicode
+
+\input ../tools/font-tests.tex
+%\labelsfalse will turn off sample labels
+%\labelstrue will turn them back on
+
+\papersize{a4}
+%\landscape will turn page
+%\landscapefalse will undo it
+
+%\testfont{ThiruValluvar}
+\testfont\buildfont
+%font features can be specified as part of the font name (see separate docs)
+
+\sizes={4,5,6,7,8,9,10,11,12,14,16,18,20,22,24,26,28,30}
+%\sub a {\N{a.SngStory}} % specifies glyph by name
+%\sub n {\U{014B}} % specifies glyph by codepoint
+%\sub o {\G{123}} % specifies glyph by ID
+
+\dotext தமிழ் அரிச்சுவடி RenderingUnknown
+
+\text={1948 திசெம்பர் மாதம் 10ஆம் தேதி, ஐக்கிய நாடுகள் பொதுச்சபை, மனித உரிமை பற்றிய உலகப் பிரகடனத்தை ஏற்றுச் சாற்றியது. அப்பிரகடனம் மேல்வரும் பக்கங்களில் முற்றுமுழுதாகத் தரப்படுகின்றது. வரலாற்று முக்கியத்துவம் வாய்ந்த அந்நடவடிக்கையின் பின்னர் சபையானது, பிரகடனத்தை வெளியிடுமாறும், அவ்வாறு வெளியிடப் பெற்றதை "நாடுகள் அல்லது ஆள்பலங்களின் அரசியல் அந்தஸ்துக் காரணமாக எவ்வித வேறுபாடுமில்லாவகையில் எல்லாப் பள்ளிகளிலும் பிற கல்வி நிறுவனங்களிலும் பரப்பவும், காட்சிக்கு வைக்கவும், வாசிக்கச் செய்யவும், விளக்கவும்" செயற்படுமாறு அங்கத்துவ நாடுகள் யாவற்றையும் கேட்டுக் கொண்டது.}
+\dotext
+
+\sizes={5,7,10,12,18,24}
+
+\dofile{../tests/udhr-preamble-latin.txt}
+
+\class C {\U{0B95}, \U{0B99}}
+\class M {\U{0BBE}, \U{0BBF}}
+\class V {\U{0BCD}}
+\sizes={6,7,8,9,10}
+\columns=5
+
+\dotext @C@V@C@M
+%the only special character is the @ symbol, @@ will include it
+
+\clearsubs
+
+\columns=2
+\sizes={9/11,9/13,9/12,9/14}
+
+\dotext
+
+\vfill
+\eject
+%will force page break
+
+\columns=1
+\sizes={9/11/2in,9/11/3in,12/14/4in,12/14/5in,12/14/*}
+%a paragraph width of * give infinite width (cutting off the page)
+\dotext
+
+\sizes={12/14/4.5in/L, 12/14/4.5in/C, 12/14/4.5in/R, 12/14/4.5in/J}
+\dotext
+
+\end
