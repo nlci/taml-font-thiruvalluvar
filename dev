@@ -3,7 +3,7 @@
 faces="ThiruValluvar Auvaiyar Vaigai"
 styles=(Regular Bold Italic "Bold Italic")
 src=source
-nlci=$HOME/work/nlci/projects/fonts/tools
+nlci=$HOME/script/tools
 
 pushd ${src}
 for f in $faces
