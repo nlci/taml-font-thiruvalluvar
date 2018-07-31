@@ -1,10 +1,15 @@
 #!/bin/bash
 
+faces="ThiruValluvar Auvaiyar Vaigai"
+styles=(Regular Bold Italic "Bold Italic")
+desc_long="Pan Tamil font designed to support all the languages using the Tamil script."
+
 ufo=results/ufo
-src=source
-nlci=$HOME/script/tools
+export src=source
+export nlci=$HOME/script/tools
 # grep -E "faces|styles" wscript | grep = > wscript.py
 rm -f *.sfd
+
 
 export FLOWARGS=""
 smith distclean -l
@@ -43,6 +48,6 @@ popd
 
 rm -rf ${src}/*.ufo
 mv -v ${ufo}/*.ufo ${src}
-mv -v ${ufo}/*.sfd ${src}
+# mv -v ${ufo}/*.sfd ${src}
 
-./dev
+source ${nlci}/metadata.bash

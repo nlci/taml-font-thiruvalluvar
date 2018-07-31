@@ -11,9 +11,7 @@ do
     psfmakewoffmetadata -n ${face} -i in.nlci.fonts $ufo
 done
 
-cd source
-for ufo in *.ufo
+for ufo in source/*.ufo
 do
     psfnormalize -v 3 -p checkfix=fix $ufo
 done
-cd ..
