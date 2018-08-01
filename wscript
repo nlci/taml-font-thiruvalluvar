@@ -59,8 +59,8 @@ generated = 'generated/'
 tag = script.upper()
 
 panose = [2, 0, 0, 3]
-codePageRange = [0]
-unicodeRange = [0, 1, 15, 20, 31, 45, 57]
+codePageRange = [0, 29]
+unicodeRange = [0, 1, 2, 3, 4, 5, 6, 7, 15, 20, 29, 31, 32, 33, 35, 38, 39, 40, 45, 57, 60, 62, 67, 69, 91]
 hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 
 if '-l' in opts:
@@ -104,7 +104,7 @@ for f in faces:
         else:
             ot = 'additional_faces'
         font(target = process(fontfilename + '.ttf',
-                cmd(hackos2 + ' ${DEP} ${TGT}'),
+                #cmd(hackos2 + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',
