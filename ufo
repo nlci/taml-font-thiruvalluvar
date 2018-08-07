@@ -48,6 +48,7 @@ popd
 
 rm -rf ${src}/*.ufo
 mv -v ${ufo}/*.ufo ${src}
-# mv -v ${ufo}/*.sfd ${src}
+mv -v ${ufo}/*.sfd ${src}
 
 source ${nlci}/metadata.bash
+echo "done producing UFO sources"

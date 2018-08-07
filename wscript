@@ -22,12 +22,8 @@ STANDARDS='tests/reference'
 # set meta-information
 script='taml'
 APPNAME='nlci-' + script
-#COPYRIGHT='Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)'
 
 DESC_SHORT='Tamil Unicode font with OT and Graphite support'
-#DESC_LONG='''
-#Pan Tamil font designed to support all the languages using the Tamil script.
-#'''
 DESC_NAME='NLCI-' + script
 DEBPKG='fonts-nlci-' + script
 getufoinfo('source/ThiruValluvar-Regular.ufo')
@@ -74,7 +70,6 @@ if '-l' in opts:
                 missing_face = 'VAIG' # used to be THIR
             missing = '../' + archive + missing_face + sLegacy + '.ttf'
             font(target = process('ufo/' + f + '-' + sn.replace(' ', '') + '.ttf',
-                    # cmd('cp ${DEP} ${TGT}'),
                     cmd(hackos2 + ' ${DEP} ${TGT}'),
                     name(f, lang='en-US', subfamily=(sn))
                     ),
@@ -96,7 +91,7 @@ for f in faces:
         version = VERSION,
         docdir = DOCDIR # 'documentation'
     )
-    for (s, sn) in zip(styles, stylesName):
+    for sn in stylesName:
         snf = '-' + sn.replace(' ', '')
         fontfilename = tag + f + snf
         if f == 'ThiruValluvar':
@@ -123,8 +118,6 @@ for f in faces:
             #classes = fontbase + 'thiruvalluvar_classes.xml',
             ap = generated + f + snf + '.xml',
             version = VERSION,
-            #copyright = COPYRIGHT,
-            #license=ofl('ThiruValluvar', 'Auvaiyar', 'Vaigai', 'NLCI'),
             woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
             script = 'taml',
             # extra_srcs = ['tools/ffaddapstotaml'],
