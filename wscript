@@ -91,7 +91,7 @@ for f in faces:
         version = VERSION,
         docdir = DOCDIR # 'documentation'
     )
-    for sn in stylesName:
+    for (s, sn) in zip(styles, stylesName):
         snf = '-' + sn.replace(' ', '')
         fontfilename = tag + f + snf
         if f == 'ThiruValluvar':
@@ -103,7 +103,7 @@ for f in faces:
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',
-            # source = fontbase + f + '-' + sn.replace(' ', '') + '.sfd',
+            # source = fontbase + f + snf + '.sfd',
             # sfd_master = 'master.sfd',
             # opentype = internal(),
             # sfd_master = 'source/master_src.sfd',
