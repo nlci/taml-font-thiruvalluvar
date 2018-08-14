@@ -47,10 +47,10 @@ def modifySource(sfd, f, s, sn):
         devaf = 'Maurya'
 
     if f != 'Auvaiyar':
-        cmd = '-i ' + findFile(os.path.join('..', '..', 'source', 'ThiruValluvar' + emsize + s + '.sfd')) + ' --name u0B95_u0BC2'
+        cmd = '-i ' + findFile('ThiruValluvar' + emsize + s + '.sfd') + ' --name u0B95_u0BC2'
         modifyFile(cmd, sfd)
 
-    cmd = '-i ' + findFile(os.path.join('..', '..', 'source', 'ThiruValluvar' + emsize + '-R.sfd')) + ' --rangefile grantha.usv --namefile grantha.name'
+    cmd = '-i ' + findFile('ThiruValluvar' + emsize + '-R.sfd') + ' --rangefile grantha.usv --namefile grantha.name'
     modifyFile(cmd, sfd)
 
     cmd = '-i ' + deva + devaf + '-' + sn + '.sfd' + ' --rangefile cs/panini/main4taml.txt'

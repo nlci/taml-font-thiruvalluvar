@@ -4,51 +4,21 @@ faces="ThiruValluvar Auvaiyar Vaigai"
 styles=(Regular Bold Italic "Bold Italic")
 desc_long="Pan Tamil font designed to support all the languages using the Tamil script."
 
-ufo=results/ufo
-export src=source
 export nlci=$HOME/script/tools
-# grep -E "faces|styles" wscript | grep = > wscript.py
-rm -f *.sfd
+source ${nlci}/prepare.bash
 
+source ${nlci}/addchars.bash
 
-export FLOWARGS=""
-smith distclean -l
-smith configure -l
-smith build -l
-
-pushd ${ufo}
-for ttf in *.ttf
-do
-    echo $ttf
-    sfd="$(basename $ttf .ttf).sfd"
-    fontforge -script ${nlci}/ttf2sfd.ff $ttf $sfd
-done
-popd
-
-sort -o cs/charis/pre.txt cs/charis/composite.txt cs/charis/decomposition.txt
-sort -o cs/gentium/pre.txt cs/gentium/composite.txt cs/gentium/decomposition.txt
-python addchars.py ${ufo}
-
-pushd ${ufo}
-for sfd in *.sfd
+pushd ${src}
+for sfd in *-???*.sfd
 do
     echo $sfd
     rm -f tmp.sfd
-    python ../../tools/ffaddapstotaml $sfd tmp.sfd
-    python ../../tools/ffaddvaptotaml tmp.sfd $sfd
+    python ../tools/ffaddapstotaml $sfd tmp.sfd
+    python ../tools/ffaddvaptotaml tmp.sfd $sfd
     rm -f tmp.sfd
 done
-for sfd in *.sfd
-do
-    echo $sfd
-    ufo2="$(basename $sfd .sfd).ufo"
-    fontforge -script ${nlci}/sfd2ufo.ff $sfd $ufo2
-done
 popd
-
-rm -rf ${src}/*.ufo
-mv -v ${ufo}/*.ufo ${src}
-mv -v ${ufo}/*.sfd ${src}
 
 source ${nlci}/metadata.bash
 echo "done producing UFO sources"
