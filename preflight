@@ -1,6 +1,6 @@
 #!/bin/sh
 
-faces="ThiruValluvar Auvaiyar Vaigai"
+faces="Auvaiyar Vaigai ThiruValluvar"
 for face in $faces
 do
     ufo=source/${face}-Regular.ufo
@@ -15,3 +15,12 @@ for ufo in source/*.ufo
 do
     psfnormalize -v 3 -p checkfix=fix $ufo
 done
+
+location=documentation
+filepath=${location}/${face}-features
+odt=${filepath}.odt
+pdf=${filepath}.pdf
+if [ $odt -nt $pdf ]
+then
+    soffice --convert-to pdf --outdir $location $odt
+fi
