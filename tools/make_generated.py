@@ -65,13 +65,17 @@ class Generate(object):
             0x0BCC,  # TAMIL VOWEL SIGN AU
             0x0BCD,  # TAMIL SIGN VIRAMA
             ]
+        nuktas = [
+            0x1133B,  # COMBINING BINDU BELOW
+            0x1133C,  # GRANTHA SIGN NUKTA
+            ]
         with open(filename, 'w') as output:
             output.write('RenderingUnknown\n')
 
             vowel_chars = list(map(chr, vowels))
             consonant_chars = list(map(chr, consonants))
             matra_chars = list(map(chr, matras))
-            nukta = chr(0x1133C)
+            nukta_chars = list(map(chr, nuktas))
 
             ka_virama_ssa = chr(0x0B95) + chr(0x0BCD) + chr(0x0BB7)
             consonant_chars.append(ka_virama_ssa)
@@ -80,9 +84,11 @@ class Generate(object):
             for v in vowel_chars:
                 combos = list()
                 combo = v
-                combo_nukta = combo + nukta
+                combo_single = combo + nukta_chars[0]
+                combo_double = combo + nukta_chars[1]
                 combos.append(combo)
-                combos.append(combo_nukta)
+                combos.append(combo_single)
+                combos.append(combo_double)
                 line = ' '.join(combos) + '\n'
                 output.write(line)
             for c in consonant_chars:
@@ -90,8 +96,9 @@ class Generate(object):
                     combos = list()
                     combo = c + m
                     combos.append(combo)
-                    combo_nukta = combo + nukta
-                    combos.append(combo_nukta)
+                    for n in nukta_chars:
+                        combo_nukta = combo + n
+                        combos.append(combo_nukta)
                     line = ' '.join(combos) + '\n'
                     output.write(line)
 

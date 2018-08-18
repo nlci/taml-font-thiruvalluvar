@@ -274,7 +274,7 @@ feature abvm {
 	\u0BB8_u0BC0 \u0BB8_u0BCD \u0BB9_u0BBF \u0BB9_u0BC0 \u0BB9_u0BCD \u0B95_u0BC2 
 	\u0B83.alt ];
 @GDEF_Ligature = [\u0BC1 \u0BC2 \u0BCD ];
-@GDEF_Mark = [\u1133C.double \u1133C \u1133C.single ];
+@GDEF_Mark = [\u1133C \u1133B \u1133B.single ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
