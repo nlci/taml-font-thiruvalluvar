@@ -15,14 +15,14 @@ sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
-XUID: [1021 780 -1551761284 9483356]
+XUID: [1021 121 -1252230331 3048654]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1522121138
-ModificationTime: 1522121178
+CreationTime: 1534550732
+ModificationTime: 1534550773
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -53,8 +53,8 @@ OS2SupYOff: 928
 OS2StrikeYSize: 102
 OS2StrikeYPos: 530
 OS2Vendor: 'Alts'
-OS2CodePages: 00000001.00000000
-OS2UnicodeRanges: 80108003.02002000.00000000.00000000
+OS2CodePages: 20000001.00000000
+OS2UnicodeRanges: a01080ff.520021cb.08000028.00000000
 Lookup: 260 0 0 "_holdAnchorsbase" { "_someAnchorsbase"  } []
 DEI: 91125
 ShortTable: maxp 16
@@ -75,7 +75,7 @@ ShortTable: maxp 16
   3
   2
 EndShort
-LangName: 1033 "" "" "" "ThiruValluvar Bold:2018-03-27" "" "1.0 Thu Apr 27 12:48:57 1995" "" "" "" "" "" "" "" "This Font Software is Copyright (c) 1995-2015, NLCI (http://www.nlci.in/fonts/)+AA0ACgAA-with Reserved Font Names +ACIA-ThiruValluvar+ACIA and +ACIA-Auvaiyar+ACIA and +ACIA-Vaigai+ACIA and +ACIA-NLCI+ACIA.+AA0ACgANAAoA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AA0ACgAA-This license is copied below, and is also available with a FAQ at:+AA0ACgAA-http://scripts.sil.org/OFL+AA0ACgANAAoADQAK------------------------------------------------------------+AA0ACgAA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AA0ACgAA------------------------------------------------------------+AA0ACgANAAoA-PREAMBLE+AA0ACgAA-The goals of the Open Font License (OFL) are to stimulate worldwide+AA0ACgAA-development of collaborative font projects, to support the font creation+AA0ACgAA-efforts of academic and linguistic communities, and to provide a free and+AA0ACgAA-open framework in which fonts may be shared and improved in partnership+AA0ACgAA-with others.+AA0ACgANAAoA-The OFL allows the licensed fonts to be used, studied, modified and+AA0ACgAA-redistributed freely as long as they are not sold by themselves. The+AA0ACgAA-fonts, including any derivative works, can be bundled, embedded, +AA0ACgAA-redistributed and/or sold with any software provided that any reserved+AA0ACgAA-names are not used by derivative works. The fonts and derivatives,+AA0ACgAA-however, cannot be released under any other type of license. The+AA0ACgAA-requirement for fonts to remain under this license does not apply+AA0ACgAA-to any document created using the fonts or their derivatives.+AA0ACgANAAoA-DEFINITIONS+AA0ACgAi-Font Software+ACIA refers to the set of files released by the Copyright+AA0ACgAA-Holder(s) under this license and clearly marked as such. This may+AA0ACgAA-include source files, build scripts and documentation.+AA0ACgANAAoAIgAA-Reserved Font Name+ACIA refers to any names specified as such after the+AA0ACgAA-copyright statement(s).+AA0ACgANAAoAIgAA-Original Version+ACIA refers to the collection of Font Software components as+AA0ACgAA-distributed by the Copyright Holder(s).+AA0ACgANAAoAIgAA-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AA0ACgAA-or substituting -- in part or in whole -- any of the components of the+AA0ACgAA-Original Version, by changing formats or by porting the Font Software to a+AA0ACgAA-new environment.+AA0ACgANAAoAIgAA-Author+ACIA refers to any designer, engineer, programmer, technical+AA0ACgAA-writer or other person who contributed to the Font Software.+AA0ACgANAAoA-PERMISSION & CONDITIONS+AA0ACgAA-Permission is hereby granted, free of charge, to any person obtaining+AA0ACgAA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AA0ACgAA-redistribute, and sell modified and unmodified copies of the Font+AA0ACgAA-Software, subject to the following conditions:+AA0ACgANAAoA-1) Neither the Font Software nor any of its individual components,+AA0ACgAA-in Original or Modified Versions, may be sold by itself.+AA0ACgANAAoA-2) Original or Modified Versions of the Font Software may be bundled,+AA0ACgAA-redistributed and/or sold with any software, provided that each copy+AA0ACgAA-contains the above copyright notice and this license. These can be+AA0ACgAA-included either as stand-alone text files, human-readable headers or+AA0ACgAA-in the appropriate machine-readable metadata fields within text or+AA0ACgAA-binary files as long as those fields can be easily viewed by the user.+AA0ACgANAAoA-3) No Modified Version of the Font Software may use the Reserved Font+AA0ACgAA-Name(s) unless explicit written permission is granted by the corresponding+AA0ACgAA-Copyright Holder. This restriction only applies to the primary font name as+AA0ACgAA-presented to the users.+AA0ACgANAAoA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AA0ACgAA-Software shall not be used to promote, endorse or advertise any+AA0ACgAA-Modified Version, except to acknowledge the contribution(s) of the+AA0ACgAA-Copyright Holder(s) and the Author(s) or with their explicit written+AA0ACgAA-permission.+AA0ACgANAAoA-5) The Font Software, modified or unmodified, in part or in whole,+AA0ACgAA-must be distributed entirely under this license, and must not be+AA0ACgAA-distributed under any other license. The requirement for fonts to+AA0ACgAA-remain under this license does not apply to any document created+AA0ACgAA-using the Font Software.+AA0ACgANAAoA-TERMINATION+AA0ACgAA-This license becomes null and void if any of the above conditions are+AA0ACgAA-not met.+AA0ACgANAAoA-DISCLAIMER+AA0ACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AA0ACgAA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AA0ACgAA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AA0ACgAA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AA0ACgAA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AA0ACgAA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AA0ACgAA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AA0ACgAA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AA0ACgAA-OTHER DEALINGS IN THE FONT SOFTWARE.+AA0ACgAA" "http://scripts.sil.org/OFL" "" "ThiruValluvar" "Bold" "ThiruValluvar Bold"
+LangName: 1033 "" "" "" "ThiruValluvar Bold:2018-08-18" "" "1.0 Thu Apr 27 12:48:57 1995" "" "" "" "" "" "" "" "This Font Software is Copyright (c) 1995-2015, NLCI (http://www.nlci.in/fonts/)+AA0ACgAA-with Reserved Font Names +ACIA-ThiruValluvar+ACIA and +ACIA-Auvaiyar+ACIA and +ACIA-Vaigai+ACIA and +ACIA-NLCI+ACIA.+AA0ACgANAAoA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AA0ACgAA-This license is copied below, and is also available with a FAQ at:+AA0ACgAA-http://scripts.sil.org/OFL+AA0ACgANAAoADQAK------------------------------------------------------------+AA0ACgAA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AA0ACgAA------------------------------------------------------------+AA0ACgANAAoA-PREAMBLE+AA0ACgAA-The goals of the Open Font License (OFL) are to stimulate worldwide+AA0ACgAA-development of collaborative font projects, to support the font creation+AA0ACgAA-efforts of academic and linguistic communities, and to provide a free and+AA0ACgAA-open framework in which fonts may be shared and improved in partnership+AA0ACgAA-with others.+AA0ACgANAAoA-The OFL allows the licensed fonts to be used, studied, modified and+AA0ACgAA-redistributed freely as long as they are not sold by themselves. The+AA0ACgAA-fonts, including any derivative works, can be bundled, embedded, +AA0ACgAA-redistributed and/or sold with any software provided that any reserved+AA0ACgAA-names are not used by derivative works. The fonts and derivatives,+AA0ACgAA-however, cannot be released under any other type of license. The+AA0ACgAA-requirement for fonts to remain under this license does not apply+AA0ACgAA-to any document created using the fonts or their derivatives.+AA0ACgANAAoA-DEFINITIONS+AA0ACgAi-Font Software+ACIA refers to the set of files released by the Copyright+AA0ACgAA-Holder(s) under this license and clearly marked as such. This may+AA0ACgAA-include source files, build scripts and documentation.+AA0ACgANAAoAIgAA-Reserved Font Name+ACIA refers to any names specified as such after the+AA0ACgAA-copyright statement(s).+AA0ACgANAAoAIgAA-Original Version+ACIA refers to the collection of Font Software components as+AA0ACgAA-distributed by the Copyright Holder(s).+AA0ACgANAAoAIgAA-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AA0ACgAA-or substituting -- in part or in whole -- any of the components of the+AA0ACgAA-Original Version, by changing formats or by porting the Font Software to a+AA0ACgAA-new environment.+AA0ACgANAAoAIgAA-Author+ACIA refers to any designer, engineer, programmer, technical+AA0ACgAA-writer or other person who contributed to the Font Software.+AA0ACgANAAoA-PERMISSION & CONDITIONS+AA0ACgAA-Permission is hereby granted, free of charge, to any person obtaining+AA0ACgAA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AA0ACgAA-redistribute, and sell modified and unmodified copies of the Font+AA0ACgAA-Software, subject to the following conditions:+AA0ACgANAAoA-1) Neither the Font Software nor any of its individual components,+AA0ACgAA-in Original or Modified Versions, may be sold by itself.+AA0ACgANAAoA-2) Original or Modified Versions of the Font Software may be bundled,+AA0ACgAA-redistributed and/or sold with any software, provided that each copy+AA0ACgAA-contains the above copyright notice and this license. These can be+AA0ACgAA-included either as stand-alone text files, human-readable headers or+AA0ACgAA-in the appropriate machine-readable metadata fields within text or+AA0ACgAA-binary files as long as those fields can be easily viewed by the user.+AA0ACgANAAoA-3) No Modified Version of the Font Software may use the Reserved Font+AA0ACgAA-Name(s) unless explicit written permission is granted by the corresponding+AA0ACgAA-Copyright Holder. This restriction only applies to the primary font name as+AA0ACgAA-presented to the users.+AA0ACgANAAoA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AA0ACgAA-Software shall not be used to promote, endorse or advertise any+AA0ACgAA-Modified Version, except to acknowledge the contribution(s) of the+AA0ACgAA-Copyright Holder(s) and the Author(s) or with their explicit written+AA0ACgAA-permission.+AA0ACgANAAoA-5) The Font Software, modified or unmodified, in part or in whole,+AA0ACgAA-must be distributed entirely under this license, and must not be+AA0ACgAA-distributed under any other license. The requirement for fonts to+AA0ACgAA-remain under this license does not apply to any document created+AA0ACgAA-using the Font Software.+AA0ACgANAAoA-TERMINATION+AA0ACgAA-This license becomes null and void if any of the above conditions are+AA0ACgAA-not met.+AA0ACgANAAoA-DISCLAIMER+AA0ACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AA0ACgAA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AA0ACgAA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AA0ACgAA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AA0ACgAA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AA0ACgAA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AA0ACgAA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AA0ACgAA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AA0ACgAA-OTHER DEALINGS IN THE FONT SOFTWARE.+AA0ACgAA" "http://scripts.sil.org/OFL" "" "ThiruValluvar" "Bold" "ThiruValluvar Bold"
 Encoding: Original
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -5358,17 +5358,17 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: slash.taml
-Encoding: 112 -1 112
+StartChar: uni2215
+Encoding: 112 8725 112
 Width: 788
 Flags: W
 LayerCount: 2
 Fore
-Refer: 113 8725 N 1 0 0 1 0 0 0
+Refer: 113 -1 N 1 0 0 1 0 0 0
 EndChar
 
-StartChar: uni2215
-Encoding: 113 8725 113
+StartChar: slash.taml
+Encoding: 113 -1 113
 Width: 788
 Flags: W
 LayerCount: 2
@@ -22862,8 +22862,66 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: uni0294
+Encoding: 472 660 472
+Width: 990
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 0 m 0,0,-1
+ 200 83 l 0,1,2
+ 287 98 287 98 323.5 112.5 c 0,3,4
+ 360 127 360 127 360 144 c 0,5,-1
+ 360 516 l 0,6,7
+ 360 593 360 593 384.5 652 c 0,8,9
+ 409 711 409 711 445.5 760 c 0,10,11
+ 482 809 482 809 525 851.5 c 0,12,13
+ 568 894 568 894 604.5 938.5 c 0,14,15
+ 641 983 641 983 665.5 1034 c 0,16,17
+ 690 1085 690 1085 690 1150 c 0,18,19
+ 690 1211 690 1211 673 1259.5 c 0,20,21
+ 656 1308 656 1308 627.5 1341.5 c 0,22,23
+ 599 1375 599 1375 562 1392.5 c 0,24,25
+ 525 1410 525 1410 484 1410 c 0,26,27
+ 452 1410 452 1410 424.5 1394.5 c 0,28,29
+ 397 1379 397 1379 377 1352 c 0,30,31
+ 357 1325 357 1325 345.5 1290 c 0,32,33
+ 334 1255 334 1255 334 1216 c 0,34,35
+ 334 1202 334 1202 338 1182 c 0,36,37
+ 342 1162 342 1162 347 1148 c 0,38,39
+ 323 1136 323 1136 289 1125.5 c 0,40,41
+ 255 1115 255 1115 217.5 1106 c 0,42,43
+ 180 1097 180 1097 142 1090 c 0,44,45
+ 104 1083 104 1083 70 1080 c 0,46,-1
+ 43 1110 l 0,47,48
+ 41 1118 41 1118 40.5 1131.5 c 0,49,50
+ 40 1145 40 1145 40 1153 c 0,51,52
+ 40 1231 40 1231 79 1303 c 0,53,54
+ 118 1375 118 1375 187.5 1429.5 c 0,55,56
+ 257 1484 257 1484 352.5 1517 c 0,57,58
+ 448 1550 448 1550 562 1550 c 0,59,60
+ 665 1550 665 1550 742 1525 c 0,61,62
+ 819 1500 819 1500 869.5 1455 c 0,63,64
+ 920 1410 920 1410 945 1346.5 c 0,65,66
+ 970 1283 970 1283 970 1205 c 0,67,68
+ 970 1131 970 1131 945 1077.5 c 0,69,70
+ 920 1024 920 1024 882 980.5 c 0,71,72
+ 844 937 844 937 800 898 c 0,73,74
+ 756 859 756 859 718 815 c 0,75,76
+ 680 771 680 771 655 716 c 0,77,78
+ 630 661 630 661 630 585 c 0,79,-1
+ 630 144 l 0,80,81
+ 630 129 630 129 669 113 c 0,82,83
+ 708 97 708 97 790 83 c 0,84,-1
+ 790 0 l 0,85,-1
+ 200 0 l 0,0,-1
+EndSplineSet
+EndChar
+
 StartChar: circumflex
-Encoding: 472 710 472
+Encoding: 473 710 473
 Width: 733
 VWidth: 0
 Flags: W
@@ -22886,7 +22944,7 @@ EndSplineSet
 EndChar
 
 StartChar: caron
-Encoding: 473 711 473
+Encoding: 474 711 474
 Width: 733
 VWidth: 0
 Flags: W
@@ -22909,7 +22967,7 @@ EndSplineSet
 EndChar
 
 StartChar: breve
-Encoding: 474 728 474
+Encoding: 475 728 475
 Width: 730
 VWidth: 0
 Flags: W
@@ -22945,7 +23003,7 @@ EndSplineSet
 EndChar
 
 StartChar: dotaccent
-Encoding: 475 729 475
+Encoding: 476 729 476
 Width: 400
 VWidth: 0
 Flags: W
@@ -22969,7 +23027,7 @@ EndSplineSet
 EndChar
 
 StartChar: ring
-Encoding: 476 730 476
+Encoding: 477 730 477
 Width: 512
 VWidth: 0
 Flags: W
@@ -23010,7 +23068,7 @@ EndSplineSet
 EndChar
 
 StartChar: ogonek
-Encoding: 477 731 477
+Encoding: 478 731 478
 Width: 530
 VWidth: 0
 Flags: W
@@ -23042,7 +23100,7 @@ EndSplineSet
 EndChar
 
 StartChar: tilde
-Encoding: 478 732 478
+Encoding: 479 732 479
 Width: 822
 VWidth: 0
 Flags: W
@@ -23078,7 +23136,7 @@ EndSplineSet
 EndChar
 
 StartChar: hungarumlaut
-Encoding: 479 733 479
+Encoding: 480 733 480
 Width: 768
 VWidth: 0
 Flags: W
@@ -23113,7 +23171,7 @@ EndSplineSet
 EndChar
 
 StartChar: pi
-Encoding: 480 960 480
+Encoding: 481 960 481
 Width: 1118
 VWidth: 0
 Flags: W
@@ -23185,7 +23243,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2011
-Encoding: 481 8209 481
+Encoding: 482 8209 482
 Width: 740
 VWidth: 0
 Flags: W
@@ -23195,7 +23253,7 @@ Refer: 356 727 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: endash
-Encoding: 482 8211 482
+Encoding: 483 8211 483
 Width: 1000
 VWidth: 0
 Flags: W
@@ -23219,7 +23277,7 @@ EndSplineSet
 EndChar
 
 StartChar: emdash
-Encoding: 483 8212 483
+Encoding: 484 8212 484
 Width: 1670
 VWidth: 0
 Flags: W
@@ -23243,7 +23301,7 @@ EndSplineSet
 EndChar
 
 StartChar: quoteleft
-Encoding: 484 8216 484
+Encoding: 485 8216 485
 Width: 549
 VWidth: 0
 Flags: W
@@ -23273,7 +23331,7 @@ EndSplineSet
 EndChar
 
 StartChar: quoteright
-Encoding: 485 8217 485
+Encoding: 486 8217 486
 Width: 551
 VWidth: 0
 Flags: W
@@ -23303,7 +23361,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotesinglbase
-Encoding: 486 8218 486
+Encoding: 487 8218 487
 Width: 551
 VWidth: 0
 Flags: W
@@ -23333,7 +23391,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedblleft
-Encoding: 487 8220 487
+Encoding: 488 8220 488
 Width: 1051
 VWidth: 0
 Flags: W
@@ -23382,7 +23440,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedblright
-Encoding: 488 8221 488
+Encoding: 489 8221 489
 Width: 1053
 VWidth: 0
 Flags: W
@@ -23431,7 +23489,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedblbase
-Encoding: 489 8222 489
+Encoding: 490 8222 490
 Width: 1053
 VWidth: 0
 Flags: W
@@ -23480,7 +23538,7 @@ EndSplineSet
 EndChar
 
 StartChar: dagger
-Encoding: 490 8224 490
+Encoding: 491 8224 491
 Width: 1017
 VWidth: 0
 Flags: W
@@ -23543,7 +23601,7 @@ EndSplineSet
 EndChar
 
 StartChar: daggerdbl
-Encoding: 491 8225 491
+Encoding: 492 8225 492
 Width: 1017
 VWidth: 0
 Flags: W
@@ -23629,7 +23687,7 @@ EndSplineSet
 EndChar
 
 StartChar: bullet
-Encoding: 492 8226 492
+Encoding: 493 8226 493
 Width: 569
 VWidth: 0
 Flags: W
@@ -23657,7 +23715,7 @@ EndSplineSet
 EndChar
 
 StartChar: ellipsis
-Encoding: 493 8230 493
+Encoding: 494 8230 494
 Width: 1779
 VWidth: 0
 Flags: W
@@ -23669,7 +23727,7 @@ Refer: 17 46 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: perthousand
-Encoding: 494 8240 494
+Encoding: 495 8240 495
 Width: 2234
 VWidth: 0
 Flags: W
@@ -23783,7 +23841,7 @@ EndSplineSet
 EndChar
 
 StartChar: guilsinglleft
-Encoding: 495 8249 495
+Encoding: 496 8249 496
 Width: 654
 VWidth: 0
 Flags: W
@@ -23811,7 +23869,7 @@ EndSplineSet
 EndChar
 
 StartChar: guilsinglright
-Encoding: 496 8250 496
+Encoding: 497 8250 497
 Width: 654
 VWidth: 0
 Flags: W
@@ -23830,7 +23888,7 @@ EndSplineSet
 EndChar
 
 StartChar: fraction
-Encoding: 497 8260 497
+Encoding: 498 8260 498
 Width: 1300
 VWidth: 0
 Flags: W
@@ -23854,7 +23912,7 @@ EndSplineSet
 EndChar
 
 StartChar: Euro
-Encoding: 498 8364 498
+Encoding: 499 8364 499
 Width: 1061
 VWidth: 0
 Flags: W
@@ -23931,7 +23989,7 @@ EndSplineSet
 EndChar
 
 StartChar: trademark
-Encoding: 499 8482 499
+Encoding: 500 8482 500
 Width: 1263
 VWidth: 0
 Flags: W
@@ -24004,7 +24062,7 @@ EndSplineSet
 EndChar
 
 StartChar: Omega
-Encoding: 500 8486 500
+Encoding: 501 8486 501
 Width: 1421
 VWidth: 0
 Flags: W
@@ -24014,7 +24072,7 @@ Refer: 365 937 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: partialdiff
-Encoding: 501 8706 501
+Encoding: 502 8706 502
 Width: 1064
 VWidth: 0
 Flags: W
@@ -24082,7 +24140,7 @@ EndSplineSet
 EndChar
 
 StartChar: Delta
-Encoding: 502 8710 502
+Encoding: 503 8710 503
 Width: 1274
 VWidth: 0
 Flags: W
@@ -24129,7 +24187,7 @@ EndSplineSet
 EndChar
 
 StartChar: product
-Encoding: 503 8719 503
+Encoding: 504 8719 504
 Width: 1370
 VWidth: 0
 Flags: W
@@ -24139,7 +24197,7 @@ Refer: 364 928 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: summation
-Encoding: 504 8721 504
+Encoding: 505 8721 505
 Width: 1140
 VWidth: 0
 Flags: W
@@ -24149,7 +24207,7 @@ Refer: 355 425 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: minus
-Encoding: 505 8722 505
+Encoding: 506 8722 506
 Width: 870
 VWidth: 0
 Flags: W
@@ -24173,7 +24231,7 @@ EndSplineSet
 EndChar
 
 StartChar: radical
-Encoding: 506 8730 506
+Encoding: 507 8730 507
 Width: 1280
 VWidth: 0
 Flags: W
@@ -24207,7 +24265,7 @@ EndSplineSet
 EndChar
 
 StartChar: infinity
-Encoding: 507 8734 507
+Encoding: 508 8734 508
 Width: 1396
 VWidth: 0
 Flags: W
@@ -24283,7 +24341,7 @@ EndSplineSet
 EndChar
 
 StartChar: integral
-Encoding: 508 8747 508
+Encoding: 509 8747 509
 Width: 655
 VWidth: 0
 Flags: W
@@ -24349,7 +24407,7 @@ EndSplineSet
 EndChar
 
 StartChar: approxequal
-Encoding: 509 8776 509
+Encoding: 510 8776 510
 Width: 940
 VWidth: 0
 Flags: W
@@ -24410,7 +24468,7 @@ EndSplineSet
 EndChar
 
 StartChar: notequal
-Encoding: 510 8800 510
+Encoding: 511 8800 511
 Width: 940
 VWidth: 0
 Flags: W
@@ -24466,7 +24524,7 @@ EndSplineSet
 EndChar
 
 StartChar: lessequal
-Encoding: 511 8804 511
+Encoding: 512 8804 512
 Width: 940
 VWidth: 0
 Flags: W
@@ -24508,7 +24566,7 @@ EndSplineSet
 EndChar
 
 StartChar: greaterequal
-Encoding: 512 8805 512
+Encoding: 513 8805 513
 Width: 940
 VWidth: 0
 Flags: W
@@ -24550,7 +24608,7 @@ EndSplineSet
 EndChar
 
 StartChar: lozenge
-Encoding: 513 9674 513
+Encoding: 514 9674 514
 Width: 760
 VWidth: 0
 Flags: W
@@ -24581,7 +24639,7 @@ EndSplineSet
 EndChar
 
 StartChar: fi
-Encoding: 514 64257 514
+Encoding: 515 64257 515
 Width: 1350
 VWidth: 0
 Flags: W
@@ -24592,7 +24650,7 @@ Refer: 73 102 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: fl
-Encoding: 515 64258 515
+Encoding: 516 64258 516
 Width: 1350
 VWidth: 0
 Flags: W
@@ -24668,7 +24726,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniF130
-Encoding: 516 61744 516
+Encoding: 517 61744 517
 Width: 340
 VWidth: 0
 Flags: W
@@ -24686,7 +24744,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniF131
-Encoding: 517 61745 517
+Encoding: 518 61745 518
 Width: 340
 VWidth: 0
 Flags: W
@@ -24704,7 +24762,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni02BC
-Encoding: 518 700 518
+Encoding: 519 700 519
 Width: 525
 VWidth: 0
 Flags: W
@@ -24736,7 +24794,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni02C0
-Encoding: 519 704 519
+Encoding: 520 704 520
 Width: 625
 VWidth: 0
 Flags: W
@@ -24786,7 +24844,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA78C
-Encoding: 520 42892 520
+Encoding: 521 42892 521
 Width: 592
 VWidth: 0
 Flags: W
@@ -24807,62 +24865,6 @@ SplineSet
  397 1478 397 1478 404 1480 c 0,21,-1
  457 1449 l 0,22,-1
  369 654 l 0,0,1
-EndSplineSet
-EndChar
-
-StartChar: uni0241
-Encoding: 521 577 521
-Width: 1010
-VWidth: 0
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-210 0 m 0,0,-1
- 210 83 l 0,1,2
- 296 98 296 98 330.5 112.5 c 0,3,4
- 365 127 365 127 365 144 c 0,5,-1
- 365 406 l 0,6,7
- 365 478 365 478 388.5 528.5 c 0,8,9
- 412 579 412 579 447 616.5 c 0,10,11
- 482 654 482 654 522.5 684 c 0,12,13
- 563 714 563 714 598 746 c 0,14,15
- 633 778 633 778 656.5 816.5 c 0,16,17
- 680 855 680 855 680 910 c 0,18,19
- 680 1034 680 1034 627 1095 c 0,20,21
- 574 1156 574 1156 484 1154 c 0,22,23
- 445 1153 445 1153 415.5 1138 c 0,24,25
- 386 1123 386 1123 365.5 1098 c 0,26,27
- 345 1073 345 1073 334.5 1039 c 0,28,29
- 324 1005 324 1005 324 966 c 0,30,31
- 324 943 324 943 327.5 919.5 c 0,32,33
- 331 896 331 896 341 878 c 0,34,35
- 325 870 325 870 286.5 860.5 c 0,36,37
- 248 851 248 851 203.5 843 c 0,38,39
- 159 835 159 835 117.5 828.5 c 0,40,41
- 76 822 76 822 54 820 c 0,42,-1
- 27 850 l 0,43,44
- 25 858 25 858 22.5 878 c 0,45,46
- 20 898 20 898 20 913 c 0,47,48
- 20 983 20 983 55 1051 c 0,49,50
- 90 1119 90 1119 157.5 1172 c 0,51,52
- 225 1225 225 1225 324 1257.5 c 0,53,54
- 423 1290 423 1290 552 1290 c 0,55,56
- 663 1290 663 1290 742 1265.5 c 0,57,58
- 821 1241 821 1241 872 1197.5 c 0,59,60
- 923 1154 923 1154 946.5 1094.5 c 0,61,62
- 970 1035 970 1035 970 965 c 0,63,64
- 970 891 970 891 946 842 c 0,65,66
- 922 793 922 793 886 758 c 0,67,68
- 850 723 850 723 807.5 696.5 c 0,69,70
- 765 670 765 670 729 640.5 c 0,71,72
- 693 611 693 611 669 572.5 c 0,73,74
- 645 534 645 534 645 475 c 0,75,-1
- 645 144 l 0,76,77
- 645 129 645 129 681.5 113 c 0,78,79
- 718 97 718 97 800 83 c 0,80,-1
- 800 0 l 0,81,-1
- 210 0 l 0,0,-1
 EndSplineSet
 EndChar
 
