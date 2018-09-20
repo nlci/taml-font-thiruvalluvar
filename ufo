@@ -1,6 +1,6 @@
 #!/bin/bash
 
-faces="ThiruValluvar Auvaiyar Vaigai"
+faces=(ThiruValluvar Auvaiyar Vaigai)
 styles=(Regular Bold Italic "Bold Italic")
 desc_long="Pan Tamil font designed to support all the languages using the Tamil script."
 
