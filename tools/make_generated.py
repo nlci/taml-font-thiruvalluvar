@@ -81,26 +81,29 @@ class Generate(object):
             consonant_chars.append(ka_virama_ssa)
             matra_chars.insert(0, '')
 
-            for v in vowel_chars:
-                combos = list()
-                combo = v
-                combo_single = combo + nukta_chars[0]
-                combo_double = combo + nukta_chars[1]
-                combos.append(combo)
-                combos.append(combo_single)
-                combos.append(combo_double)
-                line = ' '.join(combos) + '\n'
-                output.write(line)
             for c in consonant_chars:
                 for m in matra_chars:
-                    combos = list()
-                    combo = c + m
-                    combos.append(combo)
+                    clusters = list()
                     for n in nukta_chars:
-                        combo_nukta = combo + n
-                        combos.append(combo_nukta)
-                    line = ' '.join(combos) + '\n'
+                        cluster = c + m
+                        clusters.append(cluster)
+                        cluster = c + m + n
+                        clusters.append(cluster)
+                        cluster = c + n + m
+                        clusters.append(cluster)
+                        cluster = c + n + m + n
+                        clusters.append(cluster)
+                    line = ' '.join(clusters) + '\n'
                     output.write(line)
+
+            nukta_chars.insert(0, '')
+            for v in vowel_chars:
+                clusters = list()
+                for n in nukta_chars:
+                    cluster = v + n
+                    clusters.append(cluster)
+                line = ' '.join(clusters) + '\n'
+                output.write(line)
 
 if __name__ == "__main__":
     main()
