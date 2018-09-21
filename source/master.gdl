@@ -5,7 +5,7 @@ table(feature)
 nuka
 {
     id = "cv01";
-    name.LG_USENG = string("Single Nukta forms");
+    name.LG_USENG = string("Nukta forms");
     default = ring;
     settings
     {
@@ -14,9 +14,14 @@ nuka
             value = 0;
             name.LG_USENG = string("Single ring");
         }
-        single
+        double
         {
             value = 1;
+            name.LG_USENG = string("Double dot");
+        }
+        single
+        {
+            value = 2;
             name.LG_USENG = string("Single dot");
         }
     }
@@ -34,6 +39,11 @@ bkurm {
 jkurm {
     languages = ("xuj");
     nuka = ring;
+}
+
+irula {
+    languages = ("iru");
+    nuka = double;
 }
 
 chetti {
@@ -127,13 +137,22 @@ endpass;
 if (nuka != ring)
 pass(4)
 
-if (nuka == single)
-    g1133b > g1133b_single;
+if (nuka == double)
+    g1133c > g1133c_double;
+else if (nuka == single)
+    g1133c > g1133b;
 endif
 
 endpass;
 endif;
 
+if (nuka == ring)
+pass(5)
+
+g1133b > g1133c;
+
+endpass;
+endif;
 
 endtable;
 /* Substitution rules end here */

@@ -84,9 +84,9 @@ class Generate(object):
             for c in consonant_chars:
                 for m in matra_chars:
                     clusters = list()
+                    cluster = c + m
+                    clusters.append(cluster)
                     for n in nukta_chars:
-                        cluster = c + m
-                        clusters.append(cluster)
                         cluster = c + m + n
                         clusters.append(cluster)
                         cluster = c + n + m

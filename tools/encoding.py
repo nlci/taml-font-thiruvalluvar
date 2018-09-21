@@ -12,14 +12,33 @@ single = font['u1133C']
 double = font['u1133C.double']
 ring = font['u1133C.ring']
 
-single.name = 'u1133B.single'
-single.unicode = None
+for g in (single, double, ring):
+    if g.unicode:
+        uni = f'{g.unicode:#x}'
+    else:
+        uni = 'un-encoded'
+    print(f'before: name: {g.name} cp: {uni}')
+    for unis in g.unicodes:
+        print(f'cps: {unis:#x}')
 
-ring.name = 'u1133B'
-ring.unicode = 0x1133B
+single.name = 'u1133B'
+single.unicode = 0x1133B
+single.unicodes = [single.unicode]
 
-double.name = 'u1133C'
-double.unicode = 0x1133C
+ring.name = 'u1133C'
+ring.unicode = 0x1133C
+ring.unicodes = [ring.unicode]
+
+double.unicodes = []
+
+for g in (single, double, ring):
+    if g.unicode:
+        uni = f'{g.unicode:#x}'
+    else:
+        uni = 'un-encoded'
+    print(f'after: name: {g.name} cp: {uni}')
+    for unis in g.unicodes:
+        print(f'cps: {unis:#x}')
 
 # Save UFO
 font.changed()
