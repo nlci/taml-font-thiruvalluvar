@@ -45,3 +45,16 @@ body {
   font-family: ThiruValluvarW;
   font-feature-settings: "cv01" 2; font-size: 200%;
 }
+
+.cv02x {
+  font-family: ThiruValluvarW;
+  font-size: 200%;
+}
+.cv020 {
+  font-family: ThiruValluvarW;
+  font-feature-settings: "cv02" 0; font-size: 200%;
+}
+.cv021 {
+  font-family: ThiruValluvarW;
+  font-feature-settings: "cv02" 1; font-size: 200%;
+}

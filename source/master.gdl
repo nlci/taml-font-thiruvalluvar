@@ -5,7 +5,7 @@ table(feature)
 nuka
 {
     id = "cv01";
-    name.LG_USENG = string("Nukta forms");
+    name.LG_USENG = string("Double and single nuktas");
     default = ring;
     settings
     {
@@ -23,6 +23,26 @@ nuka
         {
             value = 2;
             name.LG_USENG = string("Single dot");
+        }
+    }
+}
+
+snuk
+{
+    id = "cv02";
+    name.LG_USENG = string("Single nukta (future)");
+    default = dot;
+    settings
+    {
+        dot
+        {
+            value = 0;
+            name.LG_USENG = string("Single dot");
+        }
+        ring
+        {
+            value = 1;
+            name.LG_USENG = string("Single ring");
         }
     }
 }
@@ -49,6 +69,7 @@ irula {
 chetti {
     languages = ("ctt");
     nuka = single;
+    snuk = ring;
 }
 
 endtable;
@@ -134,25 +155,23 @@ pass(3)
 //  cligno_0BCD g0bcd > clig0BCD:(1 3) _ / _ g1133c? _;
 endpass;
 
-if (nuka != ring)
 pass(4)
 
-if (nuka == double)
+if (nuka == ring && snuk == ring)
+    g1133b > g1133c;
+else if (nuka == double && snuk == dot)
     g1133c > g1133c_double;
-else if (nuka == single)
+else if (nuka == double && snuk == ring)
+    g1133c > g1133c_double;
+    g1133b > g1133c;
+else if (nuka == single && snuk == dot)
     g1133c > g1133b;
-endif
-
-endpass;
+else if (nuka == single && snuk == ring)
+    g1133c > g1133b;
+    g1133b > g1133c;
 endif;
 
-if (nuka == ring)
-pass(5)
-
-g1133b > g1133c;
-
 endpass;
-endif;
 
 endtable;
 /* Substitution rules end here */
