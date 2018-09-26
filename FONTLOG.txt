@@ -32,8 +32,8 @@ ChangeLog
 (This should list both major and minor changes, most recent first.)
 
 Unreleased
-- Keep the new nukta codepoint,
-  but provide all nukta forms on the old codepoint as well.
+- Keep the new nukta codepoint, but provide all nukta forms
+  (including a new double ring) on the old codepoint as well.
 17 Aug 2018 (Dev NLCI) NLCI Tamil fonts version 0.303
 - Use two codepoints for nuktas, not just one
 18 May 2018 (Dev NLCI) NLCI Tamil fonts version 0.302

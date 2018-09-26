@@ -15,7 +15,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1410967553
-ModificationTime: 1441180490
+ModificationTime: 1537631942
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -93,13 +93,12 @@ ShortTable: maxp 16
 EndShort
 LangName: 1033 "" "" "Normal" "NLCI:TAM ThiruValluvar Normal" "" "1.0 Thu Apr 27 12:35:12 1995"
 Encoding: Custom
-Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 37 14
+WinInfo: 0 36 13
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -184,7 +183,7 @@ Grid
 365 2662 m 1024
 EndSplineSet
 AnchorClass2: "V" "_someAnchorsbase" "N" "_someAnchorsbase" "R" "'abvm' cursive-1"
-BeginChars: 301 301
+BeginChars: 302 302
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -12545,7 +12544,7 @@ StartChar: u1133C.double
 Encoding: 297 -1 297
 Width: 0
 Flags: HW
-AnchorPoint: "N" -905 -500 mark 0
+AnchorPoint: "N" -905 -499 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12567,7 +12566,7 @@ StartChar: u1133C.ring
 Encoding: 298 -1 298
 Width: 0
 Flags: HW
-AnchorPoint: "N" -904.5 -500 mark 0
+AnchorPoint: "N" -904.5 -504 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -12601,7 +12600,7 @@ StartChar: u1133C
 Encoding: 299 70460 299
 Width: 0
 Flags: HW
-AnchorPoint: "N" -904.5 -500 mark 0
+AnchorPoint: "N" -904.5 -503 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -12663,6 +12662,37 @@ SplineSet
  398 1208.99075581 481.419119462 1301 590 1301 c 0
  696.892195309 1301 783 1212.50287599 783 1108 c 0
  783 1010.1698851 702.527254107 917 590 917 c 0
+EndSplineSet
+EndChar
+
+StartChar: u1133C.ringdbl
+Encoding: 301 -1 301
+Width: 0
+Flags: HW
+AnchorPoint: "N" -905 -500 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-803 -816 m 0
+ -803 -888.38671875 -742.158203125 -949 -671 -949 c 0
+ -599.502929688 -949 -538 -888.971679688 -538 -816.163085938 c 1
+ -538.822265625 -740.484375 -596.350585938 -683 -672 -683 c 0
+ -740.905273438 -683 -803 -739.016601562 -803 -816 c 0
+-863 -816 m 0
+ -863 -704.983398438 -773.094726562 -623 -672 -623 c 0
+ -563.649414062 -623 -479.177734375 -707.515625 -478 -815.836914062 c 1
+ -478 -923.028320312 -566.497070312 -1009 -671 -1009 c 0
+ -775.841796875 -1009 -863 -921.61328125 -863 -816 c 0
+-1272 -823 m 0
+ -1272 -895.38671875 -1211.15820312 -956 -1140 -956 c 0
+ -1068.50292969 -956 -1007 -895.971679688 -1007 -823.163085938 c 1
+ -1007.82226562 -747.484375 -1065.35058594 -690 -1141 -690 c 0
+ -1209.90527344 -690 -1272 -746.016601562 -1272 -823 c 0
+-1332 -823 m 0
+ -1332 -711.983398438 -1242.09472656 -630 -1141 -630 c 0
+ -1032.64941406 -630 -948.177734375 -714.515625 -947 -822.836914062 c 1
+ -947 -930.028320312 -1035.49707031 -1016 -1140 -1016 c 0
+ -1244.84179688 -1016 -1332 -928.61328125 -1332 -823 c 0
 EndSplineSet
 EndChar
 EndChars

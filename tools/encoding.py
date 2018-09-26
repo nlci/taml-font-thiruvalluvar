@@ -11,8 +11,9 @@ font = OpenFont(ufo)
 single = font['u1133C']
 double = font['u1133C.double']
 ring = font['u1133C.ring']
+rings = font['u1133C.ringdbl']
 
-for g in (single, double, ring):
+for g in (single, double, ring, rings):
     if g.unicode:
         uni = f'{g.unicode:#x}'
     else:
@@ -29,9 +30,12 @@ ring.name = 'u1133C'
 ring.unicode = 0x1133C
 ring.unicodes = [ring.unicode]
 
+double.name = 'u1133C.dotdbl'
 double.unicodes = []
 
-for g in (single, double, ring):
+rings.unicodes = []
+
+for g in (single, double, ring, rings):
     if g.unicode:
         uni = f'{g.unicode:#x}'
     else:

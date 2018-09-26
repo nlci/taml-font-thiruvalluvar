@@ -14,15 +14,20 @@ nuka
             value = 0;
             name.LG_USENG = string("Single ring");
         }
-        double
+        dotdbl
         {
             value = 1;
             name.LG_USENG = string("Double dot");
         }
-        single
+        dot
         {
             value = 2;
             name.LG_USENG = string("Single dot");
+        }
+        ringdbl
+        {
+            value = 3;
+            name.LG_USENG = string("Double ring");
         }
     }
 }
@@ -63,12 +68,12 @@ jkurm {
 
 irula {
     languages = ("iru");
-    nuka = double;
+    nuka = dotdbl;
 }
 
 chetti {
     languages = ("ctt");
-    nuka = single;
+    nuka = dot;
     snuk = ring;
 }
 
@@ -159,15 +164,20 @@ pass(4)
 
 if (nuka == ring && snuk == ring)
     g1133b > g1133c;
-else if (nuka == double && snuk == dot)
-    g1133c > g1133c_double;
-else if (nuka == double && snuk == ring)
-    g1133c > g1133c_double;
+else if (nuka == dotdbl && snuk == dot)
+    g1133c > g1133c_dotdbl;
+else if (nuka == dotdbl && snuk == ring)
+    g1133c > g1133c_dotdbl;
     g1133b > g1133c;
-else if (nuka == single && snuk == dot)
+else if (nuka == dot && snuk == dot)
     g1133c > g1133b;
-else if (nuka == single && snuk == ring)
+else if (nuka == dot && snuk == ring)
     g1133c > g1133b;
+    g1133b > g1133c;
+else if (nuka == ringdbl && snuk == dot)
+    g1133c > g1133c_ringdbl;
+else if (nuka == ringdbl && snuk == ring)
+    g1133c > g1133c_ringdbl;
     g1133b > g1133c;
 endif;
 
