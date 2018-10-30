@@ -8,6 +8,8 @@ ufo = sys.argv[1]
 font = OpenFont(ufo)
 
 # Modify UFO
+
+## Nuktas
 single = font['u1133C']
 double = font['u1133C.double']
 ring = font['u1133C.ring']
@@ -25,6 +27,12 @@ double.name = 'u1133C.dotdbl'
 double.unicodes = []
 
 rings.unicodes = []
+
+## Omega
+if font.info.familyName == 'Auvaiyar':
+    greek = font['uni03A9']
+    greek.unicode = 0x03A9
+    greek.unicodes = [greek.unicode]
 
 # Save UFO
 font.changed()
