@@ -94,22 +94,12 @@ for f in faces:
     for (s, sn) in zip(styles, stylesName):
         snf = '-' + sn.replace(' ', '')
         fontfilename = tag + f + snf
-        if f == 'ThiruValluvar':
-            ot = f + s
-        else:
-            ot = 'additional_faces'
         font(target = process(fontfilename + '.ttf',
                 #cmd(hackos2 + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',
-            # source = fontbase + f + snf + '.sfd',
-            # sfd_master = 'master.sfd',
-            # opentype = internal(),
-            # sfd_master = 'source/master_src.sfd',
-            # opentype = fea(fontbase + 'master_src.fea', no_make = True),
             opentype = fea(fontbase + 'master.fea', no_make = True),
-            # opentype = fea(fontbase + ot + '.fea', no_make = True),
             graphite = gdl(generated + f + snf + '.gdl',
                 master = fontbase + 'master.gdl',
                 make_params = '-l last -p 1',

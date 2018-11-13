@@ -1,6 +1,10 @@
 SplineFontDB: 3.0
 FontName: TAM-ThiruValluvarBold
+FullName: TAM-ThiruValluvarBold
+FamilyName: TAM-ThiruValluvarBold
+Weight: Regular
 Copyright: Copyright (c) 2009-2015, NLCI (http://www.nlci.in/fonts/)
+Version: 
 ItalicAngle: 0
 UnderlinePosition: -492
 UnderlineWidth: 40
@@ -15,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1410967618
-ModificationTime: 1441180593
+ModificationTime: 1541911759
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -48,20 +52,6 @@ OS2StrikeYPos: 530
 OS2Vendor: 'Alts'
 OS2CodePages: 00000000.00000000
 OS2UnicodeRanges: 00100001.00000000.00000000.00000000
-Lookup: 4 0 0 "akhnAkhandinTamillookup9" { "akhnAkhandinTamillookup9 subtable"  } ['akhn' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "akhnligs" { "akhnligs subtable"  } ['akhn' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_0" { "sub_ligature_pststaml_0 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_2" { "sub_ligature_pststaml_2 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_4" { "sub_ligature_pststaml_4 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_6" { "sub_ligature_pststaml_6 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_8" { "sub_ligature_pststaml_8 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_10" { "sub_ligature_pststaml_10 subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 4 0 0 "sub_ligature_pststaml_0-0" { "sub_ligature_pststaml_0-0 subtable"  } ['psts' ('taml' <'TAO ' > ) ]
-Lookup: 1 0 0 "pstspostbasesubstitutionold" { "pstspostbasesubstitutionold subtable"  } ['psts' ('taml' <'TAO ' > ) ]
-Lookup: 4 0 0 "pstspostbasesubstitution" { "pstspostbasesubstitution subtable"  } ['psts' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 260 0 0 "_holdAnchorsbase" { "_someAnchorsbase"  } []
-Lookup: 259 0 0 "'abvm' cursive" { "'abvm' cursive-1"  } ['abvm' ('DFLT' <'dflt' > 'taml' <'TAM ' 'TAO ' 'dflt' > ) ]
-Lookup: 260 0 0 "abvmAboveBaseMarkinTamillookup1" { "abvmAboveBaseMarkinTamillookup1 subtable"  } ['abvm' ('taml' <'TAM ' 'TAO ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -99,7 +89,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 37 14
+WinInfo: 0 38 14
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -183,7 +173,7 @@ Grid
  100 -1434 l 1025
 365 2662 m 1024
 EndSplineSet
-AnchorClass2: "V" "_someAnchorsbase" "N" "_someAnchorsbase" "R" "'abvm' cursive-1"
+AnchorClass2: "V"""  "N"""  "R""" 
 BeginChars: 301 301
 
 StartChar: .notdef
@@ -4007,7 +3997,6 @@ SplineSet
  667 622 l 1
  317 622 l 2
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_0-0 subtable" u0B95 u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -4064,7 +4053,6 @@ SplineSet
  763.629 61.4492 636.935 -21 444 -21 c 0
  167.052 -21 -26 118.837 -26 408 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_0-0 subtable" u0B95 u0BC0
 LCarets2: 1 0
 EndChar
 
@@ -4112,7 +4100,6 @@ SplineSet
  1124 622 l 1
  774 622 l 2
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0B95 u0BC1
 LCarets2: 1 0
 EndChar
 
@@ -4209,7 +4196,6 @@ SplineSet
  315 620 l 2
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0B95 u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -4297,7 +4283,6 @@ SplineSet
  1289.99 1130.35 1095 1235.32 1095 1554 c 0
  1095 1868.6 1259.81 2060 1560 2060 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0B99 u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -4353,7 +4338,6 @@ SplineSet
  2114.51 1768.84 2032.66 1829.83 1943.58 1830.98 c 1
  1861.16 1812.74 1800 1746.39 1800 1654 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0B99 u0BC0
 LCarets2: 1 0
 EndChar
 
@@ -4395,7 +4379,6 @@ SplineSet
  717.727 856.619 773.881 874 842 874 c 0
  1002.2 874 1215 749.424 1215 462 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0B99 u0BC1
 LCarets2: 1 0
 EndChar
 
@@ -4456,7 +4439,6 @@ SplineSet
  644 -468.578 715.1 -539.767 815.374 -540.984 c 1
  884.479 -525.36 959 -470.442 959 -363 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0B99 u0BC2
 LCarets2: 1 0
 EndChar
 
@@ -4501,7 +4483,6 @@ SplineSet
  669 1776.06 756.512 1856 855 1856 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0B99 u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -4586,7 +4567,6 @@ SplineSet
  668 624 l 1
  318 624 l 2
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_0-0 subtable" u0B9A u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -4668,7 +4648,6 @@ SplineSet
  670 624 l 1
  320 624 l 2
 EndSplineSet
-Ligature2: "akhnAkhandinTamillookup9 subtable" u0B95 u0BCD u0BB7
 LCarets2: 2 0 0
 EndChar
 
@@ -4754,8 +4733,6 @@ SplineSet
  2918 794.892 3120.1 721.406 3287 686.454 c 1
  3287 1008 l 2
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0B95_u0BB7 u0BBF
-Ligature2: "akhnligs subtable" u0B95_u0BB7 u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -4847,8 +4824,6 @@ SplineSet
  672 625 l 1
  322 625 l 2
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0B9A u0BB7 u0BC0
-Ligature2: "akhnligs subtable" u0B95_u0BB7 u0BC0
 LCarets2: 2 0 0
 EndChar
 
@@ -4932,9 +4907,6 @@ SplineSet
  2418.45 1485 2333 1566.27 2333 1673 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0B9A u0BB7 u0BCD
-Ligature2: "pstspostbasesubstitution subtable" u0B95_u0BB7 u0BCD
-Ligature2: "akhnligs subtable" u0B95_u0BB7 u0BCD
 LCarets2: 2 0 0
 EndChar
 
@@ -4988,7 +4960,6 @@ SplineSet
  929 134.338 684.434 -18 445 -18 c 0
  168.052 -18 -25 121.837 -25 411 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_0-0 subtable" u0B9A u0BC0
 LCarets2: 1 0
 EndChar
 
@@ -5031,7 +5002,6 @@ SplineSet
  930 131.338 685.434 -21 446 -21 c 0
  169.052 -21 -24 118.837 -24 408 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0B9A u0BC1
 LCarets2: 1 0
 EndChar
 
@@ -5090,7 +5060,6 @@ SplineSet
  480.22 -192 349 -220.2 349 -333 c 0
  349 -533 684.568 -583 920 -583 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0B9A u0BC2
 LCarets2: 1 0
 EndChar
 
@@ -5134,7 +5103,6 @@ SplineSet
  627.791 1484 543 1568.97 543 1672 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0B9A u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -5262,7 +5230,6 @@ SplineSet
  506.729 1068 617 913.781 617 745 c 0
  617 541.236 486.068 425 295 425 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0B9C u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -5336,7 +5303,6 @@ SplineSet
  1796 1806.13 1737.25 1895.75 1622.41 1896.99 c 1
  1537.28 1879.38 1480 1807 1480 1718 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0B9C u0BC0
 LCarets2: 1 0
 EndChar
 
@@ -5397,7 +5363,6 @@ SplineSet
  756.032 1476 666 1559.22 666 1664 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0B9C u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -5502,7 +5467,6 @@ SplineSet
  859.94 551.365 771.783 680 663 680 c 128
  545.04 680 491.383 601.926 472.011 540.979 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0B9E u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -5565,7 +5529,6 @@ SplineSet
  1729.21 1424 1633 1589.48 1633 1727 c 0
  1633 1804.23 1663.03 1895.2 1717.31 1953.45 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0B9E u0BC0
 LCarets2: 1 0
 EndChar
 
@@ -5624,7 +5587,6 @@ SplineSet
  861 583.535 752.122 682 664 682 c 0
  546.04 682 492.383 603.926 473.011 542.979 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0B9E u0BC1
 LCarets2: 1 0
 EndChar
 
@@ -5688,7 +5650,6 @@ SplineSet
  861 583.535 752.122 682 664 682 c 0
  546.04 682 492.383 603.926 473.011 542.979 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0B9E u0BC2
 LCarets2: 1 0
 EndChar
 
@@ -5741,7 +5702,6 @@ SplineSet
  1201.03 1483 1111 1566.22 1111 1671 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0B9E u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -5797,7 +5757,6 @@ SplineSet
  671 461.302 864.036 222.423 1035 124.208 c 1
  1035 983 l 2
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0B9F u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -5835,7 +5794,6 @@ SplineSet
  1245 622.523 1186.56 709.74 1071.49 710.986 c 1
  989.517 693.517 928 625.367 928 533 c 128
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0B9F u0BC0
 LCarets2: 1 0
 EndChar
 
@@ -5875,7 +5833,6 @@ SplineSet
  37.2666 7.65723 -26 298.159 -26 660 c 0
  -26 1296.72 219.987 1914 921 1914 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0B9F u0BC1
 LCarets2: 1 0
 EndChar
 
@@ -5920,7 +5877,6 @@ SplineSet
  1466 1223.66 1410 1265 1326 1265 c 0
  1215.37 1265 1153 1192.39 1153 1100 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0B9F u0BC2
 LCarets2: 1 0
 EndChar
 
@@ -5947,7 +5903,6 @@ SplineSet
  726 1776.06 813.512 1856 912 1856 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0B9F u0BCD
 EndChar
 
 StartChar: u0BA3
@@ -6019,8 +5974,6 @@ LayerCount: 2
 Fore
 Refer: 153 2979 N 1 0 0 1 0 0 0
 Refer: 260 3006 N 1 0 0 1 3728 0 0
-Substitution2: "pstspostbasesubstitutionold subtable" u0BA3_u0BBE.old
-Ligature2: "sub_ligature_pststaml_0 subtable" u0BA3 u0BBE
 EndChar
 
 StartChar: u0BA3_u0BBE.old
@@ -6157,7 +6110,6 @@ SplineSet
  2684 111.555 2524.4 -20 2285 -20 c 0
  2123.4 -20 1881 52.7373 1881 552 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BA3 u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -6233,7 +6185,6 @@ SplineSet
  2685 111.555 2525.4 -20 2286 -20 c 0
  2124.4 -20 1882 52.7373 1882 552 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BA3 u0BC0
 LCarets2: 1 0
 EndChar
 
@@ -6304,7 +6255,6 @@ SplineSet
  211 -242 l 2
  195.553 -242 181.724 -243.871 176.212 -247.431 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0BA3 u0BC1
 LCarets2: 1 0
 EndChar
 
@@ -6381,7 +6331,6 @@ SplineSet
  211 -242 l 2
  195.553 -242 181.724 -243.871 176.212 -247.431 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0BA3 u0BC2
 LCarets2: 1 0
 EndChar
 
@@ -6396,8 +6345,6 @@ LayerCount: 2
 Fore
 Refer: 267 3016 N 1 0 0 1 0 0 0
 Refer: 153 2979 N 1 0 0 1 2724 0 0
-Substitution2: "pstspostbasesubstitutionold subtable" u0BA3_u0BC8.old
-Ligature2: "sub_ligature_pststaml_10 subtable" u0BA3 u0BC8
 LCarets2: 1 0
 EndChar
 
@@ -6475,7 +6422,6 @@ SplineSet
  1600 1779.06 1687.51 1859 1786 1859 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0BA3 u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -6575,7 +6521,6 @@ SplineSet
  757 629 l 1
  407 629 l 2
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_0-0 subtable" u0BA4 u0BBF
 EndChar
 
 StartChar: u0BA4_u0BC0
@@ -6639,7 +6584,6 @@ SplineSet
  1023 308 l 2
  1023 163.932 813.5 -18 538 -18 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_0-0 subtable" u0BA4 u0BC0
 EndChar
 
 StartChar: u0BA4_u0BC1
@@ -6692,7 +6636,6 @@ SplineSet
  198 -238 l 2
  182.424 -238 168.494 -239.902 163.077 -243.52 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0BA4 u0BC1
 EndChar
 
 StartChar: u0BA4_u0BC2
@@ -6751,7 +6694,6 @@ SplineSet
  198 -238 l 2
  182.424 -238 168.494 -239.902 163.077 -243.52 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0BA4 u0BC2
 EndChar
 
 StartChar: u0BA4_u0BCD
@@ -6804,7 +6746,6 @@ SplineSet
  632.791 1483 548 1567.97 548 1671 c 0
 EndSplineSet
 Validated: 33
-Ligature2: "pstspostbasesubstitution subtable" u0BA4 u0BCD
 EndChar
 
 StartChar: u0BA8
@@ -6895,7 +6836,6 @@ SplineSet
  265 -682.471 235.69 -733 123 -733 c 0
  39.6543 -733 -13 -619.467 -13 -509 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BA8 u0BBF
 EndChar
 
 StartChar: u0BA8_u0BC0
@@ -6956,7 +6896,6 @@ SplineSet
  890.02 1953.49 876.293 1954 863 1954 c 0
  645.628 1954 553 1735.65 553 1591 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BA8 u0BC0
 EndChar
 
 StartChar: u0BA8_u0BC1
@@ -7004,7 +6943,6 @@ SplineSet
  199 -240 l 2
  183 -240 168.736 -242.007 163.653 -245.819 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0BA8 u0BC1
 EndChar
 
 StartChar: u0BA8_u0BC2
@@ -7057,7 +6995,6 @@ SplineSet
  199 -240 l 2
  183 -240 168.736 -242.007 163.653 -245.819 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0BA8 u0BC2
 EndChar
 
 StartChar: u0BA8_u0BCD
@@ -7107,7 +7044,6 @@ SplineSet
  557 1779.06 644.512 1859 743 1859 c 0
 EndSplineSet
 Validated: 33
-Ligature2: "pstspostbasesubstitution subtable" u0BA8 u0BCD
 EndChar
 
 StartChar: u0BA9
@@ -7166,8 +7102,6 @@ LayerCount: 2
 Fore
 Refer: 175 2985 N 1 0 0 1 0 0 0
 Refer: 260 3006 N 1 0 0 1 2781 0 0
-Substitution2: "pstspostbasesubstitutionold subtable" u0BA9_u0BBE.old
-Ligature2: "sub_ligature_pststaml_0 subtable" u0BA9 u0BBE
 LCarets2: 1 0
 EndChar
 
@@ -7277,7 +7211,6 @@ SplineSet
  1642.03 990.883 1735 802.701 1735 581 c 0
  1735 108.555 1575.4 -23 1336 -23 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BA9 u0BBF
 EndChar
 
 StartChar: u0BA9_u0BC0
@@ -7339,7 +7272,6 @@ SplineSet
  1643.03 990.883 1736 802.701 1736 581 c 0
  1736 108.555 1576.4 -23 1337 -23 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BA9 u0BC0
 EndChar
 
 StartChar: u0BA9_u0BC1
@@ -7398,7 +7330,6 @@ SplineSet
  717.998 551.012 633.462 681 520 681 c 0
  405.267 681 350.275 604.08 328.013 540.62 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0BA9 u0BC1
 EndChar
 
 StartChar: u0BA9_u0BC2
@@ -7464,7 +7395,6 @@ SplineSet
  717.998 551.012 633.462 681 520 681 c 0
  405.267 681 350.275 604.08 328.013 540.62 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0BA9 u0BC2
 EndChar
 
 StartChar: u0BA9_u0BC8
@@ -7478,7 +7408,6 @@ LayerCount: 2
 Fore
 Refer: 267 3016 N 1 0 0 1 0 0 0
 Refer: 175 2985 N 1 0 0 1 2724 0 0
-Ligature2: "sub_ligature_pststaml_10 subtable" u0BA9 u0BC8
 LCarets2: 1 0
 EndChar
 
@@ -7543,7 +7472,6 @@ SplineSet
  1200.03 1481 1110 1564.22 1110 1669 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0BA9 u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -7599,7 +7527,6 @@ SplineSet
  1177 1119.76 l 1
  1018.03 1129.46 820 1233.5 820 1553 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BAA u0BBF
 EndChar
 
 StartChar: u0BAA_u0BC0
@@ -7639,7 +7566,6 @@ SplineSet
  1797 1738.91 1737.56 1826.71 1623.51 1827.99 c 1
  1542.41 1810.52 1481 1743.31 1481 1651 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BAA u0BC0
 EndChar
 
 StartChar: u0BAA_u0BC1
@@ -7665,7 +7591,6 @@ SplineSet
  1444.01 -412 l 1
 EndSplineSet
 LCarets2: 1 0
-Ligature2: "sub_ligature_pststaml_6 subtable" u0BAA u0BC1
 EndChar
 
 StartChar: u0BAA_u0BC2
@@ -7709,7 +7634,6 @@ SplineSet
  1721 118.525 1619.58 214 1544 214 c 0
  1499.46 214 1433.11 199.717 1411 137.888 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0BAA u0BC2
 LCarets2: 1 0
 EndChar
 
@@ -7738,7 +7662,6 @@ SplineSet
  538 1776.06 625.512 1856 724 1856 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0BAA u0BCD
 EndChar
 
 StartChar: u0BAE
@@ -7807,7 +7730,6 @@ SplineSet
  1155 126 1321 258.352 1321 626 c 0
  1321 907.985 1197.9 1141 962 1141 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BAE u0BBF
 EndChar
 
 StartChar: u0BAE_u0BC0
@@ -7853,7 +7775,6 @@ SplineSet
  1601 1808.11 1542.27 1897.71 1427.49 1898.99 c 1
  1345.51 1881.52 1284 1813.37 1284 1721 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BAE u0BC0
 EndChar
 
 StartChar: u0BAE_u0BC1
@@ -7896,7 +7817,6 @@ SplineSet
  1759 125 1925 257.352 1925 625 c 0
  1925 906.985 1801.9 1140 1566 1140 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0BAE u0BC1
 EndChar
 
 StartChar: u0BAE_u0BC2
@@ -7945,7 +7865,6 @@ SplineSet
  725 734.717 547.011 664 420 664 c 0
  316.266 664 208.625 711.463 153.1 794.646 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0BAE u0BC2
 EndChar
 
 StartChar: u0BAE_u0BCD
@@ -7981,7 +7900,6 @@ SplineSet
  463 1775.06 550.512 1855 649 1855 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0BAE u0BCD
 EndChar
 
 StartChar: u0BAF
@@ -8052,7 +7970,6 @@ SplineSet
  1120.4 1128.14 923 1229.77 923 1552 c 0
  923 1866.6 1087.81 2058 1388 2058 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BAF u0BBF
 EndChar
 
 StartChar: u0BAF_u0BC0
@@ -8099,7 +8016,6 @@ SplineSet
  1898 1745.27 1840.55 1826.87 1726.39 1827.99 c 1
  1644.99 1811.3 1583 1740.08 1583 1651 c 128
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BAF u0BC0
 EndChar
 
 StartChar: u0BAF_u0BC1
@@ -8132,7 +8048,6 @@ SplineSet
  520 28.5078 l 1
  471.042 -2.0791 391.364 -25 292 -25 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0BAF u0BC1
 EndChar
 
 StartChar: u0BAF_u0BC2
@@ -8184,7 +8099,6 @@ SplineSet
  1848 114.525 1746.58 210 1671 210 c 0
  1626.48 210 1560.18 195.732 1538.04 133.989 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0BAF u0BC2
 LCarets2: 1 0
 EndChar
 
@@ -8222,7 +8136,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 1 0
-Ligature2: "pstspostbasesubstitution subtable" u0BAF u0BCD
 EndChar
 
 StartChar: u0BB0
@@ -8283,7 +8196,6 @@ SplineSet
  717.645 1809 587 1720.02 587 1517 c 0
  587 1422.78 621.966 1346.02 644.565 1316 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BB0 u0BBF
 EndChar
 
 StartChar: u0BB0_u0BC0
@@ -8324,7 +8236,6 @@ SplineSet
  1135.43 1810.23 1076.27 1899.71 961.485 1900.99 c 1
  879.513 1883.52 818 1815.37 818 1723 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BB0 u0BC0
 EndChar
 
 StartChar: u0BB0_u0BC1
@@ -8364,7 +8275,6 @@ SplineSet
  376.678 1215.32 l 2
  228.324 1066.97 128 797.949 128 482 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0BB0 u0BC1
 EndChar
 
 StartChar: u0BB0_u0BC2
@@ -8410,7 +8320,6 @@ SplineSet
  2048.66 798 2200 543.199 2200 299 c 0
  2200 -352.401 1688.35 -567 1061 -567 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0BB0 u0BC2
 EndChar
 
 StartChar: u0BB0_u0BCD
@@ -8440,7 +8349,6 @@ SplineSet
  324 1776.06 411.512 1856 510 1856 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0BB0 u0BCD
 EndChar
 
 StartChar: u0BB1
@@ -8488,8 +8396,6 @@ LayerCount: 2
 Fore
 Refer: 209 2993 N 1 0 0 1 0 0 0
 Refer: 260 3006 N 1 0 0 1 1792 0 0
-Substitution2: "pstspostbasesubstitutionold subtable" u0BB1_u0BBE.old
-Ligature2: "sub_ligature_pststaml_0 subtable" u0BB1 u0BBE
 LCarets2: 1 0
 EndChar
 
@@ -8583,7 +8489,6 @@ SplineSet
  555 982 l 2
  555 1134.56 499.8 1170 417 1170 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BB1 u0BBF
 EndChar
 
 StartChar: u0BB1_u0BC0
@@ -8640,7 +8545,6 @@ SplineSet
  129 1202.18 245.142 1319 480 1319 c 0
  599.049 1319 701.455 1275.15 753.579 1199.49 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BB1 u0BC0
 EndChar
 
 StartChar: u0BB1_u0BC1
@@ -8685,7 +8589,6 @@ SplineSet
  199 -240 l 2
  183.411 -240 169.471 -241.905 164.063 -245.529 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0BB1 u0BC1
 EndChar
 
 StartChar: u0BB1_u0BC2
@@ -8736,7 +8639,6 @@ SplineSet
  199 -240 l 2
  183.411 -240 169.471 -241.905 164.063 -245.529 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0BB1 u0BC2
 LCarets2: 1 0
 EndChar
 
@@ -8779,7 +8681,6 @@ SplineSet
  531 1777.06 618.512 1857 717 1857 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0BB1 u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -8906,7 +8807,6 @@ SplineSet
  516.498 589.455 402.232 683 319 683 c 0
  203.47 683 145.677 603.523 126.011 543.895 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BB2 u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -8958,7 +8858,6 @@ SplineSet
  2107 1814.68 2044.48 1900.78 1935.33 1901.99 c 1
  1852.04 1885.29 1792 1813.61 1792 1723 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BB2 u0BC0
 EndChar
 
 StartChar: u0BB2_u0BC1
@@ -9014,7 +8913,6 @@ SplineSet
  516.498 587.455 402.232 681 319 681 c 0
  203.47 681 145.677 601.523 126.011 541.895 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0BB2 u0BC1
 EndChar
 
 StartChar: u0BB2_u0BC2
@@ -9076,7 +8974,6 @@ SplineSet
  516.498 587.455 402.232 681 319 681 c 0
  203.47 681 145.677 601.523 126.011 541.895 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0BB2 u0BC2
 EndChar
 
 StartChar: u0BB2_u0BC8
@@ -9090,8 +8987,6 @@ LayerCount: 2
 Fore
 Refer: 267 3016 N 1 0 0 1 0 0 0
 Refer: 217 2994 N 1 0 0 1 2724 0 0
-Substitution2: "pstspostbasesubstitutionold subtable" u0BB2_u0BC8.old
-Ligature2: "sub_ligature_pststaml_10 subtable" u0BB2 u0BC8
 EndChar
 
 StartChar: u0BB2_u0BC8.old
@@ -9148,7 +9043,6 @@ SplineSet
  841 1773.06 928.512 1853 1027 1853 c 0
 EndSplineSet
 Validated: 33
-Ligature2: "pstspostbasesubstitution subtable" u0BB2 u0BCD
 EndChar
 
 StartChar: u0BB3
@@ -9236,7 +9130,6 @@ SplineSet
  521.498 588.455 407.232 682 324 682 c 0
  208.484 682 150.69 602.696 131.018 543.069 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BB3 u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -9292,7 +9185,6 @@ SplineSet
  1905.89 1952.49 1892.23 1953 1879 1953 c 0
  1661.63 1953 1569 1734.65 1569 1590 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BB3 u0BC0
 LCarets2: 1 0
 EndChar
 
@@ -9348,7 +9240,6 @@ SplineSet
  2116.26 -697.413 1673.64 -738 1383 -738 c 0
  623.923 -738 -20 -270 -20 432 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0BB3 u0BC1
 LCarets2: 1 0
 EndChar
 
@@ -9408,7 +9299,6 @@ SplineSet
  729 734.717 551.011 664 424 664 c 0
  320.249 664 212.587 711.477 157.069 794.684 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0BB3 u0BC2
 LCarets2: 1 0
 EndChar
 
@@ -9423,8 +9313,6 @@ LayerCount: 2
 Fore
 Refer: 267 3016 N 1 0 0 1 0 0 0
 Refer: 272 3031 N 1 0 0 1 2724 0 0
-Substitution2: "pstspostbasesubstitutionold subtable" u0BB3_u0BC8.old
-Ligature2: "sub_ligature_pststaml_10 subtable" u0BB3 u0BC8
 LCarets2: 1 0
 EndChar
 
@@ -9482,7 +9370,6 @@ SplineSet
  913 1775.06 1000.51 1855 1099 1855 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0BB3 u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -9587,7 +9474,6 @@ SplineSet
  1154 128 1320 260.352 1320 628 c 0
  1320 909.985 1196.9 1143 961 1143 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BB4 u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -9650,7 +9536,6 @@ SplineSet
  1235.31 1419 1139 1582.5 1139 1722 c 0
  1139 1796.59 1168.7 1890.33 1222.88 1949.53 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BB4 u0BC0
 LCarets2: 1 0
 EndChar
 
@@ -9700,7 +9585,6 @@ SplineSet
  1066 1092.3 1149 1313 1481 1313 c 0
  1871.43 1313 2018 975.42 2018 624 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0BB4 u0BC1
 LCarets2: 1 0
 EndChar
 
@@ -9755,7 +9639,6 @@ SplineSet
  326.851 666 215.566 714.322 158.287 798.827 c 1
  139.832 700.821 128 551.806 128 422 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0BB4 u0BC2
 LCarets2: 1 0
 EndChar
 
@@ -9809,7 +9692,6 @@ SplineSet
  462 1777.06 549.512 1857 648 1857 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0BB4 u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -9891,7 +9773,6 @@ SplineSet
  2139 1445 l 2
  2139 1688.98 2055.84 1807 1817 1807 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BB5 u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -9945,7 +9826,6 @@ SplineSet
  2330 1738.91 2270.56 1826.71 2156.51 1827.99 c 1
  2075.41 1810.52 2014 1743.31 2014 1651 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BB5 u0BC0
 LCarets2: 1 0
 EndChar
 
@@ -9984,7 +9864,6 @@ SplineSet
  519.498 588.455 405.232 682 322 682 c 0
  206.47 682 148.677 602.523 129.011 542.895 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_6 subtable" u0BB5 u0BC1
 LCarets2: 1 0
 EndChar
 
@@ -10042,7 +9921,6 @@ SplineSet
  517.498 587.455 403.232 681 320 681 c 0
  204.47 681 146.677 601.523 127.011 541.895 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0BB5 u0BC2
 LCarets2: 1 0
 EndChar
 
@@ -10084,7 +9962,6 @@ SplineSet
  1070 1775.06 1157.51 1855 1256 1855 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0BB5 u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -10205,7 +10082,6 @@ SplineSet
  2509 125 l 2
  2603.8 125 2667 168.513 2667 308 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BB7 u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -10274,7 +10150,6 @@ SplineSet
  522.498 585.455 408.232 679 325 679 c 0
  209.47 679 151.677 599.523 132.011 539.895 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BB7 u0BC0
 LCarets2: 1 0
 EndChar
 
@@ -10342,7 +10217,6 @@ SplineSet
  518.498 591.455 404.232 685 321 685 c 0
  205.47 685 147.677 605.523 128.011 545.895 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_10 subtable" u0BB7 u0BC8
 LCarets2: 1 0
 EndChar
 
@@ -10402,7 +10276,6 @@ SplineSet
  1268.81 1480 1185 1566.07 1185 1668 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0BB7 u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -10499,7 +10372,6 @@ SplineSet
  521.498 587.455 407.232 681 324 681 c 0
  208.484 681 150.69 601.696 131.018 542.069 c 1
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BB8 u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -10559,7 +10431,6 @@ SplineSet
  2754 1803.13 2695.25 1892.75 2580.41 1893.99 c 1
  2495.28 1876.38 2438 1804 2438 1715 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BB8 u0BC0
 LCarets2: 1 0
 EndChar
 
@@ -10611,7 +10482,6 @@ SplineSet
  1071.03 1476 981 1559.22 981 1664 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0BB8 u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -10803,7 +10673,6 @@ SplineSet
  2603 1420.9 2617.15 1368.5 2646.61 1314.85 c 1
  3044.68 1306.42 3134 952.212 3134 565 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_2 subtable" u0BB9 u0BBF
 LCarets2: 1 0
 EndChar
 
@@ -10873,7 +10742,6 @@ SplineSet
  3259.53 1827.78 3187.69 1898.82 3088.48 1899.99 c 1
  3006.5 1882.51 2945 1814.37 2945 1722 c 0
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_4 subtable" u0BB9 u0BC0
 LCarets2: 1 0
 EndChar
 
@@ -10934,7 +10802,6 @@ SplineSet
  1395.81 1482 1312 1568.07 1312 1670 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "pstspostbasesubstitution subtable" u0BB9 u0BCD
 LCarets2: 1 0
 EndChar
 
@@ -12225,7 +12092,6 @@ SplineSet
  669 624 l 1
  319 624 l 2
 EndSplineSet
-Ligature2: "sub_ligature_pststaml_8 subtable" u0B95 u0BC2
 LCarets2: 1 0
 EndChar
 
