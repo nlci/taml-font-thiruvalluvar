@@ -62,8 +62,6 @@ hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 if '-l' in opts:
     for f, fLegacy in zip(faces, facesLegacy):
         for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
-            gentium = '../../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/2048/GenBkBas' + s.replace('-', '') + '.ttf'
-            charis = '../../../../latn/fonts/charis_local/5.000/zip/unhinted/2048/CharisSIL' + s + '.ttf'
             extra = '../' + archive + 'VAIG' + sLegacy + '.ttf'
             missing_face = fLegacy
             if missing_face == 'AUVA':
@@ -76,7 +74,7 @@ if '-l' in opts:
                 source = legacy(f + s + '.ttf',
                                 source = archive + fLegacy + sLegacy + '.ttf',
                                 xml = fontbase + 'thiruvalluvar_unicode.xml',
-                                params = '-f ' + charis + ' -f ' + extra + ' -f ' + missing,
+                                params = ' -f ' + extra + ' -f ' + missing,
                                 noap = '')
                 )
 
