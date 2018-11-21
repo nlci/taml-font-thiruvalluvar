@@ -7,9 +7,27 @@ from palaso.font.fontforge import addAnchorClass
 f = fontforge.open(os.path.abspath(sys.argv[1]))
 addAnchorClass(f, 'V')
 
+# ThiruValluvar has a UPM of 2048, the others have a UPM of 1000.
+# Therefore, the distance from the virama glyph to the AP is different.
+if f.familyname == 'ThiruValluvar':
+    offset = 200
+else:
+    offset = 98
+
+# Vaigai has two stray contours on the virama glyph.
+# As a result, the bounding box values for this glyph are not useful.
+# We will use bounding box of the first (good) contour,
+# and ignore the other contours. They can be removed later.
 gv = f['u0BCD']
-gvb = gv.boundingBox()
-ybase = gvb[1] - 200
+if f.familyname == 'Vaigai':
+    lgv = gv.layers[1] # foreground layer
+    cv = lgv[0] # first contour
+    cvb = cv.boundingBox()
+    gvb = cvb
+else:
+    gvb = gv.boundingBox()
+
+ybase = gvb[1] - offset
 gv.addAnchorPoint('V', 'mark', (gvb[0] + gvb[2]) / 2, ybase)
 
 chars = set(range(0x0b85, 0x0bbc))

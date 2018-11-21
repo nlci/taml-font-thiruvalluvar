@@ -23,8 +23,7 @@ U+0B82 needs to have the ring from .ring replace the dot and then delete .ring
 u0B95_u0BC2.old in Auvaiyar needs to be redrawn to match the overall style.
 U+20B9 needs to be made italic in the Italic and Bold Italic faces
 U+1CDC needs to be lowered, especially in ThiruValluvar
-U+0BCD in Vaigai needs AP positioned
-nukta AP in Auvaiyar and Vaigai needs to be raised
+U+0BCD in Vaigai has stray segments in the far lower right that need to be removed
 
 ChangeLog
 ---------
@@ -35,6 +34,7 @@ Unreleased
   (including a new double ring) on the old codepoint as well.
 - Glyphs from the legacy font files are no longer scaled up
 - Glyphs from Latin fonts and Annapurna SIL are scaled 90%
+- Position viramas better in Auvaiyar and Vaigai
 17 Aug 2018 (Dev NLCI) NLCI Tamil fonts version 0.303
 - Use two codepoints for nuktas, not just one
 18 May 2018 (Dev NLCI) NLCI Tamil fonts version 0.302
