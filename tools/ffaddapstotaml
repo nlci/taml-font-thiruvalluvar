@@ -15,11 +15,18 @@ vg = f['u0BCD']     # virama glyph
 vgl, vgb, vgr, vgt = vg.boundingBox()
 vgw = (1 + dotmargin) * 0.5 * (vgr - vgl)
 
+# ThiruValluvar has a UPM of 2048, the others have a UPM of 1000.
+# Therefore, the location of the nukta AP is different.
+if f.familyname == 'ThiruValluvar':
+    ypos = -500.
+else:
+    ypos = -244.
+
 addAnchorClass(f, 'N')
 for n in ('u1133C.double', 'u1133C.ring', 'u1133C', 'u1133C.ringdbl') :
     ng = f[n]     # nukta glyph
     xpos = xcentre(ng)
-    ng.addAnchorPoint('N', 'mark', xpos, -500.)
+    ng.addAnchorPoint('N', 'mark', xpos, ypos)
 
 # iterate all the glyphs of interest
 chars = range(0x0b85, 0x0bbc) + range(0x0bbd, 0x0bcd)

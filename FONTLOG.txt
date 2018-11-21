@@ -34,7 +34,7 @@ Unreleased
   (including a new double ring) on the old codepoint as well.
 - Glyphs from the legacy font files are no longer scaled up
 - Glyphs from Latin fonts and Annapurna SIL are scaled 90%
-- Position viramas better in Auvaiyar and Vaigai
+- Position marks better in Auvaiyar and Vaigai
 17 Aug 2018 (Dev NLCI) NLCI Tamil fonts version 0.303
 - Use two codepoints for nuktas, not just one
 18 May 2018 (Dev NLCI) NLCI Tamil fonts version 0.302

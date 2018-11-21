@@ -82,7 +82,6 @@ if '-l' in opts:
 
 psfix = 'cp' if '-p' in opts else 'psfix'
 
-# create('master.sfd', cmd("../tools/ffaddapstotaml ${SRC} ${TGT}", ["source/master_src.sfd"]))
 if '-l' in opts:
     faces = list()
 for f in faces:
