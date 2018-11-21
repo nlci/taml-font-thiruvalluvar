@@ -38,19 +38,21 @@ def modifySource(sfd, f, s, sn):
     if f == 'ThiruValluvar':
         emsize = '2048'
         emext = '.ttf'
-        emopt = ''
+        emopt = '-s ' + str(0.9) + ' '
+        srcopt = '-s ' + str(1/1.4) + ' '
         devaf = 'Panini'
     else:
         emsize = '1000'
         emext = '.sfd'
-        emopt = '-s ' + str(1000.0/2048.0) + ' '
+        emopt = '-s ' + str(0.9*1000.0/2048.0) + ' '
+        srcopt = '-s ' + str(1000.0/2048.0/1.4) + ' '
         devaf = 'Maurya'
 
     if f != 'Auvaiyar':
-        cmd = emopt + '-i ' + findFile('ThiruValluvar' + s + '.sfd') + ' --name u0B95_u0BC2'
+        cmd = srcopt + '-i ' + findFile('ThiruValluvar' + s + '.sfd') + ' --name u0B95_u0BC2'
         modifyFile(cmd, sfd)
 
-    cmd = emopt + '-i ' + findFile('ThiruValluvar' + '-R.sfd') + ' --rangefile grantha.usv --namefile grantha.name'
+    cmd = srcopt + '-i ' + findFile('ThiruValluvar' + '-R.sfd') + ' --rangefile grantha.usv --namefile grantha.name'
     modifyFile(cmd, sfd)
 
     cmd = '-i ' + deva + devaf + '-' + sn + '.sfd' + ' --rangefile cs/panini/main4taml.txt'
