@@ -223,7 +223,7 @@
 <glyph UID="0BCB" PSName="u0BCB"><base UID="F0FA"></base><base UID="F023"></base><base UID="F0F4"></base></glyph>
 <glyph UID="0BCC" PSName="u0BCC"><base UID="F0F9"></base><base UID="F023"></base><base UID="F0FC"></base></glyph>
 <glyph UID="0BCD" PSName="u0BCD"><base UID="F0F3"></base><advance width='0'/></glyph>
-<glyph UID="0BD0" PSName="u0BD0"><base UID="F04A"></base><base UID="F095" font='1'></base></glyph>
+<glyph UID="0BD0" PSName="u0BD0"><base UID="F04A"></base><base UID="F055"><scale x="0.20" y="0.20"/></base><base UID="F0F3"><scale x="0.4" y="0.4"/></base></glyph>
 <glyph UID="0BD7" PSName="u0BD7"><base UID="F0FC"></base></glyph>
 <glyph UID="0BE6" PSName="u0BE6"><base UID="F080"></base></glyph>
 <glyph UID="0BE7" PSName="u0BE7"><base UID="F081"></base></glyph>

@@ -61,7 +61,7 @@ def modifySource(sfd, f, s, sn):
     asn = sn
     asn = asn.replace('BoldItalic', 'Bold')
     asn = asn.replace('Italic', 'Regular')
-    cmd = '-i ' + annapurna_dir + emsize + annapurna_ttf + asn + emext + ' --rangefile cs/annapurna/main.txt'
+    cmd = '-s ' + str(0.9) + ' ' + '-i ' + annapurna_dir + emsize + annapurna_ttf + asn + emext + ' --rangefile cs/annapurna/main.txt'
     modifyFile(cmd, sfd)
 
     if f == 'Auvaiyar':
