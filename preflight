@@ -24,3 +24,8 @@ if [ $odt -nt $pdf ]
 then
     soffice --convert-to pdf --outdir $location $odt
 fi
+
+for auto in tools/auto_*
+do
+    ./$auto tests/$(basename $auto .py).txt
+done
