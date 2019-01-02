@@ -21,4 +21,10 @@ done
 popd
 
 source ${nlci}/metadata.bash
+
+for ufo in ${src}/*.ufo
+do
+    ./tools/anchors.py $ufo
+done
+
 echo "done producing UFO sources"

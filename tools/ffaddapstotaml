@@ -29,7 +29,7 @@ for n in ('u1133C.double', 'u1133C.ring', 'u1133C', 'u1133C.ringdbl') :
     ng.addAnchorPoint('N', 'mark', xpos, ypos)
 
 # iterate all the glyphs of interest
-chars = range(0x0b85, 0x0bbc) + range(0x0bbd, 0x0bcd)
+chars = range(0x0b85, 0x0bbc) + range(0x0bbd, 0x0bcd) + [0x0bd7]
 for u in chars :
     base = "u%04X" % u     # make a ps name from the unicode
     if base not in f : continue     # skip missing glyphs
