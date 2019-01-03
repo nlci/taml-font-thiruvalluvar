@@ -34,6 +34,14 @@ if font.info.familyName == 'Auvaiyar':
     greek.unicode = 0x03A9
     greek.unicodes = [greek.unicode]
 
+## Cleanup
+vedic_dots = ('u1CDD', 'u1CDE', 'u1CDF')
+for vedic_dot in vedic_dots:
+    glyph = font[vedic_dot]
+    for contour in glyph.contours:
+        if len(contour) <= 2:
+            glyph.removeContour(contour)
+
 # Save UFO
 font.changed()
 font.save()

@@ -16,28 +16,12 @@ def modifySource(sfd, f, s, sn):
     scale = '-s ' + str(roman*upm) + ' '
     scaleSrc = '-s ' + str(upm/workshop) + ' '
 
-    if f == 'ThiruValluvar':
-        emsize = '2048'
-        emext = '.ttf'
-        emopt = '-s ' + str(0.9) + ' '
-        srcopt = '-s ' + str(1/1.4) + ' '
-        devaf = 'Panini'
-    else:
-        emsize = '1000'
-        emext = '.sfd'
-        emopt = '-s ' + str(0.9*1000.0/2048.0) + ' '
-        srcopt = '-s ' + str(1000.0/2048.0/1.4) + ' '
-        devaf = 'Maurya'
-
     if f != 'Auvaiyar':
         cmd = scaleSrc + '-i ' + findFile('ThiruValluvar' + s + '.sfd') + ' --name u0B95_u0BC2'
         modifyFile(cmd, sfd)
 
     cmd = scaleSrc + '-i ' + findFile('ThiruValluvar' + '-R.sfd') + ' --rangefile grantha.usv --namefile grantha.name'
     modifyFile(cmd, sfd)
-
-    # cmd = '-i ' + deva + devaf + '-' + sn + '.sfd' + ' --rangefile cs/panini/main4taml.txt'
-    # modifyFile(cmd, sfd)
 
     asn = sn
     asn = asn.replace('BoldItalic', 'Bold')
