@@ -35,10 +35,12 @@ if font.info.familyName == 'Auvaiyar':
     greek.unicodes = [greek.unicode]
 
 ## Cleanup
-vedic_dots = ('u1CDD', 'u1CDE', 'u1CDF')
-for vedic_dot in vedic_dots:
-    glyph = font[vedic_dot]
+dots = ('u0BCD', 'u1CDD', 'u1CDE', 'u1CDF')
+for dot in dots:
+    glyph = font[dot]
     for contour in glyph.contours:
+        # print(dot)
+        # print(len(contour))
         if len(contour) <= 2:
             glyph.removeContour(contour)
 
