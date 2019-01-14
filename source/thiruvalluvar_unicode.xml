@@ -46,10 +46,9 @@
 
 
 
-<glyph UID="0951" PSName="u0951"><base UID="F09A" font='2'><shift x='0' y='-350'/></base></glyph>
-<glyph UID="0952" PSName="u0952"><base UID="F09B" font='2'><shift x='0' y='350'/></base></glyph>
-<glyph UID="0B82" PSName="u0B82"><base UID="F0F3"></base></glyph>
-<glyph PSName="u0B82.ring"><base UID="F096" font='1'></base></glyph>
+<glyph UID="0951" PSName="u0951"><base UID="F09A" font='2'></base></glyph>
+<glyph UID="0952" PSName="u0952"><base UID="F09B" font='2'></base></glyph>
+<glyph UID="0B82" PSName="u0B82"><base UID="F096" font='1'></base></glyph>
 <glyph UID="0B83" PSName="u0B83"><base UID="F040"></base></glyph>
 <glyph UID="0B85" PSName="u0B85"><base UID="F041"></base></glyph>
 <glyph UID="0B86" PSName="u0B86"><base UID="F042"></base></glyph>
@@ -247,8 +246,8 @@
 <glyph UID="0BF9" PSName="u0BF9"><base UID="F07E"></base></glyph>
 <glyph UID="0BFA" PSName="u0BFA"><base UID="F053"></base><base UID="F095" font='1'></base></glyph>
 <glyph UID="25CC" PSName="u25CC"><base UID="F023"></base></glyph>
-<glyph UID="1CDA" PSName="u1CDA"><base UID="F09C" font='2'><shift x='0' y='-350'/></base></glyph>
-<glyph UID="1CDC" PSName="u1CDC"><base UID="F09A" font='2'><shift x='0' y='-900'/></base></glyph>
+<glyph UID="1CDA" PSName="u1CDA"><base UID="F09C" font='2'></base></glyph>
+<glyph UID="1CDC" PSName="u1CDC"><base UID="F09A" font='2'></base></glyph>
 <glyph UID="1CDD" PSName="u1CDD"><base UID="F093" font='1'></base></glyph>
 <glyph UID="1CDE" PSName="u1CDE"><base UID="F094" font='1'></base></glyph>
 <glyph UID="1CDF" PSName="u1CDF"><base UID="F095" font='1'></base></glyph>
