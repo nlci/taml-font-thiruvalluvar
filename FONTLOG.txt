@@ -29,6 +29,8 @@ ChangeLog
 
 Unreleased
 - Slightly expand and improve the character set
+- Move and adjust form of some of the nuktas
+- Provide language specific fonts
 04 Jan 2019 (Dev NLCI) NLCI Tamil fonts version 0.400
 - Keep the new nukta codepoint, but provide all nukta forms
   (including a new double ring) on the old codepoint as well.

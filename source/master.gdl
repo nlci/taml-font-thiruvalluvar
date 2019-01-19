@@ -63,7 +63,7 @@ bkurm {
 
 jkurm {
     languages = ("xuj");
-    nuka = ring;
+    nuka = dotdbl;
 }
 
 irula {

@@ -28,6 +28,13 @@ DESC_NAME='NLCI-' + script
 DEBPKG='fonts-nlci-' + script
 getufoinfo('source/ThiruValluvar-Regular.ufo')
 
+langinfo = {
+    'xub' : 'Betta Kurumba',
+    'xuj' : 'Jennu Kurumba',
+    'iru' : 'Irula',
+    'ctt' : 'Chetti'
+}
+
 # set test parameters
 TESTSTRING=u'\u0c15'
 #ftmlTest('tools/FTMLcreateList.xsl')
@@ -111,3 +118,18 @@ for f in faces:
             package = p,
             fret = fret(params = '')
         )
+
+        for langcode in langinfo.keys():
+            langname = langinfo[langcode]
+            langfontfilename = tag + f + langname.replace(' ', '') + snf
+            font(target = process(langfontfilename + '.ttf',
+                    cmd('ttfdeflang -d ' + langcode + ' ${DEP} ${TGT}'),
+                    name(tag + ' ' + f + ' ' + langname, lang='en-US', subfamily=(sn))
+                    ),
+                source = fontfilename + '.ttf',
+                opentype = internal(),
+                graphite = internal(),
+                script = 'taml',
+                package = p,
+                fret = fret(params = '')
+            )

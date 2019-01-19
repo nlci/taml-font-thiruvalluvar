@@ -7,9 +7,18 @@ import sys
 # Open UFO
 ufo = sys.argv[1]
 font = OpenFont(ufo)
-print(f'Add anchors for {ufo}')
+print(f'Move anchors for {ufo}')
 
 # Modify UFO
+
+## Move single ring closer to base character
+ring = font['u1133C']
+for anchor in ring.anchors:
+    if anchor.name == '_N':
+        if font.info.familyName == 'ThiruValluvar':
+            anchor.y = -500
+        else:
+            anchor.y = -244
 
 ## Move one nukta to the left
 tti = font['u0B9F_u0BBF']

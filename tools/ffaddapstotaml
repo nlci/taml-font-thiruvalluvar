@@ -18,9 +18,9 @@ vgw = (1 + dotmargin) * 0.5 * (vgr - vgl)
 # ThiruValluvar has a UPM of 2048, the others have a UPM of 1000.
 # Therefore, the location of the nukta AP is different.
 if f.familyname == 'ThiruValluvar':
-    ypos = -500.
+    ypos = -357
 else:
-    ypos = -244.
+    ypos = -174
 
 addAnchorClass(f, 'N')
 for n in ('u1133C.double', 'u1133C.ring', 'u1133C', 'u1133C.ringdbl') :

@@ -10,9 +10,9 @@ addAnchorClass(f, 'V')
 # ThiruValluvar has a UPM of 2048, the others have a UPM of 1000.
 # Therefore, the distance from the virama glyph to the AP is different.
 if f.familyname == 'ThiruValluvar':
-    offset = 200
+    offset = 143
 else:
-    offset = 98
+    offset = 70
 
 # Vaigai has two stray contours on the virama glyph.
 # As a result, the bounding box values for this glyph are not useful.
