@@ -27,7 +27,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-Unreleased
+19 Jan 2019 (Dev NLCI) NLCI Tamil fonts version 0.401
 - Slightly expand and improve the character set
 - Move and adjust form of some of the nuktas
 - Provide language specific fonts

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="in.nlci.fonts.ThiruValluvar.0.400" />
+  <uniqueid id="in.nlci.fonts.ThiruValluvar.0.401" />
   <vendor name="NLCI" url="http://www.nlci.in/fonts/" />
   <credits>
     <credit
@@ -15,24 +15,26 @@
       
       Known issues in the new sources
       -------------------------------
-      U+0B82 needs to have the lower dots removed.
       U+0BB6 need major changes.
       U+0BD0 needs to be slightly visually changed.
       U+0BF3 needs to have right sten removed.
       U+0BF7 needs a curl at the top.
       U+0BFA needs a curl at the top.
-      u0B99_u0BCD.alt in Auvaiyar needs to be copied from u0B99_u0BCD and then copy the ring-shaped pulli from u0B82.ring
-      U+0B82 needs to have the ring from .ring replace the dot and then delete .ring
       u0B95_u0BC2.old in Auvaiyar needs to be redrawn to match the overall style.
       U+20B9 needs to be made italic in the Italic and Bold Italic faces
-      U+1CDC needs to be lowered, especially in ThiruValluvar
-      U+0BCD in Vaigai has stray segments in the far lower right that need to be removed
+      The non-ring lower part of u0B82 needs to be removed
+      The ring in u1CF5 needs to be removed
+      u0B99_u0BCD.alt in Auvaiyar needs to be copied from u0B99_u0BCD and then copy the ring-shaped pulli from u0B82
       
       ChangeLog
       ---------
       (This should list both major and minor changes, most recent first.)
       
-      Unreleased
+      19 Jan 2019 (Dev NLCI) NLCI Tamil fonts version 0.401
+      - Slightly expand and improve the character set
+      - Move and adjust form of some of the nuktas
+      - Provide language specific fonts
+      04 Jan 2019 (Dev NLCI) NLCI Tamil fonts version 0.400
       - Keep the new nukta codepoint, but provide all nukta forms
       (including a new double ring) on the old codepoint as well.
       - Glyphs from the legacy font files are no longer scaled up
