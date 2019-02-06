@@ -5,20 +5,21 @@ styles=(Regular Bold Italic "Bold Italic")
 desc_long="Pan Tamil font designed to support all the languages using the Tamil script."
 
 export nlci=$HOME/script/tools
-source ${nlci}/prepare.bash
+export src=source
+# source ${nlci}/prepare.bash
 
-source ${nlci}/addchars.bash
+# source ${nlci}/addchars.bash
 
-pushd ${src}
-for sfd in *-???*.sfd
-do
-    echo $sfd
-    rm -f tmp.sfd
-    python ../tools/ffaddapstotaml $sfd tmp.sfd
-    python ../tools/ffaddvaptotaml tmp.sfd $sfd
-    rm -f tmp.sfd
-done
-popd
+# pushd ${src}
+# for sfd in *-???*.sfd
+# do
+#     echo $sfd
+#     rm -f tmp.sfd
+#     python ../tools/ffaddapstotaml $sfd tmp.sfd
+#     python ../tools/ffaddvaptotaml tmp.sfd $sfd
+#     rm -f tmp.sfd
+# done
+# popd
 
 source ${nlci}/metadata.bash
 
