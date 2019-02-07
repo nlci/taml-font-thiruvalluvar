@@ -29,8 +29,8 @@ DEBPKG='fonts-nlci-' + script
 getufoinfo('source/ThiruValluvar-Regular.ufo')
 
 langinfo = {
-    'xub' : 'Betta Kurumba',
-    'xuj' : 'Jennu Kurumba',
+    # 'xub' : 'Betta Kurumba',
+    # 'xuj' : 'Jennu Kurumba',
     'iru' : 'Irula',
     'ctt' : 'Chetti'
 }
