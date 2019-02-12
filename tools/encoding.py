@@ -16,12 +16,10 @@ ring = font['u1133C.ring']
 rings = font['u1133C.ringdbl']
 
 single.name = 'u1133B'
-single.unicode = 0x1133B
-single.unicodes = [single.unicode]
+single.unicodes = [0x1133B]
 
 ring.name = 'u1133C'
-ring.unicode = 0x1133C
-ring.unicodes = [ring.unicode]
+ring.unicodes = [0x1133C]
 
 double.name = 'u1133C.dotdbl'
 double.unicodes = []
@@ -31,8 +29,7 @@ rings.unicodes = []
 ## Omega
 if font.info.familyName == 'Auvaiyar':
     greek = font['uni03A9']
-    greek.unicode = 0x03A9
-    greek.unicodes = [greek.unicode]
+    greek.unicodes = [0x03A9]
 
 ## Cleanup
 dots = ('u0BCD', 'u1CDD', 'u1CDE', 'u1CDF')
