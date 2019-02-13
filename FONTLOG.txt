@@ -19,7 +19,6 @@ U+0BF7 needs a curl at the top.
 U+0BFA needs a curl at the top.
 u0B95_u0BC2.old in Auvaiyar needs to be redrawn to match the overall style.
 U+20B9 needs to be made italic in the Italic and Bold Italic faces
-The non-ring lower part of u0B82 needs to be removed
 The ring in u1CF5 needs to be removed
 u0B99_u0BCD.alt in Auvaiyar needs to be copied from u0B99_u0BCD and then copy the ring-shaped pulli from u0B82
 
@@ -28,6 +27,7 @@ ChangeLog
 (This should list both major and minor changes, most recent first.)
 
 Unreleased
+- Provide anusvara
 - Provide fewer language specific fonts
   (a specific font is only needed if the nukta is different).
 19 Jan 2019 (Dev NLCI) NLCI Tamil fonts version 0.401

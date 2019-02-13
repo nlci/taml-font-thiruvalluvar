@@ -41,6 +41,12 @@ for dot in dots:
         if len(contour) <= 2:
             glyph.removeContour(contour)
 
+## Adjust new characters
+anusvara = font['u0B82']
+virama = font['u0BCD']
+anusvara.leftMargin = virama.leftMargin
+anusvara.rightMargin = virama.rightMargin
+
 # Save UFO
 font.changed()
 font.save()

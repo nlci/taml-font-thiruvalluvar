@@ -19,4 +19,9 @@
       <string>\u0BC7\U0001133C\u0BB8\u0BCD\u0BB0</string>
     </test>
   </testgroup>
+  <testgroup label="new characters">
+    <test label="anusvara">
+      <string>\u0B9E\u0B82\u0B9F</string>
+    </test>
+  </testgroup>
 </ftml>
