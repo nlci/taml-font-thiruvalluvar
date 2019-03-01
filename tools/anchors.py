@@ -27,6 +27,14 @@ for anchor in tti.anchors:
         (xmin, ymin, xmax, ymax) = tti.bounds
         anchor.x = (xmax - xmin) * 0.35
 
+## Position pulli over ku
+ku = font['u0B95_u0BC1']
+(xmin, ymin, xmax, ymax) = ku.bounds
+for anchor in ku.anchors:
+    if anchor.name == 'V':
+        xcenter = (xmin + xmax) / 2
+        anchor.x = xcenter
+
 ## Position nuktas with U and UU matras
 sign_both = ['0B9C', '0BB7', '0BB8', '0BB9']
 sign_u = ['0B99', '0B9A', '0BAA', '0BAF', '0BB5'] + sign_both

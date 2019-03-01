@@ -4,23 +4,28 @@ from nameslist import *
 import sys
 
 
+def add_virama(clusters, cluster):
+    for h in [''] + [virama]:
+        clusters.append(cluster + h)
+
+
 with open(sys.argv[1], 'w') as output:
     output.write('RenderingUnknown\n')
 
     for c in consonants + akhands:
     # for c in consonants:
-        for m in [''] + matras + [h]:
+        for m in [''] + matras:
         # for m in [chr(0x0BC1), chr(0x0BC2)]:
             clusters = list()
             cluster = c + m
-            clusters.append(cluster)
+            add_virama(clusters, cluster)
             for n in nuktas:
                 cluster = c + m + n
-                clusters.append(cluster)
+                add_virama(clusters, cluster)
                 cluster = c + n + m
-                clusters.append(cluster)
+                add_virama(clusters, cluster)
                 cluster = c + n + m + n
-                clusters.append(cluster)
+                add_virama(clusters, cluster)
             comment = ''
             # if m == chr(0x0BC1):
             #     comment = hex(ord(c)) + ' u'

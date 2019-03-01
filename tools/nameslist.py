@@ -68,13 +68,13 @@ vowels = list(map(chr, Vowels))
 matras = list(map(chr, Matras))
 consonants = list(map(chr, Consonants))
 nuktas = list(map(chr, Nuktas))
-h = virama = list(map(chr, Virama))[0]
+virama = list(map(chr, Virama))[0]
 
 ka = consonants[0]
 ssa = consonants[20]
 
 Akhands = [
-    ka + h + ssa,  # KaSsa
+    ka + virama + ssa,  # KaSsa
     ]
 
 akhands = Akhands

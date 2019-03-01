@@ -27,6 +27,7 @@ ChangeLog
 (This should list both major and minor changes, most recent first.)
 
 Unreleased
+- Position the pulli better on the ku ligature
 - Provide anusvara
 - Provide fewer language specific fonts
   (a specific font is only needed if the nukta is different).
