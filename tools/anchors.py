@@ -12,7 +12,7 @@ print(f'Move anchors for {ufo}')
 # Modify UFO
 
 ## Move single ring closer to base character
-ring = font['u1133C']
+ring = font['nukta']
 for anchor in ring.anchors:
     if anchor.name == '_N':
         if font.info.familyName == 'ThiruValluvar':
@@ -21,14 +21,14 @@ for anchor in ring.anchors:
             anchor.y = -244
 
 ## Move one nukta to the left
-tti = font['u0B9F_u0BBF']
+tti = font['tta_imatra']
 for anchor in tti.anchors:
     if anchor.name == 'N':
         (xmin, ymin, xmax, ymax) = tti.bounds
         anchor.x = (xmax - xmin) * 0.35
 
 ## Position pulli over ku
-ku = font['u0B95_u0BC1']
+ku = font['ka_umatra']
 (xmin, ymin, xmax, ymax) = ku.bounds
 for anchor in ku.anchors:
     if anchor.name == 'V':
@@ -36,17 +36,17 @@ for anchor in ku.anchors:
         anchor.x = xcenter
 
 ## Position nuktas with U and UU matras
-sign_both = ['0B9C', '0BB7', '0BB8', '0BB9']
-sign_u = ['0B99', '0B9A', '0BAA', '0BAF', '0BB5'] + sign_both
-sign_U = ['0B95'] + sign_both
-nochange_u = ['u' + c + '_u0BC1' for c in sign_u]
-nochange_U = ['u' + c + '_u0BC2' for c in sign_U]
+sign_both = ['ja', 'ssa', 'sa', 'ha']
+sign_u = ['nga', 'ca', 'pa', 'ya', 'va'] + sign_both
+sign_U = ['ka'] + sign_both
+nochange_u = [c + '_umatra' for c in sign_u]
+nochange_U = [c + '_uumatra' for c in sign_U]
 nochange = nochange_u + nochange_U
-re_center = ['0B95', '0B99', '0B9A', '0BAA', '0BAE', '0BAF', '0BB0', '0BB3', '0BB4']
+re_center = ['ka', 'nga', 'ca', 'pa', 'ma', 'ya', 'ra', 'lla', 'llla']
 
 for glyph in font:
     nochange_u = []
-    if glyph.name.endswith('_u0BC1') or glyph.name.endswith('_u0BC2'):
+    if glyph.name.endswith('_umatra') or glyph.name.endswith('_uumatra'):
         if glyph.name in nochange:
             continue
         (xmin, ymin, xmax, ymax) = glyph.bounds
@@ -55,7 +55,6 @@ for glyph in font:
             if anchor.name == 'N':
                 anchor.y = ymin
                 consonant_name = glyph.name.split('_')[0]
-                consonant_name = consonant_name[1:] # remove initial u
                 if consonant_name in re_center:
                     anchor.x = xcenter
 

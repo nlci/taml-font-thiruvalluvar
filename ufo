@@ -10,18 +10,28 @@ export src=source
 
 # source ${nlci}/addchars.bash
 
-# pushd ${src}
-# for sfd in *-???*.sfd
-# do
-#     echo $sfd
-#     rm -f tmp.sfd
-#     python ../tools/ffaddapstotaml $sfd tmp.sfd
-#     python ../tools/ffaddvaptotaml tmp.sfd $sfd
-#     rm -f tmp.sfd
-# done
-# popd
+pushd ${src}
+for sfd in *-???*.sfd
+do
+    echo $sfd
+    # rm -f tmp.sfd
+    # python ../tools/ffaddapstotaml $sfd tmp.sfd
+    # python ../tools/ffaddvaptotaml tmp.sfd $sfd
+    # rm -f tmp.sfd
+
+    perl $HOME/script/zind/bin/codepoint2name.pl -c $sfd -n tmp.sfd -m $HOME/script/zind/fonts/indictable.tsv
+    mv tmp.sfd $sfd
+done
+popd
 
 source ${nlci}/metadata.bash
+
+pushd ${src}
+for sfd in *-???*.sfd
+do
+    mv -v ${sfd}.BAK-C ${sfd}
+done
+popd
 
 for ufo in ${src}/*.ufo
 do

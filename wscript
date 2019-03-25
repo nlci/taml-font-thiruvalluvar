@@ -103,7 +103,7 @@ for f in faces:
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',
-            opentype = fea(fontbase + 'master.fea', no_make = True),
+            # opentype = fea(fontbase + 'master.fea', no_make = True),
             graphite = gdl(generated + f + snf + '.gdl',
                 master = fontbase + 'master.gdl',
                 make_params = '-l last -p 1',
