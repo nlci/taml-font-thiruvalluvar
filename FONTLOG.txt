@@ -52,7 +52,7 @@ Unreleased
 - Add many Latin and Devanagari characters
 - Latin glyphs in ThiruValluvar and Vaigai are from Gentium Book Basic (https://software.sil.org/gentium/)
 - Latin glyphs in Auvaiyar are from Charis SIL (https://software.sil.org/charis/)
-- Additional Latin glyphs are from Charis SIL (https://software.sil.org/charis/)
+- Additional Latin glyphs are from Charis SIL (https://software.sil.org/charis/) and are removed in later versions
 - Indian Rupee Sign is from Annapurna SIL (https://software.sil.org/annapurna/)
 19 Mar 2018 (Dev NLCI) NLCI Tamil fonts version 0.300
 - Regenerate sources from original, hacked legacy fonts with an updated mapping

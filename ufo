@@ -8,8 +8,6 @@ export nlci=$HOME/script/tools
 export src=source
 # source ${nlci}/prepare.bash
 
-# source ${nlci}/addchars.bash
-
 pushd ${src}
 for sfd in *-???*.sfd
 do

@@ -22,7 +22,6 @@
       U+0BFA needs a curl at the top.
       u0B95_u0BC2.old in Auvaiyar needs to be redrawn to match the overall style.
       U+20B9 needs to be made italic in the Italic and Bold Italic faces
-      The non-ring lower part of u0B82 needs to be removed
       The ring in u1CF5 needs to be removed
       u0B99_u0BCD.alt in Auvaiyar needs to be copied from u0B99_u0BCD and then copy the ring-shaped pulli from u0B82
       
@@ -30,6 +29,11 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
+      Unreleased
+      - Position the pulli better on the ku ligature
+      - Provide anusvara
+      - Provide fewer language specific fonts
+      (a specific font is only needed if the nukta is different).
       19 Jan 2019 (Dev NLCI) NLCI Tamil fonts version 0.401
       - Slightly expand and improve the character set
       - Move and adjust form of some of the nuktas
@@ -51,7 +55,7 @@
       - Add many Latin and Devanagari characters
       - Latin glyphs in ThiruValluvar and Vaigai are from Gentium Book Basic (https://software.sil.org/gentium/)
       - Latin glyphs in Auvaiyar are from Charis SIL (https://software.sil.org/charis/)
-      - Additional Latin glyphs are from Charis SIL (https://software.sil.org/charis/)
+      - Additional Latin glyphs are from Charis SIL (https://software.sil.org/charis/) and are removed in later versions
       - Indian Rupee Sign is from Annapurna SIL (https://software.sil.org/annapurna/)
       19 Mar 2018 (Dev NLCI) NLCI Tamil fonts version 0.300
       - Regenerate sources from original, hacked legacy fonts with an updated mapping
@@ -63,11 +67,9 @@
     <text lang="en">
       This Font Software is Copyright (c) 2009-2019, NLCI (http://www.nlci.in/fonts/)
       with Reserved Font Names "ThiruValluvar" and "Auvaiyar" and "Vaigai" and "NLCI".
-      Latin glyphs in ThiruValluvar and Vaigai are Copyright (c) 2003-2013, SIL International (http://www.sil.org/)
+      Latin glyphs in ThiruValluvar and Vaigai are Copyright (c) 2003-2019, SIL International (http://www.sil.org/)
       with Reserved Font Names "Gentium" and "SIL".
-      Latin glyphs in Auvaiyar are Copyright (c) 1997-2014, SIL International (http://www.sil.org/)
-      with Reserved Font Names "Charis" and "SIL".
-      Additional Latin glyphs Copyright (c) 1997-2014, SIL International (http://www.sil.org/)
+      Latin glyphs in Auvaiyar are Copyright (c) 1997-2019, SIL International (http://www.sil.org/)
       with Reserved Font Names "Charis" and "SIL".
       Indian Rupee Sign Copyright (c) 2007-2017, SIL International (http://www.sil.org/)
       with Reserved Font Names "Annapurna" and "SIL".
@@ -169,11 +171,9 @@
     <text lang="en">
       This Font Software is Copyright (c) 2009-2019, NLCI (http://www.nlci.in/fonts/)
       with Reserved Font Names "ThiruValluvar" and "Auvaiyar" and "Vaigai" and "NLCI".
-      Latin glyphs in ThiruValluvar and Vaigai are Copyright (c) 2003-2013, SIL International (http://www.sil.org/)
+      Latin glyphs in ThiruValluvar and Vaigai are Copyright (c) 2003-2019, SIL International (http://www.sil.org/)
       with Reserved Font Names "Gentium" and "SIL".
-      Latin glyphs in Auvaiyar are Copyright (c) 1997-2014, SIL International (http://www.sil.org/)
-      with Reserved Font Names "Charis" and "SIL".
-      Additional Latin glyphs Copyright (c) 1997-2014, SIL International (http://www.sil.org/)
+      Latin glyphs in Auvaiyar are Copyright (c) 1997-2019, SIL International (http://www.sil.org/)
       with Reserved Font Names "Charis" and "SIL".
       Indian Rupee Sign Copyright (c) 2007-2017, SIL International (http://www.sil.org/)
       with Reserved Font Names "Annapurna" and "SIL".

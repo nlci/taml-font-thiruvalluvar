@@ -4,8 +4,6 @@ face="$1"
 style="$2"
 ufo="$3"
 
-deva="../../../../deva/fonts/panini/source"
-
 if [ "${face}" = "ThiruValluvar" ]
 then
     devaf="Panini"

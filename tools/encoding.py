@@ -26,11 +26,6 @@ double.unicodes = []
 
 rings.unicodes = []
 
-## Omega
-if font.info.familyName == 'Auvaiyar':
-    greek = font['u03A9']
-    greek.unicodes = [0x03A9]
-
 ## Cleanup
 dots = ('virama', 'vedictonedotbelow', 'vedictonetwodotsbelow', 'vedictonethreedotsbelow')
 for dot in dots:
