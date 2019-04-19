@@ -68,7 +68,7 @@ jkurm {
 
 irula {
     languages = ("iru");
-    nuka = dotdbl;
+    nuka = ringdbl;
 }
 
 chetti {

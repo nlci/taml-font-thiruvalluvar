@@ -31,7 +31,7 @@ getufoinfo('source/ThiruValluvar-Regular.ufo')
 langinfo = {
     # 'xub' : 'Betta Kurumba',
     # 'xuj' : 'Jennu Kurumba',
-    'iru' : 'Irula',
+    'iru' : 'VetteKada Irula',
     'ctt' : 'Chetti'
 }
 
