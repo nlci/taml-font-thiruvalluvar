@@ -30,7 +30,7 @@ getufoinfo('source/ThiruValluvar-Regular.ufo')
 
 langinfo = {
     # 'xub' : 'Betta Kurumba',
-    # 'xuj' : 'Jennu Kurumba',
+    'xuj' : 'Jennu Kurumba',
     'iru' : 'Irula',
     'ctt' : 'Chetti'
 }
@@ -99,11 +99,11 @@ for f in faces:
         snf = '-' + sn.replace(' ', '')
         fontfilename = tag + f + snf
         font(target = process(fontfilename + '.ttf',
-                #cmd(hackos2 + ' ${DEP} ${TGT}'),
+                cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', [fontbase + f + snf + '.ufo']),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',
-            opentype = fea(fontbase + 'master.fea', no_make = True),
+            # opentype = fea(fontbase + 'master.fea', no_make = True),
             graphite = gdl(generated + f + snf + '.gdl',
                 master = fontbase + 'master.gdl',
                 make_params = '-l last -p 1',
@@ -114,16 +114,15 @@ for f in faces:
             version = VERSION,
             woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
             script = 'taml',
-            # extra_srcs = ['tools/ffaddapstotaml'],
             package = p,
-            fret = fret(params = '')
+            fret = fret(params = '-r -oi')
         )
 
         for langcode in langinfo.keys():
             langname = langinfo[langcode]
             langfontfilename = tag + f + langname.replace(' ', '') + snf
             font(target = process(langfontfilename + '.ttf',
-                    cmd('ttfdeflang -d ' + langcode + ' ${DEP} ${TGT}'),
+                    cmd('${PSFDEFLANG} -L ' + langcode + ' ${DEP} ${TGT}'),
                     name(tag + ' ' + f + ' ' + langname, lang='en-US', subfamily=(sn))
                     ),
                 source = fontfilename + '.ttf',
@@ -131,5 +130,9 @@ for f in faces:
                 graphite = internal(),
                 script = 'taml',
                 package = p,
-                fret = fret(params = '')
+                fret = fret(params = '-r -oi')
             )
+
+def configure(ctx):
+    ctx.find_program('psfchangettfglyphnames')
+    ctx.find_program('psfdeflang')
