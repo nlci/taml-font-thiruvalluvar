@@ -4,175 +4,175 @@ languagesystem taml TAM ;
 languagesystem taml TAO ;
 
 
-# GSUB 
+# GSUB
 
 
 lookup akhnAkhandinTamillookup9 {
   lookupflag 0;
-    sub \u0B95 \u0BCD \u0BB7  by \u0B95_u0BB7;
+    sub \ka \virama \ssa  by \ka_ssa;
 } akhnAkhandinTamillookup9;
 
 lookup akhnligs {
   lookupflag 0;
-    sub \u0B95_u0BB7 \u0BBF  by \u0B95_u0BB7_u0BBF;
-    sub \u0B95_u0BB7 \u0BC0  by \u0B95_u0BB7_u0BC0;
-    sub \u0B95_u0BB7 \u0BCD  by \u0B95_u0BB7_u0BCD;
+    sub \ka_ssa \imatra  by \ka_ssa_imatra;
+    sub \ka_ssa \iimatra  by \ka_ssa_iimatra;
+    sub \ka_ssa \virama  by \ka_ssa_virama;
 } akhnligs;
 
 lookup sub_ligature_pststaml_0 {
   lookupflag 0;
-    sub \u0BA3 \u0BBE  by \u0BA3_u0BBE;
-    sub \u0BA9 \u0BBE  by \u0BA9_u0BBE;
-    sub \u0BB1 \u0BBE  by \u0BB1_u0BBE;
+    sub \nna \aamatra  by \nna_aamatra;
+    sub \nnna \aamatra  by \nnna_aamatra;
+    sub \rra \aamatra  by \rra_aamatra;
 } sub_ligature_pststaml_0;
 
 lookup sub_ligature_pststaml_2 {
   lookupflag 0;
-    sub \u0B99 \u0BBF  by \u0B99_u0BBF;
-    sub \u0B95_u0BB7 \u0BBF  by \u0B95_u0BB7_u0BBF;
-    sub \u0B9C \u0BBF  by \u0B9C_u0BBF;
-    sub \u0B9E \u0BBF  by \u0B9E_u0BBF;
-    sub \u0B9F \u0BBF  by \u0B9F_u0BBF;
-    sub \u0BA3 \u0BBF  by \u0BA3_u0BBF;
-    sub \u0BA8 \u0BBF  by \u0BA8_u0BBF;
-    sub \u0BA9 \u0BBF  by \u0BA9_u0BBF;
-    sub \u0BAA \u0BBF  by \u0BAA_u0BBF;
-    sub \u0BAE \u0BBF  by \u0BAE_u0BBF;
-    sub \u0BAF \u0BBF  by \u0BAF_u0BBF;
-    sub \u0BB0 \u0BBF  by \u0BB0_u0BBF;
-    sub \u0BB1 \u0BBF  by \u0BB1_u0BBF;
-    sub \u0BB2 \u0BBF  by \u0BB2_u0BBF;
-    sub \u0BB3 \u0BBF  by \u0BB3_u0BBF;
-    sub \u0BB4 \u0BBF  by \u0BB4_u0BBF;
-    sub \u0BB5 \u0BBF  by \u0BB5_u0BBF;
-    sub \u0BB7 \u0BBF  by \u0BB7_u0BBF;
-    sub \u0BB8 \u0BBF  by \u0BB8_u0BBF;
-    sub \u0BB9 \u0BBF  by \u0BB9_u0BBF;
+    sub \nga \imatra  by \nga_imatra;
+    sub \ka_ssa \imatra  by \ka_ssa_imatra;
+    sub \ja \imatra  by \ja_imatra;
+    sub \nya \imatra  by \nya_imatra;
+    sub \tta \imatra  by \tta_imatra;
+    sub \nna \imatra  by \nna_imatra;
+    sub \na \imatra  by \na_imatra;
+    sub \nnna \imatra  by \nnna_imatra;
+    sub \pa \imatra  by \pa_imatra;
+    sub \ma \imatra  by \ma_imatra;
+    sub \ya \imatra  by \ya_imatra;
+    sub \ra \imatra  by \ra_imatra;
+    sub \rra \imatra  by \rra_imatra;
+    sub \la \imatra  by \la_imatra;
+    sub \lla \imatra  by \lla_imatra;
+    sub \llla \imatra  by \llla_imatra;
+    sub \va \imatra  by \va_imatra;
+    sub \ssa \imatra  by \ssa_imatra;
+    sub \sa \imatra  by \sa_imatra;
+    sub \ha \imatra  by \ha_imatra;
 } sub_ligature_pststaml_2;
 
 lookup sub_ligature_pststaml_4 {
   lookupflag 0;
-    sub \u0B99 \u0BC0  by \u0B99_u0BC0;
-    sub \u0B9A \u0BB7 \u0BC0  by \u0B95_u0BB7_u0BC0;
-    sub \u0B9C \u0BC0  by \u0B9C_u0BC0;
-    sub \u0B9E \u0BC0  by \u0B9E_u0BC0;
-    sub \u0B9F \u0BC0  by \u0B9F_u0BC0;
-    sub \u0BA3 \u0BC0  by \u0BA3_u0BC0;
-    sub \u0BA8 \u0BC0  by \u0BA8_u0BC0;
-    sub \u0BA9 \u0BC0  by \u0BA9_u0BC0;
-    sub \u0BAA \u0BC0  by \u0BAA_u0BC0;
-    sub \u0BAE \u0BC0  by \u0BAE_u0BC0;
-    sub \u0BAF \u0BC0  by \u0BAF_u0BC0;
-    sub \u0BB0 \u0BC0  by \u0BB0_u0BC0;
-    sub \u0BB1 \u0BC0  by \u0BB1_u0BC0;
-    sub \u0BB2 \u0BC0  by \u0BB2_u0BC0;
-    sub \u0BB3 \u0BC0  by \u0BB3_u0BC0;
-    sub \u0BB4 \u0BC0  by \u0BB4_u0BC0;
-    sub \u0BB5 \u0BC0  by \u0BB5_u0BC0;
-    sub \u0BB7 \u0BC0  by \u0BB7_u0BC0;
-    sub \u0BB8 \u0BC0  by \u0BB8_u0BC0;
-    sub \u0BB9 \u0BC0  by \u0BB9_u0BC0;
+    sub \nga \iimatra  by \nga_iimatra;
+    sub \ca \ssa \iimatra  by \ka_ssa_iimatra;
+    sub \ja \iimatra  by \ja_iimatra;
+    sub \nya \iimatra  by \nya_iimatra;
+    sub \tta \iimatra  by \tta_iimatra;
+    sub \nna \iimatra  by \nna_iimatra;
+    sub \na \iimatra  by \na_iimatra;
+    sub \nnna \iimatra  by \nnna_iimatra;
+    sub \pa \iimatra  by \pa_iimatra;
+    sub \ma \iimatra  by \ma_iimatra;
+    sub \ya \iimatra  by \ya_iimatra;
+    sub \ra \iimatra  by \ra_iimatra;
+    sub \rra \iimatra  by \rra_iimatra;
+    sub \la \iimatra  by \la_iimatra;
+    sub \lla \iimatra  by \lla_iimatra;
+    sub \llla \iimatra  by \llla_iimatra;
+    sub \va \iimatra  by \va_iimatra;
+    sub \ssa \iimatra  by \ssa_iimatra;
+    sub \sa \iimatra  by \sa_iimatra;
+    sub \ha \iimatra  by \ha_iimatra;
 } sub_ligature_pststaml_4;
 
 lookup sub_ligature_pststaml_6 {
   lookupflag 0;
-    sub \u0B95 \u0BC1  by \u0B95_u0BC1;
-    sub \u0B99 \u0BC1  by \u0B99_u0BC1;
-    sub \u0B9A \u0BC1  by \u0B9A_u0BC1;
-    sub \u0B9E \u0BC1  by \u0B9E_u0BC1;
-    sub \u0B9F \u0BC1  by \u0B9F_u0BC1;
-    sub \u0BA3 \u0BC1  by \u0BA3_u0BC1;
-    sub \u0BA4 \u0BC1  by \u0BA4_u0BC1;
-    sub \u0BA8 \u0BC1  by \u0BA8_u0BC1;
-    sub \u0BA9 \u0BC1  by \u0BA9_u0BC1;
-    sub \u0BAA \u0BC1  by \u0BAA_u0BC1;
-    sub \u0BAE \u0BC1  by \u0BAE_u0BC1;
-    sub \u0BAF \u0BC1  by \u0BAF_u0BC1;
-    sub \u0BB0 \u0BC1  by \u0BB0_u0BC1;
-    sub \u0BB1 \u0BC1  by \u0BB1_u0BC1;
-    sub \u0BB2 \u0BC1  by \u0BB2_u0BC1;
-    sub \u0BB3 \u0BC1  by \u0BB3_u0BC1;
-    sub \u0BB4 \u0BC1  by \u0BB4_u0BC1;
-    sub \u0BB5 \u0BC1  by \u0BB5_u0BC1;
+    sub \ka \umatra  by \ka_umatra;
+    sub \nga \umatra  by \nga_umatra;
+    sub \ca \umatra  by \ca_umatra;
+    sub \nya \umatra  by \nya_umatra;
+    sub \tta \umatra  by \tta_umatra;
+    sub \nna \umatra  by \nna_umatra;
+    sub \ta \umatra  by \ta_umatra;
+    sub \na \umatra  by \na_umatra;
+    sub \nnna \umatra  by \nnna_umatra;
+    sub \pa \umatra  by \pa_umatra;
+    sub \ma \umatra  by \ma_umatra;
+    sub \ya \umatra  by \ya_umatra;
+    sub \ra \umatra  by \ra_umatra;
+    sub \rra \umatra  by \rra_umatra;
+    sub \la \umatra  by \la_umatra;
+    sub \lla \umatra  by \lla_umatra;
+    sub \llla \umatra  by \llla_umatra;
+    sub \va \umatra  by \va_umatra;
 } sub_ligature_pststaml_6;
 
 lookup sub_ligature_pststaml_8 {
   lookupflag 0;
-    sub \u0B99 \u0BC2  by \u0B99_u0BC2;
-    sub \u0B9A \u0BC2  by \u0B9A_u0BC2;
-    sub \u0B9E \u0BC2  by \u0B9E_u0BC2;
-    sub \u0B9F \u0BC2  by \u0B9F_u0BC2;
-    sub \u0BA3 \u0BC2  by \u0BA3_u0BC2;
-    sub \u0BA4 \u0BC2  by \u0BA4_u0BC2;
-    sub \u0BA8 \u0BC2  by \u0BA8_u0BC2;
-    sub \u0BA9 \u0BC2  by \u0BA9_u0BC2;
-    sub \u0BAA \u0BC2  by \u0BAA_u0BC2;
-    sub \u0BAE \u0BC2  by \u0BAE_u0BC2;
-    sub \u0BAF \u0BC2  by \u0BAF_u0BC2;
-    sub \u0BB0 \u0BC2  by \u0BB0_u0BC2;
-    sub \u0BB1 \u0BC2  by \u0BB1_u0BC2;
-    sub \u0BB2 \u0BC2  by \u0BB2_u0BC2;
-    sub \u0BB3 \u0BC2  by \u0BB3_u0BC2;
-    sub \u0BB4 \u0BC2  by \u0BB4_u0BC2;
-    sub \u0BB5 \u0BC2  by \u0BB5_u0BC2;
-    sub \u0B95 \u0BC2  by \u0B95_u0BC2;
+    sub \nga \uumatra  by \nga_uumatra;
+    sub \ca \uumatra  by \ca_uumatra;
+    sub \nya \uumatra  by \nya_uumatra;
+    sub \tta \uumatra  by \tta_uumatra;
+    sub \nna \uumatra  by \nna_uumatra;
+    sub \ta \uumatra  by \ta_uumatra;
+    sub \na \uumatra  by \na_uumatra;
+    sub \nnna \uumatra  by \nnna_uumatra;
+    sub \pa \uumatra  by \pa_uumatra;
+    sub \ma \uumatra  by \ma_uumatra;
+    sub \ya \uumatra  by \ya_uumatra;
+    sub \ra \uumatra  by \ra_uumatra;
+    sub \rra \uumatra  by \rra_uumatra;
+    sub \la \uumatra  by \la_uumatra;
+    sub \lla \uumatra  by \lla_uumatra;
+    sub \llla \uumatra  by \llla_uumatra;
+    sub \va \uumatra  by \va_uumatra;
+    sub \ka \uumatra  by \ka_uumatra;
 } sub_ligature_pststaml_8;
 
 lookup sub_ligature_pststaml_10 {
   lookupflag 0;
-    sub \u0BA3 \u0BC8  by \u0BA3_u0BC8;
-    sub \u0BA9 \u0BC8  by \u0BA9_u0BC8;
-    sub \u0BB2 \u0BC8  by \u0BB2_u0BC8;
-    sub \u0BB3 \u0BC8  by \u0BB3_u0BC8;
-    sub \u0BB7 \u0BC8  by \u0BB7_u0BC8;
+    sub \nna \aimatra  by \nna_aimatra;
+    sub \nnna \aimatra  by \nnna_aimatra;
+    sub \la \aimatra  by \la_aimatra;
+    sub \lla \aimatra  by \lla_aimatra;
+    sub \ssa \aimatra  by \ssa_aimatra;
 } sub_ligature_pststaml_10;
 
 lookup sub_ligature_pststaml_00 {
   lookupflag 0;
-    sub \u0B95 \u0BBF  by \u0B95_u0BBF;
-    sub \u0B95 \u0BC0  by \u0B95_u0BC0;
-    sub \u0B9A \u0BBF  by \u0B9A_u0BBF;
-    sub \u0B9A \u0BC0  by \u0B9A_u0BC0;
-    sub \u0BA4 \u0BBF  by \u0BA4_u0BBF;
-    sub \u0BA4 \u0BC0  by \u0BA4_u0BC0;
+    sub \ka \imatra  by \ka_imatra;
+    sub \ka \iimatra  by \ka_iimatra;
+    sub \ca \imatra  by \ca_imatra;
+    sub \ca \iimatra  by \ca_iimatra;
+    sub \ta \imatra  by \ta_imatra;
+    sub \ta \iimatra  by \ta_iimatra;
 } sub_ligature_pststaml_00;
 
 lookup pstspostbasesubstitutionold {
   lookupflag 0;
-    sub \u0BA3_u0BBE by \u0BA3_u0BBE.old ;
-    sub \u0BA3_u0BC8 by \u0BA3_u0BC8.old ;
-    sub \u0BA9_u0BBE by \u0BA9_u0BBE.old ;
-    sub \u0BB1_u0BBE by \u0BB1_u0BBE.old ;
-    sub \u0BB2_u0BC8 by \u0BB2_u0BC8.old ;
-    sub \u0BB3_u0BC8 by \u0BB3_u0BC8.old ;
+    sub \nna_aamatra by \nna_aamatra.old ;
+    sub \nna_aimatra by \nna_aimatra.old ;
+    sub \nnna_aamatra by \nnna_aamatra.old ;
+    sub \rra_aamatra by \rra_aamatra.old ;
+    sub \la_aimatra by \la_aimatra.old ;
+    sub \lla_aimatra by \lla_aimatra.old ;
 } pstspostbasesubstitutionold;
 
 lookup pstspostbasesubstitution {
   lookupflag 0;
-    sub \u0B95 \u0BCD  by \u0B95_u0BCD;
-    sub \u0B99 \u0BCD  by \u0B99_u0BCD;
-    sub \u0B9A \u0BB7 \u0BCD  by \u0B95_u0BB7_u0BCD;
-    sub \u0B95_u0BB7 \u0BCD  by \u0B95_u0BB7_u0BCD;
-    sub \u0B9A \u0BCD  by \u0B9A_u0BCD;
-    sub \u0B9C \u0BCD  by \u0B9C_u0BCD;
-    sub \u0B9E \u0BCD  by \u0B9E_u0BCD;
-    sub \u0B9F \u0BCD  by \u0B9F_u0BCD;
-    sub \u0BA3 \u0BCD  by \u0BA3_u0BCD;
-    sub \u0BA4 \u0BCD  by \u0BA4_u0BCD;
-    sub \u0BA8 \u0BCD  by \u0BA8_u0BCD;
-    sub \u0BA9 \u0BCD  by \u0BA9_u0BCD;
-    sub \u0BAA \u0BCD  by \u0BAA_u0BCD;
-    sub \u0BAE \u0BCD  by \u0BAE_u0BCD;
-    sub \u0BAF \u0BCD  by \u0BAF_u0BCD;
-    sub \u0BB0 \u0BCD  by \u0BB0_u0BCD;
-    sub \u0BB1 \u0BCD  by \u0BB1_u0BCD;
-    sub \u0BB2 \u0BCD  by \u0BB2_u0BCD;
-    sub \u0BB3 \u0BCD  by \u0BB3_u0BCD;
-    sub \u0BB4 \u0BCD  by \u0BB4_u0BCD;
-    sub \u0BB5 \u0BCD  by \u0BB5_u0BCD;
-    sub \u0BB7 \u0BCD  by \u0BB7_u0BCD;
-    sub \u0BB8 \u0BCD  by \u0BB8_u0BCD;
-    sub \u0BB9 \u0BCD  by \u0BB9_u0BCD;
+    sub \ka \virama  by \ka_virama;
+    sub \nga \virama  by \nga_virama;
+    sub \ca \ssa \virama  by \ka_ssa_virama;
+    sub \ka_ssa \virama  by \ka_ssa_virama;
+    sub \ca \virama  by \ca_virama;
+    sub \ja \virama  by \ja_virama;
+    sub \nya \virama  by \nya_virama;
+    sub \tta \virama  by \tta_virama;
+    sub \nna \virama  by \nna_virama;
+    sub \ta \virama  by \ta_virama;
+    sub \na \virama  by \na_virama;
+    sub \nnna \virama  by \nnna_virama;
+    sub \pa \virama  by \pa_virama;
+    sub \ma \virama  by \ma_virama;
+    sub \ya \virama  by \ya_virama;
+    sub \ra \virama  by \ra_virama;
+    sub \rra \virama  by \rra_virama;
+    sub \la \virama  by \la_virama;
+    sub \lla \virama  by \lla_virama;
+    sub \llla \virama  by \llla_virama;
+    sub \va \virama  by \va_virama;
+    sub \ssa \virama  by \ssa_virama;
+    sub \sa \virama  by \sa_virama;
+    sub \ha \virama  by \ha_virama;
 } pstspostbasesubstitution;
 
 feature akhn {
@@ -220,18 +220,18 @@ feature psts {
       lookup pstspostbasesubstitution;
 } psts;
 
-# GPOS 
+# GPOS
 
 
 lookup abvmcursive {
   lookupflag 0;
-    pos cursive \u0B95_u0BB7 <anchor NULL> <anchor 3222 1242 <device NULL> <device 150 1>>;
-    pos cursive \u0B9C <anchor NULL> <anchor 1215 1201 <device NULL> <device 150 4>>;
-    pos cursive \u0BB7 <anchor NULL> <anchor 2048 1201 <device NULL> <device 150 4>>;
-    pos cursive \u0BB8 <anchor NULL> <anchor 2212 1201 <device NULL> <device 150 6>>;
-    pos cursive \u0BB9 <anchor NULL> <anchor 2649 1229 <device NULL> <device 150 2>>;
-    pos cursive \u0BC1 <anchor -300 1250> <anchor NULL>;
-    pos cursive \u0BC2 <anchor -300 1250> <anchor NULL>;
+    pos cursive \ka_ssa <anchor NULL> <anchor 3222 1242 <device NULL> <device 150 1>>;
+    pos cursive \ja <anchor NULL> <anchor 1215 1201 <device NULL> <device 150 4>>;
+    pos cursive \ssa <anchor NULL> <anchor 2048 1201 <device NULL> <device 150 4>>;
+    pos cursive \sa <anchor NULL> <anchor 2212 1201 <device NULL> <device 150 6>>;
+    pos cursive \ha <anchor NULL> <anchor 2649 1229 <device NULL> <device 150 2>>;
+    pos cursive \umatra <anchor -300 1250> <anchor NULL>;
+    pos cursive \uumatra <anchor -300 1250> <anchor NULL>;
 } abvmcursive;
 
 feature abvm {
@@ -253,31 +253,30 @@ feature abvm {
 } abvm;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\u0B95_u0BC1 \u0B95_u0BC2.old \u0B95_u0BCD \u0B99_u0BBF 
-	\u0B99_u0BC0 \u0B99_u0BC1 \u0B99_u0BC2 \u0B99_u0BCD \u0B95_u0BB7 
-	\u0B95_u0BB7_u0BBF \u0B95_u0BB7_u0BC0 \u0B95_u0BB7_u0BCD \u0B9A_u0BC1 
-	\u0B9A_u0BC2 \u0B9A_u0BCD \u0B9C_u0BBF \u0B9C_u0BC0 \u0B9C_u0BCD \u0B9E_u0BBF 
-	\u0B9E_u0BC0 \u0B9E_u0BC1 \u0B9E_u0BC2 \u0B9E_u0BCD \u0B9F_u0BBF \u0B9F_u0BC0 
-	\u0B9F_u0BC1 \u0B9F_u0BC2 \u0B9F_u0BCD \u0BA3_u0BBE \u0BA3_u0BBF \u0BA3_u0BC0 
-	\u0BA3_u0BC1 \u0BA3_u0BC2 \u0BA3_u0BC8 \u0BA3_u0BCD \u0BA4_u0BC1 \u0BA4_u0BC2 
-	\u0BA4_u0BCD \u0BA8_u0BBF \u0BA8_u0BC0 \u0BA8_u0BC1 \u0BA8_u0BC2 \u0BA8_u0BCD 
-	\u0BA9_u0BBE \u0BA9_u0BBF \u0BA9_u0BC0 \u0BA9_u0BC1 \u0BA9_u0BC2 \u0BA9_u0BC8 
-	\u0BA9_u0BCD \u0BAA_u0BBF \u0BAA_u0BC0 \u0BAA_u0BC1 \u0BAA_u0BC2 \u0BAA_u0BCD 
-	\u0BAE_u0BBF \u0BAE_u0BC0 \u0BAE_u0BC1 \u0BAE_u0BC2 \u0BAE_u0BCD \u0BAF_u0BBF 
-	\u0BAF_u0BC0 \u0BAF_u0BC1 \u0BAF_u0BC2 \u0BAF_u0BCD \u0BB0_u0BBF \u0BB0_u0BC0 
-	\u0BB0_u0BC1 \u0BB0_u0BC2 \u0BB0_u0BCD \u0BB1_u0BBE \u0BB1_u0BBF \u0BB1_u0BC0 
-	\u0BB1_u0BC1 \u0BB1_u0BC2 \u0BB1_u0BCD \u0BB2_u0BBF \u0BB2_u0BC0 \u0BB2_u0BC1 
-	\u0BB2_u0BC2 \u0BB2_u0BC8 \u0BB2_u0BCD \u0BB3_u0BBF \u0BB3_u0BC0 \u0BB3_u0BC1 
-	\u0BB3_u0BC2 \u0BB3_u0BC8 \u0BB3_u0BCD \u0BB4_u0BBF \u0BB4_u0BC0 \u0BB4_u0BC1 
-	\u0BB4_u0BC2 \u0BB4_u0BCD \u0BB5_u0BBF \u0BB5_u0BC0 \u0BB5_u0BC1 \u0BB5_u0BC2 
-	\u0BB5_u0BCD \u0BB7_u0BBF \u0BB7_u0BC0 \u0BB7_u0BC8 \u0BB7_u0BCD \u0BB8_u0BBF 
-	\u0BB8_u0BC0 \u0BB8_u0BCD \u0BB9_u0BBF \u0BB9_u0BC0 \u0BB9_u0BCD \u0B95_u0BC2 
-	\u0B83.alt ];
-@GDEF_Ligature = [\u0BC1 \u0BC2 \u0BCD ];
-@GDEF_Mark = [\u1133C.dotdbl \u1133C \u1133B \u1133C.ringdbl];
+@GDEF_Simple = [\ka_umatra \ka_uumatra.old \ka_virama \nga_imatra
+	\nga_iimatra \nga_umatra \nga_uumatra \nga_virama \ka_ssa
+	\ka_ssa_imatra \ka_ssa_iimatra \ka_ssa_virama \ca_umatra
+	\ca_uumatra \ca_virama \ja_imatra \ja_iimatra \ja_virama \nya_imatra
+	\nya_iimatra \nya_umatra \nya_uumatra \nya_virama \tta_imatra \tta_iimatra
+	\tta_umatra \tta_uumatra \tta_virama \nna_aamatra \nna_imatra \nna_iimatra
+	\nna_umatra \nna_uumatra \nna_aimatra \nna_virama \ta_umatra \ta_uumatra
+	\ta_virama \na_imatra \na_iimatra \na_umatra \na_uumatra \na_virama
+	\nnna_aamatra \nnna_imatra \nnna_iimatra \nnna_umatra \nnna_uumatra \nnna_aimatra
+	\nnna_virama \pa_imatra \pa_iimatra \pa_umatra \pa_uumatra \pa_virama
+	\ma_imatra \ma_iimatra \ma_umatra \ma_uumatra \ma_virama \ya_imatra
+	\ya_iimatra \ya_umatra \ya_uumatra \ya_virama \ra_imatra \ra_iimatra
+	\ra_umatra \ra_uumatra \ra_virama \rra_aamatra \rra_imatra \rra_iimatra
+	\rra_umatra \rra_uumatra \rra_virama \la_imatra \la_iimatra \la_umatra
+	\la_uumatra \la_aimatra \la_virama \lla_imatra \lla_iimatra \lla_umatra
+	\lla_uumatra \lla_aimatra \lla_virama \llla_imatra \llla_iimatra \llla_umatra
+	\llla_uumatra \llla_virama \va_imatra \va_iimatra \va_umatra \va_uumatra
+	\va_virama \ssa_imatra \ssa_iimatra \ssa_aimatra \ssa_virama \sa_imatra
+	\sa_iimatra \sa_virama \ha_imatra \ha_iimatra \ha_virama \ka_uumatra
+	\visarga.alt ];
+@GDEF_Ligature = [\umatra \uumatra \virama ];
+@GDEF_Mark = [\nukta.dotdbl \nukta \nuktanew \nukta.ringdbl];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
 } GDEF;
-
