@@ -122,7 +122,8 @@ for f in faces:
             langname = langinfo[langcode]
             langfontfilename = tag + f + langname.replace(' ', '') + snf
             font(target = process(langfontfilename + '.ttf',
-                    cmd('${PSFDEFLANG} -L ' + langcode + ' ${DEP} ${TGT}'),
+                    cmd('ttfdeflang -d ' + langcode + ' ${DEP} ${TGT}'),
+                    # cmd('${PSFDEFLANG} -L ' + langcode + ' ${DEP} ${TGT}'),
                     name(tag + ' ' + f + ' ' + langname, lang='en-US', subfamily=(sn))
                     ),
                 source = fontfilename + '.ttf',
