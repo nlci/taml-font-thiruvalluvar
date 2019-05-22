@@ -103,7 +103,12 @@ for f in faces:
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',
-            opentype = fea(fontbase + 'master.fea', no_make = True),
+            # opentype = fea(fontbase + 'master.fea', no_make = True),
+            opentype=fea(generated + f + snf + '.fea',
+                master=fontbase + 'master.feax',
+                make_params='',
+                params='',
+                ),
             graphite = gdl(generated + f + snf + '.gdl',
                 master = fontbase + 'master.gdl',
                 make_params = '-l last -p 1',
@@ -113,7 +118,7 @@ for f in faces:
             ap = generated + f + snf + '.xml',
             version = VERSION,
             woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
-            script = 'taml',
+            script = 'taml', # tml2
             package = p,
             fret = fret(params = '-r -oi')
         )
