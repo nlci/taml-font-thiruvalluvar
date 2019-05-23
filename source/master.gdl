@@ -80,18 +80,37 @@ chetti {
 endtable;
 
 table(glyph)
-    cCons = (g0b95 g0b99 g0b9a g0b9c g0b9e g0b9f g0ba3 g0ba4 g0ba8 g0ba9 g0baa g0bae g0baf g0bb0 g0bb1 g0bb2 g0bb3 g0bb4 g0bb5 g0bb6 g0bb7 g0bb8 g0bb9)
-    cSplitMatras = (g0bca g0bcb g0bcc)
-    cReOrder = (g0bc6 g0bc7 g0bc8)
-    allCons = (cCons clig0BB7)
-    split_base = (g0bca g0bcb g0bcc)
-    split1 = (g0bc6 g0bc7 g0bc6)
-    split2 = (g0bbe g0bbe g0bd7)
-    cMatra = (g0bbe g0bbf g0bc0 g0bc1 g0bc2 g0bc6 g0bc7 g0bc8 g0bca g0bcb g0bcc)
+    cCons = (g_ka g_nga g_ca g_ja g_nya g_tta g_nna g_ta g_na g_nnna g_pa g_ma g_ya g_ra g_rra g_la g_lla g_llla g_va g_sha g_ssa g_sa g_ha)
+    cSplitMatras = (g_omatra g_oomatra g_aumatra)
+    cReOrder = (g_ematra g_eematra g_aimatra)
+    allCons = (cCons cligssa)
+    split_base = (g_omatra g_oomatra g_aumatra)
+    split1 = (g_ematra g_eematra g_ematra)
+    split2 = (g_aamatra g_aamatra g_aulengthmark)
+    cMatra = (g_aamatra g_imatra g_iimatra g_umatra g_uumatra g_ematra g_eematra g_aimatra g_omatra g_oomatra g_aumatra)
+
+    // The next four classes are to workaround a bug in make_gdl
+    // umatra
+    cligu1matra = (g_ka_umatra, g_nga_umatra, g_ca_umatra, g_nya_umatra, g_tta_umatra, g_nna_umatra, g_ta_umatra, g_na_umatra,
+        g_nnna_umatra, g_pa_umatra, g_ma_umatra, g_ya_umatra, g_ra_umatra, g_rra_umatra, g_la_umatra, g_lla_umatra,
+        g_llla_umatra, g_va_umatra);
+
+    cligno_u1matra = (g_ka, g_nga, g_ca, g_nya, g_tta, g_nna, g_ta, g_na,
+        g_nnna, g_pa, g_ma, g_ya, g_ra, g_rra, g_la, g_lla,
+        g_llla, g_va);
+
+    // uumatra
+    cligno_uumatra = (g_ka, g_nga, g_ca, g_nya, g_tta, g_nna, g_ta, g_na,
+        g_nnna, g_pa, g_ma, g_ya, g_ra, g_rra, g_la, g_lla,
+        g_llla, g_va);
+
+    cliguumatra = (g_ka_uumatra, g_nga_uumatra, g_ca_uumatra, g_nya_uumatra, g_tta_uumatra, g_nna_uumatra, g_ta_uumatra, g_na_uumatra,
+        g_nnna_uumatra, g_pa_uumatra, g_ma_uumatra, g_ya_uumatra, g_ra_uumatra, g_rra_uumatra, g_la_uumatra, g_lla_uumatra,
+        g_llla_uumatra, g_va_uumatra);
 endtable;
 
-#define CLUS1 [clig0BCD g1133b? g1133c?]?
-#define CLUS2 [allCons g1133b? g1133c? g0bcd g200c?]?
+#define CLUS1 [cligvirama g_nuktanew? g_nukta?]?
+#define CLUS2 [allCons g_nuktanew? g_nukta? g_virama g_zwnj?]?
 #define CLUSINI CLUS1 CLUS2 CLUS1 CLUS2
 
 /* Substitution rules start here */
@@ -107,91 +126,80 @@ pass(1)
         codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
 
 // Basic ligatures before reordering
-    cligno_0BB7 g0bcd g0bb7 > clig0BB7:(1 3 4) _ _ / ^ _ g1133b? _ _;
-    cligno_0BB7 g0bcd g0bb7 > clig0BB7:(1 3 4) _ _ / ^ _ g1133c? _ _;
-    g0bb8 g0bcd g0bb0 g0bc0 > g0bb8_0bcd_0bb0_0bc0:(1 v c m) _ _ _ / _ g1133b? _=v _=c g1133b? _=m;
-    g0bb8 g0bcd g0bb0 g0bc0 > g0bb8_0bcd_0bb0_0bc0:(1 v c m) _ _ _ / _ g1133c? _=v _=c g1133c? _=m;
+    cligno_ssa g_virama g_ssa > cligssa:(1 3 4) _ _ / ^ _ g_nuktanew? _ _;
+    cligno_ssa g_virama g_ssa > cligssa:(1 3 4) _ _ / ^ _ g_nukta? _ _;
+    g_sa g_virama g_ra g_iimatra > g_sa_virama_ra_iimatra:(1 v c m) _ _ _ / _ g_nuktanew? _=v _=c g_nuktanew? _=m;
+    g_sa g_virama g_ra g_iimatra > g_sa_virama_ra_iimatra:(1 v c m) _ _ _ / _ g_nukta? _=v _=c g_nukta? _=m;
 // Complain about cons halant vowel
-//    _ > g25cc / allCons g1133b? g0bcd _ cMatra;
-//    _ > g25cc / allCons g1133c? g0bcd _ cMatra;
+//    _ > g_dottedcircle / allCons g_nuktanew? g_virama _ cMatra;
+//    _ > g_dottedcircle / allCons g_nukta? g_virama _ cMatra;
 endpass;
 
-#define reorderb(x) _ split_base > split1$a:a split2$a:a / _ x g1133b? g0bcd? _=a;\
-     _ cReOrder > @a _ / _ x g1133b? g0bcd? _=a;\
-     _ _ cReOrder g1133b > @a @b _ _ / _ _ x g1133b? g0bcd? _=a _=b;
-#define reorderc(x) _ split_base > split1$a:a split2$a:a / _ x g1133c? g0bcd? _=a;\
-     _ cReOrder > @a _ / _ x g1133c? g0bcd? _=a;\
-     _ _ cReOrder g1133c > @a @b _ _ / _ _ x g1133c? g0bcd? _=a _=b;
+#define reorderb(x) _ split_base > split1$a:a split2$a:a / _ x g_nuktanew? g_virama? _=a;\
+     _ cReOrder > @a _ / _ x g_nuktanew? g_virama? _=a;\
+     _ _ cReOrder g_nuktanew > @a @b _ _ / _ _ x g_nuktanew? g_virama? _=a _=b;
+#define reorderc(x) _ split_base > split1$a:a split2$a:a / _ x g_nukta? g_virama? _=a;\
+     _ cReOrder > @a _ / _ x g_nukta? g_virama? _=a;\
+     _ _ cReOrder g_nukta > @a @b _ _ / _ _ x g_nukta? g_virama? _=a _=b;
 
 pass(2)
 // Reordered (including split) vowel matras
-    reorderb(g0b95_0bb7)
-    reorderc(g0b95_0bb7)
-    // reorderb(g0b95 g0bcd g0bb6) // might not be needed now that g0bb6 is in the fonts, and in cCons
-    // reorderc(g0b95 g0bcd g0bb6) // might not be needed now that g0bb6 is in the fonts, and in cCons
+    reorderb(g_ka_ssa)
+    reorderc(g_ka_ssa)
+    // reorderb(g_ka g_virama g_sha) // might not be needed now that g_sha is in the fonts, and in cCons
+    // reorderc(g_ka g_virama g_sha) // might not be needed now that g_sha is in the fonts, and in cCons
     reorderb(cCons)
     reorderc(cCons)
-    reorderb(clig0BCD)
-    reorderc(clig0BCD)
+    reorderb(cligvirama)
+    reorderc(cligvirama)
 endpass;
 
 pass(3)
 // Reordered vowel ligatures
-    g1133b g1133b > g1133b:(1 2) _ / ^ _ _;
-    g1133c g1133c > g1133c:(1 2) _ / ^ _ _;
-    g0bc8 cligno_0BC8 > _ clig0BC8:(1 2);
+    g_nuktanew g_nuktanew > g_nuktanew:(1 2) _ / ^ _ _;
+    g_nukta g_nukta > g_nukta:(1 2) _ / ^ _ _;
+    g_aimatra cligno_aimatra > _ cligaimatra:(1 2);
 
-    cligno_0BBE g0bbe > clig0BBE:(1 3) _ / _ g1133b? _;
-    cligno_0BBE g0bbe > clig0BBE:(1 3) _ / _ g1133c? _;
+    cligno_aamatra g_aamatra > cligaamatra:(1 3) _ / _ g_nuktanew? _;
+    cligno_aamatra g_aamatra > cligaamatra:(1 3) _ / _ g_nukta? _;
 
-    cligno_0BBF g0bbf > clig0BBF:(1 3) _ / _ g1133b? _;
-    cligno_0BBF g0bbf > clig0BBF:(1 3) _ / _ g1133c? _;
+    cligno_imatra g_imatra > cligimatra:(1 3) _ / _ g_nuktanew? _;
+    cligno_imatra g_imatra > cligimatra:(1 3) _ / _ g_nukta? _;
 
-    cligno_0BC0 g0bc0 > clig0BC0:(1 3) _ / _ g1133b? _;
-    cligno_0BC0 g0bc0 > clig0BC0:(1 3) _ / _ g1133c? _;
+    cligno_iimatra g_iimatra > cligiimatra:(1 3) _ / _ g_nuktanew? _;
+    cligno_iimatra g_iimatra > cligiimatra:(1 3) _ / _ g_nukta? _;
 
-    cligno_0BC1 g0bc1 > clig0BC1:(1 3) _ / _ g1133b? _;
-    cligno_0BC1 g0bc1 > clig0BC1:(1 3) _ / _ g1133c? _;
+    cligno_u1matra g_umatra > cligu1matra:(1 3) _ / _ g_nuktanew? _;
+    cligno_u1matra g_umatra > cligu1matra:(1 3) _ / _ g_nukta? _;
 
-    cligno_0BC2 g0bc2 > clig0BC2:(1 3) _ / _ g1133b? _;
-    cligno_0BC2 g0bc2 > clig0BC2:(1 3) _ / _ g1133c? _;
+    cligno_uumatra g_uumatra > cliguumatra:(1 3) _ / _ g_nuktanew? _;
+    cligno_uumatra g_uumatra > cliguumatra:(1 3) _ / _ g_nukta? _;
 
-//  cligno_0BCD g0bcd > clig0BCD:(1 3) _ / _ g1133b? _;
-//  cligno_0BCD g0bcd > clig0BCD:(1 3) _ / _ g1133c? _;
+//  cligno_virama g_virama > cligvirama:(1 3) _ / _ g_nuktanew? _;
+//  cligno_virama g_virama > cligvirama:(1 3) _ / _ g_nukta? _;
 endpass;
 
 pass(4)
 
 if (nuka == ring && snuk == ring)
-    g1133b > g1133c;
+    g_nuktanew > g_nukta;
 else if (nuka == dotdbl && snuk == dot)
-    g1133c > g1133c_dotdbl;
+    g_nukta > g_nukta_dotdbl;
 else if (nuka == dotdbl && snuk == ring)
-    g1133c > g1133c_dotdbl;
-    g1133b > g1133c;
+    g_nukta > g_nukta_dotdbl;
+    g_nuktanew > g_nukta;
 else if (nuka == dot && snuk == dot)
-    g1133c > g1133b;
+    g_nukta > g_nuktanew;
 else if (nuka == dot && snuk == ring)
-    g1133c > g1133b;
-    g1133b > g1133c;
+    g_nukta > g_nuktanew;
+    g_nuktanew > g_nukta;
 else if (nuka == ringdbl && snuk == dot)
-    g1133c > g1133c_ringdbl;
+    g_nukta > g_nukta_ringdbl;
 else if (nuka == ringdbl && snuk == ring)
-    g1133c > g1133c_ringdbl;
-    g1133b > g1133c;
+    g_nukta > g_nukta_ringdbl;
+    g_nuktanew > g_nukta;
 endif;
 
 endpass;
 
 endtable;
-/* Substitution rules end here */
-
-/* get make_gdl to do this work
-table(positioning)
-pass(1)
-cTakesNDia cNDia {attach.to=@1; attach.at=NS; attach.with=NM; user1=1} / _ opt2(cnTakesNDia) _{user1 == 0};
-cTakesRDia cRDia {attach.to=@1; attach.at=RS; attach.with=RM};
-cTakesVDia cVDia {attach.to=@1; attach.at=VS; attach.with=VM};
-endpass
-endtable
-*/

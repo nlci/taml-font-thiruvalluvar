@@ -10,29 +10,24 @@ font = OpenFont(ufo)
 # Modify UFO
 
 ## Nuktas
-single = font['u1133C']
-double = font['u1133C.double']
-ring = font['u1133C.ring']
-rings = font['u1133C.ringdbl']
+single = font['nukta']
+double = font['nukta.double']
+ring = font['nukta.ring']
+rings = font['nukta.ringdbl']
 
-single.name = 'u1133B'
+single.name = 'nuktanew'
 single.unicodes = [0x1133B]
 
-ring.name = 'u1133C'
+ring.name = 'nukta'
 ring.unicodes = [0x1133C]
 
-double.name = 'u1133C.dotdbl'
+double.name = 'nukta.dotdbl'
 double.unicodes = []
 
 rings.unicodes = []
 
-## Omega
-if font.info.familyName == 'Auvaiyar':
-    greek = font['uni03A9']
-    greek.unicodes = [0x03A9]
-
 ## Cleanup
-dots = ('u0BCD', 'u1CDD', 'u1CDE', 'u1CDF')
+dots = ('virama', 'vedictonedotbelow', 'vedictonetwodotsbelow', 'vedictonethreedotsbelow')
 for dot in dots:
     glyph = font[dot]
     for contour in glyph.contours:
@@ -42,8 +37,8 @@ for dot in dots:
             glyph.removeContour(contour)
 
 ## Adjust new characters
-anusvara = font['u0B82']
-virama = font['u0BCD']
+anusvara = font['anusvara']
+virama = font['virama']
 anusvara.leftMargin = virama.leftMargin
 anusvara.rightMargin = virama.rightMargin
 

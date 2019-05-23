@@ -104,6 +104,11 @@ for f in faces:
                 ),
             source = fontbase + f + snf + '.ufo',
             # opentype = fea(fontbase + 'master.fea', no_make = True),
+            opentype=fea(generated + f + snf + '.fea',
+                master=fontbase + 'master.feax',
+                make_params='',
+                params='',
+                ),
             graphite = gdl(generated + f + snf + '.gdl',
                 master = fontbase + 'master.gdl',
                 make_params = '-l last -p 1',
@@ -113,7 +118,7 @@ for f in faces:
             ap = generated + f + snf + '.xml',
             version = VERSION,
             woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
-            script = 'taml',
+            script = 'taml', # tml2
             package = p,
             fret = fret(params = '-r -oi')
         )
@@ -122,7 +127,8 @@ for f in faces:
             langname = langinfo[langcode]
             langfontfilename = tag + f + langname.replace(' ', '') + snf
             font(target = process(langfontfilename + '.ttf',
-                    cmd('${PSFDEFLANG} -L ' + langcode + ' ${DEP} ${TGT}'),
+                    cmd('ttfdeflang -d ' + langcode + ' ${DEP} ${TGT}'),
+                    # cmd('${PSFDEFLANG} -L ' + langcode + ' ${DEP} ${TGT}'),
                     name(tag + ' ' + f + ' ' + langname, lang='en-US', subfamily=(sn))
                     ),
                 source = fontfilename + '.ttf',

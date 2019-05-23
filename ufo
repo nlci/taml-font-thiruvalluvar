@@ -8,8 +8,6 @@ export nlci=$HOME/script/tools
 export src=source
 # source ${nlci}/prepare.bash
 
-# source ${nlci}/addchars.bash
-
 # pushd ${src}
 # for sfd in *-???*.sfd
 # do
@@ -23,9 +21,17 @@ export src=source
 
 source ${nlci}/metadata.bash
 
+pushd ${src}
+for sfd in *-???*.sfd
+do
+    mv -v ${sfd}.BAK-C ${sfd}
+done
+popd
+
 for ufo in ${src}/*.ufo
 do
     ./tools/anchors.py $ufo
 done
 
+# rm -f ${src}/*-???*.sfd*
 echo "done producing UFO sources"
