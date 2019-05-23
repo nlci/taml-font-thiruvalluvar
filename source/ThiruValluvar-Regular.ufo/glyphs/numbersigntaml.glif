@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersigntaml" format="2">
+  <advance width="1249"/>
+  <unicode hex="0BFA"/>
+  <outline>
+    <component base="na"/>
+    <component base="vedictonethreedotsbelow" xOffset="1229"/>
+  </outline>
+</glyph>

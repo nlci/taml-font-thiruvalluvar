@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SupRtParen" format="2">
+  <advance width="380"/>
+  <unicode hex="207E"/>
+  <outline>
+    <contour>
+      <point x="364" y="885" type="curve"/>
+      <point x="401" y="1115"/>
+      <point x="332" y="1341"/>
+      <point x="174" y="1413" type="curve"/>
+      <point x="151" y="1388" type="line"/>
+      <point x="248" y="1296"/>
+      <point x="279" y="1079"/>
+      <point x="245" y="870" type="curve"/>
+      <point x="207" y="639"/>
+      <point x="103" y="470"/>
+      <point x="-10" y="401" type="curve"/>
+      <point x="4" y="377" type="line"/>
+      <point x="180" y="448"/>
+      <point x="325" y="648"/>
+    </contour>
+  </outline>
+</glyph>

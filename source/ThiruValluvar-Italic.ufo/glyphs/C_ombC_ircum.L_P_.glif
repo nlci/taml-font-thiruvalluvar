@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombCircum.LP" format="2">
+  <outline>
+    <contour>
+      <point x="-55" y="966" type="curve"/>
+      <point x="-230" y="1241" type="line"/>
+      <point x="-326" y="1241" type="line"/>
+      <point x="-580" y="966" type="line"/>
+      <point x="-569" y="941"/>
+      <point x="-555" y="928"/>
+      <point x="-544" y="921" type="curve"/>
+      <point x="-299" y="1094" type="line"/>
+      <point x="-102" y="921" type="line"/>
+      <point x="-83" y="930"/>
+      <point x="-71" y="941"/>
+    </contour>
+  </outline>
+</glyph>

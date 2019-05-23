@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tta" format="2">
+  <advance width="720"/>
+  <unicode hex="0B9F"/>
+  <anchor x="442" y="0" name="N"/>
+  <anchor x="442" y="456" name="V"/>
+  <outline>
+    <contour>
+      <point x="620" y="0" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="96" y="450" type="line"/>
+      <point x="166" y="450" type="line"/>
+      <point x="77" y="35" type="line"/>
+      <point x="627" y="35" type="line"/>
+    </contour>
+  </outline>
+</glyph>

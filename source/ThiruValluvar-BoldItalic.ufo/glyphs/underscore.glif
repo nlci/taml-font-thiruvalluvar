@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscore" format="2">
+  <advance width="669"/>
+  <unicode hex="005F"/>
+  <outline>
+    <contour>
+      <point x="710" y="-149" type="curve"/>
+      <point x="684" y="-117" type="line"/>
+      <point x="14" y="-117" type="line"/>
+      <point x="0" y="-142"/>
+      <point x="-33" y="-200"/>
+      <point x="-40" y="-224" type="curve"/>
+      <point x="-17" y="-257" type="line"/>
+      <point x="657" y="-257" type="line"/>
+      <point x="668" y="-234"/>
+      <point x="702" y="-174"/>
+    </contour>
+  </outline>
+</glyph>

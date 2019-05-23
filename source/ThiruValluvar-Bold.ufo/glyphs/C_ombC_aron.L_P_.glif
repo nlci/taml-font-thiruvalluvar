@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombCaron.LP" format="2">
+  <outline>
+    <contour>
+      <point x="-424" y="955" type="line"/>
+      <point x="-169" y="1247" type="line"/>
+      <point x="-186" y="1269"/>
+      <point x="-216" y="1305"/>
+      <point x="-236" y="1314" type="curve"/>
+      <point x="-489" y="1186" type="line"/>
+      <point x="-745" y="1314" type="line"/>
+      <point x="-765" y="1305"/>
+      <point x="-787" y="1269"/>
+      <point x="-801" y="1247" type="curve"/>
+      <point x="-557" y="955" type="line"/>
+    </contour>
+  </outline>
+</glyph>

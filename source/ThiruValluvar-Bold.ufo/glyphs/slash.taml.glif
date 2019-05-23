@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash.taml" format="2">
+  <advance width="563"/>
+  <outline>
+    <contour>
+      <point x="568" y="1258" type="line"/>
+      <point x="68" y="-193" type="line"/>
+      <point x="-45" y="-193" type="line"/>
+      <point x="457" y="1258" type="line"/>
+    </contour>
+  </outline>
+</glyph>

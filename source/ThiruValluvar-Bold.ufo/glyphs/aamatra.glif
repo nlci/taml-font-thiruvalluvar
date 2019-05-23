@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aamatra" format="2">
+  <advance width="873"/>
+  <unicode hex="0BBE"/>
+  <anchor x="336" y="0" name="N"/>
+  <outline>
+    <contour>
+      <point x="672" y="828" type="line"/>
+      <point x="473" y="828" type="line"/>
+      <point x="473" y="0" type="line"/>
+      <point x="299" y="0" type="line"/>
+      <point x="299" y="828" type="line"/>
+      <point x="94" y="828" type="line"/>
+      <point x="94" y="0" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="0" y="922" type="line"/>
+      <point x="672" y="922" type="line"/>
+    </contour>
+  </outline>
+</glyph>

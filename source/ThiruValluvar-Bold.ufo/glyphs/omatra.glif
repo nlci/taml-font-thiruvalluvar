@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omatra" format="2">
+  <advance width="3405"/>
+  <unicode hex="0BCA"/>
+  <outline>
+    <component base="ematra"/>
+    <component base="dottedcircle" xOffset="1481"/>
+    <component base="aamatra" xOffset="2532"/>
+  </outline>
+</glyph>

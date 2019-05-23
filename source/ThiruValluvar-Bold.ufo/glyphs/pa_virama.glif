@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pa_virama" format="2">
+  <advance width="1217"/>
+  <anchor x="584" y="0" name="N"/>
+  <outline>
+    <contour>
+      <point x="713" y="1204" type="curve" smooth="yes"/>
+      <point x="713" y="1170"/>
+      <point x="700" y="1140"/>
+      <point x="674" y="1114" type="curve" smooth="yes"/>
+      <point x="649" y="1088"/>
+      <point x="619" y="1075"/>
+      <point x="584" y="1075" type="curve" smooth="yes"/>
+      <point x="549" y="1075"/>
+      <point x="519" y="1088"/>
+      <point x="494" y="1114" type="curve" smooth="yes"/>
+      <point x="468" y="1139"/>
+      <point x="455" y="1169"/>
+      <point x="455" y="1204" type="curve" smooth="yes"/>
+      <point x="455" y="1239"/>
+      <point x="468" y="1270"/>
+      <point x="493" y="1295" type="curve" smooth="yes"/>
+      <point x="518" y="1320"/>
+      <point x="549" y="1333"/>
+      <point x="584" y="1333" type="curve" smooth="yes"/>
+      <point x="619" y="1333"/>
+      <point x="650" y="1320"/>
+      <point x="675" y="1295" type="curve" smooth="yes"/>
+      <point x="700" y="1270"/>
+      <point x="713" y="1239"/>
+    </contour>
+    <contour>
+      <point x="1012" y="0" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="0" y="922" type="line"/>
+      <point x="174" y="922" type="line"/>
+      <point x="174" y="84" type="line"/>
+      <point x="838" y="84" type="line"/>
+      <point x="838" y="922" type="line"/>
+      <point x="1012" y="922" type="line"/>
+    </contour>
+  </outline>
+</glyph>

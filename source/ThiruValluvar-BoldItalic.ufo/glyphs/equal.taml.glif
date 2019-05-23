@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal.taml" format="2">
+  <advance width="1186"/>
+  <outline>
+    <contour>
+      <point x="1151" y="606" type="line"/>
+      <point x="293" y="606" type="line"/>
+      <point x="320" y="735" type="line"/>
+      <point x="1178" y="735" type="line"/>
+    </contour>
+    <contour>
+      <point x="1086" y="301" type="line"/>
+      <point x="228" y="301" type="line"/>
+      <point x="255" y="430" type="line"/>
+      <point x="1113" y="430" type="line"/>
+    </contour>
+  </outline>
+</glyph>

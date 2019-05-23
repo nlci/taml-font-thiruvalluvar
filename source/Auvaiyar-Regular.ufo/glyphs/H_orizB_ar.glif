@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="HorizBar" format="2">
+  <advance width="874"/>
+  <unicode hex="2015"/>
+  <outline>
+    <contour>
+      <point x="876" y="185" type="line"/>
+      <point x="876" y="247" type="line"/>
+      <point x="-2" y="247" type="line"/>
+      <point x="-2" y="185" type="line"/>
+    </contour>
+  </outline>
+</glyph>

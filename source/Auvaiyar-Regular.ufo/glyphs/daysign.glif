@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="daysign" format="2">
+  <advance width="843"/>
+  <unicode hex="0BF3"/>
+  <outline>
+    <component base="va"/>
+    <component base="vedictonethreedotsbelow" xOffset="833"/>
+  </outline>
+</glyph>

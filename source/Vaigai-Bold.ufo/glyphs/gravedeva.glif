@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravedeva" format="2">
+  <advance width="10"/>
+  <unicode hex="0953"/>
+  <outline>
+    <contour>
+      <point x="-9" y="694" type="line"/>
+      <point x="-90" y="694" type="line"/>
+      <point x="-249" y="836" type="line"/>
+      <point x="-168" y="836" type="line"/>
+    </contour>
+  </outline>
+</glyph>

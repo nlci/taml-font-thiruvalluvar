@@ -1,0 +1,82 @@
+
+
+@GDEF_Simple = [\.null \nonmarkingreturn \space.taml \exclam.taml 
+	\quoteleft.taml \rs \percent.taml \ampersand.taml \quoteright.taml 
+	\parenleft.taml \parenright.taml \asterisk.taml \plus.taml \comma.taml 
+	\hyphen.taml \period.taml \divisionslash \slash.taml \zero.taml \one.taml 
+	\two.taml \three.taml \four.taml \five.taml \six.taml \seven.taml \eight.taml 
+	\nine.taml \colon.taml \semicolon.taml \less.taml \equal.taml \greater.taml 
+	\question.taml \quotedblleft.taml \quotedblright.taml \udatta \anudatta 
+	\anusvara \visarga \avowel \aavowel \ivowel \iivowel \uvowel \uuvowel \evowel 
+	\eevowel \aivowel \ovowel \oovowel \auvowel \ka \ka_imatra \ka_iimatra 
+	\ka_umatra \ka_uumatra \ka_uumatra.old \ka_virama \nga \nga_imatra 
+	\nga_iimatra \nga_umatra \nga_uumatra \nga_virama \nga_virama.alt \ka_ssa 
+	\ka_ssa_imatra \ka_ssa_iimatra \ka_ssa_virama \ca \ca_imatra \ca_iimatra 
+	\ca_umatra \ca_uumatra \ca_virama \ja \ja_imatra \ja_iimatra \ja_virama \nya 
+	\nya_imatra \nya_iimatra \nya_umatra \nya_uumatra \nya_virama \tta \tta_imatra 
+	\tta_iimatra \tta_umatra \tta_uumatra \tta_virama \nna \nna_aamatra 
+	\nna_aamatra.old \nna_imatra \nna_iimatra \nna_umatra \nna_uumatra 
+	\nna_aimatra \nna_aimatra.old \nna_virama \ta \ta_imatra \ta_iimatra 
+	\ta_umatra \ta_uumatra \ta_virama \na \na_imatra \na_iimatra \na_umatra 
+	\na_uumatra \na_virama \nnna \nnna_aamatra \nnna_aamatra.old \nnna_imatra 
+	\nnna_iimatra \nnna_umatra \nnna_uumatra \nnna_aimatra \nnna_aimatra.old 
+	\nnna_virama \pa \pa_imatra \pa_iimatra \pa_umatra \pa_uumatra \pa_virama \ma 
+	\ma_imatra \ma_iimatra \ma_umatra \ma_uumatra \ma_virama \ya \ya_imatra 
+	\ya_iimatra \ya_umatra \ya_uumatra \ya_virama \ra \ra_imatra \ra_iimatra 
+	\ra_umatra \ra_uumatra \ra_virama \rra \rra_aamatra \rra_aamatra.old 
+	\rra_imatra \rra_iimatra \rra_umatra \rra_uumatra \rra_virama \la \la.old 
+	\la_imatra \la_iimatra \la_umatra \la_uumatra \la_aimatra \la_aimatra.old 
+	\la_virama \lla \lla_imatra \lla_iimatra \lla_umatra \lla_uumatra \lla_aimatra 
+	\lla_aimatra.old \lla_virama \llla \llla_imatra \llla_iimatra \llla_umatra 
+	\llla_uumatra \llla_virama \va \va_imatra \va_iimatra \va_umatra \va_uumatra 
+	\va_virama \sha \ssa \ssa_imatra \ssa_iimatra \ssa_aimatra \ssa_virama \sa 
+	\sa_imatra \sa_iimatra \sa_virama \sa_virama_ra_iimatra \ha \ha_imatra 
+	\ha_iimatra \ha_virama \aamatra \imatra \iimatra \umatra \uumatra \ematra 
+	\eematra \aimatra \omatra \oomatra \aumatra \om \aulengthmark \zerotaml \onetaml 
+	\twotaml \threetaml \fourtaml \fivetaml \sixtaml \seventaml \eighttaml 
+	\ninetaml \numberten \numberonehundred \numberonethousand \daysign \monthsign 
+	\yearsign \debitsign \creditsign \asabovesign \rupeesign \numbersigntaml 
+	\dottedcircle \vedictonedoublesvarita \vedictonekathakaanudatta 
+	\vedictonedotbelow \vedictonetwodotsbelow \vedictonethreedotsbelow 
+	\vedicsignjihvamuliya \visarga.alt \inr \tildeoverlaycomb.Lrg \u03A9 
+	\dotlessi \u01A9 \ring \tilde \u02F9 \u02FA \u02FB \u02FC \gravecomb \acutecomb 
+	\u0302 \tildecomb \u0304 \u0306 \u0308 \u030A \u030C \u0327 \u0328 \u0338 \u0394 
+	\Pi \space \exclam \quotedbl \numbersign \dollar \percent \ampersand 
+	\quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen \period 
+	\slash \zero \one \two \three \four \five \six \seven \eight \nine \colon \semicolon 
+	\less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T 
+	\U \V \W \X \Y \Z \bracketleft \backslash \bracketright \asciicircum \underscore 
+	\grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \bar 
+	\braceright \asciitilde \nbsp \exclamdown \cent \sterling \currency \yen 
+	\brokenbar \section \dieresis \copyright \ordfeminine \guillemotleft 
+	\logicalnot \u00AD \registered \macron \degree \plusminus \twosuperior 
+	\threesuperior \acute \mu \paragraph \periodcentered \cedilla \onesuperior 
+	\ordmasculine \guillemotright \onequarter \onehalf \threequarters 
+	\questiondown \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE 
+	\Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex 
+	\Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis 
+	\multiply \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \Thorn 
+	\germandbls \agrave \aacute \acircumflex \atilde \adieresis \aring \ae \ccedilla 
+	\egrave \eacute \ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis 
+	\eth \ntilde \ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash 
+	\ugrave \uacute \ucircumflex \udieresis \yacute \thorn \ydieresis \OE \oe \Scaron 
+	\scaron \Ydieresis \Zcaron \zcaron \florin \u0294 \circumflex \caron \u02D0 
+	\breve \dotaccent \ogonek \hungarumlaut \cgj \pi \u2000 \u2001 \u2002 \u2003 
+	\u2004 \u2005 \u2006 \u2007 \u2008 \u2009 \u200A \zwsp \zwnj \zwj \u200E \u200F 
+	\u2010 \u2011 \figuredash \endash \emdash \u2015 \quoteleft \quoteright 
+	\quotesinglbase \quotedblleft \quotedblright \quotedblbase \dagger \daggerdbl 
+	\bullet \ellipsis \u2027 \u2028 \u2029 \u202A \u202B \u202C \u202D \u202E \u202F 
+	\perthousand \guilsinglleft \guilsinglright \fraction \wj \Euro \trademark 
+	\Omega \partialdiff \Delta \product \summation \minus \u2219 \radical \infinity 
+	\integral \approxequal \notequal \lessequal \greaterequal \lozenge \fi \fl 
+	\uFE00 \uFE01 \uFE02 \uFE03 \uFE04 \uFE05 \uFE06 \uFE07 \uFE08 \uFE09 \uFE0A \uFE0B 
+	\uFE0C \uFE0D \uFE0E \uFE0F \zwnbsp \uFFFC \uFFFD \u2308 \u2309 \u230A \u230B 
+	\u231C \u231D \u231E \u231F \uF130 \uF131 \u02BC \u02C0 \uA78C \u0242 \u2423 \u2070 
+	\u207B \u207D \u207E \u2074 \u2075 \u2076 \u2077 \u2078 \u2079 ];
+@GDEF_Mark = [\virama \nukta.double \nukta.ring \nukta.ringdbl \nukta ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+
+} GDEF;
+

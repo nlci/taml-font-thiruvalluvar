@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.taml" format="2">
+  <advance width="711"/>
+  <outline>
+    <contour>
+      <point x="643" y="921" type="line"/>
+      <point x="641" y="887" type="line"/>
+      <point x="348" y="10" type="line"/>
+      <point x="228" y="10" type="line"/>
+      <point x="500" y="794" type="line"/>
+      <point x="223" y="794" type="line" smooth="yes"/>
+      <point x="186" y="794"/>
+      <point x="159" y="787"/>
+      <point x="142" y="773" type="curve" smooth="yes"/>
+      <point x="125" y="759"/>
+      <point x="101" y="730"/>
+      <point x="72" y="686" type="curve"/>
+      <point x="23" y="706" type="line"/>
+      <point x="113" y="921" type="line"/>
+    </contour>
+  </outline>
+</glyph>

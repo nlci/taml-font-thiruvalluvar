@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sha" format="2">
+  <advance width="640"/>
+  <unicode hex="0BB6"/>
+  <outline>
+    <component base="ya"/>
+    <component base="vedictonethreedotsbelow" xOffset="630"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="la_aimatra.old" format="2">
+  <advance width="1343"/>
+  <anchor x="484" y="0" name="N"/>
+  <anchor x="484" y="455" name="V"/>
+  <outline>
+    <component base="la.old"/>
+    <component base="la" xOffset="551"/>
+  </outline>
+</glyph>

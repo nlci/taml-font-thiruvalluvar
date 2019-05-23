@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less.taml" format="2">
+  <advance width="540"/>
+  <outline>
+    <contour>
+      <point x="443" y="-12" type="line"/>
+      <point x="20" y="172" type="line"/>
+      <point x="20" y="232" type="line"/>
+      <point x="443" y="414" type="line"/>
+      <point x="443" y="339" type="line"/>
+      <point x="123" y="201" type="line"/>
+      <point x="443" y="63" type="line"/>
+    </contour>
+  </outline>
+</glyph>

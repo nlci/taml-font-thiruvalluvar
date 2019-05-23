@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nna_aimatra" format="2">
+  <advance width="2147"/>
+  <anchor x="560" y="23" name="N"/>
+  <anchor x="560" y="455" name="V"/>
+  <outline>
+    <component base="aimatra"/>
+    <component base="nna" xOffset="952"/>
+  </outline>
+</glyph>

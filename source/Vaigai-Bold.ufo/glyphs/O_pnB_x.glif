@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="OpnBx" format="2">
+  <advance width="250"/>
+  <unicode hex="2423"/>
+  <outline>
+    <contour>
+      <point x="193" y="0" type="curve"/>
+      <point x="193" y="-63" type="line"/>
+      <point x="57" y="-63" type="line"/>
+      <point x="57" y="12" type="line"/>
+      <point x="41" y="26" type="line"/>
+      <point x="29" y="22"/>
+      <point x="7" y="8"/>
+      <point x="0" y="0" type="curve"/>
+      <point x="0" y="-108" type="line"/>
+      <point x="11" y="-120" type="line"/>
+      <point x="221" y="-120" type="line"/>
+      <point x="232" y="-114"/>
+      <point x="243" y="-104"/>
+      <point x="250" y="-96" type="curve"/>
+      <point x="250" y="12" type="line"/>
+      <point x="235" y="26" type="line"/>
+      <point x="224" y="20"/>
+      <point x="201" y="7"/>
+    </contour>
+  </outline>
+</glyph>

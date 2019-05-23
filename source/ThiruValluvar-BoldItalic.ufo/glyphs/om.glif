@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="om" format="2">
+  <advance width="1621"/>
+  <unicode hex="0BD0"/>
+  <outline>
+    <component base="ovowel"/>
+    <component base="ma" xScale="0.199951" yScale="0.199951" xOffset="1366"/>
+    <component base="virama" xScale="0.399963" yScale="0.399963" xOffset="1613"/>
+  </outline>
+</glyph>

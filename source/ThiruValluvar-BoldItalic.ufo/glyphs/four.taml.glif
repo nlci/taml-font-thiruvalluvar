@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.taml" format="2">
+  <advance width="711"/>
+  <outline>
+    <contour>
+      <point x="721" y="219" type="line"/>
+      <point x="582" y="219" type="line"/>
+      <point x="535" y="0" type="line"/>
+      <point x="400" y="0" type="line"/>
+      <point x="447" y="219" type="line"/>
+      <point x="64" y="219" type="line"/>
+      <point x="86" y="326" type="line"/>
+      <point x="647" y="922" type="line"/>
+      <point x="731" y="922" type="line"/>
+      <point x="606" y="336" type="line"/>
+      <point x="745" y="336" type="line"/>
+    </contour>
+    <contour>
+      <point x="469" y="336" type="line"/>
+      <point x="553" y="729" type="line"/>
+      <point x="186" y="336" type="line"/>
+    </contour>
+  </outline>
+</glyph>

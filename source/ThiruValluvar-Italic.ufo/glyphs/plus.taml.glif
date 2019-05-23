@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plus.taml" format="2">
+  <advance width="860"/>
+  <outline>
+    <contour>
+      <point x="474" y="531" type="line"/>
+      <point x="506" y="684" type="line"/>
+      <point x="645" y="684" type="line"/>
+      <point x="613" y="531" type="line"/>
+      <point x="767" y="531" type="line"/>
+      <point x="737" y="391" type="line"/>
+      <point x="583" y="391" type="line"/>
+      <point x="551" y="238" type="line"/>
+      <point x="412" y="238" type="line"/>
+      <point x="444" y="391" type="line"/>
+      <point x="290" y="391" type="line"/>
+      <point x="320" y="531" type="line"/>
+    </contour>
+  </outline>
+</glyph>

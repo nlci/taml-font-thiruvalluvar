@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="HorizBar" format="2">
+  <advance width="816"/>
+  <unicode hex="2015"/>
+  <outline>
+    <contour>
+      <point x="789" y="240" type="curve"/>
+      <point x="780" y="252" type="line"/>
+      <point x="39" y="252" type="line"/>
+      <point x="32" y="240"/>
+      <point x="23" y="222"/>
+      <point x="18" y="209" type="curve"/>
+      <point x="28" y="197" type="line"/>
+      <point x="769" y="197" type="line"/>
+      <point x="775" y="207"/>
+      <point x="785" y="227"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nuktanew" format="2">
+  <unicode hex="1133B"/>
+  <anchor x="-315" y="-174" name="_N"/>
+  <outline>
+    <contour>
+      <point x="-372" y="-286" type="curve" smooth="yes"/>
+      <point x="-372" y="-253"/>
+      <point x="-346" y="-229"/>
+      <point x="-316" y="-229" type="curve" smooth="yes"/>
+      <point x="-284" y="-229"/>
+      <point x="-259" y="-254"/>
+      <point x="-259" y="-286" type="curve" smooth="yes"/>
+      <point x="-259" y="-317"/>
+      <point x="-285" y="-342"/>
+      <point x="-316" y="-342" type="curve" smooth="yes"/>
+      <point x="-346" y="-342"/>
+      <point x="-372" y="-317"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="auvowel" format="2">
+  <advance width="1484"/>
+  <unicode hex="0B94"/>
+  <outline>
+    <component base="ovowel"/>
+    <component base="aulengthmark" xOffset="664"/>
+  </outline>
+</glyph>

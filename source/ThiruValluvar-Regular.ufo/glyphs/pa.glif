@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pa" format="2">
+  <advance width="1219"/>
+  <unicode hex="0BAA"/>
+  <anchor x="518" y="0" name="N"/>
+  <anchor x="518" y="932" name="V"/>
+  <outline>
+    <contour>
+      <point x="1014" y="0" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="0" y="922" type="line"/>
+      <point x="154" y="922" type="line"/>
+      <point x="154" y="62" type="line"/>
+      <point x="860" y="62" type="line"/>
+      <point x="860" y="922" type="line"/>
+      <point x="1014" y="922" type="line"/>
+    </contour>
+  </outline>
+</glyph>

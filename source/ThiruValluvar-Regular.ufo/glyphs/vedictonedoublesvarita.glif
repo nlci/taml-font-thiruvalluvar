@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vedictonedoublesvarita" format="2">
+  <advance width="20"/>
+  <unicode hex="1CDA"/>
+  <outline>
+    <contour>
+      <point x="-748" y="1581" type="line"/>
+      <point x="-850" y="1581" type="line"/>
+      <point x="-850" y="1942" type="line"/>
+      <point x="-748" y="1942" type="line"/>
+    </contour>
+    <contour>
+      <point x="-522" y="1581" type="line"/>
+      <point x="-625" y="1581" type="line"/>
+      <point x="-625" y="1942" type="line"/>
+      <point x="-522" y="1942" type="line"/>
+    </contour>
+  </outline>
+</glyph>
