@@ -1,3 +1,6 @@
+// Glyph definitions and rules for codepage 1252 composites
+#include "cp1252.gdl"
+
 #define LG_USENG 1033
 
 table(feature)
@@ -113,19 +116,16 @@ endtable;
 #define CLUS2 [allCons g_nuktanew? g_nukta? g_virama g_zwnj?]?
 #define CLUSINI CLUS1 CLUS2 CLUS1 CLUS2
 
-/* Substitution rules start here */
-/* very good */
 table(substitution)
 
 pass(1)
-    // The following is a debugging tool so you can find out whether the app is rendering with Graphite or not.
-    // The string "RenderingUnknown" will be rendered as "RenderingGraphite":
-
+    // For debugging the string "RenderingUnknown" will be rendered as "RenderingGraphite"
+    // if the app is using Graphite to render the text.
     codepoint("U") codepoint("n") codepoint("k") codepoint("n") codepoint("o") codepoint("w") codepoint("n") _ >
     codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codepoint("i") codepoint("t") codepoint("e"):16  /
         codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
 
-// Basic ligatures before reordering
+    // Basic ligatures before reordering
     cligno_ssa g_virama g_ssa > cligssa:(1 3 4) _ _ / ^ _ g_nuktanew? _ _;
     cligno_ssa g_virama g_ssa > cligssa:(1 3 4) _ _ / ^ _ g_nukta? _ _;
     g_sa g_virama g_ra g_iimatra > g_sa_virama_ra_iimatra:(1 v c m) _ _ _ / _ g_nuktanew? _=v _=c g_nuktanew? _=m;
@@ -143,7 +143,7 @@ endpass;
      _ _ cReOrder g_nukta > @a @b _ _ / _ _ x g_nukta? g_virama? _=a _=b;
 
 pass(2)
-// Reordered (including split) vowel matras
+    // Reordered (including split) vowel matras
     reorderb(g_ka_ssa)
     reorderc(g_ka_ssa)
     // reorderb(g_ka g_virama g_sha) // might not be needed now that g_sha is in the fonts, and in cCons
@@ -155,7 +155,7 @@ pass(2)
 endpass;
 
 pass(3)
-// Reordered vowel ligatures
+    // Reordered vowel ligatures
     g_nuktanew g_nuktanew > g_nuktanew:(1 2) _ / ^ _ _;
     g_nukta g_nukta > g_nukta:(1 2) _ / ^ _ _;
     g_aimatra cligno_aimatra > _ cligaimatra:(1 2);
@@ -175,8 +175,8 @@ pass(3)
     cligno_uumatra g_uumatra > cliguumatra:(1 3) _ / _ g_nuktanew? _;
     cligno_uumatra g_uumatra > cliguumatra:(1 3) _ / _ g_nukta? _;
 
-//  cligno_virama g_virama > cligvirama:(1 3) _ / _ g_nuktanew? _;
-//  cligno_virama g_virama > cligvirama:(1 3) _ / _ g_nukta? _;
+    // cligno_virama g_virama > cligvirama:(1 3) _ / _ g_nuktanew? _;
+    // cligno_virama g_virama > cligvirama:(1 3) _ / _ g_nukta? _;
 endpass;
 
 pass(4)

@@ -6,8 +6,8 @@
 # command line options
 opts = preprocess_args(
     {'opt' : '-l'}, # build fonts from legacy for inclusion into final fonts
-    {'opt' : '-p'}, # do not run psfix on the final fonts
-    {'opt' : '-s'}  # only build a single font
+    {'opt' : '-s'},  # only build a single font
+    {'opt' : '--alllangs'} # test all language variants
     )
 
 import os2
@@ -126,7 +126,7 @@ for f in faces:
         for langcode in langinfo.keys():
             langname = langinfo[langcode]
             langfontfilename = tag + f + langname.replace(' ', '') + snf
-            font(target = process(langfontfilename + '.ttf',
+            n = font(target = process(langfontfilename + '.ttf',
                     cmd('ttfdeflang -d ' + langcode + ' ${DEP} ${TGT}'),
                     # cmd('${PSFDEFLANG} -L ' + langcode + ' ${DEP} ${TGT}'),
                     name(tag + ' ' + f + ' ' + langname, lang='en-US', subfamily=(sn))
@@ -138,6 +138,8 @@ for f in faces:
                 package = p,
                 fret = fret(params = '-r -oi')
             )
+            if '--alllangs' not in opts:
+                n.no_test = True
 
 def configure(ctx):
     ctx.find_program('psfchangettfglyphnames')
