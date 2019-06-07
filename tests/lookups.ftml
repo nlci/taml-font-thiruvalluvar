@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/FTMLcreateList.xsl"?>
+<ftml version="1.0">
+  <head>
+    <columns comment="30%" label="15%" string="50%" style="5%"/>
+    <fontsrc>url(../results/TAMLThiruValluvar-Regular.ttf)</fontsrc>
+    <title>Lookups</title>
+  </head>
+  <testgroup label="Rendering check">
+    <test label="Check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="locl2">
+    <test label="simple nukta">
+      <string>க𑌻 க𑌼</string>
+    </test>
+  </testgroup>
+</ftml>

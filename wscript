@@ -118,7 +118,7 @@ for f in faces:
             ap = generated + f + snf + '.xml',
             version = VERSION,
             woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
-            script = 'taml', # tml2
+            script = 'tml2', # taml
             package = p,
             fret = fret(params = '-r -oi')
         )
@@ -134,7 +134,7 @@ for f in faces:
                 source = fontfilename + '.ttf',
                 opentype = internal(),
                 graphite = internal(),
-                script = 'taml',
+                script = 'tml2',
                 package = p,
                 fret = fret(params = '-r -oi')
             )

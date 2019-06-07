@@ -1,11 +1,50 @@
 languagesystem DFLT dflt;
-languagesystem taml dflt;
-languagesystem taml TAM ;
-languagesystem taml TAO ;
+languagesystem tml2 dflt;
+languagesystem tml2 TAM ;
+languagesystem tml2 XUB ;
+languagesystem tml2 XUJ ;
+languagesystem tml2 IRU ;
+languagesystem tml2 CTT ;
 
+# For debugging the string "RenderingUnknown" will be rendered as "RenderingOpenType"
+# if the app is using OpenType to render the text.
+lookup FontCheck_Unknow {
+  lookupflag IgnoreMarks;
+    sub [U n k o w ] by [O p e T y];
+} FontCheck_Unknow;
 
-# GSUB
+lookup FontCheck_n {
+  lookupflag IgnoreMarks;
+    sub n by p e;
+} FontCheck_n;
 
+lookup FontCheck {
+  lookupflag IgnoreMarks;
+    sub [R] e n d e r i n g
+      U' lookup FontCheck_Unknow
+      n' lookup FontCheck_Unknow
+      k' lookup FontCheck_Unknow
+      n'
+      o' lookup FontCheck_Unknow
+      w' lookup FontCheck_Unknow
+      n' lookup FontCheck_n;
+} FontCheck;
+
+lookup NuktaXUJ {
+  lookupflag 0;
+    sub nukta by nukta.dotdbl;
+} NuktaXUJ;
+
+lookup NuktaIRU {
+  lookupflag 0;
+    sub nukta by nukta.ringdbl;
+} NuktaIRU;
+
+lookup NuktaCTT {
+  lookupflag 0;
+    sub nukta by nuktanew;
+    sub nuktanew by nukta;
+} NuktaCTT;
 
 lookup akhnAkhandinTamillookup9 {
   lookupflag 0;
@@ -175,9 +214,25 @@ lookup pstspostbasesubstitution {
     sub \ha \virama  by \ha_virama;
 } pstspostbasesubstitution;
 
+feature ccmp {
+    lookup FontCheck;
+} ccmp;
+
+feature locl {
+    script tml2;
+        language XUJ exclude_dflt;
+            lookup NuktaXUJ;
+    script tml2;
+        language IRU exclude_dflt;
+            lookup NuktaIRU;
+    script tml2;
+        language CTT exclude_dflt;
+            lookup NuktaCTT;
+} locl;
+
 feature akhn {
 
- script taml;
+ script tml2;
      language dflt ;
       lookup akhnAkhandinTamillookup9;
       lookup akhnligs;
@@ -191,7 +246,7 @@ feature akhn {
 
 feature psts {
 
- script taml;
+ script tml2;
      language dflt ;
       lookup sub_ligature_pststaml_0;
       lookup sub_ligature_pststaml_2;
@@ -240,7 +295,7 @@ feature abvm {
      language dflt ;
       lookup abvmcursive;
 
- script taml;
+ script tml2;
      language dflt ;
       lookup abvmcursive;
       # lookup abvmAboveBaseMarkinTamillookup1;
