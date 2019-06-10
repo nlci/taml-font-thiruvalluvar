@@ -289,6 +289,11 @@ lookup abvmcursive {
     pos cursive \uumatra <anchor -300 1250> <anchor NULL>;
 } abvmcursive;
 
+lookup Nuktas {
+  lookupflag 0;
+    pos base @N mark @_N;
+} Nuktas;
+
 feature abvm {
 
  script DFLT;
@@ -306,6 +311,11 @@ feature abvm {
       lookup abvmcursive;
       # lookup abvmAboveBaseMarkinTamillookup1;
 } abvm;
+
+feature blwm {
+    lookup Nuktas;
+} blwm;
+
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\ka_umatra \ka_uumatra.old \ka_virama \nga_imatra
