@@ -106,7 +106,7 @@ for f in faces:
             # opentype = fea(fontbase + 'master.fea', no_make = True),
             opentype=fea(generated + f + snf + '.fea',
                 master=fontbase + 'master.feax',
-                make_params='',
+                make_params='-L last',
                 params='',
                 ),
             graphite = gdl(generated + f + snf + '.gdl',

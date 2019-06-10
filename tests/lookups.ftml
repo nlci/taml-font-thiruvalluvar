@@ -11,9 +11,30 @@
       <string>RenderingUnknown</string>
     </test>
   </testgroup>
-  <testgroup label="locl2">
+  <testgroup label="locl2 and blwm">
     <test label="simple nukta">
       <string>க𑌻 க𑌼</string>
+    </test>
+    <test label="with akhn 1">
+      <string>\u0b95\u0bcd\u0bb7 NUKTAs</string>
+    </test>
+  </testgroup>
+  <testgroup label="akhn">
+    <test label="akhn 1">
+      <string>\u0b95\u0bcd\u0bb7</string>
+    </test>
+    <test label="akhn 2">
+      <string>\u0bb8\u0bcd\u0bb0\u0bc0</string>
+    </test>
+  </testgroup>
+  <testgroup label="rphf2">
+    <test label="init ra">
+      <string>\u0bb0\u0bcd\u0b95 \u0bb0\u0bcd\u0b95\u0bcd</string>
+    </test>
+  </testgroup>
+  <testgroup label="psts">
+    <test label="ta-i">
+      <string>\u0ba4\u0bbf</string>
     </test>
   </testgroup>
 </ftml>

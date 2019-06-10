@@ -84,7 +84,7 @@ endtable;
 
 table(glyph)
     cCons = (g_ka g_nga g_ca g_ja g_nya g_tta g_nna g_ta g_na g_nnna g_pa g_ma g_ya g_ra g_rra g_la g_lla g_llla g_va g_sha g_ssa g_sa g_ha)
-    cSplitMatras = (g_omatra g_oomatra g_aumatra)
+    cSplitMatras = (g_omatra g_oomatra g_aumatra) // might be unused
     cReOrder = (g_ematra g_eematra g_aimatra)
     allCons = (cCons cligssa)
     split_base = (g_omatra g_oomatra g_aumatra)
@@ -130,9 +130,9 @@ pass(1)
     cligno_ssa g_virama g_ssa > cligssa:(1 3 4) _ _ / ^ _ g_nukta? _ _;
     g_sa g_virama g_ra g_iimatra > g_sa_virama_ra_iimatra:(1 v c m) _ _ _ / _ g_nuktanew? _=v _=c g_nuktanew? _=m;
     g_sa g_virama g_ra g_iimatra > g_sa_virama_ra_iimatra:(1 v c m) _ _ _ / _ g_nukta? _=v _=c g_nukta? _=m;
-// Complain about cons halant vowel
-//    _ > g_dottedcircle / allCons g_nuktanew? g_virama _ cMatra;
-//    _ > g_dottedcircle / allCons g_nukta? g_virama _ cMatra;
+    // Complain about cons halant vowel
+    // _ > g_dottedcircle / allCons g_nuktanew? g_virama _ cMatra;
+    // _ > g_dottedcircle / allCons g_nukta? g_virama _ cMatra;
 endpass;
 
 #define reorderb(x) _ split_base > split1$a:a split2$a:a / _ x g_nuktanew? g_virama? _=a;\
