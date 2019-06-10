@@ -37,4 +37,12 @@
       <string>\u0ba4\u0bbf</string>
     </test>
   </testgroup>
+  <testgroup label="haln">
+    <test label="general">
+      <string>\u0baa\u0bcd</string>
+    </test>
+    <test label="final ra">
+      <string>\u0b95\u0bcd\u0bb0 \u0b95\u0bcd\u0bb0\u0bcd</string>
+    </test>
+  </testgroup>
 </ftml>

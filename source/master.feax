@@ -93,6 +93,11 @@ lookup uuMatras {
     sub @cligno_uumatra uumatra by @clig_uumatra;
 } uuMatras;
 
+lookup Viramas {
+  lookupflag 0;
+    sub @cligno_virama virama by @clig_virama;
+} Viramas;
+
 lookup pstspostbasesubstitutionold {
   lookupflag 0;
     sub \nna_aamatra by \nna_aamatra.old ;
@@ -102,34 +107,6 @@ lookup pstspostbasesubstitutionold {
     sub \la_aimatra by \la_aimatra.old ;
     sub \lla_aimatra by \lla_aimatra.old ;
 } pstspostbasesubstitutionold;
-
-lookup pstspostbasesubstitution {
-  lookupflag 0;
-    sub \ka \virama  by \ka_virama;
-    sub \nga \virama  by \nga_virama;
-    sub \ca \ssa \virama  by \ka_ssa_virama;
-    sub \ka_ssa \virama  by \ka_ssa_virama;
-    sub \ca \virama  by \ca_virama;
-    sub \ja \virama  by \ja_virama;
-    sub \nya \virama  by \nya_virama;
-    sub \tta \virama  by \tta_virama;
-    sub \nna \virama  by \nna_virama;
-    sub \ta \virama  by \ta_virama;
-    sub \na \virama  by \na_virama;
-    sub \nnna \virama  by \nnna_virama;
-    sub \pa \virama  by \pa_virama;
-    sub \ma \virama  by \ma_virama;
-    sub \ya \virama  by \ya_virama;
-    sub \ra \virama  by \ra_virama;
-    sub \rra \virama  by \rra_virama;
-    sub \la \virama  by \la_virama;
-    sub \lla \virama  by \lla_virama;
-    sub \llla \virama  by \llla_virama;
-    sub \va \virama  by \va_virama;
-    sub \ssa \virama  by \ssa_virama;
-    sub \sa \virama  by \sa_virama;
-    sub \ha \virama  by \ha_virama;
-} pstspostbasesubstitution;
 
 feature ccmp {
     lookup FontCheck;
@@ -160,6 +137,10 @@ feature psts {
     lookup uMatras;
     lookup uuMatras;
 } psts;
+
+feature haln {
+    lookup Viramas;
+} haln;
 
 # GPOS
 
