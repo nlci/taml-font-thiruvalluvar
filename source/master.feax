@@ -93,10 +93,10 @@ lookup uuMatras {
     sub @cligno_uumatra uumatra by @clig_uumatra;
 } uuMatras;
 
-lookup Viramas {
-  lookupflag 0;
-    sub @cligno_virama virama by @clig_virama;
-} Viramas;
+#lookup ViramaLigs {
+#  lookupflag 0;
+#    sub @cligno_virama virama by @clig_virama;
+#} ViramaLigs;
 
 lookup pstspostbasesubstitutionold {
   lookupflag 0;
@@ -138,45 +138,25 @@ feature psts {
     lookup uuMatras;
 } psts;
 
-feature haln {
-    lookup Viramas;
-} haln;
+#feature haln {
+#    lookup ViramLigs;
+#} haln;
 
 # GPOS
 
-
-lookup abvmcursive {
-  lookupflag 0;
-    pos cursive \ka_ssa <anchor NULL> <anchor 3222 1242 <device NULL> <device 150 1>>;
-    pos cursive \ja <anchor NULL> <anchor 1215 1201 <device NULL> <device 150 4>>;
-    pos cursive \ssa <anchor NULL> <anchor 2048 1201 <device NULL> <device 150 4>>;
-    pos cursive \sa <anchor NULL> <anchor 2212 1201 <device NULL> <device 150 6>>;
-    pos cursive \ha <anchor NULL> <anchor 2649 1229 <device NULL> <device 150 2>>;
-    pos cursive \umatra <anchor -300 1250> <anchor NULL>;
-    pos cursive \uumatra <anchor -300 1250> <anchor NULL>;
-} abvmcursive;
 
 lookup Nuktas {
   lookupflag 0;
     pos base @N mark @_N;
 } Nuktas;
 
+lookup ViramaMarks {
+  lookupflag 0;
+    pos base @V mark @_V;
+} ViramaMarks;
+
 feature abvm {
-
- script DFLT;
-     language dflt ;
-      lookup abvmcursive;
-
- script tml2;
-     language dflt ;
-      lookup abvmcursive;
-      # lookup abvmAboveBaseMarkinTamillookup1;
-     language TAM  exclude_dflt;
-      lookup abvmcursive;
-      # lookup abvmAboveBaseMarkinTamillookup1;
-     language TAO  exclude_dflt;
-      lookup abvmcursive;
-      # lookup abvmAboveBaseMarkinTamillookup1;
+  lookup ViramaMarks;
 } abvm;
 
 feature blwm {

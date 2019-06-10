@@ -38,11 +38,16 @@
     </test>
   </testgroup>
   <testgroup label="haln">
-    <test label="general">
+    <test label="used abvm instead">
       <string>\u0baa\u0bcd</string>
     </test>
     <test label="final ra">
       <string>\u0b95\u0bcd\u0bb0 \u0b95\u0bcd\u0bb0\u0bcd</string>
+    </test>
+  </testgroup>
+  <testgroup label="abvm">
+    <test label="pa-virama">
+      <string>\u0baa\u0bcd</string>
     </test>
   </testgroup>
 </ftml>
