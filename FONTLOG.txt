@@ -12,6 +12,8 @@ Pan Tamil font designed to support all the languages using the Tamil script.
 
 Known issues in the new sources
 -------------------------------
+Old style glyphs need to be enabled in a ss
+Reph stype RA needs to be enabled, maybe in a cv
 U+0BB6 need major changes.
 U+0BD0 needs to be slightly visually changed.
 U+0BF3 needs to have right sten removed.
@@ -27,6 +29,7 @@ ChangeLog
 (This should list both major and minor changes, most recent first.)
 
 Unreleased
+- Revise OpenType to match Graphite rendering
 - Position the pulli better on the ku ligature
 - Provide anusvara
 - Provide fewer language specific fonts

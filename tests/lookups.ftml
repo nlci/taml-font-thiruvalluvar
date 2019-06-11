@@ -36,8 +36,20 @@
     <test label="ta-i">
       <string>\u0ba4\u0bbf</string>
     </test>
+    <test label="lla-ai (needs re-ordering in shaper)">
+      <string>\u0bb3\u0bc8</string>
+    </test>
+    <test label="ka-ssa-i">
+      <string>\u0b95\u0bb7\u0bbf</string>
+    </test>
+    <test label="ka-ssa-ii">
+      <string>\u0b95\u0bb7\u0bc0</string>
+    </test>
   </testgroup>
   <testgroup label="haln">
+    <test label="ka-ssa-virama">
+      <string>\u0b95\u0bb7\u0bcd</string>
+    </test>
     <test label="used abvm instead">
       <string>\u0baa\u0bcd</string>
     </test>

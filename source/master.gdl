@@ -84,7 +84,6 @@ endtable;
 
 table(glyph)
     cCons = (g_ka g_nga g_ca g_ja g_nya g_tta g_nna g_ta g_na g_nnna g_pa g_ma g_ya g_ra g_rra g_la g_lla g_llla g_va g_sha g_ssa g_sa g_ha)
-    cSplitMatras = (g_omatra g_oomatra g_aumatra) // might be unused
     cReOrder = (g_ematra g_eematra g_aimatra)
     allCons = (cCons cligssa)
     split_base = (g_omatra g_oomatra g_aumatra)
@@ -146,8 +145,6 @@ pass(2)
     // Reordered (including split) vowel matras
     reorderb(g_ka_ssa)
     reorderc(g_ka_ssa)
-    // reorderb(g_ka g_virama g_sha) // might not be needed now that g_sha is in the fonts, and in cCons
-    // reorderc(g_ka g_virama g_sha) // might not be needed now that g_sha is in the fonts, and in cCons
     reorderb(cCons)
     reorderc(cCons)
     reorderb(cligvirama)

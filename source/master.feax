@@ -58,9 +58,9 @@ lookup Akhands {
 
 lookup AkhandMatras {
   lookupflag IgnoreMarks;
-    sub \ka_ssa \imatra  by \ka_ssa_imatra;
-    sub \ka_ssa \iimatra  by \ka_ssa_iimatra;
-    sub \ka_ssa \virama  by \ka_ssa_virama;
+    sub ka_ssa imatra by ka_ssa_imatra;
+    sub ka_ssa iimatra by ka_ssa_iimatra;
+    sub ka_ssa virama by ka_ssa_virama;
 } AkhandMatras;
 
 lookup aiMatras {
@@ -93,20 +93,10 @@ lookup uuMatras {
     sub @cligno_uumatra uumatra by @clig_uumatra;
 } uuMatras;
 
-#lookup ViramaLigs {
-#  lookupflag 0;
-#    sub @cligno_virama virama by @clig_virama;
-#} ViramaLigs;
-
-lookup pstspostbasesubstitutionold {
-  lookupflag 0;
-    sub \nna_aamatra by \nna_aamatra.old ;
-    sub \nna_aimatra by \nna_aimatra.old ;
-    sub \nnna_aamatra by \nnna_aamatra.old ;
-    sub \rra_aamatra by \rra_aamatra.old ;
-    sub \la_aimatra by \la_aimatra.old ;
-    sub \lla_aimatra by \lla_aimatra.old ;
-} pstspostbasesubstitutionold;
+# lookup ViramaLigs {
+#   lookupflag 0;
+#     sub @cligno_virama virama by @clig_virama;
+# } ViramaLigs;
 
 feature ccmp {
     lookup FontCheck;
@@ -138,9 +128,9 @@ feature psts {
     lookup uuMatras;
 } psts;
 
-#feature haln {
-#    lookup ViramLigs;
-#} haln;
+# feature haln {
+#     lookup ViramaLigs;
+# } haln;
 
 # GPOS
 
@@ -156,7 +146,7 @@ lookup ViramaMarks {
 } ViramaMarks;
 
 feature abvm {
-  lookup ViramaMarks;
+    lookup ViramaMarks;
 } abvm;
 
 feature blwm {
