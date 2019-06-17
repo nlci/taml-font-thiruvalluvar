@@ -30,6 +30,7 @@ ChangeLog
 
 Unreleased
 - Revise OpenType to match Graphite rendering
+- Enlarge single ring nukta by 21%
 - Position the pulli better on the ku ligature
 - Provide anusvara
 - Provide fewer language specific fonts

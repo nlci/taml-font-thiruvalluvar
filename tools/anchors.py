@@ -19,6 +19,8 @@ for anchor in ring.anchors:
             anchor.y = -500
         else:
             anchor.y = -244
+# ring.scaleBy(1.05)
+ring.scaleBy(1.215)
 
 ## Move one nukta to the left
 tti = font['tta_imatra']
