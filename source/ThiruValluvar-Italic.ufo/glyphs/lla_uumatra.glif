@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lla_uumatra" format="2">
   <advance width="2570"/>
-  <anchor x="1234.0" y="-512" name="N"/>
+  <anchor x="1234" y="-512" name="N"/>
   <anchor x="1038" y="932" name="V"/>
   <outline>
     <contour>
