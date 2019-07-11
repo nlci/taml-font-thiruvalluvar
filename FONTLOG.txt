@@ -10,8 +10,8 @@ Basic Font Information
 
 Pan Tamil font designed to support all the languages using the Tamil script.
 
-Known issues in the new sources
--------------------------------
+Known issues
+------------
 Old style glyphs need to be enabled in a ss
 Reph stype RA needs to be enabled, maybe in a cv
 U+0BB6 need major changes.
@@ -28,7 +28,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-Unreleased
+10 Jul 2019 (Dev NLCI) NLCI Tamil fonts version 0.500
 - Revise OpenType to match Graphite rendering
 - Enlarge single ring nukta by 21%
 - Position the pulli better on the ku ligature
