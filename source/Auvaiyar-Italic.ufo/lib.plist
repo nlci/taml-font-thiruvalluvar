@@ -157,7 +157,7 @@
     <string>ordfeminine</string>
     <string>guillemotleft</string>
     <string>logicalnot</string>
-    <string>HyphenSoft</string>
+    <string>softhyphen</string>
     <string>registered</string>
     <string>macron</string>
     <string>degree</string>
@@ -251,11 +251,11 @@
     <string>florin</string>
     <string>LtnSmGlottalStop</string>
     <string>LtnGlottalStop</string>
-    <string>ModApos</string>
+    <string>apostrophemod</string>
     <string>ModGlottalStop</string>
     <string>circumflex</string>
     <string>caron</string>
-    <string>ModTriangularColon</string>
+    <string>colontriangularmod</string>
     <string>breve</string>
     <string>dotaccent</string>
     <string>ring</string>
@@ -490,14 +490,12 @@
     <string>zwsp</string>
     <string>zwnj</string>
     <string>zwj</string>
-    <string>LftToRtMrk</string>
-    <string>RtToLftMrk</string>
-    <string>Hyphen</string>
-    <string>NonBreakingHyphen</string>
+    <string>hyphentwo</string>
+    <string>nbhyphen</string>
     <string>figuredash</string>
     <string>endash</string>
     <string>emdash</string>
-    <string>HorizBar</string>
+    <string>horizontalbar</string>
     <string>quoteleft</string>
     <string>quoteleft.taml</string>
     <string>quoteright</string>
@@ -515,7 +513,7 @@
     <string>HyphenationPt</string>
     <string>LineSep</string>
     <string>ParagraphSeparator</string>
-    <string>NarrowNoBreakSpace</string>
+    <string>nnbsp</string>
     <string>perthousand</string>
     <string>guilsinglleft</string>
     <string>guilsinglright</string>
@@ -561,6 +559,10 @@
     <string>OpnBx</string>
     <string>lozenge</string>
     <string>dottedcircle</string>
+    <string>SupplTopLftHalfBrac</string>
+    <string>SupplTopRtHalfBrac</string>
+    <string>SupplBottomLftHalfBrac</string>
+    <string>SupplBottomRtHalfBrac</string>
     <string>LtnSmSaltillo</string>
     <string>FontBslnSideBrngMrkrLft</string>
     <string>FontBslnSideBrngMrkrRt</string>
@@ -614,16 +616,8 @@
     <string>uni03A9</string>
     <key>HairSpace</key>
     <string>uni200A</string>
-    <key>HorizBar</key>
-    <string>uni2015</string>
-    <key>Hyphen</key>
-    <string>uni2010</string>
-    <key>HyphenSoft</key>
-    <string>uni00AD</string>
     <key>HyphenationPt</key>
     <string>uni2027</string>
-    <key>LftToRtMrk</key>
-    <string>uni200E</string>
     <key>LineSep</key>
     <string>uni2028</string>
     <key>LtnGlottalStop</key>
@@ -632,16 +626,8 @@
     <string>uni0242</string>
     <key>LtnSmSaltillo</key>
     <string>uniA78C</string>
-    <key>ModApos</key>
-    <string>uni02BC</string>
     <key>ModGlottalStop</key>
     <string>uni02C0</string>
-    <key>ModTriangularColon</key>
-    <string>uni02D0</string>
-    <key>NarrowNoBreakSpace</key>
-    <string>uni202F</string>
-    <key>NonBreakingHyphen</key>
-    <string>uni2011</string>
     <key>ObjectReplChar</key>
     <string>uniFFFC</string>
     <key>Ohm</key>
@@ -654,8 +640,6 @@
     <string>uni2008</string>
     <key>ReplChar</key>
     <string>uniFFFD</string>
-    <key>RtToLftMrk</key>
-    <string>uni200F</string>
     <key>SixPerEmSpace</key>
     <string>uni2006</string>
     <key>SqrTxtBracHighLft</key>
@@ -700,6 +684,14 @@
     <string>uni00B2</string>
     <key>SupZero</key>
     <string>uni2070</string>
+    <key>SupplBottomLftHalfBrac</key>
+    <string>uni2E24</string>
+    <key>SupplBottomRtHalfBrac</key>
+    <string>uni2E25</string>
+    <key>SupplTopLftHalfBrac</key>
+    <string>uni2E22</string>
+    <key>SupplTopRtHalfBrac</key>
+    <string>uni2E23</string>
     <key>ThinSpace</key>
     <string>uni2009</string>
     <key>ThreePerEmSpace</key>
@@ -750,6 +742,8 @@
     <string>uni0952</string>
     <key>anusvara</key>
     <string>uni0B82</string>
+    <key>apostrophemod</key>
+    <string>uni02BC</string>
     <key>asabovesign</key>
     <string>uni0BF8</string>
     <key>aulengthmark</key>
@@ -774,6 +768,8 @@
     <string>uni0B9A0BCD</string>
     <key>cgj</key>
     <string>uni034F</string>
+    <key>colontriangularmod</key>
+    <string>uni02D0</string>
     <key>creditsign</key>
     <string>uni0BF7</string>
     <key>danda</key>
@@ -816,6 +812,10 @@
     <string>uni0BB90BBF</string>
     <key>ha_virama</key>
     <string>uni0BB90BCD</string>
+    <key>horizontalbar</key>
+    <string>uni2015</string>
+    <key>hyphentwo</key>
+    <string>uni2010</string>
     <key>iimatra</key>
     <string>uni0BC0</string>
     <key>iivowel</key>
@@ -928,6 +928,8 @@
     <string>uni0BA80BC2</string>
     <key>na_virama</key>
     <string>uni0BA80BCD</string>
+    <key>nbhyphen</key>
+    <string>uni2011</string>
     <key>nbsp</key>
     <string>uni00A0</string>
     <key>nga</key>
@@ -966,6 +968,8 @@
     <string>uni0BA30BC2</string>
     <key>nna_virama</key>
     <string>uni0BA30BCD</string>
+    <key>nnbsp</key>
+    <string>uni202F</string>
     <key>nnna</key>
     <string>uni0BA9</string>
     <key>nnna_aamatra</key>
@@ -1086,6 +1090,8 @@
     <string>uni0BB6</string>
     <key>sixtaml</key>
     <string>uni0BEC</string>
+    <key>softhyphen</key>
+    <string>uni00AD</string>
     <key>ssa</key>
     <string>uni0BB7</string>
     <key>ssa_aimatra</key>

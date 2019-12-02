@@ -98,12 +98,6 @@
   <string>H_.glif</string>
   <key>HairSpace</key>
   <string>H_airS_pace.glif</string>
-  <key>HorizBar</key>
-  <string>H_orizB_ar.glif</string>
-  <key>Hyphen</key>
-  <string>H_yphen.glif</string>
-  <key>HyphenSoft</key>
-  <string>H_yphenS_oft.glif</string>
   <key>HyphenationPt</key>
   <string>H_yphenationP_t.glif</string>
   <key>I</key>
@@ -122,8 +116,6 @@
   <string>K_.glif</string>
   <key>L</key>
   <string>L_.glif</string>
-  <key>LftToRtMrk</key>
-  <string>L_ftT_oR_tM_rk.glif</string>
   <key>LineSep</key>
   <string>L_ineS_ep.glif</string>
   <key>LtnCapEsh</key>
@@ -136,8 +128,6 @@
   <string>L_tnS_mS_altillo.glif</string>
   <key>M</key>
   <string>M_.glif</string>
-  <key>ModApos</key>
-  <string>M_odA_pos.glif</string>
   <key>ModBeginHighTn</key>
   <string>M_odB_eginH_ighT_n.glif</string>
   <key>ModBeginLowTn</key>
@@ -148,14 +138,8 @@
   <string>M_odE_ndL_owT_n.glif</string>
   <key>ModGlottalStop</key>
   <string>M_odG_lottalS_top.glif</string>
-  <key>ModTriangularColon</key>
-  <string>M_odT_riangularC_olon.glif</string>
   <key>N</key>
   <string>N_.glif</string>
-  <key>NarrowNoBreakSpace</key>
-  <string>N_arrowN_oB_reakS_pace.glif</string>
-  <key>NonBreakingHyphen</key>
-  <string>N_onB_reakingH_yphen.glif</string>
   <key>Ntilde</key>
   <string>N_tilde.glif</string>
   <key>O</key>
@@ -192,8 +176,6 @@
   <string>R_.glif</string>
   <key>ReplChar</key>
   <string>R_eplC_har.glif</string>
-  <key>RtToLftMrk</key>
-  <string>R_tT_oL_ftM_rk.glif</string>
   <key>S</key>
   <string>S_.glif</string>
   <key>Scaron</key>
@@ -242,6 +224,14 @@
   <string>S_upT_wo.glif</string>
   <key>SupZero</key>
   <string>S_upZ_ero.glif</string>
+  <key>SupplBottomLftHalfBrac</key>
+  <string>S_upplB_ottomL_ftH_alfB_rac.glif</string>
+  <key>SupplBottomRtHalfBrac</key>
+  <string>S_upplB_ottomR_tH_alfB_rac.glif</string>
+  <key>SupplTopLftHalfBrac</key>
+  <string>S_upplT_opL_ftH_alfB_rac.glif</string>
+  <key>SupplTopRtHalfBrac</key>
+  <string>S_upplT_opR_tH_alfB_rac.glif</string>
   <key>T</key>
   <string>T_.glif</string>
   <key>ThinSpace</key>
@@ -340,6 +330,8 @@
   <string>anudatta.glif</string>
   <key>anusvara</key>
   <string>anusvara.glif</string>
+  <key>apostrophemod</key>
+  <string>apostrophemod.glif</string>
   <key>approxequal</key>
   <string>approxequal.glif</string>
   <key>aring</key>
@@ -416,6 +408,8 @@
   <string>colon.glif</string>
   <key>colon.taml</key>
   <string>colon.taml.glif</string>
+  <key>colontriangularmod</key>
+  <string>colontriangularmod.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
   <key>comma.taml</key>
@@ -554,12 +548,16 @@
   <string>ha_imatra.glif</string>
   <key>ha_virama</key>
   <string>ha_virama.glif</string>
+  <key>horizontalbar</key>
+  <string>horizontalbar.glif</string>
   <key>hungarumlaut</key>
   <string>hungarumlaut.glif</string>
   <key>hyphen</key>
   <string>hyphen.glif</string>
   <key>hyphen.taml</key>
   <string>hyphen.taml.glif</string>
+  <key>hyphentwo</key>
+  <string>hyphentwo.glif</string>
   <key>i</key>
   <string>i.glif</string>
   <key>iacute</key>
@@ -714,6 +712,8 @@
   <string>na_uumatra.glif</string>
   <key>na_virama</key>
   <string>na_virama.glif</string>
+  <key>nbhyphen</key>
+  <string>nbhyphen.glif</string>
   <key>nbsp</key>
   <string>nbsp.glif</string>
   <key>nga</key>
@@ -756,6 +756,8 @@
   <string>nna_uumatra.glif</string>
   <key>nna_virama</key>
   <string>nna_virama.glif</string>
+  <key>nnbsp</key>
+  <string>nnbsp.glif</string>
   <key>nnna</key>
   <string>nnna.glif</string>
   <key>nnna_aamatra</key>
@@ -1012,6 +1014,8 @@
   <string>slash.glif</string>
   <key>slash.taml</key>
   <string>slash.taml.glif</string>
+  <key>softhyphen</key>
+  <string>softhyphen.glif</string>
   <key>space</key>
   <string>space.glif</string>
   <key>space.taml</key>
