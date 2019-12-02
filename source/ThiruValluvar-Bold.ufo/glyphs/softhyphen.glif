@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="NonBreakingHyphen" format="2">
+<glyph name="softhyphen" format="2">
   <advance width="666"/>
-  <unicode hex="2011"/>
+  <unicode hex="00AD"/>
   <outline>
     <component base="hyphen"/>
   </outline>
