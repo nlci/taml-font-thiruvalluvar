@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SupplTopLftHalfBrac" format="2">
+  <advance width="351"/>
+  <unicode hex="2E22"/>
+  <outline>
+    <contour>
+      <point x="166" y="204" type="line"/>
+      <point x="166" y="635" type="line"/>
+      <point x="286" y="635" type="line"/>
+      <point x="290" y="642"/>
+      <point x="300" y="672"/>
+      <point x="302" y="687" type="curve"/>
+      <point x="283" y="703" type="line"/>
+      <point x="52" y="703" type="line"/>
+      <point x="52" y="204" type="line"/>
+    </contour>
+  </outline>
+</glyph>
