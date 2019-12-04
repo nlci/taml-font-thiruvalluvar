@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # this is a smith configuration file
 
 # thiruvalluvar
@@ -27,6 +27,7 @@ DESC_SHORT='Tamil Unicode font with OT and Graphite support'
 DESC_NAME='NLCI-' + script
 DEBPKG='fonts-nlci-' + script
 getufoinfo('source/ThiruValluvar-Regular.ufo')
+BUILDLABEL = 'beta1'
 
 langinfo = {
     # 'xub' : 'Betta Kurumba',
@@ -103,7 +104,6 @@ for f in faces:
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',
-            # opentype = fea(fontbase + 'master.fea', no_make = True),
             opentype=fea(generated + f + snf + '.fea',
                 master=fontbase + 'master.feax',
                 make_params='-L last',
@@ -120,7 +120,7 @@ for f in faces:
             woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
             script = 'tml2', # taml
             package = p,
-            fret = fret(params = '-r -oi')
+            fret = fret(params = '-oi')
         )
 
         for langcode in langinfo.keys():
@@ -135,7 +135,7 @@ for f in faces:
                 graphite = internal(),
                 script = 'tml2',
                 package = p,
-                fret = fret(params = '-r -oi')
+                fret = fret(params = '-oi')
             )
             if '--alllangs' not in opts:
                 n.no_test = True

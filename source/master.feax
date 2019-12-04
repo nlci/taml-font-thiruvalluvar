@@ -155,5 +155,4 @@ feature blwm {
 
 table GDEF {
   GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
-
 } GDEF;
