@@ -5,7 +5,7 @@
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
-  <false/>
+  <integer>0</integer>
   <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.disablesLastChange</key>
@@ -591,6 +591,26 @@
     <string>nukta</string>
     <string>nukta.dotdbl</string>
     <string>nukta.ringdbl</string>
+    <string>CombAcute</string>
+    <string>CombAcute.LP</string>
+    <string>CombCaron</string>
+    <string>CombCaron.LP</string>
+    <string>CombCedilla</string>
+    <string>CombCircum</string>
+    <string>CombCircum.LP</string>
+    <string>CombDiaer</string>
+    <string>CombDiaer.LP</string>
+    <string>CombGrave</string>
+    <string>CombGrave.LP</string>
+    <string>CombRingAbv</string>
+    <string>CombTilde</string>
+    <string>CombTilde.LP</string>
+    <string>GrCapPi</string>
+    <string>LtnCapEsh</string>
+    <string>ModBeginHighTn</string>
+    <string>ModBeginLowTn</string>
+    <string>ModEndHighTn</string>
+    <string>ModEndLowTn</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
