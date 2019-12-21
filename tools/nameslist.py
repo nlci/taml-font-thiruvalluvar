@@ -64,11 +64,25 @@ Virama = [
     0x0BCD,  # TAMIL SIGN VIRAMA
     ]
 
+Digits = [
+    0x0BE6,  # TAMIL DIGIT ZERO
+    0x0BE7,  # TAMIL DIGIT ONE
+    0x0BE8,  # TAMIL DIGIT TWO
+    0x0BE9,  # TAMIL DIGIT THREE
+    0x0BEA,  # TAMIL DIGIT FOUR
+    0x0BEB,  # TAMIL DIGIT FIVE
+    0x0BEC,  # TAMIL DIGIT SIX
+    0x0BED,  # TAMIL DIGIT SEVEN
+    0x0BEE,  # TAMIL DIGIT EIGHT
+    0x0BEF,  # TAMIL DIGIT NINE
+    ]
+
 vowels = list(map(chr, Vowels))
 matras = list(map(chr, Matras))
 consonants = list(map(chr, Consonants))
 nuktas = list(map(chr, Nuktas))
-virama = list(map(chr, Virama))[0]
+h = virama = list(map(chr, Virama))[0]
+digits = list(map(chr, Digits))
 
 ka = consonants[0]
 ssa = consonants[20]
