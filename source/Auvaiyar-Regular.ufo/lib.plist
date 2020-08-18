@@ -600,6 +600,8 @@
     <string>CombGrave</string>
     <string>CombMacron</string>
     <string>CombOgonek</string>
+    <string>CombRingAbv</string>
+    <string>CombTilde</string>
     <string>CombTildeOverlay.Lrg</string>
     <string>GrCapDelta</string>
     <string>GrCapPi</string>

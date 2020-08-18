@@ -48,6 +48,10 @@
   <string>C_ombM_acron.glif</string>
   <key>CombOgonek</key>
   <string>C_ombO_gonek.glif</string>
+  <key>CombRingAbv</key>
+  <string>C_ombR_ingA_bv.glif</string>
+  <key>CombTilde</key>
+  <string>C_ombT_ilde.glif</string>
   <key>CombTildeOverlay.Lrg</key>
   <string>C_ombT_ildeO_verlay.L_rg.glif</string>
   <key>D</key>
