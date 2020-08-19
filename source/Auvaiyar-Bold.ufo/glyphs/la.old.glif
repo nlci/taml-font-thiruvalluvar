@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="la.old" format="2">
   <advance width="551"/>
+  <anchor x="360" y="-120" name="L"/>
   <anchor x="360" y="2" name="N"/>
+  <anchor x="360" y="739" name="U"/>
   <anchor x="360" y="617" name="V"/>
   <outline>
     <contour>

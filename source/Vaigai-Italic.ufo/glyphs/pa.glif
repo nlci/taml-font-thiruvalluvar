@@ -2,7 +2,9 @@
 <glyph name="pa" format="2">
   <advance width="595"/>
   <unicode hex="0BAA"/>
+  <anchor x="377" y="-122" name="L"/>
   <anchor x="377" y="0" name="N"/>
+  <anchor x="377" y="578" name="U"/>
   <anchor x="377" y="456" name="V"/>
   <outline>
     <contour>

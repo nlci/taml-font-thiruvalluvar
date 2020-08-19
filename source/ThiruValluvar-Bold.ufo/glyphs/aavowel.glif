@@ -2,7 +2,9 @@
 <glyph name="aavowel" format="2">
   <advance width="2044"/>
   <unicode hex="0B86"/>
+  <anchor x="920" y="-744" name="L"/>
   <anchor x="920" y="-494" name="N"/>
+  <anchor x="920" y="1189" name="U"/>
   <anchor x="920" y="939" name="V"/>
   <outline>
     <contour>

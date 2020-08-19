@@ -44,6 +44,8 @@
   <string>C_ombC_ircum.glif</string>
   <key>CombCircum.LP</key>
   <string>C_ombC_ircum.L_P_.glif</string>
+  <key>CombCircumBlw</key>
+  <string>C_ombC_ircumB_lw.glif</string>
   <key>CombDiaer</key>
   <string>C_ombD_iaer.glif</string>
   <key>CombDiaer.LP</key>
@@ -364,6 +366,8 @@
   <string>aumatra.glif</string>
   <key>auvowel</key>
   <string>auvowel.glif</string>
+  <key>avagraha</key>
+  <string>avagraha.glif</string>
   <key>avowel</key>
   <string>avowel.glif</string>
   <key>b</key>

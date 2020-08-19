@@ -14,6 +14,7 @@ build:
     - apt-get install smith-font -y --no-install-recommends
 
   script:
+    - export PYTHONIOENCODING=utf-8
     - smith configure
     - smith build
     # - smith alltests
@@ -24,7 +25,7 @@ build:
     # - smith release
 
   artifacts:
-    name: "${CI_PROJECT_NAME}-${CI_COMMIT_REF_NAME}${CI_COMMIT_SHA:0:8}-build${CI_JOB_ID}"
+    name: "${CI_PROJECT_NAME}-${CI_COMMIT_TAG}-dev-${CI_COMMIT_SHA:0:6}-build-${CI_JOB_ID}"
     paths:
     - results/releases/*
     - results/*.html

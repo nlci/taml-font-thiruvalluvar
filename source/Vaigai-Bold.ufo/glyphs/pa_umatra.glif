@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pa_umatra" format="2">
   <advance width="592"/>
+  <anchor x="284" y="-125" name="L"/>
   <anchor x="284" y="-3" name="N"/>
+  <anchor x="284" y="575" name="U"/>
   <anchor x="284" y="453" name="V"/>
   <outline>
     <contour>

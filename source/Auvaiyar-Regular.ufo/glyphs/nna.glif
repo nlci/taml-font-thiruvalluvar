@@ -2,7 +2,9 @@
 <glyph name="nna" format="2">
   <advance width="1195"/>
   <unicode hex="0BA3"/>
+  <anchor x="560" y="-99" name="L"/>
   <anchor x="560" y="23" name="N"/>
+  <anchor x="560" y="577" name="U"/>
   <anchor x="560" y="455" name="V"/>
   <outline>
     <contour>

@@ -2,6 +2,7 @@
 <glyph name="ematra" format="2">
   <advance width="615"/>
   <unicode hex="0BC6"/>
+  <anchor x="314" y="-133" name="L"/>
   <anchor x="314" y="-11" name="N"/>
   <outline>
     <contour>

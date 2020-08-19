@@ -2,7 +2,9 @@
 <glyph name="nya" format="2">
   <advance width="904"/>
   <unicode hex="0B9E"/>
+  <anchor x="544" y="-315" name="L"/>
   <anchor x="544" y="-193" name="N"/>
+  <anchor x="544" y="577" name="U"/>
   <anchor x="544" y="455" name="V"/>
   <outline>
     <contour>

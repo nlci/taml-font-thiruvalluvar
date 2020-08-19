@@ -23,7 +23,7 @@ with Reserved Font Names "Annapurna" and "SIL".
   <key>italicAngle</key>
   <integer>-12</integer>
   <key>openTypeHeadCreated</key>
-  <string>2020/08/18 12:13:05</string>
+  <string>2020/08/19 16:54:49</string>
   <key>openTypeHheaAscender</key>
   <integer>971</integer>
   <key>openTypeHheaDescender</key>
@@ -151,7 +151,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>NLCI: Vaigai Italic: 2020</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.500</string>
+  <string>Version 0.600</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -259,7 +259,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>500</integer>
+  <integer>600</integer>
   <key>xHeight</key>
   <integer>409</integer>
 </dict>

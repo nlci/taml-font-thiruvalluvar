@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ma_iimatra" format="2">
   <advance width="680"/>
+  <anchor x="228" y="-122" name="L"/>
   <anchor x="228" y="0" name="N"/>
+  <anchor x="228" y="577" name="U"/>
   <anchor x="228" y="455" name="V"/>
   <outline>
     <contour>

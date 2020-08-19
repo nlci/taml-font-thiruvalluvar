@@ -2,7 +2,9 @@
 <glyph name="ka" format="2">
   <advance width="1270"/>
   <unicode hex="0B95"/>
+  <anchor x="776" y="-250" name="L"/>
   <anchor x="776" y="0" name="N"/>
+  <anchor x="776" y="1182" name="U"/>
   <anchor x="776" y="932" name="V"/>
   <outline>
     <contour>

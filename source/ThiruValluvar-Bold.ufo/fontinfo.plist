@@ -21,7 +21,7 @@ with Reserved Font Names "Annapurna" and "SIL".
   <key>familyName</key>
   <string>ThiruValluvar</string>
   <key>openTypeHeadCreated</key>
-  <string>2020/08/18 12:13:05</string>
+  <string>2020/08/19 16:54:51</string>
   <key>openTypeHheaAscender</key>
   <integer>1975</integer>
   <key>openTypeHheaDescender</key>
@@ -149,7 +149,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>NLCI: ThiruValluvar Bold: 2020</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.500</string>
+  <string>Version 0.600</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -257,7 +257,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>500</integer>
+  <integer>600</integer>
   <key>xHeight</key>
   <integer>837</integer>
 </dict>

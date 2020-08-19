@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rra_aamatra" format="2">
   <advance width="2151"/>
+  <anchor x="762" y="-450" name="L"/>
   <anchor x="762" y="-200" name="N"/>
+  <anchor x="762" y="1182" name="U"/>
   <anchor x="762" y="932" name="V"/>
   <outline>
     <component base="rra"/>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="avagraha" format="2">
+  <advance width="936"/>
+  <unicode hex="1133D"/>
+  <outline>
+    <contour>
+      <point x="385" y="0" type="line"/>
+      <point x="551" y="0" type="line"/>
+      <point x="551" y="1164" type="line"/>
+      <point x="796" y="1022" type="line"/>
+      <point x="860" y="1133" type="line"/>
+      <point x="551" y="1316" type="line"/>
+      <point x="385" y="1316" type="line"/>
+      <point x="385" y="152" type="line"/>
+      <point x="140" y="298" type="line"/>
+      <point x="73" y="182" type="line"/>
+    </contour>
+  </outline>
+</glyph>

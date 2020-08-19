@@ -11,14 +11,21 @@ print(f'Move anchors for {ufo}')
 
 # Modify UFO
 
+
+def ps_upm(points):
+    """Covert a distance from a 2048 UPM font to a 1000 UPM font."""
+    return int(points*1000/2048)
+
+
 ## Move single ring closer to base character
 ring = font['nukta']
 for anchor in ring.anchors:
     if anchor.name == '_N':
+        closer = -500
         if font.info.familyName == 'ThiruValluvar':
-            anchor.y = -500
+            anchor.y = closer
         else:
-            anchor.y = -244
+            anchor.y = ps_upm(closer)
 # ring.scaleBy(1.05)
 ring.scaleBy(1.215)
 
@@ -59,6 +66,34 @@ for glyph in font:
                 consonant_name = glyph.name.split('_')[0]
                 if consonant_name in re_center:
                     anchor.x = xcenter
+
+## Provide extra vowels
+caroncomb = font['CombCaron']
+caroncomb.unicodes = [0x030C]
+(xmin, ymin, xmax, ymax) = caroncomb.bounds
+xcenter = (xmin + xmax) / 2
+caroncomb.appendAnchor('_U', (xcenter, ymin))
+
+circumflexbelowcomb = font['CombCircumBlw']
+(xmin, ymin, xmax, ymax) = circumflexbelowcomb.bounds
+xcenter = (xmin + xmax) / 2
+circumflexbelowcomb.appendAnchor('_L', (xcenter, ymax))
+
+avagraha = font['uni16C7']
+avagraha.name = 'avagraha'
+avagraha.unicodes = [0x1133D]
+
+## Posistion extra vowels on bases
+offset = 250
+if font.info.familyName != 'ThiruValluvar':
+    offset = ps_upm(offset)
+
+for glyph in font:
+    for anchor in glyph.anchors:
+        if anchor.name == 'V':
+            glyph.appendAnchor('U', (anchor.x, anchor.y + offset))
+        if anchor.name == 'N':
+            glyph.appendAnchor('L', (anchor.x, anchor.y - offset))
 
 # Save UFO
 font.changed()

@@ -262,6 +262,8 @@
     <string>ogonek</string>
     <string>tilde</string>
     <string>hungarumlaut</string>
+    <string>CombCaron</string>
+    <string>CombCircumBlw</string>
     <string>cgj</string>
     <string>GrCapOmega</string>
     <string>pi</string>
@@ -591,9 +593,9 @@
     <string>nukta</string>
     <string>nukta.dotdbl</string>
     <string>nukta.ringdbl</string>
+    <string>avagraha</string>
     <string>CombAcute</string>
     <string>CombBreve</string>
-    <string>CombCaron</string>
     <string>CombCedilla</string>
     <string>CombCircum</string>
     <string>CombDiaer</string>
@@ -616,6 +618,10 @@
   <dict>
     <key>BulletOperator</key>
     <string>uni2219</string>
+    <key>CombCaron</key>
+    <string>uni030C</string>
+    <key>CombCircumBlw</key>
+    <string>uni032D</string>
     <key>EmQuad</key>
     <string>uni2001</string>
     <key>EmSpace</key>
@@ -772,6 +778,8 @@
     <string>uni0BCC</string>
     <key>auvowel</key>
     <string>uni0B94</string>
+    <key>avagraha</key>
+    <string>u1133D</string>
     <key>avowel</key>
     <string>uni0B85</string>
     <key>ca</key>

@@ -29,6 +29,12 @@ Matras = [
     0x0BCC,  # TAMIL VOWEL SIGN AU
     ]
 
+MatrasPlus = [
+    0x030C,  # COMBINING CARON
+    0x032D,  # COMBINING CIRCUMFLEX ACCENT BELOW
+    0x1133D,  # GRANTHA SIGN AVAGRAHA
+    ]
+
 Consonants = [
     0x0B95,  # TAMIL LETTER KA
     0x0B99,  # TAMIL LETTER NGA
@@ -79,6 +85,7 @@ Digits = [
 
 vowels = list(map(chr, Vowels))
 matras = list(map(chr, Matras))
+matras_plus = list(map(chr, MatrasPlus))
 consonants = list(map(chr, Consonants))
 nuktas = list(map(chr, Nuktas))
 h = virama = list(map(chr, Virama))[0]
