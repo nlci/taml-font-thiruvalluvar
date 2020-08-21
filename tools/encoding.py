@@ -16,15 +16,15 @@ ring = font['nukta.ring']
 rings = font['nukta.ringdbl']
 
 single.name = 'nuktanew'
-single.unicodes = [0x1133B]
+single.unicode = 0x1133B
 
 ring.name = 'nukta'
-ring.unicodes = [0x1133C]
+ring.unicode = 0x1133C
 
 double.name = 'nukta.dotdbl'
-double.unicodes = []
+double.unicode = None
 
-rings.unicodes = []
+rings.unicode = None
 
 ## Cleanup
 dots = ('virama', 'vedictonedotbelow', 'vedictonetwodotsbelow', 'vedictonethreedotsbelow')

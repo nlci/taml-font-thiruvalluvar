@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="in.nlci.fonts.Vaigai.0.500" />
+  <uniqueid id="in.nlci.fonts.Vaigai.0.601" />
   <vendor name="NLCI" url="http://www.nlci.in/fonts/" />
   <credits>
     <credit
@@ -77,6 +77,7 @@
       with Reserved Font Names "Charis" and "SIL".
       Indian Rupee Sign Copyright (c) 2007-2017, SIL International (http://www.sil.org/)
       with Reserved Font Names "Annapurna" and "SIL".
+      Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
       This license is copied below, and is also available with a FAQ at:
@@ -181,9 +182,7 @@
       with Reserved Font Names "Charis" and "SIL".
       Indian Rupee Sign Copyright (c) 2007-2017, SIL International (http://www.sil.org/)
       with Reserved Font Names "Annapurna" and "SIL".
+      Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
     </text>
   </copyright>
-  <trademark>
-    <text lang="en">None</text>
-  </trademark>
 </metadata>

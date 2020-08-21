@@ -14,7 +14,7 @@ build:
     - apt-get install smith-font -y --no-install-recommends
 
   script:
-    - export PYTHONIOENCODING=utf-8
+    - export PYTHONIOENCODING=utf-8:surrogateescape
     - smith configure
     - smith build
     # - smith alltests

@@ -69,7 +69,7 @@ for glyph in font:
 
 ## Provide extra vowels
 caroncomb = font['CombCaron']
-caroncomb.unicodes = [0x030C]
+caroncomb.unicode = 0x030C
 (xmin, ymin, xmax, ymax) = caroncomb.bounds
 xcenter = (xmin + xmax) / 2
 caroncomb.appendAnchor('_U', (xcenter, ymin))
@@ -81,7 +81,7 @@ circumflexbelowcomb.appendAnchor('_L', (xcenter, ymax))
 
 avagraha = font['uni16C7']
 avagraha.name = 'avagraha'
-avagraha.unicodes = [0x1133D]
+avagraha.unicode = 0x1133D
 
 ## Posistion extra vowels on bases
 offset = 250
