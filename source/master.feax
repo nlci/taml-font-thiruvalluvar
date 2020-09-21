@@ -140,17 +140,29 @@ lookup ViramaMarks {
     pos base @V mark @_V;
 } ViramaMarks;
 
+lookup UpperExtra {
+  lookupflag 0;
+    pos base @U mark @_U;
+} UpperExtra;
+
 lookup Nuktas {
   lookupflag 0;
     pos base @N mark @_N;
 } Nuktas;
 
+lookup LowerExtra {
+  lookupflag 0;
+    pos base @N mark @_N;
+} LowerExtra;
+
 feature abvm {
     lookup ViramaMarks;
+    lookup UpperExtra;
 } abvm;
 
 feature blwm {
     lookup Nuktas;
+    lookup LowerExtra;
 } blwm;
 
 table GDEF {
