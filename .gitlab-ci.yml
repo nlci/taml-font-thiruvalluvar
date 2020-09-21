@@ -7,13 +7,16 @@ build:
     - apt-get update -q -y
     - apt-get install -q -y software-properties-common
     - add-apt-repository -y ppa:silnrsi/smith-py3
+    # - add-apt-repository -y ppa:sile-typesetter/sile
     # - add-apt-repository -y ppa:jonathonf/texlive-2019
     # - add-apt-repository -y ppa:git-core/ppa
     - apt-get update -q -y
-    - apt-get install libjson-perl libtext-csv-perl libharfbuzz-bin -y
+    # - apt-get install libjson-perl libtext-csv-perl libharfbuzz-bin -y
     - apt-get install smith-font -y --no-install-recommends
 
   script:
+    - export LC_CTYPE=C.UTF-8
+    - export PYTHONUTF8=1
     - export PYTHONIOENCODING=utf-8:surrogateescape
     - smith configure
     - smith build
