@@ -81,7 +81,7 @@ circumflexbelowcomb.appendAnchor('_L', (xcenter, ymax))
 
 avagraha = font['uni16C7']
 avagraha.name = 'avagraha'
-avagraha.unicode = 0x1133D
+avagraha.unicode = 0x16C7 #  0x1133D
 
 ## Posistion extra vowels on bases
 offset = 250

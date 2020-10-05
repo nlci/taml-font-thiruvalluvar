@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="avagraha" format="2">
   <advance width="457"/>
-  <unicode hex="1133D"/>
+  <unicode hex="16C7"/>
   <outline>
     <contour>
       <point x="188" y="0" type="line"/>

@@ -471,6 +471,7 @@
     <string>asabovesign</string>
     <string>rupeesign</string>
     <string>numbersigntaml</string>
+    <string>avagraha</string>
     <string>vedictonedoublesvarita</string>
     <string>vedictonekathakaanudatta</string>
     <string>vedictonedotbelow</string>
@@ -593,7 +594,6 @@
     <string>nukta</string>
     <string>nukta.dotdbl</string>
     <string>nukta.ringdbl</string>
-    <string>avagraha</string>
     <string>CombAcute</string>
     <string>CombBreve</string>
     <string>CombCedilla</string>
@@ -779,7 +779,7 @@
     <key>auvowel</key>
     <string>uni0B94</string>
     <key>avagraha</key>
-    <string>u1133D</string>
+    <string>uni16C7</string>
     <key>avowel</key>
     <string>uni0B85</string>
     <key>ca</key>
