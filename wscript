@@ -26,10 +26,10 @@ getufoinfo('source/ThiruValluvar-Regular.ufo')
 # BUILDLABEL = 'beta1'
 
 langinfo = {
-    # 'xub' : 'Betta Kurumba',
-    'xuj' : 'Jennu Kurumba',
-    'iru' : 'Irula',
-    'ctt' : 'Chetti'
+    # 'xub' : 'BK', # Betta Kurumba
+    'xuj' : 'JK',  # Jennu Kurumba
+    'iru' : 'IRU',  # Irula
+    'ctt' : 'CTT',  # Chetti
 }
 
 # Set up the FTML tests
@@ -53,7 +53,7 @@ if '-s' in opts:
 fontbase = 'source/'
 archive = fontbase + 'archive/unhinted/'
 generated = 'generated/'
-tag = script.upper()
+tag = '' # script.upper()
 
 panose = [2, 0, 0, 3]
 codePageRange = [0, 29]
@@ -94,7 +94,7 @@ for f in faces:
         fontfilename = tag + f + snf
         font(target = process(fontfilename + '.ttf',
                 cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', [fontbase + f + snf + '.ufo']),
-                name(tag + ' ' + f, lang='en-US', subfamily=(sn))
+                name(tag + ' ' + f)
                 ),
             source = fontbase + f + snf + '.ufo',
             opentype=fea(generated + f + snf + '.fea',
@@ -121,7 +121,7 @@ for f in faces:
             langfontfilename = tag + f + langname.replace(' ', '') + snf
             n = font(target = process(langfontfilename + '.ttf',
                     cmd('psfdeflang -L ' + langcode + ' ${DEP} ${TGT}'),
-                    name(tag + ' ' + f + ' ' + langname, lang='en-US', subfamily=(sn))
+                    name(tag + f + langname)
                     ),
                 source = fontfilename + '.ttf',
                 opentype = internal(),

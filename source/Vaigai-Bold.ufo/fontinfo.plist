@@ -22,7 +22,7 @@ Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
   <key>familyName</key>
   <string>Vaigai</string>
   <key>openTypeHeadCreated</key>
-  <string>2020/10/05 17:13:24</string>
+  <string>2020/10/07 15:32:53</string>
   <key>openTypeHheaAscender</key>
   <integer>971</integer>
   <key>openTypeHheaDescender</key>
@@ -151,7 +151,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>NLCI: Vaigai Bold: 2020</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.601</string>
+  <string>Version 0.602</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -224,6 +224,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     <integer>62</integer>
     <integer>67</integer>
     <integer>69</integer>
+    <integer>79</integer>
     <integer>91</integer>
   </array>
   <key>openTypeOS2VendorID</key>
@@ -259,7 +260,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>601</integer>
+  <integer>602</integer>
   <key>xHeight</key>
   <integer>409</integer>
 </dict>
