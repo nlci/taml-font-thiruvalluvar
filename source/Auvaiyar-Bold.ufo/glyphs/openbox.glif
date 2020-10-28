@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="openbox" format="2">
+  <advance width="206"/>
+  <unicode hex="2423"/>
+  <outline>
+    <contour>
+      <point x="206" y="-116" type="line"/>
+      <point x="206" y="0" type="line"/>
+      <point x="170" y="0" type="line"/>
+      <point x="170" y="-80" type="line"/>
+      <point x="36" y="-80" type="line"/>
+      <point x="36" y="0" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="0" y="-116" type="line"/>
+    </contour>
+  </outline>
+</glyph>
