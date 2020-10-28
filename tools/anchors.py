@@ -74,7 +74,7 @@ caroncomb.unicode = 0x030C
 xcenter = (xmin + xmax) / 2
 caroncomb.appendAnchor('_U', (xcenter, ymin))
 
-circumflexbelowcomb = font['CombCircumBlw']
+circumflexbelowcomb = font['circumflexbelowcomb']
 (xmin, ymin, xmax, ymax) = circumflexbelowcomb.bounds
 xcenter = (xmin + xmax) / 2
 circumflexbelowcomb.appendAnchor('_L', (xcenter, ymax))
