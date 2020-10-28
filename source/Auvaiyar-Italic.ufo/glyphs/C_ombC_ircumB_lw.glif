@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombCircumBlw" format="2">
-  <unicode hex="032D"/>
-  <anchor x="-314" y="-66" name="_L"/>
-  <outline>
-    <component base="CombCircum" xOffset="-149" yOffset="-714"/>
-  </outline>
-</glyph>
