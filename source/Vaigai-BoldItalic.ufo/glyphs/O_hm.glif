@@ -3,6 +3,6 @@
   <advance width="559"/>
   <unicode hex="2126"/>
   <outline>
-    <component base="GrCapOmega"/>
+    <component base="Omega"/>
   </outline>
 </glyph>
