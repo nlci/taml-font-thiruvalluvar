@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="floorleft" format="2">
+  <advance width="720"/>
+  <unicode hex="230A"/>
+  <outline>
+    <contour>
+      <point x="180" y="-199" type="line"/>
+      <point x="540" y="-199" type="line"/>
+      <point x="540" y="-121" type="line"/>
+      <point x="258" y="-121" type="line"/>
+      <point x="258" y="937" type="line"/>
+      <point x="180" y="937" type="line"/>
+    </contour>
+  </outline>
+</glyph>
