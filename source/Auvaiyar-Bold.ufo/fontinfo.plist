@@ -22,7 +22,7 @@ Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
   <key>familyName</key>
   <string>Auvaiyar</string>
   <key>openTypeHeadCreated</key>
-  <string>2020/10/07 15:32:51</string>
+  <string>2020/10/28 10:50:33</string>
   <key>openTypeHheaAscender</key>
   <integer>915</integer>
   <key>openTypeHheaDescender</key>
@@ -30,7 +30,7 @@ Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
-  <string>Pan Tamil font designed to support all the languages using the Tamil script.</string>
+  <string>Tamil script font for all languages using the Tamil script</string>
   <key>openTypeNameDesigner</key>
   <string>NLCI</string>
   <key>openTypeNameDesignerURL</key>
