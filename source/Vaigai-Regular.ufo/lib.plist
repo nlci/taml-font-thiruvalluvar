@@ -162,14 +162,14 @@
     <string>macron</string>
     <string>degree</string>
     <string>plusminus</string>
-    <string>SupTwo</string>
-    <string>SupThree</string>
+    <string>twosuperior</string>
+    <string>threesuperior</string>
     <string>acute</string>
     <string>mu</string>
     <string>paragraph</string>
     <string>periodcentered</string>
     <string>cedilla</string>
-    <string>SupOne</string>
+    <string>onesuperior</string>
     <string>ordmasculine</string>
     <string>guillemotright</string>
     <string>onequarter</string>
@@ -249,10 +249,10 @@
     <string>Zcaron</string>
     <string>zcaron</string>
     <string>florin</string>
-    <string>LtnSmGlottalStop</string>
-    <string>LtnGlottalStop</string>
+    <string>glottalstopsmall</string>
+    <string>glottalstop</string>
     <string>apostrophemod</string>
-    <string>ModGlottalStop</string>
+    <string>glottalstopmod</string>
     <string>circumflex</string>
     <string>caron</string>
     <string>colontriangularmod</string>
@@ -264,9 +264,9 @@
     <string>hungarumlaut</string>
     <string>CombCaron</string>
     <string>CombCaron.LP</string>
-    <string>CombCircumBlw</string>
+    <string>circumflexbelowcomb</string>
     <string>cgj</string>
-    <string>GrCapOmega</string>
+    <string>Omega</string>
     <string>pi</string>
     <string>udatta</string>
     <string>anudatta</string>
@@ -523,16 +523,16 @@
     <string>guilsinglright</string>
     <string>fraction</string>
     <string>wj</string>
-    <string>SupZero</string>
-    <string>SupFour</string>
-    <string>SupFive</string>
-    <string>SupSix</string>
-    <string>SupSeven</string>
-    <string>SupEight</string>
-    <string>SupNine</string>
-    <string>SupMinus</string>
-    <string>SupLftParen</string>
-    <string>SupRtParen</string>
+    <string>zerosuperior</string>
+    <string>foursuperior</string>
+    <string>fivesuperior</string>
+    <string>sixsuperior</string>
+    <string>sevensuperior</string>
+    <string>eightsuperior</string>
+    <string>ninesuperior</string>
+    <string>hyphensuperior</string>
+    <string>parenleftsuperior</string>
+    <string>parenrightsuperior</string>
     <string>rs</string>
     <string>Euro</string>
     <string>inr</string>
@@ -544,7 +544,7 @@
     <string>summation</string>
     <string>minus</string>
     <string>divisionslash</string>
-    <string>BulletOperator</string>
+    <string>bulletoperator</string>
     <string>radical</string>
     <string>infinity</string>
     <string>integral</string>
@@ -552,24 +552,24 @@
     <string>notequal</string>
     <string>lessequal</string>
     <string>greaterequal</string>
-    <string>SqrTxtBracHighLft</string>
-    <string>SqrTxtBracHighRt</string>
-    <string>SqrTxtBracLowLft</string>
-    <string>SqrTxtBracLowRt</string>
-    <string>SqrTxtBracHighLftShort</string>
-    <string>SqrTxtBracHighRtShort</string>
-    <string>SqrTxtBracLowLftShort</string>
-    <string>SqrTxtBracLowRtShort</string>
-    <string>OpnBx</string>
+    <string>ceilingleft</string>
+    <string>ceilingright</string>
+    <string>floorleft</string>
+    <string>floorright</string>
+    <string>cornerlefttop</string>
+    <string>cornerrighttop</string>
+    <string>cornerleftbottom</string>
+    <string>cornerrightbottom</string>
+    <string>openbox</string>
     <string>lozenge</string>
     <string>dottedcircle</string>
-    <string>SupplTopLftHalfBrac</string>
-    <string>SupplTopRtHalfBrac</string>
-    <string>SupplBottomLftHalfBrac</string>
-    <string>SupplBottomRtHalfBrac</string>
-    <string>LtnSmSaltillo</string>
-    <string>FontBslnSideBrngMrkrLft</string>
-    <string>FontBslnSideBrngMrkrRt</string>
+    <string>halfbracketlefttop</string>
+    <string>halfbracketrighttop</string>
+    <string>halfbracketleftbottom</string>
+    <string>halfbracketrightbottom</string>
+    <string>saltillo</string>
+    <string>sidebearingleft</string>
+    <string>sidebearingright</string>
     <string>fi</string>
     <string>fl</string>
     <string>VS1</string>
@@ -616,14 +616,10 @@
   </array>
   <key>public.postscriptNames</key>
   <dict>
-    <key>BulletOperator</key>
-    <string>uni2219</string>
     <key>CombCaron</key>
     <string>uni030C</string>
     <key>CombCaron.LP</key>
     <string>uni030C.LP</string>
-    <key>CombCircumBlw</key>
-    <string>uni032D</string>
     <key>EmQuad</key>
     <string>uni2001</string>
     <key>EmSpace</key>
@@ -634,34 +630,18 @@
     <string>uni2002</string>
     <key>FigureSpace</key>
     <string>uni2007</string>
-    <key>FontBslnSideBrngMrkrLft</key>
-    <string>uniF130</string>
-    <key>FontBslnSideBrngMrkrRt</key>
-    <string>uniF131</string>
     <key>FourPerEmSpace</key>
     <string>uni2005</string>
-    <key>GrCapOmega</key>
-    <string>uni03A9</string>
     <key>HairSpace</key>
     <string>uni200A</string>
     <key>HyphenationPt</key>
     <string>uni2027</string>
     <key>LineSep</key>
     <string>uni2028</string>
-    <key>LtnGlottalStop</key>
-    <string>uni0294</string>
-    <key>LtnSmGlottalStop</key>
-    <string>uni0242</string>
-    <key>LtnSmSaltillo</key>
-    <string>uniA78C</string>
-    <key>ModGlottalStop</key>
-    <string>uni02C0</string>
     <key>ObjectReplChar</key>
     <string>uniFFFC</string>
     <key>Ohm</key>
     <string>uni2126</string>
-    <key>OpnBx</key>
-    <string>uni2423</string>
     <key>ParagraphSeparator</key>
     <string>uni2029</string>
     <key>PuncSpace</key>
@@ -670,56 +650,6 @@
     <string>uniFFFD</string>
     <key>SixPerEmSpace</key>
     <string>uni2006</string>
-    <key>SqrTxtBracHighLft</key>
-    <string>uni2308</string>
-    <key>SqrTxtBracHighLftShort</key>
-    <string>uni231C</string>
-    <key>SqrTxtBracHighRt</key>
-    <string>uni2309</string>
-    <key>SqrTxtBracHighRtShort</key>
-    <string>uni231D</string>
-    <key>SqrTxtBracLowLft</key>
-    <string>uni230A</string>
-    <key>SqrTxtBracLowLftShort</key>
-    <string>uni231E</string>
-    <key>SqrTxtBracLowRt</key>
-    <string>uni230B</string>
-    <key>SqrTxtBracLowRtShort</key>
-    <string>uni231F</string>
-    <key>SupEight</key>
-    <string>uni2078</string>
-    <key>SupFive</key>
-    <string>uni2075</string>
-    <key>SupFour</key>
-    <string>uni2074</string>
-    <key>SupLftParen</key>
-    <string>uni207D</string>
-    <key>SupMinus</key>
-    <string>uni207B</string>
-    <key>SupNine</key>
-    <string>uni2079</string>
-    <key>SupOne</key>
-    <string>uni00B9</string>
-    <key>SupRtParen</key>
-    <string>uni207E</string>
-    <key>SupSeven</key>
-    <string>uni2077</string>
-    <key>SupSix</key>
-    <string>uni2076</string>
-    <key>SupThree</key>
-    <string>uni00B3</string>
-    <key>SupTwo</key>
-    <string>uni00B2</string>
-    <key>SupZero</key>
-    <string>uni2070</string>
-    <key>SupplBottomLftHalfBrac</key>
-    <string>uni2E24</string>
-    <key>SupplBottomRtHalfBrac</key>
-    <string>uni2E25</string>
-    <key>SupplTopLftHalfBrac</key>
-    <string>uni2E22</string>
-    <key>SupplTopRtHalfBrac</key>
-    <string>uni2E23</string>
     <key>ThinSpace</key>
     <string>uni2009</string>
     <key>ThreePerEmSpace</key>
@@ -784,6 +714,8 @@
     <string>uni16C7</string>
     <key>avowel</key>
     <string>uni0B85</string>
+    <key>bulletoperator</key>
+    <string>uni2219</string>
     <key>ca</key>
     <string>uni0B9A</string>
     <key>ca_iimatra</key>
@@ -796,10 +728,24 @@
     <string>uni0B9A0BC2</string>
     <key>ca_virama</key>
     <string>uni0B9A0BCD</string>
+    <key>ceilingleft</key>
+    <string>uni2308</string>
+    <key>ceilingright</key>
+    <string>uni2309</string>
     <key>cgj</key>
     <string>uni034F</string>
+    <key>circumflexbelowcomb</key>
+    <string>uni032D</string>
     <key>colontriangularmod</key>
     <string>uni02D0</string>
+    <key>cornerleftbottom</key>
+    <string>uni231E</string>
+    <key>cornerlefttop</key>
+    <string>uni231C</string>
+    <key>cornerrightbottom</key>
+    <string>uni231F</string>
+    <key>cornerrighttop</key>
+    <string>uni231D</string>
     <key>creditsign</key>
     <string>uni0BF7</string>
     <key>danda</key>
@@ -818,6 +764,8 @@
     <string>uni0BC7</string>
     <key>eevowel</key>
     <string>uni0B8F</string>
+    <key>eightsuperior</key>
+    <string>uni2078</string>
     <key>eighttaml</key>
     <string>uni0BEE</string>
     <key>ematra</key>
@@ -826,12 +774,26 @@
     <string>uni0B8E</string>
     <key>fi</key>
     <string>uniFB01</string>
+    <key>fivesuperior</key>
+    <string>uni2075</string>
     <key>fivetaml</key>
     <string>uni0BEB</string>
     <key>fl</key>
     <string>uniFB02</string>
+    <key>floorleft</key>
+    <string>uni230A</string>
+    <key>floorright</key>
+    <string>uni230B</string>
+    <key>foursuperior</key>
+    <string>uni2074</string>
     <key>fourtaml</key>
     <string>uni0BEA</string>
+    <key>glottalstop</key>
+    <string>uni0294</string>
+    <key>glottalstopmod</key>
+    <string>uni02C0</string>
+    <key>glottalstopsmall</key>
+    <string>uni0242</string>
     <key>gravedeva</key>
     <string>uni0953</string>
     <key>ha</key>
@@ -842,8 +804,18 @@
     <string>uni0BB90BBF</string>
     <key>ha_virama</key>
     <string>uni0BB90BCD</string>
+    <key>halfbracketleftbottom</key>
+    <string>uni2E24</string>
+    <key>halfbracketlefttop</key>
+    <string>uni2E22</string>
+    <key>halfbracketrightbottom</key>
+    <string>uni2E25</string>
+    <key>halfbracketrighttop</key>
+    <string>uni2E23</string>
     <key>horizontalbar</key>
     <string>uni2015</string>
+    <key>hyphensuperior</key>
+    <string>uni207B</string>
     <key>hyphentwo</key>
     <string>uni2010</string>
     <key>iimatra</key>
@@ -976,6 +948,8 @@
     <string>uni0B990BCD</string>
     <key>nga_virama.alt</key>
     <string>uni0B990BCD.alt</string>
+    <key>ninesuperior</key>
+    <string>uni2079</string>
     <key>ninetaml</key>
     <string>uni0BEF</string>
     <key>nna</key>
@@ -1052,12 +1026,16 @@
     <string>uni0BD0</string>
     <key>omatra</key>
     <string>uni0BCA</string>
+    <key>onesuperior</key>
+    <string>uni00B9</string>
     <key>onetaml</key>
     <string>uni0BE7</string>
     <key>oomatra</key>
     <string>uni0BCB</string>
     <key>oovowel</key>
     <string>uni0B93</string>
+    <key>openbox</key>
+    <string>uni2423</string>
     <key>ovowel</key>
     <string>uni0B92</string>
     <key>pa</key>
@@ -1072,6 +1050,10 @@
     <string>uni0BAA0BC2</string>
     <key>pa_virama</key>
     <string>uni0BAA0BCD</string>
+    <key>parenleftsuperior</key>
+    <string>uni207D</string>
+    <key>parenrightsuperior</key>
+    <string>uni207E</string>
     <key>ra</key>
     <string>uni0BB0</string>
     <key>ra_iimatra</key>
@@ -1114,10 +1096,20 @@
     <string>uni0BB80BCD</string>
     <key>sa_virama_ra_iimatra</key>
     <string>uni0BB80BCD0BB00BC0</string>
+    <key>saltillo</key>
+    <string>uniA78C</string>
+    <key>sevensuperior</key>
+    <string>uni2077</string>
     <key>seventaml</key>
     <string>uni0BED</string>
     <key>sha</key>
     <string>uni0BB6</string>
+    <key>sidebearingleft</key>
+    <string>uniF130</string>
+    <key>sidebearingright</key>
+    <string>uniF131</string>
+    <key>sixsuperior</key>
+    <string>uni2076</string>
     <key>sixtaml</key>
     <string>uni0BEC</string>
     <key>softhyphen</key>
@@ -1144,6 +1136,8 @@
     <string>uni0BA40BC2</string>
     <key>ta_virama</key>
     <string>uni0BA40BCD</string>
+    <key>threesuperior</key>
+    <string>uni00B3</string>
     <key>threetaml</key>
     <string>uni0BE9</string>
     <key>tta</key>
@@ -1158,6 +1152,8 @@
     <string>uni0B9F0BC2</string>
     <key>tta_virama</key>
     <string>uni0B9F0BCD</string>
+    <key>twosuperior</key>
+    <string>uni00B2</string>
     <key>twotaml</key>
     <string>uni0BE8</string>
     <key>udatta</key>
@@ -1218,6 +1214,8 @@
     <string>uni0BAF0BCD</string>
     <key>yearsign</key>
     <string>uni0BF5</string>
+    <key>zerosuperior</key>
+    <string>uni2070</string>
     <key>zerotaml</key>
     <string>uni0BE6</string>
     <key>zwj</key>
