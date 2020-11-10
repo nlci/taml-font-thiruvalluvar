@@ -1,0 +1,35 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[]
+
+\section{Language specific nuktas}
+
+\subsection{LNG}
+
+\setTestFont[language="dflt"]
+\proof{ring xub () த𑌼்க𑌼ாகி𑌼ஞு𑌼கு𑌼்கு𑌼}
+
+\setTestFont[language="CTT"]
+\proof{dot ctt (CTT) த𑌼்க𑌼ாகி𑌼ஞு𑌼கு𑌼்கு𑌼}
+
+\setTestFont[language="IRU"]
+\proof{double ring iru (IRU) த𑌼்க𑌼ாகி𑌼ஞு𑌼கு𑌼்கு𑌼}
+
+\setTestFont[language="XUJ"]
+\proof{double dot xuj (JK) த𑌼்க𑌼ாகி𑌼ஞு𑌼கு𑌼்கு𑌼}
+
+\subsection{X-HBOT LNG}
+
+\setTestFont[language="dflt"]
+\proof{ring xub () த𑌼்க𑌼ாகி𑌼ஞு𑌼கு𑌼்கு𑌼}
+
+\setTestFont[language="x-hbotCTT"]
+\proof{dot ctt (CTT) த𑌼்க𑌼ாகி𑌼ஞு𑌼கு𑌼்கு𑌼}
+
+\setTestFont[language="x-hbotIRU"]
+\proof{double ring iru (IRU) த𑌼்க𑌼ாகி𑌼ஞு𑌼கு𑌼்கு𑌼}
+
+\setTestFont[language="x-hbotXUJ"]
+\proof{double dot xuj (JK) த𑌼்க𑌼ாகி𑌼ஞு𑌼கு𑌼்கு𑌼}
+
+\end{document}

@@ -20,7 +20,7 @@ If this is not the case, go to (http://scripts.sil.org/OFL) for all the details 
 /* use ThiruValluvar - Regular in .woff format */
 @font-face {
   font-family: ThiruValluvarW;
-  src: url(TAMLThiruValluvar-Regular.woff);
+  src: url(ThiruValluvar-Regular.woff);
 }
 
 /* set body to use ThiruValluvar in .woff format */
@@ -61,4 +61,8 @@ body {
 .cv021 {
   font-family: ThiruValluvarW;
   font-feature-settings: "cv02" 1; font-size: 200%;
+}
+.cvlng {
+  font-family: ThiruValluvarW;
+  font-size: 200%;
 }
