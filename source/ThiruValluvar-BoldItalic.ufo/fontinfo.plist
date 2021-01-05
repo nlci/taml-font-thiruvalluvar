@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1134</integer>
   <key>copyright</key>
-  <string>This Font Software is Copyright (c) 2009-2020, NLCI (http://www.nlci.in/fonts/)
+  <string>This Font Software is Copyright (c) 2009-2021, NLCI (http://www.nlci.in/fonts/)
 with Reserved Font Names "ThiruValluvar" and "Auvaiyar" and "Vaigai" and "NLCI".
 Latin glyphs in ThiruValluvar and Vaigai are Copyright (c) 2003-2019, SIL International (http://www.sil.org/)
 with Reserved Font Names "Gentium" and "SIL".
@@ -24,7 +24,7 @@ Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
   <key>italicAngle</key>
   <integer>-12</integer>
   <key>openTypeHeadCreated</key>
-  <string>2020/11/10 11:31:32</string>
+  <string>2021/01/05 11:54:30</string>
   <key>openTypeHheaAscender</key>
   <integer>1975</integer>
   <key>openTypeHheaDescender</key>
@@ -38,7 +38,7 @@ Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
   <key>openTypeNameDesignerURL</key>
   <string>http://www.nlci.in/fonts/</string>
   <key>openTypeNameLicense</key>
-  <string>This Font Software is Copyright (c) 2009-2020, NLCI (http://www.nlci.in/fonts/)
+  <string>This Font Software is Copyright (c) 2009-2021, NLCI (http://www.nlci.in/fonts/)
 with Reserved Font Names "ThiruValluvar" and "Auvaiyar" and "Vaigai" and "NLCI".
 Latin glyphs in ThiruValluvar and Vaigai are Copyright (c) 2003-2019, SIL International (http://www.sil.org/)
 with Reserved Font Names "Gentium" and "SIL".
@@ -151,7 +151,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Bold Italic</string>
   <key>openTypeNameUniqueID</key>
-  <string>NLCI: ThiruValluvar Bold Italic: 2020</string>
+  <string>NLCI: ThiruValluvar Bold Italic: 2021</string>
   <key>openTypeNameVersion</key>
   <string>Version 0.602</string>
   <key>openTypeOS2CodePageRanges</key>
