@@ -104,13 +104,11 @@ feature ccmp {
 
 feature locl {
     script tml2;
-        language XUJ exclude_dflt;
+        language XUJ;
             lookup NuktaXUJ;
-    script tml2;
-        language IRU exclude_dflt;
+        language IRU;
             lookup NuktaIRU;
-    script tml2;
-        language CTT exclude_dflt;
+        language CTT;
             lookup NuktaCTT;
 } locl;
 

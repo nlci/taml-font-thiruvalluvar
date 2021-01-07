@@ -3,7 +3,7 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
-    <fontsrc>url(../results/TAMLThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc>url(../results/ThiruValluvar-Regular.ttf)</fontsrc>
     <title>Issues</title>
   </head>
   <testgroup label="Rendering check">
@@ -11,12 +11,20 @@
       <string>RenderingUnknown</string>
     </test>
   </testgroup>
+  <testgroup label="lang spec, U+1133B - U+1133C">
+    <test label="cv">
+      <string>கெ𑌻 க𑌻ெ க𑌻ெ𑌻 - கெ𑌼 க𑌼ெ க𑌼ெ𑌼</string>
+    </test>
+    <test label="ligatures">
+      <string>த𑌻்க𑌻ாகி𑌻ஞு𑌻கு𑌻்கு𑌻 - த𑌼்க𑌼ாகி𑌼ஞு𑌼கு𑌼்கு𑌼</string>
+    </test>
+  </testgroup>
   <testgroup label="move backward">
     <test label="sample is...">
-      <string>\u0BB8\u0BCD\u0BB0\u0BC7\U0001133C</string>
+      <string>\u0BB8\u0BCD\u0BB0\u0BC7\u1133C</string>
     </test>
     <test label="...and should not be like this">
-      <string>\u0BC7\U0001133C\u0BB8\u0BCD\u0BB0</string>
+      <string>\u0BC7\u1133C\u0BB8\u0BCD\u0BB0</string>
     </test>
   </testgroup>
   <testgroup label="new characters">
