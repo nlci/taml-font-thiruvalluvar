@@ -4,6 +4,14 @@
   <head>
     <fontscale>300</fontscale>
     <fontsrc>url(../results/ThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc>url(../results/Vaigai-Regular.ttf)</fontsrc>
+    <fontsrc>url(../results/Auvaiyar-Regular.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv01' 0" name="cv01_0"/>
+      <style feats="'cv01' 1" name="cv01_1"/>
+      <style feats="'cv01' 2" name="cv01_2"/>
+      <style feats="'cv01' 3" name="cv01_3"/>
+    </styles>
     <title>Issues</title>
   </head>
   <testgroup label="Rendering check">
@@ -17,6 +25,23 @@
     </test>
     <test label="ligatures">
       <string>த𑌻்க𑌻ாகி𑌻ஞு𑌻கு𑌻்கு𑌻 - த𑌼்க𑌼ாகி𑌼ஞு𑌼கு𑌼்கு𑌼</string>
+    </test>
+  </testgroup>
+  <testgroup label="below marks">
+    <test label="2 marks below">
+      <string>\u0baa\u0bc1\u1133c\u032d \u0ba4\u0bc1\u1133c\u032d</string>
+    </test>
+    <test label="2 marks below" stylename="cv01_0">
+      <string>\u0baa\u0bc1\u1133c\u032d \u0ba4\u0bc1\u1133c\u032d</string>
+    </test>
+    <test label="2 marks below" stylename="cv01_1">
+      <string>\u0baa\u0bc1\u1133c\u032d \u0ba4\u0bc1\u1133c\u032d</string>
+    </test>
+    <test label="2 marks below" stylename="cv01_2">
+      <string>\u0baa\u0bc1\u1133c\u032d \u0ba4\u0bc1\u1133c\u032d</string>
+    </test>
+    <test label="2 marks below" stylename="cv01_3">
+      <string>\u0baa\u0bc1\u1133c\u032d \u0ba4\u0bc1\u1133c\u032d</string>
     </test>
   </testgroup>
   <testgroup label="move backward">

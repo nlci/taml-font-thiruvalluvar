@@ -83,17 +83,23 @@ avagraha = font['uni16C7']
 avagraha.name = 'avagraha'
 avagraha.unicode = 0x16C7 #  0x1133D
 
-## Posistion extra vowels on bases
+## Posistion extra vowels on...
 offset = 250
 if font.info.familyName != 'ThiruValluvar':
     offset = ps_upm(offset)
 
 for glyph in font:
+    # ...bases
     for anchor in glyph.anchors:
         if anchor.name == 'V':
             glyph.appendAnchor('U', (anchor.x, anchor.y + offset))
         if anchor.name == 'N':
             glyph.appendAnchor('L', (anchor.x, anchor.y - offset))
+    # ...nuktas (U+1133C and related)
+    if glyph.name == 'nukta' or glyph.name.startswith('nukta.'):
+        (xmin, ymin, xmax, ymax) = glyph.bounds
+        xcenter = (xmin + xmax) / 2
+        glyph.appendAnchor('L', (xcenter, ymin - offset))
 
 # Save UFO
 font.changed()
