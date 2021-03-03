@@ -54,6 +54,11 @@ lookup Akhands {
     sub ka virama ssa by ka_ssa;
     sub sa virama ra iimatra by sa_virama_ra_iimatra;
     # might need ligatures with some matras for ka_ssa
+
+    # sub ka umatra nukta dottedcircle virama by ka_umatra_nukta_virama;
+    # sub ka umatra nuktanew dottedcircle virama by ka_umatra_nukta_virama;
+    # sub ka umatra nukta virama by ka_umatra_nukta_virama;
+    # sub ka umatra nuktanew virama by ka_umatra_nukta_virama;
 } Akhands;
 
 lookup AkhandMatras {
@@ -93,6 +98,14 @@ lookup uuMatras {
     sub @cligno_uumatra uumatra by @clig_uumatra;
 } uuMatras;
 
+# lookup NuktaLigs {
+#   lookupflag 0;
+#     sub ka umatra nukta dottedcircle virama by ka_umatra_nukta_virama;
+#     sub ka umatra nuktanew dottedcircle virama by ka_umatra_nukta_virama;
+#     sub ka umatra nukta virama by ka_umatra_nukta_virama;
+#     sub ka umatra nuktanew virama by ka_umatra_nukta_virama;
+# } NuktaLigs;
+
 # lookup ViramaLigs {
 #   lookupflag 0;
 #     sub @cligno_virama virama by @clig_virama;
@@ -100,6 +113,7 @@ lookup uuMatras {
 
 feature ccmp {
     lookup FontCheck;
+    # lookup NuktaLigs;
 } ccmp;
 
 feature locl {
@@ -112,12 +126,18 @@ feature locl {
             lookup NuktaCTT;
 } locl;
 
+# feature nukt {
+#     lookup NuktaLigs;
+# } nukt;
+
 feature akhn {
     lookup Akhands;
     #lookup AkhandMatras;
+    # lookup NuktaLigs;
 } akhn;
 
 feature psts {
+    # lookup NuktaLigs;
     lookup aiMatras;
     lookup aaMatras;
     lookup iMatras;
@@ -126,8 +146,13 @@ feature psts {
     lookup uuMatras;
 } psts;
 
+# feature rclt {
+#     lookup NuktaLigs;
+# } rclt;
+
 # feature haln {
 #     lookup ViramaLigs;
+#     lookup NuktaLigs;
 # } haln;
 
 # GPOS
