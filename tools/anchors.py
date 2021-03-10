@@ -70,36 +70,40 @@ for glyph in font:
 ## Provide extra vowels
 caroncomb = font['CombCaron']
 caroncomb.unicode = 0x030C
-(xmin, ymin, xmax, ymax) = caroncomb.bounds
-xcenter = (xmin + xmax) / 2
-caroncomb.appendAnchor('_U', (xcenter, ymin))
 
-circumflexbelowcomb = font['circumflexbelowcomb']
-(xmin, ymin, xmax, ymax) = circumflexbelowcomb.bounds
-xcenter = (xmin + xmax) / 2
-circumflexbelowcomb.appendAnchor('_L', (xcenter, ymax))
+for glyphname in ('CombCaron', 'almostequaltocomb', 'circumflexbelowcomb'):
+    glyph = font[glyphname]
+    (xmin, ymin, xmax, ymax) = glyph.bounds
+    xcenter = (xmin + xmax) / 2
+    if 'below' in glyphname:
+        glyph.appendAnchor('_L', (xcenter, ymax))
+    else:
+        glyph.appendAnchor('_U', (xcenter, ymin))
+        glyph.appendAnchor('U', (xcenter, ymax))
 
 avagraha = font['uni16C7']
 avagraha.name = 'avagraha'
 avagraha.unicode = 0x16C7 #  0x1133D
 
 ## Posistion extra vowels on...
-offset = 250
+base_offset = 250
+mark_offset = 20
 if font.info.familyName != 'ThiruValluvar':
-    offset = ps_upm(offset)
+    base_offset = ps_upm(base_offset)
+    mark_offset = ps_upm(mark_offset)
 
 for glyph in font:
     # ...bases
     for anchor in glyph.anchors:
         if anchor.name == 'V':
-            glyph.appendAnchor('U', (anchor.x, anchor.y + offset))
+            glyph.appendAnchor('U', (anchor.x, anchor.y + base_offset))
         if anchor.name == 'N':
-            glyph.appendAnchor('L', (anchor.x, anchor.y - offset))
+            glyph.appendAnchor('L', (anchor.x, anchor.y - base_offset))
     # ...nuktas (U+1133C and related)
-    if glyph.name == 'nukta' or glyph.name.startswith('nukta.'):
+    if glyph.name.startswith('nukta'):
         (xmin, ymin, xmax, ymax) = glyph.bounds
         xcenter = (xmin + xmax) / 2
-        glyph.appendAnchor('L', (xcenter, ymin - offset))
+        glyph.appendAnchor('L', (xcenter, ymin - mark_offset))
 
 # Save UFO
 font.changed()

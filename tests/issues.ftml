@@ -3,9 +3,10 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
-    <fontsrc>url(../results/ThiruValluvar-Regular.ttf)</fontsrc>
-    <fontsrc>url(../results/Vaigai-Regular.ttf)</fontsrc>
-    <fontsrc>url(../results/Auvaiyar-Regular.ttf)</fontsrc>
+    <fontsrc label="Ref">url(../references/ThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc label="GR">url(../results/ThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc label="OT">url(../results/tests/ftml/fonts/ThiruValluvar-Regular_ot_tml2.ttf)</fontsrc>
+    <fontsrc label="Bold">url(../results/ThiruValluvar-Bold.ttf)</fontsrc>
     <styles>
       <style feats="'cv01' 0" name="cv01_0"/>
       <style feats="'cv01' 1" name="cv01_1"/>
@@ -25,6 +26,23 @@
     </test>
     <test label="ligatures">
       <string>த𑌻்க𑌻ாகி𑌻ஞு𑌻கு𑌻்கு𑌻 - த𑌼்க𑌼ாகி𑌼ஞு𑌼கு𑌼்கு𑌼</string>
+    </test>
+  </testgroup>
+  <testgroup label="above marks">
+    <test label="2 marks above">
+      <string>\u0baa\u0bc1\u1133c\u030c\u034c \u0baa\u0bc1\u1133c\u034c\u030c \u0ba4\u0bc1\u1133c\u030c\u034c \u0ba4\u0bc1\u1133c\u034c\u030c</string>
+    </test>
+    <test label="2 marks above" stylename="cv01_0">
+      <string>\u0baa\u0bc1\u1133c\u030c\u034c \u0baa\u0bc1\u1133c\u034c\u030c \u0ba4\u0bc1\u1133c\u030c\u034c \u0ba4\u0bc1\u1133c\u034c\u030c</string>
+    </test>
+    <test label="2 marks above" stylename="cv01_1">
+      <string>\u0baa\u0bc1\u1133c\u030c\u034c \u0baa\u0bc1\u1133c\u034c\u030c \u0ba4\u0bc1\u1133c\u030c\u034c \u0ba4\u0bc1\u1133c\u034c\u030c</string>
+    </test>
+    <test label="2 marks above" stylename="cv01_2">
+      <string>\u0baa\u0bc1\u1133c\u030c\u034c \u0baa\u0bc1\u1133c\u034c\u030c \u0ba4\u0bc1\u1133c\u030c\u034c \u0ba4\u0bc1\u1133c\u034c\u030c</string>
+    </test>
+    <test label="2 marks above" stylename="cv01_3">
+      <string>\u0baa\u0bc1\u1133c\u030c\u034c \u0baa\u0bc1\u1133c\u034c\u030c \u0ba4\u0bc1\u1133c\u030c\u034c \u0ba4\u0bc1\u1133c\u034c\u030c</string>
     </test>
   </testgroup>
   <testgroup label="below marks">

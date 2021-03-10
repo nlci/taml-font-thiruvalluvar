@@ -10,7 +10,9 @@ with open(sys.argv[1], 'w') as output:
     for mp in matras_plus:
         for c in consonants:
             clusters = list()
-            for m in [''] + matras:
-                clusters.append(c + m + mp)
+            for n in [''] + nuktas:
+                for m in [''] + matras:
+                    clusters.append(c + m + n + mp)
+                    clusters.append(c + n + m + mp)
             line = ' '.join(clusters) + '\n'
             output.write(line)

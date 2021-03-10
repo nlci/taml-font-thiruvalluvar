@@ -265,6 +265,7 @@
     <string>CombCaron</string>
     <string>CombCaron.LP</string>
     <string>circumflexbelowcomb</string>
+    <string>almostequaltocomb</string>
     <string>cgj</string>
     <string>Omega</string>
     <string>pi</string>
@@ -696,6 +697,8 @@
     <string>uni0BC8</string>
     <key>aivowel</key>
     <string>uni0B90</string>
+    <key>almostequaltocomb</key>
+    <string>uni034C</string>
     <key>anudatta</key>
     <string>uni0952</string>
     <key>anusvara</key>

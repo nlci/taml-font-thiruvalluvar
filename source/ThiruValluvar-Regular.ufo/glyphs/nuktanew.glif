@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nuktanew" format="2">
   <unicode hex="1133B"/>
+  <anchor x="-646" y="-721" name="L"/>
   <anchor x="-646" y="-357" name="_N"/>
   <outline>
     <contour>

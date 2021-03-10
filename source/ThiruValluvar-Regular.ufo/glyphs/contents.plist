@@ -262,6 +262,8 @@
   <string>aimatra.glif</string>
   <key>aivowel</key>
   <string>aivowel.glif</string>
+  <key>almostequaltocomb</key>
+  <string>almostequaltocomb.glif</string>
   <key>ampersand</key>
   <string>ampersand.glif</string>
   <key>ampersand.taml</key>

@@ -22,7 +22,7 @@ Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
   <key>familyName</key>
   <string>ThiruValluvar</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/01/05 11:54:29</string>
+  <string>2021/03/10 15:13:10</string>
   <key>openTypeHheaAscender</key>
   <integer>1975</integer>
   <key>openTypeHheaDescender</key>
@@ -151,7 +151,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>NLCI: ThiruValluvar Regular: 2021</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.602</string>
+  <string>Version 0.700</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -260,7 +260,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>602</integer>
+  <integer>700</integer>
   <key>xHeight</key>
   <integer>837</integer>
 </dict>

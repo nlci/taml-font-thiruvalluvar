@@ -168,6 +168,11 @@ lookup UpperExtra {
     pos base @U mark @_U;
 } UpperExtra;
 
+lookup UpperExtraStack {
+  lookupflag 0;
+    pos mark @U_MarkBase mark @_U;
+} UpperExtraStack;
+
 lookup Nuktas {
   lookupflag 0;
     pos base @N mark @_N;
@@ -175,17 +180,24 @@ lookup Nuktas {
 
 lookup LowerExtra {
   lookupflag 0;
-    pos base @N mark @_N;
+    pos base @L mark @_L;
 } LowerExtra;
+
+lookup LowerExtraStack {
+  lookupflag 0;
+    pos mark @L_MarkBase mark @_L;
+} LowerExtraStack;
 
 feature abvm {
     lookup ViramaMarks;
     lookup UpperExtra;
+    lookup UpperExtraStack;
 } abvm;
 
 feature blwm {
     lookup Nuktas;
     lookup LowerExtra;
+    lookup LowerExtraStack;
 } blwm;
 
 table GDEF {
