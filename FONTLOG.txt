@@ -28,6 +28,10 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+19 Mar 2021 (Dev NLCI) NLCI Tamil fonts version 0.700
+- Improve generation of language specific fonts
+- Add vowel modifiers
+- Remove script prefix (TAML) from font names
 10 Jul 2019 (Dev NLCI) NLCI Tamil fonts version 0.500
 - Revise OpenType to match Graphite rendering
 - Enlarge single ring nukta by 21%
