@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="in.nlci.fonts.ThiruValluvar.0.700" />
+  <uniqueid id="in.nlci.fonts.ThiruValluvar.0.701" />
   <vendor name="NLCI" url="http://www.nlci.in/fonts/" />
   <credits>
     <credit
@@ -31,6 +31,10 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
+      19 Mar 2021 (Dev NLCI) NLCI Tamil fonts version 0.700
+      - Improve generation of language specific fonts
+      - Add vowel modifiers
+      - Remove script prefix (TAML) from font names
       10 Jul 2019 (Dev NLCI) NLCI Tamil fonts version 0.500
       - Revise OpenType to match Graphite rendering
       - Enlarge single ring nukta by 21%

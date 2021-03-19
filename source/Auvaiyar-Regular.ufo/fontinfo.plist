@@ -151,7 +151,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>NLCI: Auvaiyar Regular: 2021</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.700</string>
+  <string>Version 0.701</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -260,7 +260,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>700</integer>
+  <integer>701</integer>
   <key>xHeight</key>
   <integer>434</integer>
 </dict>

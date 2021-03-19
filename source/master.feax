@@ -33,11 +33,6 @@ lookup FontCheck {
       n' lookup FontCheck_n;
 } FontCheck;
 
-lookup NuktaXUJ {
-  lookupflag 0;
-    sub nukta by nukta.dotdbl;
-} NuktaXUJ;
-
 lookup NuktaIRU {
   lookupflag 0;
     sub nukta by nukta.ringdbl;
@@ -118,8 +113,6 @@ feature ccmp {
 
 feature locl {
     script tml2;
-        language XUJ;
-            lookup NuktaXUJ;
         language IRU;
             lookup NuktaIRU;
         language CTT;
