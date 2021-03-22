@@ -108,7 +108,8 @@ for f in faces:
             #classes = fontbase + 'thiruvalluvar_classes.xml',
             ap = generated + '${DS:FILENAME_BASE}.xml',
             version = VERSION,
-            woff = woff('woff/' + '${DS:FILENAME_BASE}.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + '${DS:FAMILYNAME}-WOFF-metadata.xml'),
+            woff = woff('woff/${DS:FILENAME_BASE}',
+                metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
             script = 'tml2', # taml
             package = p,
             pdf = fret(params = '-oi')
