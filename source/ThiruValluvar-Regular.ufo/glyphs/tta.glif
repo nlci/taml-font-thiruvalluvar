@@ -2,9 +2,7 @@
 <glyph name="tta" format="2">
   <advance width="1475"/>
   <unicode hex="0B9F"/>
-  <anchor x="652" y="-250" name="L"/>
   <anchor x="652" y="0" name="N"/>
-  <anchor x="652" y="1182" name="U"/>
   <anchor x="652" y="932" name="V"/>
   <outline>
     <contour>

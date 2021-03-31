@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ja_virama" format="2">
   <advance width="650"/>
-  <anchor x="298" y="-289" name="L"/>
   <anchor x="298" y="-167" name="N"/>
   <outline>
     <contour>

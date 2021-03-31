@@ -67,43 +67,45 @@ for glyph in font:
                 if consonant_name in re_center:
                     anchor.x = xcenter
 
-## Provide extra vowels
-caroncomb = font['CombCaron']
-caroncomb.unicode = 0x030C
-
-for glyphname in ('CombCaron', 'almostequaltocomb', 'circumflexbelowcomb'):
-    glyph = font[glyphname]
-    (xmin, ymin, xmax, ymax) = glyph.bounds
-    xcenter = (xmin + xmax) / 2
-    if 'below' in glyphname:
-        glyph.appendAnchor('_L', (xcenter, ymax))
-    else:
-        glyph.appendAnchor('_U', (xcenter, ymin))
-        glyph.appendAnchor('U', (xcenter, ymax))
-
-avagraha = font['uni16C7']
-avagraha.name = 'avagraha'
-avagraha.unicode = 0x16C7 #  0x1133D
-
-## Posistion extra vowels on...
+## Provide extra vowels...
 base_offset = 250
 mark_offset = 20
 if font.info.familyName != 'ThiruValluvar':
     base_offset = ps_upm(base_offset)
     mark_offset = ps_upm(mark_offset)
 
+caroncomb = font['CombCaron']
+caroncomb.unicode = 0x030C
+
+ka = font['ka']
+top = 0
+for anchors in ka.anchors:
+    if anchor.name == 'V':
+        top = anchor.y
+
+for glyphname in ('CombCaron', 'almostequaltocomb', 'circumflexbelowcomb', 'aamatra', 'aulengthmark'):
+    glyph = font[glyphname]
+    (xmin, ymin, xmax, ymax) = glyph.bounds
+    xcenter = (xmin + xmax) / 2
+    if 'below' in glyphname:
+        glyph.appendAnchor('_N', (xcenter, ymax + base_offset))
+    elif 'ma' in glyphname:
+        # ...even on bases that do not normally take a virama (on V)
+        glyph.appendAnchor('V', (xcenter, top))
+    else:
+        glyph.appendAnchor('_V', (xcenter, ymin - base_offset))
+        glyph.appendAnchor('V', (xcenter, ymax - base_offset))
+
+avagraha = font['uni16C7']
+avagraha.name = 'avagraha'
+avagraha.unicode = 0x16C7 #  0x1133D
+
+## Posistion extra vowels on nuktas (U+1133C and related)
 for glyph in font:
-    # ...bases
-    for anchor in glyph.anchors:
-        if anchor.name == 'V':
-            glyph.appendAnchor('U', (anchor.x, anchor.y + base_offset))
-        if anchor.name == 'N':
-            glyph.appendAnchor('L', (anchor.x, anchor.y - base_offset))
-    # ...nuktas (U+1133C and related)
     if glyph.name.startswith('nukta'):
         (xmin, ymin, xmax, ymax) = glyph.bounds
         xcenter = (xmin + xmax) / 2
-        glyph.appendAnchor('L', (xcenter, ymin - mark_offset))
+        glyph.appendAnchor('N', (xcenter, ymin - mark_offset + base_offset))
 
 # Save UFO
 font.changed()

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ya_umatra" format="2">
   <advance width="626"/>
-  <anchor x="378" y="-125" name="L"/>
   <anchor x="378" y="-3" name="N"/>
-  <anchor x="378" y="575" name="U"/>
   <anchor x="378" y="453" name="V"/>
   <outline>
     <contour>

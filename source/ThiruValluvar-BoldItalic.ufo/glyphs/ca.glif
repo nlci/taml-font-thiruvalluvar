@@ -2,9 +2,7 @@
 <glyph name="ca" format="2">
   <advance width="1059"/>
   <unicode hex="0B9A"/>
-  <anchor x="748" y="-156" name="L"/>
   <anchor x="748" y="94" name="N"/>
-  <anchor x="748" y="1189" name="U"/>
   <anchor x="748" y="939" name="V"/>
   <outline>
     <contour>

@@ -2,9 +2,7 @@
 <glyph name="uvowel" format="2">
   <advance width="1659"/>
   <unicode hex="0B89"/>
-  <anchor x="778" y="-250" name="L"/>
   <anchor x="778" y="0" name="N"/>
-  <anchor x="778" y="1182" name="U"/>
   <anchor x="778" y="932" name="V"/>
   <outline>
     <contour>

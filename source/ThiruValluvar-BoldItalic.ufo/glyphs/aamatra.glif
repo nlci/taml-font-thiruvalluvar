@@ -2,8 +2,8 @@
 <glyph name="aamatra" format="2">
   <advance width="873"/>
   <unicode hex="0BBE"/>
-  <anchor x="434" y="-250" name="L"/>
   <anchor x="434" y="0" name="N"/>
+  <anchor x="434" y="939" name="V"/>
   <outline>
     <contour>
       <point x="848" y="828" type="line"/>

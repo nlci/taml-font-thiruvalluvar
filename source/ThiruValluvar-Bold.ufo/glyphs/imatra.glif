@@ -2,7 +2,6 @@
 <glyph name="imatra" format="2">
   <advance width="307"/>
   <unicode hex="0BBF"/>
-  <anchor x="-312" y="1077" name="L"/>
   <anchor x="-312" y="1327" name="N"/>
   <outline>
     <contour>

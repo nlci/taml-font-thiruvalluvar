@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombCaron" format="2">
   <unicode hex="030C"/>
-  <anchor x="-471" y="1336" name="U"/>
-  <anchor x="-471" y="958" name="_U"/>
+  <anchor x="-471" y="1086" name="V"/>
+  <anchor x="-471" y="708" name="_V"/>
   <outline>
     <contour>
       <point x="-416" y="958" type="line"/>

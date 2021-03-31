@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nna_aamatra" format="2">
   <advance width="3534"/>
-  <anchor x="1529" y="-250" name="L"/>
   <anchor x="1529" y="0" name="N"/>
-  <anchor x="1529" y="1182" name="U"/>
   <anchor x="1529" y="932" name="V"/>
   <outline>
     <component base="nna"/>

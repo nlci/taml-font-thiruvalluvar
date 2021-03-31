@@ -28,6 +28,14 @@
       <string>த𑌻்க𑌻ாகி𑌻ஞு𑌻கு𑌻்கு𑌻 - த𑌼்க𑌼ாகி𑌼ஞு𑌼கு𑌼்கு𑌼</string>
     </test>
   </testgroup>
+  <testgroup label="design">
+    <test label="height">
+      <string>\u0b95\u0bcd \u0b95\u030c \u0b95\u034c</string>
+    </test>
+    <test label="depth" stylename="cv01_3">
+      <string>\u0b95\u1133c\u032d \u0b95\u032d</string>
+    </test>
+  </testgroup>
   <testgroup label="above marks">
     <test label="2 marks above">
       <string>\u0baa\u0bc1\u1133c\u030c\u034c \u0baa\u0bc1\u1133c\u034c\u030c \u0ba4\u0bc1\u1133c\u030c\u034c \u0ba4\u0bc1\u1133c\u034c\u030c</string>

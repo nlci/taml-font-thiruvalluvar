@@ -2,9 +2,7 @@
 <glyph name="lla" format="2">
   <advance width="1700"/>
   <unicode hex="0BB3"/>
-  <anchor x="784" y="-250" name="L"/>
   <anchor x="784" y="0" name="N"/>
-  <anchor x="784" y="1182" name="U"/>
   <anchor x="784" y="932" name="V"/>
   <outline>
     <contour>

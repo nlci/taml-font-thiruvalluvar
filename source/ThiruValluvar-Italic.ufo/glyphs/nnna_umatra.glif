@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnna_umatra" format="2">
   <advance width="2468"/>
-  <anchor x="1182" y="-762" name="L"/>
   <anchor x="1182" y="-512" name="N"/>
-  <anchor x="1182" y="1182" name="U"/>
   <anchor x="1182" y="932" name="V"/>
   <outline>
     <contour>

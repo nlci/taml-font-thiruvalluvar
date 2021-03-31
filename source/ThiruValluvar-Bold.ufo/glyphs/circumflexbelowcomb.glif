@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexbelowcomb" format="2">
   <unicode hex="032D"/>
-  <anchor x="-496" y="-98" name="_L"/>
+  <anchor x="-496" y="152" name="_N"/>
   <outline>
     <contour>
       <point x="-180" y="-385" type="curve"/>

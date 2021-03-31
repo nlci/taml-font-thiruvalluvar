@@ -2,8 +2,8 @@
 <glyph name="aulengthmark" format="2">
   <advance width="1686"/>
   <unicode hex="0BD7"/>
-  <anchor x="740" y="-250" name="L"/>
   <anchor x="740" y="0" name="N"/>
+  <anchor x="740" y="939" name="V"/>
   <outline>
     <contour>
       <point x="1481" y="828" type="line"/>

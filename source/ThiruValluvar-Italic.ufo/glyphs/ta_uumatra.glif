@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ta_uumatra" format="2">
   <advance width="2263"/>
-  <anchor x="776" y="-680" name="L"/>
   <anchor x="776" y="-430" name="N"/>
-  <anchor x="776" y="1182" name="U"/>
   <anchor x="776" y="932" name="V"/>
   <outline>
     <contour>

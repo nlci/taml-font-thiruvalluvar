@@ -2,9 +2,7 @@
 <glyph name="nga" format="2">
   <advance width="1434"/>
   <unicode hex="0B99"/>
-  <anchor x="864" y="-250" name="L"/>
   <anchor x="864" y="0" name="N"/>
-  <anchor x="864" y="1182" name="U"/>
   <anchor x="864" y="932" name="V"/>
   <outline>
     <contour>

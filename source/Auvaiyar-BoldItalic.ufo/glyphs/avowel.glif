@@ -2,9 +2,7 @@
 <glyph name="avowel" format="2">
   <advance width="908"/>
   <unicode hex="0B85"/>
-  <anchor x="456" y="-155" name="L"/>
   <anchor x="456" y="-33" name="N"/>
-  <anchor x="456" y="577" name="U"/>
   <anchor x="456" y="455" name="V"/>
   <outline>
     <contour>
