@@ -31,6 +31,9 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
+      31 May 2021 (Dev NLCI) NLCI Tamil fonts version 0.701
+      - More positioning for vowel modifiers
+      - One less language specific font
       19 Mar 2021 (Dev NLCI) NLCI Tamil fonts version 0.700
       - Improve generation of language specific fonts
       - Add vowel modifiers
