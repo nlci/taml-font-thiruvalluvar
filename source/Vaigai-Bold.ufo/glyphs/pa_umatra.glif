@@ -6,15 +6,15 @@
   <outline>
     <contour>
       <point x="496" y="-134" type="line"/>
-      <point x="404" y="-134" type="line"/>
-      <point x="404" y="-3" type="line"/>
-      <point x="-3" y="-3" type="line"/>
-      <point x="-3" y="452" type="line"/>
-      <point x="88" y="452" type="line"/>
-      <point x="88" y="44" type="line"/>
-      <point x="404" y="44" type="line"/>
-      <point x="404" y="452" type="line"/>
       <point x="496" y="452" type="line"/>
+      <point x="404" y="452" type="line"/>
+      <point x="404" y="44" type="line"/>
+      <point x="88" y="44" type="line"/>
+      <point x="88" y="452" type="line"/>
+      <point x="-3" y="452" type="line"/>
+      <point x="-3" y="-3" type="line"/>
+      <point x="404" y="-3" type="line"/>
+      <point x="404" y="-134" type="line"/>
     </contour>
   </outline>
 </glyph>

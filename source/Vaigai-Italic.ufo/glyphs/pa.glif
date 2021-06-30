@@ -7,13 +7,13 @@
   <outline>
     <contour>
       <point x="495" y="0" type="line"/>
-      <point x="0" y="0" type="line"/>
-      <point x="96" y="450" type="line"/>
-      <point x="171" y="450" type="line"/>
-      <point x="81" y="30" type="line"/>
-      <point x="426" y="30" type="line"/>
-      <point x="516" y="450" type="line"/>
       <point x="591" y="450" type="line"/>
+      <point x="516" y="450" type="line"/>
+      <point x="426" y="30" type="line"/>
+      <point x="81" y="30" type="line"/>
+      <point x="171" y="450" type="line"/>
+      <point x="96" y="450" type="line"/>
+      <point x="0" y="0" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -5,9 +5,9 @@
   <outline>
     <contour>
       <point x="-635" y="1581" type="line"/>
-      <point x="-737" y="1581" type="line"/>
-      <point x="-737" y="1942" type="line"/>
       <point x="-635" y="1942" type="line"/>
+      <point x="-737" y="1942" type="line"/>
+      <point x="-737" y="1581" type="line"/>
     </contour>
   </outline>
 </glyph>

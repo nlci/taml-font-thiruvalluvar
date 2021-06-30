@@ -4,15 +4,15 @@
   <outline>
     <contour>
       <point x="494" y="293" type="line"/>
-      <point x="70" y="293" type="line"/>
-      <point x="70" y="359" type="line"/>
       <point x="494" y="359" type="line"/>
+      <point x="70" y="359" type="line"/>
+      <point x="70" y="293" type="line"/>
     </contour>
     <contour>
       <point x="494" y="147" type="line"/>
-      <point x="70" y="147" type="line"/>
-      <point x="70" y="213" type="line"/>
       <point x="494" y="213" type="line"/>
+      <point x="70" y="213" type="line"/>
+      <point x="70" y="147" type="line"/>
     </contour>
   </outline>
 </glyph>
