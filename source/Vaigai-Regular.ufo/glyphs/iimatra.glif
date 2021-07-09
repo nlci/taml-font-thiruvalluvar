@@ -82,13 +82,5 @@
       <point x="-392" y="471"/>
       <point x="-379" y="453"/>
     </contour>
-    <contour>
-      <point x="2" y="0" type="line"/>
-      <point x="0" y="2" type="line"/>
-    </contour>
-    <contour>
-      <point x="2" y="0" type="line"/>
-      <point x="0" y="2" type="line"/>
-    </contour>
   </outline>
 </glyph>

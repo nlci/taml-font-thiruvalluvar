@@ -15,13 +15,5 @@
       <point x="-305" y="1068" type="line"/>
       <point x="-305" y="772" type="line"/>
     </contour>
-    <contour>
-      <point x="2" y="0" type="line"/>
-      <point x="0" y="2" type="line"/>
-    </contour>
-    <contour>
-      <point x="2" y="0" type="line"/>
-      <point x="0" y="2" type="line"/>
-    </contour>
   </outline>
 </glyph>

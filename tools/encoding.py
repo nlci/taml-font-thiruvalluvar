@@ -26,16 +26,6 @@ double.unicode = None
 
 rings.unicode = None
 
-## Cleanup
-dots = ('virama', 'vedictonedotbelow', 'vedictonetwodotsbelow', 'vedictonethreedotsbelow')
-for dot in dots:
-    glyph = font[dot]
-    for contour in glyph.contours:
-        # print(dot)
-        # print(len(contour))
-        if len(contour) <= 2:
-            glyph.removeContour(contour)
-
 ## Adjust new characters
 anusvara = font['anusvara']
 virama = font['virama']
