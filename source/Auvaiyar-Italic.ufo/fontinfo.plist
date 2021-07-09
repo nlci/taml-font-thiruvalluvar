@@ -24,7 +24,7 @@ Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
   <key>italicAngle</key>
   <integer>-12</integer>
   <key>openTypeHeadCreated</key>
-  <string>2021/05/31 11:24:30</string>
+  <string>2021/07/07 12:09:33</string>
   <key>openTypeHheaAscender</key>
   <integer>915</integer>
   <key>openTypeHheaDescender</key>
@@ -171,6 +171,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     <integer>0</integer>
     <integer>0</integer>
     <integer>0</integer>
+  </array>
+  <key>openTypeOS2Selection</key>
+  <array>
+    <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>259</integer>
