@@ -263,6 +263,7 @@
     <string>tilde</string>
     <string>hungarumlaut</string>
     <string>CombCaron</string>
+    <string>dotbelowcomb</string>
     <string>circumflexbelowcomb</string>
     <string>almostequaltocomb</string>
     <string>cgj</string>
@@ -591,8 +592,9 @@
     <string>zwnbsp</string>
     <string>ObjectReplChar</string>
     <string>ReplChar</string>
-    <string>nuktanew</string>
+    <string>bindu</string>
     <string>nukta</string>
+    <string>nukta.dot</string>
     <string>nukta.dotdbl</string>
     <string>nukta.ringdbl</string>
     <string>CombAcute</string>
@@ -715,6 +717,8 @@
     <string>uni16C7</string>
     <key>avowel</key>
     <string>uni0B85</string>
+    <key>bindu</key>
+    <string>u1133B</string>
     <key>bulletoperator</key>
     <string>uni2219</string>
     <key>ca</key>
@@ -997,12 +1001,12 @@
     <string>uni0BA90BCD</string>
     <key>nukta</key>
     <string>u1133C</string>
+    <key>nukta.dot</key>
+    <string>u1133C.dot</string>
     <key>nukta.dotdbl</key>
     <string>u1133C.dotdbl</string>
     <key>nukta.ringdbl</key>
     <string>u1133C.ringdbl</string>
-    <key>nuktanew</key>
-    <string>u1133B</string>
     <key>numberonehundred</key>
     <string>uni0BF1</string>
     <key>numberonethousand</key>
