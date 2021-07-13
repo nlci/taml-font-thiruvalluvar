@@ -310,6 +310,8 @@
   <string>backslash.glif</string>
   <key>bar</key>
   <string>bar.glif</string>
+  <key>bindu</key>
+  <string>bindu.glif</string>
   <key>braceleft</key>
   <string>braceleft.glif</string>
   <key>braceright</key>
@@ -408,6 +410,8 @@
   <string>dollar.glif</string>
   <key>dotaccent</key>
   <string>dotaccent.glif</string>
+  <key>dotbelowcomb</key>
+  <string>dotbelowcomb.glif</string>
   <key>dotlessi</key>
   <string>dotlessi.glif</string>
   <key>dottedcircle</key>
@@ -776,12 +780,12 @@
   <string>ntilde.glif</string>
   <key>nukta</key>
   <string>nukta.glif</string>
+  <key>nukta.dot</key>
+  <string>nukta.dot.glif</string>
   <key>nukta.dotdbl</key>
   <string>nukta.dotdbl.glif</string>
   <key>nukta.ringdbl</key>
   <string>nukta.ringdbl.glif</string>
-  <key>nuktanew</key>
-  <string>nuktanew.glif</string>
   <key>numberonehundred</key>
   <string>numberonehundred.glif</string>
   <key>numberonethousand</key>
