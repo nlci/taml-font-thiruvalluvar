@@ -1,1 +1,3 @@
 vedicsignjihvamuliya.alt = vedicsignjihvamuliya
+bindu = nukta | 1133B
+dotbelowcomb = nukta | 0323

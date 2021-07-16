@@ -79,7 +79,7 @@ caroncomb.unicode = 0x030C
 
 ka = font['ka']
 top = 0
-for anchors in ka.anchors:
+for anchor in ka.anchors:
     if anchor.name == 'V':
         top = anchor.y
 
@@ -101,11 +101,32 @@ avagraha.name = 'avagraha'
 avagraha.unicode = 0x16C7 #  0x1133D
 
 ## Posistion extra vowels on nuktas (U+1133C and related)
+
+# anchor for nukta as a base
 for glyph in font:
     if glyph.name.startswith('nukta'):
         (xmin, ymin, xmax, ymax) = glyph.bounds
         xcenter = (xmin + xmax) / 2
         glyph.appendAnchor('N', (xcenter, ymin - mark_offset + base_offset))
+
+# get anchor posistion from nukta glyph...
+(xmin, ymin, xmax, ymax) = ring.bounds
+for anchor in ring.anchors:
+    if anchor.name == '_N':
+        xmark = anchor.x
+        ymark = anchor.y
+    if anchor.name == 'N':
+        xbase = anchor.x
+        ybase = anchor.y
+
+# ...to apply to the composite nuktas
+for glyph in font:
+    if glyph.name in ('bindu', 'dotbelowcomb'):
+        glyph.appendAnchor('N', (xbase, ybase))
+        for anchor in glyph.anchors:
+            if anchor.name == '_N':
+                anchor.x = xmark
+                anchor.y = ymark
 
 # Save UFO
 font.changed()

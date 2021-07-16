@@ -36,12 +36,15 @@ lookup FontCheck {
 lookup NuktaIRU {
   lookupflag 0;
     sub nukta by nukta.ringdbl;
+    sub bindu by nukta.ringdbl;
+    sub dotbelowcomb by nukta.ringdbl;
 } NuktaIRU;
 
 lookup NuktaCTT {
   lookupflag 0;
-    sub nukta by nuktanew;
-    sub nuktanew by nukta;
+    sub nukta by nukta.dot;
+    sub bindu by nukta.dot;
+    sub dotbelowcomb by nukta.dot;
 } NuktaCTT;
 
 lookup Akhands {
@@ -51,9 +54,9 @@ lookup Akhands {
     # might need ligatures with some matras for ka_ssa
 
     # sub ka umatra nukta dottedcircle virama by ka_umatra_nukta_virama;
-    # sub ka umatra nuktanew dottedcircle virama by ka_umatra_nukta_virama;
+    # sub ka umatra nukta.dot dottedcircle virama by ka_umatra_nukta_virama;
     # sub ka umatra nukta virama by ka_umatra_nukta_virama;
-    # sub ka umatra nuktanew virama by ka_umatra_nukta_virama;
+    # sub ka umatra nukta.dot virama by ka_umatra_nukta_virama;
 } Akhands;
 
 lookup AkhandMatras {
@@ -96,9 +99,9 @@ lookup uuMatras {
 # lookup NuktaLigs {
 #   lookupflag 0;
 #     sub ka umatra nukta dottedcircle virama by ka_umatra_nukta_virama;
-#     sub ka umatra nuktanew dottedcircle virama by ka_umatra_nukta_virama;
+#     sub ka umatra nukta.dot dottedcircle virama by ka_umatra_nukta_virama;
 #     sub ka umatra nukta virama by ka_umatra_nukta_virama;
-#     sub ka umatra nuktanew virama by ka_umatra_nukta_virama;
+#     sub ka umatra nukta.dot virama by ka_umatra_nukta_virama;
 # } NuktaLigs;
 
 # lookup ViramaLigs {

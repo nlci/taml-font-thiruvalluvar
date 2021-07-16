@@ -15,8 +15,8 @@ double = font['nukta.double']
 ring = font['nukta.ring']
 rings = font['nukta.ringdbl']
 
-single.name = 'nuktanew'
-single.unicode = 0x1133B
+single.name = 'nukta.dot'
+single.unicode = None
 
 ring.name = 'nukta'
 ring.unicode = 0x1133C

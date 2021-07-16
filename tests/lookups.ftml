@@ -3,7 +3,10 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
-    <fontsrc>url(../results/TAMLThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc label="Ref">url(../references/ThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc label="GR">url(../results/ThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc label="OT">url(../results/tests/ftml/fonts/ThiruValluvar-Regular_ot_tml2.ttf)</fontsrc>
+    <fontsrc label="Bold">url(../results/ThiruValluvar-Bold.ttf)</fontsrc>
     <title>Lookups</title>
   </head>
   <testgroup label="Rendering check">
