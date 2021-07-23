@@ -26,12 +26,6 @@ double.unicode = None
 
 rings.unicode = None
 
-## Adjust new characters
-anusvara = font['anusvara']
-virama = font['virama']
-anusvara.leftMargin = virama.leftMargin
-anusvara.rightMargin = virama.rightMargin
-
 # Save UFO
 font.changed()
 font.save()

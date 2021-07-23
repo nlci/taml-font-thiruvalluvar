@@ -262,6 +262,7 @@
     <string>ogonek</string>
     <string>tilde</string>
     <string>hungarumlaut</string>
+    <string>dotabovecomb</string>
     <string>CombCaron</string>
     <string>dotbelowcomb</string>
     <string>circumflexbelowcomb</string>
@@ -763,6 +764,8 @@
     <string>uni0BF6</string>
     <key>divisionslash</key>
     <string>uni2215</string>
+    <key>dotabovecomb</key>
+    <string>uni0307</string>
     <key>dottedcircle</key>
     <string>uni25CC</string>
     <key>eematra</key>

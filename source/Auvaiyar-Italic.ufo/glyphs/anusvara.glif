@@ -2,6 +2,7 @@
 <glyph name="anusvara" format="2">
   <advance width="65"/>
   <unicode hex="0B82"/>
+  <anchor x="257" y="455" name="_V"/>
   <outline>
     <contour>
       <point x="314" y="582" type="curve" smooth="yes"/>

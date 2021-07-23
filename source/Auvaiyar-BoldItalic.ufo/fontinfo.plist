@@ -24,7 +24,7 @@ Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
   <key>italicAngle</key>
   <integer>-12</integer>
   <key>openTypeHeadCreated</key>
-  <string>2021/07/07 12:09:34</string>
+  <string>2021/07/23 13:59:28</string>
   <key>openTypeHheaAscender</key>
   <integer>915</integer>
   <key>openTypeHheaDescender</key>
@@ -153,7 +153,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>NLCI: Auvaiyar Bold Italic: 2021</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.702</string>
+  <string>Version 0.703</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -266,7 +266,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>702</integer>
+  <integer>703</integer>
   <key>xHeight</key>
   <integer>434</integer>
 </dict>

@@ -17,6 +17,19 @@ def ps_upm(points):
     return int(points*1000/2048)
 
 
+## Adjust new characters
+anusvara = font['anusvara']
+virama = font['virama']
+anusvara.leftMargin = virama.leftMargin
+anusvara.rightMargin = virama.rightMargin
+(xmin, ymin, xmax, ymax) = anusvara.bounds
+xcenter = (xmin + xmax) / 2
+for anchor in virama.anchors:
+    if anchor.name == '_V':
+        x = xcenter
+        y = anchor.y
+        anusvara.appendAnchor('_V', (x, y))
+
 ## Move single ring closer to base character
 ring = font['nukta']
 for anchor in ring.anchors:

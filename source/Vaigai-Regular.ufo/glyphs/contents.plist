@@ -406,6 +406,8 @@
   <string>divisionslash.glif</string>
   <key>dollar</key>
   <string>dollar.glif</string>
+  <key>dotabovecomb</key>
+  <string>dotabovecomb.glif</string>
   <key>dotaccent</key>
   <string>dotaccent.glif</string>
   <key>dotbelowcomb</key>
