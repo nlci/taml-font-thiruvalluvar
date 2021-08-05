@@ -1,27 +1,29 @@
 #!/usr/bin/python3
 'generate ftml tests from glyph_data.csv and UFO'
 __url__ = 'http://github.com/silnrsi/pysilfont'
-__copyright__ = 'Copyright (c) 2018 SIL International  (http://www.sil.org)'
+__copyright__ = 'Copyright (c) 2018,2021 SIL International  (http://www.sil.org)'
 __license__ = 'Released under the MIT License (http://opensource.org/licenses/MIT)'
 __author__ = 'Bob Hallissy'
 
+import re
 from silfont.core import execute
 import silfont.ftml_builder as FB
 
 argspec = [
-    ('ifont',{'help': 'Input UFO'}, {'type': 'infont'}),
-    ('output',{'help': 'Output file ftml in XML format', 'nargs': '?'}, {'type': 'outfile', 'def': '_out.ftml'}),
-    ('-i','--input',{'help': 'Glyph info csv file'}, {'type': 'incsv', 'def': 'glyph_data.csv'}),
-    ('-f','--fontcode',{'help': 'letter to filter for glyph_data'},{}),
-    ('-l','--log',{'help': 'Set log file name'}, {'type': 'outfile', 'def': '_ftml.log'}),
+    ('ifont', {'help': 'Input UFO'}, {'type': 'infont'}),
+    ('output', {'help': 'Output file ftml in XML format', 'nargs': '?'}, {'type': 'outfile', 'def': '_out.ftml'}),
+    ('-i','--input', {'help': 'Glyph info csv file'}, {'type': 'incsv', 'def': 'glyph_data.csv'}),
+    ('-f','--fontcode', {'help': 'letter to filter for glyph_data'},{}),
+    ('-l','--log', {'help': 'Set log file name'}, {'type': 'outfile', 'def': '_ftml.log'}),
     ('--langs', {'help':'List of bcp47 language tags', 'default': None}, {}),
     ('--rtl', {'help': 'enable right-to-left features', 'action': 'store_true'}, {}),
-    ('-t', '--test', {'help': 'which test to build', 'default': None, 'action': 'store'}, {}),
+    ('--norendercheck', {'help': 'do not include the RenderingUnknown check', 'action': 'store_true'}, {}),
+    ('-t', '--test', {'help': 'name of the test to generate', 'default': None}, {}),
     ('-s','--fontsrc', {'help': 'font source: "url()" or "local()" optionally followed by "=label"', 'action': 'append'}, {}),
-    ('--scale', {'help': '% to scale rendered text'}, {}),
-    ('--ap', {'help': 'regular expression describing APs to examine', 'default': '.', 'action': 'store'}, {}),
+    ('--scale', {'help': 'percentage to scale rendered text (default 100)'}, {}),
+    ('--ap', {'help': 'regular expression describing APs to examine', 'default': '.'}, {}),
+    ('-w', '--width', {'help': 'total width of all <string> column (default automatic)'}, {}),
     ('--xsl', {'help': 'XSL stylesheet to use'}, {}),
-
 ]
 
 
@@ -29,14 +31,25 @@ def doit(args):
     logger = args.logger
 
     # Read input csv
-    builder = FB.FTMLBuilder(logger, incsv = args.input, fontcode = args.fontcode, font = args.ifont, langs=args.langs, ap = args.ap)
+    builder = FB.FTMLBuilder(logger, incsv=args.input, fontcode=args.fontcode, font=args.ifont, ap=args.ap,
+                             rtlenable=True, langs=args.langs)
 
     # Override default base (25CC) for displaying combining marks:
     builder.diacBase = 0x0B95   # ka
 
     # Initialize FTML document:
-    test = args.test or "AllChars (NG)"  # Default to "AllChars (NG)"
-
+    # Default name for test: AllChars or something based on the csvdata file:
+    test = args.test or 'AllChars (NG)'
+    widths = None
+    if args.width:
+        try:
+            width, units = re.match(r'(\d+)(.*)$', args.width).groups()
+            if len(args.fontsrc):
+                width = int(round(int(width)/len(args.fontsrc)))
+            widths = {'string': f'{width}{units}'}
+            logger.log(f'width: {args.width} --> {widths["string"]}', 'I')
+        except:
+            logger.log(f'Unable to parse width argument "{args.width}"', 'W')
     # split labels from fontsource parameter
     fontsrc = []
     labels = []
@@ -48,8 +61,8 @@ def doit(args):
         except ValueError:
             fontsrc.append(sl)
             labels.append(None)
-
-    ftml = FB.FTML(test, logger, rendercheck = True, fontscale = args.scale, xslfn = args.xsl, fontsrc = fontsrc, fontlabel = labels)
+    ftml = FB.FTML(test, logger, rendercheck=not args.norendercheck, fontscale=args.scale,
+                   widths=widths, xslfn=args.xsl, fontsrc=fontsrc, fontlabel=labels, defaultrtl=args.rtl)
 
     if test.lower().startswith("allchars"):
         # all chars that should be in the font:
@@ -86,12 +99,16 @@ def doit(args):
                     ftml.closeTest()
                 ftml.clearLang()
 
+    above_marks = (0x0323, 0x1133B, 0x1133C)
+    below_marks = (0x0307, 0x0B82, 0x0BCD)
+    marks = above_marks + below_marks
+
     if test.lower().startswith("diac"):
         # Diac attachment:
 
         # Representative base and diac chars:
-        repDiac = filter(lambda x: x in builder.uids(), (0x0B82, 0x0BCD))
-        repBase = filter(lambda x: x in builder.uids(), (0x0B95, 0x0B85))
+        repDiac = list(filter(lambda x: x in builder.uids(), marks))
+        repBase = list(filter(lambda x: x in builder.uids(), (0x0B95, 0x0B85)))
 
         ftml.startTestGroup('Representative diacritics on all bases that take diacritics')
         for uid in sorted(builder.uids()):
@@ -128,8 +145,8 @@ def doit(args):
         with open(f'tests/{test_name}.template') as nuktas:
             line_number = 1
             for line in nuktas:
-                for n in (0x0323, 0x1133B, 0x1133C):
-                    for v in (0x0307, 0x0B82, 0x0BCD):
+                for n in above_marks:
+                    for v in below_marks:
                         text = line.replace('N', chr(n))
                         text = text.replace('V', chr(v))
                         ftml.addToTest(None, text, label=f'line {line_number}', comment=f'n={n:04X} v={v:04X}')
