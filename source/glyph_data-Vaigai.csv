@@ -274,153 +274,153 @@ ovowel,uni0B92,271,0B92
 oovowel,uni0B93,272,0B93
 auvowel,uni0B94,273,0B94
 ka,uni0B95,274,0B95
-ka_ssa,uni0B950BB7,275,
-ka_ssa_imatra,uni0B950BB70BBF,276,
-ka_ssa_iimatra,uni0B950BB70BC0,277,
-ka_ssa_virama,uni0B950BB70BCD,278,
-ka_imatra,uni0B950BBF,279,
-ka_iimatra,uni0B950BC0,280,
-ka_umatra,uni0B950BC1,281,
-ka_uumatra,uni0B950BC2,282,
+ka_ssa,uni0B950BB7,275,0B95 0BB7
+ka_ssa_imatra,uni0B950BB70BBF,276,0B95 0BB7 0BBF
+ka_ssa_iimatra,uni0B950BB70BC0,277,0B95 0BB7 0BC0
+ka_ssa_virama,uni0B950BB70BCD,278,0B95 0BB7 0BCD
+ka_imatra,uni0B950BBF,279,0B95 0BBF
+ka_iimatra,uni0B950BC0,280,0B95 0BC0
+ka_umatra,uni0B950BC1,281,0B95 0BC1
+ka_uumatra,uni0B950BC2,282,0B95 0BC2
 ka_uumatra.old,uni0B950BC2.old,283,
-ka_virama,uni0B950BCD,284,
+ka_virama,uni0B950BCD,284,0B95 0BCD
 nga,uni0B99,285,0B99
-nga_imatra,uni0B990BBF,286,
-nga_iimatra,uni0B990BC0,287,
-nga_umatra,uni0B990BC1,288,
-nga_uumatra,uni0B990BC2,289,
-nga_virama,uni0B990BCD,290,
+nga_imatra,uni0B990BBF,286,0B99 0BBF
+nga_iimatra,uni0B990BC0,287,0B99 0BC0
+nga_umatra,uni0B990BC1,288,0B99 0BC1
+nga_uumatra,uni0B990BC2,289,0B99 0BC2
+nga_virama,uni0B990BCD,290,0B99 0BCD
 nga_virama.alt,uni0B990BCD.alt,291,
 ca,uni0B9A,292,0B9A
-ca_imatra,uni0B9A0BBF,293,
-ca_iimatra,uni0B9A0BC0,294,
-ca_umatra,uni0B9A0BC1,295,
-ca_uumatra,uni0B9A0BC2,296,
-ca_virama,uni0B9A0BCD,297,
+ca_imatra,uni0B9A0BBF,293,0B9A 0BBF
+ca_iimatra,uni0B9A0BC0,294,0B9A 0BC0
+ca_umatra,uni0B9A0BC1,295,0B9A 0BC1
+ca_uumatra,uni0B9A0BC2,296,0B9A 0BC2
+ca_virama,uni0B9A0BCD,297,0B9A 0BCD
 ja,uni0B9C,298,0B9C
-ja_imatra,uni0B9C0BBF,299,
-ja_iimatra,uni0B9C0BC0,300,
-ja_virama,uni0B9C0BCD,301,
+ja_imatra,uni0B9C0BBF,299,0B9C 0BBF
+ja_iimatra,uni0B9C0BC0,300,0B9C 0BC0
+ja_virama,uni0B9C0BCD,301,0B9C 0BCD
 nya,uni0B9E,302,0B9E
-nya_imatra,uni0B9E0BBF,303,
-nya_iimatra,uni0B9E0BC0,304,
-nya_umatra,uni0B9E0BC1,305,
-nya_uumatra,uni0B9E0BC2,306,
-nya_virama,uni0B9E0BCD,307,
+nya_imatra,uni0B9E0BBF,303,0B9E 0BBF
+nya_iimatra,uni0B9E0BC0,304,0B9E 0BC0
+nya_umatra,uni0B9E0BC1,305,0B9E 0BC1
+nya_uumatra,uni0B9E0BC2,306,0B9E 0BC2
+nya_virama,uni0B9E0BCD,307,0B9E 0BCD
 tta,uni0B9F,308,0B9F
-tta_imatra,uni0B9F0BBF,309,
-tta_iimatra,uni0B9F0BC0,310,
-tta_umatra,uni0B9F0BC1,311,
-tta_uumatra,uni0B9F0BC2,312,
-tta_virama,uni0B9F0BCD,313,
+tta_imatra,uni0B9F0BBF,309,0B9F 0BBF
+tta_iimatra,uni0B9F0BC0,310,0B9F 0BC0
+tta_umatra,uni0B9F0BC1,311,0B9F 0BC1
+tta_uumatra,uni0B9F0BC2,312,0B9F 0BC2
+tta_virama,uni0B9F0BCD,313,0B9F 0BCD
 nna,uni0BA3,314,0BA3
-nna_aamatra,uni0BA30BBE,315,
+nna_aamatra,uni0BA30BBE,315,0BA3 0BBE
 nna_aamatra.old,uni0BA30BBE.old,316,
-nna_imatra,uni0BA30BBF,317,
-nna_iimatra,uni0BA30BC0,318,
-nna_umatra,uni0BA30BC1,319,
-nna_uumatra,uni0BA30BC2,320,
-nna_aimatra,uni0BA30BC8,321,
+nna_imatra,uni0BA30BBF,317,0BA3 0BBF
+nna_iimatra,uni0BA30BC0,318,0BA3 0BC0
+nna_umatra,uni0BA30BC1,319,0BA3 0BC1
+nna_uumatra,uni0BA30BC2,320,0BA3 0BC2
+nna_aimatra,uni0BA30BC8,321,0BA3 0BC8
 nna_aimatra.old,uni0BA30BC8.old,322,
-nna_virama,uni0BA30BCD,323,
+nna_virama,uni0BA30BCD,323,0BA3 0BCD
 ta,uni0BA4,324,0BA4
-ta_imatra,uni0BA40BBF,325,
-ta_iimatra,uni0BA40BC0,326,
-ta_umatra,uni0BA40BC1,327,
-ta_uumatra,uni0BA40BC2,328,
-ta_virama,uni0BA40BCD,329,
+ta_imatra,uni0BA40BBF,325,0BA4 0BBF
+ta_iimatra,uni0BA40BC0,326,0BA4 0BC0
+ta_umatra,uni0BA40BC1,327,0BA4 0BC1
+ta_uumatra,uni0BA40BC2,328,0BA4 0BC2
+ta_virama,uni0BA40BCD,329,0BA4 0BCD
 na,uni0BA8,330,0BA8
-na_imatra,uni0BA80BBF,331,
-na_iimatra,uni0BA80BC0,332,
-na_umatra,uni0BA80BC1,333,
-na_uumatra,uni0BA80BC2,334,
-na_virama,uni0BA80BCD,335,
+na_imatra,uni0BA80BBF,331,0BA8 0BBF
+na_iimatra,uni0BA80BC0,332,0BA8 0BC0
+na_umatra,uni0BA80BC1,333,0BA8 0BC1
+na_uumatra,uni0BA80BC2,334,0BA8 0BC2
+na_virama,uni0BA80BCD,335,0BA8 0BCD
 nnna,uni0BA9,336,0BA9
-nnna_aamatra,uni0BA90BBE,337,
+nnna_aamatra,uni0BA90BBE,337,0BA9 0BBE
 nnna_aamatra.old,uni0BA90BBE.old,338,
-nnna_imatra,uni0BA90BBF,339,
-nnna_iimatra,uni0BA90BC0,340,
-nnna_umatra,uni0BA90BC1,341,
-nnna_uumatra,uni0BA90BC2,342,
-nnna_aimatra,uni0BA90BC8,343,
+nnna_imatra,uni0BA90BBF,339,0BA9 0BBF
+nnna_iimatra,uni0BA90BC0,340,0BA9 0BC0
+nnna_umatra,uni0BA90BC1,341,0BA9 0BC1
+nnna_uumatra,uni0BA90BC2,342,0BA9 0BC2
+nnna_aimatra,uni0BA90BC8,343,0BA9 0BC8
 nnna_aimatra.old,uni0BA90BC8.old,344,
-nnna_virama,uni0BA90BCD,345,
+nnna_virama,uni0BA90BCD,345,0BA9 0BCD
 pa,uni0BAA,346,0BAA
-pa_imatra,uni0BAA0BBF,347,
-pa_iimatra,uni0BAA0BC0,348,
-pa_umatra,uni0BAA0BC1,349,
-pa_uumatra,uni0BAA0BC2,350,
-pa_virama,uni0BAA0BCD,351,
+pa_imatra,uni0BAA0BBF,347,0BAA 0BBF
+pa_iimatra,uni0BAA0BC0,348,0BAA 0BC0
+pa_umatra,uni0BAA0BC1,349,0BAA 0BC1
+pa_uumatra,uni0BAA0BC2,350,0BAA 0BC2
+pa_virama,uni0BAA0BCD,351,0BAA 0BCD
 ma,uni0BAE,352,0BAE
-ma_imatra,uni0BAE0BBF,353,
-ma_iimatra,uni0BAE0BC0,354,
-ma_umatra,uni0BAE0BC1,355,
-ma_uumatra,uni0BAE0BC2,356,
-ma_virama,uni0BAE0BCD,357,
+ma_imatra,uni0BAE0BBF,353,0BAE 0BBF
+ma_iimatra,uni0BAE0BC0,354,0BAE 0BC0
+ma_umatra,uni0BAE0BC1,355,0BAE 0BC1
+ma_uumatra,uni0BAE0BC2,356,0BAE 0BC2
+ma_virama,uni0BAE0BCD,357,0BAE 0BCD
 ya,uni0BAF,358,0BAF
-ya_imatra,uni0BAF0BBF,359,
-ya_iimatra,uni0BAF0BC0,360,
-ya_umatra,uni0BAF0BC1,361,
-ya_uumatra,uni0BAF0BC2,362,
-ya_virama,uni0BAF0BCD,363,
+ya_imatra,uni0BAF0BBF,359,0BAF 0BBF
+ya_iimatra,uni0BAF0BC0,360,0BAF 0BC0
+ya_umatra,uni0BAF0BC1,361,0BAF 0BC1
+ya_uumatra,uni0BAF0BC2,362,0BAF 0BC2
+ya_virama,uni0BAF0BCD,363,0BAF 0BCD
 ra,uni0BB0,364,0BB0
-ra_imatra,uni0BB00BBF,365,
-ra_iimatra,uni0BB00BC0,366,
-ra_umatra,uni0BB00BC1,367,
-ra_uumatra,uni0BB00BC2,368,
-ra_virama,uni0BB00BCD,369,
+ra_imatra,uni0BB00BBF,365,0BB0 0BBF
+ra_iimatra,uni0BB00BC0,366,0BB0 0BC0
+ra_umatra,uni0BB00BC1,367,0BB0 0BC1
+ra_uumatra,uni0BB00BC2,368,0BB0 0BC2
+ra_virama,uni0BB00BCD,369,0BB0 0BCD
 rra,uni0BB1,370,0BB1
-rra_aamatra,uni0BB10BBE,371,
+rra_aamatra,uni0BB10BBE,371,0BB1 0BBE
 rra_aamatra.old,uni0BB10BBE.old,372,
-rra_imatra,uni0BB10BBF,373,
-rra_iimatra,uni0BB10BC0,374,
-rra_umatra,uni0BB10BC1,375,
-rra_uumatra,uni0BB10BC2,376,
-rra_virama,uni0BB10BCD,377,
+rra_imatra,uni0BB10BBF,373,0BB1 0BBF
+rra_iimatra,uni0BB10BC0,374,0BB1 0BC0
+rra_umatra,uni0BB10BC1,375,0BB1 0BC1
+rra_uumatra,uni0BB10BC2,376,0BB1 0BC2
+rra_virama,uni0BB10BCD,377,0BB1 0BCD
 la,uni0BB2,378,0BB2
 la.old,uni0BB2.old,379,
-la_imatra,uni0BB20BBF,380,
-la_iimatra,uni0BB20BC0,381,
-la_umatra,uni0BB20BC1,382,
-la_uumatra,uni0BB20BC2,383,
-la_aimatra,uni0BB20BC8,384,
+la_imatra,uni0BB20BBF,380,0BB2 0BBF
+la_iimatra,uni0BB20BC0,381,0BB2 0BC0
+la_umatra,uni0BB20BC1,382,0BB2 0BC1
+la_uumatra,uni0BB20BC2,383,0BB2 0BC2
+la_aimatra,uni0BB20BC8,384,0BB2 0BC8
 la_aimatra.old,uni0BB20BC8.old,385,
-la_virama,uni0BB20BCD,386,
+la_virama,uni0BB20BCD,386,0BB2 0BCD
 lla,uni0BB3,387,0BB3
-lla_imatra,uni0BB30BBF,388,
-lla_iimatra,uni0BB30BC0,389,
-lla_umatra,uni0BB30BC1,390,
-lla_uumatra,uni0BB30BC2,391,
-lla_aimatra,uni0BB30BC8,392,
+lla_imatra,uni0BB30BBF,388,0BB3 0BBF
+lla_iimatra,uni0BB30BC0,389,0BB3 0BC0
+lla_umatra,uni0BB30BC1,390,0BB3 0BC1
+lla_uumatra,uni0BB30BC2,391,0BB3 0BC2
+lla_aimatra,uni0BB30BC8,392,0BB3 0BC8
 lla_aimatra.old,uni0BB30BC8.old,393,
-lla_virama,uni0BB30BCD,394,
+lla_virama,uni0BB30BCD,394,0BB3 0BCD
 llla,uni0BB4,395,0BB4
-llla_imatra,uni0BB40BBF,396,
-llla_iimatra,uni0BB40BC0,397,
-llla_umatra,uni0BB40BC1,398,
-llla_uumatra,uni0BB40BC2,399,
-llla_virama,uni0BB40BCD,400,
+llla_imatra,uni0BB40BBF,396,0BB4 0BBF
+llla_iimatra,uni0BB40BC0,397,0BB4 0BC0
+llla_umatra,uni0BB40BC1,398,0BB4 0BC1
+llla_uumatra,uni0BB40BC2,399,0BB4 0BC2
+llla_virama,uni0BB40BCD,400,0BB4 0BCD
 va,uni0BB5,401,0BB5
-va_imatra,uni0BB50BBF,402,
-va_iimatra,uni0BB50BC0,403,
-va_umatra,uni0BB50BC1,404,
-va_uumatra,uni0BB50BC2,405,
-va_virama,uni0BB50BCD,406,
+va_imatra,uni0BB50BBF,402,0BB5 0BBF
+va_iimatra,uni0BB50BC0,403,0BB5 0BC0
+va_umatra,uni0BB50BC1,404,0BB5 0BC1
+va_uumatra,uni0BB50BC2,405,0BB5 0BC2
+va_virama,uni0BB50BCD,406,0BB5 0BCD
 sha,uni0BB6,407,0BB6
 ssa,uni0BB7,408,0BB7
-ssa_imatra,uni0BB70BBF,409,
-ssa_iimatra,uni0BB70BC0,410,
-ssa_aimatra,uni0BB70BC8,411,
-ssa_virama,uni0BB70BCD,412,
+ssa_imatra,uni0BB70BBF,409,0BB7 0BBF
+ssa_iimatra,uni0BB70BC0,410,0BB7 0BC0
+ssa_aimatra,uni0BB70BC8,411,0BB7 0BC8
+ssa_virama,uni0BB70BCD,412,0BB7 0BCD
 sa,uni0BB8,413,0BB8
-sa_imatra,uni0BB80BBF,414,
-sa_iimatra,uni0BB80BC0,415,
-sa_virama,uni0BB80BCD,416,
-sa_virama_ra_iimatra,uni0BB80BCD0BB00BC0,417,
+sa_imatra,uni0BB80BBF,414,0BB8 0BBF
+sa_iimatra,uni0BB80BC0,415,0BB8 0BC0
+sa_virama,uni0BB80BCD,416,0BB8 0BCD
+sa_virama_ra_iimatra,uni0BB80BCD0BB00BC0,417,0BB8 0BCD 0BB0 0BC0
 ha,uni0BB9,418,0BB9
-ha_imatra,uni0BB90BBF,419,
-ha_iimatra,uni0BB90BC0,420,
-ha_virama,uni0BB90BCD,421,
+ha_imatra,uni0BB90BBF,419,0BB9 0BBF
+ha_iimatra,uni0BB90BC0,420,0BB9 0BC0
+ha_virama,uni0BB90BCD,421,0BB9 0BCD
 aamatra,uni0BBE,422,0BBE
 imatra,uni0BBF,423,0BBF
 iimatra,uni0BC0,424,0BC0

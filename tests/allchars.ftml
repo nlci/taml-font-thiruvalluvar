@@ -17,87 +17,11 @@
   <testgroup label="Encoded characters">
     <test label="U+0020">
       <comment>space</comment>
-      <string>\u00F130 \u00F131 ! " # $ % &amp; '</string>
-    </test>
-    <test label="U+0028">
-      <comment>parenleft</comment>
-      <string>( LTR: \u00202A(\u00202C RTL: \u00202B(\u00202C</string>
-    </test>
-    <test label="U+0029">
-      <comment>parenright</comment>
-      <string>) LTR: \u00202A)\u00202C RTL: \u00202B)\u00202C</string>
-    </test>
-    <test label="U+002A">
-      <comment>asterisk</comment>
-      <string>* + , - . / 0 1 2 3 4 5 6 7 8 9 : ;</string>
-    </test>
-    <test label="U+003C">
-      <comment>less</comment>
-      <string>&lt; LTR: \u00202A&lt;\u00202C RTL: \u00202B&lt;\u00202C</string>
-    </test>
-    <test label="U+003D">
-      <comment>equal</comment>
-      <string>=</string>
-    </test>
-    <test label="U+003E">
-      <comment>greater</comment>
-      <string>&gt; LTR: \u00202A&gt;\u00202C RTL: \u00202B&gt;\u00202C</string>
-    </test>
-    <test label="U+003F">
-      <comment>question</comment>
-      <string>? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</string>
-    </test>
-    <test label="U+005B">
-      <comment>bracketleft</comment>
-      <string>[ LTR: \u00202A[\u00202C RTL: \u00202B[\u00202C</string>
-    </test>
-    <test label="U+005C">
-      <comment>backslash</comment>
-      <string>\</string>
-    </test>
-    <test label="U+005D">
-      <comment>bracketright</comment>
-      <string>] LTR: \u00202A]\u00202C RTL: \u00202B]\u00202C</string>
-    </test>
-    <test label="U+005E">
-      <comment>asciicircum</comment>
-      <string>^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z</string>
-    </test>
-    <test label="U+007B">
-      <comment>braceleft</comment>
-      <string>{ LTR: \u00202A{\u00202C RTL: \u00202B{\u00202C</string>
-    </test>
-    <test label="U+007C">
-      <comment>bar</comment>
-      <string>|</string>
-    </test>
-    <test label="U+007D">
-      <comment>braceright</comment>
-      <string>} LTR: \u00202A}\u00202C RTL: \u00202B}\u00202C</string>
-    </test>
-    <test label="U+007E">
-      <comment>asciitilde</comment>
-      <string>~</string>
+      <string>\u00F130 \u00F131 ! " # $ % &amp; ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~</string>
     </test>
     <test label="U+00A0">
       <comment>nbsp</comment>
-      <string>\u00F130\u0000A0\u00F131 \u0000A1 \u0000A2 \u0000A3 \u0000A4 \u0000A5 \u0000A6 \u0000A7 \u0000A8 \u0000A9 \u0000AA</string>
-    </test>
-    <test label="U+00AB">
-      <comment>guillemotleft</comment>
-      <string>\u0000AB LTR: \u00202A\u0000AB\u00202C RTL: \u00202B\u0000AB\u00202C</string>
-    </test>
-    <test label="U+00AC">
-      <comment>logicalnot</comment>
-      <string>\u0000AC \u0000AD \u0000AE \u0000AF \u0000B0 \u0000B1 \u0000B2 \u0000B3 \u0000B4 \u0000B5 \u0000B6 \u0000B7 \u0000B8 \u0000B9 \u0000BA</string>
-    </test>
-    <test label="U+00BB">
-      <comment>guillemotright</comment>
-      <string>\u0000BB LTR: \u00202A\u0000BB\u00202C RTL: \u00202B\u0000BB\u00202C</string>
-    </test>
-    <test label="U+00BC">
-      <comment>onequarter</comment>
-      <string>\u0000BC \u0000BD \u0000BE \u0000BF \u0000C0 \u0000C1 \u0000C2 \u0000C3 \u0000C4 \u0000C5 \u0000C6 \u0000C7 \u0000C8 \u0000C9 \u0000CA \u0000CB \u0000CC \u0000CD \u0000CE \u0000CF \u0000D0 \u0000D1 \u0000D2 \u0000D3 \u0000D4 \u0000D5 \u0000D6 \u0000D7 \u0000D8 \u0000D9 \u0000DA \u0000DB \u0000DC \u0000DD \u0000DE \u0000DF \u0000E0 \u0000E1 \u0000E2 \u0000E3 \u0000E4 \u0000E5 \u0000E6 \u0000E7 \u0000E8 \u0000E9 \u0000EA \u0000EB \u0000EC \u0000ED \u0000EE \u0000EF \u0000F0 \u0000F1 \u0000F2 \u0000F3 \u0000F4 \u0000F5 \u0000F6 \u0000F7 \u0000F8 \u0000F9 \u0000FA \u0000FB \u0000FC \u0000FD \u0000FE \u0000FF</string>
+      <string>\u00F130\u0000A0\u00F131 \u0000A1 \u0000A2 \u0000A3 \u0000A4 \u0000A5 \u0000A6 \u0000A7 \u0000A8 \u0000A9 \u0000AA \u0000AB \u0000AC \u0000AD \u0000AE \u0000AF \u0000B0 \u0000B1 \u0000B2 \u0000B3 \u0000B4 \u0000B5 \u0000B6 \u0000B7 \u0000B8 \u0000B9 \u0000BA \u0000BB \u0000BC \u0000BD \u0000BE \u0000BF \u0000C0 \u0000C1 \u0000C2 \u0000C3 \u0000C4 \u0000C5 \u0000C6 \u0000C7 \u0000C8 \u0000C9 \u0000CA \u0000CB \u0000CC \u0000CD \u0000CE \u0000CF \u0000D0 \u0000D1 \u0000D2 \u0000D3 \u0000D4 \u0000D5 \u0000D6 \u0000D7 \u0000D8 \u0000D9 \u0000DA \u0000DB \u0000DC \u0000DD \u0000DE \u0000DF \u0000E0 \u0000E1 \u0000E2 \u0000E3 \u0000E4 \u0000E5 \u0000E6 \u0000E7 \u0000E8 \u0000E9 \u0000EA \u0000EB \u0000EC \u0000ED \u0000EE \u0000EF \u0000F0 \u0000F1 \u0000F2 \u0000F3 \u0000F4 \u0000F5 \u0000F6 \u0000F7 \u0000F8 \u0000F9 \u0000FA \u0000FB \u0000FC \u0000FD \u0000FE \u0000FF</string>
     </test>
     <test label="U+0131">
       <comment>dotlessi</comment>
@@ -301,11 +225,7 @@
     </test>
     <test label="U+2039">
       <comment>guilsinglleft</comment>
-      <string>\u002039 LTR: \u00202A\u002039\u00202C RTL: \u00202B\u002039\u00202C</string>
-    </test>
-    <test label="U+203A">
-      <comment>guilsinglright</comment>
-      <string>\u00203A LTR: \u00202A\u00203A\u00202C RTL: \u00202B\u00203A\u00202C</string>
+      <string>\u002039 \u00203A</string>
     </test>
     <test label="U+2044">
       <comment>fraction</comment>
@@ -329,11 +249,7 @@
     </test>
     <test label="U+207D">
       <comment>parenleftsuperior</comment>
-      <string>\u00207D LTR: \u00202A\u00207D\u00202C RTL: \u00202B\u00207D\u00202C</string>
-    </test>
-    <test label="U+207E">
-      <comment>parenrightsuperior</comment>
-      <string>\u00207E LTR: \u00202A\u00207E\u00202C RTL: \u00202B\u00207E\u00202C</string>
+      <string>\u00207D \u00207E</string>
     </test>
     <test label="U+20A8">
       <comment>rs</comment>
@@ -357,7 +273,7 @@
     </test>
     <test label="U+2202">
       <comment>partialdiff</comment>
-      <string>\u002202 LTR: \u00202A\u002202\u00202C RTL: \u00202B\u002202\u00202C</string>
+      <string>\u002202</string>
     </test>
     <test label="U+2206">
       <comment>Delta</comment>
@@ -369,23 +285,15 @@
     </test>
     <test label="U+2211">
       <comment>summation</comment>
-      <string>\u002211 LTR: \u00202A\u002211\u00202C RTL: \u00202B\u002211\u00202C</string>
-    </test>
-    <test label="U+2212">
-      <comment>minus</comment>
-      <string>\u002212</string>
+      <string>\u002211 \u002212</string>
     </test>
     <test label="U+2215">
       <comment>divisionslash</comment>
-      <string>\u002215 LTR: \u00202A\u002215\u00202C RTL: \u00202B\u002215\u00202C</string>
+      <string>\u002215</string>
     </test>
     <test label="U+2219">
       <comment>bulletoperator</comment>
-      <string>\u002219</string>
-    </test>
-    <test label="U+221A">
-      <comment>radical</comment>
-      <string>\u00221A LTR: \u00202A\u00221A\u00202C RTL: \u00202B\u00221A\u00202C</string>
+      <string>\u002219 \u00221A</string>
     </test>
     <test label="U+221E">
       <comment>infinity</comment>
@@ -393,39 +301,23 @@
     </test>
     <test label="U+222B">
       <comment>integral</comment>
-      <string>\u00222B LTR: \u00202A\u00222B\u00202C RTL: \u00202B\u00222B\u00202C</string>
+      <string>\u00222B</string>
     </test>
     <test label="U+2248">
       <comment>approxequal</comment>
-      <string>\u002248 LTR: \u00202A\u002248\u00202C RTL: \u00202B\u002248\u00202C</string>
+      <string>\u002248</string>
     </test>
     <test label="U+2260">
       <comment>notequal</comment>
-      <string>\u002260 LTR: \u00202A\u002260\u00202C RTL: \u00202B\u002260\u00202C</string>
+      <string>\u002260</string>
     </test>
     <test label="U+2264">
       <comment>lessequal</comment>
-      <string>\u002264 LTR: \u00202A\u002264\u00202C RTL: \u00202B\u002264\u00202C</string>
-    </test>
-    <test label="U+2265">
-      <comment>greaterequal</comment>
-      <string>\u002265 LTR: \u00202A\u002265\u00202C RTL: \u00202B\u002265\u00202C</string>
+      <string>\u002264 \u002265</string>
     </test>
     <test label="U+2308">
       <comment>ceilingleft</comment>
-      <string>\u002308 LTR: \u00202A\u002308\u00202C RTL: \u00202B\u002308\u00202C</string>
-    </test>
-    <test label="U+2309">
-      <comment>ceilingright</comment>
-      <string>\u002309 LTR: \u00202A\u002309\u00202C RTL: \u00202B\u002309\u00202C</string>
-    </test>
-    <test label="U+230A">
-      <comment>floorleft</comment>
-      <string>\u00230A LTR: \u00202A\u00230A\u00202C RTL: \u00202B\u00230A\u00202C</string>
-    </test>
-    <test label="U+230B">
-      <comment>floorright</comment>
-      <string>\u00230B LTR: \u00202A\u00230B\u00202C RTL: \u00202B\u00230B\u00202C</string>
+      <string>\u002308 \u002309 \u00230A \u00230B</string>
     </test>
     <test label="U+231C">
       <comment>cornerlefttop</comment>
@@ -445,19 +337,7 @@
     </test>
     <test label="U+2E22">
       <comment>halfbracketlefttop</comment>
-      <string>\u002E22 LTR: \u00202A\u002E22\u00202C RTL: \u00202B\u002E22\u00202C</string>
-    </test>
-    <test label="U+2E23">
-      <comment>halfbracketrighttop</comment>
-      <string>\u002E23 LTR: \u00202A\u002E23\u00202C RTL: \u00202B\u002E23\u00202C</string>
-    </test>
-    <test label="U+2E24">
-      <comment>halfbracketleftbottom</comment>
-      <string>\u002E24 LTR: \u00202A\u002E24\u00202C RTL: \u00202B\u002E24\u00202C</string>
-    </test>
-    <test label="U+2E25">
-      <comment>halfbracketrightbottom</comment>
-      <string>\u002E25 LTR: \u00202A\u002E25\u00202C RTL: \u00202B\u002E25\u00202C</string>
+      <string>\u002E22 \u002E23 \u002E24 \u002E25</string>
     </test>
     <test label="U+A78C">
       <comment>saltillo</comment>
@@ -488,5 +368,586 @@
       <string>\u000B95\u01133B \u000B95\u01133C</string>
     </test>
   </testgroup>
-  <testgroup label="Specials &amp; ligatures from glyph_data"/>
+  <testgroup label="Specials &amp; ligatures from glyph_data">
+    <test label="U+0B95
+U+0BB7">
+      <comment>ka ssa</comment>
+      <string>\u000B95\u000BB7</string>
+    </test>
+    <test label="U+0B95
+U+0BB7
+U+0BBF">
+      <comment>ka ssa imatra</comment>
+      <string>\u000B95\u000BB7\u000BBF</string>
+    </test>
+    <test label="U+0B95
+U+0BB7
+U+0BC0">
+      <comment>ka ssa iimatra</comment>
+      <string>\u000B95\u000BB7\u000BC0</string>
+    </test>
+    <test label="U+0B95
+U+0BB7
+U+0BCD">
+      <comment>ka ssa virama</comment>
+      <string>\u000B95\u000BB7\u000BCD</string>
+    </test>
+    <test label="U+0B95
+U+0BBF">
+      <comment>ka imatra</comment>
+      <string>\u000B95\u000BBF</string>
+    </test>
+    <test label="U+0B95
+U+0BC0">
+      <comment>ka iimatra</comment>
+      <string>\u000B95\u000BC0</string>
+    </test>
+    <test label="U+0B95
+U+0BC1">
+      <comment>ka umatra</comment>
+      <string>\u000B95\u000BC1</string>
+    </test>
+    <test label="U+0B95
+U+0BC2">
+      <comment>ka uumatra</comment>
+      <string>\u000B95\u000BC2</string>
+    </test>
+    <test label="U+0B95
+U+0BCD">
+      <comment>ka virama</comment>
+      <string>\u000B95\u000BCD</string>
+    </test>
+    <test label="U+0B99
+U+0BBF">
+      <comment>nga imatra</comment>
+      <string>\u000B99\u000BBF</string>
+    </test>
+    <test label="U+0B99
+U+0BC0">
+      <comment>nga iimatra</comment>
+      <string>\u000B99\u000BC0</string>
+    </test>
+    <test label="U+0B99
+U+0BC1">
+      <comment>nga umatra</comment>
+      <string>\u000B99\u000BC1</string>
+    </test>
+    <test label="U+0B99
+U+0BC2">
+      <comment>nga uumatra</comment>
+      <string>\u000B99\u000BC2</string>
+    </test>
+    <test label="U+0B99
+U+0BCD">
+      <comment>nga virama</comment>
+      <string>\u000B99\u000BCD</string>
+    </test>
+    <test label="U+0B9A
+U+0BBF">
+      <comment>ca imatra</comment>
+      <string>\u000B9A\u000BBF</string>
+    </test>
+    <test label="U+0B9A
+U+0BC0">
+      <comment>ca iimatra</comment>
+      <string>\u000B9A\u000BC0</string>
+    </test>
+    <test label="U+0B9A
+U+0BC1">
+      <comment>ca umatra</comment>
+      <string>\u000B9A\u000BC1</string>
+    </test>
+    <test label="U+0B9A
+U+0BC2">
+      <comment>ca uumatra</comment>
+      <string>\u000B9A\u000BC2</string>
+    </test>
+    <test label="U+0B9A
+U+0BCD">
+      <comment>ca virama</comment>
+      <string>\u000B9A\u000BCD</string>
+    </test>
+    <test label="U+0B9C
+U+0BBF">
+      <comment>ja imatra</comment>
+      <string>\u000B9C\u000BBF</string>
+    </test>
+    <test label="U+0B9C
+U+0BC0">
+      <comment>ja iimatra</comment>
+      <string>\u000B9C\u000BC0</string>
+    </test>
+    <test label="U+0B9C
+U+0BCD">
+      <comment>ja virama</comment>
+      <string>\u000B9C\u000BCD</string>
+    </test>
+    <test label="U+0B9E
+U+0BBF">
+      <comment>nya imatra</comment>
+      <string>\u000B9E\u000BBF</string>
+    </test>
+    <test label="U+0B9E
+U+0BC0">
+      <comment>nya iimatra</comment>
+      <string>\u000B9E\u000BC0</string>
+    </test>
+    <test label="U+0B9E
+U+0BC1">
+      <comment>nya umatra</comment>
+      <string>\u000B9E\u000BC1</string>
+    </test>
+    <test label="U+0B9E
+U+0BC2">
+      <comment>nya uumatra</comment>
+      <string>\u000B9E\u000BC2</string>
+    </test>
+    <test label="U+0B9E
+U+0BCD">
+      <comment>nya virama</comment>
+      <string>\u000B9E\u000BCD</string>
+    </test>
+    <test label="U+0B9F
+U+0BBF">
+      <comment>tta imatra</comment>
+      <string>\u000B9F\u000BBF</string>
+    </test>
+    <test label="U+0B9F
+U+0BC0">
+      <comment>tta iimatra</comment>
+      <string>\u000B9F\u000BC0</string>
+    </test>
+    <test label="U+0B9F
+U+0BC1">
+      <comment>tta umatra</comment>
+      <string>\u000B9F\u000BC1</string>
+    </test>
+    <test label="U+0B9F
+U+0BC2">
+      <comment>tta uumatra</comment>
+      <string>\u000B9F\u000BC2</string>
+    </test>
+    <test label="U+0B9F
+U+0BCD">
+      <comment>tta virama</comment>
+      <string>\u000B9F\u000BCD</string>
+    </test>
+    <test label="U+0BA3
+U+0BBE">
+      <comment>nna aamatra</comment>
+      <string>\u000BA3\u000BBE</string>
+    </test>
+    <test label="U+0BA3
+U+0BBF">
+      <comment>nna imatra</comment>
+      <string>\u000BA3\u000BBF</string>
+    </test>
+    <test label="U+0BA3
+U+0BC0">
+      <comment>nna iimatra</comment>
+      <string>\u000BA3\u000BC0</string>
+    </test>
+    <test label="U+0BA3
+U+0BC1">
+      <comment>nna umatra</comment>
+      <string>\u000BA3\u000BC1</string>
+    </test>
+    <test label="U+0BA3
+U+0BC2">
+      <comment>nna uumatra</comment>
+      <string>\u000BA3\u000BC2</string>
+    </test>
+    <test label="U+0BA3
+U+0BC8">
+      <comment>nna aimatra</comment>
+      <string>\u000BA3\u000BC8</string>
+    </test>
+    <test label="U+0BA3
+U+0BCD">
+      <comment>nna virama</comment>
+      <string>\u000BA3\u000BCD</string>
+    </test>
+    <test label="U+0BA4
+U+0BBF">
+      <comment>ta imatra</comment>
+      <string>\u000BA4\u000BBF</string>
+    </test>
+    <test label="U+0BA4
+U+0BC0">
+      <comment>ta iimatra</comment>
+      <string>\u000BA4\u000BC0</string>
+    </test>
+    <test label="U+0BA4
+U+0BC1">
+      <comment>ta umatra</comment>
+      <string>\u000BA4\u000BC1</string>
+    </test>
+    <test label="U+0BA4
+U+0BC2">
+      <comment>ta uumatra</comment>
+      <string>\u000BA4\u000BC2</string>
+    </test>
+    <test label="U+0BA4
+U+0BCD">
+      <comment>ta virama</comment>
+      <string>\u000BA4\u000BCD</string>
+    </test>
+    <test label="U+0BA8
+U+0BBF">
+      <comment>na imatra</comment>
+      <string>\u000BA8\u000BBF</string>
+    </test>
+    <test label="U+0BA8
+U+0BC0">
+      <comment>na iimatra</comment>
+      <string>\u000BA8\u000BC0</string>
+    </test>
+    <test label="U+0BA8
+U+0BC1">
+      <comment>na umatra</comment>
+      <string>\u000BA8\u000BC1</string>
+    </test>
+    <test label="U+0BA8
+U+0BC2">
+      <comment>na uumatra</comment>
+      <string>\u000BA8\u000BC2</string>
+    </test>
+    <test label="U+0BA8
+U+0BCD">
+      <comment>na virama</comment>
+      <string>\u000BA8\u000BCD</string>
+    </test>
+    <test label="U+0BA9
+U+0BBE">
+      <comment>nnna aamatra</comment>
+      <string>\u000BA9\u000BBE</string>
+    </test>
+    <test label="U+0BA9
+U+0BBF">
+      <comment>nnna imatra</comment>
+      <string>\u000BA9\u000BBF</string>
+    </test>
+    <test label="U+0BA9
+U+0BC0">
+      <comment>nnna iimatra</comment>
+      <string>\u000BA9\u000BC0</string>
+    </test>
+    <test label="U+0BA9
+U+0BC1">
+      <comment>nnna umatra</comment>
+      <string>\u000BA9\u000BC1</string>
+    </test>
+    <test label="U+0BA9
+U+0BC2">
+      <comment>nnna uumatra</comment>
+      <string>\u000BA9\u000BC2</string>
+    </test>
+    <test label="U+0BA9
+U+0BC8">
+      <comment>nnna aimatra</comment>
+      <string>\u000BA9\u000BC8</string>
+    </test>
+    <test label="U+0BA9
+U+0BCD">
+      <comment>nnna virama</comment>
+      <string>\u000BA9\u000BCD</string>
+    </test>
+    <test label="U+0BAA
+U+0BBF">
+      <comment>pa imatra</comment>
+      <string>\u000BAA\u000BBF</string>
+    </test>
+    <test label="U+0BAA
+U+0BC0">
+      <comment>pa iimatra</comment>
+      <string>\u000BAA\u000BC0</string>
+    </test>
+    <test label="U+0BAA
+U+0BC1">
+      <comment>pa umatra</comment>
+      <string>\u000BAA\u000BC1</string>
+    </test>
+    <test label="U+0BAA
+U+0BC2">
+      <comment>pa uumatra</comment>
+      <string>\u000BAA\u000BC2</string>
+    </test>
+    <test label="U+0BAA
+U+0BCD">
+      <comment>pa virama</comment>
+      <string>\u000BAA\u000BCD</string>
+    </test>
+    <test label="U+0BAE
+U+0BBF">
+      <comment>ma imatra</comment>
+      <string>\u000BAE\u000BBF</string>
+    </test>
+    <test label="U+0BAE
+U+0BC0">
+      <comment>ma iimatra</comment>
+      <string>\u000BAE\u000BC0</string>
+    </test>
+    <test label="U+0BAE
+U+0BC1">
+      <comment>ma umatra</comment>
+      <string>\u000BAE\u000BC1</string>
+    </test>
+    <test label="U+0BAE
+U+0BC2">
+      <comment>ma uumatra</comment>
+      <string>\u000BAE\u000BC2</string>
+    </test>
+    <test label="U+0BAE
+U+0BCD">
+      <comment>ma virama</comment>
+      <string>\u000BAE\u000BCD</string>
+    </test>
+    <test label="U+0BAF
+U+0BBF">
+      <comment>ya imatra</comment>
+      <string>\u000BAF\u000BBF</string>
+    </test>
+    <test label="U+0BAF
+U+0BC0">
+      <comment>ya iimatra</comment>
+      <string>\u000BAF\u000BC0</string>
+    </test>
+    <test label="U+0BAF
+U+0BC1">
+      <comment>ya umatra</comment>
+      <string>\u000BAF\u000BC1</string>
+    </test>
+    <test label="U+0BAF
+U+0BC2">
+      <comment>ya uumatra</comment>
+      <string>\u000BAF\u000BC2</string>
+    </test>
+    <test label="U+0BAF
+U+0BCD">
+      <comment>ya virama</comment>
+      <string>\u000BAF\u000BCD</string>
+    </test>
+    <test label="U+0BB0
+U+0BBF">
+      <comment>ra imatra</comment>
+      <string>\u000BB0\u000BBF</string>
+    </test>
+    <test label="U+0BB0
+U+0BC0">
+      <comment>ra iimatra</comment>
+      <string>\u000BB0\u000BC0</string>
+    </test>
+    <test label="U+0BB0
+U+0BC1">
+      <comment>ra umatra</comment>
+      <string>\u000BB0\u000BC1</string>
+    </test>
+    <test label="U+0BB0
+U+0BC2">
+      <comment>ra uumatra</comment>
+      <string>\u000BB0\u000BC2</string>
+    </test>
+    <test label="U+0BB0
+U+0BCD">
+      <comment>ra virama</comment>
+      <string>\u000BB0\u000BCD</string>
+    </test>
+    <test label="U+0BB1
+U+0BBE">
+      <comment>rra aamatra</comment>
+      <string>\u000BB1\u000BBE</string>
+    </test>
+    <test label="U+0BB1
+U+0BBF">
+      <comment>rra imatra</comment>
+      <string>\u000BB1\u000BBF</string>
+    </test>
+    <test label="U+0BB1
+U+0BC0">
+      <comment>rra iimatra</comment>
+      <string>\u000BB1\u000BC0</string>
+    </test>
+    <test label="U+0BB1
+U+0BC1">
+      <comment>rra umatra</comment>
+      <string>\u000BB1\u000BC1</string>
+    </test>
+    <test label="U+0BB1
+U+0BC2">
+      <comment>rra uumatra</comment>
+      <string>\u000BB1\u000BC2</string>
+    </test>
+    <test label="U+0BB1
+U+0BCD">
+      <comment>rra virama</comment>
+      <string>\u000BB1\u000BCD</string>
+    </test>
+    <test label="U+0BB2
+U+0BBF">
+      <comment>la imatra</comment>
+      <string>\u000BB2\u000BBF</string>
+    </test>
+    <test label="U+0BB2
+U+0BC0">
+      <comment>la iimatra</comment>
+      <string>\u000BB2\u000BC0</string>
+    </test>
+    <test label="U+0BB2
+U+0BC1">
+      <comment>la umatra</comment>
+      <string>\u000BB2\u000BC1</string>
+    </test>
+    <test label="U+0BB2
+U+0BC2">
+      <comment>la uumatra</comment>
+      <string>\u000BB2\u000BC2</string>
+    </test>
+    <test label="U+0BB2
+U+0BC8">
+      <comment>la aimatra</comment>
+      <string>\u000BB2\u000BC8</string>
+    </test>
+    <test label="U+0BB2
+U+0BCD">
+      <comment>la virama</comment>
+      <string>\u000BB2\u000BCD</string>
+    </test>
+    <test label="U+0BB3
+U+0BBF">
+      <comment>lla imatra</comment>
+      <string>\u000BB3\u000BBF</string>
+    </test>
+    <test label="U+0BB3
+U+0BC0">
+      <comment>lla iimatra</comment>
+      <string>\u000BB3\u000BC0</string>
+    </test>
+    <test label="U+0BB3
+U+0BC1">
+      <comment>lla umatra</comment>
+      <string>\u000BB3\u000BC1</string>
+    </test>
+    <test label="U+0BB3
+U+0BC2">
+      <comment>lla uumatra</comment>
+      <string>\u000BB3\u000BC2</string>
+    </test>
+    <test label="U+0BB3
+U+0BC8">
+      <comment>lla aimatra</comment>
+      <string>\u000BB3\u000BC8</string>
+    </test>
+    <test label="U+0BB3
+U+0BCD">
+      <comment>lla virama</comment>
+      <string>\u000BB3\u000BCD</string>
+    </test>
+    <test label="U+0BB4
+U+0BBF">
+      <comment>llla imatra</comment>
+      <string>\u000BB4\u000BBF</string>
+    </test>
+    <test label="U+0BB4
+U+0BC0">
+      <comment>llla iimatra</comment>
+      <string>\u000BB4\u000BC0</string>
+    </test>
+    <test label="U+0BB4
+U+0BC1">
+      <comment>llla umatra</comment>
+      <string>\u000BB4\u000BC1</string>
+    </test>
+    <test label="U+0BB4
+U+0BC2">
+      <comment>llla uumatra</comment>
+      <string>\u000BB4\u000BC2</string>
+    </test>
+    <test label="U+0BB4
+U+0BCD">
+      <comment>llla virama</comment>
+      <string>\u000BB4\u000BCD</string>
+    </test>
+    <test label="U+0BB5
+U+0BBF">
+      <comment>va imatra</comment>
+      <string>\u000BB5\u000BBF</string>
+    </test>
+    <test label="U+0BB5
+U+0BC0">
+      <comment>va iimatra</comment>
+      <string>\u000BB5\u000BC0</string>
+    </test>
+    <test label="U+0BB5
+U+0BC1">
+      <comment>va umatra</comment>
+      <string>\u000BB5\u000BC1</string>
+    </test>
+    <test label="U+0BB5
+U+0BC2">
+      <comment>va uumatra</comment>
+      <string>\u000BB5\u000BC2</string>
+    </test>
+    <test label="U+0BB5
+U+0BCD">
+      <comment>va virama</comment>
+      <string>\u000BB5\u000BCD</string>
+    </test>
+    <test label="U+0BB7
+U+0BBF">
+      <comment>ssa imatra</comment>
+      <string>\u000BB7\u000BBF</string>
+    </test>
+    <test label="U+0BB7
+U+0BC0">
+      <comment>ssa iimatra</comment>
+      <string>\u000BB7\u000BC0</string>
+    </test>
+    <test label="U+0BB7
+U+0BC8">
+      <comment>ssa aimatra</comment>
+      <string>\u000BB7\u000BC8</string>
+    </test>
+    <test label="U+0BB7
+U+0BCD">
+      <comment>ssa virama</comment>
+      <string>\u000BB7\u000BCD</string>
+    </test>
+    <test label="U+0BB8
+U+0BBF">
+      <comment>sa imatra</comment>
+      <string>\u000BB8\u000BBF</string>
+    </test>
+    <test label="U+0BB8
+U+0BC0">
+      <comment>sa iimatra</comment>
+      <string>\u000BB8\u000BC0</string>
+    </test>
+    <test label="U+0BB8
+U+0BCD">
+      <comment>sa virama</comment>
+      <string>\u000BB8\u000BCD</string>
+    </test>
+    <test label="U+0BB8
+U+0BCD
+U+0BB0
+U+0BC0">
+      <comment>sa virama ra iimatra</comment>
+      <string>\u000BB8\u000BCD\u000BB0\u000BC0</string>
+    </test>
+    <test label="U+0BB9
+U+0BBF">
+      <comment>ha imatra</comment>
+      <string>\u000BB9\u000BBF</string>
+    </test>
+    <test label="U+0BB9
+U+0BC0">
+      <comment>ha iimatra</comment>
+      <string>\u000BB9\u000BC0</string>
+    </test>
+    <test label="U+0BB9
+U+0BCD">
+      <comment>ha virama</comment>
+      <string>\u000BB9\u000BCD</string>
+    </test>
+  </testgroup>
 </ftml>

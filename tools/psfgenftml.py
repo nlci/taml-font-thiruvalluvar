@@ -32,7 +32,7 @@ def doit(args):
 
     # Read input csv
     builder = FB.FTMLBuilder(logger, incsv=args.input, fontcode=args.fontcode, font=args.ifont, ap=args.ap,
-                             rtlenable=True, langs=args.langs)
+                             rtlenable=args.rtl, langs=args.langs)
 
     # Override default base (25CC) for displaying combining marks:
     builder.diacBase = 0x0B95   # ka
@@ -83,7 +83,7 @@ def doit(args):
 
         # Add unencoded specials and ligatures -- i.e., things with a sequence of USVs in the glyph_data:
         ftml.startTestGroup('Specials & ligatures from glyph_data')
-        for basename in sorted(builder.specials()):
+        for basename in builder.specials():
             special = builder.special(basename)
             # iterate over all permutations of feature settings that might affect this special
             for featlist in builder.permuteFeatures(uids = special.uids):
