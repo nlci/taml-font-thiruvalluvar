@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="Ref">url(../references/ThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc label="Gr">url(../results/ThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc label="OT">url(../results/tests/ftml/fonts/ThiruValluvar-Regular_ot_tml2.ttf)</fontsrc>
+    <fontsrc label="Bold">url(../results/ThiruValluvar-Bold.ttf)</fontsrc>
+    <title>Diac auto</title>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="Representative diacritics on all bases that take diacritics">
+    <test label="U+0B83
+U+0323">
+      <comment>visarga dotbelowcomb</comment>
+      <string>\u000B83\u000323 \u000B83\u01133B \u000B83\u01133C \u000B83\u000307 \u000B83\u000B82 \u000B83\u000BCD</string>
+    </test>
+    <test label="U+0B85
+U+0323">
+      <comment>avowel dotbelowcomb</comment>
+      <string>\u000B85\u000323 \u000B85\u01133B \u000B85\u01133C \u000B85\u000307 \u000B85\u000B82 \u000B85\u000BCD</string>
+    </test>
+    <test label="U+0B86
+U+0323">
+      <comment>aavowel dotbelowcomb</comment>
+      <string>\u000B86\u000323 \u000B86\u01133B \u000B86\u01133C \u000B86\u000307 \u000B86\u000B82 \u000B86\u000BCD</string>
+    </test>
+    <test label="U+0B87
+U+0323">
+      <comment>ivowel dotbelowcomb</comment>
+      <string>\u000B87\u000323 \u000B87\u01133B \u000B87\u01133C \u000B87\u000307 \u000B87\u000B82 \u000B87\u000BCD</string>
+    </test>
+    <test label="U+0B88
+U+0323">
+      <comment>iivowel dotbelowcomb</comment>
+      <string>\u000B88\u000323 \u000B88\u01133B \u000B88\u01133C \u000B88\u000307 \u000B88\u000B82 \u000B88\u000BCD</string>
+    </test>
+    <test label="U+0B89
+U+0323">
+      <comment>uvowel dotbelowcomb</comment>
+      <string>\u000B89\u000323 \u000B89\u01133B \u000B89\u01133C \u000B89\u000307 \u000B89\u000B82 \u000B89\u000BCD</string>
+    </test>
+    <test label="U+0B8A
+U+0323">
+      <comment>uuvowel dotbelowcomb</comment>
+      <string>\u000B8A\u000323 \u000B8A\u01133B \u000B8A\u01133C \u000B8A\u000307 \u000B8A\u000B82 \u000B8A\u000BCD</string>
+    </test>
+    <test label="U+0B8E
+U+0323">
+      <comment>evowel dotbelowcomb</comment>
+      <string>\u000B8E\u000323 \u000B8E\u01133B \u000B8E\u01133C \u000B8E\u000307 \u000B8E\u000B82 \u000B8E\u000BCD</string>
+    </test>
+    <test label="U+0B8F
+U+0323">
+      <comment>eevowel dotbelowcomb</comment>
+      <string>\u000B8F\u000323 \u000B8F\u01133B \u000B8F\u01133C \u000B8F\u000307 \u000B8F\u000B82 \u000B8F\u000BCD</string>
+    </test>
+    <test label="U+0B90
+U+0323">
+      <comment>aivowel dotbelowcomb</comment>
+      <string>\u000B90\u000323 \u000B90\u01133B \u000B90\u01133C \u000B90\u000307 \u000B90\u000B82 \u000B90\u000BCD</string>
+    </test>
+    <test label="U+0B92
+U+0323">
+      <comment>ovowel dotbelowcomb</comment>
+      <string>\u000B92\u000323 \u000B92\u01133B \u000B92\u01133C \u000B92\u000307 \u000B92\u000B82 \u000B92\u000BCD</string>
+    </test>
+    <test label="U+0B93
+U+0323">
+      <comment>oovowel dotbelowcomb</comment>
+      <string>\u000B93\u000323 \u000B93\u01133B \u000B93\u01133C \u000B93\u000307 \u000B93\u000B82 \u000B93\u000BCD</string>
+    </test>
+    <test label="U+0B94
+U+0323">
+      <comment>auvowel dotbelowcomb</comment>
+      <string>\u000B94\u000323 \u000B94\u01133B \u000B94\u01133C \u000B94\u000307 \u000B94\u000B82 \u000B94\u000BCD</string>
+    </test>
+    <test label="U+0B95
+U+0323">
+      <comment>ka dotbelowcomb</comment>
+      <string>\u000B95\u000323 \u000B95\u01133B \u000B95\u01133C \u000B95\u000307 \u000B95\u000B82 \u000B95\u000BCD</string>
+    </test>
+    <test label="U+0B99
+U+0323">
+      <comment>nga dotbelowcomb</comment>
+      <string>\u000B99\u000323 \u000B99\u01133B \u000B99\u01133C \u000B99\u000307 \u000B99\u000B82 \u000B99\u000BCD</string>
+    </test>
+    <test label="U+0B9A
+U+0323">
+      <comment>ca dotbelowcomb</comment>
+      <string>\u000B9A\u000323 \u000B9A\u01133B \u000B9A\u01133C \u000B9A\u000307 \u000B9A\u000B82 \u000B9A\u000BCD</string>
+    </test>
+    <test label="U+0B9C
+U+0323">
+      <comment>ja dotbelowcomb</comment>
+      <string>\u000B9C\u000323 \u000B9C\u01133B \u000B9C\u01133C \u000B9C\u000307 \u000B9C\u000B82 \u000B9C\u000BCD</string>
+    </test>
+    <test label="U+0B9E
+U+0323">
+      <comment>nya dotbelowcomb</comment>
+      <string>\u000B9E\u000323 \u000B9E\u01133B \u000B9E\u01133C \u000B9E\u000307 \u000B9E\u000B82 \u000B9E\u000BCD</string>
+    </test>
+    <test label="U+0B9F
+U+0323">
+      <comment>tta dotbelowcomb</comment>
+      <string>\u000B9F\u000323 \u000B9F\u01133B \u000B9F\u01133C \u000B9F\u000307 \u000B9F\u000B82 \u000B9F\u000BCD</string>
+    </test>
+    <test label="U+0BA3
+U+0323">
+      <comment>nna dotbelowcomb</comment>
+      <string>\u000BA3\u000323 \u000BA3\u01133B \u000BA3\u01133C \u000BA3\u000307 \u000BA3\u000B82 \u000BA3\u000BCD</string>
+    </test>
+    <test label="U+0BA4
+U+0323">
+      <comment>ta dotbelowcomb</comment>
+      <string>\u000BA4\u000323 \u000BA4\u01133B \u000BA4\u01133C \u000BA4\u000307 \u000BA4\u000B82 \u000BA4\u000BCD</string>
+    </test>
+    <test label="U+0BA8
+U+0323">
+      <comment>na dotbelowcomb</comment>
+      <string>\u000BA8\u000323 \u000BA8\u01133B \u000BA8\u01133C \u000BA8\u000307 \u000BA8\u000B82 \u000BA8\u000BCD</string>
+    </test>
+    <test label="U+0BA9
+U+0323">
+      <comment>nnna dotbelowcomb</comment>
+      <string>\u000BA9\u000323 \u000BA9\u01133B \u000BA9\u01133C \u000BA9\u000307 \u000BA9\u000B82 \u000BA9\u000BCD</string>
+    </test>
+    <test label="U+0BAA
+U+0323">
+      <comment>pa dotbelowcomb</comment>
+      <string>\u000BAA\u000323 \u000BAA\u01133B \u000BAA\u01133C \u000BAA\u000307 \u000BAA\u000B82 \u000BAA\u000BCD</string>
+    </test>
+    <test label="U+0BAE
+U+0323">
+      <comment>ma dotbelowcomb</comment>
+      <string>\u000BAE\u000323 \u000BAE\u01133B \u000BAE\u01133C \u000BAE\u000307 \u000BAE\u000B82 \u000BAE\u000BCD</string>
+    </test>
+    <test label="U+0BAF
+U+0323">
+      <comment>ya dotbelowcomb</comment>
+      <string>\u000BAF\u000323 \u000BAF\u01133B \u000BAF\u01133C \u000BAF\u000307 \u000BAF\u000B82 \u000BAF\u000BCD</string>
+    </test>
+    <test label="U+0BB0
+U+0323">
+      <comment>ra dotbelowcomb</comment>
+      <string>\u000BB0\u000323 \u000BB0\u01133B \u000BB0\u01133C \u000BB0\u000307 \u000BB0\u000B82 \u000BB0\u000BCD</string>
+    </test>
+    <test label="U+0BB1
+U+0323">
+      <comment>rra dotbelowcomb</comment>
+      <string>\u000BB1\u000323 \u000BB1\u01133B \u000BB1\u01133C \u000BB1\u000307 \u000BB1\u000B82 \u000BB1\u000BCD</string>
+    </test>
+    <test label="U+0BB2
+U+0323">
+      <comment>la dotbelowcomb</comment>
+      <string>\u000BB2\u000323 \u000BB2\u01133B \u000BB2\u01133C \u000BB2\u000307 \u000BB2\u000B82 \u000BB2\u000BCD</string>
+    </test>
+    <test label="U+0BB3
+U+0323">
+      <comment>lla dotbelowcomb</comment>
+      <string>\u000BB3\u000323 \u000BB3\u01133B \u000BB3\u01133C \u000BB3\u000307 \u000BB3\u000B82 \u000BB3\u000BCD</string>
+    </test>
+    <test label="U+0BB4
+U+0323">
+      <comment>llla dotbelowcomb</comment>
+      <string>\u000BB4\u000323 \u000BB4\u01133B \u000BB4\u01133C \u000BB4\u000307 \u000BB4\u000B82 \u000BB4\u000BCD</string>
+    </test>
+    <test label="U+0BB5
+U+0323">
+      <comment>va dotbelowcomb</comment>
+      <string>\u000BB5\u000323 \u000BB5\u01133B \u000BB5\u01133C \u000BB5\u000307 \u000BB5\u000B82 \u000BB5\u000BCD</string>
+    </test>
+    <test label="U+0BB6
+U+0323">
+      <comment>sha dotbelowcomb</comment>
+      <string>\u000BB6\u000323 \u000BB6\u01133B \u000BB6\u01133C \u000BB6\u000307 \u000BB6\u000B82 \u000BB6\u000BCD</string>
+    </test>
+    <test label="U+0BB7
+U+0323">
+      <comment>ssa dotbelowcomb</comment>
+      <string>\u000BB7\u000323 \u000BB7\u01133B \u000BB7\u01133C \u000BB7\u000307 \u000BB7\u000B82 \u000BB7\u000BCD</string>
+    </test>
+    <test label="U+0BB8
+U+0323">
+      <comment>sa dotbelowcomb</comment>
+      <string>\u000BB8\u000323 \u000BB8\u01133B \u000BB8\u01133C \u000BB8\u000307 \u000BB8\u000B82 \u000BB8\u000BCD</string>
+    </test>
+    <test label="U+0BB9
+U+0323">
+      <comment>ha dotbelowcomb</comment>
+      <string>\u000BB9\u000323 \u000BB9\u01133B \u000BB9\u01133C \u000BB9\u000307 \u000BB9\u000B82 \u000BB9\u000BCD</string>
+    </test>
+    <test label="U+0BBE
+U+0323">
+      <comment>aamatra dotbelowcomb</comment>
+      <string>\u000BBE\u000323 \u000BBE\u01133B \u000BBE\u01133C \u000BBE\u000307 \u000BBE\u000B82 \u000BBE\u000BCD</string>
+    </test>
+    <test label="U+0BBF
+U+0323">
+      <comment>imatra dotbelowcomb</comment>
+      <string>\u000BBF\u000323 \u000BBF\u01133B \u000BBF\u01133C \u000BBF\u000307 \u000BBF\u000B82 \u000BBF\u000BCD</string>
+    </test>
+    <test label="U+0BC0
+U+0323">
+      <comment>iimatra dotbelowcomb</comment>
+      <string>\u000B95\u000BC0\u000323 \u000B95\u000BC0\u01133B \u000B95\u000BC0\u01133C \u000B95\u000BC0\u000307 \u000B95\u000BC0\u000B82 \u000B95\u000BC0\u000BCD</string>
+    </test>
+    <test label="U+0BC1
+U+0323">
+      <comment>umatra dotbelowcomb</comment>
+      <string>\u000BC1\u000323 \u000BC1\u01133B \u000BC1\u01133C \u000BC1\u000307 \u000BC1\u000B82 \u000BC1\u000BCD</string>
+    </test>
+    <test label="U+0BC2
+U+0323">
+      <comment>uumatra dotbelowcomb</comment>
+      <string>\u000BC2\u000323 \u000BC2\u01133B \u000BC2\u01133C \u000BC2\u000307 \u000BC2\u000B82 \u000BC2\u000BCD</string>
+    </test>
+    <test label="U+0BC6
+U+0323">
+      <comment>ematra dotbelowcomb</comment>
+      <string>\u000BC6\u000323 \u000BC6\u01133B \u000BC6\u01133C \u000BC6\u000307 \u000BC6\u000B82 \u000BC6\u000BCD</string>
+    </test>
+    <test label="U+0BC7
+U+0323">
+      <comment>eematra dotbelowcomb</comment>
+      <string>\u000BC7\u000323 \u000BC7\u01133B \u000BC7\u01133C \u000BC7\u000307 \u000BC7\u000B82 \u000BC7\u000BCD</string>
+    </test>
+    <test label="U+0BC8
+U+0323">
+      <comment>aimatra dotbelowcomb</comment>
+      <string>\u000BC8\u000323 \u000BC8\u01133B \u000BC8\u01133C \u000BC8\u000307 \u000BC8\u000B82 \u000BC8\u000BCD</string>
+    </test>
+    <test label="U+0BD0
+U+0323">
+      <comment>om dotbelowcomb</comment>
+      <string>\u000BD0\u000323 \u000BD0\u01133B \u000BD0\u01133C \u000BD0\u000307 \u000BD0\u000B82 \u000BD0\u000BCD</string>
+    </test>
+    <test label="U+0BD7
+U+0323">
+      <comment>aulengthmark dotbelowcomb</comment>
+      <string>\u000BD7\u000323 \u000BD7\u01133B \u000BD7\u01133C \u000BD7\u000307 \u000BD7\u000B82 \u000BD7\u000BCD</string>
+    </test>
+  </testgroup>
+  <testgroup label="All diacritics on representative bases">
+    <test label="U+0B95
+U+0307">
+      <comment>ka dotabovecomb</comment>
+      <string>\u000B95\u000307 \u000B85\u000307</string>
+    </test>
+    <test label="U+0B95
+U+030C">
+      <comment>ka CombCaron</comment>
+      <string>\u000B95\u00030C \u000B85\u00030C</string>
+    </test>
+    <test label="U+0B95
+U+0323">
+      <comment>ka dotbelowcomb</comment>
+      <string>\u000B95\u000323 \u000B85\u000323</string>
+    </test>
+    <test label="U+0B95
+U+032D">
+      <comment>ka circumflexbelowcomb</comment>
+      <string>\u000B95\u00032D \u000B85\u00032D</string>
+    </test>
+    <test label="U+0B95
+U+034C">
+      <comment>ka almostequaltocomb</comment>
+      <string>\u000B95\u00034C \u000B85\u00034C</string>
+    </test>
+    <test label="U+0B95
+U+034F">
+      <comment>ka cgj</comment>
+      <string>\u000B95\u00034F \u000B85\u00034F</string>
+    </test>
+    <test label="U+0B95
+U+0951">
+      <comment>ka udatta</comment>
+      <string>\u000B95\u000951 \u000B85\u000951</string>
+    </test>
+    <test label="U+0B95
+U+0952">
+      <comment>ka anudatta</comment>
+      <string>\u000B95\u000952 \u000B85\u000952</string>
+    </test>
+    <test label="U+0B95
+U+0953">
+      <comment>ka gravedeva</comment>
+      <string>\u000B95\u000953 \u000B85\u000953</string>
+    </test>
+    <test label="U+0B95
+U+0954">
+      <comment>ka acutedeva</comment>
+      <string>\u000B95\u000954 \u000B85\u000954</string>
+    </test>
+    <test label="U+0B95
+U+0B82">
+      <comment>ka anusvara</comment>
+      <string>\u000B95\u000B82 \u000B85\u000B82</string>
+    </test>
+    <test label="U+0B95
+U+0BC0">
+      <comment>ka iimatra</comment>
+      <string>\u000B95\u000BC0 \u000B85\u000BC0</string>
+    </test>
+    <test label="U+0B95
+U+0BCD">
+      <comment>ka virama</comment>
+      <string>\u000B95\u000BCD \u000B85\u000BCD</string>
+    </test>
+    <test label="U+0B95
+U+1CDA">
+      <comment>ka vedictonedoublesvarita</comment>
+      <string>\u000B95\u001CDA \u000B85\u001CDA</string>
+    </test>
+    <test label="U+0B95
+U+1CDC">
+      <comment>ka vedictonekathakaanudatta</comment>
+      <string>\u000B95\u001CDC \u000B85\u001CDC</string>
+    </test>
+    <test label="U+0B95
+U+1CDD">
+      <comment>ka vedictonedotbelow</comment>
+      <string>\u000B95\u001CDD \u000B85\u001CDD</string>
+    </test>
+    <test label="U+0B95
+U+1CDE">
+      <comment>ka vedictonetwodotsbelow</comment>
+      <string>\u000B95\u001CDE \u000B85\u001CDE</string>
+    </test>
+    <test label="U+0B95
+U+1CDF">
+      <comment>ka vedictonethreedotsbelow</comment>
+      <string>\u000B95\u001CDF \u000B85\u001CDF</string>
+    </test>
+    <test label="U+0B95
+U+1133B">
+      <comment>ka bindu</comment>
+      <string>\u000B95\u01133B \u000B85\u01133B</string>
+    </test>
+    <test label="U+0B95
+U+1133C">
+      <comment>ka nukta</comment>
+      <string>\u000B95\u01133C \u000B85\u01133C</string>
+    </test>
+  </testgroup>
+</ftml>
