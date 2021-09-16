@@ -11,7 +11,7 @@ then
 fi
 
 # configure tests
-tests="AllChars Diac Nuktas $1"
+tests="AllChars Diac Matras Nuktas $1"
 urls='url(../references/ThiruValluvar-Regular.ttf)=Ref url(../results/ThiruValluvar-Regular.ttf)=Gr url(../results/tests/ftml/fonts/ThiruValluvar-Regular_ot_tml2.ttf)=OT url(../results/ThiruValluvar-Bold.ttf)=Bold'
 langs='ctt,iru,xub,xuj'
 ufo='source/ThiruValluvar-Regular.ufo'

@@ -1047,4 +1047,62 @@ U+0BCD">
       <string>\u000BB9\u000BCD</string>
     </test>
   </testgroup>
+  <testgroup label="Proof">
+    <test label="U+0B85">
+      <comment>avowel</comment>
+      <string>\u000B85 \u000B86 \u000B87 \u000B88 \u000B89 \u000B8A</string>
+    </test>
+    <test label="U+0B8E">
+      <comment>evowel</comment>
+      <string>\u000B8E \u000B8F \u000B90</string>
+    </test>
+    <test label="U+0B92">
+      <comment>ovowel</comment>
+      <string>\u000B92 \u000B93 \u000B94</string>
+    </test>
+    <test label="U+0BBE">
+      <comment>aamatra</comment>
+      <string>\u000BBE \u000BBF \u000B95\u000BC0 \u000BC1 \u000BC2</string>
+    </test>
+    <test label="U+0BC6">
+      <comment>ematra</comment>
+      <string>\u000BC6 \u000BC7 \u000BC8</string>
+    </test>
+    <test label="U+0BCA">
+      <comment>omatra</comment>
+      <string>\u000BCA \u000BCB \u000BCC</string>
+    </test>
+    <test label="U+0B95">
+      <comment>ka</comment>
+      <string>\u000B95</string>
+    </test>
+    <test label="U+0B99">
+      <comment>nga</comment>
+      <string>\u000B99 \u000B9A</string>
+    </test>
+    <test label="U+0B9C">
+      <comment>ja</comment>
+      <string>\u000B9C</string>
+    </test>
+    <test label="U+0B9E">
+      <comment>nya</comment>
+      <string>\u000B9E \u000B9F</string>
+    </test>
+    <test label="U+0BA3">
+      <comment>nna</comment>
+      <string>\u000BA3 \u000BA4</string>
+    </test>
+    <test label="U+0BA8">
+      <comment>na</comment>
+      <string>\u000BA8 \u000BA9 \u000BAA</string>
+    </test>
+    <test label="U+0BAE">
+      <comment>ma</comment>
+      <string>\u000BAE \u000BAF \u000BB0 \u000BB1 \u000BB2 \u000BB3 \u000BB4 \u000BB5 \u000BB6 \u000BB7 \u000BB8 \u000BB9</string>
+    </test>
+    <test label="U+0BE6">
+      <comment>zerotaml</comment>
+      <string>\u000BE6 \u000BE7 \u000BE8 \u000BE9 \u000BEA \u000BEB \u000BEC \u000BED \u000BEE \u000BEF</string>
+    </test>
+  </testgroup>
 </ftml>

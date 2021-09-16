@@ -3010,6 +3010,71 @@ U+0307">
       <comment>aulengthmark dotabovecomb</comment>
       <string>\u000BD7\u000307 \u000BD7\u000B82 \u000BD7\u000BCD</string>
     </test>
+    <test label="U+1CF5
+U+0323">
+      <comment>vedicsignjihvamuliya dotbelowcomb</comment>
+      <string>\u001CF5\u000323</string>
+    </test>
+    <test label="U+1CF5
+U+0323" stylename="cv01_1">
+      <comment>vedicsignjihvamuliya dotbelowcomb</comment>
+      <string>\u001CF5\u000323</string>
+    </test>
+    <test label="U+1CF5
+U+0323" stylename="cv01_2">
+      <comment>vedicsignjihvamuliya dotbelowcomb</comment>
+      <string>\u001CF5\u000323</string>
+    </test>
+    <test label="U+1CF5
+U+0323" stylename="cv01_3">
+      <comment>vedicsignjihvamuliya dotbelowcomb</comment>
+      <string>\u001CF5\u000323</string>
+    </test>
+    <test label="U+1CF5
+U+1133B">
+      <comment>vedicsignjihvamuliya bindu</comment>
+      <string>\u001CF5\u01133B</string>
+    </test>
+    <test label="U+1CF5
+U+1133B" stylename="cv01_1">
+      <comment>vedicsignjihvamuliya bindu</comment>
+      <string>\u001CF5\u01133B</string>
+    </test>
+    <test label="U+1CF5
+U+1133B" stylename="cv01_2">
+      <comment>vedicsignjihvamuliya bindu</comment>
+      <string>\u001CF5\u01133B</string>
+    </test>
+    <test label="U+1CF5
+U+1133B" stylename="cv01_3">
+      <comment>vedicsignjihvamuliya bindu</comment>
+      <string>\u001CF5\u01133B</string>
+    </test>
+    <test label="U+1CF5
+U+1133C">
+      <comment>vedicsignjihvamuliya nukta</comment>
+      <string>\u001CF5\u01133C</string>
+    </test>
+    <test label="U+1CF5
+U+1133C" stylename="cv01_1">
+      <comment>vedicsignjihvamuliya nukta</comment>
+      <string>\u001CF5\u01133C</string>
+    </test>
+    <test label="U+1CF5
+U+1133C" stylename="cv01_2">
+      <comment>vedicsignjihvamuliya nukta</comment>
+      <string>\u001CF5\u01133C</string>
+    </test>
+    <test label="U+1CF5
+U+1133C" stylename="cv01_3">
+      <comment>vedicsignjihvamuliya nukta</comment>
+      <string>\u001CF5\u01133C</string>
+    </test>
+    <test label="U+1CF5
+U+0307">
+      <comment>vedicsignjihvamuliya dotabovecomb</comment>
+      <string>\u001CF5\u000307 \u001CF5\u000B82 \u001CF5\u000BCD</string>
+    </test>
   </testgroup>
   <testgroup label="All diacritics on representative bases">
     <test label="U+0B95
