@@ -76,10 +76,11 @@ def doit(args):
                 builder.render((uid,), ftml)
                 # Don't close test -- collect consecutive encoded chars in a single row
             ftml.clearFeatures()
-            for langID in sorted(c.langs):
-                ftml.setLang(langID)
-                builder.render((uid,), ftml)
-            ftml.clearLang()
+            if len(c.langs):
+                for langID in builder.allLangs:
+                    ftml.setLang(langID)
+                    builder.render((uid,), ftml)
+                ftml.clearLang()
 
         # Add unencoded specials and ligatures -- i.e., things with a sequence of USVs in the glyph_data:
         ftml.startTestGroup('Specials & ligatures from glyph_data')
@@ -93,7 +94,7 @@ def doit(args):
                 ftml.closeTest()
             ftml.clearFeatures()
             if len(special.langs):
-                for langID in sorted(special.langs):
+                for langID in builder.allLangs:
                     ftml.setLang(langID)
                     builder.render(special.uids, ftml)
                     ftml.closeTest()

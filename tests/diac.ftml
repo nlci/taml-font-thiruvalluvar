@@ -7,6 +7,11 @@
     <fontsrc label="Gr">url(../results/ThiruValluvar-Regular.ttf)</fontsrc>
     <fontsrc label="OT">url(../results/tests/ftml/fonts/ThiruValluvar-Regular_ot_tml2.ttf)</fontsrc>
     <fontsrc label="Bold">url(../results/ThiruValluvar-Bold.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv01' 1" name="cv01_1"/>
+      <style feats="'cv01' 2" name="cv01_2"/>
+      <style feats="'cv01' 3" name="cv01_3"/>
+    </styles>
     <title>Diac auto</title>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
@@ -18,232 +23,2992 @@
     <test label="U+0B83
 U+0323">
       <comment>visarga dotbelowcomb</comment>
-      <string>\u000B83\u000323 \u000B83\u01133B \u000B83\u01133C \u000B83\u000307 \u000B83\u000B82 \u000B83\u000BCD</string>
+      <string>\u000B83\u000323</string>
+    </test>
+    <test label="U+0B83
+U+0323" stylename="cv01_1">
+      <comment>visarga dotbelowcomb</comment>
+      <string>\u000B83\u000323</string>
+    </test>
+    <test label="U+0B83
+U+0323" stylename="cv01_2">
+      <comment>visarga dotbelowcomb</comment>
+      <string>\u000B83\u000323</string>
+    </test>
+    <test label="U+0B83
+U+0323" stylename="cv01_3">
+      <comment>visarga dotbelowcomb</comment>
+      <string>\u000B83\u000323</string>
+    </test>
+    <test label="U+0B83
+U+1133B">
+      <comment>visarga bindu</comment>
+      <string>\u000B83\u01133B</string>
+    </test>
+    <test label="U+0B83
+U+1133B" stylename="cv01_1">
+      <comment>visarga bindu</comment>
+      <string>\u000B83\u01133B</string>
+    </test>
+    <test label="U+0B83
+U+1133B" stylename="cv01_2">
+      <comment>visarga bindu</comment>
+      <string>\u000B83\u01133B</string>
+    </test>
+    <test label="U+0B83
+U+1133B" stylename="cv01_3">
+      <comment>visarga bindu</comment>
+      <string>\u000B83\u01133B</string>
+    </test>
+    <test label="U+0B83
+U+1133C">
+      <comment>visarga nukta</comment>
+      <string>\u000B83\u01133C</string>
+    </test>
+    <test label="U+0B83
+U+1133C" stylename="cv01_1">
+      <comment>visarga nukta</comment>
+      <string>\u000B83\u01133C</string>
+    </test>
+    <test label="U+0B83
+U+1133C" stylename="cv01_2">
+      <comment>visarga nukta</comment>
+      <string>\u000B83\u01133C</string>
+    </test>
+    <test label="U+0B83
+U+1133C" stylename="cv01_3">
+      <comment>visarga nukta</comment>
+      <string>\u000B83\u01133C</string>
+    </test>
+    <test label="U+0B83
+U+0307">
+      <comment>visarga dotabovecomb</comment>
+      <string>\u000B83\u000307 \u000B83\u000B82 \u000B83\u000BCD</string>
     </test>
     <test label="U+0B85
 U+0323">
       <comment>avowel dotbelowcomb</comment>
-      <string>\u000B85\u000323 \u000B85\u01133B \u000B85\u01133C \u000B85\u000307 \u000B85\u000B82 \u000B85\u000BCD</string>
+      <string>\u000B85\u000323</string>
+    </test>
+    <test label="U+0B85
+U+0323" stylename="cv01_1">
+      <comment>avowel dotbelowcomb</comment>
+      <string>\u000B85\u000323</string>
+    </test>
+    <test label="U+0B85
+U+0323" stylename="cv01_2">
+      <comment>avowel dotbelowcomb</comment>
+      <string>\u000B85\u000323</string>
+    </test>
+    <test label="U+0B85
+U+0323" stylename="cv01_3">
+      <comment>avowel dotbelowcomb</comment>
+      <string>\u000B85\u000323</string>
+    </test>
+    <test label="U+0B85
+U+1133B">
+      <comment>avowel bindu</comment>
+      <string>\u000B85\u01133B</string>
+    </test>
+    <test label="U+0B85
+U+1133B" stylename="cv01_1">
+      <comment>avowel bindu</comment>
+      <string>\u000B85\u01133B</string>
+    </test>
+    <test label="U+0B85
+U+1133B" stylename="cv01_2">
+      <comment>avowel bindu</comment>
+      <string>\u000B85\u01133B</string>
+    </test>
+    <test label="U+0B85
+U+1133B" stylename="cv01_3">
+      <comment>avowel bindu</comment>
+      <string>\u000B85\u01133B</string>
+    </test>
+    <test label="U+0B85
+U+1133C">
+      <comment>avowel nukta</comment>
+      <string>\u000B85\u01133C</string>
+    </test>
+    <test label="U+0B85
+U+1133C" stylename="cv01_1">
+      <comment>avowel nukta</comment>
+      <string>\u000B85\u01133C</string>
+    </test>
+    <test label="U+0B85
+U+1133C" stylename="cv01_2">
+      <comment>avowel nukta</comment>
+      <string>\u000B85\u01133C</string>
+    </test>
+    <test label="U+0B85
+U+1133C" stylename="cv01_3">
+      <comment>avowel nukta</comment>
+      <string>\u000B85\u01133C</string>
+    </test>
+    <test label="U+0B85
+U+0307">
+      <comment>avowel dotabovecomb</comment>
+      <string>\u000B85\u000307 \u000B85\u000B82 \u000B85\u000BCD</string>
     </test>
     <test label="U+0B86
 U+0323">
       <comment>aavowel dotbelowcomb</comment>
-      <string>\u000B86\u000323 \u000B86\u01133B \u000B86\u01133C \u000B86\u000307 \u000B86\u000B82 \u000B86\u000BCD</string>
+      <string>\u000B86\u000323</string>
+    </test>
+    <test label="U+0B86
+U+0323" stylename="cv01_1">
+      <comment>aavowel dotbelowcomb</comment>
+      <string>\u000B86\u000323</string>
+    </test>
+    <test label="U+0B86
+U+0323" stylename="cv01_2">
+      <comment>aavowel dotbelowcomb</comment>
+      <string>\u000B86\u000323</string>
+    </test>
+    <test label="U+0B86
+U+0323" stylename="cv01_3">
+      <comment>aavowel dotbelowcomb</comment>
+      <string>\u000B86\u000323</string>
+    </test>
+    <test label="U+0B86
+U+1133B">
+      <comment>aavowel bindu</comment>
+      <string>\u000B86\u01133B</string>
+    </test>
+    <test label="U+0B86
+U+1133B" stylename="cv01_1">
+      <comment>aavowel bindu</comment>
+      <string>\u000B86\u01133B</string>
+    </test>
+    <test label="U+0B86
+U+1133B" stylename="cv01_2">
+      <comment>aavowel bindu</comment>
+      <string>\u000B86\u01133B</string>
+    </test>
+    <test label="U+0B86
+U+1133B" stylename="cv01_3">
+      <comment>aavowel bindu</comment>
+      <string>\u000B86\u01133B</string>
+    </test>
+    <test label="U+0B86
+U+1133C">
+      <comment>aavowel nukta</comment>
+      <string>\u000B86\u01133C</string>
+    </test>
+    <test label="U+0B86
+U+1133C" stylename="cv01_1">
+      <comment>aavowel nukta</comment>
+      <string>\u000B86\u01133C</string>
+    </test>
+    <test label="U+0B86
+U+1133C" stylename="cv01_2">
+      <comment>aavowel nukta</comment>
+      <string>\u000B86\u01133C</string>
+    </test>
+    <test label="U+0B86
+U+1133C" stylename="cv01_3">
+      <comment>aavowel nukta</comment>
+      <string>\u000B86\u01133C</string>
+    </test>
+    <test label="U+0B86
+U+0307">
+      <comment>aavowel dotabovecomb</comment>
+      <string>\u000B86\u000307 \u000B86\u000B82 \u000B86\u000BCD</string>
     </test>
     <test label="U+0B87
 U+0323">
       <comment>ivowel dotbelowcomb</comment>
-      <string>\u000B87\u000323 \u000B87\u01133B \u000B87\u01133C \u000B87\u000307 \u000B87\u000B82 \u000B87\u000BCD</string>
+      <string>\u000B87\u000323</string>
+    </test>
+    <test label="U+0B87
+U+0323" stylename="cv01_1">
+      <comment>ivowel dotbelowcomb</comment>
+      <string>\u000B87\u000323</string>
+    </test>
+    <test label="U+0B87
+U+0323" stylename="cv01_2">
+      <comment>ivowel dotbelowcomb</comment>
+      <string>\u000B87\u000323</string>
+    </test>
+    <test label="U+0B87
+U+0323" stylename="cv01_3">
+      <comment>ivowel dotbelowcomb</comment>
+      <string>\u000B87\u000323</string>
+    </test>
+    <test label="U+0B87
+U+1133B">
+      <comment>ivowel bindu</comment>
+      <string>\u000B87\u01133B</string>
+    </test>
+    <test label="U+0B87
+U+1133B" stylename="cv01_1">
+      <comment>ivowel bindu</comment>
+      <string>\u000B87\u01133B</string>
+    </test>
+    <test label="U+0B87
+U+1133B" stylename="cv01_2">
+      <comment>ivowel bindu</comment>
+      <string>\u000B87\u01133B</string>
+    </test>
+    <test label="U+0B87
+U+1133B" stylename="cv01_3">
+      <comment>ivowel bindu</comment>
+      <string>\u000B87\u01133B</string>
+    </test>
+    <test label="U+0B87
+U+1133C">
+      <comment>ivowel nukta</comment>
+      <string>\u000B87\u01133C</string>
+    </test>
+    <test label="U+0B87
+U+1133C" stylename="cv01_1">
+      <comment>ivowel nukta</comment>
+      <string>\u000B87\u01133C</string>
+    </test>
+    <test label="U+0B87
+U+1133C" stylename="cv01_2">
+      <comment>ivowel nukta</comment>
+      <string>\u000B87\u01133C</string>
+    </test>
+    <test label="U+0B87
+U+1133C" stylename="cv01_3">
+      <comment>ivowel nukta</comment>
+      <string>\u000B87\u01133C</string>
+    </test>
+    <test label="U+0B87
+U+0307">
+      <comment>ivowel dotabovecomb</comment>
+      <string>\u000B87\u000307 \u000B87\u000B82 \u000B87\u000BCD</string>
     </test>
     <test label="U+0B88
 U+0323">
       <comment>iivowel dotbelowcomb</comment>
-      <string>\u000B88\u000323 \u000B88\u01133B \u000B88\u01133C \u000B88\u000307 \u000B88\u000B82 \u000B88\u000BCD</string>
+      <string>\u000B88\u000323</string>
+    </test>
+    <test label="U+0B88
+U+0323" stylename="cv01_1">
+      <comment>iivowel dotbelowcomb</comment>
+      <string>\u000B88\u000323</string>
+    </test>
+    <test label="U+0B88
+U+0323" stylename="cv01_2">
+      <comment>iivowel dotbelowcomb</comment>
+      <string>\u000B88\u000323</string>
+    </test>
+    <test label="U+0B88
+U+0323" stylename="cv01_3">
+      <comment>iivowel dotbelowcomb</comment>
+      <string>\u000B88\u000323</string>
+    </test>
+    <test label="U+0B88
+U+1133B">
+      <comment>iivowel bindu</comment>
+      <string>\u000B88\u01133B</string>
+    </test>
+    <test label="U+0B88
+U+1133B" stylename="cv01_1">
+      <comment>iivowel bindu</comment>
+      <string>\u000B88\u01133B</string>
+    </test>
+    <test label="U+0B88
+U+1133B" stylename="cv01_2">
+      <comment>iivowel bindu</comment>
+      <string>\u000B88\u01133B</string>
+    </test>
+    <test label="U+0B88
+U+1133B" stylename="cv01_3">
+      <comment>iivowel bindu</comment>
+      <string>\u000B88\u01133B</string>
+    </test>
+    <test label="U+0B88
+U+1133C">
+      <comment>iivowel nukta</comment>
+      <string>\u000B88\u01133C</string>
+    </test>
+    <test label="U+0B88
+U+1133C" stylename="cv01_1">
+      <comment>iivowel nukta</comment>
+      <string>\u000B88\u01133C</string>
+    </test>
+    <test label="U+0B88
+U+1133C" stylename="cv01_2">
+      <comment>iivowel nukta</comment>
+      <string>\u000B88\u01133C</string>
+    </test>
+    <test label="U+0B88
+U+1133C" stylename="cv01_3">
+      <comment>iivowel nukta</comment>
+      <string>\u000B88\u01133C</string>
+    </test>
+    <test label="U+0B88
+U+0307">
+      <comment>iivowel dotabovecomb</comment>
+      <string>\u000B88\u000307 \u000B88\u000B82 \u000B88\u000BCD</string>
     </test>
     <test label="U+0B89
 U+0323">
       <comment>uvowel dotbelowcomb</comment>
-      <string>\u000B89\u000323 \u000B89\u01133B \u000B89\u01133C \u000B89\u000307 \u000B89\u000B82 \u000B89\u000BCD</string>
+      <string>\u000B89\u000323</string>
+    </test>
+    <test label="U+0B89
+U+0323" stylename="cv01_1">
+      <comment>uvowel dotbelowcomb</comment>
+      <string>\u000B89\u000323</string>
+    </test>
+    <test label="U+0B89
+U+0323" stylename="cv01_2">
+      <comment>uvowel dotbelowcomb</comment>
+      <string>\u000B89\u000323</string>
+    </test>
+    <test label="U+0B89
+U+0323" stylename="cv01_3">
+      <comment>uvowel dotbelowcomb</comment>
+      <string>\u000B89\u000323</string>
+    </test>
+    <test label="U+0B89
+U+1133B">
+      <comment>uvowel bindu</comment>
+      <string>\u000B89\u01133B</string>
+    </test>
+    <test label="U+0B89
+U+1133B" stylename="cv01_1">
+      <comment>uvowel bindu</comment>
+      <string>\u000B89\u01133B</string>
+    </test>
+    <test label="U+0B89
+U+1133B" stylename="cv01_2">
+      <comment>uvowel bindu</comment>
+      <string>\u000B89\u01133B</string>
+    </test>
+    <test label="U+0B89
+U+1133B" stylename="cv01_3">
+      <comment>uvowel bindu</comment>
+      <string>\u000B89\u01133B</string>
+    </test>
+    <test label="U+0B89
+U+1133C">
+      <comment>uvowel nukta</comment>
+      <string>\u000B89\u01133C</string>
+    </test>
+    <test label="U+0B89
+U+1133C" stylename="cv01_1">
+      <comment>uvowel nukta</comment>
+      <string>\u000B89\u01133C</string>
+    </test>
+    <test label="U+0B89
+U+1133C" stylename="cv01_2">
+      <comment>uvowel nukta</comment>
+      <string>\u000B89\u01133C</string>
+    </test>
+    <test label="U+0B89
+U+1133C" stylename="cv01_3">
+      <comment>uvowel nukta</comment>
+      <string>\u000B89\u01133C</string>
+    </test>
+    <test label="U+0B89
+U+0307">
+      <comment>uvowel dotabovecomb</comment>
+      <string>\u000B89\u000307 \u000B89\u000B82 \u000B89\u000BCD</string>
     </test>
     <test label="U+0B8A
 U+0323">
       <comment>uuvowel dotbelowcomb</comment>
-      <string>\u000B8A\u000323 \u000B8A\u01133B \u000B8A\u01133C \u000B8A\u000307 \u000B8A\u000B82 \u000B8A\u000BCD</string>
+      <string>\u000B8A\u000323</string>
+    </test>
+    <test label="U+0B8A
+U+0323" stylename="cv01_1">
+      <comment>uuvowel dotbelowcomb</comment>
+      <string>\u000B8A\u000323</string>
+    </test>
+    <test label="U+0B8A
+U+0323" stylename="cv01_2">
+      <comment>uuvowel dotbelowcomb</comment>
+      <string>\u000B8A\u000323</string>
+    </test>
+    <test label="U+0B8A
+U+0323" stylename="cv01_3">
+      <comment>uuvowel dotbelowcomb</comment>
+      <string>\u000B8A\u000323</string>
+    </test>
+    <test label="U+0B8A
+U+1133B">
+      <comment>uuvowel bindu</comment>
+      <string>\u000B8A\u01133B</string>
+    </test>
+    <test label="U+0B8A
+U+1133B" stylename="cv01_1">
+      <comment>uuvowel bindu</comment>
+      <string>\u000B8A\u01133B</string>
+    </test>
+    <test label="U+0B8A
+U+1133B" stylename="cv01_2">
+      <comment>uuvowel bindu</comment>
+      <string>\u000B8A\u01133B</string>
+    </test>
+    <test label="U+0B8A
+U+1133B" stylename="cv01_3">
+      <comment>uuvowel bindu</comment>
+      <string>\u000B8A\u01133B</string>
+    </test>
+    <test label="U+0B8A
+U+1133C">
+      <comment>uuvowel nukta</comment>
+      <string>\u000B8A\u01133C</string>
+    </test>
+    <test label="U+0B8A
+U+1133C" stylename="cv01_1">
+      <comment>uuvowel nukta</comment>
+      <string>\u000B8A\u01133C</string>
+    </test>
+    <test label="U+0B8A
+U+1133C" stylename="cv01_2">
+      <comment>uuvowel nukta</comment>
+      <string>\u000B8A\u01133C</string>
+    </test>
+    <test label="U+0B8A
+U+1133C" stylename="cv01_3">
+      <comment>uuvowel nukta</comment>
+      <string>\u000B8A\u01133C</string>
+    </test>
+    <test label="U+0B8A
+U+0307">
+      <comment>uuvowel dotabovecomb</comment>
+      <string>\u000B8A\u000307 \u000B8A\u000B82 \u000B8A\u000BCD</string>
     </test>
     <test label="U+0B8E
 U+0323">
       <comment>evowel dotbelowcomb</comment>
-      <string>\u000B8E\u000323 \u000B8E\u01133B \u000B8E\u01133C \u000B8E\u000307 \u000B8E\u000B82 \u000B8E\u000BCD</string>
+      <string>\u000B8E\u000323</string>
+    </test>
+    <test label="U+0B8E
+U+0323" stylename="cv01_1">
+      <comment>evowel dotbelowcomb</comment>
+      <string>\u000B8E\u000323</string>
+    </test>
+    <test label="U+0B8E
+U+0323" stylename="cv01_2">
+      <comment>evowel dotbelowcomb</comment>
+      <string>\u000B8E\u000323</string>
+    </test>
+    <test label="U+0B8E
+U+0323" stylename="cv01_3">
+      <comment>evowel dotbelowcomb</comment>
+      <string>\u000B8E\u000323</string>
+    </test>
+    <test label="U+0B8E
+U+1133B">
+      <comment>evowel bindu</comment>
+      <string>\u000B8E\u01133B</string>
+    </test>
+    <test label="U+0B8E
+U+1133B" stylename="cv01_1">
+      <comment>evowel bindu</comment>
+      <string>\u000B8E\u01133B</string>
+    </test>
+    <test label="U+0B8E
+U+1133B" stylename="cv01_2">
+      <comment>evowel bindu</comment>
+      <string>\u000B8E\u01133B</string>
+    </test>
+    <test label="U+0B8E
+U+1133B" stylename="cv01_3">
+      <comment>evowel bindu</comment>
+      <string>\u000B8E\u01133B</string>
+    </test>
+    <test label="U+0B8E
+U+1133C">
+      <comment>evowel nukta</comment>
+      <string>\u000B8E\u01133C</string>
+    </test>
+    <test label="U+0B8E
+U+1133C" stylename="cv01_1">
+      <comment>evowel nukta</comment>
+      <string>\u000B8E\u01133C</string>
+    </test>
+    <test label="U+0B8E
+U+1133C" stylename="cv01_2">
+      <comment>evowel nukta</comment>
+      <string>\u000B8E\u01133C</string>
+    </test>
+    <test label="U+0B8E
+U+1133C" stylename="cv01_3">
+      <comment>evowel nukta</comment>
+      <string>\u000B8E\u01133C</string>
+    </test>
+    <test label="U+0B8E
+U+0307">
+      <comment>evowel dotabovecomb</comment>
+      <string>\u000B8E\u000307 \u000B8E\u000B82 \u000B8E\u000BCD</string>
     </test>
     <test label="U+0B8F
 U+0323">
       <comment>eevowel dotbelowcomb</comment>
-      <string>\u000B8F\u000323 \u000B8F\u01133B \u000B8F\u01133C \u000B8F\u000307 \u000B8F\u000B82 \u000B8F\u000BCD</string>
+      <string>\u000B8F\u000323</string>
+    </test>
+    <test label="U+0B8F
+U+0323" stylename="cv01_1">
+      <comment>eevowel dotbelowcomb</comment>
+      <string>\u000B8F\u000323</string>
+    </test>
+    <test label="U+0B8F
+U+0323" stylename="cv01_2">
+      <comment>eevowel dotbelowcomb</comment>
+      <string>\u000B8F\u000323</string>
+    </test>
+    <test label="U+0B8F
+U+0323" stylename="cv01_3">
+      <comment>eevowel dotbelowcomb</comment>
+      <string>\u000B8F\u000323</string>
+    </test>
+    <test label="U+0B8F
+U+1133B">
+      <comment>eevowel bindu</comment>
+      <string>\u000B8F\u01133B</string>
+    </test>
+    <test label="U+0B8F
+U+1133B" stylename="cv01_1">
+      <comment>eevowel bindu</comment>
+      <string>\u000B8F\u01133B</string>
+    </test>
+    <test label="U+0B8F
+U+1133B" stylename="cv01_2">
+      <comment>eevowel bindu</comment>
+      <string>\u000B8F\u01133B</string>
+    </test>
+    <test label="U+0B8F
+U+1133B" stylename="cv01_3">
+      <comment>eevowel bindu</comment>
+      <string>\u000B8F\u01133B</string>
+    </test>
+    <test label="U+0B8F
+U+1133C">
+      <comment>eevowel nukta</comment>
+      <string>\u000B8F\u01133C</string>
+    </test>
+    <test label="U+0B8F
+U+1133C" stylename="cv01_1">
+      <comment>eevowel nukta</comment>
+      <string>\u000B8F\u01133C</string>
+    </test>
+    <test label="U+0B8F
+U+1133C" stylename="cv01_2">
+      <comment>eevowel nukta</comment>
+      <string>\u000B8F\u01133C</string>
+    </test>
+    <test label="U+0B8F
+U+1133C" stylename="cv01_3">
+      <comment>eevowel nukta</comment>
+      <string>\u000B8F\u01133C</string>
+    </test>
+    <test label="U+0B8F
+U+0307">
+      <comment>eevowel dotabovecomb</comment>
+      <string>\u000B8F\u000307 \u000B8F\u000B82 \u000B8F\u000BCD</string>
     </test>
     <test label="U+0B90
 U+0323">
       <comment>aivowel dotbelowcomb</comment>
-      <string>\u000B90\u000323 \u000B90\u01133B \u000B90\u01133C \u000B90\u000307 \u000B90\u000B82 \u000B90\u000BCD</string>
+      <string>\u000B90\u000323</string>
+    </test>
+    <test label="U+0B90
+U+0323" stylename="cv01_1">
+      <comment>aivowel dotbelowcomb</comment>
+      <string>\u000B90\u000323</string>
+    </test>
+    <test label="U+0B90
+U+0323" stylename="cv01_2">
+      <comment>aivowel dotbelowcomb</comment>
+      <string>\u000B90\u000323</string>
+    </test>
+    <test label="U+0B90
+U+0323" stylename="cv01_3">
+      <comment>aivowel dotbelowcomb</comment>
+      <string>\u000B90\u000323</string>
+    </test>
+    <test label="U+0B90
+U+1133B">
+      <comment>aivowel bindu</comment>
+      <string>\u000B90\u01133B</string>
+    </test>
+    <test label="U+0B90
+U+1133B" stylename="cv01_1">
+      <comment>aivowel bindu</comment>
+      <string>\u000B90\u01133B</string>
+    </test>
+    <test label="U+0B90
+U+1133B" stylename="cv01_2">
+      <comment>aivowel bindu</comment>
+      <string>\u000B90\u01133B</string>
+    </test>
+    <test label="U+0B90
+U+1133B" stylename="cv01_3">
+      <comment>aivowel bindu</comment>
+      <string>\u000B90\u01133B</string>
+    </test>
+    <test label="U+0B90
+U+1133C">
+      <comment>aivowel nukta</comment>
+      <string>\u000B90\u01133C</string>
+    </test>
+    <test label="U+0B90
+U+1133C" stylename="cv01_1">
+      <comment>aivowel nukta</comment>
+      <string>\u000B90\u01133C</string>
+    </test>
+    <test label="U+0B90
+U+1133C" stylename="cv01_2">
+      <comment>aivowel nukta</comment>
+      <string>\u000B90\u01133C</string>
+    </test>
+    <test label="U+0B90
+U+1133C" stylename="cv01_3">
+      <comment>aivowel nukta</comment>
+      <string>\u000B90\u01133C</string>
+    </test>
+    <test label="U+0B90
+U+0307">
+      <comment>aivowel dotabovecomb</comment>
+      <string>\u000B90\u000307 \u000B90\u000B82 \u000B90\u000BCD</string>
     </test>
     <test label="U+0B92
 U+0323">
       <comment>ovowel dotbelowcomb</comment>
-      <string>\u000B92\u000323 \u000B92\u01133B \u000B92\u01133C \u000B92\u000307 \u000B92\u000B82 \u000B92\u000BCD</string>
+      <string>\u000B92\u000323</string>
+    </test>
+    <test label="U+0B92
+U+0323" stylename="cv01_1">
+      <comment>ovowel dotbelowcomb</comment>
+      <string>\u000B92\u000323</string>
+    </test>
+    <test label="U+0B92
+U+0323" stylename="cv01_2">
+      <comment>ovowel dotbelowcomb</comment>
+      <string>\u000B92\u000323</string>
+    </test>
+    <test label="U+0B92
+U+0323" stylename="cv01_3">
+      <comment>ovowel dotbelowcomb</comment>
+      <string>\u000B92\u000323</string>
+    </test>
+    <test label="U+0B92
+U+1133B">
+      <comment>ovowel bindu</comment>
+      <string>\u000B92\u01133B</string>
+    </test>
+    <test label="U+0B92
+U+1133B" stylename="cv01_1">
+      <comment>ovowel bindu</comment>
+      <string>\u000B92\u01133B</string>
+    </test>
+    <test label="U+0B92
+U+1133B" stylename="cv01_2">
+      <comment>ovowel bindu</comment>
+      <string>\u000B92\u01133B</string>
+    </test>
+    <test label="U+0B92
+U+1133B" stylename="cv01_3">
+      <comment>ovowel bindu</comment>
+      <string>\u000B92\u01133B</string>
+    </test>
+    <test label="U+0B92
+U+1133C">
+      <comment>ovowel nukta</comment>
+      <string>\u000B92\u01133C</string>
+    </test>
+    <test label="U+0B92
+U+1133C" stylename="cv01_1">
+      <comment>ovowel nukta</comment>
+      <string>\u000B92\u01133C</string>
+    </test>
+    <test label="U+0B92
+U+1133C" stylename="cv01_2">
+      <comment>ovowel nukta</comment>
+      <string>\u000B92\u01133C</string>
+    </test>
+    <test label="U+0B92
+U+1133C" stylename="cv01_3">
+      <comment>ovowel nukta</comment>
+      <string>\u000B92\u01133C</string>
+    </test>
+    <test label="U+0B92
+U+0307">
+      <comment>ovowel dotabovecomb</comment>
+      <string>\u000B92\u000307 \u000B92\u000B82 \u000B92\u000BCD</string>
     </test>
     <test label="U+0B93
 U+0323">
       <comment>oovowel dotbelowcomb</comment>
-      <string>\u000B93\u000323 \u000B93\u01133B \u000B93\u01133C \u000B93\u000307 \u000B93\u000B82 \u000B93\u000BCD</string>
+      <string>\u000B93\u000323</string>
+    </test>
+    <test label="U+0B93
+U+0323" stylename="cv01_1">
+      <comment>oovowel dotbelowcomb</comment>
+      <string>\u000B93\u000323</string>
+    </test>
+    <test label="U+0B93
+U+0323" stylename="cv01_2">
+      <comment>oovowel dotbelowcomb</comment>
+      <string>\u000B93\u000323</string>
+    </test>
+    <test label="U+0B93
+U+0323" stylename="cv01_3">
+      <comment>oovowel dotbelowcomb</comment>
+      <string>\u000B93\u000323</string>
+    </test>
+    <test label="U+0B93
+U+1133B">
+      <comment>oovowel bindu</comment>
+      <string>\u000B93\u01133B</string>
+    </test>
+    <test label="U+0B93
+U+1133B" stylename="cv01_1">
+      <comment>oovowel bindu</comment>
+      <string>\u000B93\u01133B</string>
+    </test>
+    <test label="U+0B93
+U+1133B" stylename="cv01_2">
+      <comment>oovowel bindu</comment>
+      <string>\u000B93\u01133B</string>
+    </test>
+    <test label="U+0B93
+U+1133B" stylename="cv01_3">
+      <comment>oovowel bindu</comment>
+      <string>\u000B93\u01133B</string>
+    </test>
+    <test label="U+0B93
+U+1133C">
+      <comment>oovowel nukta</comment>
+      <string>\u000B93\u01133C</string>
+    </test>
+    <test label="U+0B93
+U+1133C" stylename="cv01_1">
+      <comment>oovowel nukta</comment>
+      <string>\u000B93\u01133C</string>
+    </test>
+    <test label="U+0B93
+U+1133C" stylename="cv01_2">
+      <comment>oovowel nukta</comment>
+      <string>\u000B93\u01133C</string>
+    </test>
+    <test label="U+0B93
+U+1133C" stylename="cv01_3">
+      <comment>oovowel nukta</comment>
+      <string>\u000B93\u01133C</string>
+    </test>
+    <test label="U+0B93
+U+0307">
+      <comment>oovowel dotabovecomb</comment>
+      <string>\u000B93\u000307 \u000B93\u000B82 \u000B93\u000BCD</string>
     </test>
     <test label="U+0B94
 U+0323">
       <comment>auvowel dotbelowcomb</comment>
-      <string>\u000B94\u000323 \u000B94\u01133B \u000B94\u01133C \u000B94\u000307 \u000B94\u000B82 \u000B94\u000BCD</string>
+      <string>\u000B94\u000323</string>
+    </test>
+    <test label="U+0B94
+U+0323" stylename="cv01_1">
+      <comment>auvowel dotbelowcomb</comment>
+      <string>\u000B94\u000323</string>
+    </test>
+    <test label="U+0B94
+U+0323" stylename="cv01_2">
+      <comment>auvowel dotbelowcomb</comment>
+      <string>\u000B94\u000323</string>
+    </test>
+    <test label="U+0B94
+U+0323" stylename="cv01_3">
+      <comment>auvowel dotbelowcomb</comment>
+      <string>\u000B94\u000323</string>
+    </test>
+    <test label="U+0B94
+U+1133B">
+      <comment>auvowel bindu</comment>
+      <string>\u000B94\u01133B</string>
+    </test>
+    <test label="U+0B94
+U+1133B" stylename="cv01_1">
+      <comment>auvowel bindu</comment>
+      <string>\u000B94\u01133B</string>
+    </test>
+    <test label="U+0B94
+U+1133B" stylename="cv01_2">
+      <comment>auvowel bindu</comment>
+      <string>\u000B94\u01133B</string>
+    </test>
+    <test label="U+0B94
+U+1133B" stylename="cv01_3">
+      <comment>auvowel bindu</comment>
+      <string>\u000B94\u01133B</string>
+    </test>
+    <test label="U+0B94
+U+1133C">
+      <comment>auvowel nukta</comment>
+      <string>\u000B94\u01133C</string>
+    </test>
+    <test label="U+0B94
+U+1133C" stylename="cv01_1">
+      <comment>auvowel nukta</comment>
+      <string>\u000B94\u01133C</string>
+    </test>
+    <test label="U+0B94
+U+1133C" stylename="cv01_2">
+      <comment>auvowel nukta</comment>
+      <string>\u000B94\u01133C</string>
+    </test>
+    <test label="U+0B94
+U+1133C" stylename="cv01_3">
+      <comment>auvowel nukta</comment>
+      <string>\u000B94\u01133C</string>
+    </test>
+    <test label="U+0B94
+U+0307">
+      <comment>auvowel dotabovecomb</comment>
+      <string>\u000B94\u000307 \u000B94\u000B82 \u000B94\u000BCD</string>
     </test>
     <test label="U+0B95
 U+0323">
       <comment>ka dotbelowcomb</comment>
-      <string>\u000B95\u000323 \u000B95\u01133B \u000B95\u01133C \u000B95\u000307 \u000B95\u000B82 \u000B95\u000BCD</string>
+      <string>\u000B95\u000323</string>
+    </test>
+    <test label="U+0B95
+U+0323" stylename="cv01_1">
+      <comment>ka dotbelowcomb</comment>
+      <string>\u000B95\u000323</string>
+    </test>
+    <test label="U+0B95
+U+0323" stylename="cv01_2">
+      <comment>ka dotbelowcomb</comment>
+      <string>\u000B95\u000323</string>
+    </test>
+    <test label="U+0B95
+U+0323" stylename="cv01_3">
+      <comment>ka dotbelowcomb</comment>
+      <string>\u000B95\u000323</string>
+    </test>
+    <test label="U+0B95
+U+1133B">
+      <comment>ka bindu</comment>
+      <string>\u000B95\u01133B</string>
+    </test>
+    <test label="U+0B95
+U+1133B" stylename="cv01_1">
+      <comment>ka bindu</comment>
+      <string>\u000B95\u01133B</string>
+    </test>
+    <test label="U+0B95
+U+1133B" stylename="cv01_2">
+      <comment>ka bindu</comment>
+      <string>\u000B95\u01133B</string>
+    </test>
+    <test label="U+0B95
+U+1133B" stylename="cv01_3">
+      <comment>ka bindu</comment>
+      <string>\u000B95\u01133B</string>
+    </test>
+    <test label="U+0B95
+U+1133C">
+      <comment>ka nukta</comment>
+      <string>\u000B95\u01133C</string>
+    </test>
+    <test label="U+0B95
+U+1133C" stylename="cv01_1">
+      <comment>ka nukta</comment>
+      <string>\u000B95\u01133C</string>
+    </test>
+    <test label="U+0B95
+U+1133C" stylename="cv01_2">
+      <comment>ka nukta</comment>
+      <string>\u000B95\u01133C</string>
+    </test>
+    <test label="U+0B95
+U+1133C" stylename="cv01_3">
+      <comment>ka nukta</comment>
+      <string>\u000B95\u01133C</string>
+    </test>
+    <test label="U+0B95
+U+0307">
+      <comment>ka dotabovecomb</comment>
+      <string>\u000B95\u000307 \u000B95\u000B82 \u000B95\u000BCD</string>
     </test>
     <test label="U+0B99
 U+0323">
       <comment>nga dotbelowcomb</comment>
-      <string>\u000B99\u000323 \u000B99\u01133B \u000B99\u01133C \u000B99\u000307 \u000B99\u000B82 \u000B99\u000BCD</string>
+      <string>\u000B99\u000323</string>
+    </test>
+    <test label="U+0B99
+U+0323" stylename="cv01_1">
+      <comment>nga dotbelowcomb</comment>
+      <string>\u000B99\u000323</string>
+    </test>
+    <test label="U+0B99
+U+0323" stylename="cv01_2">
+      <comment>nga dotbelowcomb</comment>
+      <string>\u000B99\u000323</string>
+    </test>
+    <test label="U+0B99
+U+0323" stylename="cv01_3">
+      <comment>nga dotbelowcomb</comment>
+      <string>\u000B99\u000323</string>
+    </test>
+    <test label="U+0B99
+U+1133B">
+      <comment>nga bindu</comment>
+      <string>\u000B99\u01133B</string>
+    </test>
+    <test label="U+0B99
+U+1133B" stylename="cv01_1">
+      <comment>nga bindu</comment>
+      <string>\u000B99\u01133B</string>
+    </test>
+    <test label="U+0B99
+U+1133B" stylename="cv01_2">
+      <comment>nga bindu</comment>
+      <string>\u000B99\u01133B</string>
+    </test>
+    <test label="U+0B99
+U+1133B" stylename="cv01_3">
+      <comment>nga bindu</comment>
+      <string>\u000B99\u01133B</string>
+    </test>
+    <test label="U+0B99
+U+1133C">
+      <comment>nga nukta</comment>
+      <string>\u000B99\u01133C</string>
+    </test>
+    <test label="U+0B99
+U+1133C" stylename="cv01_1">
+      <comment>nga nukta</comment>
+      <string>\u000B99\u01133C</string>
+    </test>
+    <test label="U+0B99
+U+1133C" stylename="cv01_2">
+      <comment>nga nukta</comment>
+      <string>\u000B99\u01133C</string>
+    </test>
+    <test label="U+0B99
+U+1133C" stylename="cv01_3">
+      <comment>nga nukta</comment>
+      <string>\u000B99\u01133C</string>
+    </test>
+    <test label="U+0B99
+U+0307">
+      <comment>nga dotabovecomb</comment>
+      <string>\u000B99\u000307 \u000B99\u000B82 \u000B99\u000BCD</string>
     </test>
     <test label="U+0B9A
 U+0323">
       <comment>ca dotbelowcomb</comment>
-      <string>\u000B9A\u000323 \u000B9A\u01133B \u000B9A\u01133C \u000B9A\u000307 \u000B9A\u000B82 \u000B9A\u000BCD</string>
+      <string>\u000B9A\u000323</string>
+    </test>
+    <test label="U+0B9A
+U+0323" stylename="cv01_1">
+      <comment>ca dotbelowcomb</comment>
+      <string>\u000B9A\u000323</string>
+    </test>
+    <test label="U+0B9A
+U+0323" stylename="cv01_2">
+      <comment>ca dotbelowcomb</comment>
+      <string>\u000B9A\u000323</string>
+    </test>
+    <test label="U+0B9A
+U+0323" stylename="cv01_3">
+      <comment>ca dotbelowcomb</comment>
+      <string>\u000B9A\u000323</string>
+    </test>
+    <test label="U+0B9A
+U+1133B">
+      <comment>ca bindu</comment>
+      <string>\u000B9A\u01133B</string>
+    </test>
+    <test label="U+0B9A
+U+1133B" stylename="cv01_1">
+      <comment>ca bindu</comment>
+      <string>\u000B9A\u01133B</string>
+    </test>
+    <test label="U+0B9A
+U+1133B" stylename="cv01_2">
+      <comment>ca bindu</comment>
+      <string>\u000B9A\u01133B</string>
+    </test>
+    <test label="U+0B9A
+U+1133B" stylename="cv01_3">
+      <comment>ca bindu</comment>
+      <string>\u000B9A\u01133B</string>
+    </test>
+    <test label="U+0B9A
+U+1133C">
+      <comment>ca nukta</comment>
+      <string>\u000B9A\u01133C</string>
+    </test>
+    <test label="U+0B9A
+U+1133C" stylename="cv01_1">
+      <comment>ca nukta</comment>
+      <string>\u000B9A\u01133C</string>
+    </test>
+    <test label="U+0B9A
+U+1133C" stylename="cv01_2">
+      <comment>ca nukta</comment>
+      <string>\u000B9A\u01133C</string>
+    </test>
+    <test label="U+0B9A
+U+1133C" stylename="cv01_3">
+      <comment>ca nukta</comment>
+      <string>\u000B9A\u01133C</string>
+    </test>
+    <test label="U+0B9A
+U+0307">
+      <comment>ca dotabovecomb</comment>
+      <string>\u000B9A\u000307 \u000B9A\u000B82 \u000B9A\u000BCD</string>
     </test>
     <test label="U+0B9C
 U+0323">
       <comment>ja dotbelowcomb</comment>
-      <string>\u000B9C\u000323 \u000B9C\u01133B \u000B9C\u01133C \u000B9C\u000307 \u000B9C\u000B82 \u000B9C\u000BCD</string>
+      <string>\u000B9C\u000323</string>
+    </test>
+    <test label="U+0B9C
+U+0323" stylename="cv01_1">
+      <comment>ja dotbelowcomb</comment>
+      <string>\u000B9C\u000323</string>
+    </test>
+    <test label="U+0B9C
+U+0323" stylename="cv01_2">
+      <comment>ja dotbelowcomb</comment>
+      <string>\u000B9C\u000323</string>
+    </test>
+    <test label="U+0B9C
+U+0323" stylename="cv01_3">
+      <comment>ja dotbelowcomb</comment>
+      <string>\u000B9C\u000323</string>
+    </test>
+    <test label="U+0B9C
+U+1133B">
+      <comment>ja bindu</comment>
+      <string>\u000B9C\u01133B</string>
+    </test>
+    <test label="U+0B9C
+U+1133B" stylename="cv01_1">
+      <comment>ja bindu</comment>
+      <string>\u000B9C\u01133B</string>
+    </test>
+    <test label="U+0B9C
+U+1133B" stylename="cv01_2">
+      <comment>ja bindu</comment>
+      <string>\u000B9C\u01133B</string>
+    </test>
+    <test label="U+0B9C
+U+1133B" stylename="cv01_3">
+      <comment>ja bindu</comment>
+      <string>\u000B9C\u01133B</string>
+    </test>
+    <test label="U+0B9C
+U+1133C">
+      <comment>ja nukta</comment>
+      <string>\u000B9C\u01133C</string>
+    </test>
+    <test label="U+0B9C
+U+1133C" stylename="cv01_1">
+      <comment>ja nukta</comment>
+      <string>\u000B9C\u01133C</string>
+    </test>
+    <test label="U+0B9C
+U+1133C" stylename="cv01_2">
+      <comment>ja nukta</comment>
+      <string>\u000B9C\u01133C</string>
+    </test>
+    <test label="U+0B9C
+U+1133C" stylename="cv01_3">
+      <comment>ja nukta</comment>
+      <string>\u000B9C\u01133C</string>
+    </test>
+    <test label="U+0B9C
+U+0307">
+      <comment>ja dotabovecomb</comment>
+      <string>\u000B9C\u000307 \u000B9C\u000B82 \u000B9C\u000BCD</string>
     </test>
     <test label="U+0B9E
 U+0323">
       <comment>nya dotbelowcomb</comment>
-      <string>\u000B9E\u000323 \u000B9E\u01133B \u000B9E\u01133C \u000B9E\u000307 \u000B9E\u000B82 \u000B9E\u000BCD</string>
+      <string>\u000B9E\u000323</string>
+    </test>
+    <test label="U+0B9E
+U+0323" stylename="cv01_1">
+      <comment>nya dotbelowcomb</comment>
+      <string>\u000B9E\u000323</string>
+    </test>
+    <test label="U+0B9E
+U+0323" stylename="cv01_2">
+      <comment>nya dotbelowcomb</comment>
+      <string>\u000B9E\u000323</string>
+    </test>
+    <test label="U+0B9E
+U+0323" stylename="cv01_3">
+      <comment>nya dotbelowcomb</comment>
+      <string>\u000B9E\u000323</string>
+    </test>
+    <test label="U+0B9E
+U+1133B">
+      <comment>nya bindu</comment>
+      <string>\u000B9E\u01133B</string>
+    </test>
+    <test label="U+0B9E
+U+1133B" stylename="cv01_1">
+      <comment>nya bindu</comment>
+      <string>\u000B9E\u01133B</string>
+    </test>
+    <test label="U+0B9E
+U+1133B" stylename="cv01_2">
+      <comment>nya bindu</comment>
+      <string>\u000B9E\u01133B</string>
+    </test>
+    <test label="U+0B9E
+U+1133B" stylename="cv01_3">
+      <comment>nya bindu</comment>
+      <string>\u000B9E\u01133B</string>
+    </test>
+    <test label="U+0B9E
+U+1133C">
+      <comment>nya nukta</comment>
+      <string>\u000B9E\u01133C</string>
+    </test>
+    <test label="U+0B9E
+U+1133C" stylename="cv01_1">
+      <comment>nya nukta</comment>
+      <string>\u000B9E\u01133C</string>
+    </test>
+    <test label="U+0B9E
+U+1133C" stylename="cv01_2">
+      <comment>nya nukta</comment>
+      <string>\u000B9E\u01133C</string>
+    </test>
+    <test label="U+0B9E
+U+1133C" stylename="cv01_3">
+      <comment>nya nukta</comment>
+      <string>\u000B9E\u01133C</string>
+    </test>
+    <test label="U+0B9E
+U+0307">
+      <comment>nya dotabovecomb</comment>
+      <string>\u000B9E\u000307 \u000B9E\u000B82 \u000B9E\u000BCD</string>
     </test>
     <test label="U+0B9F
 U+0323">
       <comment>tta dotbelowcomb</comment>
-      <string>\u000B9F\u000323 \u000B9F\u01133B \u000B9F\u01133C \u000B9F\u000307 \u000B9F\u000B82 \u000B9F\u000BCD</string>
+      <string>\u000B9F\u000323</string>
+    </test>
+    <test label="U+0B9F
+U+0323" stylename="cv01_1">
+      <comment>tta dotbelowcomb</comment>
+      <string>\u000B9F\u000323</string>
+    </test>
+    <test label="U+0B9F
+U+0323" stylename="cv01_2">
+      <comment>tta dotbelowcomb</comment>
+      <string>\u000B9F\u000323</string>
+    </test>
+    <test label="U+0B9F
+U+0323" stylename="cv01_3">
+      <comment>tta dotbelowcomb</comment>
+      <string>\u000B9F\u000323</string>
+    </test>
+    <test label="U+0B9F
+U+1133B">
+      <comment>tta bindu</comment>
+      <string>\u000B9F\u01133B</string>
+    </test>
+    <test label="U+0B9F
+U+1133B" stylename="cv01_1">
+      <comment>tta bindu</comment>
+      <string>\u000B9F\u01133B</string>
+    </test>
+    <test label="U+0B9F
+U+1133B" stylename="cv01_2">
+      <comment>tta bindu</comment>
+      <string>\u000B9F\u01133B</string>
+    </test>
+    <test label="U+0B9F
+U+1133B" stylename="cv01_3">
+      <comment>tta bindu</comment>
+      <string>\u000B9F\u01133B</string>
+    </test>
+    <test label="U+0B9F
+U+1133C">
+      <comment>tta nukta</comment>
+      <string>\u000B9F\u01133C</string>
+    </test>
+    <test label="U+0B9F
+U+1133C" stylename="cv01_1">
+      <comment>tta nukta</comment>
+      <string>\u000B9F\u01133C</string>
+    </test>
+    <test label="U+0B9F
+U+1133C" stylename="cv01_2">
+      <comment>tta nukta</comment>
+      <string>\u000B9F\u01133C</string>
+    </test>
+    <test label="U+0B9F
+U+1133C" stylename="cv01_3">
+      <comment>tta nukta</comment>
+      <string>\u000B9F\u01133C</string>
+    </test>
+    <test label="U+0B9F
+U+0307">
+      <comment>tta dotabovecomb</comment>
+      <string>\u000B9F\u000307 \u000B9F\u000B82 \u000B9F\u000BCD</string>
     </test>
     <test label="U+0BA3
 U+0323">
       <comment>nna dotbelowcomb</comment>
-      <string>\u000BA3\u000323 \u000BA3\u01133B \u000BA3\u01133C \u000BA3\u000307 \u000BA3\u000B82 \u000BA3\u000BCD</string>
+      <string>\u000BA3\u000323</string>
+    </test>
+    <test label="U+0BA3
+U+0323" stylename="cv01_1">
+      <comment>nna dotbelowcomb</comment>
+      <string>\u000BA3\u000323</string>
+    </test>
+    <test label="U+0BA3
+U+0323" stylename="cv01_2">
+      <comment>nna dotbelowcomb</comment>
+      <string>\u000BA3\u000323</string>
+    </test>
+    <test label="U+0BA3
+U+0323" stylename="cv01_3">
+      <comment>nna dotbelowcomb</comment>
+      <string>\u000BA3\u000323</string>
+    </test>
+    <test label="U+0BA3
+U+1133B">
+      <comment>nna bindu</comment>
+      <string>\u000BA3\u01133B</string>
+    </test>
+    <test label="U+0BA3
+U+1133B" stylename="cv01_1">
+      <comment>nna bindu</comment>
+      <string>\u000BA3\u01133B</string>
+    </test>
+    <test label="U+0BA3
+U+1133B" stylename="cv01_2">
+      <comment>nna bindu</comment>
+      <string>\u000BA3\u01133B</string>
+    </test>
+    <test label="U+0BA3
+U+1133B" stylename="cv01_3">
+      <comment>nna bindu</comment>
+      <string>\u000BA3\u01133B</string>
+    </test>
+    <test label="U+0BA3
+U+1133C">
+      <comment>nna nukta</comment>
+      <string>\u000BA3\u01133C</string>
+    </test>
+    <test label="U+0BA3
+U+1133C" stylename="cv01_1">
+      <comment>nna nukta</comment>
+      <string>\u000BA3\u01133C</string>
+    </test>
+    <test label="U+0BA3
+U+1133C" stylename="cv01_2">
+      <comment>nna nukta</comment>
+      <string>\u000BA3\u01133C</string>
+    </test>
+    <test label="U+0BA3
+U+1133C" stylename="cv01_3">
+      <comment>nna nukta</comment>
+      <string>\u000BA3\u01133C</string>
+    </test>
+    <test label="U+0BA3
+U+0307">
+      <comment>nna dotabovecomb</comment>
+      <string>\u000BA3\u000307 \u000BA3\u000B82 \u000BA3\u000BCD</string>
     </test>
     <test label="U+0BA4
 U+0323">
       <comment>ta dotbelowcomb</comment>
-      <string>\u000BA4\u000323 \u000BA4\u01133B \u000BA4\u01133C \u000BA4\u000307 \u000BA4\u000B82 \u000BA4\u000BCD</string>
+      <string>\u000BA4\u000323</string>
+    </test>
+    <test label="U+0BA4
+U+0323" stylename="cv01_1">
+      <comment>ta dotbelowcomb</comment>
+      <string>\u000BA4\u000323</string>
+    </test>
+    <test label="U+0BA4
+U+0323" stylename="cv01_2">
+      <comment>ta dotbelowcomb</comment>
+      <string>\u000BA4\u000323</string>
+    </test>
+    <test label="U+0BA4
+U+0323" stylename="cv01_3">
+      <comment>ta dotbelowcomb</comment>
+      <string>\u000BA4\u000323</string>
+    </test>
+    <test label="U+0BA4
+U+1133B">
+      <comment>ta bindu</comment>
+      <string>\u000BA4\u01133B</string>
+    </test>
+    <test label="U+0BA4
+U+1133B" stylename="cv01_1">
+      <comment>ta bindu</comment>
+      <string>\u000BA4\u01133B</string>
+    </test>
+    <test label="U+0BA4
+U+1133B" stylename="cv01_2">
+      <comment>ta bindu</comment>
+      <string>\u000BA4\u01133B</string>
+    </test>
+    <test label="U+0BA4
+U+1133B" stylename="cv01_3">
+      <comment>ta bindu</comment>
+      <string>\u000BA4\u01133B</string>
+    </test>
+    <test label="U+0BA4
+U+1133C">
+      <comment>ta nukta</comment>
+      <string>\u000BA4\u01133C</string>
+    </test>
+    <test label="U+0BA4
+U+1133C" stylename="cv01_1">
+      <comment>ta nukta</comment>
+      <string>\u000BA4\u01133C</string>
+    </test>
+    <test label="U+0BA4
+U+1133C" stylename="cv01_2">
+      <comment>ta nukta</comment>
+      <string>\u000BA4\u01133C</string>
+    </test>
+    <test label="U+0BA4
+U+1133C" stylename="cv01_3">
+      <comment>ta nukta</comment>
+      <string>\u000BA4\u01133C</string>
+    </test>
+    <test label="U+0BA4
+U+0307">
+      <comment>ta dotabovecomb</comment>
+      <string>\u000BA4\u000307 \u000BA4\u000B82 \u000BA4\u000BCD</string>
     </test>
     <test label="U+0BA8
 U+0323">
       <comment>na dotbelowcomb</comment>
-      <string>\u000BA8\u000323 \u000BA8\u01133B \u000BA8\u01133C \u000BA8\u000307 \u000BA8\u000B82 \u000BA8\u000BCD</string>
+      <string>\u000BA8\u000323</string>
+    </test>
+    <test label="U+0BA8
+U+0323" stylename="cv01_1">
+      <comment>na dotbelowcomb</comment>
+      <string>\u000BA8\u000323</string>
+    </test>
+    <test label="U+0BA8
+U+0323" stylename="cv01_2">
+      <comment>na dotbelowcomb</comment>
+      <string>\u000BA8\u000323</string>
+    </test>
+    <test label="U+0BA8
+U+0323" stylename="cv01_3">
+      <comment>na dotbelowcomb</comment>
+      <string>\u000BA8\u000323</string>
+    </test>
+    <test label="U+0BA8
+U+1133B">
+      <comment>na bindu</comment>
+      <string>\u000BA8\u01133B</string>
+    </test>
+    <test label="U+0BA8
+U+1133B" stylename="cv01_1">
+      <comment>na bindu</comment>
+      <string>\u000BA8\u01133B</string>
+    </test>
+    <test label="U+0BA8
+U+1133B" stylename="cv01_2">
+      <comment>na bindu</comment>
+      <string>\u000BA8\u01133B</string>
+    </test>
+    <test label="U+0BA8
+U+1133B" stylename="cv01_3">
+      <comment>na bindu</comment>
+      <string>\u000BA8\u01133B</string>
+    </test>
+    <test label="U+0BA8
+U+1133C">
+      <comment>na nukta</comment>
+      <string>\u000BA8\u01133C</string>
+    </test>
+    <test label="U+0BA8
+U+1133C" stylename="cv01_1">
+      <comment>na nukta</comment>
+      <string>\u000BA8\u01133C</string>
+    </test>
+    <test label="U+0BA8
+U+1133C" stylename="cv01_2">
+      <comment>na nukta</comment>
+      <string>\u000BA8\u01133C</string>
+    </test>
+    <test label="U+0BA8
+U+1133C" stylename="cv01_3">
+      <comment>na nukta</comment>
+      <string>\u000BA8\u01133C</string>
+    </test>
+    <test label="U+0BA8
+U+0307">
+      <comment>na dotabovecomb</comment>
+      <string>\u000BA8\u000307 \u000BA8\u000B82 \u000BA8\u000BCD</string>
     </test>
     <test label="U+0BA9
 U+0323">
       <comment>nnna dotbelowcomb</comment>
-      <string>\u000BA9\u000323 \u000BA9\u01133B \u000BA9\u01133C \u000BA9\u000307 \u000BA9\u000B82 \u000BA9\u000BCD</string>
+      <string>\u000BA9\u000323</string>
+    </test>
+    <test label="U+0BA9
+U+0323" stylename="cv01_1">
+      <comment>nnna dotbelowcomb</comment>
+      <string>\u000BA9\u000323</string>
+    </test>
+    <test label="U+0BA9
+U+0323" stylename="cv01_2">
+      <comment>nnna dotbelowcomb</comment>
+      <string>\u000BA9\u000323</string>
+    </test>
+    <test label="U+0BA9
+U+0323" stylename="cv01_3">
+      <comment>nnna dotbelowcomb</comment>
+      <string>\u000BA9\u000323</string>
+    </test>
+    <test label="U+0BA9
+U+1133B">
+      <comment>nnna bindu</comment>
+      <string>\u000BA9\u01133B</string>
+    </test>
+    <test label="U+0BA9
+U+1133B" stylename="cv01_1">
+      <comment>nnna bindu</comment>
+      <string>\u000BA9\u01133B</string>
+    </test>
+    <test label="U+0BA9
+U+1133B" stylename="cv01_2">
+      <comment>nnna bindu</comment>
+      <string>\u000BA9\u01133B</string>
+    </test>
+    <test label="U+0BA9
+U+1133B" stylename="cv01_3">
+      <comment>nnna bindu</comment>
+      <string>\u000BA9\u01133B</string>
+    </test>
+    <test label="U+0BA9
+U+1133C">
+      <comment>nnna nukta</comment>
+      <string>\u000BA9\u01133C</string>
+    </test>
+    <test label="U+0BA9
+U+1133C" stylename="cv01_1">
+      <comment>nnna nukta</comment>
+      <string>\u000BA9\u01133C</string>
+    </test>
+    <test label="U+0BA9
+U+1133C" stylename="cv01_2">
+      <comment>nnna nukta</comment>
+      <string>\u000BA9\u01133C</string>
+    </test>
+    <test label="U+0BA9
+U+1133C" stylename="cv01_3">
+      <comment>nnna nukta</comment>
+      <string>\u000BA9\u01133C</string>
+    </test>
+    <test label="U+0BA9
+U+0307">
+      <comment>nnna dotabovecomb</comment>
+      <string>\u000BA9\u000307 \u000BA9\u000B82 \u000BA9\u000BCD</string>
     </test>
     <test label="U+0BAA
 U+0323">
       <comment>pa dotbelowcomb</comment>
-      <string>\u000BAA\u000323 \u000BAA\u01133B \u000BAA\u01133C \u000BAA\u000307 \u000BAA\u000B82 \u000BAA\u000BCD</string>
+      <string>\u000BAA\u000323</string>
+    </test>
+    <test label="U+0BAA
+U+0323" stylename="cv01_1">
+      <comment>pa dotbelowcomb</comment>
+      <string>\u000BAA\u000323</string>
+    </test>
+    <test label="U+0BAA
+U+0323" stylename="cv01_2">
+      <comment>pa dotbelowcomb</comment>
+      <string>\u000BAA\u000323</string>
+    </test>
+    <test label="U+0BAA
+U+0323" stylename="cv01_3">
+      <comment>pa dotbelowcomb</comment>
+      <string>\u000BAA\u000323</string>
+    </test>
+    <test label="U+0BAA
+U+1133B">
+      <comment>pa bindu</comment>
+      <string>\u000BAA\u01133B</string>
+    </test>
+    <test label="U+0BAA
+U+1133B" stylename="cv01_1">
+      <comment>pa bindu</comment>
+      <string>\u000BAA\u01133B</string>
+    </test>
+    <test label="U+0BAA
+U+1133B" stylename="cv01_2">
+      <comment>pa bindu</comment>
+      <string>\u000BAA\u01133B</string>
+    </test>
+    <test label="U+0BAA
+U+1133B" stylename="cv01_3">
+      <comment>pa bindu</comment>
+      <string>\u000BAA\u01133B</string>
+    </test>
+    <test label="U+0BAA
+U+1133C">
+      <comment>pa nukta</comment>
+      <string>\u000BAA\u01133C</string>
+    </test>
+    <test label="U+0BAA
+U+1133C" stylename="cv01_1">
+      <comment>pa nukta</comment>
+      <string>\u000BAA\u01133C</string>
+    </test>
+    <test label="U+0BAA
+U+1133C" stylename="cv01_2">
+      <comment>pa nukta</comment>
+      <string>\u000BAA\u01133C</string>
+    </test>
+    <test label="U+0BAA
+U+1133C" stylename="cv01_3">
+      <comment>pa nukta</comment>
+      <string>\u000BAA\u01133C</string>
+    </test>
+    <test label="U+0BAA
+U+0307">
+      <comment>pa dotabovecomb</comment>
+      <string>\u000BAA\u000307 \u000BAA\u000B82 \u000BAA\u000BCD</string>
     </test>
     <test label="U+0BAE
 U+0323">
       <comment>ma dotbelowcomb</comment>
-      <string>\u000BAE\u000323 \u000BAE\u01133B \u000BAE\u01133C \u000BAE\u000307 \u000BAE\u000B82 \u000BAE\u000BCD</string>
+      <string>\u000BAE\u000323</string>
+    </test>
+    <test label="U+0BAE
+U+0323" stylename="cv01_1">
+      <comment>ma dotbelowcomb</comment>
+      <string>\u000BAE\u000323</string>
+    </test>
+    <test label="U+0BAE
+U+0323" stylename="cv01_2">
+      <comment>ma dotbelowcomb</comment>
+      <string>\u000BAE\u000323</string>
+    </test>
+    <test label="U+0BAE
+U+0323" stylename="cv01_3">
+      <comment>ma dotbelowcomb</comment>
+      <string>\u000BAE\u000323</string>
+    </test>
+    <test label="U+0BAE
+U+1133B">
+      <comment>ma bindu</comment>
+      <string>\u000BAE\u01133B</string>
+    </test>
+    <test label="U+0BAE
+U+1133B" stylename="cv01_1">
+      <comment>ma bindu</comment>
+      <string>\u000BAE\u01133B</string>
+    </test>
+    <test label="U+0BAE
+U+1133B" stylename="cv01_2">
+      <comment>ma bindu</comment>
+      <string>\u000BAE\u01133B</string>
+    </test>
+    <test label="U+0BAE
+U+1133B" stylename="cv01_3">
+      <comment>ma bindu</comment>
+      <string>\u000BAE\u01133B</string>
+    </test>
+    <test label="U+0BAE
+U+1133C">
+      <comment>ma nukta</comment>
+      <string>\u000BAE\u01133C</string>
+    </test>
+    <test label="U+0BAE
+U+1133C" stylename="cv01_1">
+      <comment>ma nukta</comment>
+      <string>\u000BAE\u01133C</string>
+    </test>
+    <test label="U+0BAE
+U+1133C" stylename="cv01_2">
+      <comment>ma nukta</comment>
+      <string>\u000BAE\u01133C</string>
+    </test>
+    <test label="U+0BAE
+U+1133C" stylename="cv01_3">
+      <comment>ma nukta</comment>
+      <string>\u000BAE\u01133C</string>
+    </test>
+    <test label="U+0BAE
+U+0307">
+      <comment>ma dotabovecomb</comment>
+      <string>\u000BAE\u000307 \u000BAE\u000B82 \u000BAE\u000BCD</string>
     </test>
     <test label="U+0BAF
 U+0323">
       <comment>ya dotbelowcomb</comment>
-      <string>\u000BAF\u000323 \u000BAF\u01133B \u000BAF\u01133C \u000BAF\u000307 \u000BAF\u000B82 \u000BAF\u000BCD</string>
+      <string>\u000BAF\u000323</string>
+    </test>
+    <test label="U+0BAF
+U+0323" stylename="cv01_1">
+      <comment>ya dotbelowcomb</comment>
+      <string>\u000BAF\u000323</string>
+    </test>
+    <test label="U+0BAF
+U+0323" stylename="cv01_2">
+      <comment>ya dotbelowcomb</comment>
+      <string>\u000BAF\u000323</string>
+    </test>
+    <test label="U+0BAF
+U+0323" stylename="cv01_3">
+      <comment>ya dotbelowcomb</comment>
+      <string>\u000BAF\u000323</string>
+    </test>
+    <test label="U+0BAF
+U+1133B">
+      <comment>ya bindu</comment>
+      <string>\u000BAF\u01133B</string>
+    </test>
+    <test label="U+0BAF
+U+1133B" stylename="cv01_1">
+      <comment>ya bindu</comment>
+      <string>\u000BAF\u01133B</string>
+    </test>
+    <test label="U+0BAF
+U+1133B" stylename="cv01_2">
+      <comment>ya bindu</comment>
+      <string>\u000BAF\u01133B</string>
+    </test>
+    <test label="U+0BAF
+U+1133B" stylename="cv01_3">
+      <comment>ya bindu</comment>
+      <string>\u000BAF\u01133B</string>
+    </test>
+    <test label="U+0BAF
+U+1133C">
+      <comment>ya nukta</comment>
+      <string>\u000BAF\u01133C</string>
+    </test>
+    <test label="U+0BAF
+U+1133C" stylename="cv01_1">
+      <comment>ya nukta</comment>
+      <string>\u000BAF\u01133C</string>
+    </test>
+    <test label="U+0BAF
+U+1133C" stylename="cv01_2">
+      <comment>ya nukta</comment>
+      <string>\u000BAF\u01133C</string>
+    </test>
+    <test label="U+0BAF
+U+1133C" stylename="cv01_3">
+      <comment>ya nukta</comment>
+      <string>\u000BAF\u01133C</string>
+    </test>
+    <test label="U+0BAF
+U+0307">
+      <comment>ya dotabovecomb</comment>
+      <string>\u000BAF\u000307 \u000BAF\u000B82 \u000BAF\u000BCD</string>
     </test>
     <test label="U+0BB0
 U+0323">
       <comment>ra dotbelowcomb</comment>
-      <string>\u000BB0\u000323 \u000BB0\u01133B \u000BB0\u01133C \u000BB0\u000307 \u000BB0\u000B82 \u000BB0\u000BCD</string>
+      <string>\u000BB0\u000323</string>
+    </test>
+    <test label="U+0BB0
+U+0323" stylename="cv01_1">
+      <comment>ra dotbelowcomb</comment>
+      <string>\u000BB0\u000323</string>
+    </test>
+    <test label="U+0BB0
+U+0323" stylename="cv01_2">
+      <comment>ra dotbelowcomb</comment>
+      <string>\u000BB0\u000323</string>
+    </test>
+    <test label="U+0BB0
+U+0323" stylename="cv01_3">
+      <comment>ra dotbelowcomb</comment>
+      <string>\u000BB0\u000323</string>
+    </test>
+    <test label="U+0BB0
+U+1133B">
+      <comment>ra bindu</comment>
+      <string>\u000BB0\u01133B</string>
+    </test>
+    <test label="U+0BB0
+U+1133B" stylename="cv01_1">
+      <comment>ra bindu</comment>
+      <string>\u000BB0\u01133B</string>
+    </test>
+    <test label="U+0BB0
+U+1133B" stylename="cv01_2">
+      <comment>ra bindu</comment>
+      <string>\u000BB0\u01133B</string>
+    </test>
+    <test label="U+0BB0
+U+1133B" stylename="cv01_3">
+      <comment>ra bindu</comment>
+      <string>\u000BB0\u01133B</string>
+    </test>
+    <test label="U+0BB0
+U+1133C">
+      <comment>ra nukta</comment>
+      <string>\u000BB0\u01133C</string>
+    </test>
+    <test label="U+0BB0
+U+1133C" stylename="cv01_1">
+      <comment>ra nukta</comment>
+      <string>\u000BB0\u01133C</string>
+    </test>
+    <test label="U+0BB0
+U+1133C" stylename="cv01_2">
+      <comment>ra nukta</comment>
+      <string>\u000BB0\u01133C</string>
+    </test>
+    <test label="U+0BB0
+U+1133C" stylename="cv01_3">
+      <comment>ra nukta</comment>
+      <string>\u000BB0\u01133C</string>
+    </test>
+    <test label="U+0BB0
+U+0307">
+      <comment>ra dotabovecomb</comment>
+      <string>\u000BB0\u000307 \u000BB0\u000B82 \u000BB0\u000BCD</string>
     </test>
     <test label="U+0BB1
 U+0323">
       <comment>rra dotbelowcomb</comment>
-      <string>\u000BB1\u000323 \u000BB1\u01133B \u000BB1\u01133C \u000BB1\u000307 \u000BB1\u000B82 \u000BB1\u000BCD</string>
+      <string>\u000BB1\u000323</string>
+    </test>
+    <test label="U+0BB1
+U+0323" stylename="cv01_1">
+      <comment>rra dotbelowcomb</comment>
+      <string>\u000BB1\u000323</string>
+    </test>
+    <test label="U+0BB1
+U+0323" stylename="cv01_2">
+      <comment>rra dotbelowcomb</comment>
+      <string>\u000BB1\u000323</string>
+    </test>
+    <test label="U+0BB1
+U+0323" stylename="cv01_3">
+      <comment>rra dotbelowcomb</comment>
+      <string>\u000BB1\u000323</string>
+    </test>
+    <test label="U+0BB1
+U+1133B">
+      <comment>rra bindu</comment>
+      <string>\u000BB1\u01133B</string>
+    </test>
+    <test label="U+0BB1
+U+1133B" stylename="cv01_1">
+      <comment>rra bindu</comment>
+      <string>\u000BB1\u01133B</string>
+    </test>
+    <test label="U+0BB1
+U+1133B" stylename="cv01_2">
+      <comment>rra bindu</comment>
+      <string>\u000BB1\u01133B</string>
+    </test>
+    <test label="U+0BB1
+U+1133B" stylename="cv01_3">
+      <comment>rra bindu</comment>
+      <string>\u000BB1\u01133B</string>
+    </test>
+    <test label="U+0BB1
+U+1133C">
+      <comment>rra nukta</comment>
+      <string>\u000BB1\u01133C</string>
+    </test>
+    <test label="U+0BB1
+U+1133C" stylename="cv01_1">
+      <comment>rra nukta</comment>
+      <string>\u000BB1\u01133C</string>
+    </test>
+    <test label="U+0BB1
+U+1133C" stylename="cv01_2">
+      <comment>rra nukta</comment>
+      <string>\u000BB1\u01133C</string>
+    </test>
+    <test label="U+0BB1
+U+1133C" stylename="cv01_3">
+      <comment>rra nukta</comment>
+      <string>\u000BB1\u01133C</string>
+    </test>
+    <test label="U+0BB1
+U+0307">
+      <comment>rra dotabovecomb</comment>
+      <string>\u000BB1\u000307 \u000BB1\u000B82 \u000BB1\u000BCD</string>
     </test>
     <test label="U+0BB2
 U+0323">
       <comment>la dotbelowcomb</comment>
-      <string>\u000BB2\u000323 \u000BB2\u01133B \u000BB2\u01133C \u000BB2\u000307 \u000BB2\u000B82 \u000BB2\u000BCD</string>
+      <string>\u000BB2\u000323</string>
+    </test>
+    <test label="U+0BB2
+U+0323" stylename="cv01_1">
+      <comment>la dotbelowcomb</comment>
+      <string>\u000BB2\u000323</string>
+    </test>
+    <test label="U+0BB2
+U+0323" stylename="cv01_2">
+      <comment>la dotbelowcomb</comment>
+      <string>\u000BB2\u000323</string>
+    </test>
+    <test label="U+0BB2
+U+0323" stylename="cv01_3">
+      <comment>la dotbelowcomb</comment>
+      <string>\u000BB2\u000323</string>
+    </test>
+    <test label="U+0BB2
+U+1133B">
+      <comment>la bindu</comment>
+      <string>\u000BB2\u01133B</string>
+    </test>
+    <test label="U+0BB2
+U+1133B" stylename="cv01_1">
+      <comment>la bindu</comment>
+      <string>\u000BB2\u01133B</string>
+    </test>
+    <test label="U+0BB2
+U+1133B" stylename="cv01_2">
+      <comment>la bindu</comment>
+      <string>\u000BB2\u01133B</string>
+    </test>
+    <test label="U+0BB2
+U+1133B" stylename="cv01_3">
+      <comment>la bindu</comment>
+      <string>\u000BB2\u01133B</string>
+    </test>
+    <test label="U+0BB2
+U+1133C">
+      <comment>la nukta</comment>
+      <string>\u000BB2\u01133C</string>
+    </test>
+    <test label="U+0BB2
+U+1133C" stylename="cv01_1">
+      <comment>la nukta</comment>
+      <string>\u000BB2\u01133C</string>
+    </test>
+    <test label="U+0BB2
+U+1133C" stylename="cv01_2">
+      <comment>la nukta</comment>
+      <string>\u000BB2\u01133C</string>
+    </test>
+    <test label="U+0BB2
+U+1133C" stylename="cv01_3">
+      <comment>la nukta</comment>
+      <string>\u000BB2\u01133C</string>
+    </test>
+    <test label="U+0BB2
+U+0307">
+      <comment>la dotabovecomb</comment>
+      <string>\u000BB2\u000307 \u000BB2\u000B82 \u000BB2\u000BCD</string>
     </test>
     <test label="U+0BB3
 U+0323">
       <comment>lla dotbelowcomb</comment>
-      <string>\u000BB3\u000323 \u000BB3\u01133B \u000BB3\u01133C \u000BB3\u000307 \u000BB3\u000B82 \u000BB3\u000BCD</string>
+      <string>\u000BB3\u000323</string>
+    </test>
+    <test label="U+0BB3
+U+0323" stylename="cv01_1">
+      <comment>lla dotbelowcomb</comment>
+      <string>\u000BB3\u000323</string>
+    </test>
+    <test label="U+0BB3
+U+0323" stylename="cv01_2">
+      <comment>lla dotbelowcomb</comment>
+      <string>\u000BB3\u000323</string>
+    </test>
+    <test label="U+0BB3
+U+0323" stylename="cv01_3">
+      <comment>lla dotbelowcomb</comment>
+      <string>\u000BB3\u000323</string>
+    </test>
+    <test label="U+0BB3
+U+1133B">
+      <comment>lla bindu</comment>
+      <string>\u000BB3\u01133B</string>
+    </test>
+    <test label="U+0BB3
+U+1133B" stylename="cv01_1">
+      <comment>lla bindu</comment>
+      <string>\u000BB3\u01133B</string>
+    </test>
+    <test label="U+0BB3
+U+1133B" stylename="cv01_2">
+      <comment>lla bindu</comment>
+      <string>\u000BB3\u01133B</string>
+    </test>
+    <test label="U+0BB3
+U+1133B" stylename="cv01_3">
+      <comment>lla bindu</comment>
+      <string>\u000BB3\u01133B</string>
+    </test>
+    <test label="U+0BB3
+U+1133C">
+      <comment>lla nukta</comment>
+      <string>\u000BB3\u01133C</string>
+    </test>
+    <test label="U+0BB3
+U+1133C" stylename="cv01_1">
+      <comment>lla nukta</comment>
+      <string>\u000BB3\u01133C</string>
+    </test>
+    <test label="U+0BB3
+U+1133C" stylename="cv01_2">
+      <comment>lla nukta</comment>
+      <string>\u000BB3\u01133C</string>
+    </test>
+    <test label="U+0BB3
+U+1133C" stylename="cv01_3">
+      <comment>lla nukta</comment>
+      <string>\u000BB3\u01133C</string>
+    </test>
+    <test label="U+0BB3
+U+0307">
+      <comment>lla dotabovecomb</comment>
+      <string>\u000BB3\u000307 \u000BB3\u000B82 \u000BB3\u000BCD</string>
     </test>
     <test label="U+0BB4
 U+0323">
       <comment>llla dotbelowcomb</comment>
-      <string>\u000BB4\u000323 \u000BB4\u01133B \u000BB4\u01133C \u000BB4\u000307 \u000BB4\u000B82 \u000BB4\u000BCD</string>
+      <string>\u000BB4\u000323</string>
+    </test>
+    <test label="U+0BB4
+U+0323" stylename="cv01_1">
+      <comment>llla dotbelowcomb</comment>
+      <string>\u000BB4\u000323</string>
+    </test>
+    <test label="U+0BB4
+U+0323" stylename="cv01_2">
+      <comment>llla dotbelowcomb</comment>
+      <string>\u000BB4\u000323</string>
+    </test>
+    <test label="U+0BB4
+U+0323" stylename="cv01_3">
+      <comment>llla dotbelowcomb</comment>
+      <string>\u000BB4\u000323</string>
+    </test>
+    <test label="U+0BB4
+U+1133B">
+      <comment>llla bindu</comment>
+      <string>\u000BB4\u01133B</string>
+    </test>
+    <test label="U+0BB4
+U+1133B" stylename="cv01_1">
+      <comment>llla bindu</comment>
+      <string>\u000BB4\u01133B</string>
+    </test>
+    <test label="U+0BB4
+U+1133B" stylename="cv01_2">
+      <comment>llla bindu</comment>
+      <string>\u000BB4\u01133B</string>
+    </test>
+    <test label="U+0BB4
+U+1133B" stylename="cv01_3">
+      <comment>llla bindu</comment>
+      <string>\u000BB4\u01133B</string>
+    </test>
+    <test label="U+0BB4
+U+1133C">
+      <comment>llla nukta</comment>
+      <string>\u000BB4\u01133C</string>
+    </test>
+    <test label="U+0BB4
+U+1133C" stylename="cv01_1">
+      <comment>llla nukta</comment>
+      <string>\u000BB4\u01133C</string>
+    </test>
+    <test label="U+0BB4
+U+1133C" stylename="cv01_2">
+      <comment>llla nukta</comment>
+      <string>\u000BB4\u01133C</string>
+    </test>
+    <test label="U+0BB4
+U+1133C" stylename="cv01_3">
+      <comment>llla nukta</comment>
+      <string>\u000BB4\u01133C</string>
+    </test>
+    <test label="U+0BB4
+U+0307">
+      <comment>llla dotabovecomb</comment>
+      <string>\u000BB4\u000307 \u000BB4\u000B82 \u000BB4\u000BCD</string>
     </test>
     <test label="U+0BB5
 U+0323">
       <comment>va dotbelowcomb</comment>
-      <string>\u000BB5\u000323 \u000BB5\u01133B \u000BB5\u01133C \u000BB5\u000307 \u000BB5\u000B82 \u000BB5\u000BCD</string>
+      <string>\u000BB5\u000323</string>
+    </test>
+    <test label="U+0BB5
+U+0323" stylename="cv01_1">
+      <comment>va dotbelowcomb</comment>
+      <string>\u000BB5\u000323</string>
+    </test>
+    <test label="U+0BB5
+U+0323" stylename="cv01_2">
+      <comment>va dotbelowcomb</comment>
+      <string>\u000BB5\u000323</string>
+    </test>
+    <test label="U+0BB5
+U+0323" stylename="cv01_3">
+      <comment>va dotbelowcomb</comment>
+      <string>\u000BB5\u000323</string>
+    </test>
+    <test label="U+0BB5
+U+1133B">
+      <comment>va bindu</comment>
+      <string>\u000BB5\u01133B</string>
+    </test>
+    <test label="U+0BB5
+U+1133B" stylename="cv01_1">
+      <comment>va bindu</comment>
+      <string>\u000BB5\u01133B</string>
+    </test>
+    <test label="U+0BB5
+U+1133B" stylename="cv01_2">
+      <comment>va bindu</comment>
+      <string>\u000BB5\u01133B</string>
+    </test>
+    <test label="U+0BB5
+U+1133B" stylename="cv01_3">
+      <comment>va bindu</comment>
+      <string>\u000BB5\u01133B</string>
+    </test>
+    <test label="U+0BB5
+U+1133C">
+      <comment>va nukta</comment>
+      <string>\u000BB5\u01133C</string>
+    </test>
+    <test label="U+0BB5
+U+1133C" stylename="cv01_1">
+      <comment>va nukta</comment>
+      <string>\u000BB5\u01133C</string>
+    </test>
+    <test label="U+0BB5
+U+1133C" stylename="cv01_2">
+      <comment>va nukta</comment>
+      <string>\u000BB5\u01133C</string>
+    </test>
+    <test label="U+0BB5
+U+1133C" stylename="cv01_3">
+      <comment>va nukta</comment>
+      <string>\u000BB5\u01133C</string>
+    </test>
+    <test label="U+0BB5
+U+0307">
+      <comment>va dotabovecomb</comment>
+      <string>\u000BB5\u000307 \u000BB5\u000B82 \u000BB5\u000BCD</string>
     </test>
     <test label="U+0BB6
 U+0323">
       <comment>sha dotbelowcomb</comment>
-      <string>\u000BB6\u000323 \u000BB6\u01133B \u000BB6\u01133C \u000BB6\u000307 \u000BB6\u000B82 \u000BB6\u000BCD</string>
+      <string>\u000BB6\u000323</string>
+    </test>
+    <test label="U+0BB6
+U+0323" stylename="cv01_1">
+      <comment>sha dotbelowcomb</comment>
+      <string>\u000BB6\u000323</string>
+    </test>
+    <test label="U+0BB6
+U+0323" stylename="cv01_2">
+      <comment>sha dotbelowcomb</comment>
+      <string>\u000BB6\u000323</string>
+    </test>
+    <test label="U+0BB6
+U+0323" stylename="cv01_3">
+      <comment>sha dotbelowcomb</comment>
+      <string>\u000BB6\u000323</string>
+    </test>
+    <test label="U+0BB6
+U+1133B">
+      <comment>sha bindu</comment>
+      <string>\u000BB6\u01133B</string>
+    </test>
+    <test label="U+0BB6
+U+1133B" stylename="cv01_1">
+      <comment>sha bindu</comment>
+      <string>\u000BB6\u01133B</string>
+    </test>
+    <test label="U+0BB6
+U+1133B" stylename="cv01_2">
+      <comment>sha bindu</comment>
+      <string>\u000BB6\u01133B</string>
+    </test>
+    <test label="U+0BB6
+U+1133B" stylename="cv01_3">
+      <comment>sha bindu</comment>
+      <string>\u000BB6\u01133B</string>
+    </test>
+    <test label="U+0BB6
+U+1133C">
+      <comment>sha nukta</comment>
+      <string>\u000BB6\u01133C</string>
+    </test>
+    <test label="U+0BB6
+U+1133C" stylename="cv01_1">
+      <comment>sha nukta</comment>
+      <string>\u000BB6\u01133C</string>
+    </test>
+    <test label="U+0BB6
+U+1133C" stylename="cv01_2">
+      <comment>sha nukta</comment>
+      <string>\u000BB6\u01133C</string>
+    </test>
+    <test label="U+0BB6
+U+1133C" stylename="cv01_3">
+      <comment>sha nukta</comment>
+      <string>\u000BB6\u01133C</string>
+    </test>
+    <test label="U+0BB6
+U+0307">
+      <comment>sha dotabovecomb</comment>
+      <string>\u000BB6\u000307 \u000BB6\u000B82 \u000BB6\u000BCD</string>
     </test>
     <test label="U+0BB7
 U+0323">
       <comment>ssa dotbelowcomb</comment>
-      <string>\u000BB7\u000323 \u000BB7\u01133B \u000BB7\u01133C \u000BB7\u000307 \u000BB7\u000B82 \u000BB7\u000BCD</string>
+      <string>\u000BB7\u000323</string>
+    </test>
+    <test label="U+0BB7
+U+0323" stylename="cv01_1">
+      <comment>ssa dotbelowcomb</comment>
+      <string>\u000BB7\u000323</string>
+    </test>
+    <test label="U+0BB7
+U+0323" stylename="cv01_2">
+      <comment>ssa dotbelowcomb</comment>
+      <string>\u000BB7\u000323</string>
+    </test>
+    <test label="U+0BB7
+U+0323" stylename="cv01_3">
+      <comment>ssa dotbelowcomb</comment>
+      <string>\u000BB7\u000323</string>
+    </test>
+    <test label="U+0BB7
+U+1133B">
+      <comment>ssa bindu</comment>
+      <string>\u000BB7\u01133B</string>
+    </test>
+    <test label="U+0BB7
+U+1133B" stylename="cv01_1">
+      <comment>ssa bindu</comment>
+      <string>\u000BB7\u01133B</string>
+    </test>
+    <test label="U+0BB7
+U+1133B" stylename="cv01_2">
+      <comment>ssa bindu</comment>
+      <string>\u000BB7\u01133B</string>
+    </test>
+    <test label="U+0BB7
+U+1133B" stylename="cv01_3">
+      <comment>ssa bindu</comment>
+      <string>\u000BB7\u01133B</string>
+    </test>
+    <test label="U+0BB7
+U+1133C">
+      <comment>ssa nukta</comment>
+      <string>\u000BB7\u01133C</string>
+    </test>
+    <test label="U+0BB7
+U+1133C" stylename="cv01_1">
+      <comment>ssa nukta</comment>
+      <string>\u000BB7\u01133C</string>
+    </test>
+    <test label="U+0BB7
+U+1133C" stylename="cv01_2">
+      <comment>ssa nukta</comment>
+      <string>\u000BB7\u01133C</string>
+    </test>
+    <test label="U+0BB7
+U+1133C" stylename="cv01_3">
+      <comment>ssa nukta</comment>
+      <string>\u000BB7\u01133C</string>
+    </test>
+    <test label="U+0BB7
+U+0307">
+      <comment>ssa dotabovecomb</comment>
+      <string>\u000BB7\u000307 \u000BB7\u000B82 \u000BB7\u000BCD</string>
     </test>
     <test label="U+0BB8
 U+0323">
       <comment>sa dotbelowcomb</comment>
-      <string>\u000BB8\u000323 \u000BB8\u01133B \u000BB8\u01133C \u000BB8\u000307 \u000BB8\u000B82 \u000BB8\u000BCD</string>
+      <string>\u000BB8\u000323</string>
+    </test>
+    <test label="U+0BB8
+U+0323" stylename="cv01_1">
+      <comment>sa dotbelowcomb</comment>
+      <string>\u000BB8\u000323</string>
+    </test>
+    <test label="U+0BB8
+U+0323" stylename="cv01_2">
+      <comment>sa dotbelowcomb</comment>
+      <string>\u000BB8\u000323</string>
+    </test>
+    <test label="U+0BB8
+U+0323" stylename="cv01_3">
+      <comment>sa dotbelowcomb</comment>
+      <string>\u000BB8\u000323</string>
+    </test>
+    <test label="U+0BB8
+U+1133B">
+      <comment>sa bindu</comment>
+      <string>\u000BB8\u01133B</string>
+    </test>
+    <test label="U+0BB8
+U+1133B" stylename="cv01_1">
+      <comment>sa bindu</comment>
+      <string>\u000BB8\u01133B</string>
+    </test>
+    <test label="U+0BB8
+U+1133B" stylename="cv01_2">
+      <comment>sa bindu</comment>
+      <string>\u000BB8\u01133B</string>
+    </test>
+    <test label="U+0BB8
+U+1133B" stylename="cv01_3">
+      <comment>sa bindu</comment>
+      <string>\u000BB8\u01133B</string>
+    </test>
+    <test label="U+0BB8
+U+1133C">
+      <comment>sa nukta</comment>
+      <string>\u000BB8\u01133C</string>
+    </test>
+    <test label="U+0BB8
+U+1133C" stylename="cv01_1">
+      <comment>sa nukta</comment>
+      <string>\u000BB8\u01133C</string>
+    </test>
+    <test label="U+0BB8
+U+1133C" stylename="cv01_2">
+      <comment>sa nukta</comment>
+      <string>\u000BB8\u01133C</string>
+    </test>
+    <test label="U+0BB8
+U+1133C" stylename="cv01_3">
+      <comment>sa nukta</comment>
+      <string>\u000BB8\u01133C</string>
+    </test>
+    <test label="U+0BB8
+U+0307">
+      <comment>sa dotabovecomb</comment>
+      <string>\u000BB8\u000307 \u000BB8\u000B82 \u000BB8\u000BCD</string>
     </test>
     <test label="U+0BB9
 U+0323">
       <comment>ha dotbelowcomb</comment>
-      <string>\u000BB9\u000323 \u000BB9\u01133B \u000BB9\u01133C \u000BB9\u000307 \u000BB9\u000B82 \u000BB9\u000BCD</string>
+      <string>\u000BB9\u000323</string>
+    </test>
+    <test label="U+0BB9
+U+0323" stylename="cv01_1">
+      <comment>ha dotbelowcomb</comment>
+      <string>\u000BB9\u000323</string>
+    </test>
+    <test label="U+0BB9
+U+0323" stylename="cv01_2">
+      <comment>ha dotbelowcomb</comment>
+      <string>\u000BB9\u000323</string>
+    </test>
+    <test label="U+0BB9
+U+0323" stylename="cv01_3">
+      <comment>ha dotbelowcomb</comment>
+      <string>\u000BB9\u000323</string>
+    </test>
+    <test label="U+0BB9
+U+1133B">
+      <comment>ha bindu</comment>
+      <string>\u000BB9\u01133B</string>
+    </test>
+    <test label="U+0BB9
+U+1133B" stylename="cv01_1">
+      <comment>ha bindu</comment>
+      <string>\u000BB9\u01133B</string>
+    </test>
+    <test label="U+0BB9
+U+1133B" stylename="cv01_2">
+      <comment>ha bindu</comment>
+      <string>\u000BB9\u01133B</string>
+    </test>
+    <test label="U+0BB9
+U+1133B" stylename="cv01_3">
+      <comment>ha bindu</comment>
+      <string>\u000BB9\u01133B</string>
+    </test>
+    <test label="U+0BB9
+U+1133C">
+      <comment>ha nukta</comment>
+      <string>\u000BB9\u01133C</string>
+    </test>
+    <test label="U+0BB9
+U+1133C" stylename="cv01_1">
+      <comment>ha nukta</comment>
+      <string>\u000BB9\u01133C</string>
+    </test>
+    <test label="U+0BB9
+U+1133C" stylename="cv01_2">
+      <comment>ha nukta</comment>
+      <string>\u000BB9\u01133C</string>
+    </test>
+    <test label="U+0BB9
+U+1133C" stylename="cv01_3">
+      <comment>ha nukta</comment>
+      <string>\u000BB9\u01133C</string>
+    </test>
+    <test label="U+0BB9
+U+0307">
+      <comment>ha dotabovecomb</comment>
+      <string>\u000BB9\u000307 \u000BB9\u000B82 \u000BB9\u000BCD</string>
     </test>
     <test label="U+0BBE
 U+0323">
       <comment>aamatra dotbelowcomb</comment>
-      <string>\u000BBE\u000323 \u000BBE\u01133B \u000BBE\u01133C \u000BBE\u000307 \u000BBE\u000B82 \u000BBE\u000BCD</string>
+      <string>\u000BBE\u000323</string>
+    </test>
+    <test label="U+0BBE
+U+0323" stylename="cv01_1">
+      <comment>aamatra dotbelowcomb</comment>
+      <string>\u000BBE\u000323</string>
+    </test>
+    <test label="U+0BBE
+U+0323" stylename="cv01_2">
+      <comment>aamatra dotbelowcomb</comment>
+      <string>\u000BBE\u000323</string>
+    </test>
+    <test label="U+0BBE
+U+0323" stylename="cv01_3">
+      <comment>aamatra dotbelowcomb</comment>
+      <string>\u000BBE\u000323</string>
+    </test>
+    <test label="U+0BBE
+U+1133B">
+      <comment>aamatra bindu</comment>
+      <string>\u000BBE\u01133B</string>
+    </test>
+    <test label="U+0BBE
+U+1133B" stylename="cv01_1">
+      <comment>aamatra bindu</comment>
+      <string>\u000BBE\u01133B</string>
+    </test>
+    <test label="U+0BBE
+U+1133B" stylename="cv01_2">
+      <comment>aamatra bindu</comment>
+      <string>\u000BBE\u01133B</string>
+    </test>
+    <test label="U+0BBE
+U+1133B" stylename="cv01_3">
+      <comment>aamatra bindu</comment>
+      <string>\u000BBE\u01133B</string>
+    </test>
+    <test label="U+0BBE
+U+1133C">
+      <comment>aamatra nukta</comment>
+      <string>\u000BBE\u01133C</string>
+    </test>
+    <test label="U+0BBE
+U+1133C" stylename="cv01_1">
+      <comment>aamatra nukta</comment>
+      <string>\u000BBE\u01133C</string>
+    </test>
+    <test label="U+0BBE
+U+1133C" stylename="cv01_2">
+      <comment>aamatra nukta</comment>
+      <string>\u000BBE\u01133C</string>
+    </test>
+    <test label="U+0BBE
+U+1133C" stylename="cv01_3">
+      <comment>aamatra nukta</comment>
+      <string>\u000BBE\u01133C</string>
+    </test>
+    <test label="U+0BBE
+U+0307">
+      <comment>aamatra dotabovecomb</comment>
+      <string>\u000BBE\u000307 \u000BBE\u000B82 \u000BBE\u000BCD</string>
     </test>
     <test label="U+0BBF
 U+0323">
       <comment>imatra dotbelowcomb</comment>
-      <string>\u000BBF\u000323 \u000BBF\u01133B \u000BBF\u01133C \u000BBF\u000307 \u000BBF\u000B82 \u000BBF\u000BCD</string>
+      <string>\u000BBF\u000323</string>
+    </test>
+    <test label="U+0BBF
+U+0323" stylename="cv01_1">
+      <comment>imatra dotbelowcomb</comment>
+      <string>\u000BBF\u000323</string>
+    </test>
+    <test label="U+0BBF
+U+0323" stylename="cv01_2">
+      <comment>imatra dotbelowcomb</comment>
+      <string>\u000BBF\u000323</string>
+    </test>
+    <test label="U+0BBF
+U+0323" stylename="cv01_3">
+      <comment>imatra dotbelowcomb</comment>
+      <string>\u000BBF\u000323</string>
+    </test>
+    <test label="U+0BBF
+U+1133B">
+      <comment>imatra bindu</comment>
+      <string>\u000BBF\u01133B</string>
+    </test>
+    <test label="U+0BBF
+U+1133B" stylename="cv01_1">
+      <comment>imatra bindu</comment>
+      <string>\u000BBF\u01133B</string>
+    </test>
+    <test label="U+0BBF
+U+1133B" stylename="cv01_2">
+      <comment>imatra bindu</comment>
+      <string>\u000BBF\u01133B</string>
+    </test>
+    <test label="U+0BBF
+U+1133B" stylename="cv01_3">
+      <comment>imatra bindu</comment>
+      <string>\u000BBF\u01133B</string>
+    </test>
+    <test label="U+0BBF
+U+1133C">
+      <comment>imatra nukta</comment>
+      <string>\u000BBF\u01133C</string>
+    </test>
+    <test label="U+0BBF
+U+1133C" stylename="cv01_1">
+      <comment>imatra nukta</comment>
+      <string>\u000BBF\u01133C</string>
+    </test>
+    <test label="U+0BBF
+U+1133C" stylename="cv01_2">
+      <comment>imatra nukta</comment>
+      <string>\u000BBF\u01133C</string>
+    </test>
+    <test label="U+0BBF
+U+1133C" stylename="cv01_3">
+      <comment>imatra nukta</comment>
+      <string>\u000BBF\u01133C</string>
+    </test>
+    <test label="U+0BBF
+U+0307">
+      <comment>imatra dotabovecomb</comment>
+      <string>\u000BBF\u000307 \u000BBF\u000B82 \u000BBF\u000BCD</string>
     </test>
     <test label="U+0BC0
 U+0323">
       <comment>iimatra dotbelowcomb</comment>
-      <string>\u000B95\u000BC0\u000323 \u000B95\u000BC0\u01133B \u000B95\u000BC0\u01133C \u000B95\u000BC0\u000307 \u000B95\u000BC0\u000B82 \u000B95\u000BC0\u000BCD</string>
+      <string>\u000B95\u000BC0\u000323</string>
+    </test>
+    <test label="U+0BC0
+U+0323" stylename="cv01_1">
+      <comment>iimatra dotbelowcomb</comment>
+      <string>\u000B95\u000BC0\u000323</string>
+    </test>
+    <test label="U+0BC0
+U+0323" stylename="cv01_2">
+      <comment>iimatra dotbelowcomb</comment>
+      <string>\u000B95\u000BC0\u000323</string>
+    </test>
+    <test label="U+0BC0
+U+0323" stylename="cv01_3">
+      <comment>iimatra dotbelowcomb</comment>
+      <string>\u000B95\u000BC0\u000323</string>
+    </test>
+    <test label="U+0BC0
+U+1133B">
+      <comment>iimatra bindu</comment>
+      <string>\u000B95\u000BC0\u01133B</string>
+    </test>
+    <test label="U+0BC0
+U+1133B" stylename="cv01_1">
+      <comment>iimatra bindu</comment>
+      <string>\u000B95\u000BC0\u01133B</string>
+    </test>
+    <test label="U+0BC0
+U+1133B" stylename="cv01_2">
+      <comment>iimatra bindu</comment>
+      <string>\u000B95\u000BC0\u01133B</string>
+    </test>
+    <test label="U+0BC0
+U+1133B" stylename="cv01_3">
+      <comment>iimatra bindu</comment>
+      <string>\u000B95\u000BC0\u01133B</string>
+    </test>
+    <test label="U+0BC0
+U+1133C">
+      <comment>iimatra nukta</comment>
+      <string>\u000B95\u000BC0\u01133C</string>
+    </test>
+    <test label="U+0BC0
+U+1133C" stylename="cv01_1">
+      <comment>iimatra nukta</comment>
+      <string>\u000B95\u000BC0\u01133C</string>
+    </test>
+    <test label="U+0BC0
+U+1133C" stylename="cv01_2">
+      <comment>iimatra nukta</comment>
+      <string>\u000B95\u000BC0\u01133C</string>
+    </test>
+    <test label="U+0BC0
+U+1133C" stylename="cv01_3">
+      <comment>iimatra nukta</comment>
+      <string>\u000B95\u000BC0\u01133C</string>
+    </test>
+    <test label="U+0BC0
+U+0307">
+      <comment>iimatra dotabovecomb</comment>
+      <string>\u000B95\u000BC0\u000307 \u000B95\u000BC0\u000B82 \u000B95\u000BC0\u000BCD</string>
     </test>
     <test label="U+0BC1
 U+0323">
       <comment>umatra dotbelowcomb</comment>
-      <string>\u000BC1\u000323 \u000BC1\u01133B \u000BC1\u01133C \u000BC1\u000307 \u000BC1\u000B82 \u000BC1\u000BCD</string>
+      <string>\u000BC1\u000323</string>
+    </test>
+    <test label="U+0BC1
+U+0323" stylename="cv01_1">
+      <comment>umatra dotbelowcomb</comment>
+      <string>\u000BC1\u000323</string>
+    </test>
+    <test label="U+0BC1
+U+0323" stylename="cv01_2">
+      <comment>umatra dotbelowcomb</comment>
+      <string>\u000BC1\u000323</string>
+    </test>
+    <test label="U+0BC1
+U+0323" stylename="cv01_3">
+      <comment>umatra dotbelowcomb</comment>
+      <string>\u000BC1\u000323</string>
+    </test>
+    <test label="U+0BC1
+U+1133B">
+      <comment>umatra bindu</comment>
+      <string>\u000BC1\u01133B</string>
+    </test>
+    <test label="U+0BC1
+U+1133B" stylename="cv01_1">
+      <comment>umatra bindu</comment>
+      <string>\u000BC1\u01133B</string>
+    </test>
+    <test label="U+0BC1
+U+1133B" stylename="cv01_2">
+      <comment>umatra bindu</comment>
+      <string>\u000BC1\u01133B</string>
+    </test>
+    <test label="U+0BC1
+U+1133B" stylename="cv01_3">
+      <comment>umatra bindu</comment>
+      <string>\u000BC1\u01133B</string>
+    </test>
+    <test label="U+0BC1
+U+1133C">
+      <comment>umatra nukta</comment>
+      <string>\u000BC1\u01133C</string>
+    </test>
+    <test label="U+0BC1
+U+1133C" stylename="cv01_1">
+      <comment>umatra nukta</comment>
+      <string>\u000BC1\u01133C</string>
+    </test>
+    <test label="U+0BC1
+U+1133C" stylename="cv01_2">
+      <comment>umatra nukta</comment>
+      <string>\u000BC1\u01133C</string>
+    </test>
+    <test label="U+0BC1
+U+1133C" stylename="cv01_3">
+      <comment>umatra nukta</comment>
+      <string>\u000BC1\u01133C</string>
+    </test>
+    <test label="U+0BC1
+U+0307">
+      <comment>umatra dotabovecomb</comment>
+      <string>\u000BC1\u000307 \u000BC1\u000B82 \u000BC1\u000BCD</string>
     </test>
     <test label="U+0BC2
 U+0323">
       <comment>uumatra dotbelowcomb</comment>
-      <string>\u000BC2\u000323 \u000BC2\u01133B \u000BC2\u01133C \u000BC2\u000307 \u000BC2\u000B82 \u000BC2\u000BCD</string>
+      <string>\u000BC2\u000323</string>
+    </test>
+    <test label="U+0BC2
+U+0323" stylename="cv01_1">
+      <comment>uumatra dotbelowcomb</comment>
+      <string>\u000BC2\u000323</string>
+    </test>
+    <test label="U+0BC2
+U+0323" stylename="cv01_2">
+      <comment>uumatra dotbelowcomb</comment>
+      <string>\u000BC2\u000323</string>
+    </test>
+    <test label="U+0BC2
+U+0323" stylename="cv01_3">
+      <comment>uumatra dotbelowcomb</comment>
+      <string>\u000BC2\u000323</string>
+    </test>
+    <test label="U+0BC2
+U+1133B">
+      <comment>uumatra bindu</comment>
+      <string>\u000BC2\u01133B</string>
+    </test>
+    <test label="U+0BC2
+U+1133B" stylename="cv01_1">
+      <comment>uumatra bindu</comment>
+      <string>\u000BC2\u01133B</string>
+    </test>
+    <test label="U+0BC2
+U+1133B" stylename="cv01_2">
+      <comment>uumatra bindu</comment>
+      <string>\u000BC2\u01133B</string>
+    </test>
+    <test label="U+0BC2
+U+1133B" stylename="cv01_3">
+      <comment>uumatra bindu</comment>
+      <string>\u000BC2\u01133B</string>
+    </test>
+    <test label="U+0BC2
+U+1133C">
+      <comment>uumatra nukta</comment>
+      <string>\u000BC2\u01133C</string>
+    </test>
+    <test label="U+0BC2
+U+1133C" stylename="cv01_1">
+      <comment>uumatra nukta</comment>
+      <string>\u000BC2\u01133C</string>
+    </test>
+    <test label="U+0BC2
+U+1133C" stylename="cv01_2">
+      <comment>uumatra nukta</comment>
+      <string>\u000BC2\u01133C</string>
+    </test>
+    <test label="U+0BC2
+U+1133C" stylename="cv01_3">
+      <comment>uumatra nukta</comment>
+      <string>\u000BC2\u01133C</string>
+    </test>
+    <test label="U+0BC2
+U+0307">
+      <comment>uumatra dotabovecomb</comment>
+      <string>\u000BC2\u000307 \u000BC2\u000B82 \u000BC2\u000BCD</string>
     </test>
     <test label="U+0BC6
 U+0323">
       <comment>ematra dotbelowcomb</comment>
-      <string>\u000BC6\u000323 \u000BC6\u01133B \u000BC6\u01133C \u000BC6\u000307 \u000BC6\u000B82 \u000BC6\u000BCD</string>
+      <string>\u000BC6\u000323</string>
+    </test>
+    <test label="U+0BC6
+U+0323" stylename="cv01_1">
+      <comment>ematra dotbelowcomb</comment>
+      <string>\u000BC6\u000323</string>
+    </test>
+    <test label="U+0BC6
+U+0323" stylename="cv01_2">
+      <comment>ematra dotbelowcomb</comment>
+      <string>\u000BC6\u000323</string>
+    </test>
+    <test label="U+0BC6
+U+0323" stylename="cv01_3">
+      <comment>ematra dotbelowcomb</comment>
+      <string>\u000BC6\u000323</string>
+    </test>
+    <test label="U+0BC6
+U+1133B">
+      <comment>ematra bindu</comment>
+      <string>\u000BC6\u01133B</string>
+    </test>
+    <test label="U+0BC6
+U+1133B" stylename="cv01_1">
+      <comment>ematra bindu</comment>
+      <string>\u000BC6\u01133B</string>
+    </test>
+    <test label="U+0BC6
+U+1133B" stylename="cv01_2">
+      <comment>ematra bindu</comment>
+      <string>\u000BC6\u01133B</string>
+    </test>
+    <test label="U+0BC6
+U+1133B" stylename="cv01_3">
+      <comment>ematra bindu</comment>
+      <string>\u000BC6\u01133B</string>
+    </test>
+    <test label="U+0BC6
+U+1133C">
+      <comment>ematra nukta</comment>
+      <string>\u000BC6\u01133C</string>
+    </test>
+    <test label="U+0BC6
+U+1133C" stylename="cv01_1">
+      <comment>ematra nukta</comment>
+      <string>\u000BC6\u01133C</string>
+    </test>
+    <test label="U+0BC6
+U+1133C" stylename="cv01_2">
+      <comment>ematra nukta</comment>
+      <string>\u000BC6\u01133C</string>
+    </test>
+    <test label="U+0BC6
+U+1133C" stylename="cv01_3">
+      <comment>ematra nukta</comment>
+      <string>\u000BC6\u01133C</string>
+    </test>
+    <test label="U+0BC6
+U+0307">
+      <comment>ematra dotabovecomb</comment>
+      <string>\u000BC6\u000307 \u000BC6\u000B82 \u000BC6\u000BCD</string>
     </test>
     <test label="U+0BC7
 U+0323">
       <comment>eematra dotbelowcomb</comment>
-      <string>\u000BC7\u000323 \u000BC7\u01133B \u000BC7\u01133C \u000BC7\u000307 \u000BC7\u000B82 \u000BC7\u000BCD</string>
+      <string>\u000BC7\u000323</string>
+    </test>
+    <test label="U+0BC7
+U+0323" stylename="cv01_1">
+      <comment>eematra dotbelowcomb</comment>
+      <string>\u000BC7\u000323</string>
+    </test>
+    <test label="U+0BC7
+U+0323" stylename="cv01_2">
+      <comment>eematra dotbelowcomb</comment>
+      <string>\u000BC7\u000323</string>
+    </test>
+    <test label="U+0BC7
+U+0323" stylename="cv01_3">
+      <comment>eematra dotbelowcomb</comment>
+      <string>\u000BC7\u000323</string>
+    </test>
+    <test label="U+0BC7
+U+1133B">
+      <comment>eematra bindu</comment>
+      <string>\u000BC7\u01133B</string>
+    </test>
+    <test label="U+0BC7
+U+1133B" stylename="cv01_1">
+      <comment>eematra bindu</comment>
+      <string>\u000BC7\u01133B</string>
+    </test>
+    <test label="U+0BC7
+U+1133B" stylename="cv01_2">
+      <comment>eematra bindu</comment>
+      <string>\u000BC7\u01133B</string>
+    </test>
+    <test label="U+0BC7
+U+1133B" stylename="cv01_3">
+      <comment>eematra bindu</comment>
+      <string>\u000BC7\u01133B</string>
+    </test>
+    <test label="U+0BC7
+U+1133C">
+      <comment>eematra nukta</comment>
+      <string>\u000BC7\u01133C</string>
+    </test>
+    <test label="U+0BC7
+U+1133C" stylename="cv01_1">
+      <comment>eematra nukta</comment>
+      <string>\u000BC7\u01133C</string>
+    </test>
+    <test label="U+0BC7
+U+1133C" stylename="cv01_2">
+      <comment>eematra nukta</comment>
+      <string>\u000BC7\u01133C</string>
+    </test>
+    <test label="U+0BC7
+U+1133C" stylename="cv01_3">
+      <comment>eematra nukta</comment>
+      <string>\u000BC7\u01133C</string>
+    </test>
+    <test label="U+0BC7
+U+0307">
+      <comment>eematra dotabovecomb</comment>
+      <string>\u000BC7\u000307 \u000BC7\u000B82 \u000BC7\u000BCD</string>
     </test>
     <test label="U+0BC8
 U+0323">
       <comment>aimatra dotbelowcomb</comment>
-      <string>\u000BC8\u000323 \u000BC8\u01133B \u000BC8\u01133C \u000BC8\u000307 \u000BC8\u000B82 \u000BC8\u000BCD</string>
+      <string>\u000BC8\u000323</string>
+    </test>
+    <test label="U+0BC8
+U+0323" stylename="cv01_1">
+      <comment>aimatra dotbelowcomb</comment>
+      <string>\u000BC8\u000323</string>
+    </test>
+    <test label="U+0BC8
+U+0323" stylename="cv01_2">
+      <comment>aimatra dotbelowcomb</comment>
+      <string>\u000BC8\u000323</string>
+    </test>
+    <test label="U+0BC8
+U+0323" stylename="cv01_3">
+      <comment>aimatra dotbelowcomb</comment>
+      <string>\u000BC8\u000323</string>
+    </test>
+    <test label="U+0BC8
+U+1133B">
+      <comment>aimatra bindu</comment>
+      <string>\u000BC8\u01133B</string>
+    </test>
+    <test label="U+0BC8
+U+1133B" stylename="cv01_1">
+      <comment>aimatra bindu</comment>
+      <string>\u000BC8\u01133B</string>
+    </test>
+    <test label="U+0BC8
+U+1133B" stylename="cv01_2">
+      <comment>aimatra bindu</comment>
+      <string>\u000BC8\u01133B</string>
+    </test>
+    <test label="U+0BC8
+U+1133B" stylename="cv01_3">
+      <comment>aimatra bindu</comment>
+      <string>\u000BC8\u01133B</string>
+    </test>
+    <test label="U+0BC8
+U+1133C">
+      <comment>aimatra nukta</comment>
+      <string>\u000BC8\u01133C</string>
+    </test>
+    <test label="U+0BC8
+U+1133C" stylename="cv01_1">
+      <comment>aimatra nukta</comment>
+      <string>\u000BC8\u01133C</string>
+    </test>
+    <test label="U+0BC8
+U+1133C" stylename="cv01_2">
+      <comment>aimatra nukta</comment>
+      <string>\u000BC8\u01133C</string>
+    </test>
+    <test label="U+0BC8
+U+1133C" stylename="cv01_3">
+      <comment>aimatra nukta</comment>
+      <string>\u000BC8\u01133C</string>
+    </test>
+    <test label="U+0BC8
+U+0307">
+      <comment>aimatra dotabovecomb</comment>
+      <string>\u000BC8\u000307 \u000BC8\u000B82 \u000BC8\u000BCD</string>
     </test>
     <test label="U+0BD0
 U+0323">
       <comment>om dotbelowcomb</comment>
-      <string>\u000BD0\u000323 \u000BD0\u01133B \u000BD0\u01133C \u000BD0\u000307 \u000BD0\u000B82 \u000BD0\u000BCD</string>
+      <string>\u000BD0\u000323</string>
+    </test>
+    <test label="U+0BD0
+U+0323" stylename="cv01_1">
+      <comment>om dotbelowcomb</comment>
+      <string>\u000BD0\u000323</string>
+    </test>
+    <test label="U+0BD0
+U+0323" stylename="cv01_2">
+      <comment>om dotbelowcomb</comment>
+      <string>\u000BD0\u000323</string>
+    </test>
+    <test label="U+0BD0
+U+0323" stylename="cv01_3">
+      <comment>om dotbelowcomb</comment>
+      <string>\u000BD0\u000323</string>
+    </test>
+    <test label="U+0BD0
+U+1133B">
+      <comment>om bindu</comment>
+      <string>\u000BD0\u01133B</string>
+    </test>
+    <test label="U+0BD0
+U+1133B" stylename="cv01_1">
+      <comment>om bindu</comment>
+      <string>\u000BD0\u01133B</string>
+    </test>
+    <test label="U+0BD0
+U+1133B" stylename="cv01_2">
+      <comment>om bindu</comment>
+      <string>\u000BD0\u01133B</string>
+    </test>
+    <test label="U+0BD0
+U+1133B" stylename="cv01_3">
+      <comment>om bindu</comment>
+      <string>\u000BD0\u01133B</string>
+    </test>
+    <test label="U+0BD0
+U+1133C">
+      <comment>om nukta</comment>
+      <string>\u000BD0\u01133C</string>
+    </test>
+    <test label="U+0BD0
+U+1133C" stylename="cv01_1">
+      <comment>om nukta</comment>
+      <string>\u000BD0\u01133C</string>
+    </test>
+    <test label="U+0BD0
+U+1133C" stylename="cv01_2">
+      <comment>om nukta</comment>
+      <string>\u000BD0\u01133C</string>
+    </test>
+    <test label="U+0BD0
+U+1133C" stylename="cv01_3">
+      <comment>om nukta</comment>
+      <string>\u000BD0\u01133C</string>
+    </test>
+    <test label="U+0BD0
+U+0307">
+      <comment>om dotabovecomb</comment>
+      <string>\u000BD0\u000307 \u000BD0\u000B82 \u000BD0\u000BCD</string>
     </test>
     <test label="U+0BD7
 U+0323">
       <comment>aulengthmark dotbelowcomb</comment>
-      <string>\u000BD7\u000323 \u000BD7\u01133B \u000BD7\u01133C \u000BD7\u000307 \u000BD7\u000B82 \u000BD7\u000BCD</string>
+      <string>\u000BD7\u000323</string>
+    </test>
+    <test label="U+0BD7
+U+0323" stylename="cv01_1">
+      <comment>aulengthmark dotbelowcomb</comment>
+      <string>\u000BD7\u000323</string>
+    </test>
+    <test label="U+0BD7
+U+0323" stylename="cv01_2">
+      <comment>aulengthmark dotbelowcomb</comment>
+      <string>\u000BD7\u000323</string>
+    </test>
+    <test label="U+0BD7
+U+0323" stylename="cv01_3">
+      <comment>aulengthmark dotbelowcomb</comment>
+      <string>\u000BD7\u000323</string>
+    </test>
+    <test label="U+0BD7
+U+1133B">
+      <comment>aulengthmark bindu</comment>
+      <string>\u000BD7\u01133B</string>
+    </test>
+    <test label="U+0BD7
+U+1133B" stylename="cv01_1">
+      <comment>aulengthmark bindu</comment>
+      <string>\u000BD7\u01133B</string>
+    </test>
+    <test label="U+0BD7
+U+1133B" stylename="cv01_2">
+      <comment>aulengthmark bindu</comment>
+      <string>\u000BD7\u01133B</string>
+    </test>
+    <test label="U+0BD7
+U+1133B" stylename="cv01_3">
+      <comment>aulengthmark bindu</comment>
+      <string>\u000BD7\u01133B</string>
+    </test>
+    <test label="U+0BD7
+U+1133C">
+      <comment>aulengthmark nukta</comment>
+      <string>\u000BD7\u01133C</string>
+    </test>
+    <test label="U+0BD7
+U+1133C" stylename="cv01_1">
+      <comment>aulengthmark nukta</comment>
+      <string>\u000BD7\u01133C</string>
+    </test>
+    <test label="U+0BD7
+U+1133C" stylename="cv01_2">
+      <comment>aulengthmark nukta</comment>
+      <string>\u000BD7\u01133C</string>
+    </test>
+    <test label="U+0BD7
+U+1133C" stylename="cv01_3">
+      <comment>aulengthmark nukta</comment>
+      <string>\u000BD7\u01133C</string>
+    </test>
+    <test label="U+0BD7
+U+0307">
+      <comment>aulengthmark dotabovecomb</comment>
+      <string>\u000BD7\u000307 \u000BD7\u000B82 \u000BD7\u000BCD</string>
     </test>
   </testgroup>
   <testgroup label="All diacritics on representative bases">
@@ -260,7 +3025,42 @@ U+030C">
     <test label="U+0B95
 U+0323">
       <comment>ka dotbelowcomb</comment>
-      <string>\u000B95\u000323 \u000B85\u000323</string>
+      <string>\u000B95\u000323</string>
+    </test>
+    <test label="U+0B95
+U+0323" stylename="cv01_1">
+      <comment>ka dotbelowcomb</comment>
+      <string>\u000B95\u000323</string>
+    </test>
+    <test label="U+0B95
+U+0323" stylename="cv01_2">
+      <comment>ka dotbelowcomb</comment>
+      <string>\u000B95\u000323</string>
+    </test>
+    <test label="U+0B95
+U+0323" stylename="cv01_3">
+      <comment>ka dotbelowcomb</comment>
+      <string>\u000B95\u000323</string>
+    </test>
+    <test label="U+0B85
+U+0323">
+      <comment>avowel dotbelowcomb</comment>
+      <string>\u000B85\u000323</string>
+    </test>
+    <test label="U+0B85
+U+0323" stylename="cv01_1">
+      <comment>avowel dotbelowcomb</comment>
+      <string>\u000B85\u000323</string>
+    </test>
+    <test label="U+0B85
+U+0323" stylename="cv01_2">
+      <comment>avowel dotbelowcomb</comment>
+      <string>\u000B85\u000323</string>
+    </test>
+    <test label="U+0B85
+U+0323" stylename="cv01_3">
+      <comment>avowel dotbelowcomb</comment>
+      <string>\u000B85\u000323</string>
     </test>
     <test label="U+0B95
 U+032D">
@@ -340,12 +3140,82 @@ U+1CDF">
     <test label="U+0B95
 U+1133B">
       <comment>ka bindu</comment>
-      <string>\u000B95\u01133B \u000B85\u01133B</string>
+      <string>\u000B95\u01133B</string>
+    </test>
+    <test label="U+0B95
+U+1133B" stylename="cv01_1">
+      <comment>ka bindu</comment>
+      <string>\u000B95\u01133B</string>
+    </test>
+    <test label="U+0B95
+U+1133B" stylename="cv01_2">
+      <comment>ka bindu</comment>
+      <string>\u000B95\u01133B</string>
+    </test>
+    <test label="U+0B95
+U+1133B" stylename="cv01_3">
+      <comment>ka bindu</comment>
+      <string>\u000B95\u01133B</string>
+    </test>
+    <test label="U+0B85
+U+1133B">
+      <comment>avowel bindu</comment>
+      <string>\u000B85\u01133B</string>
+    </test>
+    <test label="U+0B85
+U+1133B" stylename="cv01_1">
+      <comment>avowel bindu</comment>
+      <string>\u000B85\u01133B</string>
+    </test>
+    <test label="U+0B85
+U+1133B" stylename="cv01_2">
+      <comment>avowel bindu</comment>
+      <string>\u000B85\u01133B</string>
+    </test>
+    <test label="U+0B85
+U+1133B" stylename="cv01_3">
+      <comment>avowel bindu</comment>
+      <string>\u000B85\u01133B</string>
     </test>
     <test label="U+0B95
 U+1133C">
       <comment>ka nukta</comment>
-      <string>\u000B95\u01133C \u000B85\u01133C</string>
+      <string>\u000B95\u01133C</string>
+    </test>
+    <test label="U+0B95
+U+1133C" stylename="cv01_1">
+      <comment>ka nukta</comment>
+      <string>\u000B95\u01133C</string>
+    </test>
+    <test label="U+0B95
+U+1133C" stylename="cv01_2">
+      <comment>ka nukta</comment>
+      <string>\u000B95\u01133C</string>
+    </test>
+    <test label="U+0B95
+U+1133C" stylename="cv01_3">
+      <comment>ka nukta</comment>
+      <string>\u000B95\u01133C</string>
+    </test>
+    <test label="U+0B85
+U+1133C">
+      <comment>avowel nukta</comment>
+      <string>\u000B85\u01133C</string>
+    </test>
+    <test label="U+0B85
+U+1133C" stylename="cv01_1">
+      <comment>avowel nukta</comment>
+      <string>\u000B85\u01133C</string>
+    </test>
+    <test label="U+0B85
+U+1133C" stylename="cv01_2">
+      <comment>avowel nukta</comment>
+      <string>\u000B85\u01133C</string>
+    </test>
+    <test label="U+0B85
+U+1133C" stylename="cv01_3">
+      <comment>avowel nukta</comment>
+      <string>\u000B85\u01133C</string>
     </test>
   </testgroup>
 </ftml>

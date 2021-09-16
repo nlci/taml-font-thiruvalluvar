@@ -2,9 +2,6 @@
 
 # This script rebuilds the algorithmically-generated ftml files.
 
-# Copyright (c) 2020 SIL International  (http://www.sil.org)
-# Released under the MIT License (http://opensource.org/licenses/
-
 set -e
 
 if [ ! -f wscript ]
@@ -16,7 +13,7 @@ fi
 # configure tests
 tests="AllChars Diac Nuktas $1"
 urls='url(../references/ThiruValluvar-Regular.ttf)=Ref url(../results/ThiruValluvar-Regular.ttf)=Gr url(../results/tests/ftml/fonts/ThiruValluvar-Regular_ot_tml2.ttf)=OT url(../results/ThiruValluvar-Bold.ttf)=Bold'
-langs='xub,xuj,iru,ctt'
+langs='ctt,iru,xub,xuj'
 ufo='source/ThiruValluvar-Regular.ufo'
 
 # list all the fonts to test
