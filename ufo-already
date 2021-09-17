@@ -40,7 +40,7 @@ pushd ${src}
 for fi in ${!faces[@]} # loop over indices
 do
     f=${faces[$fi]} # fi is the index into the array faces
-    ${nlci}/ufo2glyphdata.py $HOME/pub/doc/Adobe/agl-aglfn/aglfn.txt ${f}-Regular.ufo glyph_data-${f}.csv
+    ${nlci}/ufo2glyphdata.py --langs languages.csv --feats features.csv $HOME/pub/doc/Adobe/agl-aglfn/aglfn.txt ${f}-Regular.ufo glyph_data-${f}.csv
 done
 popd
 ./preflight

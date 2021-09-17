@@ -131,9 +131,9 @@ def doit(args):
             builder.render((uid,), ftml)
         ftml.closeTest()
 
-    above_marks = (0x0323, 0x1133B, 0x1133C)
-    below_marks = (0x0307, 0x0B82, 0x0BCD)
-    marks = above_marks + below_marks
+    below_marks = (0x0323, 0x1133B, 0x1133C)  # 0x1CDC, 0x1CDD, 0x1CDE, 0x1CDF
+    above_marks = (0x0307, 0x0B82, 0x0BCD)  # 0x1CDA
+    marks = below_marks + above_marks
 
     if test.lower().startswith("diac"):
         # Diac attachment:
@@ -186,8 +186,8 @@ def doit(args):
         with open(f'tests/{test_name}.template') as nuktas:
             line_number = 1
             for line in nuktas:
-                for n in above_marks:
-                    for v in below_marks:
+                for n in below_marks:
+                    for v in above_marks:
                         text = line.replace('N', chr(n))
                         text = text.replace('V', chr(v))
                         ftml.addToTest(None, text, label=f'line {line_number}', comment=f'n={n:04X} v={v:04X}')

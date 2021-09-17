@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-from nameslist import *
 from fontParts.world import *
 import sys
 
@@ -19,6 +18,7 @@ def ps_upm(points):
 
 ## Adjust new characters
 anusvara = font['anusvara']
+# vedictonedoublesvarita = font['vedictonedoublesvarita']
 virama = font['virama']
 anusvara.leftMargin = virama.leftMargin
 anusvara.rightMargin = virama.rightMargin
@@ -29,6 +29,7 @@ for anchor in virama.anchors:
         x = xcenter
         y = anchor.y
         anusvara.appendAnchor('_V', (x, y))
+        # vedictonedoublesvarita.appendAnchor('_V', (x, y))
 
 ## Move single ring closer to base character
 ring = font['nukta']
@@ -134,7 +135,7 @@ for anchor in ring.anchors:
 
 # ...to apply to the composite nuktas
 for glyph in font:
-    if glyph.name in ('bindu', 'dotbelowcomb'):
+    if glyph.name in ('bindu', 'dotbelowcomb'):  # 'vedictonekathakaanudatta', 'vedictonedotbelow', 'vedictonetwodotsbelow', 'vedictonethreedotsbelow'
         glyph.appendAnchor('N', (xbase, ybase))
         for anchor in glyph.anchors:
             if anchor.name == '_N':

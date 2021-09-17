@@ -15,6 +15,7 @@
       
       Known issues
       ------------
+      U+0B94 and U+0BB6 might need N APs
       Old style glyphs need to be enabled in a ss
       Reph stype RA needs to be enabled, maybe in a cv
       U+0BB6 need major changes.
