@@ -70,24 +70,12 @@
   <string>E_dieresis.glif</string>
   <key>Egrave</key>
   <string>E_grave.glif</string>
-  <key>EmQuad</key>
-  <string>E_mQ_uad.glif</string>
-  <key>EmSpace</key>
-  <string>E_mS_pace.glif</string>
-  <key>EnQuad</key>
-  <string>E_nQ_uad.glif</string>
-  <key>EnSpace</key>
-  <string>E_nS_pace.glif</string>
   <key>Eth</key>
   <string>E_th.glif</string>
   <key>Euro</key>
   <string>E_uro.glif</string>
   <key>F</key>
   <string>F_.glif</string>
-  <key>FigureSpace</key>
-  <string>F_igureS_pace.glif</string>
-  <key>FourPerEmSpace</key>
-  <string>F_ourP_erE_mS_pace.glif</string>
   <key>G</key>
   <string>G_.glif</string>
   <key>GrCapDelta</key>
@@ -96,10 +84,6 @@
   <string>G_rC_apP_i.glif</string>
   <key>H</key>
   <string>H_.glif</string>
-  <key>HairSpace</key>
-  <string>H_airS_pace.glif</string>
-  <key>HyphenationPt</key>
-  <string>H_yphenationP_t.glif</string>
   <key>I</key>
   <string>I_.glif</string>
   <key>Iacute</key>
@@ -116,8 +100,6 @@
   <string>K_.glif</string>
   <key>L</key>
   <string>L_.glif</string>
-  <key>LineSep</key>
-  <string>L_ineS_ep.glif</string>
   <key>LtnCapEsh</key>
   <string>L_tnC_apE_sh.glif</string>
   <key>M</key>
@@ -140,8 +122,6 @@
   <string>O_E_.glif</string>
   <key>Oacute</key>
   <string>O_acute.glif</string>
-  <key>ObjectReplChar</key>
-  <string>O_bjectR_eplC_har.glif</string>
   <key>Ocircumflex</key>
   <string>O_circumflex.glif</string>
   <key>Odieresis</key>
@@ -158,30 +138,18 @@
   <string>O_tilde.glif</string>
   <key>P</key>
   <string>P_.glif</string>
-  <key>ParagraphSeparator</key>
-  <string>P_aragraphS_eparator.glif</string>
-  <key>PuncSpace</key>
-  <string>P_uncS_pace.glif</string>
   <key>Q</key>
   <string>Q_.glif</string>
   <key>R</key>
   <string>R_.glif</string>
-  <key>ReplChar</key>
-  <string>R_eplC_har.glif</string>
   <key>S</key>
   <string>S_.glif</string>
   <key>Scaron</key>
   <string>S_caron.glif</string>
-  <key>SixPerEmSpace</key>
-  <string>S_ixP_erE_mS_pace.glif</string>
   <key>T</key>
   <string>T_.glif</string>
-  <key>ThinSpace</key>
-  <string>T_hinS_pace.glif</string>
   <key>Thorn</key>
   <string>T_horn.glif</string>
-  <key>ThreePerEmSpace</key>
-  <string>T_hreeP_erE_mS_pace.glif</string>
   <key>U</key>
   <string>U_.glif</string>
   <key>Uacute</key>
@@ -446,8 +414,16 @@
   <string>ematra.glif</string>
   <key>emdash</key>
   <string>emdash.glif</string>
+  <key>emquad</key>
+  <string>emquad.glif</string>
+  <key>emspace</key>
+  <string>emspace.glif</string>
   <key>endash</key>
   <string>endash.glif</string>
+  <key>enquad</key>
+  <string>enquad.glif</string>
+  <key>enspace</key>
+  <string>enspace.glif</string>
   <key>equal</key>
   <string>equal.glif</string>
   <key>equal.taml</key>
@@ -468,6 +444,8 @@
   <string>fi.glif</string>
   <key>figuredash</key>
   <string>figuredash.glif</string>
+  <key>figurespace</key>
+  <string>figurespace.glif</string>
   <key>five</key>
   <string>five.glif</string>
   <key>five.taml</key>
@@ -488,6 +466,8 @@
   <string>four.glif</string>
   <key>four.taml</key>
   <string>four.taml.glif</string>
+  <key>fourperemspace</key>
+  <string>fourperemspace.glif</string>
   <key>foursuperior</key>
   <string>foursuperior.glif</string>
   <key>fourtaml</key>
@@ -532,6 +512,8 @@
   <string>ha_imatra.glif</string>
   <key>ha_virama</key>
   <string>ha_virama.glif</string>
+  <key>hairspace</key>
+  <string>hairspace.glif</string>
   <key>halfbracketleftbottom</key>
   <string>halfbracketleftbottom.glif</string>
   <key>halfbracketlefttop</key>
@@ -548,6 +530,8 @@
   <string>hyphen.glif</string>
   <key>hyphen.taml</key>
   <string>hyphen.taml.glif</string>
+  <key>hyphenationpoint</key>
+  <string>hyphenationpoint.glif</string>
   <key>hyphensuperior</key>
   <string>hyphensuperior.glif</string>
   <key>hyphentwo</key>
@@ -636,6 +620,8 @@
   <string>less.taml.glif</string>
   <key>lessequal</key>
   <string>lessequal.glif</string>
+  <key>lineseparator</key>
+  <string>lineseparator.glif</string>
   <key>lla</key>
   <string>lla.glif</string>
   <key>lla_aimatra</key>
@@ -708,8 +694,8 @@
   <string>na_virama.glif</string>
   <key>nbhyphen</key>
   <string>nbhyphen.glif</string>
-  <key>nbsp</key>
-  <string>nbsp.glif</string>
+  <key>nbspace</key>
+  <string>nbspace.glif</string>
   <key>nga</key>
   <string>nga.glif</string>
   <key>nga_iimatra</key>
@@ -814,6 +800,8 @@
   <string>o.glif</string>
   <key>oacute</key>
   <string>oacute.glif</string>
+  <key>objectReplacementCharacter</key>
+  <string>objectR_eplacementC_haracter.glif</string>
   <key>ocircumflex</key>
   <string>ocircumflex.glif</string>
   <key>odieresis</key>
@@ -872,6 +860,8 @@
   <string>pa_virama.glif</string>
   <key>paragraph</key>
   <string>paragraph.glif</string>
+  <key>paragraphseparator</key>
+  <string>paragraphseparator.glif</string>
   <key>parenleft</key>
   <string>parenleft.glif</string>
   <key>parenleft.taml</key>
@@ -908,6 +898,8 @@
   <string>plusminus.glif</string>
   <key>product</key>
   <string>product.glif</string>
+  <key>punctuationspace</key>
+  <string>punctuationspace.glif</string>
   <key>q</key>
   <string>q.glif</string>
   <key>question</key>
@@ -958,6 +950,8 @@
   <string>radical.glif</string>
   <key>registered</key>
   <string>registered.glif</string>
+  <key>replacementCharacter</key>
+  <string>replacementC_haracter.glif</string>
   <key>ring</key>
   <string>ring.glif</string>
   <key>rra</key>
@@ -1020,6 +1014,8 @@
   <string>six.glif</string>
   <key>six.taml</key>
   <string>six.taml.glif</string>
+  <key>sixperemspace</key>
+  <string>sixperemspace.glif</string>
   <key>sixsuperior</key>
   <string>sixsuperior.glif</string>
   <key>sixtaml</key>
@@ -1062,12 +1058,16 @@
   <string>ta_uumatra.glif</string>
   <key>ta_virama</key>
   <string>ta_virama.glif</string>
+  <key>thinspace</key>
+  <string>thinspace.glif</string>
   <key>thorn</key>
   <string>thorn.glif</string>
   <key>three</key>
   <string>three.glif</string>
   <key>three.taml</key>
   <string>three.taml.glif</string>
+  <key>threeperemspace</key>
+  <string>threeperemspace.glif</string>
   <key>threequarters</key>
   <string>threequarters.glif</string>
   <key>threesuperior</key>
