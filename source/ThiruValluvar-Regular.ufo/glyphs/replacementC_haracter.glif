@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ReplChar" format="2">
+<glyph name="replacementCharacter" format="2">
   <advance width="1773"/>
   <unicode hex="FFFD"/>
   <outline>
