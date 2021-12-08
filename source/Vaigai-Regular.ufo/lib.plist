@@ -142,7 +142,7 @@
     <string>bar</string>
     <string>braceright</string>
     <string>asciitilde</string>
-    <string>nbsp</string>
+    <string>nbspace</string>
     <string>exclamdown</string>
     <string>cent</string>
     <string>sterling</string>
@@ -481,17 +481,17 @@
     <string>vedictonethreedotsbelow</string>
     <string>vedicsignjihvamuliya</string>
     <string>vedicsignjihvamuliya.alt</string>
-    <string>EnQuad</string>
-    <string>EmQuad</string>
-    <string>EnSpace</string>
-    <string>EmSpace</string>
-    <string>ThreePerEmSpace</string>
-    <string>FourPerEmSpace</string>
-    <string>SixPerEmSpace</string>
-    <string>FigureSpace</string>
-    <string>PuncSpace</string>
-    <string>ThinSpace</string>
-    <string>HairSpace</string>
+    <string>enquad</string>
+    <string>emquad</string>
+    <string>enspace</string>
+    <string>emspace</string>
+    <string>threeperemspace</string>
+    <string>fourperemspace</string>
+    <string>sixperemspace</string>
+    <string>figurespace</string>
+    <string>punctuationspace</string>
+    <string>thinspace</string>
+    <string>hairspace</string>
     <string>zwsp</string>
     <string>zwnj</string>
     <string>zwj</string>
@@ -515,9 +515,9 @@
     <string>daggerdbl</string>
     <string>bullet</string>
     <string>ellipsis</string>
-    <string>HyphenationPt</string>
-    <string>LineSep</string>
-    <string>ParagraphSeparator</string>
+    <string>hyphenationpoint</string>
+    <string>lineseparator</string>
+    <string>paragraphseparator</string>
     <string>nnbsp</string>
     <string>perthousand</string>
     <string>guilsinglleft</string>
@@ -590,8 +590,8 @@
     <string>VS15</string>
     <string>VS16</string>
     <string>zwnbsp</string>
-    <string>ObjectReplChar</string>
-    <string>ReplChar</string>
+    <string>objectReplacementCharacter</string>
+    <string>replacementCharacter</string>
     <string>bindu</string>
     <string>nukta</string>
     <string>nukta.dot</string>
@@ -622,40 +622,8 @@
     <string>uni030C</string>
     <key>CombCaron.LP</key>
     <string>uni030C.LP</string>
-    <key>EmQuad</key>
-    <string>uni2001</string>
-    <key>EmSpace</key>
-    <string>uni2003</string>
-    <key>EnQuad</key>
-    <string>uni2000</string>
-    <key>EnSpace</key>
-    <string>uni2002</string>
-    <key>FigureSpace</key>
-    <string>uni2007</string>
-    <key>FourPerEmSpace</key>
-    <string>uni2005</string>
-    <key>HairSpace</key>
-    <string>uni200A</string>
-    <key>HyphenationPt</key>
-    <string>uni2027</string>
-    <key>LineSep</key>
-    <string>uni2028</string>
-    <key>ObjectReplChar</key>
-    <string>uniFFFC</string>
     <key>Ohm</key>
     <string>uni2126</string>
-    <key>ParagraphSeparator</key>
-    <string>uni2029</string>
-    <key>PuncSpace</key>
-    <string>uni2008</string>
-    <key>ReplChar</key>
-    <string>uniFFFD</string>
-    <key>SixPerEmSpace</key>
-    <string>uni2006</string>
-    <key>ThinSpace</key>
-    <string>uni2009</string>
-    <key>ThreePerEmSpace</key>
-    <string>uni2004</string>
     <key>VS1</key>
     <string>uniFE00</string>
     <key>VS10</key>
@@ -778,10 +746,20 @@
     <string>uni0BEE</string>
     <key>ematra</key>
     <string>uni0BC6</string>
+    <key>emquad</key>
+    <string>uni2001</string>
+    <key>emspace</key>
+    <string>uni2003</string>
+    <key>enquad</key>
+    <string>uni2000</string>
+    <key>enspace</key>
+    <string>uni2002</string>
     <key>evowel</key>
     <string>uni0B8E</string>
     <key>fi</key>
     <string>uniFB01</string>
+    <key>figurespace</key>
+    <string>uni2007</string>
     <key>fivesuperior</key>
     <string>uni2075</string>
     <key>fivetaml</key>
@@ -792,6 +770,8 @@
     <string>uni230A</string>
     <key>floorright</key>
     <string>uni230B</string>
+    <key>fourperemspace</key>
+    <string>uni2005</string>
     <key>foursuperior</key>
     <string>uni2074</string>
     <key>fourtaml</key>
@@ -812,6 +792,8 @@
     <string>uni0BB90BBF</string>
     <key>ha_virama</key>
     <string>uni0BB90BCD</string>
+    <key>hairspace</key>
+    <string>uni200A</string>
     <key>halfbracketleftbottom</key>
     <string>uni2E24</string>
     <key>halfbracketlefttop</key>
@@ -822,6 +804,8 @@
     <string>uni2E23</string>
     <key>horizontalbar</key>
     <string>uni2015</string>
+    <key>hyphenationpoint</key>
+    <string>uni2027</string>
     <key>hyphensuperior</key>
     <string>uni207B</string>
     <key>hyphentwo</key>
@@ -884,6 +868,8 @@
     <string>uni0BB20BC2</string>
     <key>la_virama</key>
     <string>uni0BB20BCD</string>
+    <key>lineseparator</key>
+    <string>uni2028</string>
     <key>lla</key>
     <string>uni0BB3</string>
     <key>lla_aimatra</key>
@@ -940,7 +926,7 @@
     <string>uni0BA80BCD</string>
     <key>nbhyphen</key>
     <string>uni2011</string>
-    <key>nbsp</key>
+    <key>nbspace</key>
     <string>uni00A0</string>
     <key>nga</key>
     <string>uni0B99</string>
@@ -1030,6 +1016,8 @@
     <string>uni0B9E0BC2</string>
     <key>nya_virama</key>
     <string>uni0B9E0BCD</string>
+    <key>objectReplacementCharacter</key>
+    <string>uniFFFC</string>
     <key>om</key>
     <string>uni0BD0</string>
     <key>omatra</key>
@@ -1058,10 +1046,14 @@
     <string>uni0BAA0BC2</string>
     <key>pa_virama</key>
     <string>uni0BAA0BCD</string>
+    <key>paragraphseparator</key>
+    <string>uni2029</string>
     <key>parenleftsuperior</key>
     <string>uni207D</string>
     <key>parenrightsuperior</key>
     <string>uni207E</string>
+    <key>punctuationspace</key>
+    <string>uni2008</string>
     <key>ra</key>
     <string>uni0BB0</string>
     <key>ra_iimatra</key>
@@ -1074,6 +1066,8 @@
     <string>uni0BB00BC2</string>
     <key>ra_virama</key>
     <string>uni0BB00BCD</string>
+    <key>replacementCharacter</key>
+    <string>uniFFFD</string>
     <key>rra</key>
     <string>uni0BB1</string>
     <key>rra_aamatra</key>
@@ -1116,6 +1110,8 @@
     <string>uniF130</string>
     <key>sidebearingright</key>
     <string>uniF131</string>
+    <key>sixperemspace</key>
+    <string>uni2006</string>
     <key>sixsuperior</key>
     <string>uni2076</string>
     <key>sixtaml</key>
@@ -1144,6 +1140,10 @@
     <string>uni0BA40BC2</string>
     <key>ta_virama</key>
     <string>uni0BA40BCD</string>
+    <key>thinspace</key>
+    <string>uni2009</string>
+    <key>threeperemspace</key>
+    <string>uni2004</string>
     <key>threesuperior</key>
     <string>uni00B3</string>
     <key>threetaml</key>
