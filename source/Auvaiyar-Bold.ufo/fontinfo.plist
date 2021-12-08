@@ -22,7 +22,7 @@ Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
   <key>familyName</key>
   <string>Auvaiyar</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/07/23 13:59:28</string>
+  <string>2021/12/08 14:52:17</string>
   <key>openTypeHheaAscender</key>
   <integer>915</integer>
   <key>openTypeHheaDescender</key>
@@ -228,7 +228,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     <integer>62</integer>
     <integer>67</integer>
     <integer>69</integer>
-    <integer>79</integer>
     <integer>91</integer>
   </array>
   <key>openTypeOS2VendorID</key>
