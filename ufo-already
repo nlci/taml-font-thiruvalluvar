@@ -20,7 +20,6 @@ export src=source
 # popd
 
 cat cs/main_import.txt tools/latin.txt > cs/latn_import.txt
-cat                    tools/runic.txt > cs/runr_import.txt
 source ${nlci}/metadata.bash
 
 pushd ${src}

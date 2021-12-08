@@ -110,10 +110,6 @@ for glyphname in ('CombCaron', 'almostequaltocomb', 'circumflexbelowcomb', 'aama
         glyph.appendAnchor('_V', (xcenter, ymin - base_offset))
         glyph.appendAnchor('V', (xcenter, ymax - base_offset))
 
-avagraha = font['uni16C7']
-avagraha.name = 'avagraha'
-avagraha.unicode = 0x16C7 #  0x1133D
-
 ## Posistion extra vowels on nuktas (U+1133C and related)
 
 # anchor for nukta as a base

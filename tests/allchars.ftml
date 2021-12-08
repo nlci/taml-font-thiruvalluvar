@@ -29,7 +29,7 @@
       <string>\u00F130 \u00F131 ! " # $ % &amp; ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~</string>
     </test>
     <test label="U+00A0">
-      <comment>nbsp</comment>
+      <comment>nbspace</comment>
       <string>\u00F130\u0000A0\u00F131 \u0000A1 \u0000A2 \u0000A3 \u0000A4 \u0000A5 \u0000A6 \u0000A7 \u0000A8 \u0000A9 \u0000AA \u0000AB \u0000AC \u0000AD \u0000AE \u0000AF \u0000B0 \u0000B1 \u0000B2 \u0000B3 \u0000B4 \u0000B5 \u0000B6 \u0000B7 \u0000B8 \u0000B9 \u0000BA \u0000BB \u0000BC \u0000BD \u0000BE \u0000BF \u0000C0 \u0000C1 \u0000C2 \u0000C3 \u0000C4 \u0000C5 \u0000C6 \u0000C7 \u0000C8 \u0000C9 \u0000CA \u0000CB \u0000CC \u0000CD \u0000CE \u0000CF \u0000D0 \u0000D1 \u0000D2 \u0000D3 \u0000D4 \u0000D5 \u0000D6 \u0000D7 \u0000D8 \u0000D9 \u0000DA \u0000DB \u0000DC \u0000DD \u0000DE \u0000DF \u0000E0 \u0000E1 \u0000E2 \u0000E3 \u0000E4 \u0000E5 \u0000E6 \u0000E7 \u0000E8 \u0000E9 \u0000EA \u0000EB \u0000EC \u0000ED \u0000EE \u0000EF \u0000F0 \u0000F1 \u0000F2 \u0000F3 \u0000F4 \u0000F5 \u0000F6 \u0000F7 \u0000F8 \u0000F9 \u0000FA \u0000FB \u0000FC \u0000FD \u0000FE \u0000FF</string>
     </test>
     <test label="U+0131">
@@ -216,10 +216,6 @@
       <comment>zerotaml</comment>
       <string>\u000BE6 \u000BE7 \u000BE8 \u000BE9 \u000BEA \u000BEB \u000BEC \u000BED \u000BEE \u000BEF \u000BF0 \u000BF1 \u000BF2 \u000BF3 \u000BF4 \u000BF5 \u000BF6 \u000BF7 \u000BF8 \u000BF9 \u000BFA</string>
     </test>
-    <test label="U+16C7">
-      <comment>avagraha</comment>
-      <string>\u0016C7</string>
-    </test>
     <test label="U+1CDA">
       <comment>vedictonedoublesvarita</comment>
       <string>\u000B95\u001CDA</string>
@@ -233,7 +229,7 @@
       <string>\u001CF5</string>
     </test>
     <test label="U+2000">
-      <comment>EnQuad</comment>
+      <comment>enquad</comment>
       <string>\u00F130\u002000\u00F131 \u00F130\u002001\u00F131 \u00F130\u002002\u00F131 \u00F130\u002003\u00F131 \u00F130\u002004\u00F131 \u00F130\u002005\u00F131 \u00F130\u002006\u00F131 \u00F130\u002007\u00F131 \u00F130\u002008\u00F131 \u00F130\u002009\u00F131 \u00F130\u00200A\u00F131 \u00200B \u00200C \u00200D</string>
     </test>
     <test label="U+2010">
@@ -397,7 +393,7 @@
       <string>\u00FEFF</string>
     </test>
     <test label="U+FFFC">
-      <comment>ObjectReplChar</comment>
+      <comment>objectReplacementCharacter</comment>
       <string>\u00FFFC \u00FFFD</string>
     </test>
     <test label="U+1133B">

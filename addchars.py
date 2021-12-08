@@ -22,4 +22,3 @@ for f in faces:
 
     for sn in stylesName:
         modifyFile(scale2048, latin, f, sn, chars = 'latn_import.txt')
-        modifyFile(scale1000, 'runic', f, sn, lsn = 'Regular', chars = 'runr_import.txt')
