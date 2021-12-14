@@ -253,7 +253,7 @@
       <string>\u002026 \u002027 \u00F130\u002028\u00F131 \u00F130\u002029\u00F131</string>
     </test>
     <test label="U+202F">
-      <comment>nnbsp</comment>
+      <comment>nnbspace</comment>
       <string>\u00F130\u00202F\u00F131 \u002030</string>
     </test>
     <test label="U+2039">
