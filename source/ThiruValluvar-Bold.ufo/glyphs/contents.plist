@@ -734,8 +734,8 @@
   <string>nna_uumatra.glif</string>
   <key>nna_virama</key>
   <string>nna_virama.glif</string>
-  <key>nnbsp</key>
-  <string>nnbsp.glif</string>
+  <key>nnbspace</key>
+  <string>nnbspace.glif</string>
   <key>nnna</key>
   <string>nnna.glif</string>
   <key>nnna_aamatra</key>
