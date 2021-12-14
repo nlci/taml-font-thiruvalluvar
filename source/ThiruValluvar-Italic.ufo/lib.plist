@@ -517,7 +517,7 @@
     <string>hyphenationpoint</string>
     <string>lineseparator</string>
     <string>paragraphseparator</string>
-    <string>nnbsp</string>
+    <string>nnbspace</string>
     <string>perthousand</string>
     <string>guilsinglleft</string>
     <string>guilsinglright</string>
@@ -963,7 +963,7 @@
     <string>uni0BA30BC2</string>
     <key>nna_virama</key>
     <string>uni0BA30BCD</string>
-    <key>nnbsp</key>
+    <key>nnbspace</key>
     <string>uni202F</string>
     <key>nnna</key>
     <string>uni0BA9</string>
