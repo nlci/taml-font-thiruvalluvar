@@ -173,7 +173,7 @@ def doit(args):
     if test.lower().startswith("matras"):
         # Combinations with matras:
 
-        ftml.startTestGroup('Consonants with matras or Kemphreng')
+        ftml.startTestGroup('Consonants with matras')
         for c in consonants:
             for m in matras:
                 builder.render((c,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
@@ -184,15 +184,18 @@ def doit(args):
         ftml.startTestGroup('Nuktas')
         test_name = test.lower().split()[0]
         with open(f'tests/{test_name}.template') as nuktas:
-            line_number = 1
+            line_number = 0
             for line in nuktas:
+                line = line.strip()
+                line_number += 1
+                if line == '':
+                    continue
                 for n in below_marks:
                     for v in above_marks:
                         text = line.replace('N', chr(n))
                         text = text.replace('V', chr(v))
                         ftml.addToTest(None, text, label=f'line {line_number}', comment=f'n={n:04X} v={v:04X}')
                         ftml.closeTest()
-                line_number += 1
 
     # Write the output ftml file
     ftml.writeFile(args.output)

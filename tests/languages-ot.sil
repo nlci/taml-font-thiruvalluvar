@@ -1,0 +1,39 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[]
+\set[parameter=harfbuzz.subshapers,value=ot]
+
+\section{Language specific nuktas}
+
+\proof{RenderingUnknown for the shaping}
+\proof{Test data has U+1133C for the nukta}
+
+\subsection{LNG}
+
+\setTestFont[language="dflt"]
+\proof{ring}
+\proof{க𑌼}
+
+\setTestFont[language="CTT"]
+\proof{dot CTT}
+\proof{க𑌼}
+
+\setTestFont[language="IRU"]
+\proof{double ring IRU}
+\proof{க𑌼}
+
+\subsection{X-HBOT LNG}
+
+\setTestFont[language="dflt"]
+\proof{ring}
+\proof{க𑌼}
+
+\setTestFont[language="x-hbotCTT"]
+\proof{dot CTT}
+\proof{க𑌼}
+
+\setTestFont[language="x-hbotIRU"]
+\proof{double ring IRU}
+\proof{க𑌼}
+
+\end{document}

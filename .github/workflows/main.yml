@@ -36,5 +36,5 @@ jobs:
           # smith release
       - uses: actions/upload-artifact@master
         with:
-          name: artifacts
+          name: download
           path: results/releases

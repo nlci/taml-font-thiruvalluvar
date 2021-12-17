@@ -20,14 +20,6 @@
       <string>RenderingUnknown</string>
     </test>
   </testgroup>
-  <testgroup label="lang spec, U+0323 - U+1133B - U+1133C">
-    <test label="cv">
-      <string>கெ̣ க̣ெ க̣ெ̣ - கெ𑌻 க𑌻ெ க𑌻ெ𑌻 - கெ𑌼 க𑌼ெ க𑌼ெ𑌼</string>
-    </test>
-    <test label="ligatures">
-      <string>த்̣க̣ாகி̣ஞு̣கு்̣கு̣ - த𑌻்க𑌻ாகி𑌻ஞு𑌻கு𑌻்கு𑌻 - த𑌼்க𑌼ாகி𑌼ஞு𑌼கு𑌼்கு𑌼</string>
-    </test>
-  </testgroup>
   <testgroup label="design">
     <test label="height">
       <string>\u0b95\u0bcd \u0b95\u030c \u0b95\u034c</string>
