@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="Ref">url(../references/ThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc label="Gr">url(../results/ThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc label="OT">url(../results/tests/ftml/fonts/ThiruValluvar-Regular_ot_tml2.ttf)</fontsrc>
+    <fontsrc label="Bold">url(../results/ThiruValluvar-Bold.ttf)</fontsrc>
+    <title>Matras auto</title>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="Consonants with matras">
+    <test label="0B95">
+      <comment>ka</comment>
+      <string>\u000B95\u000BBE \u000B95\u000BBF \u000B95\u000BC0 \u000B95\u000BC1 \u000B95\u000BC2 \u000B95\u000BC6 \u000B95\u000BC7 \u000B95\u000BC8 \u000B95\u000BCA \u000B95\u000BCB \u000B95\u000BCC</string>
+    </test>
+    <test label="0B99">
+      <comment>nga</comment>
+      <string>\u000B99\u000BBE \u000B99\u000BBF \u000B99\u000BC0 \u000B99\u000BC1 \u000B99\u000BC2 \u000B99\u000BC6 \u000B99\u000BC7 \u000B99\u000BC8 \u000B99\u000BCA \u000B99\u000BCB \u000B99\u000BCC</string>
+    </test>
+    <test label="0B9A">
+      <comment>ca</comment>
+      <string>\u000B9A\u000BBE \u000B9A\u000BBF \u000B9A\u000BC0 \u000B9A\u000BC1 \u000B9A\u000BC2 \u000B9A\u000BC6 \u000B9A\u000BC7 \u000B9A\u000BC8 \u000B9A\u000BCA \u000B9A\u000BCB \u000B9A\u000BCC</string>
+    </test>
+    <test label="0B9C">
+      <comment>ja</comment>
+      <string>\u000B9C\u000BBE \u000B9C\u000BBF \u000B9C\u000BC0 \u000B9C\u000BC1 \u000B9C\u000BC2 \u000B9C\u000BC6 \u000B9C\u000BC7 \u000B9C\u000BC8 \u000B9C\u000BCA \u000B9C\u000BCB \u000B9C\u000BCC</string>
+    </test>
+    <test label="0B9E">
+      <comment>nya</comment>
+      <string>\u000B9E\u000BBE \u000B9E\u000BBF \u000B9E\u000BC0 \u000B9E\u000BC1 \u000B9E\u000BC2 \u000B9E\u000BC6 \u000B9E\u000BC7 \u000B9E\u000BC8 \u000B9E\u000BCA \u000B9E\u000BCB \u000B9E\u000BCC</string>
+    </test>
+    <test label="0B9F">
+      <comment>tta</comment>
+      <string>\u000B9F\u000BBE \u000B9F\u000BBF \u000B9F\u000BC0 \u000B9F\u000BC1 \u000B9F\u000BC2 \u000B9F\u000BC6 \u000B9F\u000BC7 \u000B9F\u000BC8 \u000B9F\u000BCA \u000B9F\u000BCB \u000B9F\u000BCC</string>
+    </test>
+    <test label="0BA3">
+      <comment>nna</comment>
+      <string>\u000BA3\u000BBE \u000BA3\u000BBF \u000BA3\u000BC0 \u000BA3\u000BC1 \u000BA3\u000BC2 \u000BA3\u000BC6 \u000BA3\u000BC7 \u000BA3\u000BC8 \u000BA3\u000BCA \u000BA3\u000BCB \u000BA3\u000BCC</string>
+    </test>
+    <test label="0BA4">
+      <comment>ta</comment>
+      <string>\u000BA4\u000BBE \u000BA4\u000BBF \u000BA4\u000BC0 \u000BA4\u000BC1 \u000BA4\u000BC2 \u000BA4\u000BC6 \u000BA4\u000BC7 \u000BA4\u000BC8 \u000BA4\u000BCA \u000BA4\u000BCB \u000BA4\u000BCC</string>
+    </test>
+    <test label="0BA8">
+      <comment>na</comment>
+      <string>\u000BA8\u000BBE \u000BA8\u000BBF \u000BA8\u000BC0 \u000BA8\u000BC1 \u000BA8\u000BC2 \u000BA8\u000BC6 \u000BA8\u000BC7 \u000BA8\u000BC8 \u000BA8\u000BCA \u000BA8\u000BCB \u000BA8\u000BCC</string>
+    </test>
+    <test label="0BA9">
+      <comment>nnna</comment>
+      <string>\u000BA9\u000BBE \u000BA9\u000BBF \u000BA9\u000BC0 \u000BA9\u000BC1 \u000BA9\u000BC2 \u000BA9\u000BC6 \u000BA9\u000BC7 \u000BA9\u000BC8 \u000BA9\u000BCA \u000BA9\u000BCB \u000BA9\u000BCC</string>
+    </test>
+    <test label="0BAA">
+      <comment>pa</comment>
+      <string>\u000BAA\u000BBE \u000BAA\u000BBF \u000BAA\u000BC0 \u000BAA\u000BC1 \u000BAA\u000BC2 \u000BAA\u000BC6 \u000BAA\u000BC7 \u000BAA\u000BC8 \u000BAA\u000BCA \u000BAA\u000BCB \u000BAA\u000BCC</string>
+    </test>
+    <test label="0BAE">
+      <comment>ma</comment>
+      <string>\u000BAE\u000BBE \u000BAE\u000BBF \u000BAE\u000BC0 \u000BAE\u000BC1 \u000BAE\u000BC2 \u000BAE\u000BC6 \u000BAE\u000BC7 \u000BAE\u000BC8 \u000BAE\u000BCA \u000BAE\u000BCB \u000BAE\u000BCC</string>
+    </test>
+    <test label="0BAF">
+      <comment>ya</comment>
+      <string>\u000BAF\u000BBE \u000BAF\u000BBF \u000BAF\u000BC0 \u000BAF\u000BC1 \u000BAF\u000BC2 \u000BAF\u000BC6 \u000BAF\u000BC7 \u000BAF\u000BC8 \u000BAF\u000BCA \u000BAF\u000BCB \u000BAF\u000BCC</string>
+    </test>
+    <test label="0BB0">
+      <comment>ra</comment>
+      <string>\u000BB0\u000BBE \u000BB0\u000BBF \u000BB0\u000BC0 \u000BB0\u000BC1 \u000BB0\u000BC2 \u000BB0\u000BC6 \u000BB0\u000BC7 \u000BB0\u000BC8 \u000BB0\u000BCA \u000BB0\u000BCB \u000BB0\u000BCC</string>
+    </test>
+    <test label="0BB1">
+      <comment>rra</comment>
+      <string>\u000BB1\u000BBE \u000BB1\u000BBF \u000BB1\u000BC0 \u000BB1\u000BC1 \u000BB1\u000BC2 \u000BB1\u000BC6 \u000BB1\u000BC7 \u000BB1\u000BC8 \u000BB1\u000BCA \u000BB1\u000BCB \u000BB1\u000BCC</string>
+    </test>
+    <test label="0BB2">
+      <comment>la</comment>
+      <string>\u000BB2\u000BBE \u000BB2\u000BBF \u000BB2\u000BC0 \u000BB2\u000BC1 \u000BB2\u000BC2 \u000BB2\u000BC6 \u000BB2\u000BC7 \u000BB2\u000BC8 \u000BB2\u000BCA \u000BB2\u000BCB \u000BB2\u000BCC</string>
+    </test>
+    <test label="0BB3">
+      <comment>lla</comment>
+      <string>\u000BB3\u000BBE \u000BB3\u000BBF \u000BB3\u000BC0 \u000BB3\u000BC1 \u000BB3\u000BC2 \u000BB3\u000BC6 \u000BB3\u000BC7 \u000BB3\u000BC8 \u000BB3\u000BCA \u000BB3\u000BCB \u000BB3\u000BCC</string>
+    </test>
+    <test label="0BB4">
+      <comment>llla</comment>
+      <string>\u000BB4\u000BBE \u000BB4\u000BBF \u000BB4\u000BC0 \u000BB4\u000BC1 \u000BB4\u000BC2 \u000BB4\u000BC6 \u000BB4\u000BC7 \u000BB4\u000BC8 \u000BB4\u000BCA \u000BB4\u000BCB \u000BB4\u000BCC</string>
+    </test>
+    <test label="0BB5">
+      <comment>va</comment>
+      <string>\u000BB5\u000BBE \u000BB5\u000BBF \u000BB5\u000BC0 \u000BB5\u000BC1 \u000BB5\u000BC2 \u000BB5\u000BC6 \u000BB5\u000BC7 \u000BB5\u000BC8 \u000BB5\u000BCA \u000BB5\u000BCB \u000BB5\u000BCC</string>
+    </test>
+    <test label="0BB6">
+      <comment>sha</comment>
+      <string>\u000BB6\u000BBE \u000BB6\u000BBF \u000BB6\u000BC0 \u000BB6\u000BC1 \u000BB6\u000BC2 \u000BB6\u000BC6 \u000BB6\u000BC7 \u000BB6\u000BC8 \u000BB6\u000BCA \u000BB6\u000BCB \u000BB6\u000BCC</string>
+    </test>
+    <test label="0BB7">
+      <comment>ssa</comment>
+      <string>\u000BB7\u000BBE \u000BB7\u000BBF \u000BB7\u000BC0 \u000BB7\u000BC1 \u000BB7\u000BC2 \u000BB7\u000BC6 \u000BB7\u000BC7 \u000BB7\u000BC8 \u000BB7\u000BCA \u000BB7\u000BCB \u000BB7\u000BCC</string>
+    </test>
+    <test label="0BB8">
+      <comment>sa</comment>
+      <string>\u000BB8\u000BBE \u000BB8\u000BBF \u000BB8\u000BC0 \u000BB8\u000BC1 \u000BB8\u000BC2 \u000BB8\u000BC6 \u000BB8\u000BC7 \u000BB8\u000BC8 \u000BB8\u000BCA \u000BB8\u000BCB \u000BB8\u000BCC</string>
+    </test>
+    <test label="0BB9">
+      <comment>ha</comment>
+      <string>\u000BB9\u000BBE \u000BB9\u000BBF \u000BB9\u000BC0 \u000BB9\u000BC1 \u000BB9\u000BC2 \u000BB9\u000BC6 \u000BB9\u000BC7 \u000BB9\u000BC8 \u000BB9\u000BCA \u000BB9\u000BCB \u000BB9\u000BCC</string>
+    </test>
+  </testgroup>
+</ftml>
