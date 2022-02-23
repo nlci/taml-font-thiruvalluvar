@@ -12,6 +12,7 @@ Pan Tamil font designed to support all the languages using the Tamil script.
 
 Known issues
 ------------
+The import of Gentium Book Bold should be replaced with Gentium Bold
 U+0B94 and U+0BB6 might need N APs
 Old style glyphs need to be enabled in a ss
 Reph stype RA needs to be enabled, maybe in a cv

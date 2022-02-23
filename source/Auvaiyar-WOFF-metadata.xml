@@ -15,6 +15,7 @@
       
       Known issues
       ------------
+      The import of Gentium Book Bold should be replaced with Gentium Bold
       U+0B94 and U+0BB6 might need N APs
       Old style glyphs need to be enabled in a ss
       Reph stype RA needs to be enabled, maybe in a cv
@@ -33,7 +34,10 @@
       (This should list both major and minor changes, most recent first.)
       
       unreleased
+      - Improve width of spaces
       - Removed vowel modifier U+16C7 RUNIC LETTER IWAZ EOH
+      - More options for nukta and dot above
+      - Corrected contour directions
       31 May 2021 (Dev NLCI) NLCI Tamil fonts version 0.701
       - More positioning for vowel modifiers
       - One less language specific font
