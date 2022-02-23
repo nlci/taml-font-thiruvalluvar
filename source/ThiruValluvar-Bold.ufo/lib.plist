@@ -269,7 +269,7 @@
     <string>circumflexbelowcomb</string>
     <string>almostequaltocomb</string>
     <string>cgj</string>
-    <string>Omega</string>
+    <string>Omegagreek</string>
     <string>pi</string>
     <string>udatta</string>
     <string>anudatta</string>
@@ -624,7 +624,9 @@
     <key>CombCaron.LP</key>
     <string>uni030C.LP</string>
     <key>Ohm</key>
-    <string>uni2126</string>
+    <string>Omega</string>
+    <key>Omegagreek</key>
+    <string>uni03A9</string>
     <key>VS1</key>
     <string>uniFE00</string>
     <key>VS10</key>
