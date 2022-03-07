@@ -4,26 +4,6 @@
   <unicode hex="0BE9"/>
   <outline>
     <contour>
-      <point x="487" y="26" type="line"/>
-      <point x="496" y="69" type="line"/>
-      <point x="360" y="69" type="line"/>
-      <point x="373" y="81"/>
-      <point x="384" y="97"/>
-      <point x="396" y="116" type="curve" smooth="yes"/>
-      <point x="406" y="136"/>
-      <point x="414" y="155"/>
-      <point x="418" y="174" type="curve" smooth="yes"/>
-      <point x="419" y="177"/>
-      <point x="420" y="182"/>
-      <point x="422" y="189" type="curve" smooth="yes"/>
-      <point x="422" y="200"/>
-      <point x="422" y="200"/>
-      <point x="422" y="211" type="curve" smooth="yes"/>
-      <point x="422" y="240"/>
-      <point x="414" y="262"/>
-      <point x="398" y="277" type="curve" smooth="yes"/>
-      <point x="382" y="292"/>
-      <point x="361" y="300"/>
       <point x="336" y="300" type="curve" smooth="yes"/>
       <point x="317" y="300"/>
       <point x="301" y="296"/>
@@ -45,17 +25,22 @@
       <point x="340" y="246"/>
       <point x="353" y="231"/>
       <point x="353" y="200" type="curve" smooth="yes"/>
-      <point x="353" y="193"/>
-      <point x="352" y="186"/>
-      <point x="350" y="178" type="curve" smooth="yes"/>
-      <point x="345" y="153"/>
-      <point x="334" y="130"/>
-      <point x="320" y="111" type="curve" smooth="yes"/>
-      <point x="304" y="92"/>
-      <point x="285" y="78"/>
+      <point x="353" y="186"/>
+      <point x="342" y="99"/>
       <point x="262" y="69" type="curve"/>
       <point x="172" y="69" type="line"/>
       <point x="163" y="26" type="line"/>
+      <point x="487" y="26" type="line"/>
+      <point x="496" y="69" type="line"/>
+      <point x="360" y="69" type="line"/>
+      <point x="399" y="106"/>
+      <point x="412" y="151"/>
+      <point x="422" y="189" type="curve" smooth="yes"/>
+      <point x="422" y="200"/>
+      <point x="422" y="200"/>
+      <point x="422" y="211" type="curve" smooth="yes"/>
+      <point x="422" y="295"/>
+      <point x="353" y="300"/>
     </contour>
   </outline>
 </glyph>
