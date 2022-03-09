@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombCaron" format="2">
   <unicode hex="030C"/>
-  <anchor x="-300" y="1087" name="V"/>
-  <anchor x="-300" y="686" name="_V"/>
+  <anchor x="-286" y="1069" name="V"/>
+  <anchor x="-286" y="690" name="_V"/>
   <outline>
     <contour>
-      <point x="-4" y="1278" type="line"/>
-      <point x="-18" y="1300"/>
-      <point x="-45" y="1324"/>
-      <point x="-60" y="1337" type="curve"/>
-      <point x="-324" y="1144" type="line"/>
-      <point x="-530" y="1337" type="line"/>
-      <point x="-549" y="1323"/>
-      <point x="-578" y="1299"/>
-      <point x="-597" y="1278" type="curve"/>
-      <point x="-412" y="936" type="line"/>
-      <point x="-275" y="936" type="line"/>
+      <point x="-12" y="1269" type="line"/>
+      <point x="-24" y="1291"/>
+      <point x="-40" y="1306"/>
+      <point x="-54" y="1319" type="curve"/>
+      <point x="-309" y="1113" type="line"/>
+      <point x="-506" y="1319" type="line"/>
+      <point x="-525" y="1305"/>
+      <point x="-542" y="1291"/>
+      <point x="-560" y="1269" type="curve"/>
+      <point x="-383" y="940" type="line"/>
+      <point x="-273" y="940" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -2,15 +2,15 @@
 <glyph name="CombGrave" format="2">
   <outline>
     <contour>
-      <point x="-141" y="474" type="curve"/>
-      <point x="-243" y="657" type="line"/>
-      <point x="-258" y="656"/>
-      <point x="-307" y="647"/>
-      <point x="-319" y="644" type="curve"/>
-      <point x="-329" y="624" type="line"/>
-      <point x="-170" y="459" type="line"/>
-      <point x="-160" y="462"/>
-      <point x="-149" y="467"/>
+      <point x="-140" y="473" type="curve"/>
+      <point x="-245" y="654" type="line"/>
+      <point x="-260" y="653"/>
+      <point x="-298" y="646"/>
+      <point x="-309" y="643" type="curve"/>
+      <point x="-319" y="625" type="line"/>
+      <point x="-164" y="460" type="line"/>
+      <point x="-154" y="463"/>
+      <point x="-147" y="466"/>
     </contour>
   </outline>
 </glyph>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ntilde" format="2">
-  <advance width="484"/>
+  <advance width="464"/>
   <unicode hex="00F1"/>
   <outline>
     <component base="n"/>
-    <component base="CombTilde" xOffset="446"/>
+    <component base="CombTilde" xOffset="429"/>
   </outline>
 </glyph>

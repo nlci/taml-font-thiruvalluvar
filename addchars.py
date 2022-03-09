@@ -17,12 +17,11 @@ for f in faces:
         latin = 'charis'
     else:
         latin = 'gentium'
-        styles = {
-            'Regular': 'Medium',
-            'Italic': 'Medium Italic',
-            'Bold': 'ExtraBold',
-            'Bold Italic': 'ExtraBold Italic'
-        }
+        styles['Bold'] = 'SemiBold'
+        styles['Bold Italic'] = 'SemiBold Italic'
+        if f == 'ThiruValluvar':
+            styles['Regular'] = 'Medium'
+            styles['Italic'] = 'Medium Italic'
 
     for sn in stylesName:
         modifyFile(scale, latin, f, sn, styles, chars='latn_import.txt')

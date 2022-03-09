@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="saltillo" format="2">
-  <advance width="207"/>
+  <advance width="198"/>
   <unicode hex="A78C"/>
   <outline>
     <contour>
-      <point x="216" y="612" type="line"/>
-      <point x="193" y="628" type="line"/>
-      <point x="180" y="625"/>
-      <point x="108" y="599"/>
-      <point x="94" y="591" type="curve"/>
-      <point x="85" y="289" type="line"/>
-      <point x="97" y="289"/>
-      <point x="125" y="293"/>
-      <point x="135" y="298" type="curve"/>
+      <point x="202" y="614" type="line"/>
+      <point x="180" y="628" type="line"/>
+      <point x="168" y="625"/>
+      <point x="116" y="606"/>
+      <point x="103" y="598" type="curve"/>
+      <point x="88" y="297" type="line"/>
+      <point x="101" y="297"/>
+      <point x="120" y="300"/>
+      <point x="130" y="306" type="curve"/>
     </contour>
   </outline>
 </glyph>

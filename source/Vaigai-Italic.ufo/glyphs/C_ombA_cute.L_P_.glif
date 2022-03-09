@@ -2,15 +2,15 @@
 <glyph name="CombAcute.LP" format="2">
   <outline>
     <contour>
-      <point x="-6" y="579" type="line"/>
+      <point x="-7" y="578" type="line"/>
       <point x="-14" y="587"/>
-      <point x="-47" y="606"/>
-      <point x="-58" y="613" type="curve"/>
-      <point x="-227" y="472" type="line"/>
-      <point x="-222" y="460"/>
-      <point x="-219" y="453"/>
-      <point x="-210" y="448" type="curve"/>
-      <point x="-6" y="556" type="line"/>
+      <point x="-39" y="602"/>
+      <point x="-49" y="609" type="curve"/>
+      <point x="-221" y="471" type="line"/>
+      <point x="-216" y="459"/>
+      <point x="-215" y="456"/>
+      <point x="-206" y="450" type="curve"/>
+      <point x="-7" y="558" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -2,17 +2,17 @@
 <glyph name="CombCircum.LP" format="2">
   <outline>
     <contour>
-      <point x="-180" y="1000" type="curve"/>
-      <point x="-425" y="1305" type="line"/>
-      <point x="-558" y="1305" type="line"/>
-      <point x="-813" y="1000" type="line"/>
-      <point x="-796" y="978"/>
-      <point x="-765" y="942"/>
-      <point x="-746" y="933" type="curve"/>
-      <point x="-493" y="1075" type="line"/>
-      <point x="-240" y="933" type="line"/>
-      <point x="-219" y="942"/>
-      <point x="-195" y="978"/>
+      <point x="-179" y="991" type="curve"/>
+      <point x="-419" y="1283" type="line"/>
+      <point x="-534" y="1283" type="line"/>
+      <point x="-780" y="991" type="line"/>
+      <point x="-763" y="969"/>
+      <point x="-746" y="946"/>
+      <point x="-726" y="937" type="curve"/>
+      <point x="-478" y="1102" type="line"/>
+      <point x="-228" y="937" type="line"/>
+      <point x="-207" y="946"/>
+      <point x="-193" y="969"/>
     </contour>
   </outline>
 </glyph>

@@ -34,6 +34,7 @@
       (This should list both major and minor changes, most recent first.)
       
       unreleased
+      - Use lighter weight Latin in most places
       - Improve width of spaces
       - Removed vowel modifier U+16C7 RUNIC LETTER IWAZ EOH
       - More options for nukta and dot above

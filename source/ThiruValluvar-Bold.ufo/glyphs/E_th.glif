@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eth" format="2">
-  <advance width="1200"/>
+  <advance width="1146"/>
   <unicode hex="00D0"/>
   <outline>
     <component base="D"/>
     <contour>
-      <point x="607" y="553" type="line"/>
-      <point x="643" y="649" type="line"/>
-      <point x="621" y="670" type="line"/>
-      <point x="58" y="670" type="line"/>
-      <point x="51" y="651"/>
+      <point x="580" y="553" type="line"/>
+      <point x="609" y="631" type="line"/>
+      <point x="586" y="652" type="line"/>
+      <point x="51" y="652" type="line"/>
+      <point x="44" y="633"/>
       <point x="30" y="593"/>
-      <point x="25" y="575" type="curve"/>
-      <point x="45" y="553" type="line"/>
+      <point x="24" y="575" type="curve"/>
+      <point x="44" y="553" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="figuredash" format="2">
-  <advance width="819"/>
+  <advance width="780"/>
   <unicode hex="2012"/>
   <outline>
     <contour>
-      <point x="765" y="495" type="curve"/>
-      <point x="738" y="526" type="line"/>
-      <point x="104" y="526" type="line"/>
-      <point x="85" y="503"/>
-      <point x="47" y="448"/>
-      <point x="38" y="422" type="curve"/>
-      <point x="72" y="391" type="line"/>
-      <point x="711" y="391" type="line"/>
-      <point x="726" y="411"/>
-      <point x="756" y="469"/>
+      <point x="725" y="491" type="curve"/>
+      <point x="702" y="517" type="line"/>
+      <point x="90" y="517" type="line"/>
+      <point x="74" y="494"/>
+      <point x="47" y="452"/>
+      <point x="38" y="426" type="curve"/>
+      <point x="63" y="400" type="line"/>
+      <point x="680" y="400" type="line"/>
+      <point x="693" y="420"/>
+      <point x="716" y="465"/>
     </contour>
   </outline>
 </glyph>
