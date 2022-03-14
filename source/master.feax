@@ -109,6 +109,27 @@ lookup uuMatras {
 #     sub @cligno_virama virama by @clig_virama;
 # } ViramaLigs;
 
+# lookup NuktaLigs {
+#   lookupflag 0;
+#     sub ka nukta by ka_nukta;
+#     sub ka bindu by ka_bindu;
+#     sub ka dotbelowcomb by ka_dotbelowcomb;
+#     sub nukta ka by ka_nukta;
+#     sub bindu ka by ka_bindu;
+#     sub dotbelowcomb ka by ka_dotbelowcomb;
+#     # sub ka nukta ematra by ka_nukta_ematra;
+#     # sub ka bindu ematra by ka_bindu_ematra;
+#     # sub ka dotbelowcomb ematra by ka_dotbelowcomb_ematra;
+#     # sub ka ematra nukta by ka_ematra_nukta;
+#     # sub ka ematra bindu by ka_ematra_bindu;
+#     # sub ka ematra dotbelowcomb by ka_ematra_dotbelowcomb;
+# } NuktaLigs;
+
+# lookup cv01 {
+#   lookupflag 0;
+#     sub bindu from [bindu nukta.dotdbl nukta.dot nukta.ringdbl];
+# } cv01;
+
 feature ccmp {
     lookup FontCheck;
     # lookup NuktaLigs;
@@ -116,9 +137,9 @@ feature ccmp {
 
 feature locl {
     script tml2;
-        language IRU;
+        language IRU exclude_dflt;
             lookup NuktaIRU;
-        language CTT;
+        language CTT exclude_dflt;
             lookup NuktaCTT;
 } locl;
 
@@ -150,6 +171,34 @@ feature psts {
 #     lookup ViramaLigs;
 #     lookup NuktaLigs;
 # } haln;
+
+# feature cv01 {
+#     script tml2;
+#       cvParameters {
+#         FeatUILabelNameID  { name 3 1 0x0409 "Nukta forms" ; };
+#         ParamUILabelNameID { name 3 1 0x0409 "Single ring" ; };
+#         ParamUILabelNameID { name 3 1 0x0409 "Double dot" ; };
+#         ParamUILabelNameID { name 3 1 0x0409 "Single dot" ; };
+#         ParamUILabelNameID { name 3 1 0x0409 "Double ring" ; };
+#       } ;
+#       lookup cv01;
+#       language IRU;
+#       language CTT;
+# } cv01;
+
+# feature ss01 {
+#     script tml2;
+#       featureNames { name 3 1 0x409 "Double ring" ; };
+#       lookup NuktaIRU;
+#       language IRU;
+# } ss01;
+
+# feature ss02 {
+#     script tml2;
+#       featureNames { name 3 1 0x409 "Single dot" ; };
+#       lookup NuktaCTT;
+#       language CTT;
+# } ss02;
 
 # GPOS
 

@@ -137,7 +137,7 @@
       <string>\u000B95\u00034F</string>
     </test>
     <test label="U+03A9">
-      <comment>Omega</comment>
+      <comment>Omegagreek</comment>
       <string>\u0003A9</string>
     </test>
     <test label="U+03C0">
