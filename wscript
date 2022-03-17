@@ -32,6 +32,20 @@ langinfo = {
     'ctt' : 'CTT',  # Chetti
 }
 
+line_spacing_info = {
+    'ThiruValluvar': (-1244, 2152),
+    'Auvaiyar': (-672, 1013),
+    'Vaigai': (-609, 1045),
+}
+
+def set_line_spacing(langcode, fontname):
+    cmd = 'cp'
+    if langcode == 'iru':
+        line_spacing = line_spacing_info[fontname]
+        descender, ascender = line_spacing
+        cmd = f'ttfascent -a {ascender} -d {-descender}'
+    return cmd
+
 # Set up the FTML tests
 ftmlTest('tools/ftml-smith.xsl')
 
@@ -118,10 +132,11 @@ for f in faces:
         for langcode in langinfo.keys():
             langname = langinfo[langcode]
             for fontfilename in d.fonts:
-                (fontname, stylename, ext) = fontfilename.target.rpartition('-')
-                langfontfilename = fontname + langname.replace(' ', '') + '-' + ext
+                (fontname, dash, remaining) = fontfilename.target.rpartition('-')
+                langfontfilename = fontname + langname.replace(' ', '') + '-' + remaining
                 n = font(target = process(langfontfilename,
                         cmd('psfdeflang -L ' + langcode + ' ${DEP} ${TGT}'),
+                        cmd(set_line_spacing(langcode, fontname) + ' ${DEP} ${TGT}'),
                         name(f + langname)
                         ),
                     source = fontfilename.target,
