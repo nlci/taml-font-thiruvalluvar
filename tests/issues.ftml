@@ -62,6 +62,17 @@
       <string>\u0baa\u0bc1\u1133c\u032d \u0ba4\u0bc1\u1133c\u032d</string>
     </test>
   </testgroup>
+  <testgroup label="ligatures with ra">
+    <test label="ra virama">
+      <string>\0bb0\u0bcd</string>
+    </test>
+    <test label="ra i">
+      <string>\0bb0\u0bbf</string>
+    </test>
+    <test label="ra ii">
+      <string>\0bb0\u0bc0</string>
+    </test>
+  </testgroup>
   <testgroup label="move backward">
     <test label="sample is...">
       <string>\u0BB8\u0BCD\u0BB0\u0BC7\u1133C</string>
