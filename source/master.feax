@@ -125,10 +125,10 @@ lookup uuMatras {
 #     # sub ka ematra dotbelowcomb by ka_ematra_dotbelowcomb;
 # } NuktaLigs;
 
-# lookup cv01 {
-#   lookupflag 0;
-#     sub bindu from [bindu nukta.dotdbl nukta.dot nukta.ringdbl];
-# } cv01;
+lookup cv01 {
+  lookupflag 0;
+    sub bindu from [nukta.dotdbl nukta.dot nukta.ringdbl];
+} cv01;
 
 feature ccmp {
     lookup FontCheck;
@@ -172,33 +172,32 @@ feature psts {
 #     lookup NuktaLigs;
 # } haln;
 
-# feature cv01 {
-#     script tml2;
-#       cvParameters {
-#         FeatUILabelNameID  { name 3 1 0x0409 "Nukta forms" ; };
-#         ParamUILabelNameID { name 3 1 0x0409 "Single ring" ; };
-#         ParamUILabelNameID { name 3 1 0x0409 "Double dot" ; };
-#         ParamUILabelNameID { name 3 1 0x0409 "Single dot" ; };
-#         ParamUILabelNameID { name 3 1 0x0409 "Double ring" ; };
-#       } ;
-#       lookup cv01;
-#       language IRU;
-#       language CTT;
-# } cv01;
+feature cv01 {
+    script tml2;
+      cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Nukta forms" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Double dot" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Single dot" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Double ring" ; };
+      } ;
+      lookup cv01;
+      language IRU;
+      language CTT;
+} cv01;
 
-# feature ss01 {
-#     script tml2;
-#       featureNames { name 3 1 0x409 "Double ring" ; };
-#       lookup NuktaIRU;
-#       language IRU;
-# } ss01;
+feature ss01 {
+    script tml2;
+      featureNames { name 3 1 0x409 "Double ring" ; };
+      lookup NuktaIRU;
+      language IRU;
+} ss01;
 
-# feature ss02 {
-#     script tml2;
-#       featureNames { name 3 1 0x409 "Single dot" ; };
-#       lookup NuktaCTT;
-#       language CTT;
-# } ss02;
+feature ss02 {
+    script tml2;
+      featureNames { name 3 1 0x409 "Single dot" ; };
+      lookup NuktaCTT;
+      language CTT;
+} ss02;
 
 # GPOS
 

@@ -63,14 +63,14 @@
     </test>
   </testgroup>
   <testgroup label="ligatures with ra">
-    <test label="ra virama">
-      <string>\0bb0\u0bcd</string>
+    <test label="ra and ra-virama">
+      <string>\u0bb0 \u0bb0\u0bcd</string>
     </test>
-    <test label="ra i">
-      <string>\0bb0\u0bbf</string>
+    <test label="ra and ra-i">
+      <string>\u0bb0 \u0bb0\u0bbf</string>
     </test>
-    <test label="ra ii">
-      <string>\0bb0\u0bc0</string>
+    <test label="ra and ra-ii">
+      <string>\u0bb0 \u0bb0\u0bc0</string>
     </test>
   </testgroup>
   <testgroup label="move backward">
