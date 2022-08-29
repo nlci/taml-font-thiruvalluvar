@@ -25,10 +25,8 @@
       <point x="211" y="-216" type="curve" smooth="yes"/>
       <point x="428" y="-126"/>
       <point x="463" y="3"/>
-      <point x="485" y="83" type="curve" smooth="yes"/>
-      <point x="485" y="94"/>
-      <point x="485" y="94"/>
-      <point x="485" y="106" type="curve" smooth="yes"/>
+      <point x="485" y="83" type="curve"/>
+      <point x="485" y="106" type="line" smooth="yes"/>
       <point x="485" y="186"/>
       <point x="436" y="258"/>
     </contour>
