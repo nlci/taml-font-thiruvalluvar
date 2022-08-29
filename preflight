@@ -16,6 +16,6 @@ do
     # psfbuildcomp -i source/composites.txt -c $ufo
     psfsetglyphorder -i source/glyph_data-${face}.csv $ufo
     psfsetpsnames -i source/glyph_data-${face}.csv $ufo
-    psfmakewoffmetadata -n ${face} -i in.nlci.fonts $ufo # --populateufowoff --force
+    psfmakewoffmetadata -n ${face} -i in.nlci.fonts $ufo
     psfsyncmasters source/${face}Roman.designspace source/${face}Italic.designspace
 done

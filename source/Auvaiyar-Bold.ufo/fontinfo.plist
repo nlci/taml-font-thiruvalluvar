@@ -22,7 +22,7 @@ Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
   <key>familyName</key>
   <string>Auvaiyar</string>
   <key>openTypeHeadCreated</key>
-  <string>2022/08/29 09:51:53</string>
+  <string>2022/08/29 16:15:13</string>
   <key>openTypeHheaAscender</key>
   <integer>915</integer>
   <key>openTypeHheaDescender</key>
@@ -264,6 +264,32 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <integer>0</integer>
   <key>versionMinor</key>
   <integer>703</integer>
+  <key>woffMetadataCredits</key>
+  <dict>
+    <key>credits</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>Dev NLCI</string>
+        <key>role</key>
+        <string>NLCI designers and font engineers</string>
+        <key>url</key>
+        <string>http://www.nlci.in/fonts/</string>
+      </dict>
+    </array>
+  </dict>
+  <key>woffMetadataDescription</key>
+  <dict>
+    <key>text</key>
+    <array>
+      <dict>
+        <key>text</key>
+        <string>Pan Tamil font designed to support all the languages using the Tamil script.</string>
+      </dict>
+    </array>
+    <key>url</key>
+    <string>http://www.nlci.in/fonts/</string>
+  </dict>
   <key>xHeight</key>
   <integer>434</integer>
 </dict>
