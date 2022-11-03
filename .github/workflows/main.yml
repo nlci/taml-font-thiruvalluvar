@@ -41,8 +41,9 @@ jobs:
           # smith version
           smith configure
           smith build
-          smith alltests
-          # smith sile
+          # smith alltests
+          smith sile
+          smith pdfs
           smith zip
           # smith tarball
           # smith release
