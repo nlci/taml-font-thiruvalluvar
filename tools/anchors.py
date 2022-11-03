@@ -88,7 +88,7 @@ if font.info.familyName != 'ThiruValluvar':
     base_offset = ps_upm(base_offset)
     mark_offset = ps_upm(mark_offset)
 
-caroncomb = font['CombCaron']
+caroncomb = font['caroncomb']
 caroncomb.unicode = 0x030C
 
 ka = font['ka']
@@ -97,7 +97,7 @@ for anchor in ka.anchors:
     if anchor.name == 'V':
         top = anchor.y
 
-for glyphname in ('CombCaron', 'almostequaltocomb', 'circumflexbelowcomb', 'aamatra', 'aulengthmark'):
+for glyphname in ('caroncomb', 'almostequaltocomb', 'circumflexbelowcomb', 'aamatra', 'aulengthmark'):
     glyph = font[glyphname]
     (xmin, ymin, xmax, ymax) = glyph.bounds
     xcenter = (xmin + xmax) / 2

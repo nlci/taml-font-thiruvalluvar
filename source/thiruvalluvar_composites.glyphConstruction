@@ -1,0 +1,8 @@
+softhyphen.taml = hyphen | 00AD
+hyphentwo.taml = hyphen | 2010
+nbhyphen.taml = hyphen | 2011
+figuredash.taml = hyphen | 2012
+endash.taml = hyphen | 2013
+emdash.taml = hyphen | 2014
+horizontalbar.taml = hyphen | 2015
+minus.taml = hyphen | 2212

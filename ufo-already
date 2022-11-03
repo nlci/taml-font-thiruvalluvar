@@ -19,7 +19,7 @@ export src=source
 # done
 # popd
 
-cat cs/main_import.txt tools/latin.txt > cs/latn_import.txt
+cat cs/all_import.txt tools/latin.txt > cs/latn_import.txt
 source ${nlci}/metadata.bash
 
 pushd ${src}

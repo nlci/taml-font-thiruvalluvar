@@ -2,6 +2,7 @@
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
     <fontsrc label="Ref">url(../references/ThiruValluvar-Regular.ttf)</fontsrc>
     <fontsrc label="Gr">url(../results/ThiruValluvar-Regular.ttf)</fontsrc>
@@ -3078,13 +3079,43 @@ U+0307">
   </testgroup>
   <testgroup label="All diacritics on representative bases">
     <test label="U+0B95
+U+0300">
+      <comment>ka gravecomb</comment>
+      <string>\u000B95\u000300 \u000B85\u000300</string>
+    </test>
+    <test label="U+0B95
+U+0301">
+      <comment>ka acutecomb</comment>
+      <string>\u000B95\u000301 \u000B85\u000301</string>
+    </test>
+    <test label="U+0B95
+U+0302">
+      <comment>ka circumflexcomb</comment>
+      <string>\u000B95\u000302 \u000B85\u000302</string>
+    </test>
+    <test label="U+0B95
+U+0303">
+      <comment>ka tildecomb</comment>
+      <string>\u000B95\u000303 \u000B85\u000303</string>
+    </test>
+    <test label="U+0B95
 U+0307">
       <comment>ka dotabovecomb</comment>
       <string>\u000B95\u000307 \u000B85\u000307</string>
     </test>
     <test label="U+0B95
+U+0308">
+      <comment>ka dieresiscomb</comment>
+      <string>\u000B95\u000308 \u000B85\u000308</string>
+    </test>
+    <test label="U+0B95
+U+030A">
+      <comment>ka ringcomb</comment>
+      <string>\u000B95\u00030A \u000B85\u00030A</string>
+    </test>
+    <test label="U+0B95
 U+030C">
-      <comment>ka CombCaron</comment>
+      <comment>ka caroncomb</comment>
       <string>\u000B95\u00030C \u000B85\u00030C</string>
     </test>
     <test label="U+0B95
@@ -3126,6 +3157,11 @@ U+0323" stylename="cv01_2">
 U+0323" stylename="cv01_3">
       <comment>avowel dotbelowcomb</comment>
       <string>\u000B85\u000323</string>
+    </test>
+    <test label="U+0B95
+U+0327">
+      <comment>ka cedillacomb</comment>
+      <string>\u000B95\u000327 \u000B85\u000327</string>
     </test>
     <test label="U+0B95
 U+032D">
