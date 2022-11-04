@@ -3,6 +3,6 @@
   <unicode hex="032D"/>
   <anchor x="-314" y="56" name="_N"/>
   <outline>
-    <component base="CombCircum" xOffset="-149" yOffset="-714"/>
+    <component base="circumflexcomb" xOffset="-149" yOffset="-714"/>
   </outline>
 </glyph>

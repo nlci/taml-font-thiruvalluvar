@@ -2,7 +2,8 @@
 <glyph name="dieresis" format="2">
   <advance width="285"/>
   <unicode hex="00A8"/>
+  <anchor x="212" y="659" name="U"/>
   <outline>
-    <component base="CombDiaer" xOffset="361"/>
+    <component base="dieresiscomb" xOffset="361"/>
   </outline>
 </glyph>
