@@ -2,7 +2,8 @@
 <glyph name="caron" format="2">
   <advance width="294"/>
   <unicode hex="02C7"/>
+  <anchor x="147" y="659" name="U"/>
   <outline>
-    <component base="CombCaron" xOffset="391"/>
+    <component base="caroncomb" xOffset="391"/>
   </outline>
 </glyph>

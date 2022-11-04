@@ -2,8 +2,10 @@
 <glyph name="aring" format="2">
   <advance width="457"/>
   <unicode hex="00E5"/>
+  <anchor x="224" y="0" name="H"/>
+  <anchor x="224" y="729" name="U"/>
   <outline>
     <component base="a"/>
-    <component base="CombRingAbv" xOffset="468"/>
+    <component base="ringcomb" xOffset="468"/>
   </outline>
 </glyph>

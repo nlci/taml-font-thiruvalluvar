@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombBreve" format="2">
+  <anchor x="-244" y="483" name="_U"/>
   <outline>
     <contour>
       <point x="-110" y="629" type="curve"/>
