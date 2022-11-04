@@ -2,6 +2,7 @@
 <glyph name="Ydieresis" format="2">
   <advance width="503"/>
   <unicode hex="0178"/>
+  <anchor x="321" y="720" name="U"/>
   <outline>
     <component base="Y"/>
     <component base="CombDiaer.LP" xOffset="457" yOffset="140"/>

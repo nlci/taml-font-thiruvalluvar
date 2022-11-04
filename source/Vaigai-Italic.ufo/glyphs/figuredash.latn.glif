@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="figuredash.latn" format="2">
+  <advance width="361"/>
+  <outline>
+    <contour>
+      <point x="334" y="237" type="curve"/>
+      <point x="325" y="248" type="line"/>
+      <point x="37" y="248" type="line"/>
+      <point x="30" y="236"/>
+      <point x="23" y="223"/>
+      <point x="18" y="210" type="curve"/>
+      <point x="26" y="199" type="line"/>
+      <point x="316" y="199" type="line"/>
+      <point x="322" y="209"/>
+      <point x="330" y="225"/>
+    </contour>
+  </outline>
+</glyph>

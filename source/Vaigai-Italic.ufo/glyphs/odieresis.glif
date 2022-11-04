@@ -2,8 +2,10 @@
 <glyph name="odieresis" format="2">
   <advance width="379"/>
   <unicode hex="00F6"/>
+  <anchor x="164" y="0" name="H"/>
+  <anchor x="244" y="615" name="U"/>
   <outline>
     <component base="o"/>
-    <component base="CombDiaer" xOffset="377"/>
+    <component base="dieresiscomb" xOffset="377"/>
   </outline>
 </glyph>

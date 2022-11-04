@@ -2,6 +2,8 @@
 <glyph name="Ntilde" format="2">
   <advance width="544"/>
   <unicode hex="00D1"/>
+  <anchor x="413" y="0" name="H"/>
+  <anchor x="343" y="720" name="U"/>
   <outline>
     <component base="N"/>
     <component base="CombTilde.LP" xOffset="479" yOffset="140"/>
