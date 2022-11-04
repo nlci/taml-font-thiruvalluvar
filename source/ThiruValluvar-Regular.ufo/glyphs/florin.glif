@@ -2,6 +2,7 @@
 <glyph name="florin" format="2">
   <advance width="548"/>
   <unicode hex="0192"/>
+  <anchor x="245" y="1521" name="U"/>
   <outline>
     <contour>
       <point x="735" y="1308" type="curve"/>

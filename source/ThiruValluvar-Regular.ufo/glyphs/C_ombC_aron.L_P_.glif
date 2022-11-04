@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombCaron.LP" format="2">
+  <anchor x="-470" y="945" name="_U"/>
   <outline>
     <contour>
       <point x="-416" y="961" type="line"/>

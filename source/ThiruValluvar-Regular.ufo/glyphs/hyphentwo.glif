@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hyphentwo" format="2">
-  <advance width="634"/>
   <unicode hex="2010"/>
   <outline>
-    <contour>
-      <point x="581" y="493" type="curve"/>
-      <point x="556" y="517" type="line"/>
-      <point x="84" y="517" type="line"/>
-      <point x="74" y="494"/>
-      <point x="58" y="454"/>
-      <point x="52" y="428" type="curve"/>
-      <point x="77" y="405" type="line"/>
-      <point x="549" y="405" type="line"/>
-      <point x="558" y="424"/>
-      <point x="574" y="467"/>
-    </contour>
+    <component base="hyphen"/>
   </outline>
 </glyph>

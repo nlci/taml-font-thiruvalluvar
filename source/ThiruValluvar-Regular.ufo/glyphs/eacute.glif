@@ -2,8 +2,10 @@
 <glyph name="eacute" format="2">
   <advance width="864"/>
   <unicode hex="00E9"/>
+  <anchor x="457" y="0" name="H"/>
+  <anchor x="446" y="1289" name="U"/>
   <outline>
     <component base="e"/>
-    <component base="CombAcute" xOffset="954"/>
+    <component base="acutecomb" xOffset="954"/>
   </outline>
 </glyph>
