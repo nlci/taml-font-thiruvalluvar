@@ -2,7 +2,8 @@
 <glyph name="grave" format="2">
   <advance width="336"/>
   <unicode hex="0060"/>
+  <anchor x="142" y="659" name="U"/>
   <outline>
-    <component base="CombGrave" xOffset="405"/>
+    <component base="gravecomb" xOffset="405"/>
   </outline>
 </glyph>
