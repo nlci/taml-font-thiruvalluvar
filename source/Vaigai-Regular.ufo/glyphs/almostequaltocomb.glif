@@ -2,6 +2,7 @@
 <glyph name="almostequaltocomb" format="2">
   <unicode hex="034C"/>
   <anchor x="-226" y="509" name="V"/>
+  <anchor x="-226" y="461" name="_U"/>
   <anchor x="-226" y="352" name="_V"/>
   <outline>
     <contour>

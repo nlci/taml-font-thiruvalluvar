@@ -2,6 +2,8 @@
 <glyph name="Oacute" format="2">
   <advance width="540"/>
   <unicode hex="00D3"/>
+  <anchor x="257" y="0" name="H"/>
+  <anchor x="271" y="742" name="U"/>
   <outline>
     <component base="O"/>
     <component base="CombAcute.LP" xOffset="509" yOffset="140"/>

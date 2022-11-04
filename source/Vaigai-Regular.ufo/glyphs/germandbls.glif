@@ -2,6 +2,7 @@
 <glyph name="germandbls" format="2">
   <advance width="508"/>
   <unicode hex="00DF"/>
+  <anchor x="246" y="742" name="U"/>
   <outline>
     <contour>
       <point x="468" y="124" type="curve"/>

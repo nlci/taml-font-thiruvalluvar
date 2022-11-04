@@ -2,6 +2,8 @@
 <glyph name="n" format="2">
   <advance width="496"/>
   <unicode hex="006E"/>
+  <anchor x="388" y="0" name="H"/>
+  <anchor x="253" y="461" name="U"/>
   <outline>
     <contour>
       <point x="294" y="0" type="line"/>
