@@ -13,16 +13,13 @@ Latin glyphs in ThiruValluvar and Vaigai are Copyright (c) 2003-2019, SIL Intern
 with Reserved Font Names "Gentium" and "SIL".
 Latin glyphs in Auvaiyar are Copyright (c) 1997-2019, SIL International (http://www.sil.org/)
 with Reserved Font Names "Charis" and "SIL".
-Indian Rupee Sign Copyright (c) 2007-2017, SIL International (http://www.sil.org/)
-with Reserved Font Names "Annapurna" and "SIL".
-Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
 </string>
   <key>descender</key>
   <integer>-349</integer>
   <key>familyName</key>
   <string>Vaigai</string>
   <key>openTypeHeadCreated</key>
-  <string>2022/08/29 16:15:15</string>
+  <string>2022/11/04 10:34:40</string>
   <key>openTypeHheaAscender</key>
   <integer>971</integer>
   <key>openTypeHheaDescender</key>
@@ -42,9 +39,6 @@ Latin glyphs in ThiruValluvar and Vaigai are Copyright (c) 2003-2019, SIL Intern
 with Reserved Font Names "Gentium" and "SIL".
 Latin glyphs in Auvaiyar are Copyright (c) 1997-2019, SIL International (http://www.sil.org/)
 with Reserved Font Names "Charis" and "SIL".
-Indian Rupee Sign Copyright (c) 2007-2017, SIL International (http://www.sil.org/)
-with Reserved Font Names "Annapurna" and "SIL".
-Runic glyph Copyright (c) 2017 Google Inc. (http://www.google.com/get/noto/)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
@@ -151,7 +145,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>NLCI: Vaigai Bold: 2022</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.703</string>
+  <string>Version 0.800</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -263,7 +257,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>703</integer>
+  <integer>800</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

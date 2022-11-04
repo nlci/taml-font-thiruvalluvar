@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colon" format="2">
-  <advance width="230"/>
+  <advance width="246"/>
   <unicode hex="003A"/>
   <outline>
-    <component base="period"/>
-    <component base="period" yOffset="318"/>
+    <contour>
+      <point x="90" y="396" type="curve" smooth="yes"/>
+      <point x="52" y="396"/>
+      <point x="17" y="365"/>
+      <point x="17" y="325" type="curve" smooth="yes"/>
+      <point x="17" y="284"/>
+      <point x="53" y="256"/>
+      <point x="90" y="256" type="curve" smooth="yes"/>
+      <point x="129" y="256"/>
+      <point x="164" y="285"/>
+      <point x="164" y="325" type="curve" smooth="yes"/>
+      <point x="164" y="364"/>
+      <point x="130" y="396"/>
+    </contour>
+    <contour>
+      <point x="90" y="127" type="curve" smooth="yes"/>
+      <point x="52" y="127"/>
+      <point x="17" y="96"/>
+      <point x="17" y="56" type="curve" smooth="yes"/>
+      <point x="17" y="15"/>
+      <point x="53" y="-13"/>
+      <point x="90" y="-13" type="curve" smooth="yes"/>
+      <point x="129" y="-13"/>
+      <point x="164" y="16"/>
+      <point x="164" y="56" type="curve" smooth="yes"/>
+      <point x="164" y="95"/>
+      <point x="130" y="127"/>
+    </contour>
   </outline>
 </glyph>

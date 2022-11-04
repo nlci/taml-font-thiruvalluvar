@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="space.latn" format="2">
+  <advance width="198"/>
+  <anchor x="98" y="0" name="H"/>
+  <anchor x="98" y="602" name="U"/>
+  <outline/>
+</glyph>
