@@ -2,6 +2,8 @@
 <glyph name="Ucircumflex" format="2">
   <advance width="1116"/>
   <unicode hex="00DB"/>
+  <anchor x="531" y="0" name="H"/>
+  <anchor x="738" y="1564" name="U"/>
   <outline>
     <component base="U"/>
     <component base="CombCircum.LP" xOffset="1009" yOffset="288"/>

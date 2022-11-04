@@ -2,6 +2,8 @@
 <glyph name="Ograve" format="2">
   <advance width="1021"/>
   <unicode hex="00D2"/>
+  <anchor x="459" y="0" name="H"/>
+  <anchor x="675" y="1498" name="U"/>
   <outline>
     <component base="O"/>
     <component base="CombGrave.LP" xOffset="891" yOffset="288"/>

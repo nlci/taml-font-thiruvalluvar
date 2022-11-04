@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombTilde.LP" format="2">
+  <anchor x="-319" y="900" name="_U"/>
   <outline>
     <contour>
       <point x="11" y="1164" type="curve"/>
