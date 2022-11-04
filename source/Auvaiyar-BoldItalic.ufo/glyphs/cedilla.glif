@@ -3,6 +3,6 @@
   <advance width="221"/>
   <unicode hex="00B8"/>
   <outline>
-    <component base="CombCedilla" xOffset="356"/>
+    <component base="cedillacomb" xOffset="356"/>
   </outline>
 </glyph>

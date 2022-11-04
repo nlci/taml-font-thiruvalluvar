@@ -2,8 +2,10 @@
 <glyph name="ocircumflex" format="2">
   <advance width="497"/>
   <unicode hex="00F4"/>
+  <anchor x="204" y="0" name="H"/>
+  <anchor x="322" y="659" name="U"/>
   <outline>
     <component base="o"/>
-    <component base="CombCircum" xOffset="497"/>
+    <component base="circumflexcomb" xOffset="497"/>
   </outline>
 </glyph>

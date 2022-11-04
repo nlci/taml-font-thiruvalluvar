@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="figuredash.latn" format="2">
+  <advance width="538"/>
+  <outline>
+    <contour>
+      <point x="520" y="261" type="line"/>
+      <point x="26" y="261" type="line"/>
+      <point x="8" y="171" type="line"/>
+      <point x="502" y="171" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -2,7 +2,8 @@
 <glyph name="asciicircum" format="2">
   <advance width="305"/>
   <unicode hex="005E"/>
+  <anchor x="221" y="659" name="U"/>
   <outline>
-    <component base="CombCircum" xOffset="396"/>
+    <component base="circumflexcomb" xOffset="396"/>
   </outline>
 </glyph>

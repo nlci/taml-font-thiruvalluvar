@@ -3,6 +3,6 @@
   <advance width="305"/>
   <unicode hex="02C6"/>
   <outline>
-    <component base="CombCircum" xOffset="396"/>
+    <component base="circumflexcomb" xOffset="396"/>
   </outline>
 </glyph>

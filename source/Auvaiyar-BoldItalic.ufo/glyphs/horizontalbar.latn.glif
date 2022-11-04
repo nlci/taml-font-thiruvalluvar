@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="horizontalbar.latn" format="2">
+  <advance width="874"/>
+  <outline>
+    <contour>
+      <point x="898" y="261" type="line"/>
+      <point x="-4" y="261" type="line"/>
+      <point x="-22" y="171" type="line"/>
+      <point x="880" y="171" type="line"/>
+    </contour>
+  </outline>
+</glyph>
