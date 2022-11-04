@@ -2,6 +2,8 @@
 <glyph name="Atilde" format="2">
   <advance width="1137"/>
   <unicode hex="00C3"/>
+  <anchor x="559" y="0" name="H"/>
+  <anchor x="559" y="1521" name="U"/>
   <outline>
     <component base="A"/>
     <component base="CombTilde.LP" xOffset="1037" yOffset="288"/>
