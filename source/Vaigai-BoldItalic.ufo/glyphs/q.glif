@@ -2,6 +2,7 @@
 <glyph name="q" format="2">
   <advance width="415"/>
   <unicode hex="0071"/>
+  <anchor x="236" y="439" name="U"/>
   <outline>
     <contour>
       <point x="380" y="363" type="curve"/>

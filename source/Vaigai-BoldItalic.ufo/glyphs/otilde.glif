@@ -2,8 +2,10 @@
 <glyph name="otilde" format="2">
   <advance width="392"/>
   <unicode hex="00F5"/>
+  <anchor x="172" y="0" name="H"/>
+  <anchor x="252" y="623" name="U"/>
   <outline>
     <component base="o"/>
-    <component base="CombTilde" xOffset="391"/>
+    <component base="tildecomb" xOffset="391"/>
   </outline>
 </glyph>
