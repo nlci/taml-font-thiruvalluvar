@@ -2,6 +2,7 @@
 <glyph name="eth" format="2">
   <advance width="841"/>
   <unicode hex="00F0"/>
+  <anchor x="566" y="1422" name="U"/>
   <outline>
     <contour>
       <point x="875" y="1161" type="line"/>

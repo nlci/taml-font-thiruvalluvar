@@ -2,6 +2,7 @@
 <glyph name="thorn" format="2">
   <advance width="906"/>
   <unicode hex="00FE"/>
+  <anchor x="619" y="1476" name="U"/>
   <outline>
     <contour>
       <point x="843" y="564" type="curve"/>

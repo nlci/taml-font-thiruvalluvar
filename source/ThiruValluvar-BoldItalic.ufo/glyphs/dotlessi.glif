@@ -2,6 +2,8 @@
 <glyph name="dotlessi" format="2">
   <advance width="491"/>
   <unicode hex="0131"/>
+  <anchor x="206" y="0" name="H"/>
+  <anchor x="329" y="900" name="U"/>
   <outline>
     <contour>
       <point x="459" y="87" type="curve"/>

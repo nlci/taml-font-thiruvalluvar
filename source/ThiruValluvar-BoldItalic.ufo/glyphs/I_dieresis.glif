@@ -2,6 +2,8 @@
 <glyph name="Idieresis" format="2">
   <advance width="551"/>
   <unicode hex="00CF"/>
+  <anchor x="222" y="0" name="H"/>
+  <anchor x="418" y="1489" name="U"/>
   <outline>
     <component base="I"/>
     <component base="CombDiaer.LP" xOffset="712" yOffset="288"/>

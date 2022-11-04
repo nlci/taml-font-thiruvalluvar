@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombGrave.LP" format="2">
+  <anchor x="-262" y="900" name="_U"/>
   <outline>
     <contour>
       <point x="-120" y="969" type="curve"/>
