@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="openbox" format="2">
-  <advance width="206"/>
+  <advance width="217"/>
   <unicode hex="2423"/>
   <outline>
     <contour>
-      <point x="206" y="-116" type="line"/>
-      <point x="206" y="0" type="line"/>
-      <point x="170" y="0" type="line"/>
-      <point x="170" y="-80" type="line"/>
-      <point x="36" y="-80" type="line"/>
-      <point x="36" y="0" type="line"/>
-      <point x="0" y="0" type="line"/>
-      <point x="0" y="-116" type="line"/>
+      <point x="170" y="-2" type="curve"/>
+      <point x="160" y="-67" type="line"/>
+      <point x="34" y="-67" type="line"/>
+      <point x="45" y="10" type="line"/>
+      <point x="34" y="21" type="line"/>
+      <point x="23" y="18"/>
+      <point x="5" y="6"/>
+      <point x="-3" y="-2" type="curve"/>
+      <point x="-16" y="-102" type="line"/>
+      <point x="-8" y="-113" type="line"/>
+      <point x="176" y="-113" type="line"/>
+      <point x="187" y="-107"/>
+      <point x="196" y="-99"/>
+      <point x="204" y="-91" type="curve"/>
+      <point x="217" y="10" type="line"/>
+      <point x="207" y="21" type="line"/>
+      <point x="197" y="16"/>
+      <point x="177" y="5"/>
     </contour>
   </outline>
 </glyph>

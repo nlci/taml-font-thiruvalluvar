@@ -1,7 +1,7 @@
 
 
 @GDEF_Simple = [\.null \nonmarkingreturn \space.taml \exclam.taml 
-	\quoteleft.taml \rs \percent.taml \ampersand.taml \quoteright.taml 
+	\quoteleft.taml \rupee \percent.taml \ampersand.taml \quoteright.taml 
 	\parenleft.taml \parenright.taml \asterisk.taml \plus.taml \comma.taml 
 	\hyphen.taml \period.taml \divisionslash \slash.taml \zero.taml \one.taml 
 	\two.taml \three.taml \four.taml \five.taml \six.taml \seven.taml \eight.taml 
@@ -38,7 +38,7 @@
 	\yearsign \debitsign \creditsign \asabovesign \rupeesign \numbersigntaml 
 	\dottedcircle \vedictonedoublesvarita \vedictonekathakaanudatta 
 	\vedictonedotbelow \vedictonetwodotsbelow \vedictonethreedotsbelow 
-	\vedicsignjihvamuliya \visarga.alt \inr \tildeoverlaycomb.Lrg \u03A9 
+	\vedicsignjihvamuliya \visarga.alt \inrupee \tildeoverlaycomb.Lrg \u03A9 
 	\dotlessi \u01A9 \ring \tilde \u02F9 \u02FA \u02FB \u02FC \gravecomb \acutecomb 
 	\u0302 \tildecomb \u0304 \u0306 \u0308 \u030A \u030C \u0327 \u0328 \u0338 \u0394 
 	\Pi \space \exclam \quotedbl \numbersign \dollar \percent \ampersand 
