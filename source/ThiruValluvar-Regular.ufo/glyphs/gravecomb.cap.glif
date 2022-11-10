@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb.cap" format="2">
+  <anchor x="-389" y="945" name="_U"/>
+  <outline>
+    <contour>
+      <point x="-230" y="982" type="curve"/>
+      <point x="-578" y="1268" type="line"/>
+      <point x="-604" y="1253"/>
+      <point x="-667" y="1220"/>
+      <point x="-685" y="1201" type="curve"/>
+      <point x="-693" y="1161" type="line"/>
+      <point x="-270" y="942" type="line"/>
+      <point x="-251" y="951"/>
+      <point x="-247" y="960"/>
+    </contour>
+  </outline>
+</glyph>
