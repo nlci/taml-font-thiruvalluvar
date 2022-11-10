@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ucircumflex" format="2">
-  <advance width="967"/>
+  <advance width="943"/>
   <unicode hex="00FB"/>
-  <anchor x="379" y="0" name="H"/>
-  <anchor x="612" y="1350" name="U"/>
+  <anchor x="373" y="0" name="H"/>
+  <anchor x="600" y="1345" name="U"/>
   <outline>
     <component base="u"/>
-    <component base="circumflexcomb" xOffset="877"/>
+    <component base="circumflexcomb" xOffset="858"/>
   </outline>
 </glyph>

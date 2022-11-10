@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ydieresis" format="2">
-  <advance width="1045"/>
+  <advance width="1037"/>
   <unicode hex="0178"/>
-  <anchor x="675" y="1489" name="U"/>
+  <anchor x="666" y="1482" name="U"/>
   <outline>
     <component base="Y"/>
-    <component base="CombDiaer.LP" xOffset="969" yOffset="288"/>
+    <component base="dieresiscomb.cap" xOffset="953" yOffset="288"/>
   </outline>
 </glyph>

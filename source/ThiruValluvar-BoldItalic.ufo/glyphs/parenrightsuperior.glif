@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenrightsuperior" format="2">
-  <advance width="391"/>
+  <advance width="386"/>
   <unicode hex="207E"/>
   <outline>
     <contour>
       <point x="4" y="377" type="line"/>
-      <point x="192" y="456"/>
-      <point x="339" y="652"/>
-      <point x="378" y="888" type="curve"/>
-      <point x="416" y="1117"/>
-      <point x="337" y="1331"/>
+      <point x="186" y="452"/>
+      <point x="332" y="650"/>
+      <point x="371" y="887" type="curve"/>
+      <point x="408" y="1116"/>
+      <point x="335" y="1336"/>
       <point x="174" y="1413" type="curve"/>
-      <point x="141" y="1377" type="line"/>
-      <point x="241" y="1274"/>
-      <point x="265" y="1082"/>
-      <point x="230" y="872" type="curve"/>
-      <point x="192" y="641"/>
-      <point x="95" y="487"/>
-      <point x="-17" y="412" type="curve"/>
+      <point x="146" y="1383" type="line"/>
+      <point x="245" y="1285"/>
+      <point x="272" y="1080"/>
+      <point x="238" y="871" type="curve"/>
+      <point x="199" y="640"/>
+      <point x="99" y="479"/>
+      <point x="-13" y="406" type="curve"/>
     </contour>
   </outline>
 </glyph>

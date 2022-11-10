@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="logicalnot" format="2">
-  <advance width="805"/>
+  <advance width="773"/>
   <unicode hex="00AC"/>
   <outline>
     <contour>
-      <point x="735" y="540" type="line"/>
-      <point x="711" y="565" type="line"/>
-      <point x="711" y="565"/>
-      <point x="733" y="565"/>
-      <point x="86" y="565" type="curve"/>
-      <point x="73" y="541"/>
-      <point x="48" y="496"/>
-      <point x="40" y="472" type="curve"/>
-      <point x="60" y="446" type="line"/>
-      <point x="610" y="446" type="line"/>
-      <point x="578" y="222" type="line"/>
-      <point x="600" y="195" type="line"/>
-      <point x="628" y="205"/>
-      <point x="671" y="232"/>
-      <point x="695" y="250" type="curve"/>
+      <point x="710" y="538" type="line"/>
+      <point x="688" y="560" type="line"/>
+      <point x="688" y="560"/>
+      <point x="735" y="560"/>
+      <point x="84" y="560" type="curve"/>
+      <point x="71" y="537"/>
+      <point x="51" y="499"/>
+      <point x="42" y="474" type="curve"/>
+      <point x="61" y="450" type="line"/>
+      <point x="591" y="450" type="line"/>
+      <point x="562" y="244" type="line"/>
+      <point x="582" y="220" type="line"/>
+      <point x="610" y="229"/>
+      <point x="650" y="252"/>
+      <point x="674" y="271" type="curve"/>
     </contour>
   </outline>
 </glyph>

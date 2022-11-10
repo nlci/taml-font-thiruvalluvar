@@ -1,7 +1,7 @@
 
 
 @GDEF_Simple = [\.null \nonmarkingreturn \space.taml \exclam.taml 
-	\quoteleft.taml \rs \percent.taml \ampersand.taml \quoteright.taml 
+	\quoteleft.taml \rupee \percent.taml \ampersand.taml \quoteright.taml 
 	\parenleft.taml \parenright.taml \asterisk.taml \plus.taml \comma.taml 
 	\hyphen.taml \period.taml \divisionslash \slash.taml \zero.taml \one.taml 
 	\two.taml \three.taml \four.taml \five.taml \six.taml \seven.taml \eight.taml 
@@ -38,8 +38,8 @@
 	\yearsign \debitsign \creditsign \asabovesign \rupeesign \numbersigntaml 
 	\dottedcircle \vedictonedoublesvarita \vedictonekathakaanudatta 
 	\vedictonedotbelow \vedictonetwodotsbelow \vedictonethreedotsbelow 
-	\vedicsignjihvamuliya \visarga.alt \inr \gravecomb.LP \acutecomb.LP \u0302.LP 
-	\tildecomb.LP \u0308.LP \i.Dotless \u030C.LP \u01A9 \u02D7 \gravecomb 
+	\vedicsignjihvamuliya \visarga.alt \inrupee \gravecomb.LP \acutecomb.LP 
+	\u0302.LP \tildecomb.LP \u0308.LP \i.Dotless \u030C.LP \u01A9 \u02D7 \gravecomb 
 	\acutecomb \u0302 \tildecomb \u0308 \u030A \u030C \Pi \u03A9 \u2219 \space \exclam 
 	\quotedbl \numbersign \dollar \percent \ampersand \quotesingle \parenleft 
 	\parenright \asterisk \plus \comma \hyphen \period \slash \zero \one \two \three 
