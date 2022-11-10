@@ -10,9 +10,6 @@ faces="Auvaiyar Vaigai ThiruValluvar"
 for face in $faces
 do
     ufo=source/${face}-Regular.ufo
-    psfsetkeys -k "copyright" --filepart OFL.txt $ufo
-    psfsetkeys -k "openTypeNameLicense" --file OFL.txt $ufo
-    psfsetversion $ufo 0.800
     # psfbuildcomp -i source/composites.txt -c $ufo
     psfsetglyphorder -i source/glyph_data-${face}.csv $ufo
     psfsetpsnames -i source/glyph_data-${face}.csv $ufo

@@ -4,10 +4,29 @@
   <head>
     <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
-    <fontsrc label="Ref">url(../references/ThiruValluvar-Regular.ttf)</fontsrc>
-    <fontsrc label="Gr">url(../results/ThiruValluvar-Regular.ttf)</fontsrc>
-    <fontsrc label="OT">url(../results/tests/ftml/fonts/ThiruValluvar-Regular_ot_tml2.ttf)</fontsrc>
-    <fontsrc label="Bold">url(../results/ThiruValluvar-Bold.ttf)</fontsrc>
+    <fontsrc label="refR">url(../references/ThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/ThiruValluvar-Bold.ttf)</fontsrc>
+    <fontsrc label="refI">url(../references/ThiruValluvar-Italic.ttf)</fontsrc>
+    <fontsrc label="refBI">url(../references/ThiruValluvar-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="grR">url(../results/ThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/tests/ftml/fonts/ThiruValluvar-Regular_ot_tml2.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/tests/ftml/fonts/ThiruValluvar-Bold_ot_tml2.ttf)</fontsrc>
+    <fontsrc label="I">url(../results/tests/ftml/fonts/ThiruValluvar-Italic_ot_tml2.ttf)</fontsrc>
+    <fontsrc label="BI">url(../results/tests/ftml/fonts/ThiruValluvar-BoldItalic_ot_tml2.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifTamil-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSlanted">url(../references/NotoSerifTamilSlanted-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansTamil-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSansUI">url(../references/NotoSansTamilUI-Regular.ttf)</fontsrc>
+    <fontsrc label="tiro">url(../references/TiroTamil-Regular.ttf)</fontsrc>
+    <fontsrc label="baloo">url(../references/BalooThambi2-Regular.ttf)</fontsrc>
+    <fontsrc label="aR">url(../results/Auvaiyar-Regular.ttf)</fontsrc>
+    <fontsrc label="aB">url(../results/Auvaiyar-Bold.ttf)</fontsrc>
+    <fontsrc label="aI">url(../results/Auvaiyar-Italic.ttf)</fontsrc>
+    <fontsrc label="aBI">url(../results/Auvaiyar-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="vR">url(../results/Vaigai-Regular.ttf)</fontsrc>
+    <fontsrc label="vB">url(../results/Vaigai-Bold.ttf)</fontsrc>
+    <fontsrc label="vI">url(../results/Vaigai-Italic.ttf)</fontsrc>
+    <fontsrc label="vBI">url(../results/Vaigai-BoldItalic.ttf)</fontsrc>
     <styles>
       <style feats="'cv01' 1" name="cv01_1"/>
       <style feats="'cv01' 2" name="cv01_2"/>
