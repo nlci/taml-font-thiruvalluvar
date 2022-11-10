@@ -2,10 +2,10 @@
 <glyph name="ugrave" format="2">
   <advance width="496"/>
   <unicode hex="00F9"/>
-  <anchor x="236" y="0" name="H"/>
-  <anchor x="248" y="639" name="U"/>
+  <anchor x="248" y="0" name="H"/>
+  <anchor x="248" y="585" name="U"/>
   <outline>
     <component base="u"/>
-    <component base="gravecomb" xOffset="446"/>
+    <component base="gravecomb" xOffset="482"/>
   </outline>
 </glyph>

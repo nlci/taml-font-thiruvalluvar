@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colon.latn" format="2">
-  <advance width="230"/>
+  <advance width="254"/>
   <outline>
-    <component base="period"/>
-    <component base="period" yOffset="318"/>
+    <contour>
+      <point x="183" y="56" type="curve" smooth="yes"/>
+      <point x="183" y="93"/>
+      <point x="155" y="123"/>
+      <point x="117" y="123" type="curve" smooth="yes"/>
+      <point x="80" y="123"/>
+      <point x="50" y="93"/>
+      <point x="50" y="56" type="curve" smooth="yes"/>
+      <point x="50" y="19"/>
+      <point x="80" y="-9"/>
+      <point x="117" y="-9" type="curve" smooth="yes"/>
+      <point x="155" y="-9"/>
+      <point x="183" y="19"/>
+    </contour>
+    <contour>
+      <point x="183" y="332" type="curve" smooth="yes"/>
+      <point x="183" y="369"/>
+      <point x="155" y="400"/>
+      <point x="117" y="400" type="curve" smooth="yes"/>
+      <point x="80" y="400"/>
+      <point x="50" y="369"/>
+      <point x="50" y="332" type="curve" smooth="yes"/>
+      <point x="50" y="295"/>
+      <point x="80" y="266"/>
+      <point x="117" y="266" type="curve" smooth="yes"/>
+      <point x="155" y="266"/>
+      <point x="183" y="295"/>
+    </contour>
   </outline>
 </glyph>

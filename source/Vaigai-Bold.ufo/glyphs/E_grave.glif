@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Egrave" format="2">
-  <advance width="464"/>
+  <advance width="478"/>
   <unicode hex="00C8"/>
-  <anchor x="230" y="0" name="H"/>
-  <anchor x="230" y="760" name="U"/>
+  <anchor x="237" y="0" name="H"/>
+  <anchor x="237" y="742" name="U"/>
   <outline>
     <component base="E"/>
-    <component base="CombGrave.LP" xOffset="428" yOffset="140"/>
+    <component base="gravecomb" xOffset="471" yOffset="156"/>
   </outline>
 </glyph>
