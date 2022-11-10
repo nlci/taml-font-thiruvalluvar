@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="softhyphen.latn" format="2">
-  <advance width="643"/>
+  <advance width="632"/>
   <anchor x="310" y="945" name="U"/>
   <outline>
     <component base="hyphen"/>

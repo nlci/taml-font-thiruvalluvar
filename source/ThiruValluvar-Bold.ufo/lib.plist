@@ -259,13 +259,19 @@
     <string>tilde</string>
     <string>hungarumlaut</string>
     <string>gravecomb</string>
+    <string>gravecomb.cap</string>
     <string>acutecomb</string>
+    <string>acutecomb.cap</string>
     <string>circumflexcomb</string>
+    <string>circumflexcomb.cap</string>
     <string>tildecomb</string>
+    <string>tildecomb.cap</string>
     <string>dotabovecomb</string>
     <string>dieresiscomb</string>
+    <string>dieresiscomb.cap</string>
     <string>ringcomb</string>
     <string>caroncomb</string>
+    <string>caroncomb.cap</string>
     <string>dotbelowcomb</string>
     <string>cedillacomb</string>
     <string>circumflexbelowcomb</string>
@@ -606,19 +612,12 @@
     <string>nukta.dot</string>
     <string>nukta.dotdbl</string>
     <string>nukta.ringdbl</string>
-    <string>CombAcute.LP</string>
-    <string>CombCaron.LP</string>
-    <string>CombCircum.LP</string>
-    <string>CombDiaer.LP</string>
-    <string>CombGrave.LP</string>
-    <string>CombTilde.LP</string>
     <string>GrCapPi</string>
     <string>LtnCapEsh</string>
     <string>ModBeginHighTn</string>
     <string>ModBeginLowTn</string>
     <string>ModEndHighTn</string>
     <string>ModEndLowTn</string>
-    <string>rs</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
@@ -702,6 +701,8 @@
     <string>uni0B9A0BCD</string>
     <key>caroncomb</key>
     <string>uni030C</string>
+    <key>caroncomb.cap</key>
+    <string>uni030C.cap</string>
     <key>cedillacomb</key>
     <string>uni0327</string>
     <key>ceilingleft</key>
@@ -714,6 +715,8 @@
     <string>uni032D</string>
     <key>circumflexcomb</key>
     <string>uni0302</string>
+    <key>circumflexcomb.cap</key>
+    <string>uni0302.cap</string>
     <key>cornerleftbottom</key>
     <string>uni231E</string>
     <key>cornerlefttop</key>
@@ -734,6 +737,8 @@
     <string>uni0BF6</string>
     <key>dieresiscomb</key>
     <string>uni0308</string>
+    <key>dieresiscomb.cap</key>
+    <string>uni0308.cap</string>
     <key>divisionslash</key>
     <string>uni2215</string>
     <key>dotabovecomb</key>

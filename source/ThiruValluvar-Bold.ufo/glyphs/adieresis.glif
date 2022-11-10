@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="adieresis" format="2">
-  <advance width="895"/>
+  <advance width="870"/>
   <unicode hex="00E4"/>
-  <anchor x="384" y="0" name="H"/>
-  <anchor x="452" y="1309" name="U"/>
+  <anchor x="393" y="0" name="H"/>
+  <anchor x="442" y="1302" name="U"/>
   <outline>
     <component base="a"/>
-    <component base="dieresiscomb" xOffset="931"/>
+    <component base="dieresiscomb" xOffset="913"/>
   </outline>
 </glyph>

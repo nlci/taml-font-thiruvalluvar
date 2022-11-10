@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emdash.latn" format="2">
-  <advance width="1457"/>
+  <advance width="1434"/>
   <outline>
     <contour>
-      <point x="1407" y="495" type="curve"/>
-      <point x="1381" y="522" type="line"/>
-      <point x="86" y="522" type="line"/>
-      <point x="76" y="498"/>
-      <point x="56" y="452"/>
-      <point x="49" y="426" type="curve"/>
-      <point x="76" y="400" type="line"/>
-      <point x="1371" y="400" type="line"/>
-      <point x="1380" y="420"/>
-      <point x="1401" y="469"/>
+      <point x="1382" y="493" type="curve"/>
+      <point x="1358" y="517" type="line"/>
+      <point x="84" y="517" type="line"/>
+      <point x="74" y="494"/>
+      <point x="58" y="454"/>
+      <point x="52" y="428" type="curve"/>
+      <point x="77" y="405" type="line"/>
+      <point x="1350" y="405" type="line"/>
+      <point x="1359" y="424"/>
+      <point x="1376" y="467"/>
     </contour>
   </outline>
 </glyph>

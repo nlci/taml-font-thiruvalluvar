@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="halfbracketlefttop" format="2">
-  <advance width="745"/>
+  <advance width="727"/>
   <unicode hex="2E22"/>
   <outline>
     <contour>
-      <point x="297" y="418" type="line"/>
-      <point x="297" y="1318" type="line"/>
-      <point x="545" y="1318" type="line"/>
-      <point x="553" y="1332"/>
-      <point x="569" y="1382"/>
-      <point x="574" y="1412" type="curve"/>
-      <point x="540" y="1440" type="line"/>
-      <point x="117" y="1440" type="line"/>
-      <point x="117" y="418" type="line"/>
+      <point x="274" y="418" type="line"/>
+      <point x="274" y="1327" type="line"/>
+      <point x="525" y="1327" type="line"/>
+      <point x="532" y="1341"/>
+      <point x="546" y="1384"/>
+      <point x="551" y="1414" type="curve"/>
+      <point x="519" y="1440" type="line"/>
+      <point x="121" y="1440" type="line"/>
+      <point x="121" y="418" type="line"/>
     </contour>
   </outline>
 </glyph>

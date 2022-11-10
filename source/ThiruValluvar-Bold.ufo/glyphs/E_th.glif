@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eth" format="2">
-  <advance width="1146"/>
+  <advance width="1119"/>
   <unicode hex="00D0"/>
-  <anchor x="546" y="1233" name="U"/>
+  <anchor x="532" y="1233" name="U"/>
   <outline>
     <component base="D"/>
     <contour>
-      <point x="580" y="553" type="line"/>
-      <point x="609" y="631" type="line"/>
-      <point x="586" y="652" type="line"/>
-      <point x="51" y="652" type="line"/>
-      <point x="44" y="633"/>
-      <point x="30" y="593"/>
+      <point x="566" y="553" type="line"/>
+      <point x="592" y="622" type="line"/>
+      <point x="569" y="643" type="line"/>
+      <point x="47" y="643" type="line"/>
+      <point x="40" y="624"/>
+      <point x="29" y="593"/>
       <point x="24" y="575" type="curve"/>
       <point x="44" y="553" type="line"/>
     </contour>

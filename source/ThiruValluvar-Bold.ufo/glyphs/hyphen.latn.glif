@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hyphen.latn" format="2">
-  <advance width="643"/>
+  <advance width="632"/>
   <anchor x="310" y="945" name="U"/>
   <outline>
     <contour>
-      <point x="593" y="495" type="curve"/>
-      <point x="566" y="522" type="line"/>
-      <point x="86" y="522" type="line"/>
-      <point x="76" y="498"/>
-      <point x="56" y="452"/>
-      <point x="49" y="426" type="curve"/>
-      <point x="76" y="400" type="line"/>
-      <point x="556" y="400" type="line"/>
-      <point x="565" y="420"/>
-      <point x="586" y="469"/>
+      <point x="579" y="493" type="curve"/>
+      <point x="555" y="517" type="line"/>
+      <point x="84" y="517" type="line"/>
+      <point x="74" y="494"/>
+      <point x="58" y="454"/>
+      <point x="52" y="428" type="curve"/>
+      <point x="77" y="405" type="line"/>
+      <point x="547" y="405" type="line"/>
+      <point x="556" y="424"/>
+      <point x="572" y="467"/>
     </contour>
   </outline>
 </glyph>
