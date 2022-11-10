@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ccedilla" format="2">
-  <advance width="393"/>
+  <advance width="372"/>
   <unicode hex="00E7"/>
-  <anchor x="215" y="461" name="U"/>
+  <anchor x="214" y="429" name="U"/>
   <outline>
     <component base="c"/>
-    <component base="cedillacomb" xOffset="440"/>
+    <component base="cedillacomb" xOffset="422"/>
   </outline>
 </glyph>

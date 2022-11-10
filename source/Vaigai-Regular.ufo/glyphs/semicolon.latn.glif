@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semicolon.latn" format="2">
-  <advance width="206"/>
+  <advance width="223"/>
   <outline>
-    <component base="comma"/>
-    <component base="period" yOffset="318"/>
+    <contour>
+      <point x="164" y="7" type="curve" smooth="yes"/>
+      <point x="164" y="59"/>
+      <point x="144" y="97"/>
+      <point x="98" y="97" type="curve" smooth="yes"/>
+      <point x="69" y="97"/>
+      <point x="48" y="70"/>
+      <point x="48" y="42" type="curve" smooth="yes"/>
+      <point x="48" y="20"/>
+      <point x="60" y="7"/>
+      <point x="63" y="5" type="curve"/>
+      <point x="113" y="5" type="line"/>
+      <point x="113" y="-67"/>
+      <point x="82" y="-94"/>
+      <point x="25" y="-107" type="curve"/>
+      <point x="25" y="-135" type="line"/>
+      <point x="98" y="-129"/>
+      <point x="164" y="-71"/>
+    </contour>
+    <contour>
+      <point x="155" y="341" type="curve" smooth="yes"/>
+      <point x="155" y="371"/>
+      <point x="132" y="395"/>
+      <point x="103" y="395" type="curve" smooth="yes"/>
+      <point x="73" y="395"/>
+      <point x="48" y="371"/>
+      <point x="48" y="341" type="curve" smooth="yes"/>
+      <point x="48" y="312"/>
+      <point x="72" y="287"/>
+      <point x="102" y="287" type="curve" smooth="yes"/>
+      <point x="132" y="287"/>
+      <point x="155" y="312"/>
+    </contour>
   </outline>
 </glyph>

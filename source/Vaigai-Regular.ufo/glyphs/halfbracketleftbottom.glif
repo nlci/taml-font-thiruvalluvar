@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="halfbracketleftbottom" format="2">
-  <advance width="346"/>
+  <advance width="369"/>
   <unicode hex="2E24"/>
   <outline>
     <contour>
-      <point x="123" y="351" type="line"/>
-      <point x="61" y="351" type="line"/>
-      <point x="61" y="-147" type="line"/>
-      <point x="243" y="-147" type="line"/>
-      <point x="258" y="-135" type="line"/>
-      <point x="255" y="-121"/>
-      <point x="250" y="-103"/>
-      <point x="246" y="-96" type="curve"/>
-      <point x="123" y="-96" type="line"/>
+      <point x="78" y="225" type="line"/>
+      <point x="78" y="-105" type="line"/>
+      <point x="272" y="-105" type="line"/>
+      <point x="272" y="-69" type="line"/>
+      <point x="147" y="-69" type="line"/>
+      <point x="147" y="225" type="line"/>
     </contour>
   </outline>
 </glyph>

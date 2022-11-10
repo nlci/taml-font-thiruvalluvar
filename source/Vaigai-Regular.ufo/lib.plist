@@ -604,19 +604,17 @@
     <string>nukta.dot</string>
     <string>nukta.dotdbl</string>
     <string>nukta.ringdbl</string>
-    <string>CombAcute.LP</string>
-    <string>CombCaron.LP</string>
-    <string>CombCircum.LP</string>
-    <string>CombDiaer.LP</string>
-    <string>CombGrave.LP</string>
-    <string>CombTilde.LP</string>
+    <string>CombBreve</string>
+    <string>CombMacron</string>
+    <string>CombOgonek</string>
+    <string>CombTildeOverlay.Lrg</string>
+    <string>GrCapDelta</string>
     <string>GrCapPi</string>
     <string>LtnCapEsh</string>
     <string>ModBeginHighTn</string>
     <string>ModBeginLowTn</string>
     <string>ModEndHighTn</string>
     <string>ModEndLowTn</string>
-    <string>rs</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>

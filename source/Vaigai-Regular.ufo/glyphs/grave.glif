@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="grave" format="2">
-  <advance width="286"/>
+  <advance width="280"/>
   <unicode hex="0060"/>
-  <anchor x="143" y="619" name="U"/>
+  <anchor x="114" y="585" name="U"/>
   <outline>
-    <contour>
-      <point x="192" y="473" type="curve"/>
-      <point x="87" y="654" type="line"/>
-      <point x="72" y="653"/>
-      <point x="34" y="646"/>
-      <point x="22" y="643" type="curve"/>
-      <point x="13" y="625" type="line"/>
-      <point x="167" y="460" type="line"/>
-      <point x="177" y="463"/>
-      <point x="187" y="469"/>
-    </contour>
+    <component base="gravecomb" xOffset="332"/>
   </outline>
 </glyph>

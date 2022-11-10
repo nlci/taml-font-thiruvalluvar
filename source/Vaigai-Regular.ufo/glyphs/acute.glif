@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acute" format="2">
-  <advance width="286"/>
+  <advance width="280"/>
   <unicode hex="00B4"/>
-  <anchor x="143" y="619" name="U"/>
+  <anchor x="164" y="585" name="U"/>
   <outline>
-    <contour>
-      <point x="120" y="460" type="curve"/>
-      <point x="272" y="627" type="line"/>
-      <point x="261" y="644" type="line"/>
-      <point x="248" y="647"/>
-      <point x="212" y="653"/>
-      <point x="198" y="654" type="curve"/>
-      <point x="95" y="472" type="line"/>
-      <point x="102" y="467"/>
-      <point x="109" y="462"/>
-    </contour>
+    <component base="acutecomb" xOffset="382"/>
   </outline>
 </glyph>

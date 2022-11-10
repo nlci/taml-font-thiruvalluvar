@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caron" format="2">
-  <advance width="322"/>
+  <advance width="261"/>
   <unicode hex="02C7"/>
-  <anchor x="161" y="619" name="U"/>
+  <anchor x="130" y="585" name="U"/>
   <outline>
-    <contour>
-      <point x="185" y="470" type="line"/>
-      <point x="300" y="627" type="line"/>
-      <point x="293" y="639"/>
-      <point x="291" y="642"/>
-      <point x="281" y="648" type="curve"/>
-      <point x="162" y="537" type="line"/>
-      <point x="41" y="648" type="line"/>
-      <point x="32" y="642"/>
-      <point x="30" y="639"/>
-      <point x="21" y="627" type="curve"/>
-      <point x="137" y="470" type="line"/>
-    </contour>
+    <component base="caroncomb" xOffset="348"/>
   </outline>
 </glyph>

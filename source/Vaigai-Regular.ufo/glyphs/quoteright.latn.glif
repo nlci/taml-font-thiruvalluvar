@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quoteright.latn" format="2">
-  <advance width="206"/>
+  <advance width="197"/>
   <outline>
     <contour>
-      <point x="165" y="569" type="curve"/>
-      <point x="165" y="602"/>
-      <point x="154" y="620"/>
-      <point x="135" y="638" type="curve"/>
-      <point x="115" y="639"/>
-      <point x="48" y="613"/>
-      <point x="38" y="599" type="curve"/>
-      <point x="45" y="579" type="line"/>
-      <point x="79" y="577"/>
-      <point x="94" y="555"/>
-      <point x="94" y="529" type="curve" smooth="yes"/>
-      <point x="94" y="505"/>
-      <point x="82" y="464"/>
-      <point x="57" y="438" type="curve"/>
-      <point x="77" y="423" type="line"/>
-      <point x="133" y="458"/>
-      <point x="165" y="523"/>
+      <point x="166" y="492" type="curve" smooth="yes"/>
+      <point x="166" y="539"/>
+      <point x="139" y="567"/>
+      <point x="100" y="567" type="curve" smooth="yes"/>
+      <point x="69" y="567"/>
+      <point x="51" y="545"/>
+      <point x="51" y="518" type="curve" smooth="yes"/>
+      <point x="51" y="500"/>
+      <point x="64" y="486"/>
+      <point x="64" y="486" type="curve"/>
+      <point x="114" y="486" type="line"/>
+      <point x="114" y="482"/>
+      <point x="115" y="476"/>
+      <point x="115" y="471" type="curve" smooth="yes"/>
+      <point x="116" y="425"/>
+      <point x="84" y="385"/>
+      <point x="48" y="350" type="curve"/>
+      <point x="78" y="344" type="line"/>
+      <point x="99" y="362"/>
+      <point x="166" y="414"/>
     </contour>
   </outline>
 </glyph>

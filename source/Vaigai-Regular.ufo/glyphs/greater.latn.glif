@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="greater.latn" format="2">
-  <advance width="395"/>
+  <advance width="800"/>
   <outline>
     <contour>
-      <point x="368" y="274" type="curve"/>
-      <point x="358" y="285" type="line"/>
-      <point x="63" y="395" type="line"/>
-      <point x="53" y="386"/>
-      <point x="40" y="377"/>
-      <point x="26" y="366" type="curve"/>
-      <point x="34" y="349" type="line"/>
-      <point x="282" y="257" type="line"/>
-      <point x="40" y="166" type="line"/>
-      <point x="36" y="156"/>
-      <point x="30" y="134"/>
-      <point x="26" y="123" type="curve"/>
-      <point x="37" y="112" type="line"/>
-      <point x="354" y="230" type="line"/>
-      <point x="359" y="243"/>
-      <point x="365" y="263"/>
+      <point x="639" y="215" type="line"/>
+      <point x="639" y="264" type="line"/>
+      <point x="160" y="448" type="line"/>
+      <point x="160" y="399" type="line"/>
+      <point x="588" y="239" type="line"/>
+      <point x="160" y="80" type="line"/>
+      <point x="160" y="31" type="line"/>
     </contour>
   </outline>
 </glyph>

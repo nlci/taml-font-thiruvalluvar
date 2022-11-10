@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombMacron" format="2">
+  <anchor x="-217" y="429" name="_U"/>
+  <outline>
+    <contour>
+      <point x="-83" y="468" type="line"/>
+      <point x="-83" y="519" type="line"/>
+      <point x="-351" y="519" type="line"/>
+      <point x="-351" y="468" type="line"/>
+    </contour>
+  </outline>
+</glyph>
