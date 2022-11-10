@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexbelowcomb" format="2">
   <unicode hex="032D"/>
-  <anchor x="-244" y="54" name="_N"/>
+  <anchor x="-280" y="64" name="_N"/>
   <outline>
-    <contour>
-      <point x="-121" y="-201" type="curve"/>
-      <point x="-205" y="-68" type="line"/>
-      <point x="-246" y="-68" type="line"/>
-      <point x="-366" y="-201" type="line"/>
-      <point x="-361" y="-213"/>
-      <point x="-357" y="-217"/>
-      <point x="-352" y="-221" type="curve"/>
-      <point x="-235" y="-130" type="line"/>
-      <point x="-141" y="-221" type="line"/>
-      <point x="-131" y="-216"/>
-      <point x="-129" y="-213"/>
-    </contour>
+    <component base="circumflexcomb" xOffset="-133" yOffset="-634"/>
   </outline>
 </glyph>
