@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="otilde" format="2">
-  <advance width="791"/>
+  <advance width="777"/>
   <unicode hex="00F5"/>
-  <anchor x="344" y="0" name="H"/>
-  <anchor x="509" y="1269" name="U"/>
+  <anchor x="336" y="0" name="H"/>
+  <anchor x="502" y="1262" name="U"/>
   <outline>
     <component base="o"/>
-    <component base="tildecomb" xOffset="788"/>
+    <component base="tildecomb" xOffset="774"/>
   </outline>
 </glyph>
