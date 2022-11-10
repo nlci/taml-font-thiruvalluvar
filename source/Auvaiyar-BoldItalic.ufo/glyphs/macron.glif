@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macron" format="2">
-  <advance width="305"/>
+  <advance width="412"/>
   <unicode hex="00AF"/>
   <outline>
-    <component base="CombMacron" xOffset="395"/>
+    <contour>
+      <point x="441" y="566" type="curve"/>
+      <point x="428" y="581" type="line"/>
+      <point x="95" y="581" type="line"/>
+      <point x="89" y="569"/>
+      <point x="69" y="535"/>
+      <point x="65" y="523" type="curve"/>
+      <point x="76" y="508" type="line"/>
+      <point x="410" y="508" type="line"/>
+      <point x="416" y="518"/>
+      <point x="437" y="553"/>
+    </contour>
   </outline>
 </glyph>

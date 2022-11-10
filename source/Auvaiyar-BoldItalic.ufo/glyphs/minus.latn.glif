@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minus.latn" format="2">
-  <advance width="900"/>
+  <advance width="366"/>
   <outline>
     <contour>
-      <point x="719" y="242" type="line"/>
-      <point x="719" y="297" type="line"/>
-      <point x="180" y="297" type="line"/>
-      <point x="180" y="242" type="line"/>
+      <point x="342" y="265" type="curve"/>
+      <point x="330" y="281" type="line"/>
+      <point x="50" y="281" type="line"/>
+      <point x="43" y="269"/>
+      <point x="26" y="240"/>
+      <point x="21" y="228" type="curve"/>
+      <point x="34" y="213" type="line"/>
+      <point x="314" y="213" type="line"/>
+      <point x="319" y="222"/>
+      <point x="337" y="253"/>
     </contour>
   </outline>
 </glyph>

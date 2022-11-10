@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bar" format="2">
-  <advance width="358"/>
+  <advance width="197"/>
   <unicode hex="007C"/>
   <outline>
     <contour>
-      <point x="217" y="-232" type="line"/>
-      <point x="217" y="716" type="line"/>
-      <point x="140" y="716" type="line"/>
-      <point x="140" y="-232" type="line"/>
+      <point x="201" y="688" type="line"/>
+      <point x="183" y="702" type="line"/>
+      <point x="166" y="698"/>
+      <point x="140" y="684"/>
+      <point x="124" y="674" type="curve"/>
+      <point x="10" y="-132" type="line"/>
+      <point x="27" y="-147" type="line"/>
+      <point x="41" y="-143"/>
+      <point x="75" y="-126"/>
+      <point x="87" y="-118" type="curve"/>
     </contour>
   </outline>
 </glyph>

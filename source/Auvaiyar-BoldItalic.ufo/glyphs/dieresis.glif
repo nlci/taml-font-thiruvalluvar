@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresis" format="2">
-  <advance width="313"/>
+  <advance width="457"/>
   <unicode hex="00A8"/>
-  <anchor x="225" y="659" name="U"/>
+  <anchor x="272" y="594" name="U"/>
   <outline>
-    <component base="dieresiscomb" xOffset="401"/>
+    <contour>
+      <point x="412" y="558" type="curve" smooth="yes"/>
+      <point x="412" y="583"/>
+      <point x="397" y="607"/>
+      <point x="366" y="607" type="curve" smooth="yes"/>
+      <point x="319" y="607"/>
+      <point x="292" y="556"/>
+      <point x="292" y="521" type="curve" smooth="yes"/>
+      <point x="292" y="497"/>
+      <point x="305" y="472"/>
+      <point x="337" y="472" type="curve" smooth="yes"/>
+      <point x="384" y="472"/>
+      <point x="412" y="522"/>
+    </contour>
+    <contour>
+      <point x="239" y="558" type="curve" smooth="yes"/>
+      <point x="239" y="583"/>
+      <point x="225" y="607"/>
+      <point x="194" y="607" type="curve" smooth="yes"/>
+      <point x="147" y="607"/>
+      <point x="119" y="556"/>
+      <point x="119" y="521" type="curve" smooth="yes"/>
+      <point x="119" y="497"/>
+      <point x="133" y="472"/>
+      <point x="164" y="472" type="curve" smooth="yes"/>
+      <point x="211" y="472"/>
+      <point x="239" y="522"/>
+    </contour>
   </outline>
 </glyph>

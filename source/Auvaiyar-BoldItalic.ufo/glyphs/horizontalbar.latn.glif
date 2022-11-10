@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="horizontalbar.latn" format="2">
-  <advance width="874"/>
+  <advance width="841"/>
   <outline>
     <contour>
-      <point x="898" y="261" type="line"/>
-      <point x="-4" y="261" type="line"/>
-      <point x="-22" y="171" type="line"/>
-      <point x="880" y="171" type="line"/>
+      <point x="815" y="243" type="curve"/>
+      <point x="803" y="258" type="line"/>
+      <point x="45" y="258" type="line"/>
+      <point x="39" y="247"/>
+      <point x="23" y="218"/>
+      <point x="18" y="206" type="curve"/>
+      <point x="31" y="191" type="line"/>
+      <point x="789" y="191" type="line"/>
+      <point x="794" y="200"/>
+      <point x="811" y="231"/>
     </contour>
   </outline>
 </glyph>
