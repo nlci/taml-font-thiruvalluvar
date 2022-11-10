@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slash.latn" format="2">
-  <advance width="441"/>
+  <advance width="426"/>
   <outline>
     <contour>
-      <point x="441" y="603" type="line"/>
-      <point x="383" y="603" type="line"/>
-      <point x="0" y="-83" type="line"/>
-      <point x="57" y="-83" type="line"/>
+      <point x="101" y="-122" type="curve"/>
+      <point x="408" y="691" type="line"/>
+      <point x="390" y="703" type="line"/>
+      <point x="373" y="698"/>
+      <point x="341" y="689"/>
+      <point x="325" y="679" type="curve"/>
+      <point x="17" y="-134" type="line"/>
+      <point x="35" y="-147" type="line"/>
+      <point x="50" y="-142"/>
+      <point x="89" y="-130"/>
     </contour>
   </outline>
 </glyph>

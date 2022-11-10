@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="softhyphen.latn" format="2">
-  <advance width="287"/>
-  <anchor x="143" y="483" name="U"/>
+  <advance width="314"/>
+  <anchor x="151" y="461" name="U"/>
   <outline>
     <component base="hyphen"/>
   </outline>
