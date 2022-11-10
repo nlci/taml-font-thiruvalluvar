@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflex" format="2">
-  <advance width="305"/>
+  <advance width="322"/>
   <unicode hex="02C6"/>
   <outline>
-    <component base="circumflexcomb" xOffset="415"/>
+    <contour>
+      <point x="315" y="488" type="curve"/>
+      <point x="195" y="659" type="line"/>
+      <point x="131" y="659" type="line"/>
+      <point x="6" y="488" type="line"/>
+      <point x="14" y="477"/>
+      <point x="29" y="460"/>
+      <point x="39" y="455" type="curve"/>
+      <point x="163" y="547" type="line"/>
+      <point x="287" y="455" type="line"/>
+      <point x="297" y="460"/>
+      <point x="308" y="477"/>
+    </contour>
   </outline>
 </glyph>

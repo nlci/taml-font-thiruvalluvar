@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Udieresis" format="2">
-  <advance width="656"/>
+  <advance width="606"/>
   <unicode hex="00DC"/>
-  <anchor x="326" y="0" name="H"/>
-  <anchor x="333" y="834" name="U"/>
+  <anchor x="306" y="0" name="H"/>
+  <anchor x="306" y="742" name="U"/>
   <outline>
     <component base="U"/>
-    <component base="dieresiscomb" xOffset="596" yOffset="175"/>
+    <component base="CombDiaer.LP" xOffset="547" yOffset="140"/>
   </outline>
 </glyph>

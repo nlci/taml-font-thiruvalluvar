@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="scaron" format="2">
-  <advance width="400"/>
+  <advance width="386"/>
   <unicode hex="0161"/>
-  <anchor x="202" y="0" name="H"/>
-  <anchor x="210" y="659" name="U"/>
+  <anchor x="186" y="0" name="H"/>
+  <anchor x="192" y="659" name="U"/>
   <outline>
     <component base="s"/>
-    <component base="caroncomb" xOffset="473"/>
+    <component base="caroncomb" xOffset="433"/>
   </outline>
 </glyph>
