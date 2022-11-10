@@ -49,8 +49,12 @@ jobs:
           # smith release
       - uses: actions/upload-artifact@v3
         with:
-          name: tests
-          path: results/test
+          name: sile
+          path: results/tests/sile/*.pdf
+      - uses: actions/upload-artifact@v3
+        with:
+          name: pdfs
+          path: results/tests/pdfs/*.pdf
       - uses: actions/upload-artifact@v3
         with:
           name: fonts

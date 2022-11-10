@@ -115,7 +115,7 @@ i.Dotless
 Igrave
 igrave
 infinity
-inr
+inrupee
 integral
 J
 j
@@ -197,6 +197,7 @@ r
 radical
 registered
 ring
+rupee
 S
 s
 Scaron

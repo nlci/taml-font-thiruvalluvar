@@ -5,23 +5,28 @@ from addcharslib import *
 for f in faces:
 
     workshop = 1.4
-    roman = 0.9
+    groman = 0.9
+    croman = 0.8
     if f == 'ThiruValluvar':
         upm = 1.0
     else:
         upm = 1000.0/2048.0
-    scale = str(roman*upm)
 
     styles = {}
-    if f == 'Auvaiyar':
+    if f == 'Vaigai':
         latin = 'charis'
+        scale = str(croman*upm)
     else:
         latin = 'gentium'
-        styles['Bold'] = 'SemiBold'
-        styles['Bold Italic'] = 'SemiBold Italic'
+        scale = str(groman*upm)
         if f == 'ThiruValluvar':
-            styles['Regular'] = 'Medium'
-            styles['Italic'] = 'Medium Italic'
+            styles['Bold'] = 'Medium'
+            styles['Bold Italic'] = 'Medium Italic'
+        else:
+            styles['Regular'] = 'SemiBold'
+            styles['Italic'] = 'SemiBold Italic'
+            styles['Bold'] = 'ExtraBold'
+            styles['Bold Italic'] = 'ExtraBold Italic'
 
     for sn in stylesName:
         modifyFile(scale, latin, f, sn, styles, chars='latn_import.txt')

@@ -30,6 +30,7 @@ for anchor in virama.anchors:
         y = anchor.y
         anusvara.appendAnchor('_V', (x, y))
         # vedictonedoublesvarita.appendAnchor('_V', (x, y))
+anusvara.width = 0
 
 ## Move single ring closer to base character
 ring = font['nukta']

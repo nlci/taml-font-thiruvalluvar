@@ -10,28 +10,13 @@ Basic Font Information
 
 Pan Tamil font designed to support all the languages using the Tamil script.
 
-Known issues
-------------
-U+0B94 and U+0BB6 might need N APs
-Old style glyphs need to be enabled in a ss
-Reph stype RA needs to be enabled, maybe in a cv
-U+0BB6 need major changes.
-U+0BD0 needs to be slightly visually changed.
-U+0BF3 needs to have right sten removed.
-U+0BF7 needs a curl at the top.
-U+0BFA needs a curl at the top.
-u0B95_u0BC2.old in Auvaiyar needs to be redrawn to match the overall style.
-U+20B9 needs to be made italic in the Italic and Bold Italic faces
-The ring in u1CF5 needs to be removed
-u0B99_u0BCD.alt in Auvaiyar needs to be copied from u0B99_u0BCD and then copy the ring-shaped pulli from u0B82
-
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
 unreleased
 - Increase line spacing for IRU fonts
-- Use lighter weight Latin in most places
+- Use lighter weight Latin; Gentium at 90% for ThiruValluvar and Auvaiyar, Charis at 80% for Vaigai
 - Improve width of spaces
 - Removed vowel modifier U+16C7 RUNIC LETTER IWAZ EOH
 - More options for nukta and dot above
