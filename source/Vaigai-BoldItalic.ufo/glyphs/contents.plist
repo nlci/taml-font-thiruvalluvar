@@ -28,18 +28,14 @@
   <string>C_.glif</string>
   <key>Ccedilla</key>
   <string>C_cedilla.glif</string>
-  <key>CombAcute.LP</key>
-  <string>C_ombA_cute.L_P_.glif</string>
-  <key>CombCaron.LP</key>
-  <string>C_ombC_aron.L_P_.glif</string>
-  <key>CombCircum.LP</key>
-  <string>C_ombC_ircum.L_P_.glif</string>
-  <key>CombDiaer.LP</key>
-  <string>C_ombD_iaer.L_P_.glif</string>
-  <key>CombGrave.LP</key>
-  <string>C_ombG_rave.L_P_.glif</string>
-  <key>CombTilde.LP</key>
-  <string>C_ombT_ilde.L_P_.glif</string>
+  <key>CombBreve</key>
+  <string>C_ombB_reve.glif</string>
+  <key>CombMacron</key>
+  <string>C_ombM_acron.glif</string>
+  <key>CombOgonek</key>
+  <string>C_ombO_gonek.glif</string>
+  <key>CombTildeOverlay.Lrg</key>
+  <string>C_ombT_ildeO_verlay.L_rg.glif</string>
   <key>D</key>
   <string>D_.glif</string>
   <key>Delta</key>
@@ -62,6 +58,8 @@
   <string>F_.glif</string>
   <key>G</key>
   <string>G_.glif</string>
+  <key>GrCapDelta</key>
+  <string>G_rC_apD_elta.glif</string>
   <key>GrCapPi</key>
   <string>G_rC_apP_i.glif</string>
   <key>H</key>
@@ -968,8 +966,6 @@
   <string>rra_uumatra.glif</string>
   <key>rra_virama</key>
   <string>rra_virama.glif</string>
-  <key>rs</key>
-  <string>rs.glif</string>
   <key>rupee</key>
   <string>rupee.glif</string>
   <key>rupeesign</key>
