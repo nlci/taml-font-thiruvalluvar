@@ -1,8 +1,12 @@
 #!/bin/sh
 
-for g in source/*.glyphs
-do
-    psfglyphs2ufo $g source
-done
+psfglyphs2ufo --nofea source/ThiruValluvarRoman.glyphs source
+psfglyphs2ufo --nofea source/ThiruValluvarItalic.glyphs source
+	
+#psfglyphs2ufo --nofea source/AuvaiyarItalic.glyphs source
+#psfglyphs2ufo --nofea source/AuvaiyarRoman.glyphs source
+
+#psfglyphs2ufo --nofea source/VaigaiRoman.glyphs source
+#psfglyphs2ufo --nofea source/VaigaiItalic.glyphs source
 
 ./preflight
