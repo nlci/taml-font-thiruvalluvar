@@ -4,7 +4,7 @@
   <unicode hex="0BD0"/>
   <outline>
     <component base="ovowel"/>
-    <component base="ma" xScale="0.199951" yScale="0.199951" xOffset="1434"/>
-    <component base="virama" xScale="0.399963" yScale="0.399963" xOffset="1681"/>
+    <component base="ma" xScale="0.19995" yScale="0.19995" xOffset="1434"/>
+    <component base="virama" xScale="0.39996" yScale="0.39996" xOffset="1681"/>
   </outline>
 </glyph>

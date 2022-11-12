@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="horizontalbar" format="2">
-  <advance width="1289"/>
+  <advance width="1823"/>
   <unicode hex="2015"/>
   <outline>
-    <component base="hyphen" xScale="1.812925" yScale="0.78"/>
+    <contour>
+      <point x="1764" y="379" type="line"/>
+      <point x="1800" y="547" type="line"/>
+      <point x="63" y="547" type="line"/>
+      <point x="27" y="379" type="line"/>
+    </contour>
   </outline>
 </glyph>
