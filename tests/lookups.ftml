@@ -16,7 +16,8 @@
     <fontsrc label="notoSlanted">url(../references/NotoSerifTamilSlanted-Regular.ttf)</fontsrc>
     <fontsrc label="notoSans">url(../references/NotoSansTamil-Regular.ttf)</fontsrc>
     <fontsrc label="notoSansUI">url(../references/NotoSansTamilUI-Regular.ttf)</fontsrc>
-    <fontsrc label="tiro">url(../references/TiroTamil-Regular.ttf)</fontsrc>
+    <fontsrc label="tiroR">url(../references/TiroTamil-Regular.ttf)</fontsrc>
+    <fontsrc label="tiroI">url(../references/TiroTamil-Italic.ttf)</fontsrc>
     <fontsrc label="baloo">url(../references/BalooThambi2-Regular.ttf)</fontsrc>
     <fontsrc label="aR">url(../results/Auvaiyar-Regular.ttf)</fontsrc>
     <fontsrc label="aB">url(../results/Auvaiyar-Bold.ttf)</fontsrc>
