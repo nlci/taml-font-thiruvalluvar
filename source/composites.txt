@@ -1,14 +1,9 @@
 softhyphen = hyphen | 00AD
 hyphentwo = hyphen | 2010
 nbhyphen = hyphen | 2011
-figuredash = hyphen | 2012
-endash = hyphen | 2013
-emdash = hyphen | 2014
-horizontalbar = hyphen | 2015
-minus = hyphen | 2212
+divisionslash = slash | 2215
 quotedblleft = quoteleft & quoteleft | 201C
 quotedblright = quoteright & quoteright | 201D
-divisionslash = slash | 2215
 vedicsignjihvamuliya.alt = vedicsignjihvamuliya
 bindu = nukta | 1133B
 dotbelowcomb = nukta | 0323

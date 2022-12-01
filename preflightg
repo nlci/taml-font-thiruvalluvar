@@ -1,12 +1,12 @@
 #!/bin/sh
 
-psfglyphs2ufo --nofea source/ThiruValluvarRoman.glyphs source
-psfglyphs2ufo --nofea source/ThiruValluvarItalic.glyphs source
+psfglyphs2ufo source/ThiruValluvarRoman.glyphs source
+psfglyphs2ufo source/ThiruValluvarItalic.glyphs source
 	
-#psfglyphs2ufo --nofea source/AuvaiyarItalic.glyphs source
-#psfglyphs2ufo --nofea source/AuvaiyarRoman.glyphs source
+#psfglyphs2ufo source/AuvaiyarItalic.glyphs source
+#psfglyphs2ufo source/AuvaiyarRoman.glyphs source
 
-#psfglyphs2ufo --nofea source/VaigaiRoman.glyphs source
-#psfglyphs2ufo --nofea source/VaigaiItalic.glyphs source
+#psfglyphs2ufo source/VaigaiRoman.glyphs source
+#psfglyphs2ufo source/VaigaiItalic.glyphs source
 
 ./preflight

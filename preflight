@@ -3,6 +3,8 @@
 for ufo in source/*.ufo
 do
     psfnormalize -v 3 -p checkfix=fix $ufo &
+    psfbuildcomp -c -i source/composites.txt $ufo
+    psfmakefea -o $ufo/features.fea -i source/master.feax -L last $ufo
 done
 wait
 
@@ -10,7 +12,6 @@ faces="Auvaiyar Vaigai ThiruValluvar"
 for face in $faces
 do
     ufo=source/${face}-Regular.ufo
-    # psfbuildcomp -i source/composites.txt -c $ufo
     psfsetglyphorder -i source/glyph_data-${face}.csv $ufo
     psfsetpsnames -i source/glyph_data-${face}.csv $ufo
     psfmakewoffmetadata -n ${face} -i in.nlci.fonts $ufo
