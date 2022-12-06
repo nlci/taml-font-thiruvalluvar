@@ -5,11 +5,11 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3145</string>
+  <string>3149</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>-/figuredash/endash/emdash/horizontalbar/minus</string>
-    <string>/anusvara/visarga/visarga.alt/space/virama/space/bindu/space/nukta/space/nukta/space/nukta.dot/space/nukta.dotdbl/space/nukta.ringdbl/space/space/anusvara</string>
+    <string>/anusvara/visarga/visarga.alt/space/virama/space/bindu/space/ca/nukta/space/la/nukta/space/nukta.dot/space/nukta.dotdbl/space/nukta.ringdbl/space/space/anusvara</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

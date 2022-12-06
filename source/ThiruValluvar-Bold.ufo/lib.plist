@@ -5,10 +5,10 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3145</string>
+  <string>3149</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>-/figuredash/endash/emdash/horizontalbar/minus</string>
+    <string>/bindu/space/ca/nukta/space/nukta.dot/space/nukta.dotdbl/space/nukta.ringdbl</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

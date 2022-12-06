@@ -508,9 +508,7 @@ lookup uuMatras {
 # } NuktaLigs;
 lookup cv01 {
     lookupflag 0;
-    # sub nukta from [nukta.dotdbl nukta.dot nukta.ringdbl];
     sub bindu from [nukta.dotdbl nukta.dot nukta.ringdbl];
-    # sub dotbelowcomb from [nukta.dotdbl nukta.dot nukta.ringdbl];
 } cv01;
 
 feature ccmp {
