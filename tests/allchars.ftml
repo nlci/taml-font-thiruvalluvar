@@ -1104,9 +1104,10 @@ U+0BC7
 U+0BC8
 U+0BCA
 U+0BCB
-U+0BCC">
-      <comment>aamatra imatra iimatra umatra uumatra ematra eematra aimatra omatra oomatra aumatra</comment>
-      <string>\u000BBE\u000BBF\u000BC0\u000BC1\u000BC2\u000BC6\u000BC7\u000BC8\u000BCA\u000BCB\u000BCC</string>
+U+0BCC
+U+0BCD">
+      <comment>aamatra imatra iimatra umatra uumatra ematra eematra aimatra omatra oomatra aumatra virama</comment>
+      <string>\u000BBE\u000BBF\u000BC0\u000BC1\u000BC2\u000BC6\u000BC7\u000BC8\u000BCA\u000BCB\u000BCC\u000BCD</string>
     </test>
     <test label="U+0BE6
 U+0BE7

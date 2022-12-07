@@ -65,6 +65,9 @@ def doit(args):
     punct = [uid for uid in uids if get_ucd(uid, 'gc').startswith('P')]
 
     matra_like = matras + [virama]
+    matra_plus = (0x030C, 0x034C, 0x032D)
+    akhands = [(0x0b95, 0x0bcd, 0x0bb7), (0x0bb8, 0x0bcd, 0x0bb0)]
+    nine = digits[-1]
 
     # Initialize FTML document:
     # Default name for test: AllChars or something based on the csvdata file:
@@ -152,13 +155,13 @@ def doit(args):
 
         # Characters used to create SILE test data
         ftml.startTestGroup('Proof')
-        for section in (vowels, consonants, matras, digits, punct):
+        for section in (vowels, consonants, matra_like, digits, punct):
             builder.render(section, ftml)
             ftml.closeTest()
 
     nukta = 0x1133B
-    below_marks = (0x0323, nukta, 0x1133C)  # 0x1CDC, 0x1CDD, 0x1CDE, 0x1CDF
-    above_marks = (0x0307, 0x0B82, 0x0BCD)  # 0x1CDA
+    below_marks = (0x0323, nukta, 0x1133C)
+    above_marks = (0x0307, 0x0B82, 0x0BCD)
     marks = below_marks + above_marks
 
     if test.lower().startswith("diac"):
@@ -204,19 +207,37 @@ def doit(args):
                 builder.render((c,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
-        ftml.startTestGroup('Consonants with matras in a frame')
-        for c in consonants:
+        ftml.startTestGroup('Akhands with matras')
+        for a in akhands:
+            c = a[0]
             for m in matra_like:
-                builder.render((c,m,c), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                builder.render((a+(m,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
     if test.lower().startswith("nuktas"):
+        ftml.startTestGroup('Akhands with nukta')
+        for a in akhands:
+            c = a[0]
+            for featlist in builder.permuteFeatures(uids=(nukta,)):
+                ftml.setFeatures(featlist)
+                builder.render((a+(nukta,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
         ftml.startTestGroup('Consonants with matras, nukta')
         for c in consonants + [dotted_circle]:
             for featlist in builder.permuteFeatures(uids=(nukta,)):
                 ftml.setFeatures(featlist)
                 for m in matra_like:
                     builder.render((c,m,nukta), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                ftml.closeTest()
+
+        ftml.startTestGroup('Akhands with matras, nukta')
+        for a in akhands:
+            c = a[0]
+            for featlist in builder.permuteFeatures(uids=(nukta,)):
+                ftml.setFeatures(featlist)
+                for m in matra_like:
+                    builder.render((a+(m,)+(nukta,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
                 ftml.closeTest()
 
         ftml.startTestGroup('Consonants with nukta, matras')
@@ -227,6 +248,15 @@ def doit(args):
                     builder.render((c,nukta,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
                 ftml.closeTest()
 
+        ftml.startTestGroup('Akhands with nukta, matras')
+        for a in akhands:
+            c = a[0]
+            for featlist in builder.permuteFeatures(uids=(nukta,)):
+                ftml.setFeatures(featlist)
+                for m in matra_like:
+                    builder.render((a+(nukta,)+(m,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                ftml.closeTest()
+
         ftml.startTestGroup('Consonants with nukta, matras, nukta')
         for c in consonants + [dotted_circle]:
             for featlist in builder.permuteFeatures(uids=(nukta,)):
@@ -235,7 +265,16 @@ def doit(args):
                     builder.render((c,nukta,m,nukta), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
                 ftml.closeTest()
 
-        ftml.startTestGroup('Nuktas')
+        ftml.startTestGroup('Akhands with nukta, matras, nukta')
+        for a in akhands:
+            c = a[0]
+            for featlist in builder.permuteFeatures(uids=(nukta,)):
+                ftml.setFeatures(featlist)
+                for m in matra_like:
+                    builder.render((a+(nukta,)+(m,)+(nukta,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                ftml.closeTest()
+
+        ftml.startTestGroup('Nukta codepoints')
         test_name = test.lower().split()[0]
         with open(f'tests/{test_name}.template') as nuktas:
             line_number = 0
@@ -250,6 +289,73 @@ def doit(args):
                         text = text.replace('V', chr(v))
                         ftml.addToTest(None, text, label=f'line {line_number}', comment=f'n={n:04X} v={v:04X}')
                         ftml.closeTest()
+
+    if test.lower().startswith("extra"):
+        ftml.startTestGroup('Akhands with nukta')
+        for mp in matra_plus:
+            for a in akhands:
+                c = a[0]
+                for featlist in builder.permuteFeatures(uids=(nukta,)):
+                    ftml.setFeatures(featlist)
+                    builder.render((a+(nukta,)+(mp,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                ftml.closeTest()
+
+        ftml.startTestGroup('Consonants with matras, nukta')
+        for mp in matra_plus:
+            for c in consonants + [dotted_circle]:
+                for featlist in builder.permuteFeatures(uids=(nukta,)):
+                    ftml.setFeatures(featlist)
+                    for m in matra_like:
+                        builder.render((c,m,nukta,mp), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                    ftml.closeTest()
+
+        ftml.startTestGroup('Akhands with matras, nukta')
+        for mp in matra_plus:
+            for a in akhands:
+                c = a[0]
+                for featlist in builder.permuteFeatures(uids=(nukta,)):
+                    ftml.setFeatures(featlist)
+                    for m in matra_like:
+                        builder.render((a+(m,)+(nukta,)+(mp,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                    ftml.closeTest()
+
+        ftml.startTestGroup('Consonants with nukta, matras')
+        for mp in matra_plus:
+            for c in consonants + [dotted_circle]:
+                for featlist in builder.permuteFeatures(uids=(nukta,)):
+                    ftml.setFeatures(featlist)
+                    for m in matra_like:
+                        builder.render((c,nukta,m,mp), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                    ftml.closeTest()
+
+        ftml.startTestGroup('Akhands with nukta, matras')
+        for mp in matra_plus:
+            for a in akhands:
+                c = a[0]
+                for featlist in builder.permuteFeatures(uids=(nukta,)):
+                    ftml.setFeatures(featlist)
+                    for m in matra_like:
+                        builder.render((a+(nukta,)+(m,)+(mp,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                    ftml.closeTest()
+
+        ftml.startTestGroup('Consonants with nukta, matras, nukta')
+        for mp in matra_plus:
+            for c in consonants + [dotted_circle]:
+                for featlist in builder.permuteFeatures(uids=(nukta,)):
+                    ftml.setFeatures(featlist)
+                    for m in matra_like:
+                        builder.render((c,nukta,m,nukta,mp), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                    ftml.closeTest()
+
+        ftml.startTestGroup('Akhands with nukta, matras, nukta')
+        for mp in matra_plus:
+            for a in akhands:
+                c = a[0]
+                for featlist in builder.permuteFeatures(uids=(nukta,)):
+                    ftml.setFeatures(featlist)
+                    for m in matra_like:
+                        builder.render((a+(nukta,)+(m,)+(nukta,)+(mp,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                    ftml.closeTest()
 
     # Write the output ftml file
     ftml.writeFile(args.output)
