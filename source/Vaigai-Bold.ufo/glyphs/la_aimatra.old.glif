@@ -2,7 +2,7 @@
 <glyph name="la_aimatra.old" format="2">
   <advance width="1141"/>
   <anchor x="344" y="-3" name="N"/>
-  <anchor x="344" y="453" name="V"/>
+  <anchor x="344" y="523" name="V"/>
   <outline>
     <component base="la.old"/>
     <component base="la" xOffset="355"/>

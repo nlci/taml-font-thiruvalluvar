@@ -3,7 +3,7 @@
   <advance width="693"/>
   <unicode hex="0B99"/>
   <anchor x="428" y="-3" name="N"/>
-  <anchor x="428" y="453" name="V"/>
+  <anchor x="428" y="523" name="V"/>
   <outline>
     <contour>
       <point x="456" y="198" type="curve" smooth="yes"/>

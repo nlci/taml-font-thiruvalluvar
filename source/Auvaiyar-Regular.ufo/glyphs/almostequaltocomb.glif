@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="almostequaltocomb" format="2">
   <unicode hex="034C"/>
-  <anchor x="-234" y="513" name="V"/>
+  <anchor x="-234" y="583" name="V"/>
   <anchor x="-233" y="461" name="_U"/>
-  <anchor x="-234" y="340" name="_V"/>
+  <anchor x="-234" y="410" name="_V"/>
   <outline>
     <contour>
       <point x="-90" y="522" type="curve"/>

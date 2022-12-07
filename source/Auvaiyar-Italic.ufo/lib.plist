@@ -599,6 +599,7 @@
     <string>zwnbsp</string>
     <string>objectReplacementCharacter</string>
     <string>replacementCharacter</string>
+    <string>candrabindugran</string>
     <string>bindu</string>
     <string>nukta</string>
     <string>nukta.dot</string>
@@ -698,6 +699,8 @@
     <string>uni0B9A0BC2</string>
     <key>ca_virama</key>
     <string>uni0B9A0BCD</string>
+    <key>candrabindugran</key>
+    <string>u11301</string>
     <key>caroncomb</key>
     <string>uni030C</string>
     <key>cedillacomb</key>

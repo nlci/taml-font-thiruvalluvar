@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotabovecomb" format="2">
   <unicode hex="0307"/>
-  <anchor x="-957" y="939" name="_V"/>
+  <anchor x="-957" y="1082" name="_V"/>
   <outline>
     <component base="virama"/>
   </outline>

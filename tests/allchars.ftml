@@ -405,6 +405,10 @@
       <comment>objectReplacementCharacter</comment>
       <string>\u00FFFC \u00FFFD</string>
     </test>
+    <test label="U+11301">
+      <comment>candrabindugran</comment>
+      <string>\u000B95\u011301</string>
+    </test>
     <test label="U+1133B">
       <comment>bindu</comment>
       <string>\u000B95\u01133B</string>

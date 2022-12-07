@@ -66,8 +66,7 @@ def doit(args):
 
     matra_like = matras + [virama]
     matra_plus = (0x030C, 0x034C, 0x032D)
-    akhands = [(0x0b95, 0x0bcd, 0x0bb7), (0x0bb8, 0x0bcd, 0x0bb0)]
-    nine = digits[-1]
+    akhands = [(0x0B95, 0x0BCD, 0x0BB7), (0x0BB8, 0x0BCD, 0x0BB0)]
 
     # Initialize FTML document:
     # Default name for test: AllChars or something based on the csvdata file:

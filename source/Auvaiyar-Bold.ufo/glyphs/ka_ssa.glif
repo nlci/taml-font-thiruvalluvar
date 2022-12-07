@@ -2,7 +2,7 @@
 <glyph name="ka_ssa" format="2">
   <advance width="1315"/>
   <anchor x="330" y="-4" name="N"/>
-  <anchor x="330" y="455" name="V"/>
+  <anchor x="330" y="525" name="V"/>
   <outline>
     <contour>
       <point x="1138" y="323" type="curve" smooth="yes"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vedictonekathakaanudatta" format="2">
-  <advance width="20"/>
   <unicode hex="1CDC"/>
+  <anchor x="-312" y="1571" name="_V"/>
   <outline>
     <contour>
       <point x="-291" y="1571" type="line"/>

@@ -2,7 +2,7 @@
 <glyph name="ra_iimatra" format="2">
   <advance width="450"/>
   <anchor x="178" y="-140" name="N"/>
-  <anchor x="178" y="725" name="V"/>
+  <anchor x="178" y="795" name="V"/>
   <outline>
     <contour>
       <point x="132" y="555" type="curve" smooth="yes"/>

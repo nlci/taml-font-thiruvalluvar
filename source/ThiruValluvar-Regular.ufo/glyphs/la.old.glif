@@ -2,7 +2,7 @@
 <glyph name="la.old" format="2">
   <advance width="727"/>
   <anchor x="734" y="43" name="N"/>
-  <anchor x="734" y="932" name="V"/>
+  <anchor x="734" y="1075" name="V"/>
   <outline>
     <contour>
       <point x="285" y="111" type="curve" smooth="yes"/>

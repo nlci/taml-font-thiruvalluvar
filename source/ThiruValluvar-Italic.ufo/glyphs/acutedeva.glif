@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutedeva" format="2">
   <unicode hex="0954"/>
+  <anchor x="80" y="1415" name="_V"/>
   <outline>
     <contour>
       <point x="360" y="1888" type="line"/>

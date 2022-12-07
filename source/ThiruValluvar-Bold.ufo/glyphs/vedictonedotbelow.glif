@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vedictonedotbelow" format="2">
-  <advance width="20"/>
   <unicode hex="1CDD"/>
+  <anchor x="-702" y="0" name="_N"/>
   <outline>
     <contour>
       <point x="-703" y="-103" type="curve" smooth="yes"/>

@@ -2,7 +2,7 @@
 <glyph name="nnna_aimatra" format="2">
   <advance width="3879"/>
   <anchor x="922" y="0" name="N"/>
-  <anchor x="922" y="939" name="V"/>
+  <anchor x="922" y="1082" name="V"/>
   <outline>
     <component base="aimatra"/>
     <component base="nnna" xOffset="1915"/>

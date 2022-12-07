@@ -2,7 +2,7 @@
 <glyph name="ca_umatra" format="2">
   <advance width="1393"/>
   <anchor x="776" y="133" name="N"/>
-  <anchor x="776" y="932" name="V"/>
+  <anchor x="776" y="1075" name="V"/>
   <outline>
     <contour>
       <point x="607" y="533" type="line"/>

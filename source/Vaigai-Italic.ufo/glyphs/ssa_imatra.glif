@@ -2,7 +2,7 @@
 <glyph name="ssa_imatra" format="2">
   <advance width="1191"/>
   <anchor x="602" y="-215" name="N"/>
-  <anchor x="602" y="456" name="V"/>
+  <anchor x="602" y="526" name="V"/>
   <outline>
     <contour>
       <point x="752" y="412" type="curve" smooth="yes"/>

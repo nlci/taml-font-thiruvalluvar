@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="udatta" format="2">
-  <advance width="20"/>
   <unicode hex="0951"/>
+  <anchor x="-312" y="1571" name="_V"/>
   <outline>
     <component base="vedictonekathakaanudatta"/>
   </outline>

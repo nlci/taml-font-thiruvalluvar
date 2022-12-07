@@ -3259,6 +3259,11 @@ U+1CDF">
       <string>\u000B95\u001CDF \u000B85\u001CDF</string>
     </test>
     <test label="U+0B95
+U+11301">
+      <comment>ka candrabindugran</comment>
+      <string>\u000B95\u011301 \u000B85\u011301</string>
+    </test>
+    <test label="U+0B95
 U+1133B">
       <comment>ka bindu</comment>
       <string>\u000B95\u01133B</string>
