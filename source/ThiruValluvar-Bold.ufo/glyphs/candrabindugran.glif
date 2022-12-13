@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="candrabindugran" format="2">
   <unicode hex="11301"/>
-  <anchor x="-129" y="981" name="_V"/>
+  <anchor x="-128" y="981" name="_V"/>
   <outline>
     <contour>
       <point x="-20" y="1247" type="line"/>

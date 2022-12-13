@@ -2,8 +2,8 @@
 <glyph name="iivowel" format="2">
   <advance width="627"/>
   <unicode hex="0B88"/>
-  <anchor x="279" y="-4" name="N"/>
-  <anchor x="279" y="525" name="V"/>
+  <anchor x="254" y="-4" name="N"/>
+  <anchor x="365" y="525" name="V"/>
   <outline>
     <contour>
       <point x="454" y="206" type="curve" smooth="yes"/>

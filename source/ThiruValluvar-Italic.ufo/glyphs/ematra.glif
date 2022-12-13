@@ -2,7 +2,7 @@
 <glyph name="ematra" format="2">
   <advance width="1495"/>
   <unicode hex="0BC6"/>
-  <anchor x="802" y="10" name="N"/>
+  <anchor x="645" y="0" name="N"/>
   <outline>
     <contour>
       <point x="587" y="72" type="curve"/>

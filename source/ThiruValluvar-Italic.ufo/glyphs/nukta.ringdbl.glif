@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nukta.ringdbl" format="2">
-  <anchor x="-646" y="-496" name="N"/>
-  <anchor x="-646" y="-357" name="_N"/>
+  <anchor x="-655" y="-496" name="N"/>
+  <anchor x="-627" y="-357" name="_N"/>
   <outline>
     <contour>
       <point x="-456" y="-450" type="curve" smooth="yes"/>

@@ -2,8 +2,8 @@
 <glyph name="ka" format="2">
   <advance width="1266"/>
   <unicode hex="0B95"/>
-  <anchor x="492" y="1" name="N"/>
-  <anchor x="492" y="1082" name="V"/>
+  <anchor x="522" y="7" name="N"/>
+  <anchor x="522" y="1075" name="V"/>
   <outline>
     <contour>
       <point x="654" y="543" type="curve"/>

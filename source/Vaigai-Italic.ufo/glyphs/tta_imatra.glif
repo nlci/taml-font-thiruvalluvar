@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tta_imatra" format="2">
   <advance width="640"/>
-  <anchor x="191" y="0" name="N"/>
-  <anchor x="442" y="526" name="V"/>
+  <anchor x="189" y="0" name="N"/>
+  <anchor x="429" y="525" name="V"/>
   <outline>
     <contour>
       <point x="431" y="450" type="curve" smooth="yes"/>

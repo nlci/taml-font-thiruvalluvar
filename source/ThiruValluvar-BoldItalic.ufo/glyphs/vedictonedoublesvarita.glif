@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vedictonedoublesvarita" format="2">
   <unicode hex="1CDA"/>
-  <anchor x="-312" y="1571" name="_V"/>
+  <anchor x="-312" y="1581" name="_V"/>
   <outline>
     <contour>
       <point x="-178" y="1571" type="line"/>

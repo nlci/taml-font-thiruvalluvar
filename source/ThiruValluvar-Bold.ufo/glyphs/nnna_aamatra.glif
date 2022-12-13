@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnna_aamatra" format="2">
   <advance width="2837"/>
-  <anchor x="922" y="0" name="N"/>
-  <anchor x="922" y="1082" name="V"/>
+  <anchor x="928" y="0" name="N"/>
+  <anchor x="928" y="1075" name="V"/>
   <outline>
     <component base="nnna"/>
     <component base="aamatra" xOffset="1964"/>

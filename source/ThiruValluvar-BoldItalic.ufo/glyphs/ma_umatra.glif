@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ma_umatra" format="2">
   <advance width="1655"/>
-  <anchor x="803" y="-441" name="N"/>
-  <anchor x="778" y="1082" name="V"/>
+  <anchor x="636" y="-453" name="N"/>
+  <anchor x="694" y="1075" name="V"/>
   <outline>
     <contour>
       <point x="1278" y="922" type="curve" smooth="yes"/>

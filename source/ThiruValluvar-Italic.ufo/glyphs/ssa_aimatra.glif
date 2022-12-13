@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ssa_aimatra" format="2">
   <advance width="2908"/>
-  <anchor x="1232" y="0" name="N"/>
-  <anchor x="1232" y="1075" name="V"/>
+  <anchor x="979" y="0" name="N"/>
+  <anchor x="1207" y="1075" name="V"/>
   <outline>
     <contour>
       <point x="2502" y="72" type="curve" smooth="yes"/>

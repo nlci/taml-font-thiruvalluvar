@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ra_virama" format="2">
   <advance width="425"/>
-  <anchor x="302" y="-104" name="N"/>
+  <anchor x="149" y="-140" name="N"/>
   <outline>
     <contour>
       <point x="290" y="525" type="curve" smooth="yes"/>

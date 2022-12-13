@@ -15,6 +15,7 @@ ChangeLog
 (This should list both major and minor changes, most recent first.)
 
 unreleased
+- Improved positioning of nuktas in the italic faces
 - Increase line spacing for IRU fonts
 - Use lighter weight Latin; Gentium at 90% for ThiruValluvar and Auvaiyar, Charis at 80% for Vaigai
 - Improve width of spaces

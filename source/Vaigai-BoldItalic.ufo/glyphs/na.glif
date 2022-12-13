@@ -2,8 +2,8 @@
 <glyph name="na" format="2">
   <advance width="597"/>
   <unicode hex="0BA8"/>
-  <anchor x="388" y="-112" name="N"/>
-  <anchor x="388" y="523" name="V"/>
+  <anchor x="205" y="-250" name="N"/>
+  <anchor x="369" y="525" name="V"/>
   <outline>
     <contour>
       <point x="406" y="277" type="curve" smooth="yes"/>

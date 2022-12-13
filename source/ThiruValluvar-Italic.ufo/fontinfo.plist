@@ -18,12 +18,10 @@ with Reserved Font Names "Charis" and "SIL".
   <integer>-714</integer>
   <key>familyName</key>
   <string>ThiruValluvar</string>
-  <key>guidelines</key>
-  <array/>
   <key>italicAngle</key>
   <integer>-12</integer>
   <key>openTypeHeadCreated</key>
-  <string>2022/12/07 16:41:08</string>
+  <string>2022/12/13 05:10:06</string>
   <key>openTypeHheaAscender</key>
   <integer>1975</integer>
   <key>openTypeHheaDescender</key>
@@ -238,14 +236,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <integer>1975</integer>
   <key>openTypeOS2WinDescent</key>
   <integer>714</integer>
-  <key>postscriptBlueValues</key>
-  <array/>
   <key>postscriptFontName</key>
   <string>ThiruValluvar-Italic</string>
   <key>postscriptFullName</key>
   <string>ThiruValluvar Italic</string>
-  <key>postscriptOtherBlues</key>
-  <array/>
   <key>postscriptStemSnapH</key>
   <array/>
   <key>postscriptStemSnapV</key>

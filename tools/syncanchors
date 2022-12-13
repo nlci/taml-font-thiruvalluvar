@@ -1,0 +1,20 @@
+#!/bin/bash
+
+export nlci=$HOME/script/tools
+ca="$nlci/copyanchors.py -l $nlci/anchors.json"
+
+pushd source
+
+$ca    ThiruValluvar-Regular.ufo ThiruValluvar-Bold.ufo
+$ca -i ThiruValluvar-Regular.ufo ThiruValluvar-Italic.ufo
+$ca -i ThiruValluvar-Regular.ufo ThiruValluvar-BoldItalic.ufo
+
+$ca    Vaigai-Regular.ufo Vaigai-Bold.ufo
+$ca -i Vaigai-Regular.ufo Vaigai-Italic.ufo
+$ca -i Vaigai-Regular.ufo Vaigai-BoldItalic.ufo
+
+$ca    Auvaiyar-Regular.ufo Auvaiyar-Bold.ufo
+$ca -i Auvaiyar-Regular.ufo Auvaiyar-Italic.ufo
+$ca -i Auvaiyar-Regular.ufo Auvaiyar-BoldItalic.ufo
+
+popd

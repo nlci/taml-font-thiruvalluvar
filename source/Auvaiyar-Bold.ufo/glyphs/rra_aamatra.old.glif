@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rra_aamatra.old" format="2">
   <advance width="810"/>
-  <anchor x="250" y="-94" name="N"/>
+  <anchor x="250" y="-95" name="N"/>
   <anchor x="250" y="525" name="V"/>
   <outline>
     <contour>

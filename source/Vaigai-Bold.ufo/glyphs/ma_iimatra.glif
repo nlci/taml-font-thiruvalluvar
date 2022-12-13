@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ma_iimatra" format="2">
   <advance width="611"/>
-  <anchor x="254" y="-3" name="N"/>
-  <anchor x="254" y="685" name="V"/>
+  <anchor x="228" y="0" name="N"/>
+  <anchor x="228" y="525" name="V"/>
   <outline>
     <contour>
       <point x="433" y="742" type="curve" smooth="yes"/>

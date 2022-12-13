@@ -2,7 +2,7 @@
 <glyph name="aimatra" format="2">
   <advance width="951"/>
   <unicode hex="0BC8"/>
-  <anchor x="466" y="0" name="N"/>
+  <anchor x="422" y="0" name="N"/>
   <outline>
     <contour>
       <point x="133" y="60" type="curve" smooth="yes"/>

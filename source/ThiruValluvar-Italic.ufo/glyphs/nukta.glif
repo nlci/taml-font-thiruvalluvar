@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nukta" format="2">
   <unicode hex="1133C"/>
-  <anchor x="-785" y="-648" name="N"/>
-  <anchor x="-785" y="-608" name="_N"/>
+  <anchor x="-807" y="-648" name="N"/>
+  <anchor x="-798" y="-608" name="_N"/>
   <outline>
     <contour>
       <point x="-771" y="-543" type="curve" smooth="yes"/>

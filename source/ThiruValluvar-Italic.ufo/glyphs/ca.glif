@@ -2,8 +2,8 @@
 <glyph name="ca" format="2">
   <advance width="1065"/>
   <unicode hex="0B9A"/>
-  <anchor x="776" y="133" name="N"/>
-  <anchor x="776" y="1075" name="V"/>
+  <anchor x="523" y="8" name="N"/>
+  <anchor x="750" y="1075" name="V"/>
   <outline>
     <contour>
       <point x="53" y="210" type="curve" smooth="yes"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lla_aimatra.old" format="2">
   <advance width="2427"/>
-  <anchor x="1038" y="0" name="N"/>
-  <anchor x="1038" y="1075" name="V"/>
+  <anchor x="784" y="0" name="N"/>
+  <anchor x="1012" y="1075" name="V"/>
   <outline>
     <component base="la.old"/>
     <component base="aulengthmark" xOffset="727"/>

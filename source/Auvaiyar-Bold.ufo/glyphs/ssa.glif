@@ -2,7 +2,7 @@
 <glyph name="ssa" format="2">
   <advance width="985"/>
   <unicode hex="0BB7"/>
-  <anchor x="460" y="-209" name="N"/>
+  <anchor x="460" y="-192" name="N"/>
   <anchor x="460" y="525" name="V"/>
   <outline>
     <contour>

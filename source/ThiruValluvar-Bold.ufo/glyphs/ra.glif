@@ -2,8 +2,8 @@
 <glyph name="ra" format="2">
   <advance width="877"/>
   <unicode hex="0BB0"/>
-  <anchor x="379" y="-192" name="N"/>
-  <anchor x="379" y="1082" name="V"/>
+  <anchor x="364" y="-191" name="N"/>
+  <anchor x="364" y="1075" name="V"/>
   <outline>
     <contour>
       <point x="672" y="828" type="line"/>

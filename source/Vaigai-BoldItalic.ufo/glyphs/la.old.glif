@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="la.old" format="2">
   <advance width="355"/>
-  <anchor x="468" y="-3" name="N"/>
-  <anchor x="468" y="694" name="V"/>
+  <anchor x="358" y="0" name="N"/>
+  <anchor x="469" y="525" name="V"/>
   <outline>
     <contour>
       <point x="154" y="67" type="curve" smooth="yes"/>

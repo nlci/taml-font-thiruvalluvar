@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nukta.dotdbl" format="2">
   <anchor x="-316" y="-229" name="N"/>
-  <anchor x="-316" y="-174" name="_N"/>
+  <anchor x="-305" y="-174" name="_N"/>
   <outline>
     <contour>
       <point x="-454" y="-286" type="curve" smooth="yes"/>

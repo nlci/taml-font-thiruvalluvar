@@ -2,8 +2,8 @@
 <glyph name="ta" format="2">
   <advance width="668"/>
   <unicode hex="0BA4"/>
-  <anchor x="433" y="-93" name="N"/>
-  <anchor x="433" y="525" name="V"/>
+  <anchor x="290" y="-95" name="N"/>
+  <anchor x="421" y="525" name="V"/>
   <outline>
     <contour>
       <point x="422" y="286" type="curve"/>

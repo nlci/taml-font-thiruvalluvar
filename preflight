@@ -2,11 +2,10 @@
 
 for ufo in source/*.ufo
 do
-    psfnormalize -v 3 -p checkfix=fix $ufo &
+    psfnormalize -v 3 -p checkfix=fix $ufo
     psfbuildcomp -c -i source/composites.txt $ufo
     psfmakefea -o $ufo/features.fea -i source/master.feax -L last $ufo
 done
-wait
 
 faces="Auvaiyar Vaigai ThiruValluvar"
 for face in $faces

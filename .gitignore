@@ -4,10 +4,15 @@
 
 # workflow
 .smithrc
+cs
 dev/
 graide/
+manual_aps/
 references/Noto*
+source/archive/unhinted/
 source/copyglyphs/
+source/pysilfont.cfg
+source/*Regular.designspace
 tests/generated/
 
 # smith

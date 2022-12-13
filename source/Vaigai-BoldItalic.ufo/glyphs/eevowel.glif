@@ -2,8 +2,8 @@
 <glyph name="eevowel" format="2">
   <advance width="636"/>
   <unicode hex="0B8F"/>
-  <anchor x="334" y="-139" name="N"/>
-  <anchor x="334" y="523" name="V"/>
+  <anchor x="241" y="-140" name="N"/>
+  <anchor x="381" y="525" name="V"/>
   <outline>
     <contour>
       <point x="32" y="132" type="curve" smooth="yes"/>

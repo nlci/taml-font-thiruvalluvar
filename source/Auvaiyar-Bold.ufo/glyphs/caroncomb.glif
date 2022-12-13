@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caroncomb" format="2">
   <unicode hex="030C"/>
-  <anchor x="-242" y="612" name="V"/>
+  <anchor x="-234" y="604" name="V"/>
   <anchor x="-240" y="461" name="_U"/>
-  <anchor x="-242" y="408" name="_V"/>
+  <anchor x="-234" y="413" name="_V"/>
   <outline>
     <contour>
       <point x="-207" y="460" type="line"/>

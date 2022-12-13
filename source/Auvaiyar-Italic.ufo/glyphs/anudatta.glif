@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="anudatta" format="2">
   <unicode hex="0952"/>
-  <anchor x="-414" y="0" name="_N"/>
+  <anchor x="-350" y="0" name="_N"/>
   <outline>
     <contour>
       <point x="-176" y="-359" type="line"/>

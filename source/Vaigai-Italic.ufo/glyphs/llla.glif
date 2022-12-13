@@ -2,8 +2,8 @@
 <glyph name="llla" format="2">
   <advance width="605"/>
   <unicode hex="0BB4"/>
-  <anchor x="352" y="-201" name="N"/>
-  <anchor x="352" y="526" name="V"/>
+  <anchor x="175" y="-250" name="N"/>
+  <anchor x="339" y="525" name="V"/>
   <outline>
     <contour>
       <point x="560" y="297" type="curve" smooth="yes"/>

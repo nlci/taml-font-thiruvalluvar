@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="llla_imatra" format="2">
   <advance width="799"/>
-  <anchor x="474" y="-196" name="N"/>
-  <anchor x="474" y="525" name="V"/>
+  <anchor x="303" y="-224" name="N"/>
+  <anchor x="461" y="525" name="V"/>
   <outline>
     <contour>
       <point x="327" y="43" type="curve"/>
