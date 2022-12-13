@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bindu" format="2">
   <unicode hex="1133B"/>
-  <anchor x="-785" y="-648" name="N"/>
-  <anchor x="-785" y="-608" name="_N"/>
+  <anchor x="-785" y="-175" name="N"/>
+  <anchor x="-785" y="-135" name="_N"/>
   <outline>
     <component base="nukta"/>
   </outline>

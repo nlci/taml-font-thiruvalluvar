@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nukta.dot" format="2">
-  <anchor x="-646" y="-471" name="N"/>
-  <anchor x="-623" y="-357" name="_N"/>
+  <anchor x="-646" y="-136" name="N"/>
+  <anchor x="-623" y="-22" name="_N"/>
   <outline>
     <contour>
-      <point x="-530" y="-547" type="curve" smooth="yes"/>
-      <point x="-530" y="-500"/>
-      <point x="-563" y="-446"/>
-      <point x="-633" y="-446" type="curve" smooth="yes"/>
-      <point x="-713" y="-446"/>
-      <point x="-788" y="-525"/>
-      <point x="-788" y="-598" type="curve" smooth="yes"/>
-      <point x="-788" y="-636"/>
-      <point x="-759" y="-697"/>
-      <point x="-686" y="-697" type="curve" smooth="yes"/>
-      <point x="-607" y="-697"/>
-      <point x="-530" y="-623"/>
+      <point x="-530" y="-212" type="curve" smooth="yes"/>
+      <point x="-530" y="-166"/>
+      <point x="-563" y="-112"/>
+      <point x="-633" y="-112" type="curve" smooth="yes"/>
+      <point x="-713" y="-112"/>
+      <point x="-788" y="-190"/>
+      <point x="-788" y="-264" type="curve" smooth="yes"/>
+      <point x="-788" y="-302"/>
+      <point x="-759" y="-362"/>
+      <point x="-686" y="-362" type="curve" smooth="yes"/>
+      <point x="-607" y="-362"/>
+      <point x="-530" y="-288"/>
     </contour>
   </outline>
 </glyph>
