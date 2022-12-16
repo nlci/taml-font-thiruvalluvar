@@ -17,6 +17,7 @@ ChangeLog
 16 Dec 2022 (Dev NLCI) NLCI Tamil fonts version 0.800
 - Make cv01 work in OpenType
 - Improved positioning of nuktas in the italic faces
+- Bold and Italic nuktas (in ThiruValluvar only for now)
 - Increase line spacing for IRU fonts
 - Use lighter weight Latin; Gentium at 90% for ThiruValluvar and Auvaiyar, Charis at 80% for Vaigai
 - Improve width of spaces
