@@ -8,7 +8,6 @@ languagesystem tml2 CTT ;
 
 # GSUB
 
-
 # For debugging the string "RenderingUnknown" will be rendered as "RenderingOpenType"
 # if the app is using OpenType to render the text.
 lookup FontCheck_Unknow {
@@ -127,7 +126,9 @@ lookup uuMatras {
 
 lookup cv01 {
   lookupflag 0;
+    sub nukta from [nukta.dotdbl nukta.dot nukta.ringdbl];
     sub bindu from [nukta.dotdbl nukta.dot nukta.ringdbl];
+    sub dotbelowcomb from [nukta.dotdbl nukta.dot nukta.ringdbl];
 } cv01;
 
 feature ccmp {
@@ -185,22 +186,21 @@ feature cv01 {
       language CTT;
 } cv01;
 
-feature ss01 {
-    script tml2;
-      featureNames { name 3 1 0x409 "Double ring" ; };
-      lookup NuktaIRU;
-      language IRU;
-} ss01;
+# feature ss01 {
+#     script tml2;
+#       featureNames { name 3 1 0x409 "Double ring" ; };
+#       lookup NuktaIRU;
+#       language IRU;
+# } ss01;
 
-feature ss02 {
-    script tml2;
-      featureNames { name 3 1 0x409 "Single dot" ; };
-      lookup NuktaCTT;
-      language CTT;
-} ss02;
+# feature ss02 {
+#     script tml2;
+#       featureNames { name 3 1 0x409 "Single dot" ; };
+#       lookup NuktaCTT;
+#       language CTT;
+# } ss02;
 
 # GPOS
-
 
 lookup ViramaMarks {
   lookupflag 0;
