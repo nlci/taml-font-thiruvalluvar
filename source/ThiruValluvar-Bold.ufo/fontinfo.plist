@@ -145,7 +145,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>NLCI: ThiruValluvar Bold: 2022</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.800</string>
+  <string>Version 0.801</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -257,7 +257,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>800</integer>
+  <integer>801</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>
