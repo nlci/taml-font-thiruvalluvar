@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1134</integer>
   <key>copyright</key>
-  <string>This Font Software is Copyright (c) 2009-2022, NLCI (http://www.nlci.in/fonts/)
+  <string>This Font Software is Copyright (c) 2009-2023, NLCI (http://www.nlci.in/fonts/)
 with Reserved Font Names "ThiruValluvar" and "Auvaiyar" and "Vaigai" and "NLCI".
 Latin glyphs in ThiruValluvar and Auvaiyar are Copyright (c) 2003-2019, SIL International (http://www.sil.org/)
 with Reserved Font Names "Gentium" and "SIL".
@@ -19,7 +19,7 @@ with Reserved Font Names "Charis" and "SIL".
   <key>familyName</key>
   <string>ThiruValluvar</string>
   <key>openTypeHeadCreated</key>
-  <string>2022/12/13 10:40:47</string>
+  <string>2023/01/11 13:08:11</string>
   <key>openTypeHheaAscender</key>
   <integer>1975</integer>
   <key>openTypeHheaDescender</key>
@@ -33,7 +33,7 @@ with Reserved Font Names "Charis" and "SIL".
   <key>openTypeNameDesignerURL</key>
   <string>http://www.nlci.in/fonts/</string>
   <key>openTypeNameLicense</key>
-  <string>This Font Software is Copyright (c) 2009-2022, NLCI (http://www.nlci.in/fonts/)
+  <string>This Font Software is Copyright (c) 2009-2023, NLCI (http://www.nlci.in/fonts/)
 with Reserved Font Names "ThiruValluvar" and "Auvaiyar" and "Vaigai" and "NLCI".
 Latin glyphs in ThiruValluvar and Auvaiyar are Copyright (c) 2003-2019, SIL International (http://www.sil.org/)
 with Reserved Font Names "Gentium" and "SIL".
@@ -143,7 +143,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>NLCI: ThiruValluvar Regular: 2022</string>
+  <string>NLCI: ThiruValluvar Regular: 2023</string>
   <key>openTypeNameVersion</key>
   <string>Version 0.801</string>
   <key>openTypeOS2CodePageRanges</key>
