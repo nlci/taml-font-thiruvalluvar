@@ -31,6 +31,7 @@ langinfo = {
     # 'xuj' : 'JK',  # Jennu Kurumba
     'iru' : 'IRU',  # Irula
     'ctt' : 'CTT',  # Chetti
+    # 'bad' : 'BDG',  # Badaga
 }
 
 line_spacing_info = {

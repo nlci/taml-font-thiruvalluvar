@@ -336,6 +336,7 @@ markClass cedillacomb <anchor -461 0> @_H;
 languagesystem DFLT dflt;
 languagesystem tml2 dflt;
 languagesystem tml2 TAM;
+languagesystem tml2 BAD;
 languagesystem tml2 XUB;
 languagesystem tml2 XUJ;
 languagesystem tml2 IRU;
@@ -372,6 +373,12 @@ lookup NuktaCTT {
     sub dotbelowcomb by nukta.dot;
 } NuktaCTT;
 
+# lookup NuktaBDG {
+#   lookupflag 0;
+#     sub nukta by nukta.dotdbl;
+#     sub bindu by nukta.dotdbl;
+#     sub dotbelowcomb by nukta.dotdbl;
+# } NuktaBDG;
 lookup Akhands {
     lookupflag 0;
     sub ka virama ssa by ka_ssa;
@@ -543,11 +550,20 @@ feature ccmp {
 } ccmp;
 
 feature locl {
-    script tml2;
-    language IRU exclude_dflt;
+    script DFLT;
+    language IRU;
     lookup NuktaIRU;
-    language CTT exclude_dflt;
+    language CTT;
     lookup NuktaCTT;
+    # language BAD;
+    #     lookup NuktaBDG;
+    script tml2;
+    language IRU;
+    lookup NuktaIRU;
+    language CTT;
+    lookup NuktaCTT;
+    # language BAD;
+    #     lookup NuktaBDG;
 } locl;
 
 # feature nukt {
