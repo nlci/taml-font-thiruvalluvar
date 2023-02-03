@@ -40,6 +40,296 @@
       <string>RenderingUnknown</string>
     </test>
   </testgroup>
+  <testgroup label="Nukta codepoints">
+    <test label="line 1">
+      <comment>n=0323 v=0307</comment>
+      <string>\u0b95\u0bc6\u000323 \u0b95\u000323\u0bc6 \u0b95\u000323\u0bc6\u000323</string>
+    </test>
+    <test label="line 1">
+      <comment>n=0323 v=0B82</comment>
+      <string>\u0b95\u0bc6\u000323 \u0b95\u000323\u0bc6 \u0b95\u000323\u0bc6\u000323</string>
+    </test>
+    <test label="line 1">
+      <comment>n=0323 v=0BCD</comment>
+      <string>\u0b95\u0bc6\u000323 \u0b95\u000323\u0bc6 \u0b95\u000323\u0bc6\u000323</string>
+    </test>
+    <test label="line 1">
+      <comment>n=1133B v=0307</comment>
+      <string>\u0b95\u0bc6\u01133B \u0b95\u01133B\u0bc6 \u0b95\u01133B\u0bc6\u01133B</string>
+    </test>
+    <test label="line 1">
+      <comment>n=1133B v=0B82</comment>
+      <string>\u0b95\u0bc6\u01133B \u0b95\u01133B\u0bc6 \u0b95\u01133B\u0bc6\u01133B</string>
+    </test>
+    <test label="line 1">
+      <comment>n=1133B v=0BCD</comment>
+      <string>\u0b95\u0bc6\u01133B \u0b95\u01133B\u0bc6 \u0b95\u01133B\u0bc6\u01133B</string>
+    </test>
+    <test label="line 1">
+      <comment>n=1133C v=0307</comment>
+      <string>\u0b95\u0bc6\u01133C \u0b95\u01133C\u0bc6 \u0b95\u01133C\u0bc6\u01133C</string>
+    </test>
+    <test label="line 1">
+      <comment>n=1133C v=0B82</comment>
+      <string>\u0b95\u0bc6\u01133C \u0b95\u01133C\u0bc6 \u0b95\u01133C\u0bc6\u01133C</string>
+    </test>
+    <test label="line 1">
+      <comment>n=1133C v=0BCD</comment>
+      <string>\u0b95\u0bc6\u01133C \u0b95\u01133C\u0bc6 \u0b95\u01133C\u0bc6\u01133C</string>
+    </test>
+    <test label="line 2">
+      <comment>n=0323 v=0307</comment>
+      <string>\u0ba4\u000323\u000307\u0b95\u000323\u0bbe\u0b95\u0bbf\u000323\u0b9e\u0bc1\u000323\u0b95\u0bc1\u000323\u000307\u0b95\u0bc1\u000323</string>
+    </test>
+    <test label="line 2">
+      <comment>n=0323 v=0B82</comment>
+      <string>\u0ba4\u000323\u000B82\u0b95\u000323\u0bbe\u0b95\u0bbf\u000323\u0b9e\u0bc1\u000323\u0b95\u0bc1\u000323\u000B82\u0b95\u0bc1\u000323</string>
+    </test>
+    <test label="line 2">
+      <comment>n=0323 v=0BCD</comment>
+      <string>\u0ba4\u000323\u000BCD\u0b95\u000323\u0bbe\u0b95\u0bbf\u000323\u0b9e\u0bc1\u000323\u0b95\u0bc1\u000323\u000BCD\u0b95\u0bc1\u000323</string>
+    </test>
+    <test label="line 2">
+      <comment>n=1133B v=0307</comment>
+      <string>\u0ba4\u01133B\u000307\u0b95\u01133B\u0bbe\u0b95\u0bbf\u01133B\u0b9e\u0bc1\u01133B\u0b95\u0bc1\u01133B\u000307\u0b95\u0bc1\u01133B</string>
+    </test>
+    <test label="line 2">
+      <comment>n=1133B v=0B82</comment>
+      <string>\u0ba4\u01133B\u000B82\u0b95\u01133B\u0bbe\u0b95\u0bbf\u01133B\u0b9e\u0bc1\u01133B\u0b95\u0bc1\u01133B\u000B82\u0b95\u0bc1\u01133B</string>
+    </test>
+    <test label="line 2">
+      <comment>n=1133B v=0BCD</comment>
+      <string>\u0ba4\u01133B\u000BCD\u0b95\u01133B\u0bbe\u0b95\u0bbf\u01133B\u0b9e\u0bc1\u01133B\u0b95\u0bc1\u01133B\u000BCD\u0b95\u0bc1\u01133B</string>
+    </test>
+    <test label="line 2">
+      <comment>n=1133C v=0307</comment>
+      <string>\u0ba4\u01133C\u000307\u0b95\u01133C\u0bbe\u0b95\u0bbf\u01133C\u0b9e\u0bc1\u01133C\u0b95\u0bc1\u01133C\u000307\u0b95\u0bc1\u01133C</string>
+    </test>
+    <test label="line 2">
+      <comment>n=1133C v=0B82</comment>
+      <string>\u0ba4\u01133C\u000B82\u0b95\u01133C\u0bbe\u0b95\u0bbf\u01133C\u0b9e\u0bc1\u01133C\u0b95\u0bc1\u01133C\u000B82\u0b95\u0bc1\u01133C</string>
+    </test>
+    <test label="line 2">
+      <comment>n=1133C v=0BCD</comment>
+      <string>\u0ba4\u01133C\u000BCD\u0b95\u01133C\u0bbe\u0b95\u0bbf\u01133C\u0b9e\u0bc1\u01133C\u0b95\u0bc1\u01133C\u000BCD\u0b95\u0bc1\u01133C</string>
+    </test>
+    <test label="line 4">
+      <comment>n=0323 v=0307</comment>
+      <string>\u0b95\u0bc1\u0bae\u000307\u0baa\u000323\u0bc6\u000323\u0b9f\u000323\u0bc6\u000323\u0b95\u000323\u0bae\u000307\u0baa\u0bc6\u000323\u0ba4\u0bc6\u000323</string>
+    </test>
+    <test label="line 4">
+      <comment>n=0323 v=0B82</comment>
+      <string>\u0b95\u0bc1\u0bae\u000B82\u0baa\u000323\u0bc6\u000323\u0b9f\u000323\u0bc6\u000323\u0b95\u000323\u0bae\u000B82\u0baa\u0bc6\u000323\u0ba4\u0bc6\u000323</string>
+    </test>
+    <test label="line 4">
+      <comment>n=0323 v=0BCD</comment>
+      <string>\u0b95\u0bc1\u0bae\u000BCD\u0baa\u000323\u0bc6\u000323\u0b9f\u000323\u0bc6\u000323\u0b95\u000323\u0bae\u000BCD\u0baa\u0bc6\u000323\u0ba4\u0bc6\u000323</string>
+    </test>
+    <test label="line 4">
+      <comment>n=1133B v=0307</comment>
+      <string>\u0b95\u0bc1\u0bae\u000307\u0baa\u01133B\u0bc6\u01133B\u0b9f\u01133B\u0bc6\u01133B\u0b95\u01133B\u0bae\u000307\u0baa\u0bc6\u01133B\u0ba4\u0bc6\u01133B</string>
+    </test>
+    <test label="line 4">
+      <comment>n=1133B v=0B82</comment>
+      <string>\u0b95\u0bc1\u0bae\u000B82\u0baa\u01133B\u0bc6\u01133B\u0b9f\u01133B\u0bc6\u01133B\u0b95\u01133B\u0bae\u000B82\u0baa\u0bc6\u01133B\u0ba4\u0bc6\u01133B</string>
+    </test>
+    <test label="line 4">
+      <comment>n=1133B v=0BCD</comment>
+      <string>\u0b95\u0bc1\u0bae\u000BCD\u0baa\u01133B\u0bc6\u01133B\u0b9f\u01133B\u0bc6\u01133B\u0b95\u01133B\u0bae\u000BCD\u0baa\u0bc6\u01133B\u0ba4\u0bc6\u01133B</string>
+    </test>
+    <test label="line 4">
+      <comment>n=1133C v=0307</comment>
+      <string>\u0b95\u0bc1\u0bae\u000307\u0baa\u01133C\u0bc6\u01133C\u0b9f\u01133C\u0bc6\u01133C\u0b95\u01133C\u0bae\u000307\u0baa\u0bc6\u01133C\u0ba4\u0bc6\u01133C</string>
+    </test>
+    <test label="line 4">
+      <comment>n=1133C v=0B82</comment>
+      <string>\u0b95\u0bc1\u0bae\u000B82\u0baa\u01133C\u0bc6\u01133C\u0b9f\u01133C\u0bc6\u01133C\u0b95\u01133C\u0bae\u000B82\u0baa\u0bc6\u01133C\u0ba4\u0bc6\u01133C</string>
+    </test>
+    <test label="line 4">
+      <comment>n=1133C v=0BCD</comment>
+      <string>\u0b95\u0bc1\u0bae\u000BCD\u0baa\u01133C\u0bc6\u01133C\u0b9f\u01133C\u0bc6\u01133C\u0b95\u01133C\u0bae\u000BCD\u0baa\u0bc6\u01133C\u0ba4\u0bc6\u01133C</string>
+    </test>
+    <test label="line 5">
+      <comment>n=0323 v=0307</comment>
+      <string>\u0b95\u0bc1\u0baf\u000307\u0bb0\u000307\u0b95\u0bc6\u000323\u0bc1\u0baf\u000307\u0bb0\u000307\u0b95\u000323\u0bc6\u000323\u0ba9\u0bbe\u0b9f\u000323\u0bc6\u000323 \u0ba4\u0bc6\u000323\u0baa\u000323\u0bc6\u000323</string>
+    </test>
+    <test label="line 5">
+      <comment>n=0323 v=0B82</comment>
+      <string>\u0b95\u0bc1\u0baf\u000B82\u0bb0\u000B82\u0b95\u0bc6\u000323\u0bc1\u0baf\u000B82\u0bb0\u000B82\u0b95\u000323\u0bc6\u000323\u0ba9\u0bbe\u0b9f\u000323\u0bc6\u000323 \u0ba4\u0bc6\u000323\u0baa\u000323\u0bc6\u000323</string>
+    </test>
+    <test label="line 5">
+      <comment>n=0323 v=0BCD</comment>
+      <string>\u0b95\u0bc1\u0baf\u000BCD\u0bb0\u000BCD\u0b95\u0bc6\u000323\u0bc1\u0baf\u000BCD\u0bb0\u000BCD\u0b95\u000323\u0bc6\u000323\u0ba9\u0bbe\u0b9f\u000323\u0bc6\u000323 \u0ba4\u0bc6\u000323\u0baa\u000323\u0bc6\u000323</string>
+    </test>
+    <test label="line 5">
+      <comment>n=1133B v=0307</comment>
+      <string>\u0b95\u0bc1\u0baf\u000307\u0bb0\u000307\u0b95\u0bc6\u01133B\u0bc1\u0baf\u000307\u0bb0\u000307\u0b95\u01133B\u0bc6\u01133B\u0ba9\u0bbe\u0b9f\u01133B\u0bc6\u01133B \u0ba4\u0bc6\u01133B\u0baa\u01133B\u0bc6\u01133B</string>
+    </test>
+    <test label="line 5">
+      <comment>n=1133B v=0B82</comment>
+      <string>\u0b95\u0bc1\u0baf\u000B82\u0bb0\u000B82\u0b95\u0bc6\u01133B\u0bc1\u0baf\u000B82\u0bb0\u000B82\u0b95\u01133B\u0bc6\u01133B\u0ba9\u0bbe\u0b9f\u01133B\u0bc6\u01133B \u0ba4\u0bc6\u01133B\u0baa\u01133B\u0bc6\u01133B</string>
+    </test>
+    <test label="line 5">
+      <comment>n=1133B v=0BCD</comment>
+      <string>\u0b95\u0bc1\u0baf\u000BCD\u0bb0\u000BCD\u0b95\u0bc6\u01133B\u0bc1\u0baf\u000BCD\u0bb0\u000BCD\u0b95\u01133B\u0bc6\u01133B\u0ba9\u0bbe\u0b9f\u01133B\u0bc6\u01133B \u0ba4\u0bc6\u01133B\u0baa\u01133B\u0bc6\u01133B</string>
+    </test>
+    <test label="line 5">
+      <comment>n=1133C v=0307</comment>
+      <string>\u0b95\u0bc1\u0baf\u000307\u0bb0\u000307\u0b95\u0bc6\u01133C\u0bc1\u0baf\u000307\u0bb0\u000307\u0b95\u01133C\u0bc6\u01133C\u0ba9\u0bbe\u0b9f\u01133C\u0bc6\u01133C \u0ba4\u0bc6\u01133C\u0baa\u01133C\u0bc6\u01133C</string>
+    </test>
+    <test label="line 5">
+      <comment>n=1133C v=0B82</comment>
+      <string>\u0b95\u0bc1\u0baf\u000B82\u0bb0\u000B82\u0b95\u0bc6\u01133C\u0bc1\u0baf\u000B82\u0bb0\u000B82\u0b95\u01133C\u0bc6\u01133C\u0ba9\u0bbe\u0b9f\u01133C\u0bc6\u01133C \u0ba4\u0bc6\u01133C\u0baa\u01133C\u0bc6\u01133C</string>
+    </test>
+    <test label="line 5">
+      <comment>n=1133C v=0BCD</comment>
+      <string>\u0b95\u0bc1\u0baf\u000BCD\u0bb0\u000BCD\u0b95\u0bc6\u01133C\u0bc1\u0baf\u000BCD\u0bb0\u000BCD\u0b95\u01133C\u0bc6\u01133C\u0ba9\u0bbe\u0b9f\u01133C\u0bc6\u01133C \u0ba4\u0bc6\u01133C\u0baa\u01133C\u0bc6\u01133C</string>
+    </test>
+    <test label="line 6">
+      <comment>n=0323 v=0307</comment>
+      <string>\u0b9f\u0bbf\u000323 \u0b9f\u0bc1\u000323 \u0b9f\u0bc2\u000323 \u0ba4\u0bc1\u000323 \u0ba4\u0bc2\u000323\u0bae\u000307\u0baa\u0bc1\u000307\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
+    </test>
+    <test label="line 6">
+      <comment>n=0323 v=0B82</comment>
+      <string>\u0b9f\u0bbf\u000323 \u0b9f\u0bc1\u000323 \u0b9f\u0bc2\u000323 \u0ba4\u0bc1\u000323 \u0ba4\u0bc2\u000323\u0bae\u000B82\u0baa\u0bc1\u000B82\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
+    </test>
+    <test label="line 6">
+      <comment>n=0323 v=0BCD</comment>
+      <string>\u0b9f\u0bbf\u000323 \u0b9f\u0bc1\u000323 \u0b9f\u0bc2\u000323 \u0ba4\u0bc1\u000323 \u0ba4\u0bc2\u000323\u0bae\u000BCD\u0baa\u0bc1\u000BCD\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
+    </test>
+    <test label="line 6">
+      <comment>n=1133B v=0307</comment>
+      <string>\u0b9f\u0bbf\u01133B \u0b9f\u0bc1\u01133B \u0b9f\u0bc2\u01133B \u0ba4\u0bc1\u01133B \u0ba4\u0bc2\u01133B\u0bae\u000307\u0baa\u0bc1\u000307\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
+    </test>
+    <test label="line 6">
+      <comment>n=1133B v=0B82</comment>
+      <string>\u0b9f\u0bbf\u01133B \u0b9f\u0bc1\u01133B \u0b9f\u0bc2\u01133B \u0ba4\u0bc1\u01133B \u0ba4\u0bc2\u01133B\u0bae\u000B82\u0baa\u0bc1\u000B82\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
+    </test>
+    <test label="line 6">
+      <comment>n=1133B v=0BCD</comment>
+      <string>\u0b9f\u0bbf\u01133B \u0b9f\u0bc1\u01133B \u0b9f\u0bc2\u01133B \u0ba4\u0bc1\u01133B \u0ba4\u0bc2\u01133B\u0bae\u000BCD\u0baa\u0bc1\u000BCD\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
+    </test>
+    <test label="line 6">
+      <comment>n=1133C v=0307</comment>
+      <string>\u0b9f\u0bbf\u01133C \u0b9f\u0bc1\u01133C \u0b9f\u0bc2\u01133C \u0ba4\u0bc1\u01133C \u0ba4\u0bc2\u01133C\u0bae\u000307\u0baa\u0bc1\u000307\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
+    </test>
+    <test label="line 6">
+      <comment>n=1133C v=0B82</comment>
+      <string>\u0b9f\u0bbf\u01133C \u0b9f\u0bc1\u01133C \u0b9f\u0bc2\u01133C \u0ba4\u0bc1\u01133C \u0ba4\u0bc2\u01133C\u0bae\u000B82\u0baa\u0bc1\u000B82\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
+    </test>
+    <test label="line 6">
+      <comment>n=1133C v=0BCD</comment>
+      <string>\u0b9f\u0bbf\u01133C \u0b9f\u0bc1\u01133C \u0b9f\u0bc2\u01133C \u0ba4\u0bc1\u01133C \u0ba4\u0bc2\u01133C\u0bae\u000BCD\u0baa\u0bc1\u000BCD\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
+    </test>
+    <test label="line 7">
+      <comment>n=0323 v=0307</comment>
+      <string>\u0b95\u0bc1\u0bae\u000307\u0baa\u000323\u0bc6\u000323\u0b9f\u000323\u0bc6\u000323\u0b95\u000323\u0bae\u000307\u0baa\u0bc6\u000323\u0ba4\u0bc6\u000323</string>
+    </test>
+    <test label="line 7">
+      <comment>n=0323 v=0B82</comment>
+      <string>\u0b95\u0bc1\u0bae\u000B82\u0baa\u000323\u0bc6\u000323\u0b9f\u000323\u0bc6\u000323\u0b95\u000323\u0bae\u000B82\u0baa\u0bc6\u000323\u0ba4\u0bc6\u000323</string>
+    </test>
+    <test label="line 7">
+      <comment>n=0323 v=0BCD</comment>
+      <string>\u0b95\u0bc1\u0bae\u000BCD\u0baa\u000323\u0bc6\u000323\u0b9f\u000323\u0bc6\u000323\u0b95\u000323\u0bae\u000BCD\u0baa\u0bc6\u000323\u0ba4\u0bc6\u000323</string>
+    </test>
+    <test label="line 7">
+      <comment>n=1133B v=0307</comment>
+      <string>\u0b95\u0bc1\u0bae\u000307\u0baa\u01133B\u0bc6\u01133B\u0b9f\u01133B\u0bc6\u01133B\u0b95\u01133B\u0bae\u000307\u0baa\u0bc6\u01133B\u0ba4\u0bc6\u01133B</string>
+    </test>
+    <test label="line 7">
+      <comment>n=1133B v=0B82</comment>
+      <string>\u0b95\u0bc1\u0bae\u000B82\u0baa\u01133B\u0bc6\u01133B\u0b9f\u01133B\u0bc6\u01133B\u0b95\u01133B\u0bae\u000B82\u0baa\u0bc6\u01133B\u0ba4\u0bc6\u01133B</string>
+    </test>
+    <test label="line 7">
+      <comment>n=1133B v=0BCD</comment>
+      <string>\u0b95\u0bc1\u0bae\u000BCD\u0baa\u01133B\u0bc6\u01133B\u0b9f\u01133B\u0bc6\u01133B\u0b95\u01133B\u0bae\u000BCD\u0baa\u0bc6\u01133B\u0ba4\u0bc6\u01133B</string>
+    </test>
+    <test label="line 7">
+      <comment>n=1133C v=0307</comment>
+      <string>\u0b95\u0bc1\u0bae\u000307\u0baa\u01133C\u0bc6\u01133C\u0b9f\u01133C\u0bc6\u01133C\u0b95\u01133C\u0bae\u000307\u0baa\u0bc6\u01133C\u0ba4\u0bc6\u01133C</string>
+    </test>
+    <test label="line 7">
+      <comment>n=1133C v=0B82</comment>
+      <string>\u0b95\u0bc1\u0bae\u000B82\u0baa\u01133C\u0bc6\u01133C\u0b9f\u01133C\u0bc6\u01133C\u0b95\u01133C\u0bae\u000B82\u0baa\u0bc6\u01133C\u0ba4\u0bc6\u01133C</string>
+    </test>
+    <test label="line 7">
+      <comment>n=1133C v=0BCD</comment>
+      <string>\u0b95\u0bc1\u0bae\u000BCD\u0baa\u01133C\u0bc6\u01133C\u0b9f\u01133C\u0bc6\u01133C\u0b95\u01133C\u0bae\u000BCD\u0baa\u0bc6\u01133C\u0ba4\u0bc6\u01133C</string>
+    </test>
+    <test label="line 9">
+      <comment>n=0323 v=0307</comment>
+      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000307 \u0b85\u0b99\u000307\u0b95\u000323\u0b9f\u0bbf\u000323\u0b95\u0bc1\u000323\u000307 \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000307\u0b9f\u0bc1 \u0baa\u000323\u0ba8\u000307\u0ba4\u000323\u0bc6\u0ba9\u0bc1.</string>
+    </test>
+    <test label="line 9">
+      <comment>n=0323 v=0B82</comment>
+      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000B82 \u0b85\u0b99\u000B82\u0b95\u000323\u0b9f\u0bbf\u000323\u0b95\u0bc1\u000323\u000B82 \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000B82\u0b9f\u0bc1 \u0baa\u000323\u0ba8\u000B82\u0ba4\u000323\u0bc6\u0ba9\u0bc1.</string>
+    </test>
+    <test label="line 9">
+      <comment>n=0323 v=0BCD</comment>
+      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000BCD \u0b85\u0b99\u000BCD\u0b95\u000323\u0b9f\u0bbf\u000323\u0b95\u0bc1\u000323\u000BCD \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000BCD\u0b9f\u0bc1 \u0baa\u000323\u0ba8\u000BCD\u0ba4\u000323\u0bc6\u0ba9\u0bc1.</string>
+    </test>
+    <test label="line 9">
+      <comment>n=1133B v=0307</comment>
+      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000307 \u0b85\u0b99\u000307\u0b95\u01133B\u0b9f\u0bbf\u01133B\u0b95\u0bc1\u01133B\u000307 \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000307\u0b9f\u0bc1 \u0baa\u01133B\u0ba8\u000307\u0ba4\u01133B\u0bc6\u0ba9\u0bc1.</string>
+    </test>
+    <test label="line 9">
+      <comment>n=1133B v=0B82</comment>
+      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000B82 \u0b85\u0b99\u000B82\u0b95\u01133B\u0b9f\u0bbf\u01133B\u0b95\u0bc1\u01133B\u000B82 \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000B82\u0b9f\u0bc1 \u0baa\u01133B\u0ba8\u000B82\u0ba4\u01133B\u0bc6\u0ba9\u0bc1.</string>
+    </test>
+    <test label="line 9">
+      <comment>n=1133B v=0BCD</comment>
+      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000BCD \u0b85\u0b99\u000BCD\u0b95\u01133B\u0b9f\u0bbf\u01133B\u0b95\u0bc1\u01133B\u000BCD \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000BCD\u0b9f\u0bc1 \u0baa\u01133B\u0ba8\u000BCD\u0ba4\u01133B\u0bc6\u0ba9\u0bc1.</string>
+    </test>
+    <test label="line 9">
+      <comment>n=1133C v=0307</comment>
+      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000307 \u0b85\u0b99\u000307\u0b95\u01133C\u0b9f\u0bbf\u01133C\u0b95\u0bc1\u01133C\u000307 \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000307\u0b9f\u0bc1 \u0baa\u01133C\u0ba8\u000307\u0ba4\u01133C\u0bc6\u0ba9\u0bc1.</string>
+    </test>
+    <test label="line 9">
+      <comment>n=1133C v=0B82</comment>
+      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000B82 \u0b85\u0b99\u000B82\u0b95\u01133C\u0b9f\u0bbf\u01133C\u0b95\u0bc1\u01133C\u000B82 \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000B82\u0b9f\u0bc1 \u0baa\u01133C\u0ba8\u000B82\u0ba4\u01133C\u0bc6\u0ba9\u0bc1.</string>
+    </test>
+    <test label="line 9">
+      <comment>n=1133C v=0BCD</comment>
+      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000BCD \u0b85\u0b99\u000BCD\u0b95\u01133C\u0b9f\u0bbf\u01133C\u0b95\u0bc1\u01133C\u000BCD \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000BCD\u0b9f\u0bc1 \u0baa\u01133C\u0ba8\u000BCD\u0ba4\u01133C\u0bc6\u0ba9\u0bc1.</string>
+    </test>
+    <test label="line 10">
+      <comment>n=0323 v=0307</comment>
+      <string>I went to the shop and came back</string>
+    </test>
+    <test label="line 10">
+      <comment>n=0323 v=0B82</comment>
+      <string>I went to the shop and came back</string>
+    </test>
+    <test label="line 10">
+      <comment>n=0323 v=0BCD</comment>
+      <string>I went to the shop and came back</string>
+    </test>
+    <test label="line 10">
+      <comment>n=1133B v=0307</comment>
+      <string>I went to the shop and came back</string>
+    </test>
+    <test label="line 10">
+      <comment>n=1133B v=0B82</comment>
+      <string>I went to the shop and came back</string>
+    </test>
+    <test label="line 10">
+      <comment>n=1133B v=0BCD</comment>
+      <string>I went to the shop and came back</string>
+    </test>
+    <test label="line 10">
+      <comment>n=1133C v=0307</comment>
+      <string>I went to the shop and came back</string>
+    </test>
+    <test label="line 10">
+      <comment>n=1133C v=0B82</comment>
+      <string>I went to the shop and came back</string>
+    </test>
+    <test label="line 10">
+      <comment>n=1133C v=0BCD</comment>
+      <string>I went to the shop and came back</string>
+    </test>
+  </testgroup>
   <testgroup label="Akhands with nukta">
     <test label="0B95">
       <comment>ka</comment>
@@ -1332,296 +1622,6 @@
     <test label="0BB8" stylename="cv01_3">
       <comment>sa</comment>
       <string>\u000BB8\u000BCD\u000BB0\u01133B\u000BBE\u01133B \u000BB8\u000BCD\u000BB0\u01133B\u000BBF\u01133B \u000BB8\u000BCD\u000BB0\u01133B\u000BC0\u01133B \u000BB8\u000BCD\u000BB0\u01133B\u000BC1\u01133B \u000BB8\u000BCD\u000BB0\u01133B\u000BC2\u01133B \u000BB8\u000BCD\u000BB0\u01133B\u000BC6\u01133B \u000BB8\u000BCD\u000BB0\u01133B\u000BC7\u01133B \u000BB8\u000BCD\u000BB0\u01133B\u000BC8\u01133B \u000BB8\u000BCD\u000BB0\u01133B\u000BCA\u01133B \u000BB8\u000BCD\u000BB0\u01133B\u000BCB\u01133B \u000BB8\u000BCD\u000BB0\u01133B\u000BCC\u01133B \u000BB8\u000BCD\u000BB0\u01133B\u000BCD\u01133B</string>
-    </test>
-  </testgroup>
-  <testgroup label="Nukta codepoints">
-    <test label="line 1">
-      <comment>n=0323 v=0307</comment>
-      <string>\u0b95\u0bc6\u000323 \u0b95\u000323\u0bc6 \u0b95\u000323\u0bc6\u000323</string>
-    </test>
-    <test label="line 1">
-      <comment>n=0323 v=0B82</comment>
-      <string>\u0b95\u0bc6\u000323 \u0b95\u000323\u0bc6 \u0b95\u000323\u0bc6\u000323</string>
-    </test>
-    <test label="line 1">
-      <comment>n=0323 v=0BCD</comment>
-      <string>\u0b95\u0bc6\u000323 \u0b95\u000323\u0bc6 \u0b95\u000323\u0bc6\u000323</string>
-    </test>
-    <test label="line 1">
-      <comment>n=1133B v=0307</comment>
-      <string>\u0b95\u0bc6\u01133B \u0b95\u01133B\u0bc6 \u0b95\u01133B\u0bc6\u01133B</string>
-    </test>
-    <test label="line 1">
-      <comment>n=1133B v=0B82</comment>
-      <string>\u0b95\u0bc6\u01133B \u0b95\u01133B\u0bc6 \u0b95\u01133B\u0bc6\u01133B</string>
-    </test>
-    <test label="line 1">
-      <comment>n=1133B v=0BCD</comment>
-      <string>\u0b95\u0bc6\u01133B \u0b95\u01133B\u0bc6 \u0b95\u01133B\u0bc6\u01133B</string>
-    </test>
-    <test label="line 1">
-      <comment>n=1133C v=0307</comment>
-      <string>\u0b95\u0bc6\u01133C \u0b95\u01133C\u0bc6 \u0b95\u01133C\u0bc6\u01133C</string>
-    </test>
-    <test label="line 1">
-      <comment>n=1133C v=0B82</comment>
-      <string>\u0b95\u0bc6\u01133C \u0b95\u01133C\u0bc6 \u0b95\u01133C\u0bc6\u01133C</string>
-    </test>
-    <test label="line 1">
-      <comment>n=1133C v=0BCD</comment>
-      <string>\u0b95\u0bc6\u01133C \u0b95\u01133C\u0bc6 \u0b95\u01133C\u0bc6\u01133C</string>
-    </test>
-    <test label="line 2">
-      <comment>n=0323 v=0307</comment>
-      <string>\u0ba4\u000323\u000307\u0b95\u000323\u0bbe\u0b95\u0bbf\u000323\u0b9e\u0bc1\u000323\u0b95\u0bc1\u000323\u000307\u0b95\u0bc1\u000323</string>
-    </test>
-    <test label="line 2">
-      <comment>n=0323 v=0B82</comment>
-      <string>\u0ba4\u000323\u000B82\u0b95\u000323\u0bbe\u0b95\u0bbf\u000323\u0b9e\u0bc1\u000323\u0b95\u0bc1\u000323\u000B82\u0b95\u0bc1\u000323</string>
-    </test>
-    <test label="line 2">
-      <comment>n=0323 v=0BCD</comment>
-      <string>\u0ba4\u000323\u000BCD\u0b95\u000323\u0bbe\u0b95\u0bbf\u000323\u0b9e\u0bc1\u000323\u0b95\u0bc1\u000323\u000BCD\u0b95\u0bc1\u000323</string>
-    </test>
-    <test label="line 2">
-      <comment>n=1133B v=0307</comment>
-      <string>\u0ba4\u01133B\u000307\u0b95\u01133B\u0bbe\u0b95\u0bbf\u01133B\u0b9e\u0bc1\u01133B\u0b95\u0bc1\u01133B\u000307\u0b95\u0bc1\u01133B</string>
-    </test>
-    <test label="line 2">
-      <comment>n=1133B v=0B82</comment>
-      <string>\u0ba4\u01133B\u000B82\u0b95\u01133B\u0bbe\u0b95\u0bbf\u01133B\u0b9e\u0bc1\u01133B\u0b95\u0bc1\u01133B\u000B82\u0b95\u0bc1\u01133B</string>
-    </test>
-    <test label="line 2">
-      <comment>n=1133B v=0BCD</comment>
-      <string>\u0ba4\u01133B\u000BCD\u0b95\u01133B\u0bbe\u0b95\u0bbf\u01133B\u0b9e\u0bc1\u01133B\u0b95\u0bc1\u01133B\u000BCD\u0b95\u0bc1\u01133B</string>
-    </test>
-    <test label="line 2">
-      <comment>n=1133C v=0307</comment>
-      <string>\u0ba4\u01133C\u000307\u0b95\u01133C\u0bbe\u0b95\u0bbf\u01133C\u0b9e\u0bc1\u01133C\u0b95\u0bc1\u01133C\u000307\u0b95\u0bc1\u01133C</string>
-    </test>
-    <test label="line 2">
-      <comment>n=1133C v=0B82</comment>
-      <string>\u0ba4\u01133C\u000B82\u0b95\u01133C\u0bbe\u0b95\u0bbf\u01133C\u0b9e\u0bc1\u01133C\u0b95\u0bc1\u01133C\u000B82\u0b95\u0bc1\u01133C</string>
-    </test>
-    <test label="line 2">
-      <comment>n=1133C v=0BCD</comment>
-      <string>\u0ba4\u01133C\u000BCD\u0b95\u01133C\u0bbe\u0b95\u0bbf\u01133C\u0b9e\u0bc1\u01133C\u0b95\u0bc1\u01133C\u000BCD\u0b95\u0bc1\u01133C</string>
-    </test>
-    <test label="line 4">
-      <comment>n=0323 v=0307</comment>
-      <string>\u0b95\u0bc1\u0bae\u000307\u0baa\u000323\u0bc6\u000323\u0b9f\u000323\u0bc6\u000323\u0b95\u000323\u0bae\u000307\u0baa\u0bc6\u000323\u0ba4\u0bc6\u000323</string>
-    </test>
-    <test label="line 4">
-      <comment>n=0323 v=0B82</comment>
-      <string>\u0b95\u0bc1\u0bae\u000B82\u0baa\u000323\u0bc6\u000323\u0b9f\u000323\u0bc6\u000323\u0b95\u000323\u0bae\u000B82\u0baa\u0bc6\u000323\u0ba4\u0bc6\u000323</string>
-    </test>
-    <test label="line 4">
-      <comment>n=0323 v=0BCD</comment>
-      <string>\u0b95\u0bc1\u0bae\u000BCD\u0baa\u000323\u0bc6\u000323\u0b9f\u000323\u0bc6\u000323\u0b95\u000323\u0bae\u000BCD\u0baa\u0bc6\u000323\u0ba4\u0bc6\u000323</string>
-    </test>
-    <test label="line 4">
-      <comment>n=1133B v=0307</comment>
-      <string>\u0b95\u0bc1\u0bae\u000307\u0baa\u01133B\u0bc6\u01133B\u0b9f\u01133B\u0bc6\u01133B\u0b95\u01133B\u0bae\u000307\u0baa\u0bc6\u01133B\u0ba4\u0bc6\u01133B</string>
-    </test>
-    <test label="line 4">
-      <comment>n=1133B v=0B82</comment>
-      <string>\u0b95\u0bc1\u0bae\u000B82\u0baa\u01133B\u0bc6\u01133B\u0b9f\u01133B\u0bc6\u01133B\u0b95\u01133B\u0bae\u000B82\u0baa\u0bc6\u01133B\u0ba4\u0bc6\u01133B</string>
-    </test>
-    <test label="line 4">
-      <comment>n=1133B v=0BCD</comment>
-      <string>\u0b95\u0bc1\u0bae\u000BCD\u0baa\u01133B\u0bc6\u01133B\u0b9f\u01133B\u0bc6\u01133B\u0b95\u01133B\u0bae\u000BCD\u0baa\u0bc6\u01133B\u0ba4\u0bc6\u01133B</string>
-    </test>
-    <test label="line 4">
-      <comment>n=1133C v=0307</comment>
-      <string>\u0b95\u0bc1\u0bae\u000307\u0baa\u01133C\u0bc6\u01133C\u0b9f\u01133C\u0bc6\u01133C\u0b95\u01133C\u0bae\u000307\u0baa\u0bc6\u01133C\u0ba4\u0bc6\u01133C</string>
-    </test>
-    <test label="line 4">
-      <comment>n=1133C v=0B82</comment>
-      <string>\u0b95\u0bc1\u0bae\u000B82\u0baa\u01133C\u0bc6\u01133C\u0b9f\u01133C\u0bc6\u01133C\u0b95\u01133C\u0bae\u000B82\u0baa\u0bc6\u01133C\u0ba4\u0bc6\u01133C</string>
-    </test>
-    <test label="line 4">
-      <comment>n=1133C v=0BCD</comment>
-      <string>\u0b95\u0bc1\u0bae\u000BCD\u0baa\u01133C\u0bc6\u01133C\u0b9f\u01133C\u0bc6\u01133C\u0b95\u01133C\u0bae\u000BCD\u0baa\u0bc6\u01133C\u0ba4\u0bc6\u01133C</string>
-    </test>
-    <test label="line 5">
-      <comment>n=0323 v=0307</comment>
-      <string>\u0b95\u0bc1\u0baf\u000307\u0bb0\u000307\u0b95\u0bc6\u000323\u0bc1\u0baf\u000307\u0bb0\u000307\u0b95\u000323\u0bc6\u000323\u0ba9\u0bbe\u0b9f\u000323\u0bc6\u000323 \u0ba4\u0bc6\u000323\u0baa\u000323\u0bc6\u000323</string>
-    </test>
-    <test label="line 5">
-      <comment>n=0323 v=0B82</comment>
-      <string>\u0b95\u0bc1\u0baf\u000B82\u0bb0\u000B82\u0b95\u0bc6\u000323\u0bc1\u0baf\u000B82\u0bb0\u000B82\u0b95\u000323\u0bc6\u000323\u0ba9\u0bbe\u0b9f\u000323\u0bc6\u000323 \u0ba4\u0bc6\u000323\u0baa\u000323\u0bc6\u000323</string>
-    </test>
-    <test label="line 5">
-      <comment>n=0323 v=0BCD</comment>
-      <string>\u0b95\u0bc1\u0baf\u000BCD\u0bb0\u000BCD\u0b95\u0bc6\u000323\u0bc1\u0baf\u000BCD\u0bb0\u000BCD\u0b95\u000323\u0bc6\u000323\u0ba9\u0bbe\u0b9f\u000323\u0bc6\u000323 \u0ba4\u0bc6\u000323\u0baa\u000323\u0bc6\u000323</string>
-    </test>
-    <test label="line 5">
-      <comment>n=1133B v=0307</comment>
-      <string>\u0b95\u0bc1\u0baf\u000307\u0bb0\u000307\u0b95\u0bc6\u01133B\u0bc1\u0baf\u000307\u0bb0\u000307\u0b95\u01133B\u0bc6\u01133B\u0ba9\u0bbe\u0b9f\u01133B\u0bc6\u01133B \u0ba4\u0bc6\u01133B\u0baa\u01133B\u0bc6\u01133B</string>
-    </test>
-    <test label="line 5">
-      <comment>n=1133B v=0B82</comment>
-      <string>\u0b95\u0bc1\u0baf\u000B82\u0bb0\u000B82\u0b95\u0bc6\u01133B\u0bc1\u0baf\u000B82\u0bb0\u000B82\u0b95\u01133B\u0bc6\u01133B\u0ba9\u0bbe\u0b9f\u01133B\u0bc6\u01133B \u0ba4\u0bc6\u01133B\u0baa\u01133B\u0bc6\u01133B</string>
-    </test>
-    <test label="line 5">
-      <comment>n=1133B v=0BCD</comment>
-      <string>\u0b95\u0bc1\u0baf\u000BCD\u0bb0\u000BCD\u0b95\u0bc6\u01133B\u0bc1\u0baf\u000BCD\u0bb0\u000BCD\u0b95\u01133B\u0bc6\u01133B\u0ba9\u0bbe\u0b9f\u01133B\u0bc6\u01133B \u0ba4\u0bc6\u01133B\u0baa\u01133B\u0bc6\u01133B</string>
-    </test>
-    <test label="line 5">
-      <comment>n=1133C v=0307</comment>
-      <string>\u0b95\u0bc1\u0baf\u000307\u0bb0\u000307\u0b95\u0bc6\u01133C\u0bc1\u0baf\u000307\u0bb0\u000307\u0b95\u01133C\u0bc6\u01133C\u0ba9\u0bbe\u0b9f\u01133C\u0bc6\u01133C \u0ba4\u0bc6\u01133C\u0baa\u01133C\u0bc6\u01133C</string>
-    </test>
-    <test label="line 5">
-      <comment>n=1133C v=0B82</comment>
-      <string>\u0b95\u0bc1\u0baf\u000B82\u0bb0\u000B82\u0b95\u0bc6\u01133C\u0bc1\u0baf\u000B82\u0bb0\u000B82\u0b95\u01133C\u0bc6\u01133C\u0ba9\u0bbe\u0b9f\u01133C\u0bc6\u01133C \u0ba4\u0bc6\u01133C\u0baa\u01133C\u0bc6\u01133C</string>
-    </test>
-    <test label="line 5">
-      <comment>n=1133C v=0BCD</comment>
-      <string>\u0b95\u0bc1\u0baf\u000BCD\u0bb0\u000BCD\u0b95\u0bc6\u01133C\u0bc1\u0baf\u000BCD\u0bb0\u000BCD\u0b95\u01133C\u0bc6\u01133C\u0ba9\u0bbe\u0b9f\u01133C\u0bc6\u01133C \u0ba4\u0bc6\u01133C\u0baa\u01133C\u0bc6\u01133C</string>
-    </test>
-    <test label="line 6">
-      <comment>n=0323 v=0307</comment>
-      <string>\u0b9f\u0bbf\u000323 \u0b9f\u0bc1\u000323 \u0b9f\u0bc2\u000323 \u0ba4\u0bc1\u000323 \u0ba4\u0bc2\u000323\u0bae\u000307\u0baa\u0bc1\u000307\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
-    </test>
-    <test label="line 6">
-      <comment>n=0323 v=0B82</comment>
-      <string>\u0b9f\u0bbf\u000323 \u0b9f\u0bc1\u000323 \u0b9f\u0bc2\u000323 \u0ba4\u0bc1\u000323 \u0ba4\u0bc2\u000323\u0bae\u000B82\u0baa\u0bc1\u000B82\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
-    </test>
-    <test label="line 6">
-      <comment>n=0323 v=0BCD</comment>
-      <string>\u0b9f\u0bbf\u000323 \u0b9f\u0bc1\u000323 \u0b9f\u0bc2\u000323 \u0ba4\u0bc1\u000323 \u0ba4\u0bc2\u000323\u0bae\u000BCD\u0baa\u0bc1\u000BCD\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
-    </test>
-    <test label="line 6">
-      <comment>n=1133B v=0307</comment>
-      <string>\u0b9f\u0bbf\u01133B \u0b9f\u0bc1\u01133B \u0b9f\u0bc2\u01133B \u0ba4\u0bc1\u01133B \u0ba4\u0bc2\u01133B\u0bae\u000307\u0baa\u0bc1\u000307\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
-    </test>
-    <test label="line 6">
-      <comment>n=1133B v=0B82</comment>
-      <string>\u0b9f\u0bbf\u01133B \u0b9f\u0bc1\u01133B \u0b9f\u0bc2\u01133B \u0ba4\u0bc1\u01133B \u0ba4\u0bc2\u01133B\u0bae\u000B82\u0baa\u0bc1\u000B82\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
-    </test>
-    <test label="line 6">
-      <comment>n=1133B v=0BCD</comment>
-      <string>\u0b9f\u0bbf\u01133B \u0b9f\u0bc1\u01133B \u0b9f\u0bc2\u01133B \u0ba4\u0bc1\u01133B \u0ba4\u0bc2\u01133B\u0bae\u000BCD\u0baa\u0bc1\u000BCD\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
-    </test>
-    <test label="line 6">
-      <comment>n=1133C v=0307</comment>
-      <string>\u0b9f\u0bbf\u01133C \u0b9f\u0bc1\u01133C \u0b9f\u0bc2\u01133C \u0ba4\u0bc1\u01133C \u0ba4\u0bc2\u01133C\u0bae\u000307\u0baa\u0bc1\u000307\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
-    </test>
-    <test label="line 6">
-      <comment>n=1133C v=0B82</comment>
-      <string>\u0b9f\u0bbf\u01133C \u0b9f\u0bc1\u01133C \u0b9f\u0bc2\u01133C \u0ba4\u0bc1\u01133C \u0ba4\u0bc2\u01133C\u0bae\u000B82\u0baa\u0bc1\u000B82\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
-    </test>
-    <test label="line 6">
-      <comment>n=1133C v=0BCD</comment>
-      <string>\u0b9f\u0bbf\u01133C \u0b9f\u0bc1\u01133C \u0b9f\u0bc2\u01133C \u0ba4\u0bc1\u01133C \u0ba4\u0bc2\u01133C\u0bae\u000BCD\u0baa\u0bc1\u000BCD\u0baa\u0bc7\u0bb2\u0bb5\u0bbf</string>
-    </test>
-    <test label="line 7">
-      <comment>n=0323 v=0307</comment>
-      <string>\u0b95\u0bc1\u0bae\u000307\u0baa\u000323\u0bc6\u000323\u0b9f\u000323\u0bc6\u000323\u0b95\u000323\u0bae\u000307\u0baa\u0bc6\u000323\u0ba4\u0bc6\u000323</string>
-    </test>
-    <test label="line 7">
-      <comment>n=0323 v=0B82</comment>
-      <string>\u0b95\u0bc1\u0bae\u000B82\u0baa\u000323\u0bc6\u000323\u0b9f\u000323\u0bc6\u000323\u0b95\u000323\u0bae\u000B82\u0baa\u0bc6\u000323\u0ba4\u0bc6\u000323</string>
-    </test>
-    <test label="line 7">
-      <comment>n=0323 v=0BCD</comment>
-      <string>\u0b95\u0bc1\u0bae\u000BCD\u0baa\u000323\u0bc6\u000323\u0b9f\u000323\u0bc6\u000323\u0b95\u000323\u0bae\u000BCD\u0baa\u0bc6\u000323\u0ba4\u0bc6\u000323</string>
-    </test>
-    <test label="line 7">
-      <comment>n=1133B v=0307</comment>
-      <string>\u0b95\u0bc1\u0bae\u000307\u0baa\u01133B\u0bc6\u01133B\u0b9f\u01133B\u0bc6\u01133B\u0b95\u01133B\u0bae\u000307\u0baa\u0bc6\u01133B\u0ba4\u0bc6\u01133B</string>
-    </test>
-    <test label="line 7">
-      <comment>n=1133B v=0B82</comment>
-      <string>\u0b95\u0bc1\u0bae\u000B82\u0baa\u01133B\u0bc6\u01133B\u0b9f\u01133B\u0bc6\u01133B\u0b95\u01133B\u0bae\u000B82\u0baa\u0bc6\u01133B\u0ba4\u0bc6\u01133B</string>
-    </test>
-    <test label="line 7">
-      <comment>n=1133B v=0BCD</comment>
-      <string>\u0b95\u0bc1\u0bae\u000BCD\u0baa\u01133B\u0bc6\u01133B\u0b9f\u01133B\u0bc6\u01133B\u0b95\u01133B\u0bae\u000BCD\u0baa\u0bc6\u01133B\u0ba4\u0bc6\u01133B</string>
-    </test>
-    <test label="line 7">
-      <comment>n=1133C v=0307</comment>
-      <string>\u0b95\u0bc1\u0bae\u000307\u0baa\u01133C\u0bc6\u01133C\u0b9f\u01133C\u0bc6\u01133C\u0b95\u01133C\u0bae\u000307\u0baa\u0bc6\u01133C\u0ba4\u0bc6\u01133C</string>
-    </test>
-    <test label="line 7">
-      <comment>n=1133C v=0B82</comment>
-      <string>\u0b95\u0bc1\u0bae\u000B82\u0baa\u01133C\u0bc6\u01133C\u0b9f\u01133C\u0bc6\u01133C\u0b95\u01133C\u0bae\u000B82\u0baa\u0bc6\u01133C\u0ba4\u0bc6\u01133C</string>
-    </test>
-    <test label="line 7">
-      <comment>n=1133C v=0BCD</comment>
-      <string>\u0b95\u0bc1\u0bae\u000BCD\u0baa\u01133C\u0bc6\u01133C\u0b9f\u01133C\u0bc6\u01133C\u0b95\u01133C\u0bae\u000BCD\u0baa\u0bc6\u01133C\u0ba4\u0bc6\u01133C</string>
-    </test>
-    <test label="line 9">
-      <comment>n=0323 v=0307</comment>
-      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000307 \u0b85\u0b99\u000307\u0b95\u000323\u0b9f\u0bbf\u000323\u0b95\u0bc1\u000323\u000307 \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000307\u0b9f\u0bc1 \u0baa\u000323\u0ba8\u000307\u0ba4\u000323\u0bc6\u0ba9\u0bc1.</string>
-    </test>
-    <test label="line 9">
-      <comment>n=0323 v=0B82</comment>
-      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000B82 \u0b85\u0b99\u000B82\u0b95\u000323\u0b9f\u0bbf\u000323\u0b95\u0bc1\u000323\u000B82 \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000B82\u0b9f\u0bc1 \u0baa\u000323\u0ba8\u000B82\u0ba4\u000323\u0bc6\u0ba9\u0bc1.</string>
-    </test>
-    <test label="line 9">
-      <comment>n=0323 v=0BCD</comment>
-      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000BCD \u0b85\u0b99\u000BCD\u0b95\u000323\u0b9f\u0bbf\u000323\u0b95\u0bc1\u000323\u000BCD \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000BCD\u0b9f\u0bc1 \u0baa\u000323\u0ba8\u000BCD\u0ba4\u000323\u0bc6\u0ba9\u0bc1.</string>
-    </test>
-    <test label="line 9">
-      <comment>n=1133B v=0307</comment>
-      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000307 \u0b85\u0b99\u000307\u0b95\u01133B\u0b9f\u0bbf\u01133B\u0b95\u0bc1\u01133B\u000307 \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000307\u0b9f\u0bc1 \u0baa\u01133B\u0ba8\u000307\u0ba4\u01133B\u0bc6\u0ba9\u0bc1.</string>
-    </test>
-    <test label="line 9">
-      <comment>n=1133B v=0B82</comment>
-      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000B82 \u0b85\u0b99\u000B82\u0b95\u01133B\u0b9f\u0bbf\u01133B\u0b95\u0bc1\u01133B\u000B82 \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000B82\u0b9f\u0bc1 \u0baa\u01133B\u0ba8\u000B82\u0ba4\u01133B\u0bc6\u0ba9\u0bc1.</string>
-    </test>
-    <test label="line 9">
-      <comment>n=1133B v=0BCD</comment>
-      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000BCD \u0b85\u0b99\u000BCD\u0b95\u01133B\u0b9f\u0bbf\u01133B\u0b95\u0bc1\u01133B\u000BCD \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000BCD\u0b9f\u0bc1 \u0baa\u01133B\u0ba8\u000BCD\u0ba4\u01133B\u0bc6\u0ba9\u0bc1.</string>
-    </test>
-    <test label="line 9">
-      <comment>n=1133C v=0307</comment>
-      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000307 \u0b85\u0b99\u000307\u0b95\u01133C\u0b9f\u0bbf\u01133C\u0b95\u0bc1\u01133C\u000307 \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000307\u0b9f\u0bc1 \u0baa\u01133C\u0ba8\u000307\u0ba4\u01133C\u0bc6\u0ba9\u0bc1.</string>
-    </test>
-    <test label="line 9">
-      <comment>n=1133C v=0B82</comment>
-      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000B82 \u0b85\u0b99\u000B82\u0b95\u01133C\u0b9f\u0bbf\u01133C\u0b95\u0bc1\u01133C\u000B82 \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000B82\u0b9f\u0bc1 \u0baa\u01133C\u0ba8\u000B82\u0ba4\u01133C\u0bc6\u0ba9\u0bc1.</string>
-    </test>
-    <test label="line 9">
-      <comment>n=1133C v=0BCD</comment>
-      <string>\u0ba8\u0bbe\u0ba9\u0bc1\u000BCD \u0b85\u0b99\u000BCD\u0b95\u01133C\u0b9f\u0bbf\u01133C\u0b95\u0bc1\u01133C\u000BCD \u0bb9\u0bcb\u0baf\u0bc6\u0b9f\u000BCD\u0b9f\u0bc1 \u0baa\u01133C\u0ba8\u000BCD\u0ba4\u01133C\u0bc6\u0ba9\u0bc1.</string>
-    </test>
-    <test label="line 10">
-      <comment>n=0323 v=0307</comment>
-      <string>I went to the shop and came back</string>
-    </test>
-    <test label="line 10">
-      <comment>n=0323 v=0B82</comment>
-      <string>I went to the shop and came back</string>
-    </test>
-    <test label="line 10">
-      <comment>n=0323 v=0BCD</comment>
-      <string>I went to the shop and came back</string>
-    </test>
-    <test label="line 10">
-      <comment>n=1133B v=0307</comment>
-      <string>I went to the shop and came back</string>
-    </test>
-    <test label="line 10">
-      <comment>n=1133B v=0B82</comment>
-      <string>I went to the shop and came back</string>
-    </test>
-    <test label="line 10">
-      <comment>n=1133B v=0BCD</comment>
-      <string>I went to the shop and came back</string>
-    </test>
-    <test label="line 10">
-      <comment>n=1133C v=0307</comment>
-      <string>I went to the shop and came back</string>
-    </test>
-    <test label="line 10">
-      <comment>n=1133C v=0B82</comment>
-      <string>I went to the shop and came back</string>
-    </test>
-    <test label="line 10">
-      <comment>n=1133C v=0BCD</comment>
-      <string>I went to the shop and came back</string>
     </test>
   </testgroup>
 </ftml>

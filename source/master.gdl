@@ -8,7 +8,7 @@ table(feature)
 nuka
 {
     id = "cv01";
-    name.LG_USENG = string("Double and single nuktas");
+    name.LG_USENG = string("Nukta forms");
     default = ring;
     settings
     {
@@ -35,26 +35,6 @@ nuka
     }
 }
 
-snuk
-{
-    id = "cv02";
-    name.LG_USENG = string("Single nukta (future)");
-    default = dot;
-    settings
-    {
-        dot
-        {
-            value = 0;
-            name.LG_USENG = string("Single dot");
-        }
-        ring
-        {
-            value = 1;
-            name.LG_USENG = string("Single ring");
-        }
-    }
-}
-
 endtable;
 
 table(language)
@@ -77,7 +57,6 @@ irula {
 chetti {
     languages = ("ctt");
     nuka = dot;
-    snuk = ring;
 }
 
 endtable;

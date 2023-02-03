@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE all_features SYSTEM "feat_all.dtd">
+<all_features version="1.0">
+    <feature name="Language" value="Default" tag="Lng">
+        <value name="Default" tag="Def">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Irula" tag="Iru">
+            <cmd name="encode" args="0323 u1133C.ringdbl"/>
+            <cmd name="encode" args="1133B u1133C.ringdbl"/>
+            <cmd name="encode" args="1133C u1133C.ringdbl"/>
+        </value>
+        <value name="Chetti" tag="Ctt">
+            <cmd name="encode" args="0323 u1133C.dot"/>
+            <cmd name="encode" args="1133B u1133C.dot"/>
+            <cmd name="encode" args="1133C u1133C.dot"/>
+        </value>
+    </feature>
+</all_features>

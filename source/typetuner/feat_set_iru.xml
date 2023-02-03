@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE features_set SYSTEM "feat_set.dtd">
+<features_set version="1.0">
+    <feature name="Language" value="Irula">
+        <value name="Default"/>
+        <value name="Irula"/>
+        <value name="Chetti"/>
+    </feature>
+</features_set>

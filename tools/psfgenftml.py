@@ -214,6 +214,22 @@ def doit(args):
             ftml.closeTest()
 
     if test.lower().startswith("nuktas"):
+        ftml.startTestGroup('Nukta codepoints')
+        test_name = test.lower().split()[0]
+        with open(f'tests/{test_name}.template') as nuktas:
+            line_number = 0
+            for line in nuktas:
+                line = line.strip()
+                line_number += 1
+                if line == '':
+                    continue
+                for n in below_marks:
+                    for v in above_marks:
+                        text = line.replace('N', chr(n))
+                        text = text.replace('V', chr(v))
+                        ftml.addToTest(None, text, label=f'line {line_number}', comment=f'n={n:04X} v={v:04X}')
+                        ftml.closeTest()
+
         ftml.startTestGroup('Akhands with nukta')
         for a in akhands:
             c = a[0]
@@ -272,22 +288,6 @@ def doit(args):
                 for m in matra_like:
                     builder.render((a+(nukta,)+(m,)+(nukta,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
                 ftml.closeTest()
-
-        ftml.startTestGroup('Nukta codepoints')
-        test_name = test.lower().split()[0]
-        with open(f'tests/{test_name}.template') as nuktas:
-            line_number = 0
-            for line in nuktas:
-                line = line.strip()
-                line_number += 1
-                if line == '':
-                    continue
-                for n in below_marks:
-                    for v in above_marks:
-                        text = line.replace('N', chr(n))
-                        text = text.replace('V', chr(v))
-                        ftml.addToTest(None, text, label=f'line {line_number}', comment=f'n={n:04X} v={v:04X}')
-                        ftml.closeTest()
 
     if test.lower().startswith("extra"):
         ftml.startTestGroup('Akhands with nukta')

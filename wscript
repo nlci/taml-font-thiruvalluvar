@@ -119,6 +119,7 @@ for f in faces:
                 make_params = '-l last -p 1',
                 params =  '-e ${DS:FILENAME_BASE}_gdlerr.txt'
                 ),
+            typetuner = typetuner('source/typetuner/feat_all.xml'),
             #classes = fontbase + 'thiruvalluvar_classes.xml',
             ap = generated + '${DS:FILENAME_BASE}.xml',
             version = VERSION,
@@ -135,7 +136,8 @@ for f in faces:
                 (fontname, dash, remaining) = fontfilename.target.rpartition('-')
                 langfontfilename = fontname + langname.replace(' ', '') + '-' + remaining
                 n = font(target = process(langfontfilename,
-                        cmd('psfdeflang -L ' + langcode + ' ${DEP} ${TGT}'),
+                        # cmd('psfdeflang -L ' + langcode + ' ${DEP} ${TGT}'),
+                        cmd('typetuner -o ${TGT} ' + f' applyset ../source/typetuner/feat_set_{langcode}.xml ' +  '${DEP}'),
                         cmd(set_line_spacing(langcode, fontname) + ' ${DEP} ${TGT}'),
                         name(f + langname)
                         ),
