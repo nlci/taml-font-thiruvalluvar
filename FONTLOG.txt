@@ -64,7 +64,7 @@ ChangeLog
 19 Mar 2018 (Dev NLCI) NLCI Tamil fonts version 0.300
 - Regenerate sources from original, hacked legacy fonts with an updated mapping
 14 Aug 2015 (Dev NLCI) NLCI Tamil fonts version 0.271
-- Latin glyphs are from Charis SIL (http://scripts.sil.org/CharisSILfont)
+- Latin glyphs are from Charis SIL (https://software.sil.org/charis/)
 
 Acknowledgements
 ----------------

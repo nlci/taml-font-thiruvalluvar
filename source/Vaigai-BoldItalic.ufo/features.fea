@@ -538,9 +538,17 @@ lookup cv01 {
 feature ccmp {
     lookup FontCheck;
     # lookup NuktaLigs;
+    # InDesign will fire here for Tamil nukta (and for Latin script),
+    # but is overridden by the locl feature below.
+    # DirectWrite will fire here, but only for U+1133C, and not for Latin script
 } ccmp;
 
 feature locl {
+    # Notepad, Word, and InDesign will all fire here.
+    # If using the language specific code Notepad fires with
+    # - script tml2 and language dflt for U+0323 and U+1133B
+    # - script DFLT and language dflt for U+1133C
+    # Not sure how Word and InDesign handle the language specific code
     script DFLT;
     language IRU;
     lookup NuktaIRU;
