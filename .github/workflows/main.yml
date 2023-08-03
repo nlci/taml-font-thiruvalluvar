@@ -41,12 +41,12 @@ jobs:
           smith zip
           # smith release
           # smith alltests
-          smith sile
+          # smith sile
           smith pdfs
-      - uses: actions/upload-artifact@v3
-        with:
-          name: sile
-          path: results/tests/sile/*.pdf
+      # - uses: actions/upload-artifact@v3
+      #   with:
+      #     name: sile
+      #     path: results/tests/sile/*.pdf
       - uses: actions/upload-artifact@v3
         with:
           name: text
