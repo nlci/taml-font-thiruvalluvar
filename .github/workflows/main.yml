@@ -32,10 +32,7 @@ jobs:
           python3 -m pip install --upgrade git+https://github.com/silnrsi/palaso-python.git@master#egg=palaso --user
           python3 -m pip install --upgrade git+https://github.com/silnrsi/smith.git@master#egg=smith --user
           # sudo pip3 install --upgrade git+https://github.com/googlefonts/fontbakery.git@main#egg=fontbakery
-          git clone https://github.com/silnrsi/fontproof
-          cd fontproof
-          sudo install -m 644 classes/* /usr/share/sile/classes/
-          sudo install -m 644 packages/* /usr/share/sile/packages/
+          sudo luarocks install fontproof
       - name: configure / build / test / release
         run: |
           # smith version
@@ -64,14 +61,6 @@ jobs:
         with:
           name: packages
           path: results/releases
-      # - uses: marvinpinto/action-automatic-releases@latest
-      #   with:
-      #     repo_token: "${{ secrets.GITHUB_TOKEN }}"
-      #     automatic_release_tag: "dev"
-      #     prerelease: true
-      #     title: "Development Build"
-      #     files: |
-      #       results/releases
       - uses: ncipollo/release-action@v1
         with:
           artifacts: results/releases/nlci-*-*-*-dev-*.zip

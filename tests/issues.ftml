@@ -39,6 +39,9 @@
     <test label="Check">
       <string>RenderingUnknown</string>
     </test>
+    <test label="Composites">
+      <string>\u00c1 \u00e1 A\u0301 a\u0301 W\u0301 w\u0301 X\u0301 x\u0301</string>
+    </test>
   </testgroup>
   <testgroup label="design">
     <test label="height">
