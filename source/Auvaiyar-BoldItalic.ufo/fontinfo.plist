@@ -9,9 +9,9 @@
   <key>copyright</key>
   <string>This Font Software is Copyright (c) 2009-2023, NLCI (http://www.nlci.in/fonts/)
 with Reserved Font Names "ThiruValluvar" and "Auvaiyar" and "Vaigai" and "NLCI".
-Latin glyphs in ThiruValluvar and Auvaiyar are Copyright (c) 2003-2019, SIL International (http://www.sil.org/)
+Latin glyphs in ThiruValluvar and Auvaiyar are Copyright (c) 2003-2019, SIL International (https://www.sil.org/)
 with Reserved Font Names "Gentium" and "SIL".
-Latin glyphs in Vaigai are Copyright (c) 1997-2019, SIL International (http://www.sil.org/)
+Latin glyphs in Vaigai are Copyright (c) 1997-2019, SIL International (https://www.sil.org/)
 with Reserved Font Names "Charis" and "SIL".
 </string>
   <key>descender</key>
@@ -37,14 +37,14 @@ with Reserved Font Names "Charis" and "SIL".
   <key>openTypeNameLicense</key>
   <string>This Font Software is Copyright (c) 2009-2023, NLCI (http://www.nlci.in/fonts/)
 with Reserved Font Names "ThiruValluvar" and "Auvaiyar" and "Vaigai" and "NLCI".
-Latin glyphs in ThiruValluvar and Auvaiyar are Copyright (c) 2003-2019, SIL International (http://www.sil.org/)
+Latin glyphs in ThiruValluvar and Auvaiyar are Copyright (c) 2003-2019, SIL International (https://www.sil.org/)
 with Reserved Font Names "Gentium" and "SIL".
-Latin glyphs in Vaigai are Copyright (c) 1997-2019, SIL International (http://www.sil.org/)
+Latin glyphs in Vaigai are Copyright (c) 1997-2019, SIL International (https://www.sil.org/)
 with Reserved Font Names "Charis" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-http://scripts.sil.org/OFL
+https://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------
@@ -135,7 +135,7 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 </string>
   <key>openTypeNameLicenseURL</key>
-  <string>http://scripts.sil.org/OFL</string>
+  <string>https://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
   <string>NLCI</string>
   <key>openTypeNameManufacturerURL</key>
