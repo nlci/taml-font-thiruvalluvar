@@ -14,7 +14,7 @@
       Pan Tamil font designed to support all the languages using the Tamil script.
     </text>
   </description>
-  <license url="https://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
+  <license url="https://openfontlicense.org" id="org.sil.ofl.1.1">
     <text lang="en">
       This Font Software is Copyright (c) 2009-2023, NLCI (http://www.nlci.in/fonts/)
       with Reserved Font Names "ThiruValluvar" and "Auvaiyar" and "Vaigai" and "NLCI".
@@ -25,7 +25,7 @@
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
       This license is copied below, and is also available with a FAQ at:
-      https://scripts.sil.org/OFL
+      https://openfontlicense.org
       
       
       -----------------------------------------------------------
