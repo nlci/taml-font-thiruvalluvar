@@ -1,0 +1,21 @@
+#!/bin/bash
+
+faces="Auvaiyar Vaigai"
+styles="Regular Italic Bold BoldItalic"
+for face in $faces
+do
+    glyphsets="sync-nuktas.csv"
+    if [ $face == "Vaigai" ]
+    then
+        glyphsets="$glyphsets sync-dashes.csv"
+    fi
+
+    for style in $styles
+    do
+        for glyphset in $glyphsets
+        do
+            scale=0.488281 # 1000 / 2048
+            psfcopyglyphs -f --rename rename --unicode usv --scale $scale -i ../tools/$glyphset -s ThiruValluvar-${style}.ufo ${face}-${style}.ufo
+        done
+    done
+done

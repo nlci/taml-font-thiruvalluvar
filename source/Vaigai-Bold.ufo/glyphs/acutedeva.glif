@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutedeva" format="2">
   <unicode hex="0954"/>
-  <anchor x="-12" y="691" name="_V"/>
+  <anchor x="-131" y="690" name="_V"/>
   <outline>
     <contour>
-      <point x="108" y="832" type="line"/>
-      <point x="27" y="832" type="line"/>
-      <point x="-132" y="691" type="line"/>
-      <point x="-51" y="691" type="line"/>
+      <point x="-20" y="934" type="line"/>
+      <point x="-89" y="934" type="line"/>
+      <point x="-251" y="686" type="line"/>
+      <point x="-183" y="686" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>20</integer>
+    </dict>
+  </lib>
 </glyph>

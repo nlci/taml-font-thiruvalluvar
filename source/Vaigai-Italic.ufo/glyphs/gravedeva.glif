@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravedeva" format="2">
   <unicode hex="0953"/>
-  <anchor x="34" y="694" name="_V"/>
+  <anchor x="-137" y="693" name="_V"/>
   <outline>
     <contour>
-      <point x="118" y="694" type="line"/>
-      <point x="6" y="836" type="line"/>
-      <point x="-51" y="836" type="line"/>
-      <point x="61" y="694" type="line"/>
+      <point x="-30" y="693" type="line"/>
+      <point x="-183" y="925" type="line"/>
+      <point x="-245" y="925" type="line"/>
+      <point x="-92" y="693" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>20</integer>
+    </dict>
+  </lib>
 </glyph>
