@@ -234,8 +234,9 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass [ya ya_iimatra ya_imatra ya_umatra ya_virama] <anchor 238 0> @N;
 # baseClass ya_uumatra <anchor 378 -250> @N;
 # baseClass [bindu dotbelowcomb nukta] <anchor -383 -85> @N_MarkBase;
-# baseClass [nukta.dot nukta.dotdbl] <anchor -316 -60> @N_MarkBase;
-# baseClass nukta.ringdbl <anchor -316 -70> @N_MarkBase;
+# baseClass nukta.dot <anchor -315 -65> @N_MarkBase;
+# baseClass nukta.dotdbl <anchor -315 -64> @N_MarkBase;
+# baseClass nukta.ringdbl <anchor -315 -70> @N_MarkBase;
 
 # AP: V
 @V = [aamatra aavowel aivowel aulengthmark avowel ca ca_umatra ca_uumatra ka ka_ssa ka_ssa_iimatra ka_ssa_imatra ka_uumatra ka_uumatra.old ta ta_umatra ta_uumatra ca_iimatra ka_iimatra ca_imatra eevowel evowel ha ha_iimatra ha_imatra iivowel ivowel ja ja_iimatra ja_imatra nga nga_iimatra nga_imatra nga_umatra nga_uumatra ka_imatra ka_umatra la la.old la_aimatra la_aimatra.old la_iimatra la_imatra la_umatra la_uumatra lla lla_aimatra lla_aimatra.old lla_iimatra lla_imatra lla_umatra lla_uumatra llla llla_iimatra llla_imatra llla_umatra llla_uumatra ma ma_iimatra ma_imatra ma_umatra ma_uumatra na na_umatra na_uumatra na_iimatra na_imatra nna nna_aamatra nna_aamatra.old nna_aimatra nna_aimatra.old nna_iimatra nna_imatra nna_umatra nna_uumatra nnna nnna_aamatra nnna_aamatra.old nnna_aimatra nnna_aimatra.old nnna_iimatra nnna_imatra nnna_umatra nnna_uumatra nya nya_imatra nya_umatra nya_uumatra nya_iimatra oovowel ovowel pa pa_iimatra pa_imatra pa_umatra pa_uumatra ra ra_umatra ra_uumatra ra_iimatra ra_imatra rra rra_aamatra rra_aamatra.old rra_iimatra rra_imatra rra_umatra rra_uumatra sa sa_iimatra sa_imatra ssa ssa_aimatra ssa_iimatra ssa_imatra ta_iimatra ta_imatra tta tta_iimatra tta_imatra tta_umatra tta_uumatra uuvowel uvowel va va_iimatra va_imatra va_umatra va_uumatra ya ya_iimatra ya_imatra ya_umatra ya_uumatra];
@@ -284,22 +285,22 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass caroncomb <anchor -217 524> @V_MarkBase;
 
 # AP: _V
-markClass acutedeva <anchor -12 691> @_V;
+markClass acutedeva <anchor -131 690> @_V;
 markClass almostequaltocomb <anchor -216 379> @_V;
-markClass anusvara <anchor -430 525> @_V;
+markClass anusvara <anchor -430 524> @_V;
 markClass candrabindugran <anchor -174 553> @_V;
 markClass caroncomb <anchor -217 388> @_V;
 markClass [dotabovecomb virama] <anchor -467 525> @_V;
-markClass gravedeva <anchor -130 694> @_V;
+markClass gravedeva <anchor -310 693> @_V;
 markClass [udatta vedictonedoublesvarita vedictonekathakaanudatta] <anchor -335 772> @_V;
 
 # AP: _N
 markClass anudatta <anchor -344 0> @_N;
 markClass [bindu dotbelowcomb nukta] <anchor -383 -65> @_N;
 markClass circumflexbelowcomb <anchor -217 62> @_N;
-markClass nukta.dot <anchor -315 -4> @_N;
-markClass nukta.dotdbl <anchor -316 -4> @_N;
-markClass nukta.ringdbl <anchor -316 -3> @_N;
+markClass nukta.dot <anchor -315 -9> @_N;
+markClass nukta.dotdbl <anchor -315 -8> @_N;
+markClass nukta.ringdbl <anchor -315 -2> @_N;
 markClass vedictonedotbelow <anchor -355 0> @_N;
 markClass vedictonethreedotsbelow <anchor -383 0> @_N;
 markClass vedictonetwodotsbelow <anchor -398 0> @_N;
@@ -731,8 +732,9 @@ lookup Nuktas {
 lookup LowerExtraStack {
     lookupflag 0;
     pos mark [bindu dotbelowcomb nukta] <anchor -383 -85> mark @_N;
-    pos mark [nukta.dot nukta.dotdbl] <anchor -316 -60> mark @_N;
-    pos mark nukta.ringdbl <anchor -316 -70> mark @_N;
+    pos mark nukta.dot <anchor -315 -65> mark @_N;
+    pos mark nukta.dotdbl <anchor -315 -64> mark @_N;
+    pos mark nukta.ringdbl <anchor -315 -70> mark @_N;
 } LowerExtraStack;
 
 feature abvm {
