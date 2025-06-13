@@ -7,7 +7,8 @@
 opts = preprocess_args(
     {'opt' : '-l'}, # build fonts from legacy for inclusion into final fonts
     {'opt' : '-r'}, # only build the main regular font
-    {'opt' : '-s'}, # only build a single font family
+    {'opt' : '-s'}, # only build the main font family
+    {'opt' : '-t'}, # only build un-tuned fonts
     {'opt' : '--alllangs'} # test all language variants
     )
 
@@ -59,11 +60,8 @@ stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
 stylesLegacy = ('', 'BD', 'I', 'BI')
 dspaces = ('Roman', 'Italic')
 
-if '-r' in opts or '-s' in opts:
+if '-s' in opts:
     faces = (faces[0],)
-
-if '-r' in opts:
-    dspaces = ('Regular',)
 
 # set build parameters
 fontbase = 'source/'
@@ -108,6 +106,7 @@ for f in faces:
             target = process('${DS:FILENAME_BASE}.ttf',
                 cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
             ),
+            instances = ['ThiruValluvar Regular'] if '-r' in opts else None,
             opentype=fea(generated + '${DS:FILENAME_BASE}.fea',
                 mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master=fontbase + 'master.feax',
@@ -129,6 +128,8 @@ for f in faces:
             package = p,
             pdf = fret(params = '-oi')
         )
+        if '-t' in opts:
+            continue
 
         for langcode in langinfo.keys():
             langname = langinfo[langcode]

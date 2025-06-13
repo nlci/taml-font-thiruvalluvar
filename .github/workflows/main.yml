@@ -7,50 +7,35 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Install smith toolchain
         run: |
           sudo add-apt-repository -y ppa:silnrsi/smith-py3
           sudo add-apt-repository -y ppa:sile-typesetter/sile
-          # sudo add-apt-repository -y ppa:fontforge/fontforge
-          # sudo add-apt-repository -y ppa:jonathonf/texlive-2019
-          # sudo add-apt-repository -y ppa:git-core/ppa
-          sudo apt-get update -q -y
-          sudo apt-get install sile luarocks texlive-xetex libtext-unicode-equivalents-perl libtext-pdf-perl libio-string-perl libfont-ttf-scripts-perl libfont-ttf-perl libalgorithm-diff-perl libxml-parser-perl grcompiler libtext-csv-perl wamerican wbritish -y -qq
-          # sudo apt-get remove *php* *mono* *dotnet* -y
-          # sudo apt-get autoremove -y
-          # sudo apt-get upgrade -q -y
-          # sudo apt-get install libjson-perl libtext-csv-perl libharfbuzz-bin -y
-          # sudo apt-get install smith-font -y --no-install-recommends
-          # sudo apt-get install python3-pip python3-setuptools -y
-          pip3 install fontmake --user
-          pip3 install MutatorMath --user
+          sudo apt-get update -y -q
+          sudo apt-get install sile luarocks libfont-ttf-scripts-perl grcompiler -y -qq
           pip3 install Brotli --user
-          python3 -m pip install --upgrade git+https://github.com/silnrsi/pysilfont.git@master#egg=pysilfont --user
-          python3 -m pip install --upgrade git+https://github.com/silnrsi/palaso-python.git@master#egg=palaso --user
-          python3 -m pip install --upgrade git+https://github.com/silnrsi/smith.git@master#egg=smith --user
-          # sudo pip3 install --upgrade git+https://github.com/googlefonts/fontbakery.git@main#egg=fontbakery
+          python3 -m pip install --upgrade "silfont[git] @ git+https://github.com/silnrsi/pysilfont.git@master" --user
+          python3 -m pip install --upgrade "feaxlib @ git+https://github.com/silnrsi/feax.git@main" --user
+          python3 -m pip install --upgrade "smith @ git+https://github.com/silnrsi/smith.git@master" --user
           sudo luarocks install fontproof
       - name: configure / build / test / release
         run: |
-          # smith version
           smith configure
           smith build
+          smith sile
           smith zip
           # smith release
-          # smith alltests
-          smith sile
-          smith pdfs
       - uses: actions/upload-artifact@v4
         with:
           name: sile
           path: results/tests/sile/*.pdf
-      - uses: actions/upload-artifact@v4
-        with:
-          name: text
-          path: results/tests/pdfs/*.pdf
       - uses: actions/upload-artifact@v4
         with:
           name: fonts
@@ -61,12 +46,13 @@ jobs:
         with:
           name: packages
           path: results/releases
-      - uses: ncipollo/release-action@v1
-        with:
-          artifacts: results/releases/nlci-*-*-*-dev-*.zip
-          name: "Development Build"
-          generateReleaseNotes: true
-          prerelease: true
-          allowUpdates: true
-          tag: "dev"
-          token: "${{ secrets.GITHUB_TOKEN }}"
+      - name: Create GitHub Release
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          gh release delete dev -y --cleanup-tag || true;
+          gh release create dev
+          --title "Development Build"
+          --generate-notes
+          --prerelease
+          results/releases/nlci-*-*-*-dev-*.zip
