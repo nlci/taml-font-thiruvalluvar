@@ -14,6 +14,8 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+16 Jun 2025 (Dev NLCI) NLCI Tamil fonts version 0.901
+- Rebuild fonts with updated toolchain for new package layout
 22 Dec 2023 (Dev NLCI) NLCI Tamil fonts version 0.900
 - Make language specific fonts work in more applications
 - Bold and Italic nuktas (in all font families now)

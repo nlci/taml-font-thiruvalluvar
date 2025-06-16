@@ -18,12 +18,10 @@ import os2
 DOCDIR = ['documentation', 'web']
 
 # set meta-information
-script='taml'
-APPNAME='nlci-' + script
+prefix = 'nlci-taml-'
+APPNAME = prefix + 'thiruvalluvar'
 
 DESC_SHORT='Tamil Unicode font with OT and Graphite support'
-DESC_NAME='NLCI-' + script
-DEBPKG='fonts-nlci-' + script
 getufoinfo('source/ThiruValluvar-Regular.ufo')
 # BUILDLABEL = 'beta1'
 
@@ -67,7 +65,6 @@ if '-s' in opts:
 fontbase = 'source/'
 archive = fontbase + 'archive/unhinted/'
 generated = 'generated/'
-tag = script.upper()
 
 panose = [2, 0, 0, 3]
 codePageRange = [0, 29]
@@ -93,20 +90,78 @@ if '-l' in opts:
                                 noap = '')
                 )
 
-if '-l' in opts:
-    faces = list()
+packages = {}
 for f in faces:
-    p = package(
-        appname = APPNAME + '-' + f.lower(),
+    for langcode in langinfo.keys():
+        if f != 'ThiruValluvar':
+            familypackage = package(
+                appname = prefix + f.lower(),
+                version = VERSION,
+                docdir = {'documentation': 'documentation', 'web_' + f.lower(): 'web'}
+            )
+            packages[f] = familypackage
+        langpackage = package(
+            appname = prefix + f.lower() + '-' + langcode,
+            version = VERSION,
+            docdir = ['documentation']
+        )
+        packages[f + langcode] = langpackage
+
+for dspace in dspaces:
+    d = designspace('source/' + 'ThiruValluvar' + dspace + '.designspace',
+        target = process('${DS:FILENAME_BASE}.ttf',
+            cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
+        ),
+        instances = ['ThiruValluvar Regular'] if '-r' in opts else None,
+        opentype=fea(generated + '${DS:FILENAME_BASE}.fea',
+            mapfile = generated + '${DS:FILENAME_BASE}.map',
+            master=fontbase + 'master.feax',
+            make_params='-L last',
+            params='',
+            ),
+        graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
+            master = fontbase + 'master.gdl',
+            make_params = '-l last -p 1',
+            params =  '-e ${DS:FILENAME_BASE}_gdlerr.txt'
+            ),
+        typetuner = typetuner('source/typetuner/feat_all.xml'),
+        #classes = fontbase + 'thiruvalluvar_classes.xml',
+        ap = generated + '${DS:FILENAME_BASE}.xml',
         version = VERSION,
-        docdir = DOCDIR # 'documentation'
+        woff = woff('web/${DS:FILENAME_BASE}', type='woff2',
+            metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml',
+            dontship = True),
+        script = 'tml2', # taml
+        pdf = fret(params = '-oi')
     )
+
+    for langcode in langinfo.keys():
+        langname = langinfo[langcode]
+        for fontfilename in d.fonts:
+            (fontname, dash, remaining) = fontfilename.target.rpartition('-')
+            langfontfilename = fontname + langname.replace(' ', '') + '-' + remaining
+            n = font(target = process(langfontfilename,
+                    # cmd('psfdeflang -L ' + langcode + ' ${DEP} ${TGT}'),
+                    cmd('typetuner -o ${TGT} ' + f' applyset ../source/typetuner/feat_set_{langcode}.xml ' +  '${DEP}'),
+                    cmd(set_line_spacing(langcode, fontname) + ' ${DEP} ${TGT}'),
+                    name('ThiruValluvar' + langname)
+                    ),
+                source = fontfilename.target,
+                opentype = internal(),
+                graphite = internal(),
+                script = 'tml2',
+                package = packages['ThiruValluvar' + langcode],
+                fret = fret(params = '-oi')
+            )
+            if '--alllangs' not in opts:
+                n.no_test = True
+
+for f in faces[1:]:
     for dspace in dspaces:
         d = designspace('source/' + f + dspace + '.designspace',
             target = process('${DS:FILENAME_BASE}.ttf',
                 cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
             ),
-            instances = ['ThiruValluvar Regular'] if '-r' in opts else None,
             opentype=fea(generated + '${DS:FILENAME_BASE}.fea',
                 mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master=fontbase + 'master.feax',
@@ -119,13 +174,13 @@ for f in faces:
                 params =  '-e ${DS:FILENAME_BASE}_gdlerr.txt'
                 ),
             typetuner = typetuner('source/typetuner/feat_all.xml'),
-            #classes = fontbase + 'thiruvalluvar_classes.xml',
             ap = generated + '${DS:FILENAME_BASE}.xml',
             version = VERSION,
-            woff = woff('woff/${DS:FILENAME_BASE}', type='woff2',
-                metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
-            script = 'tml2', # taml
-            package = p,
+            woff = woff('web_' + f.lower() + '/${DS:FILENAME_BASE}', type='woff2',
+                metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml',
+                dontship = True),
+            script = 'tml2',
+            package = packages[f],
             pdf = fret(params = '-oi')
         )
         if '-t' in opts:
@@ -137,7 +192,6 @@ for f in faces:
                 (fontname, dash, remaining) = fontfilename.target.rpartition('-')
                 langfontfilename = fontname + langname.replace(' ', '') + '-' + remaining
                 n = font(target = process(langfontfilename,
-                        # cmd('psfdeflang -L ' + langcode + ' ${DEP} ${TGT}'),
                         cmd('typetuner -o ${TGT} ' + f' applyset ../source/typetuner/feat_set_{langcode}.xml ' +  '${DEP}'),
                         cmd(set_line_spacing(langcode, fontname) + ' ${DEP} ${TGT}'),
                         name(f + langname)
@@ -146,7 +200,7 @@ for f in faces:
                     opentype = internal(),
                     graphite = internal(),
                     script = 'tml2',
-                    package = p,
+                    package = packages[f + langcode],
                     fret = fret(params = '-oi')
                 )
                 if '--alllangs' not in opts:
