@@ -107,11 +107,14 @@ for f in faces:
         )
         packages[f + langcode] = langpackage
 
+cmds = [
+    cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),
+    cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
+    ]
+
 for dspace in dspaces:
     d = designspace('source/' + 'ThiruValluvar' + dspace + '.designspace',
-        target = process('${DS:FILENAME_BASE}.ttf',
-            cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
-        ),
+        target = process('${DS:FILENAME_BASE}.ttf', *cmds),
         instances = ['ThiruValluvar Regular'] if '-r' in opts else None,
         opentype=fea(generated + '${DS:FILENAME_BASE}.fea',
             mapfile = generated + '${DS:FILENAME_BASE}.map',
@@ -159,9 +162,7 @@ for dspace in dspaces:
 for f in faces[1:]:
     for dspace in dspaces:
         d = designspace('source/' + f + dspace + '.designspace',
-            target = process('${DS:FILENAME_BASE}.ttf',
-                cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
-            ),
+            target = process('${DS:FILENAME_BASE}.ttf', *cmds),
             opentype=fea(generated + '${DS:FILENAME_BASE}.fea',
                 mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master=fontbase + 'master.feax',
