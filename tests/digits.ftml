@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="refR">url(../references/ThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/ThiruValluvar-Bold.ttf)</fontsrc>
+    <fontsrc label="refI">url(../references/ThiruValluvar-Italic.ttf)</fontsrc>
+    <fontsrc label="refBI">url(../references/ThiruValluvar-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="grR">url(../results/ThiruValluvar-Regular.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/tests/ftml/fonts/ThiruValluvar-Regular_ot_tml2.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/tests/ftml/fonts/ThiruValluvar-Bold_ot_tml2.ttf)</fontsrc>
+    <fontsrc label="I">url(../results/tests/ftml/fonts/ThiruValluvar-Italic_ot_tml2.ttf)</fontsrc>
+    <fontsrc label="BI">url(../results/tests/ftml/fonts/ThiruValluvar-BoldItalic_ot_tml2.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifTamil-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSlanted">url(../references/NotoSerifTamilSlanted-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansTamil-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSansUI">url(../references/NotoSansTamilUI-Regular.ttf)</fontsrc>
+    <fontsrc label="tiroR">url(../references/TiroTamil-Regular.ttf)</fontsrc>
+    <fontsrc label="tiroI">url(../references/TiroTamil-Italic.ttf)</fontsrc>
+    <fontsrc label="baloo">url(../references/BalooThambi2-Regular.ttf)</fontsrc>
+    <fontsrc label="aR">url(../results/Auvaiyar-Regular.ttf)</fontsrc>
+    <fontsrc label="aB">url(../results/Auvaiyar-Bold.ttf)</fontsrc>
+    <fontsrc label="aI">url(../results/Auvaiyar-Italic.ttf)</fontsrc>
+    <fontsrc label="aBI">url(../results/Auvaiyar-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="vR">url(../results/Vaigai-Regular.ttf)</fontsrc>
+    <fontsrc label="vB">url(../results/Vaigai-Bold.ttf)</fontsrc>
+    <fontsrc label="vI">url(../results/Vaigai-Italic.ttf)</fontsrc>
+    <fontsrc label="vBI">url(../results/Vaigai-BoldItalic.ttf)</fontsrc>
+    <styles>
+      <style feats="'ss19' 1" name="ss19_1"/>
+      <style feats="'ss20' 1" name="ss20_1"/>
+    </styles>
+    <title>Digits</title>
+  </head>
+  <testgroup label="Tamil digits">
+    <test label="Tamil codepoints">
+      <string>\u0BE6\u0BE7\u0BE8\u0BE9\u0BEA\u0BEB\u0BEC\u0BED\u0BEE\u0BEF</string>
+    </test>
+    <test label="Latin codepoints" stylename="ss20_1">
+      <string>0123456789</string>
+    </test>
+  </testgroup>
+  <testgroup label="Latin digits">
+    <test label="Tamil codepoints" stylename="ss19_1">
+      <string>\u0BE6\u0BE7\u0BE8\u0BE9\u0BEA\u0BEB\u0BEC\u0BED\u0BEE\u0BEF</string>
+    </test>
+    <test label="Latin codepoints">
+      <string>0123456789</string>
+    </test>
+  </testgroup>
+</ftml>

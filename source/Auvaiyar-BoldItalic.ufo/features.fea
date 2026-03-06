@@ -568,6 +568,34 @@ lookup cv01 {
     sub dotbelowcomb from [nukta.dotdbl nukta.dot nukta.ringdbl];
 } cv01;
 
+lookup Taml2LatnDigits {
+    lookupflag 0;
+    sub zerotaml by zero;
+    sub onetaml by one;
+    sub twotaml by two;
+    sub threetaml by three;
+    sub fourtaml by four;
+    sub fivetaml by five;
+    sub sixtaml by six;
+    sub seventaml by seven;
+    sub eighttaml by eight;
+    sub ninetaml by nine;
+} Taml2LatnDigits;
+
+lookup Latn2TamlDigits {
+    lookupflag 0;
+    sub zero by zerotaml;
+    sub one by onetaml;
+    sub two by twotaml;
+    sub three by threetaml;
+    sub four by fourtaml;
+    sub five by fivetaml;
+    sub six by sixtaml;
+    sub seven by seventaml;
+    sub eight by eighttaml;
+    sub nine by ninetaml;
+} Latn2TamlDigits;
+
 feature ccmp {
     lookup FontCheck;
     # lookup NuktaLigs;
@@ -662,6 +690,22 @@ feature cv01 {
 #       lookup NuktaCTT;
 #       language CTT;
 # } ss02;
+feature ss19 {
+        featureNames {
+        name "Tamil to Latin Digits";
+    };
+
+    lookup Taml2LatnDigits;
+} ss19;
+
+feature ss20 {
+        featureNames {
+        name "Latin to Tamil Digits";
+    };
+
+    lookup Latn2TamlDigits;
+} ss20;
+
 # GPOS
 lookup ViramaMarks {
     lookupflag 0;
