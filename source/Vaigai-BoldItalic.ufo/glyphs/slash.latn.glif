@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slash.latn" format="2">
-  <advance width="400"/>
+  <advance width="395"/>
   <outline>
     <contour>
-      <point x="400" y="536" type="line"/>
-      <point x="337" y="536" type="line"/>
+      <point x="395" y="536" type="line"/>
+      <point x="339" y="536" type="line"/>
       <point x="0" y="-74" type="line"/>
-      <point x="62" y="-74" type="line"/>
+      <point x="54" y="-74" type="line"/>
     </contour>
   </outline>
 </glyph>

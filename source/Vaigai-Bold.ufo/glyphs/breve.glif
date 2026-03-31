@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breve" format="2">
-  <advance width="250"/>
+  <advance width="242"/>
   <unicode hex="02D8"/>
-  <anchor x="125" y="585" name="U"/>
+  <anchor x="121" y="585" name="U"/>
   <outline>
-    <component base="CombBreve" xOffset="358"/>
+    <component base="CombBreve" xOffset="344"/>
   </outline>
 </glyph>

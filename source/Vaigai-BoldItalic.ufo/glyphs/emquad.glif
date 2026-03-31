@@ -2,5 +2,7 @@
 <glyph name="emquad" format="2">
   <advance width="1000"/>
   <unicode hex="2001"/>
+  <anchor x="384" y="0" name="H"/>
+  <anchor x="489" y="585" name="U"/>
   <outline/>
 </glyph>

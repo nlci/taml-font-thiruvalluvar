@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven.latn" format="2">
-  <advance width="478"/>
-  <anchor x="306" y="585" name="U"/>
+  <advance width="456"/>
+  <anchor x="294" y="585" name="U"/>
   <outline>
     <contour>
-      <point x="517" y="536" type="line"/>
-      <point x="103" y="536" type="line"/>
-      <point x="74" y="393" type="line"/>
-      <point x="139" y="393" type="line"/>
-      <point x="164" y="464" type="line"/>
-      <point x="382" y="464" type="line"/>
-      <point x="25" y="-29" type="line"/>
-      <point x="140" y="-29" type="line"/>
-      <point x="146" y="-7" type="line"/>
-      <point x="510" y="498" type="line"/>
+      <point x="501" y="536" type="line"/>
+      <point x="109" y="536" type="line"/>
+      <point x="81" y="397" type="line"/>
+      <point x="137" y="397" type="line"/>
+      <point x="162" y="469" type="line"/>
+      <point x="390" y="469" type="line"/>
+      <point x="34" y="-29" type="line"/>
+      <point x="125" y="-29" type="line"/>
+      <point x="130" y="-9" type="line"/>
+      <point x="494" y="501" type="line"/>
     </contour>
   </outline>
 </glyph>

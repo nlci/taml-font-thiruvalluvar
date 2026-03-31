@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexbelowcomb" format="2">
   <unicode hex="032D"/>
-  <anchor x="-276" y="62" name="_N"/>
+  <anchor x="-262" y="62" name="_N"/>
   <outline>
-    <component base="circumflexcomb" xOffset="-130" yOffset="-637"/>
+    <component base="circumflexcomb" xOffset="-132" yOffset="-635"/>
   </outline>
 </glyph>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="halfbracketrighttop" format="2">
-  <advance width="389"/>
+  <advance width="376"/>
   <unicode hex="2E23"/>
   <outline>
     <contour>
-      <point x="315" y="197" type="line"/>
-      <point x="315" y="566" type="line"/>
-      <point x="93" y="566" type="line"/>
-      <point x="93" y="518" type="line"/>
-      <point x="216" y="518" type="line"/>
-      <point x="216" y="197" type="line"/>
+      <point x="299" y="197" type="line"/>
+      <point x="299" y="566" type="line"/>
+      <point x="96" y="566" type="line"/>
+      <point x="96" y="526" type="line"/>
+      <point x="220" y="526" type="line"/>
+      <point x="220" y="197" type="line"/>
     </contour>
   </outline>
 </glyph>

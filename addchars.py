@@ -16,6 +16,8 @@ for f in faces:
     if f == 'Vaigai':
         latin = 'charis'
         scale = str(croman*upm)
+        styles['Bold'] = 'Medium'
+        styles['Bold Italic'] = 'Medium Italic'
     else:
         latin = 'gentium'
         scale = str(groman*upm)

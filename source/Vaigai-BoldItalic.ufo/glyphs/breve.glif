@@ -2,8 +2,8 @@
 <glyph name="breve" format="2">
   <advance width="250"/>
   <unicode hex="02D8"/>
-  <anchor x="186" y="585" name="U"/>
+  <anchor x="187" y="585" name="U"/>
   <outline>
-    <component base="CombBreve" xOffset="342"/>
+    <component base="CombBreve" xOffset="327"/>
   </outline>
 </glyph>

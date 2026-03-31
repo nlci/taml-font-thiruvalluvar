@@ -2,5 +2,7 @@
 <glyph name="nnbspace" format="2">
   <advance width="200"/>
   <unicode hex="202F"/>
+  <anchor x="96" y="0" name="H"/>
+  <anchor x="200" y="585" name="U"/>
   <outline/>
 </glyph>

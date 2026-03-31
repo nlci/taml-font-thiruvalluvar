@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sevensuperior" format="2">
-  <advance width="311"/>
+  <advance width="296"/>
   <unicode hex="2077"/>
+  <anchor x="232" y="644" name="U"/>
   <outline>
     <contour>
-      <point x="380" y="628" type="line"/>
-      <point x="110" y="628" type="line"/>
-      <point x="92" y="542" type="line"/>
-      <point x="133" y="542" type="line"/>
-      <point x="150" y="584" type="line"/>
-      <point x="292" y="584" type="line"/>
-      <point x="60" y="287" type="line"/>
-      <point x="135" y="287" type="line"/>
-      <point x="138" y="301" type="line"/>
-      <point x="375" y="604" type="line"/>
+      <point x="361" y="628" type="line"/>
+      <point x="111" y="628" type="line"/>
+      <point x="93" y="543" type="line"/>
+      <point x="127" y="543" type="line"/>
+      <point x="143" y="585" type="line"/>
+      <point x="289" y="585" type="line"/>
+      <point x="61" y="287" type="line"/>
+      <point x="120" y="287" type="line"/>
+      <point x="123" y="300" type="line"/>
+      <point x="357" y="604" type="line"/>
     </contour>
   </outline>
 </glyph>

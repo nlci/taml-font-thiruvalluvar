@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringcomb" format="2">
   <unicode hex="030A"/>
-  <anchor x="-173" y="429" name="_U"/>
+  <anchor x="-128" y="648" name="U"/>
+  <anchor x="-157" y="429" name="_U"/>
   <outline>
-    <component base="ring" xOffset="-312"/>
+    <component base="ring" xOffset="-296"/>
   </outline>
 </glyph>
