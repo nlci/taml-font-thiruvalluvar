@@ -92,14 +92,14 @@ if '-l' in opts:
 
 packages = {}
 for f in faces:
+    if f != 'ThiruValluvar':
+        familypackage = package(
+            appname = prefix + f.lower(),
+            version = VERSION,
+            docdir = {'documentation': 'documentation', 'web_' + f.lower(): 'web'}
+        )
+        packages[f] = familypackage
     for langcode in langinfo.keys():
-        if f != 'ThiruValluvar':
-            familypackage = package(
-                appname = prefix + f.lower(),
-                version = VERSION,
-                docdir = {'documentation': 'documentation', 'web_' + f.lower(): 'web'}
-            )
-            packages[f] = familypackage
         langpackage = package(
             appname = prefix + f.lower() + '-' + langcode,
             version = VERSION,
@@ -132,8 +132,7 @@ for dspace in dspaces:
         ap = generated + '${DS:FILENAME_BASE}.xml',
         version = VERSION,
         woff = woff('web/${DS:FILENAME_BASE}', type='woff2',
-            metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml',
-            dontship = True),
+            metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
         script = 'tml2', # taml
         pdf = fret(params = '-oi')
     )
