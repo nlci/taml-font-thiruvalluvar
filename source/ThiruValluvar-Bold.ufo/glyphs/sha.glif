@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sha" format="2">
-  <advance width="1306"/>
+  <advance width="2434"/>
   <unicode hex="0BB6"/>
+  <anchor x="1735" y="0" name="N"/>
+  <anchor x="1735" y="1075" name="V"/>
   <outline>
-    <component base="ya"/>
-    <component base="vedictonethreedotsbelow" xOffset="1286"/>
+    <component base="pa"/>
+    <component base="pa" xOffset="1217"/>
+    <component base="emdash" xOffset="781" yOffset="378"/>
   </outline>
 </glyph>
