@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>NLCI Tamil - Frequently Asked Questions</title>
+    <meta name="author" content="NLCI">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="./assets/css/webfonts.css">
+</head>
+<body>
+<div class="container">
+<article class="article">
+    <header>
+        <h1 class="title">NLCI Tamil - Frequently Asked Questions</h1>
+    </header>
+    <h3 id="why-does-the-nukta-not-work-in-microsoft-word"><em>Why does
+    the nukta not work in Microsoft Word?</em></h3>
+    <p>The nukta (either U+1133B or U+1133C) does not work in all cases
+    with Microsoft DirectWrite, which is what is used for text shaping
+    in Microsoft Word (and other Microsoft applications), as well as
+    Windows itself.</p>
+    <p>See https://github.com/MicrosoftDocs/typography-issues/issues/738
+    for more details.</p>
+    <h3 id="why-does-the-nukta-not-work-in-adobe-indesign"><em>Why does
+    the nukta not work in Adobe InDesign?</em></h3>
+    <p>First, you need to have HarfBuzz enabled as the text shaper. Even
+    with HarfBuzz enabled you might need to force the text to be
+    redrawn. See <a href="https://software.sil.org/fonts/indesign">Using
+    SIL Fonts with Adobe InDesign</a> for details.</p>
+    <p>Second, you need InDesign 2022 or later with U+1133B (but not
+    U+1133C). Adobe fixed one issue that allowed U+1133B to work, but
+    U+1133C does not work with InDesign. See <a
+    href="https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/43164897-indesign-does-not-handle-a-nukta-with-tamil-script">Adobe
+    User Voice</a> for more details and to up vote it if this issue is
+    important to you. If the source text you are working with uses
+    U+1133C, convert that character (in the copy of the text that has
+    been imported into InDesign) to U+1133B. Keep using U+1133C in the
+    source text.</p>
+    <h3 id="which-codepoint-should-i-use"><em>Which codepoint should I
+    use?</em></h3>
+    <p>Ideally, you should use U+1133B for the single ring and the
+    single dot, and use U+1133C for the double ring and double dot.
+    However, as seen with the issue with InDesign above, not all
+    applications will support this guideance.</p>
+    <footer class="footer">
+        <p>This guide is from the <a href="https://github.com/nlci/taml-font-thiruvalluvar" title="" class="active">NLCI Tamil project</a> version 0.901 and is copyright © 2009-2023, NLCI (http://www.nlci.in/fonts/).</p>
+    </footer>
+</article>
+</div>
+</body>
+</html>

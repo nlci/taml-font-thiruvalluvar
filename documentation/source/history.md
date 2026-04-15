@@ -1,20 +1,7 @@
-FONTLOG
-ThiruValluvar, Auvaiyar, Vaigai - NLCI Tamil fonts
-==================================================
-
-This file provides detailed information on the NLCI Tamil fonts.
-This information should be distributed along with the NLCI Tamil fonts and any derivative works.
-
-## About this project
-
-Pan Tamil font designed to support all the languages using the Tamil script.
-
-## ChangeLog
-
-(This should list both major and minor changes, most recent first.)
-
-### 16 Jun 2025 (Dev NLCI) NLCI Tamil fonts version 0.901
-- Rebuild fonts with updated toolchain for new package layout
+---
+title: NLCI Tamil - Version History
+fontversion: 0.901
+---
 
 ### 22 Dec 2023 (Dev NLCI) NLCI Tamil fonts version 0.900
 - Make language specific fonts work in more applications
@@ -68,7 +55,6 @@ Pan Tamil font designed to support all the languages using the Tamil script.
 - Kept the original units-per-em (UPM) from the legacy fonts
 - Increased default line spacing
 - Fixed Graphite rendering bug
-
 ### 26 Mar 2018 (Dev NLCI) NLCI Tamil fonts version 0.301
 - Add many Latin and Devanagari characters
 - Latin glyphs in ThiruValluvar and Vaigai are from Gentium Book Basic (https://software.sil.org/gentium/)
@@ -81,17 +67,3 @@ Pan Tamil font designed to support all the languages using the Tamil script.
 
 ### 14 Aug 2015 (Dev NLCI) NLCI Tamil fonts version 0.271
 - Latin glyphs are from Charis SIL (https://software.sil.org/charis/)
-
-## Acknowledgements
-
-(If you make modifications be sure to add your
-name (N), email (E), web-address (W) and description (D).
-This list is sorted by last name in alphabetical order.)
-
-N: Dev NLCI
-E: dev@nlife.in
-W: http://www.nlci.in/fonts/
-D: NLCI designers and font engineers
-
-N: Bobby de Vos
-D: Font engineer
