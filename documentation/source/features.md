@@ -5,7 +5,7 @@ fontversion: 0.901
 
 The NLCI Tamil fonts have some optional features that may be useful or required for particular uses or languages. This document lists all the available features.
 
-These OpenType features are primarily specified using four-letter tags (e.g. 'cv01'). For more information on how to access OpenType features in specific environments and applications, see [Using Font Features](http://software.sil.org/fonts/features).
+These OpenType features are primarily specified using four-letter tags (e.g. 'cv01'). For more information on how to access OpenType features in specific environments and applications, see [Using Font Features](https://software.sil.org/fonts/features).
 
 This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use the NLCI Tamil fonts as a web font see [ThiruValluvar Webfont Example](../web/ThiruValluvar-webfont-example.html). SIL has detailed information, see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts).
 

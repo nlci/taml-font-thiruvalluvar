@@ -2,7 +2,7 @@
 
 psfglyphs2ufo source/ThiruValluvarRoman.glyphs source
 psfglyphs2ufo source/ThiruValluvarItalic.glyphs source
-	
+
 #psfglyphs2ufo source/AuvaiyarItalic.glyphs source
 #psfglyphs2ufo source/AuvaiyarRoman.glyphs source
 

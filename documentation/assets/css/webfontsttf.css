@@ -39,7 +39,7 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
 }
 @font-face {
     font-family: Vaigai-BI;
-    src: url("../../../results/Vaigai-BoldItalic.ttf") format("ttf");
+    src: url("../../../results/Vaigai-BoldItalic.ttf") format("truetype");
 }
 @font-face {
     font-family: Auvaiyar-R;
@@ -55,7 +55,7 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
 }
 @font-face {
     font-family: Auvaiyar-BI;
-    src: url("../../../results/Auvaiyar-BoldItalic.ttf") format("ttf");
+    src: url("../../../results/Auvaiyar-BoldItalic.ttf") format("truetype");
 }
 
 .thiruvalluvar-R  { font-family: Thiruvalluvar-R; }

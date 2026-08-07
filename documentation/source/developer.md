@@ -13,13 +13,13 @@ NLCI’s fonts are licensed according to the terms of the [SIL Open Font License
 
 ## Building the fonts from source code
 
-The full source code for the NLCI Tamil fonts is available on [GitHub](https://github.com/nlci/taml-font-thiruvalluvar.
+The full source code for the NLCI Tamil fonts is available on [GitHub](https://github.com/nlci/taml-font-thiruvalluvar).
 
 Font sources are in the [UFO3](https://unifiedfontobject.org/versions/ufo3/) format with font family structures defined using [designspace](https://github.com/fonttools/fonttools/tree/master/Doc/source/designspaceLib). OpenType source code is stored in the [.fea](https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html) format in the UFO (features.fea) but is maintained in a separate file using the more efficient and powerful [.feax](https://github.com/silnrsi/feax/blob/main/docs/feaextensions.md) format.
 
 The fonts are built using a completely free and open source workflow using industry-standard tools ([fonttools](https://github.com/fonttools/fonttools)), a package of custom python scripts ([pysilfont](https://github.com/silnrsi/pysilfont)), and a build and packaging system ([Smith](https://github.com/silnrsi/smith)). The whole toolchain is available as a Docker container.
 
-Full instructions for setting up the tools and building NLCI fonts are available on a dedicated web site: [Building and Modifying SIL Fonts](https://writingsystems.info/topics/fonts/building-and-modifying-sil-fonts/).
+Full instructions for setting up the tools and building NLCI fonts are available from SIL: [Building and Modifying SIL Fonts](https://writingsystems.info/topics/fonts/building-and-modifying-sil-fonts/).
 
 ## Contributing to the project
 
